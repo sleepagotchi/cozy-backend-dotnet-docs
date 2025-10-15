@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width">
       <meta name="title" content="Struct BigVal | Sleepagotchi SharedLibrary API ">
     
-    
+    <meta name="description" content="Represents a numerical value that supports scaling using large unit multipliers (kilo, mega, giga, etc.).">
       <link rel="shortcut icon" href="../../favicon.ico">
       <link rel="stylesheet" href="../../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../../styles/docfx.css">
@@ -81,7 +81,8 @@
 
 
   <h1 id="SharedLibrary_Extensions_BigVal" data-uid="SharedLibrary.Extensions.BigVal" class="text-break">Struct BigVal</h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Represents a numerical value that supports scaling using large unit multipliers (kilo, mega, giga, etc.).</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -101,6 +102,10 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public struct BigVal</code></pre>
   </div>
+  <h5 id="SharedLibrary_Extensions_BigVal_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>This struct is used to store and manipulate large numbers by maintaining a base value (<a class="xref" href="SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_resource">resource</a>) and a magnitude multiplier (<a class="xref" href="SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_multiplier">multiplier</a>).
+It includes formatting, arithmetic, and comparison operators for easy mathematical operations.</p>
+</div>
   <h3 id="constructors">Constructors
 </h3>
   <span class="small pull-right mobile-hide">
@@ -108,11 +113,12 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal__ctor_System_Double_.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.%23ctor(System.Double)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L28">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L57">View Source</a>
   </span>
   <a id="SharedLibrary_Extensions_BigVal__ctor_" data-uid="SharedLibrary.Extensions.BigVal.#ctor*"></a>
   <h4 id="SharedLibrary_Extensions_BigVal__ctor_System_Double_" data-uid="SharedLibrary.Extensions.BigVal.#ctor(System.Double)">BigVal(double)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="SharedLibrary.Extensions.BigVal.html">BigVal</a> struct using the specified base value and a zero multiplier.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -131,7 +137,8 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
         <td><span class="parametername">res</span></td>
-        <td></td>
+        <td><p>The base numeric value.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -140,11 +147,12 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal__ctor_System_Double_System_Int32_.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.%23ctor(System.Double%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L20">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L45">View Source</a>
   </span>
   <a id="SharedLibrary_Extensions_BigVal__ctor_" data-uid="SharedLibrary.Extensions.BigVal.#ctor*"></a>
   <h4 id="SharedLibrary_Extensions_BigVal__ctor_System_Double_System_Int32_" data-uid="SharedLibrary.Extensions.BigVal.#ctor(System.Double,System.Int32)">BigVal(double, int)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="SharedLibrary.Extensions.BigVal.html">BigVal</a> struct with the specified base and multiplier values.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -163,12 +171,14 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
         <td><span class="parametername">res</span></td>
-        <td></td>
+        <td><p>The base numeric value.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td><span class="parametername">mult</span></td>
-        <td></td>
+        <td><p>The scaling multiplier (power of 1000).</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -179,10 +189,11 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_giga.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.giga%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L13">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L25">View Source</a>
   </span>
   <h4 id="SharedLibrary_Extensions_BigVal_giga" data-uid="SharedLibrary.Extensions.BigVal.giga">giga</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Represents one billion (1B).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -208,10 +219,11 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_kilo.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.kilo%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L11">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L21">View Source</a>
   </span>
   <h4 id="SharedLibrary_Extensions_BigVal_kilo" data-uid="SharedLibrary.Extensions.BigVal.kilo">kilo</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Represents one thousand (1k).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -237,10 +249,11 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_mega.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.mega%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L12">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L23">View Source</a>
   </span>
   <h4 id="SharedLibrary_Extensions_BigVal_mega" data-uid="SharedLibrary.Extensions.BigVal.mega">mega</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Represents one million (1M).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -266,10 +279,11 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_one.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.one%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L10">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L19">View Source</a>
   </span>
   <h4 id="SharedLibrary_Extensions_BigVal_one" data-uid="SharedLibrary.Extensions.BigVal.one">one</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Represents the value of one (1).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -295,10 +309,11 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_peta.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.peta%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L15">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L29">View Source</a>
   </span>
   <h4 id="SharedLibrary_Extensions_BigVal_peta" data-uid="SharedLibrary.Extensions.BigVal.peta">peta</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Represents one quadrillion (1P).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -324,10 +339,11 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_tera.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.tera%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L14">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L27">View Source</a>
   </span>
   <h4 id="SharedLibrary_Extensions_BigVal_tera" data-uid="SharedLibrary.Extensions.BigVal.tera">tera</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Represents one trillion (1T).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -353,10 +369,11 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_zero.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.zero%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L9">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L17">View Source</a>
   </span>
   <h4 id="SharedLibrary_Extensions_BigVal_zero" data-uid="SharedLibrary.Extensions.BigVal.zero">zero</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Represents the zero value (0).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -384,11 +401,12 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_multiplier.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.multiplier%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L18">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L38">View Source</a>
   </span>
   <a id="SharedLibrary_Extensions_BigVal_multiplier_" data-uid="SharedLibrary.Extensions.BigVal.multiplier*"></a>
   <h4 id="SharedLibrary_Extensions_BigVal_multiplier" data-uid="SharedLibrary.Extensions.BigVal.multiplier">multiplier</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The scaling factor (power of 1000) representing magnitude (e.g., 0 for units, 1 for kilo, 2 for mega).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -414,11 +432,12 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_resource.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.resource%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L17">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L34">View Source</a>
   </span>
   <a id="SharedLibrary_Extensions_BigVal_resource_" data-uid="SharedLibrary.Extensions.BigVal.resource*"></a>
   <h4 id="SharedLibrary_Extensions_BigVal_resource" data-uid="SharedLibrary.Extensions.BigVal.resource">resource</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The base numeric component of the value.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -446,11 +465,12 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_FromString_System_String_.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.FromString(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L62">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L103">View Source</a>
   </span>
   <a id="SharedLibrary_Extensions_BigVal_FromString_" data-uid="SharedLibrary.Extensions.BigVal.FromString*"></a>
   <h4 id="SharedLibrary_Extensions_BigVal_FromString_System_String_" data-uid="SharedLibrary.Extensions.BigVal.FromString(System.String)">FromString(string)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Parses a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> and converts it into a <a class="xref" href="SharedLibrary.Extensions.BigVal.html">BigVal</a> instance.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -469,7 +489,8 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">str</span></td>
-        <td></td>
+        <td><p>The string to parse (e.g., &quot;1.2K&quot;).</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -484,7 +505,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="SharedLibrary.Extensions.BigVal.html">BigVal</a></td>
-        <td></td>
+        <td><p>A new <a class="xref" href="SharedLibrary.Extensions.BigVal.html">BigVal</a> parsed from the input string.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -493,11 +515,12 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_GetFormatValue.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.GetFormatValue%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L36">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L66">View Source</a>
   </span>
   <a id="SharedLibrary_Extensions_BigVal_GetFormatValue_" data-uid="SharedLibrary.Extensions.BigVal.GetFormatValue*"></a>
   <h4 id="SharedLibrary_Extensions_BigVal_GetFormatValue" data-uid="SharedLibrary.Extensions.BigVal.GetFormatValue">GetFormatValue()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns a formatted string representing the value with suffix (e.g., 1.2K, 3.4M).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -523,11 +546,12 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_GetRoundFormatValue.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.GetRoundFormatValue%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L48">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L80">View Source</a>
   </span>
   <a id="SharedLibrary_Extensions_BigVal_GetRoundFormatValue_" data-uid="SharedLibrary.Extensions.BigVal.GetRoundFormatValue*"></a>
   <h4 id="SharedLibrary_Extensions_BigVal_GetRoundFormatValue" data-uid="SharedLibrary.Extensions.BigVal.GetRoundFormatValue">GetRoundFormatValue()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns a rounded formatted string with no decimals.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -553,11 +577,12 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_GetSmallFormatValue.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.GetSmallFormatValue%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L37">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L68">View Source</a>
   </span>
   <a id="SharedLibrary_Extensions_BigVal_GetSmallFormatValue_" data-uid="SharedLibrary.Extensions.BigVal.GetSmallFormatValue*"></a>
   <h4 id="SharedLibrary_Extensions_BigVal_GetSmallFormatValue" data-uid="SharedLibrary.Extensions.BigVal.GetSmallFormatValue">GetSmallFormatValue()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns a shortened formatted string rounded to one decimal place.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -583,11 +608,12 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_Normalize.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.Normalize%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L53">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L89">View Source</a>
   </span>
   <a id="SharedLibrary_Extensions_BigVal_Normalize_" data-uid="SharedLibrary.Extensions.BigVal.Normalize*"></a>
   <h4 id="SharedLibrary_Extensions_BigVal_Normalize" data-uid="SharedLibrary.Extensions.BigVal.Normalize">Normalize()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Normalizes the current value to keep the resource within the [1,1000) range by adjusting the multiplier.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -598,11 +624,12 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_ToDoubleString.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.ToDoubleString%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L49">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L82">View Source</a>
   </span>
   <a id="SharedLibrary_Extensions_BigVal_ToDoubleString_" data-uid="SharedLibrary.Extensions.BigVal.ToDoubleString*"></a>
   <h4 id="SharedLibrary_Extensions_BigVal_ToDoubleString" data-uid="SharedLibrary.Extensions.BigVal.ToDoubleString">ToDoubleString()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns a string representing the double-rounded resource value with suffix.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -628,7 +655,7 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_ToString.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.ToString%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L51">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L84">View Source</a>
   </span>
   <a id="SharedLibrary_Extensions_BigVal_ToString_" data-uid="SharedLibrary.Extensions.BigVal.ToString*"></a>
   <h4 id="SharedLibrary_Extensions_BigVal_ToString" data-uid="SharedLibrary.Extensions.BigVal.ToString">ToString()</h4>
@@ -664,11 +691,12 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_op_Addition_SharedLibrary_Extensions_BigVal_SharedLibrary_Extensions_BigVal_.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.op_Addition(SharedLibrary.Extensions.BigVal%2CSharedLibrary.Extensions.BigVal)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L103">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L145">View Source</a>
   </span>
   <a id="SharedLibrary_Extensions_BigVal_op_Addition_" data-uid="SharedLibrary.Extensions.BigVal.op_Addition*"></a>
   <h4 id="SharedLibrary_Extensions_BigVal_op_Addition_SharedLibrary_Extensions_BigVal_SharedLibrary_Extensions_BigVal_" data-uid="SharedLibrary.Extensions.BigVal.op_Addition(SharedLibrary.Extensions.BigVal,SharedLibrary.Extensions.BigVal)">operator +(BigVal, BigVal)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Adds two <a class="xref" href="SharedLibrary.Extensions.BigVal.html">BigVal</a> values.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -716,11 +744,12 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_op_Division_SharedLibrary_Extensions_BigVal_System_Double_.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.op_Division(SharedLibrary.Extensions.BigVal%2CSystem.Double)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L189">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L234">View Source</a>
   </span>
   <a id="SharedLibrary_Extensions_BigVal_op_Division_" data-uid="SharedLibrary.Extensions.BigVal.op_Division*"></a>
   <h4 id="SharedLibrary_Extensions_BigVal_op_Division_SharedLibrary_Extensions_BigVal_System_Double_" data-uid="SharedLibrary.Extensions.BigVal.op_Division(SharedLibrary.Extensions.BigVal,System.Double)">operator /(BigVal, double)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Divides the <a class="xref" href="SharedLibrary.Extensions.BigVal.html">BigVal</a> by a double value.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -768,11 +797,12 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_op_Equality_SharedLibrary_Extensions_BigVal_SharedLibrary_Extensions_BigVal_.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.op_Equality(SharedLibrary.Extensions.BigVal%2CSharedLibrary.Extensions.BigVal)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L243">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L291">View Source</a>
   </span>
   <a id="SharedLibrary_Extensions_BigVal_op_Equality_" data-uid="SharedLibrary.Extensions.BigVal.op_Equality*"></a>
   <h4 id="SharedLibrary_Extensions_BigVal_op_Equality_SharedLibrary_Extensions_BigVal_SharedLibrary_Extensions_BigVal_" data-uid="SharedLibrary.Extensions.BigVal.op_Equality(SharedLibrary.Extensions.BigVal,SharedLibrary.Extensions.BigVal)">operator ==(BigVal, BigVal)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Determines whether two <a class="xref" href="SharedLibrary.Extensions.BigVal.html">BigVal</a> instances are equal.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -820,11 +850,12 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_op_GreaterThan_SharedLibrary_Extensions_BigVal_SharedLibrary_Extensions_BigVal_.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.op_GreaterThan(SharedLibrary.Extensions.BigVal%2CSharedLibrary.Extensions.BigVal)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L203">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L249">View Source</a>
   </span>
   <a id="SharedLibrary_Extensions_BigVal_op_GreaterThan_" data-uid="SharedLibrary.Extensions.BigVal.op_GreaterThan*"></a>
   <h4 id="SharedLibrary_Extensions_BigVal_op_GreaterThan_SharedLibrary_Extensions_BigVal_SharedLibrary_Extensions_BigVal_" data-uid="SharedLibrary.Extensions.BigVal.op_GreaterThan(SharedLibrary.Extensions.BigVal,SharedLibrary.Extensions.BigVal)">operator &gt;(BigVal, BigVal)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Compares two <a class="xref" href="SharedLibrary.Extensions.BigVal.html">BigVal</a> values for greater-than.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -872,7 +903,7 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_op_GreaterThanOrEqual_SharedLibrary_Extensions_BigVal_SharedLibrary_Extensions_BigVal_.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.op_GreaterThanOrEqual(SharedLibrary.Extensions.BigVal%2CSharedLibrary.Extensions.BigVal)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L249">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L298">View Source</a>
   </span>
   <a id="SharedLibrary_Extensions_BigVal_op_GreaterThanOrEqual_" data-uid="SharedLibrary.Extensions.BigVal.op_GreaterThanOrEqual*"></a>
   <h4 id="SharedLibrary_Extensions_BigVal_op_GreaterThanOrEqual_SharedLibrary_Extensions_BigVal_SharedLibrary_Extensions_BigVal_" data-uid="SharedLibrary.Extensions.BigVal.op_GreaterThanOrEqual(SharedLibrary.Extensions.BigVal,SharedLibrary.Extensions.BigVal)">operator &gt;=(BigVal, BigVal)</h4>
@@ -924,7 +955,7 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_op_Implicit_System_Double__SharedLibrary_Extensions_BigVal.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.op_Implicit(System.Double)~SharedLibrary.Extensions.BigVal%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L95">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L136">View Source</a>
   </span>
   <a id="SharedLibrary_Extensions_BigVal_op_Implicit_" data-uid="SharedLibrary.Extensions.BigVal.op_Implicit*"></a>
   <h4 id="SharedLibrary_Extensions_BigVal_op_Implicit_System_Double__SharedLibrary_Extensions_BigVal" data-uid="SharedLibrary.Extensions.BigVal.op_Implicit(System.Double)~SharedLibrary.Extensions.BigVal">implicit operator BigVal(double)</h4>
@@ -971,7 +1002,7 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_op_Implicit_System_Int32__SharedLibrary_Extensions_BigVal.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.op_Implicit(System.Int32)~SharedLibrary.Extensions.BigVal%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L97">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L138">View Source</a>
   </span>
   <a id="SharedLibrary_Extensions_BigVal_op_Implicit_" data-uid="SharedLibrary.Extensions.BigVal.op_Implicit*"></a>
   <h4 id="SharedLibrary_Extensions_BigVal_op_Implicit_System_Int32__SharedLibrary_Extensions_BigVal" data-uid="SharedLibrary.Extensions.BigVal.op_Implicit(System.Int32)~SharedLibrary.Extensions.BigVal">implicit operator BigVal(int)</h4>
@@ -1018,7 +1049,7 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_op_Implicit_System_Int64__SharedLibrary_Extensions_BigVal.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.op_Implicit(System.Int64)~SharedLibrary.Extensions.BigVal%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L99">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L140">View Source</a>
   </span>
   <a id="SharedLibrary_Extensions_BigVal_op_Implicit_" data-uid="SharedLibrary.Extensions.BigVal.op_Implicit*"></a>
   <h4 id="SharedLibrary_Extensions_BigVal_op_Implicit_System_Int64__SharedLibrary_Extensions_BigVal" data-uid="SharedLibrary.Extensions.BigVal.op_Implicit(System.Int64)~SharedLibrary.Extensions.BigVal">implicit operator BigVal(long)</h4>
@@ -1065,7 +1096,7 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_op_Implicit_System_Single__SharedLibrary_Extensions_BigVal.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.op_Implicit(System.Single)~SharedLibrary.Extensions.BigVal%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L93">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L134">View Source</a>
   </span>
   <a id="SharedLibrary_Extensions_BigVal_op_Implicit_" data-uid="SharedLibrary.Extensions.BigVal.op_Implicit*"></a>
   <h4 id="SharedLibrary_Extensions_BigVal_op_Implicit_System_Single__SharedLibrary_Extensions_BigVal" data-uid="SharedLibrary.Extensions.BigVal.op_Implicit(System.Single)~SharedLibrary.Extensions.BigVal">implicit operator BigVal(float)</h4>
@@ -1112,7 +1143,7 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_op_Implicit_System_String__SharedLibrary_Extensions_BigVal.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.op_Implicit(System.String)~SharedLibrary.Extensions.BigVal%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L101">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L142">View Source</a>
   </span>
   <a id="SharedLibrary_Extensions_BigVal_op_Implicit_" data-uid="SharedLibrary.Extensions.BigVal.op_Implicit*"></a>
   <h4 id="SharedLibrary_Extensions_BigVal_op_Implicit_System_String__SharedLibrary_Extensions_BigVal" data-uid="SharedLibrary.Extensions.BigVal.op_Implicit(System.String)~SharedLibrary.Extensions.BigVal">implicit operator BigVal(string)</h4>
@@ -1159,11 +1190,12 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_op_Inequality_SharedLibrary_Extensions_BigVal_SharedLibrary_Extensions_BigVal_.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.op_Inequality(SharedLibrary.Extensions.BigVal%2CSharedLibrary.Extensions.BigVal)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L246">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L295">View Source</a>
   </span>
   <a id="SharedLibrary_Extensions_BigVal_op_Inequality_" data-uid="SharedLibrary.Extensions.BigVal.op_Inequality*"></a>
   <h4 id="SharedLibrary_Extensions_BigVal_op_Inequality_SharedLibrary_Extensions_BigVal_SharedLibrary_Extensions_BigVal_" data-uid="SharedLibrary.Extensions.BigVal.op_Inequality(SharedLibrary.Extensions.BigVal,SharedLibrary.Extensions.BigVal)">operator !=(BigVal, BigVal)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Determines whether two <a class="xref" href="SharedLibrary.Extensions.BigVal.html">BigVal</a> instances are not equal.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -1211,11 +1243,12 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_op_LessThan_SharedLibrary_Extensions_BigVal_SharedLibrary_Extensions_BigVal_.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.op_LessThan(SharedLibrary.Extensions.BigVal%2CSharedLibrary.Extensions.BigVal)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L223">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L270">View Source</a>
   </span>
   <a id="SharedLibrary_Extensions_BigVal_op_LessThan_" data-uid="SharedLibrary.Extensions.BigVal.op_LessThan*"></a>
   <h4 id="SharedLibrary_Extensions_BigVal_op_LessThan_SharedLibrary_Extensions_BigVal_SharedLibrary_Extensions_BigVal_" data-uid="SharedLibrary.Extensions.BigVal.op_LessThan(SharedLibrary.Extensions.BigVal,SharedLibrary.Extensions.BigVal)">operator &lt;(BigVal, BigVal)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Compares two <a class="xref" href="SharedLibrary.Extensions.BigVal.html">BigVal</a> values for less-than.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -1263,7 +1296,7 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_op_LessThanOrEqual_SharedLibrary_Extensions_BigVal_SharedLibrary_Extensions_BigVal_.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.op_LessThanOrEqual(SharedLibrary.Extensions.BigVal%2CSharedLibrary.Extensions.BigVal)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L251">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L300">View Source</a>
   </span>
   <a id="SharedLibrary_Extensions_BigVal_op_LessThanOrEqual_" data-uid="SharedLibrary.Extensions.BigVal.op_LessThanOrEqual*"></a>
   <h4 id="SharedLibrary_Extensions_BigVal_op_LessThanOrEqual_SharedLibrary_Extensions_BigVal_SharedLibrary_Extensions_BigVal_" data-uid="SharedLibrary.Extensions.BigVal.op_LessThanOrEqual(SharedLibrary.Extensions.BigVal,SharedLibrary.Extensions.BigVal)">operator &lt;=(BigVal, BigVal)</h4>
@@ -1315,11 +1348,12 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_op_Multiply_SharedLibrary_Extensions_BigVal_System_Double_.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.op_Multiply(SharedLibrary.Extensions.BigVal%2CSystem.Double)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L179">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L223">View Source</a>
   </span>
   <a id="SharedLibrary_Extensions_BigVal_op_Multiply_" data-uid="SharedLibrary.Extensions.BigVal.op_Multiply*"></a>
   <h4 id="SharedLibrary_Extensions_BigVal_op_Multiply_SharedLibrary_Extensions_BigVal_System_Double_" data-uid="SharedLibrary.Extensions.BigVal.op_Multiply(SharedLibrary.Extensions.BigVal,System.Double)">operator *(BigVal, double)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Multiplies the <a class="xref" href="SharedLibrary.Extensions.BigVal.html">BigVal</a> by a double value.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -1367,11 +1401,12 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal_op_Subtraction_SharedLibrary_Extensions_BigVal_SharedLibrary_Extensions_BigVal_.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal.op_Subtraction(SharedLibrary.Extensions.BigVal%2CSharedLibrary.Extensions.BigVal)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L145">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L188">View Source</a>
   </span>
   <a id="SharedLibrary_Extensions_BigVal_op_Subtraction_" data-uid="SharedLibrary.Extensions.BigVal.op_Subtraction*"></a>
   <h4 id="SharedLibrary_Extensions_BigVal_op_Subtraction_SharedLibrary_Extensions_BigVal_SharedLibrary_Extensions_BigVal_" data-uid="SharedLibrary.Extensions.BigVal.op_Subtraction(SharedLibrary.Extensions.BigVal,SharedLibrary.Extensions.BigVal)">operator -(BigVal, BigVal)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Subtracts one <a class="xref" href="SharedLibrary.Extensions.BigVal.html">BigVal</a> from another.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -1426,7 +1461,7 @@
                     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_BigVal.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.BigVal%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L7" class="contribution-link">View Source</a>
+                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/BigVal.cs/#L14" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

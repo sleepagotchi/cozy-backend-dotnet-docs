@@ -212,6 +212,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Constants.GetMultiplierForSuffix
   nameWithType: Constants.GetMultiplierForSuffix
+- uid: SharedLibrary.Data.Constants.MaxParametersValue
+  name: MaxParametersValue
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_MaxParametersValue
+  commentId: P:SharedLibrary.Data.Constants.MaxParametersValue
+  fullName: SharedLibrary.Data.Constants.MaxParametersValue
+  nameWithType: Constants.MaxParametersValue
+- uid: SharedLibrary.Data.Constants.MaxParametersValue*
+  name: MaxParametersValue
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_MaxParametersValue_
+  commentId: Overload:SharedLibrary.Data.Constants.MaxParametersValue
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Constants.MaxParametersValue
+  nameWithType: Constants.MaxParametersValue
 - uid: SharedLibrary.Data.Constants.MinParametersValue
   name: MinParametersValue
   href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_MinParametersValue
@@ -632,6 +645,129 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasks
   nameWithType: PlayerTasks.SuggestionTasks
+- uid: SharedLibrary.Data.Tasks.TaskCare
+  name: TaskCare
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html
+  commentId: T:SharedLibrary.Data.Tasks.TaskCare
+  fullName: SharedLibrary.Data.Tasks.TaskCare
+  nameWithType: TaskCare
+- uid: SharedLibrary.Data.Tasks.TaskCare.ActivityId
+  name: ActivityId
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_ActivityId
+  commentId: P:SharedLibrary.Data.Tasks.TaskCare.ActivityId
+  fullName: SharedLibrary.Data.Tasks.TaskCare.ActivityId
+  nameWithType: TaskCare.ActivityId
+- uid: SharedLibrary.Data.Tasks.TaskCare.ActivityId*
+  name: ActivityId
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_ActivityId_
+  commentId: Overload:SharedLibrary.Data.Tasks.TaskCare.ActivityId
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.TaskCare.ActivityId
+  nameWithType: TaskCare.ActivityId
+- uid: SharedLibrary.Data.Tasks.TaskCare.CategoryId
+  name: CategoryId
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_CategoryId
+  commentId: P:SharedLibrary.Data.Tasks.TaskCare.CategoryId
+  fullName: SharedLibrary.Data.Tasks.TaskCare.CategoryId
+  nameWithType: TaskCare.CategoryId
+- uid: SharedLibrary.Data.Tasks.TaskCare.CategoryId*
+  name: CategoryId
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_CategoryId_
+  commentId: Overload:SharedLibrary.Data.Tasks.TaskCare.CategoryId
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.TaskCare.CategoryId
+  nameWithType: TaskCare.CategoryId
+- uid: SharedLibrary.Data.Tasks.TaskCare.CompleteDate
+  name: CompleteDate
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_CompleteDate
+  commentId: P:SharedLibrary.Data.Tasks.TaskCare.CompleteDate
+  fullName: SharedLibrary.Data.Tasks.TaskCare.CompleteDate
+  nameWithType: TaskCare.CompleteDate
+- uid: SharedLibrary.Data.Tasks.TaskCare.CompleteDate*
+  name: CompleteDate
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_CompleteDate_
+  commentId: Overload:SharedLibrary.Data.Tasks.TaskCare.CompleteDate
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.TaskCare.CompleteDate
+  nameWithType: TaskCare.CompleteDate
+- uid: SharedLibrary.Data.Tasks.TaskCare.Date
+  name: Date
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_Date
+  commentId: P:SharedLibrary.Data.Tasks.TaskCare.Date
+  fullName: SharedLibrary.Data.Tasks.TaskCare.Date
+  nameWithType: TaskCare.Date
+- uid: SharedLibrary.Data.Tasks.TaskCare.Date*
+  name: Date
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_Date_
+  commentId: Overload:SharedLibrary.Data.Tasks.TaskCare.Date
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.TaskCare.Date
+  nameWithType: TaskCare.Date
+- uid: SharedLibrary.Data.Tasks.TaskCare.Id
+  name: Id
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_Id
+  commentId: P:SharedLibrary.Data.Tasks.TaskCare.Id
+  fullName: SharedLibrary.Data.Tasks.TaskCare.Id
+  nameWithType: TaskCare.Id
+- uid: SharedLibrary.Data.Tasks.TaskCare.Id*
+  name: Id
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_Id_
+  commentId: Overload:SharedLibrary.Data.Tasks.TaskCare.Id
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.TaskCare.Id
+  nameWithType: TaskCare.Id
+- uid: SharedLibrary.Data.Tasks.TaskCare.Reminder
+  name: Reminder
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_Reminder
+  commentId: P:SharedLibrary.Data.Tasks.TaskCare.Reminder
+  fullName: SharedLibrary.Data.Tasks.TaskCare.Reminder
+  nameWithType: TaskCare.Reminder
+- uid: SharedLibrary.Data.Tasks.TaskCare.Reminder*
+  name: Reminder
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_Reminder_
+  commentId: Overload:SharedLibrary.Data.Tasks.TaskCare.Reminder
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.TaskCare.Reminder
+  nameWithType: TaskCare.Reminder
+- uid: SharedLibrary.Data.Tasks.TaskCare.Repeat
+  name: Repeat
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_Repeat
+  commentId: P:SharedLibrary.Data.Tasks.TaskCare.Repeat
+  fullName: SharedLibrary.Data.Tasks.TaskCare.Repeat
+  nameWithType: TaskCare.Repeat
+- uid: SharedLibrary.Data.Tasks.TaskCare.Repeat*
+  name: Repeat
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_Repeat_
+  commentId: Overload:SharedLibrary.Data.Tasks.TaskCare.Repeat
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.TaskCare.Repeat
+  nameWithType: TaskCare.Repeat
+- uid: SharedLibrary.Data.Tasks.TaskCare.Result
+  name: Result
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_Result
+  commentId: P:SharedLibrary.Data.Tasks.TaskCare.Result
+  fullName: SharedLibrary.Data.Tasks.TaskCare.Result
+  nameWithType: TaskCare.Result
+- uid: SharedLibrary.Data.Tasks.TaskCare.Result*
+  name: Result
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_Result_
+  commentId: Overload:SharedLibrary.Data.Tasks.TaskCare.Result
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.TaskCare.Result
+  nameWithType: TaskCare.Result
+- uid: SharedLibrary.Data.Tasks.TaskCare.Title
+  name: Title
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_Title
+  commentId: P:SharedLibrary.Data.Tasks.TaskCare.Title
+  fullName: SharedLibrary.Data.Tasks.TaskCare.Title
+  nameWithType: TaskCare.Title
+- uid: SharedLibrary.Data.Tasks.TaskCare.Title*
+  name: Title
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_Title_
+  commentId: Overload:SharedLibrary.Data.Tasks.TaskCare.Title
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.TaskCare.Title
+  nameWithType: TaskCare.Title
 - uid: SharedLibrary.Data.Tasks.TaskDinoCare
   name: TaskDinoCare
   href: api/api/SharedLibrary.Data.Tasks.TaskDinoCare.html
@@ -1466,12 +1602,12 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Managers.TasksManager.GetPlayerTasks
   nameWithType: TasksManager.GetPlayerTasks
-- uid: SharedLibrary.Managers.TasksManager.UpdateTask(SharedLibrary.Data.Player,SharedLibrary.Data.Tasks.TaskSelfCare)
-  name: UpdateTask(Player, TaskSelfCare)
-  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_UpdateTask_SharedLibrary_Data_Player_SharedLibrary_Data_Tasks_TaskSelfCare_
-  commentId: M:SharedLibrary.Managers.TasksManager.UpdateTask(SharedLibrary.Data.Player,SharedLibrary.Data.Tasks.TaskSelfCare)
-  fullName: SharedLibrary.Managers.TasksManager.UpdateTask(SharedLibrary.Data.Player, SharedLibrary.Data.Tasks.TaskSelfCare)
-  nameWithType: TasksManager.UpdateTask(Player, TaskSelfCare)
+- uid: SharedLibrary.Managers.TasksManager.UpdateTask(SharedLibrary.Data.Player,SharedLibrary.Data.Tasks.TaskCare)
+  name: UpdateTask(Player, TaskCare)
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_UpdateTask_SharedLibrary_Data_Player_SharedLibrary_Data_Tasks_TaskCare_
+  commentId: M:SharedLibrary.Managers.TasksManager.UpdateTask(SharedLibrary.Data.Player,SharedLibrary.Data.Tasks.TaskCare)
+  fullName: SharedLibrary.Managers.TasksManager.UpdateTask(SharedLibrary.Data.Player, SharedLibrary.Data.Tasks.TaskCare)
+  nameWithType: TasksManager.UpdateTask(Player, TaskCare)
 - uid: SharedLibrary.Managers.TasksManager.UpdateTask*
   name: UpdateTask
   href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_UpdateTask_

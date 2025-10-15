@@ -162,7 +162,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Data.Player",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Data.Player.yml\" sourcestartlinenumber=\"1\">Represents a player entity.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -176,7 +176,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Data.PlayerParameter",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Data.PlayerParameter.yml\" sourcestartlinenumber=\"1\">Represents a single player parameter with its current value and the timestamp of the last modification.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -205,6 +205,20 @@
       "IsMRef": true,
       "Title": "SharedLibrary.Data.Tasks.PlayerTasks",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Data.Tasks.TaskCare.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Data.Tasks.TaskCare.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Data.Tasks.TaskCare",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Data.Tasks.TaskCare.yml\" sourcestartlinenumber=\"1\">Represents a self-care task that a player can perform to improve various resources or attributes.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -274,7 +288,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Extensions.BigVal",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Extensions.BigVal.yml\" sourcestartlinenumber=\"1\">Represents a numerical value that supports scaling using large unit multipliers (kilo, mega, giga, etc.).</p>\n"
     },
     {
       "type": "ManagedReference",
