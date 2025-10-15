@@ -142,7 +142,7 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Managers_TasksManager_AddMissionFromSuggestions_SharedLibrary_Data_Player_System_String_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.TasksManager.AddMissionFromSuggestions(SharedLibrary.Data.Player%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Managers/TasksManager.cs/#L82">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Managers/TasksManager.cs/#L118">View Source</a>
   </span>
   <a id="SharedLibrary_Managers_TasksManager_AddMissionFromSuggestions_" data-uid="SharedLibrary.Managers.TasksManager.AddMissionFromSuggestions*"></a>
   <h4 id="SharedLibrary_Managers_TasksManager_AddMissionFromSuggestions_SharedLibrary_Data_Player_System_String_" data-uid="SharedLibrary.Managers.TasksManager.AddMissionFromSuggestions(SharedLibrary.Data.Player,System.String)">AddMissionFromSuggestions(Player, string)</h4>
@@ -208,7 +208,7 @@ to <code>SuggestionTasks</code> to keep suggestions capped and unique.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Managers_TasksManager_CompleteMission_SharedLibrary_Data_Player_System_String_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.TasksManager.CompleteMission(SharedLibrary.Data.Player%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Managers/TasksManager.cs/#L126">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Managers/TasksManager.cs/#L162">View Source</a>
   </span>
   <a id="SharedLibrary_Managers_TasksManager_CompleteMission_" data-uid="SharedLibrary.Managers.TasksManager.CompleteMission*"></a>
   <h4 id="SharedLibrary_Managers_TasksManager_CompleteMission_SharedLibrary_Data_Player_System_String_" data-uid="SharedLibrary.Managers.TasksManager.CompleteMission(SharedLibrary.Data.Player,System.String)">CompleteMission(Player, string)</h4>
@@ -268,6 +268,88 @@ If the mission is not found, the method returns the player unchanged.</p>
   <h5 id="SharedLibrary_Managers_TasksManager_CompleteMission_SharedLibrary_Data_Player_System_String__examples">Examples</h5>
   <pre><code class="lang-csharp">var updatedPlayer = manager.CompleteMission(player, "self_care_20");</code></pre>
 
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Managers_TasksManager_CreateTask_SharedLibrary_Data_Player_SharedLibrary_Data_Tasks_TaskCare_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.TasksManager.CreateTask(SharedLibrary.Data.Player%2CSharedLibrary.Data.Tasks.TaskCare)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Managers/TasksManager.cs/#L83">View Source</a>
+  </span>
+  <a id="SharedLibrary_Managers_TasksManager_CreateTask_" data-uid="SharedLibrary.Managers.TasksManager.CreateTask*"></a>
+  <h4 id="SharedLibrary_Managers_TasksManager_CreateTask_SharedLibrary_Data_Player_SharedLibrary_Data_Tasks_TaskCare_" data-uid="SharedLibrary.Managers.TasksManager.CreateTask(SharedLibrary.Data.Player,SharedLibrary.Data.Tasks.TaskCare)">CreateTask(Player, TaskCare)</h4>
+  <div class="markdown level1 summary"><p>Adds a manually created task to the player's active tasks.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerTasks CreateTask(Player player, TaskCare task)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Data.Player.html">Player</a></td>
+        <td><span class="parametername">player</span></td>
+        <td><p>The player to whom the manual task will be added.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Data.Tasks.TaskCare.html">TaskCare</a></td>
+        <td><span class="parametername">task</span></td>
+        <td><p>The manually created task instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Data.Tasks.PlayerTasks.html">PlayerTasks</a></td>
+        <td><p>The player's <a class="xref" href="SharedLibrary.Data.Tasks.PlayerTasks.html">PlayerTasks</a> after the new task has been added.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SharedLibrary_Managers_TasksManager_CreateTask_SharedLibrary_Data_Player_SharedLibrary_Data_Tasks_TaskCare__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method generates a unique identifier for the new task and assigns default rewards
+for <a class="xref" href="SharedLibrary.Data.ResourceType.html#SharedLibrary_Data_ResourceType_DreamStones">DreamStones</a> and <a class="xref" href="SharedLibrary.Data.ResourceType.html#SharedLibrary_Data_ResourceType_Energy">Energy</a> based on <a class="xref" href="SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_UserTaskDreamStones">UserTaskDreamStones</a> and <a class="xref" href="SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_UserTaskEnergy">UserTaskEnergy</a>.
+The task is then added to <a class="xref" href="SharedLibrary.Data.Tasks.PlayerTasks.html#SharedLibrary_Data_Tasks_PlayerTasks_ActiveTasks">ActiveTasks</a>.</p>
+</div>
+  <h5 id="SharedLibrary_Managers_TasksManager_CreateTask_SharedLibrary_Data_Player_SharedLibrary_Data_Tasks_TaskCare__examples">Examples</h5>
+  <pre><code class="lang-csharp">var manualTask = new TaskCare { Title = "Write a journal entry", CategoryId = "self_reflection", Date = DateTime.UtcNow.AddMinutes(5), Repeat = TimeSpan.FromDays(1) };
+var updatedTasks = manager.CreateTask(player, manualTask);
+// The player now has the new manual task in ActiveTasks.</code></pre>
+
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>Thrown when <code class="paramref">player</code> or <code class="paramref">task</code> is <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Managers_TasksManager_GetPlayerTasks_SharedLibrary_Data_Player_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.TasksManager.GetPlayerTasks(SharedLibrary.Data.Player)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
@@ -333,7 +415,7 @@ var tasks = manager.GetPlayerTasks(player);
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Managers_TasksManager_UpdateTask_SharedLibrary_Data_Player_SharedLibrary_Data_Tasks_TaskCare_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.TasksManager.UpdateTask(SharedLibrary.Data.Player%2CSharedLibrary.Data.Tasks.TaskCare)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Managers/TasksManager.cs/#L158">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Managers/TasksManager.cs/#L194">View Source</a>
   </span>
   <a id="SharedLibrary_Managers_TasksManager_UpdateTask_" data-uid="SharedLibrary.Managers.TasksManager.UpdateTask*"></a>
   <h4 id="SharedLibrary_Managers_TasksManager_UpdateTask_SharedLibrary_Data_Player_SharedLibrary_Data_Tasks_TaskCare_" data-uid="SharedLibrary.Managers.TasksManager.UpdateTask(SharedLibrary.Data.Player,SharedLibrary.Data.Tasks.TaskCare)">UpdateTask(Player, TaskCare)</h4>
@@ -342,7 +424,7 @@ var tasks = manager.GetPlayerTasks(player);
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Player UpdateTask(Player player, TaskCare mission)</code></pre>
+    <pre><code class="lang-csharp hljs">public PlayerTasks UpdateTask(Player player, TaskCare mission)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -378,7 +460,7 @@ var tasks = manager.GetPlayerTasks(player);
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="SharedLibrary.Data.Player.html">Player</a></td>
+        <td><a class="xref" href="SharedLibrary.Data.Tasks.PlayerTasks.html">PlayerTasks</a></td>
         <td><p>The player's <a class="xref" href="SharedLibrary.Data.Tasks.PlayerTasks.html">PlayerTasks</a> after the update operation.</p>
 </td>
       </tr>

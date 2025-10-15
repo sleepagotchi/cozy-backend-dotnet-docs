@@ -1589,6 +1589,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Managers.TasksManager.CompleteMission
   nameWithType: TasksManager.CompleteMission
+- uid: SharedLibrary.Managers.TasksManager.CreateTask(SharedLibrary.Data.Player,SharedLibrary.Data.Tasks.TaskCare)
+  name: CreateTask(Player, TaskCare)
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_CreateTask_SharedLibrary_Data_Player_SharedLibrary_Data_Tasks_TaskCare_
+  commentId: M:SharedLibrary.Managers.TasksManager.CreateTask(SharedLibrary.Data.Player,SharedLibrary.Data.Tasks.TaskCare)
+  fullName: SharedLibrary.Managers.TasksManager.CreateTask(SharedLibrary.Data.Player, SharedLibrary.Data.Tasks.TaskCare)
+  nameWithType: TasksManager.CreateTask(Player, TaskCare)
+- uid: SharedLibrary.Managers.TasksManager.CreateTask*
+  name: CreateTask
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_CreateTask_
+  commentId: Overload:SharedLibrary.Managers.TasksManager.CreateTask
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.TasksManager.CreateTask
+  nameWithType: TasksManager.CreateTask
 - uid: SharedLibrary.Managers.TasksManager.GetPlayerTasks(SharedLibrary.Data.Player)
   name: GetPlayerTasks(Player)
   href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_GetPlayerTasks_SharedLibrary_Data_Player_
