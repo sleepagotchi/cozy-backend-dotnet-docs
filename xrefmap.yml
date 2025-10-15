@@ -651,6 +651,34 @@ references:
   commentId: T:SharedLibrary.Data.Tasks.TaskCare
   fullName: SharedLibrary.Data.Tasks.TaskCare
   nameWithType: TaskCare
+- uid: SharedLibrary.Data.Tasks.TaskCare.#ctor
+  name: TaskCare()
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare__ctor
+  commentId: M:SharedLibrary.Data.Tasks.TaskCare.#ctor
+  name.vb: New()
+  fullName: SharedLibrary.Data.Tasks.TaskCare.TaskCare()
+  fullName.vb: SharedLibrary.Data.Tasks.TaskCare.New()
+  nameWithType: TaskCare.TaskCare()
+  nameWithType.vb: TaskCare.New()
+- uid: SharedLibrary.Data.Tasks.TaskCare.#ctor(System.String,System.String,System.DateTime,System.TimeSpan)
+  name: TaskCare(string, string, DateTime, TimeSpan)
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare__ctor_System_String_System_String_System_DateTime_System_TimeSpan_
+  commentId: M:SharedLibrary.Data.Tasks.TaskCare.#ctor(System.String,System.String,System.DateTime,System.TimeSpan)
+  name.vb: New(String, String, Date, TimeSpan)
+  fullName: SharedLibrary.Data.Tasks.TaskCare.TaskCare(string, string, System.DateTime, System.TimeSpan)
+  fullName.vb: SharedLibrary.Data.Tasks.TaskCare.New(String, String, Date, System.TimeSpan)
+  nameWithType: TaskCare.TaskCare(string, string, DateTime, TimeSpan)
+  nameWithType.vb: TaskCare.New(String, String, Date, TimeSpan)
+- uid: SharedLibrary.Data.Tasks.TaskCare.#ctor*
+  name: TaskCare
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare__ctor_
+  commentId: Overload:SharedLibrary.Data.Tasks.TaskCare.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Data.Tasks.TaskCare.TaskCare
+  fullName.vb: SharedLibrary.Data.Tasks.TaskCare.New
+  nameWithType: TaskCare.TaskCare
+  nameWithType.vb: TaskCare.New
 - uid: SharedLibrary.Data.Tasks.TaskCare.ActivityId
   name: ActivityId
   href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_ActivityId
