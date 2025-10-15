@@ -1,0 +1,1481 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: SharedLibrary.Data
+  name: SharedLibrary.Data
+  href: api/api/SharedLibrary.Data.html
+  commentId: N:SharedLibrary.Data
+  fullName: SharedLibrary.Data
+  nameWithType: SharedLibrary.Data
+- uid: SharedLibrary.Data.Activities
+  name: SharedLibrary.Data.Activities
+  href: api/api/SharedLibrary.Data.Activities.html
+  commentId: N:SharedLibrary.Data.Activities
+  fullName: SharedLibrary.Data.Activities
+  nameWithType: SharedLibrary.Data.Activities
+- uid: SharedLibrary.Data.Activities.ActivityBase
+  name: ActivityBase
+  href: api/api/SharedLibrary.Data.Activities.ActivityBase.html
+  commentId: T:SharedLibrary.Data.Activities.ActivityBase
+  fullName: SharedLibrary.Data.Activities.ActivityBase
+  nameWithType: ActivityBase
+- uid: SharedLibrary.Data.Activities.ActivityBase.ActivityId
+  name: ActivityId
+  href: api/api/SharedLibrary.Data.Activities.ActivityBase.html#SharedLibrary_Data_Activities_ActivityBase_ActivityId
+  commentId: P:SharedLibrary.Data.Activities.ActivityBase.ActivityId
+  fullName: SharedLibrary.Data.Activities.ActivityBase.ActivityId
+  nameWithType: ActivityBase.ActivityId
+- uid: SharedLibrary.Data.Activities.ActivityBase.ActivityId*
+  name: ActivityId
+  href: api/api/SharedLibrary.Data.Activities.ActivityBase.html#SharedLibrary_Data_Activities_ActivityBase_ActivityId_
+  commentId: Overload:SharedLibrary.Data.Activities.ActivityBase.ActivityId
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Activities.ActivityBase.ActivityId
+  nameWithType: ActivityBase.ActivityId
+- uid: SharedLibrary.Data.Activities.ActivityBase.ActivityTime
+  name: ActivityTime
+  href: api/api/SharedLibrary.Data.Activities.ActivityBase.html#SharedLibrary_Data_Activities_ActivityBase_ActivityTime
+  commentId: P:SharedLibrary.Data.Activities.ActivityBase.ActivityTime
+  fullName: SharedLibrary.Data.Activities.ActivityBase.ActivityTime
+  nameWithType: ActivityBase.ActivityTime
+- uid: SharedLibrary.Data.Activities.ActivityBase.ActivityTime*
+  name: ActivityTime
+  href: api/api/SharedLibrary.Data.Activities.ActivityBase.html#SharedLibrary_Data_Activities_ActivityBase_ActivityTime_
+  commentId: Overload:SharedLibrary.Data.Activities.ActivityBase.ActivityTime
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Activities.ActivityBase.ActivityTime
+  nameWithType: ActivityBase.ActivityTime
+- uid: SharedLibrary.Data.Activities.ActivityBase.Result
+  name: Result
+  href: api/api/SharedLibrary.Data.Activities.ActivityBase.html#SharedLibrary_Data_Activities_ActivityBase_Result
+  commentId: P:SharedLibrary.Data.Activities.ActivityBase.Result
+  fullName: SharedLibrary.Data.Activities.ActivityBase.Result
+  nameWithType: ActivityBase.Result
+- uid: SharedLibrary.Data.Activities.ActivityBase.Result*
+  name: Result
+  href: api/api/SharedLibrary.Data.Activities.ActivityBase.html#SharedLibrary_Data_Activities_ActivityBase_Result_
+  commentId: Overload:SharedLibrary.Data.Activities.ActivityBase.Result
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Activities.ActivityBase.Result
+  nameWithType: ActivityBase.Result
+- uid: SharedLibrary.Data.Activities.ActivityBase.StartRules
+  name: StartRules
+  href: api/api/SharedLibrary.Data.Activities.ActivityBase.html#SharedLibrary_Data_Activities_ActivityBase_StartRules
+  commentId: P:SharedLibrary.Data.Activities.ActivityBase.StartRules
+  fullName: SharedLibrary.Data.Activities.ActivityBase.StartRules
+  nameWithType: ActivityBase.StartRules
+- uid: SharedLibrary.Data.Activities.ActivityBase.StartRules*
+  name: StartRules
+  href: api/api/SharedLibrary.Data.Activities.ActivityBase.html#SharedLibrary_Data_Activities_ActivityBase_StartRules_
+  commentId: Overload:SharedLibrary.Data.Activities.ActivityBase.StartRules
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Activities.ActivityBase.StartRules
+  nameWithType: ActivityBase.StartRules
+- uid: SharedLibrary.Data.Adventures
+  name: SharedLibrary.Data.Adventures
+  href: api/api/SharedLibrary.Data.Adventures.html
+  commentId: N:SharedLibrary.Data.Adventures
+  fullName: SharedLibrary.Data.Adventures
+  nameWithType: SharedLibrary.Data.Adventures
+- uid: SharedLibrary.Data.Adventures.AdventureBase
+  name: AdventureBase
+  href: api/api/SharedLibrary.Data.Adventures.AdventureBase.html
+  commentId: T:SharedLibrary.Data.Adventures.AdventureBase
+  fullName: SharedLibrary.Data.Adventures.AdventureBase
+  nameWithType: AdventureBase
+- uid: SharedLibrary.Data.Adventures.AdventureBase.Id
+  name: Id
+  href: api/api/SharedLibrary.Data.Adventures.AdventureBase.html#SharedLibrary_Data_Adventures_AdventureBase_Id
+  commentId: P:SharedLibrary.Data.Adventures.AdventureBase.Id
+  fullName: SharedLibrary.Data.Adventures.AdventureBase.Id
+  nameWithType: AdventureBase.Id
+- uid: SharedLibrary.Data.Adventures.AdventureBase.Id*
+  name: Id
+  href: api/api/SharedLibrary.Data.Adventures.AdventureBase.html#SharedLibrary_Data_Adventures_AdventureBase_Id_
+  commentId: Overload:SharedLibrary.Data.Adventures.AdventureBase.Id
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Adventures.AdventureBase.Id
+  nameWithType: AdventureBase.Id
+- uid: SharedLibrary.Data.Adventures.AdventureBase.LastStarDate
+  name: LastStarDate
+  href: api/api/SharedLibrary.Data.Adventures.AdventureBase.html#SharedLibrary_Data_Adventures_AdventureBase_LastStarDate
+  commentId: P:SharedLibrary.Data.Adventures.AdventureBase.LastStarDate
+  fullName: SharedLibrary.Data.Adventures.AdventureBase.LastStarDate
+  nameWithType: AdventureBase.LastStarDate
+- uid: SharedLibrary.Data.Adventures.AdventureBase.LastStarDate*
+  name: LastStarDate
+  href: api/api/SharedLibrary.Data.Adventures.AdventureBase.html#SharedLibrary_Data_Adventures_AdventureBase_LastStarDate_
+  commentId: Overload:SharedLibrary.Data.Adventures.AdventureBase.LastStarDate
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Adventures.AdventureBase.LastStarDate
+  nameWithType: AdventureBase.LastStarDate
+- uid: SharedLibrary.Data.Adventures.AdventureBase.Result
+  name: Result
+  href: api/api/SharedLibrary.Data.Adventures.AdventureBase.html#SharedLibrary_Data_Adventures_AdventureBase_Result
+  commentId: P:SharedLibrary.Data.Adventures.AdventureBase.Result
+  fullName: SharedLibrary.Data.Adventures.AdventureBase.Result
+  nameWithType: AdventureBase.Result
+- uid: SharedLibrary.Data.Adventures.AdventureBase.Result*
+  name: Result
+  href: api/api/SharedLibrary.Data.Adventures.AdventureBase.html#SharedLibrary_Data_Adventures_AdventureBase_Result_
+  commentId: Overload:SharedLibrary.Data.Adventures.AdventureBase.Result
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Adventures.AdventureBase.Result
+  nameWithType: AdventureBase.Result
+- uid: SharedLibrary.Data.Adventures.AdventureBase.RewardChance
+  name: RewardChance
+  href: api/api/SharedLibrary.Data.Adventures.AdventureBase.html#SharedLibrary_Data_Adventures_AdventureBase_RewardChance
+  commentId: P:SharedLibrary.Data.Adventures.AdventureBase.RewardChance
+  fullName: SharedLibrary.Data.Adventures.AdventureBase.RewardChance
+  nameWithType: AdventureBase.RewardChance
+- uid: SharedLibrary.Data.Adventures.AdventureBase.RewardChance*
+  name: RewardChance
+  href: api/api/SharedLibrary.Data.Adventures.AdventureBase.html#SharedLibrary_Data_Adventures_AdventureBase_RewardChance_
+  commentId: Overload:SharedLibrary.Data.Adventures.AdventureBase.RewardChance
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Adventures.AdventureBase.RewardChance
+  nameWithType: AdventureBase.RewardChance
+- uid: SharedLibrary.Data.Adventures.AdventureBase.Time
+  name: Time
+  href: api/api/SharedLibrary.Data.Adventures.AdventureBase.html#SharedLibrary_Data_Adventures_AdventureBase_Time
+  commentId: P:SharedLibrary.Data.Adventures.AdventureBase.Time
+  fullName: SharedLibrary.Data.Adventures.AdventureBase.Time
+  nameWithType: AdventureBase.Time
+- uid: SharedLibrary.Data.Adventures.AdventureBase.Time*
+  name: Time
+  href: api/api/SharedLibrary.Data.Adventures.AdventureBase.html#SharedLibrary_Data_Adventures_AdventureBase_Time_
+  commentId: Overload:SharedLibrary.Data.Adventures.AdventureBase.Time
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Adventures.AdventureBase.Time
+  nameWithType: AdventureBase.Time
+- uid: SharedLibrary.Data.Constants
+  name: Constants
+  href: api/api/SharedLibrary.Data.Constants.html
+  commentId: T:SharedLibrary.Data.Constants
+  fullName: SharedLibrary.Data.Constants
+  nameWithType: Constants
+- uid: SharedLibrary.Data.Constants.DecreaseRate
+  name: DecreaseRate
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_DecreaseRate
+  commentId: P:SharedLibrary.Data.Constants.DecreaseRate
+  fullName: SharedLibrary.Data.Constants.DecreaseRate
+  nameWithType: Constants.DecreaseRate
+- uid: SharedLibrary.Data.Constants.DecreaseRate*
+  name: DecreaseRate
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_DecreaseRate_
+  commentId: Overload:SharedLibrary.Data.Constants.DecreaseRate
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Constants.DecreaseRate
+  nameWithType: Constants.DecreaseRate
+- uid: SharedLibrary.Data.Constants.EnergyMax
+  name: EnergyMax
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_EnergyMax
+  commentId: P:SharedLibrary.Data.Constants.EnergyMax
+  fullName: SharedLibrary.Data.Constants.EnergyMax
+  nameWithType: Constants.EnergyMax
+- uid: SharedLibrary.Data.Constants.EnergyMax*
+  name: EnergyMax
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_EnergyMax_
+  commentId: Overload:SharedLibrary.Data.Constants.EnergyMax
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Constants.EnergyMax
+  nameWithType: Constants.EnergyMax
+- uid: SharedLibrary.Data.Constants.GetBigValSuffix(System.Int32)
+  name: GetBigValSuffix(int)
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_GetBigValSuffix_System_Int32_
+  commentId: M:SharedLibrary.Data.Constants.GetBigValSuffix(System.Int32)
+  name.vb: GetBigValSuffix(Integer)
+  fullName: SharedLibrary.Data.Constants.GetBigValSuffix(int)
+  fullName.vb: SharedLibrary.Data.Constants.GetBigValSuffix(Integer)
+  nameWithType: Constants.GetBigValSuffix(int)
+  nameWithType.vb: Constants.GetBigValSuffix(Integer)
+- uid: SharedLibrary.Data.Constants.GetBigValSuffix*
+  name: GetBigValSuffix
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_GetBigValSuffix_
+  commentId: Overload:SharedLibrary.Data.Constants.GetBigValSuffix
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Constants.GetBigValSuffix
+  nameWithType: Constants.GetBigValSuffix
+- uid: SharedLibrary.Data.Constants.GetMultiplierForSuffix(System.String)
+  name: GetMultiplierForSuffix(string)
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_GetMultiplierForSuffix_System_String_
+  commentId: M:SharedLibrary.Data.Constants.GetMultiplierForSuffix(System.String)
+  name.vb: GetMultiplierForSuffix(String)
+  fullName: SharedLibrary.Data.Constants.GetMultiplierForSuffix(string)
+  fullName.vb: SharedLibrary.Data.Constants.GetMultiplierForSuffix(String)
+  nameWithType: Constants.GetMultiplierForSuffix(string)
+  nameWithType.vb: Constants.GetMultiplierForSuffix(String)
+- uid: SharedLibrary.Data.Constants.GetMultiplierForSuffix*
+  name: GetMultiplierForSuffix
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_GetMultiplierForSuffix_
+  commentId: Overload:SharedLibrary.Data.Constants.GetMultiplierForSuffix
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Constants.GetMultiplierForSuffix
+  nameWithType: Constants.GetMultiplierForSuffix
+- uid: SharedLibrary.Data.Constants.MinParametersValue
+  name: MinParametersValue
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_MinParametersValue
+  commentId: P:SharedLibrary.Data.Constants.MinParametersValue
+  fullName: SharedLibrary.Data.Constants.MinParametersValue
+  nameWithType: Constants.MinParametersValue
+- uid: SharedLibrary.Data.Constants.MinParametersValue*
+  name: MinParametersValue
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_MinParametersValue_
+  commentId: Overload:SharedLibrary.Data.Constants.MinParametersValue
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Constants.MinParametersValue
+  nameWithType: Constants.MinParametersValue
+- uid: SharedLibrary.Data.Constants.TasksMaxSuggestions
+  name: TasksMaxSuggestions
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_TasksMaxSuggestions
+  commentId: P:SharedLibrary.Data.Constants.TasksMaxSuggestions
+  fullName: SharedLibrary.Data.Constants.TasksMaxSuggestions
+  nameWithType: Constants.TasksMaxSuggestions
+- uid: SharedLibrary.Data.Constants.TasksMaxSuggestions*
+  name: TasksMaxSuggestions
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_TasksMaxSuggestions_
+  commentId: Overload:SharedLibrary.Data.Constants.TasksMaxSuggestions
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Constants.TasksMaxSuggestions
+  nameWithType: Constants.TasksMaxSuggestions
+- uid: SharedLibrary.Data.Constants.Tolerance
+  name: Tolerance
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_Tolerance
+  commentId: F:SharedLibrary.Data.Constants.Tolerance
+  fullName: SharedLibrary.Data.Constants.Tolerance
+  nameWithType: Constants.Tolerance
+- uid: SharedLibrary.Data.Constants.UserTaskDreamStones
+  name: UserTaskDreamStones
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_UserTaskDreamStones
+  commentId: P:SharedLibrary.Data.Constants.UserTaskDreamStones
+  fullName: SharedLibrary.Data.Constants.UserTaskDreamStones
+  nameWithType: Constants.UserTaskDreamStones
+- uid: SharedLibrary.Data.Constants.UserTaskDreamStones*
+  name: UserTaskDreamStones
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_UserTaskDreamStones_
+  commentId: Overload:SharedLibrary.Data.Constants.UserTaskDreamStones
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Constants.UserTaskDreamStones
+  nameWithType: Constants.UserTaskDreamStones
+- uid: SharedLibrary.Data.Constants.UserTaskEnergy
+  name: UserTaskEnergy
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_UserTaskEnergy
+  commentId: P:SharedLibrary.Data.Constants.UserTaskEnergy
+  fullName: SharedLibrary.Data.Constants.UserTaskEnergy
+  nameWithType: Constants.UserTaskEnergy
+- uid: SharedLibrary.Data.Constants.UserTaskEnergy*
+  name: UserTaskEnergy
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_UserTaskEnergy_
+  commentId: Overload:SharedLibrary.Data.Constants.UserTaskEnergy
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Constants.UserTaskEnergy
+  nameWithType: Constants.UserTaskEnergy
+- uid: SharedLibrary.Data.Island
+  name: SharedLibrary.Data.Island
+  href: api/api/SharedLibrary.Data.Island.html
+  commentId: N:SharedLibrary.Data.Island
+  fullName: SharedLibrary.Data.Island
+  nameWithType: SharedLibrary.Data.Island
+- uid: SharedLibrary.Data.Island.IslandBase
+  name: IslandBase
+  href: api/api/SharedLibrary.Data.Island.IslandBase.html
+  commentId: T:SharedLibrary.Data.Island.IslandBase
+  fullName: SharedLibrary.Data.Island.IslandBase
+  nameWithType: IslandBase
+- uid: SharedLibrary.Data.Island.IslandBase.CozyPoints
+  name: CozyPoints
+  href: api/api/SharedLibrary.Data.Island.IslandBase.html#SharedLibrary_Data_Island_IslandBase_CozyPoints
+  commentId: P:SharedLibrary.Data.Island.IslandBase.CozyPoints
+  fullName: SharedLibrary.Data.Island.IslandBase.CozyPoints
+  nameWithType: IslandBase.CozyPoints
+- uid: SharedLibrary.Data.Island.IslandBase.CozyPoints*
+  name: CozyPoints
+  href: api/api/SharedLibrary.Data.Island.IslandBase.html#SharedLibrary_Data_Island_IslandBase_CozyPoints_
+  commentId: Overload:SharedLibrary.Data.Island.IslandBase.CozyPoints
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Island.IslandBase.CozyPoints
+  nameWithType: IslandBase.CozyPoints
+- uid: SharedLibrary.Data.Island.IslandBase.Id
+  name: Id
+  href: api/api/SharedLibrary.Data.Island.IslandBase.html#SharedLibrary_Data_Island_IslandBase_Id
+  commentId: P:SharedLibrary.Data.Island.IslandBase.Id
+  fullName: SharedLibrary.Data.Island.IslandBase.Id
+  nameWithType: IslandBase.Id
+- uid: SharedLibrary.Data.Island.IslandBase.Id*
+  name: Id
+  href: api/api/SharedLibrary.Data.Island.IslandBase.html#SharedLibrary_Data_Island_IslandBase_Id_
+  commentId: Overload:SharedLibrary.Data.Island.IslandBase.Id
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Island.IslandBase.Id
+  nameWithType: IslandBase.Id
+- uid: SharedLibrary.Data.Island.IslandBase.Items
+  name: Items
+  href: api/api/SharedLibrary.Data.Island.IslandBase.html#SharedLibrary_Data_Island_IslandBase_Items
+  commentId: P:SharedLibrary.Data.Island.IslandBase.Items
+  fullName: SharedLibrary.Data.Island.IslandBase.Items
+  nameWithType: IslandBase.Items
+- uid: SharedLibrary.Data.Island.IslandBase.Items*
+  name: Items
+  href: api/api/SharedLibrary.Data.Island.IslandBase.html#SharedLibrary_Data_Island_IslandBase_Items_
+  commentId: Overload:SharedLibrary.Data.Island.IslandBase.Items
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Island.IslandBase.Items
+  nameWithType: IslandBase.Items
+- uid: SharedLibrary.Data.Items
+  name: SharedLibrary.Data.Items
+  href: api/api/SharedLibrary.Data.Items.html
+  commentId: N:SharedLibrary.Data.Items
+  fullName: SharedLibrary.Data.Items
+  nameWithType: SharedLibrary.Data.Items
+- uid: SharedLibrary.Data.Items.Item
+  name: Item
+  href: api/api/SharedLibrary.Data.Items.Item.html
+  commentId: T:SharedLibrary.Data.Items.Item
+  fullName: SharedLibrary.Data.Items.Item
+  nameWithType: Item
+- uid: SharedLibrary.Data.Items.Item.Level
+  name: Level
+  href: api/api/SharedLibrary.Data.Items.Item.html#SharedLibrary_Data_Items_Item_Level
+  commentId: P:SharedLibrary.Data.Items.Item.Level
+  fullName: SharedLibrary.Data.Items.Item.Level
+  nameWithType: Item.Level
+- uid: SharedLibrary.Data.Items.Item.Level*
+  name: Level
+  href: api/api/SharedLibrary.Data.Items.Item.html#SharedLibrary_Data_Items_Item_Level_
+  commentId: Overload:SharedLibrary.Data.Items.Item.Level
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Items.Item.Level
+  nameWithType: Item.Level
+- uid: SharedLibrary.Data.Items.Item.UpgradeCost
+  name: UpgradeCost
+  href: api/api/SharedLibrary.Data.Items.Item.html#SharedLibrary_Data_Items_Item_UpgradeCost
+  commentId: P:SharedLibrary.Data.Items.Item.UpgradeCost
+  fullName: SharedLibrary.Data.Items.Item.UpgradeCost
+  nameWithType: Item.UpgradeCost
+- uid: SharedLibrary.Data.Items.Item.UpgradeCost*
+  name: UpgradeCost
+  href: api/api/SharedLibrary.Data.Items.Item.html#SharedLibrary_Data_Items_Item_UpgradeCost_
+  commentId: Overload:SharedLibrary.Data.Items.Item.UpgradeCost
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Items.Item.UpgradeCost
+  nameWithType: Item.UpgradeCost
+- uid: SharedLibrary.Data.Items.ItemBase
+  name: ItemBase
+  href: api/api/SharedLibrary.Data.Items.ItemBase.html
+  commentId: T:SharedLibrary.Data.Items.ItemBase
+  fullName: SharedLibrary.Data.Items.ItemBase
+  nameWithType: ItemBase
+- uid: SharedLibrary.Data.Items.ItemBase.Activities
+  name: Activities
+  href: api/api/SharedLibrary.Data.Items.ItemBase.html#SharedLibrary_Data_Items_ItemBase_Activities
+  commentId: P:SharedLibrary.Data.Items.ItemBase.Activities
+  fullName: SharedLibrary.Data.Items.ItemBase.Activities
+  nameWithType: ItemBase.Activities
+- uid: SharedLibrary.Data.Items.ItemBase.Activities*
+  name: Activities
+  href: api/api/SharedLibrary.Data.Items.ItemBase.html#SharedLibrary_Data_Items_ItemBase_Activities_
+  commentId: Overload:SharedLibrary.Data.Items.ItemBase.Activities
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Items.ItemBase.Activities
+  nameWithType: ItemBase.Activities
+- uid: SharedLibrary.Data.Items.ItemBase.CollectionId
+  name: CollectionId
+  href: api/api/SharedLibrary.Data.Items.ItemBase.html#SharedLibrary_Data_Items_ItemBase_CollectionId
+  commentId: P:SharedLibrary.Data.Items.ItemBase.CollectionId
+  fullName: SharedLibrary.Data.Items.ItemBase.CollectionId
+  nameWithType: ItemBase.CollectionId
+- uid: SharedLibrary.Data.Items.ItemBase.CollectionId*
+  name: CollectionId
+  href: api/api/SharedLibrary.Data.Items.ItemBase.html#SharedLibrary_Data_Items_ItemBase_CollectionId_
+  commentId: Overload:SharedLibrary.Data.Items.ItemBase.CollectionId
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Items.ItemBase.CollectionId
+  nameWithType: ItemBase.CollectionId
+- uid: SharedLibrary.Data.Items.ItemBase.ContainerId
+  name: ContainerId
+  href: api/api/SharedLibrary.Data.Items.ItemBase.html#SharedLibrary_Data_Items_ItemBase_ContainerId
+  commentId: P:SharedLibrary.Data.Items.ItemBase.ContainerId
+  fullName: SharedLibrary.Data.Items.ItemBase.ContainerId
+  nameWithType: ItemBase.ContainerId
+- uid: SharedLibrary.Data.Items.ItemBase.ContainerId*
+  name: ContainerId
+  href: api/api/SharedLibrary.Data.Items.ItemBase.html#SharedLibrary_Data_Items_ItemBase_ContainerId_
+  commentId: Overload:SharedLibrary.Data.Items.ItemBase.ContainerId
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Items.ItemBase.ContainerId
+  nameWithType: ItemBase.ContainerId
+- uid: SharedLibrary.Data.Items.ItemBase.Cost
+  name: Cost
+  href: api/api/SharedLibrary.Data.Items.ItemBase.html#SharedLibrary_Data_Items_ItemBase_Cost
+  commentId: P:SharedLibrary.Data.Items.ItemBase.Cost
+  fullName: SharedLibrary.Data.Items.ItemBase.Cost
+  nameWithType: ItemBase.Cost
+- uid: SharedLibrary.Data.Items.ItemBase.Cost*
+  name: Cost
+  href: api/api/SharedLibrary.Data.Items.ItemBase.html#SharedLibrary_Data_Items_ItemBase_Cost_
+  commentId: Overload:SharedLibrary.Data.Items.ItemBase.Cost
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Items.ItemBase.Cost
+  nameWithType: ItemBase.Cost
+- uid: SharedLibrary.Data.Items.ItemBase.CozyPoints
+  name: CozyPoints
+  href: api/api/SharedLibrary.Data.Items.ItemBase.html#SharedLibrary_Data_Items_ItemBase_CozyPoints
+  commentId: P:SharedLibrary.Data.Items.ItemBase.CozyPoints
+  fullName: SharedLibrary.Data.Items.ItemBase.CozyPoints
+  nameWithType: ItemBase.CozyPoints
+- uid: SharedLibrary.Data.Items.ItemBase.CozyPoints*
+  name: CozyPoints
+  href: api/api/SharedLibrary.Data.Items.ItemBase.html#SharedLibrary_Data_Items_ItemBase_CozyPoints_
+  commentId: Overload:SharedLibrary.Data.Items.ItemBase.CozyPoints
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Items.ItemBase.CozyPoints
+  nameWithType: ItemBase.CozyPoints
+- uid: SharedLibrary.Data.Items.ItemBase.DropChance
+  name: DropChance
+  href: api/api/SharedLibrary.Data.Items.ItemBase.html#SharedLibrary_Data_Items_ItemBase_DropChance
+  commentId: P:SharedLibrary.Data.Items.ItemBase.DropChance
+  fullName: SharedLibrary.Data.Items.ItemBase.DropChance
+  nameWithType: ItemBase.DropChance
+- uid: SharedLibrary.Data.Items.ItemBase.DropChance*
+  name: DropChance
+  href: api/api/SharedLibrary.Data.Items.ItemBase.html#SharedLibrary_Data_Items_ItemBase_DropChance_
+  commentId: Overload:SharedLibrary.Data.Items.ItemBase.DropChance
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Items.ItemBase.DropChance
+  nameWithType: ItemBase.DropChance
+- uid: SharedLibrary.Data.Items.ItemBase.Id
+  name: Id
+  href: api/api/SharedLibrary.Data.Items.ItemBase.html#SharedLibrary_Data_Items_ItemBase_Id
+  commentId: P:SharedLibrary.Data.Items.ItemBase.Id
+  fullName: SharedLibrary.Data.Items.ItemBase.Id
+  nameWithType: ItemBase.Id
+- uid: SharedLibrary.Data.Items.ItemBase.Id*
+  name: Id
+  href: api/api/SharedLibrary.Data.Items.ItemBase.html#SharedLibrary_Data_Items_ItemBase_Id_
+  commentId: Overload:SharedLibrary.Data.Items.ItemBase.Id
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Items.ItemBase.Id
+  nameWithType: ItemBase.Id
+- uid: SharedLibrary.Data.Player
+  name: Player
+  href: api/api/SharedLibrary.Data.Player.html
+  commentId: T:SharedLibrary.Data.Player
+  fullName: SharedLibrary.Data.Player
+  nameWithType: Player
+- uid: SharedLibrary.Data.Player.CreateUser
+  name: CreateUser()
+  href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_CreateUser
+  commentId: M:SharedLibrary.Data.Player.CreateUser
+  fullName: SharedLibrary.Data.Player.CreateUser()
+  nameWithType: Player.CreateUser()
+- uid: SharedLibrary.Data.Player.CreateUser*
+  name: CreateUser
+  href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_CreateUser_
+  commentId: Overload:SharedLibrary.Data.Player.CreateUser
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Player.CreateUser
+  nameWithType: Player.CreateUser
+- uid: SharedLibrary.Data.Player.Islands
+  name: Islands
+  href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_Islands
+  commentId: P:SharedLibrary.Data.Player.Islands
+  fullName: SharedLibrary.Data.Player.Islands
+  nameWithType: Player.Islands
+- uid: SharedLibrary.Data.Player.Islands*
+  name: Islands
+  href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_Islands_
+  commentId: Overload:SharedLibrary.Data.Player.Islands
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Player.Islands
+  nameWithType: Player.Islands
+- uid: SharedLibrary.Data.Player.Parameters
+  name: Parameters
+  href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_Parameters
+  commentId: P:SharedLibrary.Data.Player.Parameters
+  fullName: SharedLibrary.Data.Player.Parameters
+  nameWithType: Player.Parameters
+- uid: SharedLibrary.Data.Player.Parameters*
+  name: Parameters
+  href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_Parameters_
+  commentId: Overload:SharedLibrary.Data.Player.Parameters
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Player.Parameters
+  nameWithType: Player.Parameters
+- uid: SharedLibrary.Data.Player.Tasks
+  name: Tasks
+  href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_Tasks
+  commentId: P:SharedLibrary.Data.Player.Tasks
+  fullName: SharedLibrary.Data.Player.Tasks
+  nameWithType: Player.Tasks
+- uid: SharedLibrary.Data.Player.Tasks*
+  name: Tasks
+  href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_Tasks_
+  commentId: Overload:SharedLibrary.Data.Player.Tasks
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Player.Tasks
+  nameWithType: Player.Tasks
+- uid: SharedLibrary.Data.PlayerParameter
+  name: PlayerParameter
+  href: api/api/SharedLibrary.Data.PlayerParameter.html
+  commentId: T:SharedLibrary.Data.PlayerParameter
+  fullName: SharedLibrary.Data.PlayerParameter
+  nameWithType: PlayerParameter
+- uid: SharedLibrary.Data.PlayerParameter.LastChangeTime
+  name: LastChangeTime
+  href: api/api/SharedLibrary.Data.PlayerParameter.html#SharedLibrary_Data_PlayerParameter_LastChangeTime
+  commentId: P:SharedLibrary.Data.PlayerParameter.LastChangeTime
+  fullName: SharedLibrary.Data.PlayerParameter.LastChangeTime
+  nameWithType: PlayerParameter.LastChangeTime
+- uid: SharedLibrary.Data.PlayerParameter.LastChangeTime*
+  name: LastChangeTime
+  href: api/api/SharedLibrary.Data.PlayerParameter.html#SharedLibrary_Data_PlayerParameter_LastChangeTime_
+  commentId: Overload:SharedLibrary.Data.PlayerParameter.LastChangeTime
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerParameter.LastChangeTime
+  nameWithType: PlayerParameter.LastChangeTime
+- uid: SharedLibrary.Data.PlayerParameter.Value
+  name: Value
+  href: api/api/SharedLibrary.Data.PlayerParameter.html#SharedLibrary_Data_PlayerParameter_Value
+  commentId: P:SharedLibrary.Data.PlayerParameter.Value
+  fullName: SharedLibrary.Data.PlayerParameter.Value
+  nameWithType: PlayerParameter.Value
+- uid: SharedLibrary.Data.PlayerParameter.Value*
+  name: Value
+  href: api/api/SharedLibrary.Data.PlayerParameter.html#SharedLibrary_Data_PlayerParameter_Value_
+  commentId: Overload:SharedLibrary.Data.PlayerParameter.Value
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerParameter.Value
+  nameWithType: PlayerParameter.Value
+- uid: SharedLibrary.Data.ResourceType
+  name: ResourceType
+  href: api/api/SharedLibrary.Data.ResourceType.html
+  commentId: T:SharedLibrary.Data.ResourceType
+  fullName: SharedLibrary.Data.ResourceType
+  nameWithType: ResourceType
+- uid: SharedLibrary.Data.ResourceType.DreamStones
+  name: DreamStones
+  href: api/api/SharedLibrary.Data.ResourceType.html#SharedLibrary_Data_ResourceType_DreamStones
+  commentId: F:SharedLibrary.Data.ResourceType.DreamStones
+  fullName: SharedLibrary.Data.ResourceType.DreamStones
+  nameWithType: ResourceType.DreamStones
+- uid: SharedLibrary.Data.ResourceType.Energy
+  name: Energy
+  href: api/api/SharedLibrary.Data.ResourceType.html#SharedLibrary_Data_ResourceType_Energy
+  commentId: F:SharedLibrary.Data.ResourceType.Energy
+  fullName: SharedLibrary.Data.ResourceType.Energy
+  nameWithType: ResourceType.Energy
+- uid: SharedLibrary.Data.ResourceType.Gems
+  name: Gems
+  href: api/api/SharedLibrary.Data.ResourceType.html#SharedLibrary_Data_ResourceType_Gems
+  commentId: F:SharedLibrary.Data.ResourceType.Gems
+  fullName: SharedLibrary.Data.ResourceType.Gems
+  nameWithType: ResourceType.Gems
+- uid: SharedLibrary.Data.ResourceType.Health
+  name: Health
+  href: api/api/SharedLibrary.Data.ResourceType.html#SharedLibrary_Data_ResourceType_Health
+  commentId: F:SharedLibrary.Data.ResourceType.Health
+  fullName: SharedLibrary.Data.ResourceType.Health
+  nameWithType: ResourceType.Health
+- uid: SharedLibrary.Data.ResourceType.Mood
+  name: Mood
+  href: api/api/SharedLibrary.Data.ResourceType.html#SharedLibrary_Data_ResourceType_Mood
+  commentId: F:SharedLibrary.Data.ResourceType.Mood
+  fullName: SharedLibrary.Data.ResourceType.Mood
+  nameWithType: ResourceType.Mood
+- uid: SharedLibrary.Data.ResourceType.Rest
+  name: Rest
+  href: api/api/SharedLibrary.Data.ResourceType.html#SharedLibrary_Data_ResourceType_Rest
+  commentId: F:SharedLibrary.Data.ResourceType.Rest
+  fullName: SharedLibrary.Data.ResourceType.Rest
+  nameWithType: ResourceType.Rest
+- uid: SharedLibrary.Data.ResourceType.Social
+  name: Social
+  href: api/api/SharedLibrary.Data.ResourceType.html#SharedLibrary_Data_ResourceType_Social
+  commentId: F:SharedLibrary.Data.ResourceType.Social
+  fullName: SharedLibrary.Data.ResourceType.Social
+  nameWithType: ResourceType.Social
+- uid: SharedLibrary.Data.Tasks
+  name: SharedLibrary.Data.Tasks
+  href: api/api/SharedLibrary.Data.Tasks.html
+  commentId: N:SharedLibrary.Data.Tasks
+  fullName: SharedLibrary.Data.Tasks
+  nameWithType: SharedLibrary.Data.Tasks
+- uid: SharedLibrary.Data.Tasks.PlayerTasks
+  name: PlayerTasks
+  href: api/api/SharedLibrary.Data.Tasks.PlayerTasks.html
+  commentId: T:SharedLibrary.Data.Tasks.PlayerTasks
+  fullName: SharedLibrary.Data.Tasks.PlayerTasks
+  nameWithType: PlayerTasks
+- uid: SharedLibrary.Data.Tasks.PlayerTasks.ActiveTasks
+  name: ActiveTasks
+  href: api/api/SharedLibrary.Data.Tasks.PlayerTasks.html#SharedLibrary_Data_Tasks_PlayerTasks_ActiveTasks
+  commentId: P:SharedLibrary.Data.Tasks.PlayerTasks.ActiveTasks
+  fullName: SharedLibrary.Data.Tasks.PlayerTasks.ActiveTasks
+  nameWithType: PlayerTasks.ActiveTasks
+- uid: SharedLibrary.Data.Tasks.PlayerTasks.ActiveTasks*
+  name: ActiveTasks
+  href: api/api/SharedLibrary.Data.Tasks.PlayerTasks.html#SharedLibrary_Data_Tasks_PlayerTasks_ActiveTasks_
+  commentId: Overload:SharedLibrary.Data.Tasks.PlayerTasks.ActiveTasks
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.PlayerTasks.ActiveTasks
+  nameWithType: PlayerTasks.ActiveTasks
+- uid: SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasks
+  name: SuggestionTasks
+  href: api/api/SharedLibrary.Data.Tasks.PlayerTasks.html#SharedLibrary_Data_Tasks_PlayerTasks_SuggestionTasks
+  commentId: P:SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasks
+  fullName: SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasks
+  nameWithType: PlayerTasks.SuggestionTasks
+- uid: SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasks*
+  name: SuggestionTasks
+  href: api/api/SharedLibrary.Data.Tasks.PlayerTasks.html#SharedLibrary_Data_Tasks_PlayerTasks_SuggestionTasks_
+  commentId: Overload:SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasks
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasks
+  nameWithType: PlayerTasks.SuggestionTasks
+- uid: SharedLibrary.Data.Tasks.TaskDinoCare
+  name: TaskDinoCare
+  href: api/api/SharedLibrary.Data.Tasks.TaskDinoCare.html
+  commentId: T:SharedLibrary.Data.Tasks.TaskDinoCare
+  fullName: SharedLibrary.Data.Tasks.TaskDinoCare
+  nameWithType: TaskDinoCare
+- uid: SharedLibrary.Data.Tasks.TaskDinoCare.ActivityId
+  name: ActivityId
+  href: api/api/SharedLibrary.Data.Tasks.TaskDinoCare.html#SharedLibrary_Data_Tasks_TaskDinoCare_ActivityId
+  commentId: P:SharedLibrary.Data.Tasks.TaskDinoCare.ActivityId
+  fullName: SharedLibrary.Data.Tasks.TaskDinoCare.ActivityId
+  nameWithType: TaskDinoCare.ActivityId
+- uid: SharedLibrary.Data.Tasks.TaskDinoCare.ActivityId*
+  name: ActivityId
+  href: api/api/SharedLibrary.Data.Tasks.TaskDinoCare.html#SharedLibrary_Data_Tasks_TaskDinoCare_ActivityId_
+  commentId: Overload:SharedLibrary.Data.Tasks.TaskDinoCare.ActivityId
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.TaskDinoCare.ActivityId
+  nameWithType: TaskDinoCare.ActivityId
+- uid: SharedLibrary.Data.Tasks.TaskDinoCare.Date
+  name: Date
+  href: api/api/SharedLibrary.Data.Tasks.TaskDinoCare.html#SharedLibrary_Data_Tasks_TaskDinoCare_Date
+  commentId: P:SharedLibrary.Data.Tasks.TaskDinoCare.Date
+  fullName: SharedLibrary.Data.Tasks.TaskDinoCare.Date
+  nameWithType: TaskDinoCare.Date
+- uid: SharedLibrary.Data.Tasks.TaskDinoCare.Date*
+  name: Date
+  href: api/api/SharedLibrary.Data.Tasks.TaskDinoCare.html#SharedLibrary_Data_Tasks_TaskDinoCare_Date_
+  commentId: Overload:SharedLibrary.Data.Tasks.TaskDinoCare.Date
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.TaskDinoCare.Date
+  nameWithType: TaskDinoCare.Date
+- uid: SharedLibrary.Data.Tasks.TaskDinoCare.Result
+  name: Result
+  href: api/api/SharedLibrary.Data.Tasks.TaskDinoCare.html#SharedLibrary_Data_Tasks_TaskDinoCare_Result
+  commentId: P:SharedLibrary.Data.Tasks.TaskDinoCare.Result
+  fullName: SharedLibrary.Data.Tasks.TaskDinoCare.Result
+  nameWithType: TaskDinoCare.Result
+- uid: SharedLibrary.Data.Tasks.TaskDinoCare.Result*
+  name: Result
+  href: api/api/SharedLibrary.Data.Tasks.TaskDinoCare.html#SharedLibrary_Data_Tasks_TaskDinoCare_Result_
+  commentId: Overload:SharedLibrary.Data.Tasks.TaskDinoCare.Result
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.TaskDinoCare.Result
+  nameWithType: TaskDinoCare.Result
+- uid: SharedLibrary.Data.Tasks.TaskSelfCare
+  name: TaskSelfCare
+  href: api/api/SharedLibrary.Data.Tasks.TaskSelfCare.html
+  commentId: T:SharedLibrary.Data.Tasks.TaskSelfCare
+  fullName: SharedLibrary.Data.Tasks.TaskSelfCare
+  nameWithType: TaskSelfCare
+- uid: SharedLibrary.Data.Tasks.TaskSelfCare.CategoryId
+  name: CategoryId
+  href: api/api/SharedLibrary.Data.Tasks.TaskSelfCare.html#SharedLibrary_Data_Tasks_TaskSelfCare_CategoryId
+  commentId: P:SharedLibrary.Data.Tasks.TaskSelfCare.CategoryId
+  fullName: SharedLibrary.Data.Tasks.TaskSelfCare.CategoryId
+  nameWithType: TaskSelfCare.CategoryId
+- uid: SharedLibrary.Data.Tasks.TaskSelfCare.CategoryId*
+  name: CategoryId
+  href: api/api/SharedLibrary.Data.Tasks.TaskSelfCare.html#SharedLibrary_Data_Tasks_TaskSelfCare_CategoryId_
+  commentId: Overload:SharedLibrary.Data.Tasks.TaskSelfCare.CategoryId
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.TaskSelfCare.CategoryId
+  nameWithType: TaskSelfCare.CategoryId
+- uid: SharedLibrary.Data.Tasks.TaskSelfCare.CompleteDate
+  name: CompleteDate
+  href: api/api/SharedLibrary.Data.Tasks.TaskSelfCare.html#SharedLibrary_Data_Tasks_TaskSelfCare_CompleteDate
+  commentId: P:SharedLibrary.Data.Tasks.TaskSelfCare.CompleteDate
+  fullName: SharedLibrary.Data.Tasks.TaskSelfCare.CompleteDate
+  nameWithType: TaskSelfCare.CompleteDate
+- uid: SharedLibrary.Data.Tasks.TaskSelfCare.CompleteDate*
+  name: CompleteDate
+  href: api/api/SharedLibrary.Data.Tasks.TaskSelfCare.html#SharedLibrary_Data_Tasks_TaskSelfCare_CompleteDate_
+  commentId: Overload:SharedLibrary.Data.Tasks.TaskSelfCare.CompleteDate
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.TaskSelfCare.CompleteDate
+  nameWithType: TaskSelfCare.CompleteDate
+- uid: SharedLibrary.Data.Tasks.TaskSelfCare.Date
+  name: Date
+  href: api/api/SharedLibrary.Data.Tasks.TaskSelfCare.html#SharedLibrary_Data_Tasks_TaskSelfCare_Date
+  commentId: P:SharedLibrary.Data.Tasks.TaskSelfCare.Date
+  fullName: SharedLibrary.Data.Tasks.TaskSelfCare.Date
+  nameWithType: TaskSelfCare.Date
+- uid: SharedLibrary.Data.Tasks.TaskSelfCare.Date*
+  name: Date
+  href: api/api/SharedLibrary.Data.Tasks.TaskSelfCare.html#SharedLibrary_Data_Tasks_TaskSelfCare_Date_
+  commentId: Overload:SharedLibrary.Data.Tasks.TaskSelfCare.Date
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.TaskSelfCare.Date
+  nameWithType: TaskSelfCare.Date
+- uid: SharedLibrary.Data.Tasks.TaskSelfCare.Id
+  name: Id
+  href: api/api/SharedLibrary.Data.Tasks.TaskSelfCare.html#SharedLibrary_Data_Tasks_TaskSelfCare_Id
+  commentId: P:SharedLibrary.Data.Tasks.TaskSelfCare.Id
+  fullName: SharedLibrary.Data.Tasks.TaskSelfCare.Id
+  nameWithType: TaskSelfCare.Id
+- uid: SharedLibrary.Data.Tasks.TaskSelfCare.Id*
+  name: Id
+  href: api/api/SharedLibrary.Data.Tasks.TaskSelfCare.html#SharedLibrary_Data_Tasks_TaskSelfCare_Id_
+  commentId: Overload:SharedLibrary.Data.Tasks.TaskSelfCare.Id
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.TaskSelfCare.Id
+  nameWithType: TaskSelfCare.Id
+- uid: SharedLibrary.Data.Tasks.TaskSelfCare.Reminder
+  name: Reminder
+  href: api/api/SharedLibrary.Data.Tasks.TaskSelfCare.html#SharedLibrary_Data_Tasks_TaskSelfCare_Reminder
+  commentId: P:SharedLibrary.Data.Tasks.TaskSelfCare.Reminder
+  fullName: SharedLibrary.Data.Tasks.TaskSelfCare.Reminder
+  nameWithType: TaskSelfCare.Reminder
+- uid: SharedLibrary.Data.Tasks.TaskSelfCare.Reminder*
+  name: Reminder
+  href: api/api/SharedLibrary.Data.Tasks.TaskSelfCare.html#SharedLibrary_Data_Tasks_TaskSelfCare_Reminder_
+  commentId: Overload:SharedLibrary.Data.Tasks.TaskSelfCare.Reminder
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.TaskSelfCare.Reminder
+  nameWithType: TaskSelfCare.Reminder
+- uid: SharedLibrary.Data.Tasks.TaskSelfCare.Repeat
+  name: Repeat
+  href: api/api/SharedLibrary.Data.Tasks.TaskSelfCare.html#SharedLibrary_Data_Tasks_TaskSelfCare_Repeat
+  commentId: P:SharedLibrary.Data.Tasks.TaskSelfCare.Repeat
+  fullName: SharedLibrary.Data.Tasks.TaskSelfCare.Repeat
+  nameWithType: TaskSelfCare.Repeat
+- uid: SharedLibrary.Data.Tasks.TaskSelfCare.Repeat*
+  name: Repeat
+  href: api/api/SharedLibrary.Data.Tasks.TaskSelfCare.html#SharedLibrary_Data_Tasks_TaskSelfCare_Repeat_
+  commentId: Overload:SharedLibrary.Data.Tasks.TaskSelfCare.Repeat
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.TaskSelfCare.Repeat
+  nameWithType: TaskSelfCare.Repeat
+- uid: SharedLibrary.Data.Tasks.TaskSelfCare.Result
+  name: Result
+  href: api/api/SharedLibrary.Data.Tasks.TaskSelfCare.html#SharedLibrary_Data_Tasks_TaskSelfCare_Result
+  commentId: P:SharedLibrary.Data.Tasks.TaskSelfCare.Result
+  fullName: SharedLibrary.Data.Tasks.TaskSelfCare.Result
+  nameWithType: TaskSelfCare.Result
+- uid: SharedLibrary.Data.Tasks.TaskSelfCare.Result*
+  name: Result
+  href: api/api/SharedLibrary.Data.Tasks.TaskSelfCare.html#SharedLibrary_Data_Tasks_TaskSelfCare_Result_
+  commentId: Overload:SharedLibrary.Data.Tasks.TaskSelfCare.Result
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.TaskSelfCare.Result
+  nameWithType: TaskSelfCare.Result
+- uid: SharedLibrary.Data.Tasks.TaskSelfCare.Title
+  name: Title
+  href: api/api/SharedLibrary.Data.Tasks.TaskSelfCare.html#SharedLibrary_Data_Tasks_TaskSelfCare_Title
+  commentId: P:SharedLibrary.Data.Tasks.TaskSelfCare.Title
+  fullName: SharedLibrary.Data.Tasks.TaskSelfCare.Title
+  nameWithType: TaskSelfCare.Title
+- uid: SharedLibrary.Data.Tasks.TaskSelfCare.Title*
+  name: Title
+  href: api/api/SharedLibrary.Data.Tasks.TaskSelfCare.html#SharedLibrary_Data_Tasks_TaskSelfCare_Title_
+  commentId: Overload:SharedLibrary.Data.Tasks.TaskSelfCare.Title
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.TaskSelfCare.Title
+  nameWithType: TaskSelfCare.Title
+- uid: SharedLibrary.Extensions
+  name: SharedLibrary.Extensions
+  href: api/api/SharedLibrary.Extensions.html
+  commentId: N:SharedLibrary.Extensions
+  fullName: SharedLibrary.Extensions
+  nameWithType: SharedLibrary.Extensions
+- uid: SharedLibrary.Extensions.BigVal
+  name: BigVal
+  href: api/api/SharedLibrary.Extensions.BigVal.html
+  commentId: T:SharedLibrary.Extensions.BigVal
+  fullName: SharedLibrary.Extensions.BigVal
+  nameWithType: BigVal
+- uid: SharedLibrary.Extensions.BigVal.#ctor(System.Double)
+  name: BigVal(double)
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal__ctor_System_Double_
+  commentId: M:SharedLibrary.Extensions.BigVal.#ctor(System.Double)
+  name.vb: New(Double)
+  fullName: SharedLibrary.Extensions.BigVal.BigVal(double)
+  fullName.vb: SharedLibrary.Extensions.BigVal.New(Double)
+  nameWithType: BigVal.BigVal(double)
+  nameWithType.vb: BigVal.New(Double)
+- uid: SharedLibrary.Extensions.BigVal.#ctor(System.Double,System.Int32)
+  name: BigVal(double, int)
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal__ctor_System_Double_System_Int32_
+  commentId: M:SharedLibrary.Extensions.BigVal.#ctor(System.Double,System.Int32)
+  name.vb: New(Double, Integer)
+  fullName: SharedLibrary.Extensions.BigVal.BigVal(double, int)
+  fullName.vb: SharedLibrary.Extensions.BigVal.New(Double, Integer)
+  nameWithType: BigVal.BigVal(double, int)
+  nameWithType.vb: BigVal.New(Double, Integer)
+- uid: SharedLibrary.Extensions.BigVal.#ctor*
+  name: BigVal
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal__ctor_
+  commentId: Overload:SharedLibrary.Extensions.BigVal.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Extensions.BigVal.BigVal
+  fullName.vb: SharedLibrary.Extensions.BigVal.New
+  nameWithType: BigVal.BigVal
+  nameWithType.vb: BigVal.New
+- uid: SharedLibrary.Extensions.BigVal.FromString(System.String)
+  name: FromString(string)
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_FromString_System_String_
+  commentId: M:SharedLibrary.Extensions.BigVal.FromString(System.String)
+  name.vb: FromString(String)
+  fullName: SharedLibrary.Extensions.BigVal.FromString(string)
+  fullName.vb: SharedLibrary.Extensions.BigVal.FromString(String)
+  nameWithType: BigVal.FromString(string)
+  nameWithType.vb: BigVal.FromString(String)
+- uid: SharedLibrary.Extensions.BigVal.FromString*
+  name: FromString
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_FromString_
+  commentId: Overload:SharedLibrary.Extensions.BigVal.FromString
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.BigVal.FromString
+  nameWithType: BigVal.FromString
+- uid: SharedLibrary.Extensions.BigVal.GetFormatValue
+  name: GetFormatValue()
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_GetFormatValue
+  commentId: M:SharedLibrary.Extensions.BigVal.GetFormatValue
+  fullName: SharedLibrary.Extensions.BigVal.GetFormatValue()
+  nameWithType: BigVal.GetFormatValue()
+- uid: SharedLibrary.Extensions.BigVal.GetFormatValue*
+  name: GetFormatValue
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_GetFormatValue_
+  commentId: Overload:SharedLibrary.Extensions.BigVal.GetFormatValue
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.BigVal.GetFormatValue
+  nameWithType: BigVal.GetFormatValue
+- uid: SharedLibrary.Extensions.BigVal.GetRoundFormatValue
+  name: GetRoundFormatValue()
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_GetRoundFormatValue
+  commentId: M:SharedLibrary.Extensions.BigVal.GetRoundFormatValue
+  fullName: SharedLibrary.Extensions.BigVal.GetRoundFormatValue()
+  nameWithType: BigVal.GetRoundFormatValue()
+- uid: SharedLibrary.Extensions.BigVal.GetRoundFormatValue*
+  name: GetRoundFormatValue
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_GetRoundFormatValue_
+  commentId: Overload:SharedLibrary.Extensions.BigVal.GetRoundFormatValue
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.BigVal.GetRoundFormatValue
+  nameWithType: BigVal.GetRoundFormatValue
+- uid: SharedLibrary.Extensions.BigVal.GetSmallFormatValue
+  name: GetSmallFormatValue()
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_GetSmallFormatValue
+  commentId: M:SharedLibrary.Extensions.BigVal.GetSmallFormatValue
+  fullName: SharedLibrary.Extensions.BigVal.GetSmallFormatValue()
+  nameWithType: BigVal.GetSmallFormatValue()
+- uid: SharedLibrary.Extensions.BigVal.GetSmallFormatValue*
+  name: GetSmallFormatValue
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_GetSmallFormatValue_
+  commentId: Overload:SharedLibrary.Extensions.BigVal.GetSmallFormatValue
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.BigVal.GetSmallFormatValue
+  nameWithType: BigVal.GetSmallFormatValue
+- uid: SharedLibrary.Extensions.BigVal.Normalize
+  name: Normalize()
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_Normalize
+  commentId: M:SharedLibrary.Extensions.BigVal.Normalize
+  fullName: SharedLibrary.Extensions.BigVal.Normalize()
+  nameWithType: BigVal.Normalize()
+- uid: SharedLibrary.Extensions.BigVal.Normalize*
+  name: Normalize
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_Normalize_
+  commentId: Overload:SharedLibrary.Extensions.BigVal.Normalize
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.BigVal.Normalize
+  nameWithType: BigVal.Normalize
+- uid: SharedLibrary.Extensions.BigVal.ToDoubleString
+  name: ToDoubleString()
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_ToDoubleString
+  commentId: M:SharedLibrary.Extensions.BigVal.ToDoubleString
+  fullName: SharedLibrary.Extensions.BigVal.ToDoubleString()
+  nameWithType: BigVal.ToDoubleString()
+- uid: SharedLibrary.Extensions.BigVal.ToDoubleString*
+  name: ToDoubleString
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_ToDoubleString_
+  commentId: Overload:SharedLibrary.Extensions.BigVal.ToDoubleString
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.BigVal.ToDoubleString
+  nameWithType: BigVal.ToDoubleString
+- uid: SharedLibrary.Extensions.BigVal.ToString
+  name: ToString()
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_ToString
+  commentId: M:SharedLibrary.Extensions.BigVal.ToString
+  fullName: SharedLibrary.Extensions.BigVal.ToString()
+  nameWithType: BigVal.ToString()
+- uid: SharedLibrary.Extensions.BigVal.ToString*
+  name: ToString
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_ToString_
+  commentId: Overload:SharedLibrary.Extensions.BigVal.ToString
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.BigVal.ToString
+  nameWithType: BigVal.ToString
+- uid: SharedLibrary.Extensions.BigVal.giga
+  name: giga
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_giga
+  commentId: F:SharedLibrary.Extensions.BigVal.giga
+  fullName: SharedLibrary.Extensions.BigVal.giga
+  nameWithType: BigVal.giga
+- uid: SharedLibrary.Extensions.BigVal.kilo
+  name: kilo
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_kilo
+  commentId: F:SharedLibrary.Extensions.BigVal.kilo
+  fullName: SharedLibrary.Extensions.BigVal.kilo
+  nameWithType: BigVal.kilo
+- uid: SharedLibrary.Extensions.BigVal.mega
+  name: mega
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_mega
+  commentId: F:SharedLibrary.Extensions.BigVal.mega
+  fullName: SharedLibrary.Extensions.BigVal.mega
+  nameWithType: BigVal.mega
+- uid: SharedLibrary.Extensions.BigVal.multiplier
+  name: multiplier
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_multiplier
+  commentId: P:SharedLibrary.Extensions.BigVal.multiplier
+  fullName: SharedLibrary.Extensions.BigVal.multiplier
+  nameWithType: BigVal.multiplier
+- uid: SharedLibrary.Extensions.BigVal.multiplier*
+  name: multiplier
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_multiplier_
+  commentId: Overload:SharedLibrary.Extensions.BigVal.multiplier
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.BigVal.multiplier
+  nameWithType: BigVal.multiplier
+- uid: SharedLibrary.Extensions.BigVal.one
+  name: one
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_one
+  commentId: F:SharedLibrary.Extensions.BigVal.one
+  fullName: SharedLibrary.Extensions.BigVal.one
+  nameWithType: BigVal.one
+- uid: SharedLibrary.Extensions.BigVal.op_Addition(SharedLibrary.Extensions.BigVal,SharedLibrary.Extensions.BigVal)
+  name: operator +(BigVal, BigVal)
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_op_Addition_SharedLibrary_Extensions_BigVal_SharedLibrary_Extensions_BigVal_
+  commentId: M:SharedLibrary.Extensions.BigVal.op_Addition(SharedLibrary.Extensions.BigVal,SharedLibrary.Extensions.BigVal)
+  name.vb: +(BigVal, BigVal)
+  fullName: SharedLibrary.Extensions.BigVal.operator +(SharedLibrary.Extensions.BigVal, SharedLibrary.Extensions.BigVal)
+  fullName.vb: SharedLibrary.Extensions.BigVal.+(SharedLibrary.Extensions.BigVal, SharedLibrary.Extensions.BigVal)
+  nameWithType: BigVal.operator +(BigVal, BigVal)
+  nameWithType.vb: BigVal.+(BigVal, BigVal)
+- uid: SharedLibrary.Extensions.BigVal.op_Addition*
+  name: operator +
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_op_Addition_
+  commentId: Overload:SharedLibrary.Extensions.BigVal.op_Addition
+  isSpec: "True"
+  name.vb: +
+  fullName: SharedLibrary.Extensions.BigVal.operator +
+  fullName.vb: SharedLibrary.Extensions.BigVal.+
+  nameWithType: BigVal.operator +
+  nameWithType.vb: BigVal.+
+- uid: SharedLibrary.Extensions.BigVal.op_Division(SharedLibrary.Extensions.BigVal,System.Double)
+  name: operator /(BigVal, double)
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_op_Division_SharedLibrary_Extensions_BigVal_System_Double_
+  commentId: M:SharedLibrary.Extensions.BigVal.op_Division(SharedLibrary.Extensions.BigVal,System.Double)
+  name.vb: /(BigVal, Double)
+  fullName: SharedLibrary.Extensions.BigVal.operator /(SharedLibrary.Extensions.BigVal, double)
+  fullName.vb: SharedLibrary.Extensions.BigVal./(SharedLibrary.Extensions.BigVal, Double)
+  nameWithType: BigVal.operator /(BigVal, double)
+  nameWithType.vb: BigVal./(BigVal, Double)
+- uid: SharedLibrary.Extensions.BigVal.op_Division*
+  name: operator /
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_op_Division_
+  commentId: Overload:SharedLibrary.Extensions.BigVal.op_Division
+  isSpec: "True"
+  name.vb: /
+  fullName: SharedLibrary.Extensions.BigVal.operator /
+  fullName.vb: SharedLibrary.Extensions.BigVal./
+  nameWithType: BigVal.operator /
+  nameWithType.vb: BigVal./
+- uid: SharedLibrary.Extensions.BigVal.op_Equality(SharedLibrary.Extensions.BigVal,SharedLibrary.Extensions.BigVal)
+  name: operator ==(BigVal, BigVal)
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_op_Equality_SharedLibrary_Extensions_BigVal_SharedLibrary_Extensions_BigVal_
+  commentId: M:SharedLibrary.Extensions.BigVal.op_Equality(SharedLibrary.Extensions.BigVal,SharedLibrary.Extensions.BigVal)
+  name.vb: =(BigVal, BigVal)
+  fullName: SharedLibrary.Extensions.BigVal.operator ==(SharedLibrary.Extensions.BigVal, SharedLibrary.Extensions.BigVal)
+  fullName.vb: SharedLibrary.Extensions.BigVal.=(SharedLibrary.Extensions.BigVal, SharedLibrary.Extensions.BigVal)
+  nameWithType: BigVal.operator ==(BigVal, BigVal)
+  nameWithType.vb: BigVal.=(BigVal, BigVal)
+- uid: SharedLibrary.Extensions.BigVal.op_Equality*
+  name: operator ==
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_op_Equality_
+  commentId: Overload:SharedLibrary.Extensions.BigVal.op_Equality
+  isSpec: "True"
+  name.vb: =
+  fullName: SharedLibrary.Extensions.BigVal.operator ==
+  fullName.vb: SharedLibrary.Extensions.BigVal.=
+  nameWithType: BigVal.operator ==
+  nameWithType.vb: BigVal.=
+- uid: SharedLibrary.Extensions.BigVal.op_GreaterThan(SharedLibrary.Extensions.BigVal,SharedLibrary.Extensions.BigVal)
+  name: operator >(BigVal, BigVal)
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_op_GreaterThan_SharedLibrary_Extensions_BigVal_SharedLibrary_Extensions_BigVal_
+  commentId: M:SharedLibrary.Extensions.BigVal.op_GreaterThan(SharedLibrary.Extensions.BigVal,SharedLibrary.Extensions.BigVal)
+  name.vb: '>(BigVal, BigVal)'
+  fullName: SharedLibrary.Extensions.BigVal.operator >(SharedLibrary.Extensions.BigVal, SharedLibrary.Extensions.BigVal)
+  fullName.vb: SharedLibrary.Extensions.BigVal.>(SharedLibrary.Extensions.BigVal, SharedLibrary.Extensions.BigVal)
+  nameWithType: BigVal.operator >(BigVal, BigVal)
+  nameWithType.vb: BigVal.>(BigVal, BigVal)
+- uid: SharedLibrary.Extensions.BigVal.op_GreaterThan*
+  name: operator >
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_op_GreaterThan_
+  commentId: Overload:SharedLibrary.Extensions.BigVal.op_GreaterThan
+  isSpec: "True"
+  name.vb: '>'
+  fullName: SharedLibrary.Extensions.BigVal.operator >
+  fullName.vb: SharedLibrary.Extensions.BigVal.>
+  nameWithType: BigVal.operator >
+  nameWithType.vb: BigVal.>
+- uid: SharedLibrary.Extensions.BigVal.op_GreaterThanOrEqual(SharedLibrary.Extensions.BigVal,SharedLibrary.Extensions.BigVal)
+  name: operator >=(BigVal, BigVal)
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_op_GreaterThanOrEqual_SharedLibrary_Extensions_BigVal_SharedLibrary_Extensions_BigVal_
+  commentId: M:SharedLibrary.Extensions.BigVal.op_GreaterThanOrEqual(SharedLibrary.Extensions.BigVal,SharedLibrary.Extensions.BigVal)
+  name.vb: '>=(BigVal, BigVal)'
+  fullName: SharedLibrary.Extensions.BigVal.operator >=(SharedLibrary.Extensions.BigVal, SharedLibrary.Extensions.BigVal)
+  fullName.vb: SharedLibrary.Extensions.BigVal.>=(SharedLibrary.Extensions.BigVal, SharedLibrary.Extensions.BigVal)
+  nameWithType: BigVal.operator >=(BigVal, BigVal)
+  nameWithType.vb: BigVal.>=(BigVal, BigVal)
+- uid: SharedLibrary.Extensions.BigVal.op_GreaterThanOrEqual*
+  name: operator >=
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_op_GreaterThanOrEqual_
+  commentId: Overload:SharedLibrary.Extensions.BigVal.op_GreaterThanOrEqual
+  isSpec: "True"
+  name.vb: '>='
+  fullName: SharedLibrary.Extensions.BigVal.operator >=
+  fullName.vb: SharedLibrary.Extensions.BigVal.>=
+  nameWithType: BigVal.operator >=
+  nameWithType.vb: BigVal.>=
+- uid: SharedLibrary.Extensions.BigVal.op_Implicit(System.Double)~SharedLibrary.Extensions.BigVal
+  name: implicit operator BigVal(double)
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_op_Implicit_System_Double__SharedLibrary_Extensions_BigVal
+  commentId: M:SharedLibrary.Extensions.BigVal.op_Implicit(System.Double)~SharedLibrary.Extensions.BigVal
+  name.vb: CType(Double)
+  fullName: SharedLibrary.Extensions.BigVal.implicit operator SharedLibrary.Extensions.BigVal(double)
+  fullName.vb: SharedLibrary.Extensions.BigVal.CType(Double)
+  nameWithType: BigVal.implicit operator BigVal(double)
+  nameWithType.vb: BigVal.CType(Double)
+- uid: SharedLibrary.Extensions.BigVal.op_Implicit(System.Int32)~SharedLibrary.Extensions.BigVal
+  name: implicit operator BigVal(int)
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_op_Implicit_System_Int32__SharedLibrary_Extensions_BigVal
+  commentId: M:SharedLibrary.Extensions.BigVal.op_Implicit(System.Int32)~SharedLibrary.Extensions.BigVal
+  name.vb: CType(Integer)
+  fullName: SharedLibrary.Extensions.BigVal.implicit operator SharedLibrary.Extensions.BigVal(int)
+  fullName.vb: SharedLibrary.Extensions.BigVal.CType(Integer)
+  nameWithType: BigVal.implicit operator BigVal(int)
+  nameWithType.vb: BigVal.CType(Integer)
+- uid: SharedLibrary.Extensions.BigVal.op_Implicit(System.Int64)~SharedLibrary.Extensions.BigVal
+  name: implicit operator BigVal(long)
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_op_Implicit_System_Int64__SharedLibrary_Extensions_BigVal
+  commentId: M:SharedLibrary.Extensions.BigVal.op_Implicit(System.Int64)~SharedLibrary.Extensions.BigVal
+  name.vb: CType(Long)
+  fullName: SharedLibrary.Extensions.BigVal.implicit operator SharedLibrary.Extensions.BigVal(long)
+  fullName.vb: SharedLibrary.Extensions.BigVal.CType(Long)
+  nameWithType: BigVal.implicit operator BigVal(long)
+  nameWithType.vb: BigVal.CType(Long)
+- uid: SharedLibrary.Extensions.BigVal.op_Implicit(System.Single)~SharedLibrary.Extensions.BigVal
+  name: implicit operator BigVal(float)
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_op_Implicit_System_Single__SharedLibrary_Extensions_BigVal
+  commentId: M:SharedLibrary.Extensions.BigVal.op_Implicit(System.Single)~SharedLibrary.Extensions.BigVal
+  name.vb: CType(Single)
+  fullName: SharedLibrary.Extensions.BigVal.implicit operator SharedLibrary.Extensions.BigVal(float)
+  fullName.vb: SharedLibrary.Extensions.BigVal.CType(Single)
+  nameWithType: BigVal.implicit operator BigVal(float)
+  nameWithType.vb: BigVal.CType(Single)
+- uid: SharedLibrary.Extensions.BigVal.op_Implicit(System.String)~SharedLibrary.Extensions.BigVal
+  name: implicit operator BigVal(string)
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_op_Implicit_System_String__SharedLibrary_Extensions_BigVal
+  commentId: M:SharedLibrary.Extensions.BigVal.op_Implicit(System.String)~SharedLibrary.Extensions.BigVal
+  name.vb: CType(String)
+  fullName: SharedLibrary.Extensions.BigVal.implicit operator SharedLibrary.Extensions.BigVal(string)
+  fullName.vb: SharedLibrary.Extensions.BigVal.CType(String)
+  nameWithType: BigVal.implicit operator BigVal(string)
+  nameWithType.vb: BigVal.CType(String)
+- uid: SharedLibrary.Extensions.BigVal.op_Implicit*
+  name: implicit operator
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_op_Implicit_
+  commentId: Overload:SharedLibrary.Extensions.BigVal.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: SharedLibrary.Extensions.BigVal.implicit operator
+  fullName.vb: SharedLibrary.Extensions.BigVal.CType
+  nameWithType: BigVal.implicit operator
+  nameWithType.vb: BigVal.CType
+- uid: SharedLibrary.Extensions.BigVal.op_Inequality(SharedLibrary.Extensions.BigVal,SharedLibrary.Extensions.BigVal)
+  name: operator !=(BigVal, BigVal)
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_op_Inequality_SharedLibrary_Extensions_BigVal_SharedLibrary_Extensions_BigVal_
+  commentId: M:SharedLibrary.Extensions.BigVal.op_Inequality(SharedLibrary.Extensions.BigVal,SharedLibrary.Extensions.BigVal)
+  name.vb: <>(BigVal, BigVal)
+  fullName: SharedLibrary.Extensions.BigVal.operator !=(SharedLibrary.Extensions.BigVal, SharedLibrary.Extensions.BigVal)
+  fullName.vb: SharedLibrary.Extensions.BigVal.<>(SharedLibrary.Extensions.BigVal, SharedLibrary.Extensions.BigVal)
+  nameWithType: BigVal.operator !=(BigVal, BigVal)
+  nameWithType.vb: BigVal.<>(BigVal, BigVal)
+- uid: SharedLibrary.Extensions.BigVal.op_Inequality*
+  name: operator !=
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_op_Inequality_
+  commentId: Overload:SharedLibrary.Extensions.BigVal.op_Inequality
+  isSpec: "True"
+  name.vb: <>
+  fullName: SharedLibrary.Extensions.BigVal.operator !=
+  fullName.vb: SharedLibrary.Extensions.BigVal.<>
+  nameWithType: BigVal.operator !=
+  nameWithType.vb: BigVal.<>
+- uid: SharedLibrary.Extensions.BigVal.op_LessThan(SharedLibrary.Extensions.BigVal,SharedLibrary.Extensions.BigVal)
+  name: operator <(BigVal, BigVal)
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_op_LessThan_SharedLibrary_Extensions_BigVal_SharedLibrary_Extensions_BigVal_
+  commentId: M:SharedLibrary.Extensions.BigVal.op_LessThan(SharedLibrary.Extensions.BigVal,SharedLibrary.Extensions.BigVal)
+  name.vb: <(BigVal, BigVal)
+  fullName: SharedLibrary.Extensions.BigVal.operator <(SharedLibrary.Extensions.BigVal, SharedLibrary.Extensions.BigVal)
+  fullName.vb: SharedLibrary.Extensions.BigVal.<(SharedLibrary.Extensions.BigVal, SharedLibrary.Extensions.BigVal)
+  nameWithType: BigVal.operator <(BigVal, BigVal)
+  nameWithType.vb: BigVal.<(BigVal, BigVal)
+- uid: SharedLibrary.Extensions.BigVal.op_LessThan*
+  name: operator <
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_op_LessThan_
+  commentId: Overload:SharedLibrary.Extensions.BigVal.op_LessThan
+  isSpec: "True"
+  name.vb: <
+  fullName: SharedLibrary.Extensions.BigVal.operator <
+  fullName.vb: SharedLibrary.Extensions.BigVal.<
+  nameWithType: BigVal.operator <
+  nameWithType.vb: BigVal.<
+- uid: SharedLibrary.Extensions.BigVal.op_LessThanOrEqual(SharedLibrary.Extensions.BigVal,SharedLibrary.Extensions.BigVal)
+  name: operator <=(BigVal, BigVal)
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_op_LessThanOrEqual_SharedLibrary_Extensions_BigVal_SharedLibrary_Extensions_BigVal_
+  commentId: M:SharedLibrary.Extensions.BigVal.op_LessThanOrEqual(SharedLibrary.Extensions.BigVal,SharedLibrary.Extensions.BigVal)
+  name.vb: <=(BigVal, BigVal)
+  fullName: SharedLibrary.Extensions.BigVal.operator <=(SharedLibrary.Extensions.BigVal, SharedLibrary.Extensions.BigVal)
+  fullName.vb: SharedLibrary.Extensions.BigVal.<=(SharedLibrary.Extensions.BigVal, SharedLibrary.Extensions.BigVal)
+  nameWithType: BigVal.operator <=(BigVal, BigVal)
+  nameWithType.vb: BigVal.<=(BigVal, BigVal)
+- uid: SharedLibrary.Extensions.BigVal.op_LessThanOrEqual*
+  name: operator <=
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_op_LessThanOrEqual_
+  commentId: Overload:SharedLibrary.Extensions.BigVal.op_LessThanOrEqual
+  isSpec: "True"
+  name.vb: <=
+  fullName: SharedLibrary.Extensions.BigVal.operator <=
+  fullName.vb: SharedLibrary.Extensions.BigVal.<=
+  nameWithType: BigVal.operator <=
+  nameWithType.vb: BigVal.<=
+- uid: SharedLibrary.Extensions.BigVal.op_Multiply(SharedLibrary.Extensions.BigVal,System.Double)
+  name: operator *(BigVal, double)
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_op_Multiply_SharedLibrary_Extensions_BigVal_System_Double_
+  commentId: M:SharedLibrary.Extensions.BigVal.op_Multiply(SharedLibrary.Extensions.BigVal,System.Double)
+  name.vb: '*(BigVal, Double)'
+  fullName: SharedLibrary.Extensions.BigVal.operator *(SharedLibrary.Extensions.BigVal, double)
+  fullName.vb: SharedLibrary.Extensions.BigVal.*(SharedLibrary.Extensions.BigVal, Double)
+  nameWithType: BigVal.operator *(BigVal, double)
+  nameWithType.vb: BigVal.*(BigVal, Double)
+- uid: SharedLibrary.Extensions.BigVal.op_Multiply*
+  name: operator *
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_op_Multiply_
+  commentId: Overload:SharedLibrary.Extensions.BigVal.op_Multiply
+  isSpec: "True"
+  name.vb: '*'
+  fullName: SharedLibrary.Extensions.BigVal.operator *
+  fullName.vb: SharedLibrary.Extensions.BigVal.*
+  nameWithType: BigVal.operator *
+  nameWithType.vb: BigVal.*
+- uid: SharedLibrary.Extensions.BigVal.op_Subtraction(SharedLibrary.Extensions.BigVal,SharedLibrary.Extensions.BigVal)
+  name: operator -(BigVal, BigVal)
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_op_Subtraction_SharedLibrary_Extensions_BigVal_SharedLibrary_Extensions_BigVal_
+  commentId: M:SharedLibrary.Extensions.BigVal.op_Subtraction(SharedLibrary.Extensions.BigVal,SharedLibrary.Extensions.BigVal)
+  name.vb: -(BigVal, BigVal)
+  fullName: SharedLibrary.Extensions.BigVal.operator -(SharedLibrary.Extensions.BigVal, SharedLibrary.Extensions.BigVal)
+  fullName.vb: SharedLibrary.Extensions.BigVal.-(SharedLibrary.Extensions.BigVal, SharedLibrary.Extensions.BigVal)
+  nameWithType: BigVal.operator -(BigVal, BigVal)
+  nameWithType.vb: BigVal.-(BigVal, BigVal)
+- uid: SharedLibrary.Extensions.BigVal.op_Subtraction*
+  name: operator -
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_op_Subtraction_
+  commentId: Overload:SharedLibrary.Extensions.BigVal.op_Subtraction
+  isSpec: "True"
+  name.vb: '-'
+  fullName: SharedLibrary.Extensions.BigVal.operator -
+  fullName.vb: SharedLibrary.Extensions.BigVal.-
+  nameWithType: BigVal.operator -
+  nameWithType.vb: BigVal.-
+- uid: SharedLibrary.Extensions.BigVal.peta
+  name: peta
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_peta
+  commentId: F:SharedLibrary.Extensions.BigVal.peta
+  fullName: SharedLibrary.Extensions.BigVal.peta
+  nameWithType: BigVal.peta
+- uid: SharedLibrary.Extensions.BigVal.resource
+  name: resource
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_resource
+  commentId: P:SharedLibrary.Extensions.BigVal.resource
+  fullName: SharedLibrary.Extensions.BigVal.resource
+  nameWithType: BigVal.resource
+- uid: SharedLibrary.Extensions.BigVal.resource*
+  name: resource
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_resource_
+  commentId: Overload:SharedLibrary.Extensions.BigVal.resource
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.BigVal.resource
+  nameWithType: BigVal.resource
+- uid: SharedLibrary.Extensions.BigVal.tera
+  name: tera
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_tera
+  commentId: F:SharedLibrary.Extensions.BigVal.tera
+  fullName: SharedLibrary.Extensions.BigVal.tera
+  nameWithType: BigVal.tera
+- uid: SharedLibrary.Extensions.BigVal.zero
+  name: zero
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_zero
+  commentId: F:SharedLibrary.Extensions.BigVal.zero
+  fullName: SharedLibrary.Extensions.BigVal.zero
+  nameWithType: BigVal.zero
+- uid: SharedLibrary.Extensions.PlayerIslandsExtension
+  name: PlayerIslandsExtension
+  href: api/api/SharedLibrary.Extensions.PlayerIslandsExtension.html
+  commentId: T:SharedLibrary.Extensions.PlayerIslandsExtension
+  fullName: SharedLibrary.Extensions.PlayerIslandsExtension
+  nameWithType: PlayerIslandsExtension
+- uid: SharedLibrary.Extensions.PlayerIslandsExtension.AddIsland(SharedLibrary.Data.Player,System.String)
+  name: AddIsland(Player, string)
+  href: api/api/SharedLibrary.Extensions.PlayerIslandsExtension.html#SharedLibrary_Extensions_PlayerIslandsExtension_AddIsland_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Extensions.PlayerIslandsExtension.AddIsland(SharedLibrary.Data.Player,System.String)
+  name.vb: AddIsland(Player, String)
+  fullName: SharedLibrary.Extensions.PlayerIslandsExtension.AddIsland(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Extensions.PlayerIslandsExtension.AddIsland(SharedLibrary.Data.Player, String)
+  nameWithType: PlayerIslandsExtension.AddIsland(Player, string)
+  nameWithType.vb: PlayerIslandsExtension.AddIsland(Player, String)
+- uid: SharedLibrary.Extensions.PlayerIslandsExtension.AddIsland*
+  name: AddIsland
+  href: api/api/SharedLibrary.Extensions.PlayerIslandsExtension.html#SharedLibrary_Extensions_PlayerIslandsExtension_AddIsland_
+  commentId: Overload:SharedLibrary.Extensions.PlayerIslandsExtension.AddIsland
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.PlayerIslandsExtension.AddIsland
+  nameWithType: PlayerIslandsExtension.AddIsland
+- uid: SharedLibrary.Extensions.PlayerIslandsExtension.GetIslandById(SharedLibrary.Data.Player,System.String)
+  name: GetIslandById(Player, string)
+  href: api/api/SharedLibrary.Extensions.PlayerIslandsExtension.html#SharedLibrary_Extensions_PlayerIslandsExtension_GetIslandById_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Extensions.PlayerIslandsExtension.GetIslandById(SharedLibrary.Data.Player,System.String)
+  name.vb: GetIslandById(Player, String)
+  fullName: SharedLibrary.Extensions.PlayerIslandsExtension.GetIslandById(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Extensions.PlayerIslandsExtension.GetIslandById(SharedLibrary.Data.Player, String)
+  nameWithType: PlayerIslandsExtension.GetIslandById(Player, string)
+  nameWithType.vb: PlayerIslandsExtension.GetIslandById(Player, String)
+- uid: SharedLibrary.Extensions.PlayerIslandsExtension.GetIslandById*
+  name: GetIslandById
+  href: api/api/SharedLibrary.Extensions.PlayerIslandsExtension.html#SharedLibrary_Extensions_PlayerIslandsExtension_GetIslandById_
+  commentId: Overload:SharedLibrary.Extensions.PlayerIslandsExtension.GetIslandById
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.PlayerIslandsExtension.GetIslandById
+  nameWithType: PlayerIslandsExtension.GetIslandById
+- uid: SharedLibrary.Extensions.PlayerIslandsExtension.GetTotalCozyPoints(SharedLibrary.Data.Player)
+  name: GetTotalCozyPoints(Player)
+  href: api/api/SharedLibrary.Extensions.PlayerIslandsExtension.html#SharedLibrary_Extensions_PlayerIslandsExtension_GetTotalCozyPoints_SharedLibrary_Data_Player_
+  commentId: M:SharedLibrary.Extensions.PlayerIslandsExtension.GetTotalCozyPoints(SharedLibrary.Data.Player)
+  fullName: SharedLibrary.Extensions.PlayerIslandsExtension.GetTotalCozyPoints(SharedLibrary.Data.Player)
+  nameWithType: PlayerIslandsExtension.GetTotalCozyPoints(Player)
+- uid: SharedLibrary.Extensions.PlayerIslandsExtension.GetTotalCozyPoints*
+  name: GetTotalCozyPoints
+  href: api/api/SharedLibrary.Extensions.PlayerIslandsExtension.html#SharedLibrary_Extensions_PlayerIslandsExtension_GetTotalCozyPoints_
+  commentId: Overload:SharedLibrary.Extensions.PlayerIslandsExtension.GetTotalCozyPoints
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.PlayerIslandsExtension.GetTotalCozyPoints
+  nameWithType: PlayerIslandsExtension.GetTotalCozyPoints
+- uid: SharedLibrary.Extensions.PlayerIslandsExtension.HasIsland(SharedLibrary.Data.Player,System.String)
+  name: HasIsland(Player, string)
+  href: api/api/SharedLibrary.Extensions.PlayerIslandsExtension.html#SharedLibrary_Extensions_PlayerIslandsExtension_HasIsland_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Extensions.PlayerIslandsExtension.HasIsland(SharedLibrary.Data.Player,System.String)
+  name.vb: HasIsland(Player, String)
+  fullName: SharedLibrary.Extensions.PlayerIslandsExtension.HasIsland(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Extensions.PlayerIslandsExtension.HasIsland(SharedLibrary.Data.Player, String)
+  nameWithType: PlayerIslandsExtension.HasIsland(Player, string)
+  nameWithType.vb: PlayerIslandsExtension.HasIsland(Player, String)
+- uid: SharedLibrary.Extensions.PlayerIslandsExtension.HasIsland*
+  name: HasIsland
+  href: api/api/SharedLibrary.Extensions.PlayerIslandsExtension.html#SharedLibrary_Extensions_PlayerIslandsExtension_HasIsland_
+  commentId: Overload:SharedLibrary.Extensions.PlayerIslandsExtension.HasIsland
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.PlayerIslandsExtension.HasIsland
+  nameWithType: PlayerIslandsExtension.HasIsland
+- uid: SharedLibrary.Extensions.PlayerParametersExtension
+  name: PlayerParametersExtension
+  href: api/api/SharedLibrary.Extensions.PlayerParametersExtension.html
+  commentId: T:SharedLibrary.Extensions.PlayerParametersExtension
+  fullName: SharedLibrary.Extensions.PlayerParametersExtension
+  nameWithType: PlayerParametersExtension
+- uid: SharedLibrary.Extensions.PlayerParametersExtension.AddResource(SharedLibrary.Data.Player,SharedLibrary.Data.ResourceType,SharedLibrary.Extensions.BigVal)
+  name: AddResource(Player, ResourceType, BigVal)
+  href: api/api/SharedLibrary.Extensions.PlayerParametersExtension.html#SharedLibrary_Extensions_PlayerParametersExtension_AddResource_SharedLibrary_Data_Player_SharedLibrary_Data_ResourceType_SharedLibrary_Extensions_BigVal_
+  commentId: M:SharedLibrary.Extensions.PlayerParametersExtension.AddResource(SharedLibrary.Data.Player,SharedLibrary.Data.ResourceType,SharedLibrary.Extensions.BigVal)
+  fullName: SharedLibrary.Extensions.PlayerParametersExtension.AddResource(SharedLibrary.Data.Player, SharedLibrary.Data.ResourceType, SharedLibrary.Extensions.BigVal)
+  nameWithType: PlayerParametersExtension.AddResource(Player, ResourceType, BigVal)
+- uid: SharedLibrary.Extensions.PlayerParametersExtension.AddResource(SharedLibrary.Data.Player,SharedLibrary.Data.ResourceType,System.Int32)
+  name: AddResource(Player, ResourceType, int)
+  href: api/api/SharedLibrary.Extensions.PlayerParametersExtension.html#SharedLibrary_Extensions_PlayerParametersExtension_AddResource_SharedLibrary_Data_Player_SharedLibrary_Data_ResourceType_System_Int32_
+  commentId: M:SharedLibrary.Extensions.PlayerParametersExtension.AddResource(SharedLibrary.Data.Player,SharedLibrary.Data.ResourceType,System.Int32)
+  name.vb: AddResource(Player, ResourceType, Integer)
+  fullName: SharedLibrary.Extensions.PlayerParametersExtension.AddResource(SharedLibrary.Data.Player, SharedLibrary.Data.ResourceType, int)
+  fullName.vb: SharedLibrary.Extensions.PlayerParametersExtension.AddResource(SharedLibrary.Data.Player, SharedLibrary.Data.ResourceType, Integer)
+  nameWithType: PlayerParametersExtension.AddResource(Player, ResourceType, int)
+  nameWithType.vb: PlayerParametersExtension.AddResource(Player, ResourceType, Integer)
+- uid: SharedLibrary.Extensions.PlayerParametersExtension.AddResource*
+  name: AddResource
+  href: api/api/SharedLibrary.Extensions.PlayerParametersExtension.html#SharedLibrary_Extensions_PlayerParametersExtension_AddResource_
+  commentId: Overload:SharedLibrary.Extensions.PlayerParametersExtension.AddResource
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.PlayerParametersExtension.AddResource
+  nameWithType: PlayerParametersExtension.AddResource
+- uid: SharedLibrary.Extensions.PlayerParametersExtension.GetResourceFormatedValue(SharedLibrary.Data.Player,SharedLibrary.Data.ResourceType)
+  name: GetResourceFormatedValue(Player, ResourceType)
+  href: api/api/SharedLibrary.Extensions.PlayerParametersExtension.html#SharedLibrary_Extensions_PlayerParametersExtension_GetResourceFormatedValue_SharedLibrary_Data_Player_SharedLibrary_Data_ResourceType_
+  commentId: M:SharedLibrary.Extensions.PlayerParametersExtension.GetResourceFormatedValue(SharedLibrary.Data.Player,SharedLibrary.Data.ResourceType)
+  fullName: SharedLibrary.Extensions.PlayerParametersExtension.GetResourceFormatedValue(SharedLibrary.Data.Player, SharedLibrary.Data.ResourceType)
+  nameWithType: PlayerParametersExtension.GetResourceFormatedValue(Player, ResourceType)
+- uid: SharedLibrary.Extensions.PlayerParametersExtension.GetResourceFormatedValue*
+  name: GetResourceFormatedValue
+  href: api/api/SharedLibrary.Extensions.PlayerParametersExtension.html#SharedLibrary_Extensions_PlayerParametersExtension_GetResourceFormatedValue_
+  commentId: Overload:SharedLibrary.Extensions.PlayerParametersExtension.GetResourceFormatedValue
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.PlayerParametersExtension.GetResourceFormatedValue
+  nameWithType: PlayerParametersExtension.GetResourceFormatedValue
+- uid: SharedLibrary.Extensions.PlayerParametersExtension.GetResourceValue(SharedLibrary.Data.Player,SharedLibrary.Data.ResourceType)
+  name: GetResourceValue(Player, ResourceType)
+  href: api/api/SharedLibrary.Extensions.PlayerParametersExtension.html#SharedLibrary_Extensions_PlayerParametersExtension_GetResourceValue_SharedLibrary_Data_Player_SharedLibrary_Data_ResourceType_
+  commentId: M:SharedLibrary.Extensions.PlayerParametersExtension.GetResourceValue(SharedLibrary.Data.Player,SharedLibrary.Data.ResourceType)
+  fullName: SharedLibrary.Extensions.PlayerParametersExtension.GetResourceValue(SharedLibrary.Data.Player, SharedLibrary.Data.ResourceType)
+  nameWithType: PlayerParametersExtension.GetResourceValue(Player, ResourceType)
+- uid: SharedLibrary.Extensions.PlayerParametersExtension.GetResourceValue*
+  name: GetResourceValue
+  href: api/api/SharedLibrary.Extensions.PlayerParametersExtension.html#SharedLibrary_Extensions_PlayerParametersExtension_GetResourceValue_
+  commentId: Overload:SharedLibrary.Extensions.PlayerParametersExtension.GetResourceValue
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.PlayerParametersExtension.GetResourceValue
+  nameWithType: PlayerParametersExtension.GetResourceValue
+- uid: SharedLibrary.Extensions.PlayerParametersExtension.HasResource(SharedLibrary.Data.Player,SharedLibrary.Data.ResourceType,SharedLibrary.Extensions.BigVal)
+  name: HasResource(Player, ResourceType, BigVal)
+  href: api/api/SharedLibrary.Extensions.PlayerParametersExtension.html#SharedLibrary_Extensions_PlayerParametersExtension_HasResource_SharedLibrary_Data_Player_SharedLibrary_Data_ResourceType_SharedLibrary_Extensions_BigVal_
+  commentId: M:SharedLibrary.Extensions.PlayerParametersExtension.HasResource(SharedLibrary.Data.Player,SharedLibrary.Data.ResourceType,SharedLibrary.Extensions.BigVal)
+  fullName: SharedLibrary.Extensions.PlayerParametersExtension.HasResource(SharedLibrary.Data.Player, SharedLibrary.Data.ResourceType, SharedLibrary.Extensions.BigVal)
+  nameWithType: PlayerParametersExtension.HasResource(Player, ResourceType, BigVal)
+- uid: SharedLibrary.Extensions.PlayerParametersExtension.HasResource*
+  name: HasResource
+  href: api/api/SharedLibrary.Extensions.PlayerParametersExtension.html#SharedLibrary_Extensions_PlayerParametersExtension_HasResource_
+  commentId: Overload:SharedLibrary.Extensions.PlayerParametersExtension.HasResource
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.PlayerParametersExtension.HasResource
+  nameWithType: PlayerParametersExtension.HasResource
+- uid: SharedLibrary.Extensions.PlayerParametersExtension.SubtractResource(SharedLibrary.Data.Player,SharedLibrary.Data.ResourceType,SharedLibrary.Extensions.BigVal)
+  name: SubtractResource(Player, ResourceType, BigVal)
+  href: api/api/SharedLibrary.Extensions.PlayerParametersExtension.html#SharedLibrary_Extensions_PlayerParametersExtension_SubtractResource_SharedLibrary_Data_Player_SharedLibrary_Data_ResourceType_SharedLibrary_Extensions_BigVal_
+  commentId: M:SharedLibrary.Extensions.PlayerParametersExtension.SubtractResource(SharedLibrary.Data.Player,SharedLibrary.Data.ResourceType,SharedLibrary.Extensions.BigVal)
+  fullName: SharedLibrary.Extensions.PlayerParametersExtension.SubtractResource(SharedLibrary.Data.Player, SharedLibrary.Data.ResourceType, SharedLibrary.Extensions.BigVal)
+  nameWithType: PlayerParametersExtension.SubtractResource(Player, ResourceType, BigVal)
+- uid: SharedLibrary.Extensions.PlayerParametersExtension.SubtractResource(SharedLibrary.Data.Player,SharedLibrary.Data.ResourceType,System.Int32)
+  name: SubtractResource(Player, ResourceType, int)
+  href: api/api/SharedLibrary.Extensions.PlayerParametersExtension.html#SharedLibrary_Extensions_PlayerParametersExtension_SubtractResource_SharedLibrary_Data_Player_SharedLibrary_Data_ResourceType_System_Int32_
+  commentId: M:SharedLibrary.Extensions.PlayerParametersExtension.SubtractResource(SharedLibrary.Data.Player,SharedLibrary.Data.ResourceType,System.Int32)
+  name.vb: SubtractResource(Player, ResourceType, Integer)
+  fullName: SharedLibrary.Extensions.PlayerParametersExtension.SubtractResource(SharedLibrary.Data.Player, SharedLibrary.Data.ResourceType, int)
+  fullName.vb: SharedLibrary.Extensions.PlayerParametersExtension.SubtractResource(SharedLibrary.Data.Player, SharedLibrary.Data.ResourceType, Integer)
+  nameWithType: PlayerParametersExtension.SubtractResource(Player, ResourceType, int)
+  nameWithType.vb: PlayerParametersExtension.SubtractResource(Player, ResourceType, Integer)
+- uid: SharedLibrary.Extensions.PlayerParametersExtension.SubtractResource*
+  name: SubtractResource
+  href: api/api/SharedLibrary.Extensions.PlayerParametersExtension.html#SharedLibrary_Extensions_PlayerParametersExtension_SubtractResource_
+  commentId: Overload:SharedLibrary.Extensions.PlayerParametersExtension.SubtractResource
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.PlayerParametersExtension.SubtractResource
+  nameWithType: PlayerParametersExtension.SubtractResource
+- uid: SharedLibrary.Managers
+  name: SharedLibrary.Managers
+  href: api/api/SharedLibrary.Managers.html
+  commentId: N:SharedLibrary.Managers
+  fullName: SharedLibrary.Managers
+  nameWithType: SharedLibrary.Managers
+- uid: SharedLibrary.Managers.TasksManager
+  name: TasksManager
+  href: api/api/SharedLibrary.Managers.TasksManager.html
+  commentId: T:SharedLibrary.Managers.TasksManager
+  fullName: SharedLibrary.Managers.TasksManager
+  nameWithType: TasksManager
+- uid: SharedLibrary.Managers.TasksManager.#ctor
+  name: TasksManager()
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager__ctor
+  commentId: M:SharedLibrary.Managers.TasksManager.#ctor
+  name.vb: New()
+  fullName: SharedLibrary.Managers.TasksManager.TasksManager()
+  fullName.vb: SharedLibrary.Managers.TasksManager.New()
+  nameWithType: TasksManager.TasksManager()
+  nameWithType.vb: TasksManager.New()
+- uid: SharedLibrary.Managers.TasksManager.#ctor*
+  name: TasksManager
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager__ctor_
+  commentId: Overload:SharedLibrary.Managers.TasksManager.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Managers.TasksManager.TasksManager
+  fullName.vb: SharedLibrary.Managers.TasksManager.New
+  nameWithType: TasksManager.TasksManager
+  nameWithType.vb: TasksManager.New
+- uid: SharedLibrary.Managers.TasksManager.AddMissionFromSuggestions(SharedLibrary.Data.Player,System.String)
+  name: AddMissionFromSuggestions(Player, string)
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_AddMissionFromSuggestions_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Managers.TasksManager.AddMissionFromSuggestions(SharedLibrary.Data.Player,System.String)
+  name.vb: AddMissionFromSuggestions(Player, String)
+  fullName: SharedLibrary.Managers.TasksManager.AddMissionFromSuggestions(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Managers.TasksManager.AddMissionFromSuggestions(SharedLibrary.Data.Player, String)
+  nameWithType: TasksManager.AddMissionFromSuggestions(Player, string)
+  nameWithType.vb: TasksManager.AddMissionFromSuggestions(Player, String)
+- uid: SharedLibrary.Managers.TasksManager.AddMissionFromSuggestions*
+  name: AddMissionFromSuggestions
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_AddMissionFromSuggestions_
+  commentId: Overload:SharedLibrary.Managers.TasksManager.AddMissionFromSuggestions
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.TasksManager.AddMissionFromSuggestions
+  nameWithType: TasksManager.AddMissionFromSuggestions
+- uid: SharedLibrary.Managers.TasksManager.CompleteMission(SharedLibrary.Data.Player,System.String)
+  name: CompleteMission(Player, string)
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_CompleteMission_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Managers.TasksManager.CompleteMission(SharedLibrary.Data.Player,System.String)
+  name.vb: CompleteMission(Player, String)
+  fullName: SharedLibrary.Managers.TasksManager.CompleteMission(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Managers.TasksManager.CompleteMission(SharedLibrary.Data.Player, String)
+  nameWithType: TasksManager.CompleteMission(Player, string)
+  nameWithType.vb: TasksManager.CompleteMission(Player, String)
+- uid: SharedLibrary.Managers.TasksManager.CompleteMission*
+  name: CompleteMission
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_CompleteMission_
+  commentId: Overload:SharedLibrary.Managers.TasksManager.CompleteMission
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.TasksManager.CompleteMission
+  nameWithType: TasksManager.CompleteMission
+- uid: SharedLibrary.Managers.TasksManager.GetPlayerTasks(SharedLibrary.Data.Player)
+  name: GetPlayerTasks(Player)
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_GetPlayerTasks_SharedLibrary_Data_Player_
+  commentId: M:SharedLibrary.Managers.TasksManager.GetPlayerTasks(SharedLibrary.Data.Player)
+  fullName: SharedLibrary.Managers.TasksManager.GetPlayerTasks(SharedLibrary.Data.Player)
+  nameWithType: TasksManager.GetPlayerTasks(Player)
+- uid: SharedLibrary.Managers.TasksManager.GetPlayerTasks*
+  name: GetPlayerTasks
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_GetPlayerTasks_
+  commentId: Overload:SharedLibrary.Managers.TasksManager.GetPlayerTasks
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.TasksManager.GetPlayerTasks
+  nameWithType: TasksManager.GetPlayerTasks
+- uid: SharedLibrary.Managers.TasksManager.UpdateTask(SharedLibrary.Data.Player,SharedLibrary.Data.Tasks.TaskSelfCare)
+  name: UpdateTask(Player, TaskSelfCare)
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_UpdateTask_SharedLibrary_Data_Player_SharedLibrary_Data_Tasks_TaskSelfCare_
+  commentId: M:SharedLibrary.Managers.TasksManager.UpdateTask(SharedLibrary.Data.Player,SharedLibrary.Data.Tasks.TaskSelfCare)
+  fullName: SharedLibrary.Managers.TasksManager.UpdateTask(SharedLibrary.Data.Player, SharedLibrary.Data.Tasks.TaskSelfCare)
+  nameWithType: TasksManager.UpdateTask(Player, TaskSelfCare)
+- uid: SharedLibrary.Managers.TasksManager.UpdateTask*
+  name: UpdateTask
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_UpdateTask_
+  commentId: Overload:SharedLibrary.Managers.TasksManager.UpdateTask
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.TasksManager.UpdateTask
+  nameWithType: TasksManager.UpdateTask

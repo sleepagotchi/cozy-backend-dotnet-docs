@@ -1,0 +1,7 @@
+/* hide 'Inherited Members' section */
+h3#inherited-members,
+h3#inherited-members + ul {
+    display: none !important;
+}
+/* (на деяких версіях шаблону може бути клас) */
+.inheritedMembers { display: none !important; }

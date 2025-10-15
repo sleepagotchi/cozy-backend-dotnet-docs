@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class PlayerParametersExtension | Sleepagotchi SharedLibrary API </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class PlayerParametersExtension | Sleepagotchi SharedLibrary API ">
+    
+    <meta name="description" content="Extension methods for  to manage resource parameters (add, subtract, query, and format values).">
+      <link rel="shortcut icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../../styles/docfx.css">
+      <link rel="stylesheet" href="../../styles/main.css">
+      <meta property="docfx:navrel" content="">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SharedLibrary.Extensions.PlayerParametersExtension">
+
+
+
+  <h1 id="SharedLibrary_Extensions_PlayerParametersExtension" data-uid="SharedLibrary.Extensions.PlayerParametersExtension" class="text-break">Class PlayerParametersExtension</h1>
+  <div class="markdown level0 summary"><p>Extension methods for <a class="xref" href="SharedLibrary.Data.Player.html">Player</a> to manage resource parameters (add, subtract, query, and format values).</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">PlayerParametersExtension</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SharedLibrary.html">SharedLibrary</a>.<a class="xref" href="SharedLibrary.Extensions.html">Extensions</a></h6>
+  <h6><strong>Assembly</strong>: SharedLibrary.dll</h6>
+  <h5 id="SharedLibrary_Extensions_PlayerParametersExtension_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class PlayerParametersExtension</code></pre>
+  </div>
+  <h5 id="SharedLibrary_Extensions_PlayerParametersExtension_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>These helpers operate on <a class="xref" href="SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_Parameters">Parameters</a> and work with <a class="xref" href="SharedLibrary.Data.ResourceType.html">ResourceType</a> keys.
+They use <a class="xref" href="SharedLibrary.Data.PlayerParameter.html">PlayerParameter</a> to store the current <a class="xref" href="SharedLibrary.Extensions.BigVal.html">BigVal</a> value
+and the last change timestamp.</p>
+</div>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_PlayerParametersExtension_AddResource_SharedLibrary_Data_Player_SharedLibrary_Data_ResourceType_SharedLibrary_Extensions_BigVal_.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.PlayerParametersExtension.AddResource(SharedLibrary.Data.Player%2CSharedLibrary.Data.ResourceType%2CSharedLibrary.Extensions.BigVal)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/PlayerParametersExtension.cs/#L27">View Source</a>
+  </span>
+  <a id="SharedLibrary_Extensions_PlayerParametersExtension_AddResource_" data-uid="SharedLibrary.Extensions.PlayerParametersExtension.AddResource*"></a>
+  <h4 id="SharedLibrary_Extensions_PlayerParametersExtension_AddResource_SharedLibrary_Data_Player_SharedLibrary_Data_ResourceType_SharedLibrary_Extensions_BigVal_" data-uid="SharedLibrary.Extensions.PlayerParametersExtension.AddResource(SharedLibrary.Data.Player,SharedLibrary.Data.ResourceType,SharedLibrary.Extensions.BigVal)">AddResource(Player, ResourceType, BigVal)</h4>
+  <div class="markdown level1 summary"><p>Adds the specified resource amount to the player's parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Player AddResource(this Player player, ResourceType resourceType, BigVal value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Data.Player.html">Player</a></td>
+        <td><span class="parametername">player</span></td>
+        <td><p>The player instance to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Data.ResourceType.html">ResourceType</a></td>
+        <td><span class="parametername">resourceType</span></td>
+        <td><p>The resource type to increase.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Extensions.BigVal.html">BigVal</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The amount to add as a <a class="xref" href="SharedLibrary.Extensions.BigVal.html">BigVal</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Data.Player.html">Player</a></td>
+        <td><p>The same <a class="xref" href="SharedLibrary.Data.Player.html">Player</a> instance for chaining.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SharedLibrary_Extensions_PlayerParametersExtension_AddResource_SharedLibrary_Data_Player_SharedLibrary_Data_ResourceType_SharedLibrary_Extensions_BigVal__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If the resource does not exist yet in <a class="xref" href="SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_Parameters">Parameters</a>, it will be created with the provided value
+and <a class="xref" href="SharedLibrary.Data.PlayerParameter.html#SharedLibrary_Data_PlayerParameter_LastChangeTime">LastChangeTime</a> set to <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime.utcnow">UtcNow</a>.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_PlayerParametersExtension_AddResource_SharedLibrary_Data_Player_SharedLibrary_Data_ResourceType_System_Int32_.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.PlayerParametersExtension.AddResource(SharedLibrary.Data.Player%2CSharedLibrary.Data.ResourceType%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/PlayerParametersExtension.cs/#L50">View Source</a>
+  </span>
+  <a id="SharedLibrary_Extensions_PlayerParametersExtension_AddResource_" data-uid="SharedLibrary.Extensions.PlayerParametersExtension.AddResource*"></a>
+  <h4 id="SharedLibrary_Extensions_PlayerParametersExtension_AddResource_SharedLibrary_Data_Player_SharedLibrary_Data_ResourceType_System_Int32_" data-uid="SharedLibrary.Extensions.PlayerParametersExtension.AddResource(SharedLibrary.Data.Player,SharedLibrary.Data.ResourceType,System.Int32)">AddResource(Player, ResourceType, int)</h4>
+  <div class="markdown level1 summary"><p>Adds the specified resource amount to the player's parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Player AddResource(this Player player, ResourceType resourceType, int value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Data.Player.html">Player</a></td>
+        <td><span class="parametername">player</span></td>
+        <td><p>The player instance to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Data.ResourceType.html">ResourceType</a></td>
+        <td><span class="parametername">resourceType</span></td>
+        <td><p>The resource type to increase.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The integer amount to add (implicitly converted to <a class="xref" href="SharedLibrary.Extensions.BigVal.html">BigVal</a>).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Data.Player.html">Player</a></td>
+        <td><p>The same <a class="xref" href="SharedLibrary.Data.Player.html">Player</a> instance for chaining.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_PlayerParametersExtension_GetResourceFormatedValue_SharedLibrary_Data_Player_SharedLibrary_Data_ResourceType_.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.PlayerParametersExtension.GetResourceFormatedValue(SharedLibrary.Data.Player%2CSharedLibrary.Data.ResourceType)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/PlayerParametersExtension.cs/#L118">View Source</a>
+  </span>
+  <a id="SharedLibrary_Extensions_PlayerParametersExtension_GetResourceFormatedValue_" data-uid="SharedLibrary.Extensions.PlayerParametersExtension.GetResourceFormatedValue*"></a>
+  <h4 id="SharedLibrary_Extensions_PlayerParametersExtension_GetResourceFormatedValue_SharedLibrary_Data_Player_SharedLibrary_Data_ResourceType_" data-uid="SharedLibrary.Extensions.PlayerParametersExtension.GetResourceFormatedValue(SharedLibrary.Data.Player,SharedLibrary.Data.ResourceType)">GetResourceFormatedValue(Player, ResourceType)</h4>
+  <div class="markdown level1 summary"><p>Gets the formatted string representation of the specified resource value for the player.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetResourceFormatedValue(this Player player, ResourceType resourceType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Data.Player.html">Player</a></td>
+        <td><span class="parametername">player</span></td>
+        <td><p>The player instance to read from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Data.ResourceType.html">ResourceType</a></td>
+        <td><span class="parametername">resourceType</span></td>
+        <td><p>The resource type to format.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>A formatted string produced by <a class="xref" href="SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_GetFormatValue">GetFormatValue()</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_PlayerParametersExtension_GetResourceValue_SharedLibrary_Data_Player_SharedLibrary_Data_ResourceType_.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.PlayerParametersExtension.GetResourceValue(SharedLibrary.Data.Player%2CSharedLibrary.Data.ResourceType)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/PlayerParametersExtension.cs/#L102">View Source</a>
+  </span>
+  <a id="SharedLibrary_Extensions_PlayerParametersExtension_GetResourceValue_" data-uid="SharedLibrary.Extensions.PlayerParametersExtension.GetResourceValue*"></a>
+  <h4 id="SharedLibrary_Extensions_PlayerParametersExtension_GetResourceValue_SharedLibrary_Data_Player_SharedLibrary_Data_ResourceType_" data-uid="SharedLibrary.Extensions.PlayerParametersExtension.GetResourceValue(SharedLibrary.Data.Player,SharedLibrary.Data.ResourceType)">GetResourceValue(Player, ResourceType)</h4>
+  <div class="markdown level1 summary"><p>Gets the current value of the specified resource for the player.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigVal GetResourceValue(this Player player, ResourceType resourceType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Data.Player.html">Player</a></td>
+        <td><span class="parametername">player</span></td>
+        <td><p>The player instance to read from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Data.ResourceType.html">ResourceType</a></td>
+        <td><span class="parametername">resourceType</span></td>
+        <td><p>The resource type to query.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Extensions.BigVal.html">BigVal</a></td>
+        <td><p>The current <a class="xref" href="SharedLibrary.Extensions.BigVal.html">BigVal</a> if present; otherwise <a class="xref" href="SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_zero">zero</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_PlayerParametersExtension_HasResource_SharedLibrary_Data_Player_SharedLibrary_Data_ResourceType_SharedLibrary_Extensions_BigVal_.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.PlayerParametersExtension.HasResource(SharedLibrary.Data.Player%2CSharedLibrary.Data.ResourceType%2CSharedLibrary.Extensions.BigVal)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/PlayerParametersExtension.cs/#L131">View Source</a>
+  </span>
+  <a id="SharedLibrary_Extensions_PlayerParametersExtension_HasResource_" data-uid="SharedLibrary.Extensions.PlayerParametersExtension.HasResource*"></a>
+  <h4 id="SharedLibrary_Extensions_PlayerParametersExtension_HasResource_SharedLibrary_Data_Player_SharedLibrary_Data_ResourceType_SharedLibrary_Extensions_BigVal_" data-uid="SharedLibrary.Extensions.PlayerParametersExtension.HasResource(SharedLibrary.Data.Player,SharedLibrary.Data.ResourceType,SharedLibrary.Extensions.BigVal)">HasResource(Player, ResourceType, BigVal)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the player has at least the specified resource amount.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool HasResource(this Player player, ResourceType resourceType, BigVal value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Data.Player.html">Player</a></td>
+        <td><span class="parametername">player</span></td>
+        <td><p>The player instance to check.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Data.ResourceType.html">ResourceType</a></td>
+        <td><span class="parametername">resourceType</span></td>
+        <td><p>The resource type to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Extensions.BigVal.html">BigVal</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The required amount as a <a class="xref" href="SharedLibrary.Extensions.BigVal.html">BigVal</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><code>true</code> if the player's resource value is greater than or equal to <code class="paramref">value</code>; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_PlayerParametersExtension_SubtractResource_SharedLibrary_Data_Player_SharedLibrary_Data_ResourceType_SharedLibrary_Extensions_BigVal_.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.PlayerParametersExtension.SubtractResource(SharedLibrary.Data.Player%2CSharedLibrary.Data.ResourceType%2CSharedLibrary.Extensions.BigVal)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/PlayerParametersExtension.cs/#L66">View Source</a>
+  </span>
+  <a id="SharedLibrary_Extensions_PlayerParametersExtension_SubtractResource_" data-uid="SharedLibrary.Extensions.PlayerParametersExtension.SubtractResource*"></a>
+  <h4 id="SharedLibrary_Extensions_PlayerParametersExtension_SubtractResource_SharedLibrary_Data_Player_SharedLibrary_Data_ResourceType_SharedLibrary_Extensions_BigVal_" data-uid="SharedLibrary.Extensions.PlayerParametersExtension.SubtractResource(SharedLibrary.Data.Player,SharedLibrary.Data.ResourceType,SharedLibrary.Extensions.BigVal)">SubtractResource(Player, ResourceType, BigVal)</h4>
+  <div class="markdown level1 summary"><p>Subtracts the specified resource amount from the player's parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Player SubtractResource(this Player player, ResourceType resourceType, BigVal value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Data.Player.html">Player</a></td>
+        <td><span class="parametername">player</span></td>
+        <td><p>The player instance to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Data.ResourceType.html">ResourceType</a></td>
+        <td><span class="parametername">resourceType</span></td>
+        <td><p>The resource type to decrease.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Extensions.BigVal.html">BigVal</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The amount to subtract as a <a class="xref" href="SharedLibrary.Extensions.BigVal.html">BigVal</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Data.Player.html">Player</a></td>
+        <td><p>The same <a class="xref" href="SharedLibrary.Data.Player.html">Player</a> instance for chaining.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SharedLibrary_Extensions_PlayerParametersExtension_SubtractResource_SharedLibrary_Data_Player_SharedLibrary_Data_ResourceType_SharedLibrary_Extensions_BigVal__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If the resource does not exist yet, an entry is created with a zero value and the subtraction is applied against zero.
+The <a class="xref" href="SharedLibrary.Data.PlayerParameter.html#SharedLibrary_Data_PlayerParameter_LastChangeTime">LastChangeTime</a> is set to <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime.utcnow">UtcNow</a> for newly created entries.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_PlayerParametersExtension_SubtractResource_SharedLibrary_Data_Player_SharedLibrary_Data_ResourceType_System_Int32_.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.PlayerParametersExtension.SubtractResource(SharedLibrary.Data.Player%2CSharedLibrary.Data.ResourceType%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/PlayerParametersExtension.cs/#L89">View Source</a>
+  </span>
+  <a id="SharedLibrary_Extensions_PlayerParametersExtension_SubtractResource_" data-uid="SharedLibrary.Extensions.PlayerParametersExtension.SubtractResource*"></a>
+  <h4 id="SharedLibrary_Extensions_PlayerParametersExtension_SubtractResource_SharedLibrary_Data_Player_SharedLibrary_Data_ResourceType_System_Int32_" data-uid="SharedLibrary.Extensions.PlayerParametersExtension.SubtractResource(SharedLibrary.Data.Player,SharedLibrary.Data.ResourceType,System.Int32)">SubtractResource(Player, ResourceType, int)</h4>
+  <div class="markdown level1 summary"><p>Subtracts the specified resource amount from the player's parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Player SubtractResource(this Player player, ResourceType resourceType, int value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Data.Player.html">Player</a></td>
+        <td><span class="parametername">player</span></td>
+        <td><p>The player instance to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Data.ResourceType.html">ResourceType</a></td>
+        <td><span class="parametername">resourceType</span></td>
+        <td><p>The resource type to decrease.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The integer amount to subtract (implicitly converted to <a class="xref" href="SharedLibrary.Extensions.BigVal.html">BigVal</a>).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Data.Player.html">Player</a></td>
+        <td><p>The same <a class="xref" href="SharedLibrary.Data.Player.html">Player</a> instance for chaining.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Extensions_PlayerParametersExtension.md&amp;value=---%0Auid%3A%20SharedLibrary.Extensions.PlayerParametersExtension%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Extensions/PlayerParametersExtension.cs/#L14" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
