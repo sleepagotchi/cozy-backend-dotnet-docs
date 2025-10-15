@@ -344,7 +344,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Managers.TasksManager",
-      "Summary": "<p sourcefile=\"api/SharedLibrary.Managers.TasksManager.yml\" sourcestartlinenumber=\"1\">Manages player self-care missions: suggests tasks, lets the player accept them, and completes missions.</p>\n"
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Managers.TasksManager.yml\" sourcestartlinenumber=\"1\">Manages player self-care Tasks: suggests tasks, lets the player accept them, and completes Tasks.</p>\n"
     },
     {
       "type": "ManagedReference",

@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width">
       <meta name="title" content="Class TasksManager | Sleepagotchi SharedLibrary API ">
     
-    <meta name="description" content="Manages player self-care missions: suggests tasks, lets the player accept them, and completes missions.">
+    <meta name="description" content="Manages player self-care Tasks: suggests tasks, lets the player accept them, and completes Tasks.">
       <link rel="shortcut icon" href="../../favicon.ico">
       <link rel="stylesheet" href="../../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../../styles/docfx.css">
@@ -81,7 +81,7 @@
 
 
   <h1 id="SharedLibrary_Managers_TasksManager" data-uid="SharedLibrary.Managers.TasksManager" class="text-break">Class TasksManager</h1>
-  <div class="markdown level0 summary"><p>Manages player self-care missions: suggests tasks, lets the player accept them, and completes missions.</p>
+  <div class="markdown level0 summary"><p>Manages player self-care Tasks: suggests tasks, lets the player accept them, and completes Tasks.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -139,19 +139,19 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Managers_TasksManager_AddMissionFromSuggestions_SharedLibrary_Data_Player_System_String_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.TasksManager.AddMissionFromSuggestions(SharedLibrary.Data.Player%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Managers_TasksManager_AddMTaskFromSuggestions_SharedLibrary_Data_Player_System_String_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.TasksManager.AddMTaskFromSuggestions(SharedLibrary.Data.Player%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Managers/TasksManager.cs/#L125">View Source</a>
   </span>
-  <a id="SharedLibrary_Managers_TasksManager_AddMissionFromSuggestions_" data-uid="SharedLibrary.Managers.TasksManager.AddMissionFromSuggestions*"></a>
-  <h4 id="SharedLibrary_Managers_TasksManager_AddMissionFromSuggestions_SharedLibrary_Data_Player_System_String_" data-uid="SharedLibrary.Managers.TasksManager.AddMissionFromSuggestions(SharedLibrary.Data.Player,System.String)">AddMissionFromSuggestions(Player, string)</h4>
-  <div class="markdown level1 summary"><p>Moves a suggested mission to the player's active missions and replenishes the suggestions list.</p>
+  <a id="SharedLibrary_Managers_TasksManager_AddMTaskFromSuggestions_" data-uid="SharedLibrary.Managers.TasksManager.AddMTaskFromSuggestions*"></a>
+  <h4 id="SharedLibrary_Managers_TasksManager_AddMTaskFromSuggestions_SharedLibrary_Data_Player_System_String_" data-uid="SharedLibrary.Managers.TasksManager.AddMTaskFromSuggestions(SharedLibrary.Data.Player,System.String)">AddMTaskFromSuggestions(Player, string)</h4>
+  <div class="markdown level1 summary"><p>Moves a suggested Task to the player's active Tasks and replenishes the suggestions list.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PlayerTasks AddMissionFromSuggestions(Player player, string taskId)</code></pre>
+    <pre><code class="lang-csharp hljs">public PlayerTasks AddMTaskFromSuggestions(Player player, string taskId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -166,13 +166,13 @@
       <tr>
         <td><a class="xref" href="SharedLibrary.Data.Player.html">Player</a></td>
         <td><span class="parametername">player</span></td>
-        <td><p>The target player who accepts the mission.</p>
+        <td><p>The target player who accepts the Task.</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">taskId</span></td>
-        <td><p>The identifier of the mission taken from <code>SuggestionTasks</code>.</p>
+        <td><p>The identifier of the Task taken from <code>SuggestionTasks</code>.</p>
 </td>
       </tr>
     </tbody>
@@ -193,31 +193,31 @@
       </tr>
     </tbody>
   </table>
-  <h5 id="SharedLibrary_Managers_TasksManager_AddMissionFromSuggestions_SharedLibrary_Data_Player_System_String__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>If the mission with the given <code class="paramref">taskId</code> exists in <code>SuggestionTasks</code>, it is
+  <h5 id="SharedLibrary_Managers_TasksManager_AddMTaskFromSuggestions_SharedLibrary_Data_Player_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If the Task with the given <code class="paramref">taskId</code> exists in <code>SuggestionTasks</code>, it is
 added to <code>ActiveTasks</code> (if not already present) and removed from suggestions. The method then
 picks the next available task from the internal pool that is not present in either list and adds it
 to <code>SuggestionTasks</code> to keep suggestions capped and unique.</p>
 </div>
-  <h5 id="SharedLibrary_Managers_TasksManager_AddMissionFromSuggestions_SharedLibrary_Data_Player_System_String__examples">Examples</h5>
-  <pre><code class="lang-csharp">var updated = manager.AddMissionFromSuggestions(player, "self_care_20");
-// The mission is now in ActiveTasks; suggestions were replenished.</code></pre>
+  <h5 id="SharedLibrary_Managers_TasksManager_AddMTaskFromSuggestions_SharedLibrary_Data_Player_System_String__examples">Examples</h5>
+  <pre><code class="lang-csharp">var updated = manager.AddMTaskFromSuggestions(player, "self_care_20");
+// The Task is now in ActiveTasks; suggestions were replenished.</code></pre>
 
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Managers_TasksManager_CompleteMission_SharedLibrary_Data_Player_System_String_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.TasksManager.CompleteMission(SharedLibrary.Data.Player%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Managers_TasksManager_CompleteTask_SharedLibrary_Data_Player_System_String_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.TasksManager.CompleteTask(SharedLibrary.Data.Player%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Managers/TasksManager.cs/#L171">View Source</a>
   </span>
-  <a id="SharedLibrary_Managers_TasksManager_CompleteMission_" data-uid="SharedLibrary.Managers.TasksManager.CompleteMission*"></a>
-  <h4 id="SharedLibrary_Managers_TasksManager_CompleteMission_SharedLibrary_Data_Player_System_String_" data-uid="SharedLibrary.Managers.TasksManager.CompleteMission(SharedLibrary.Data.Player,System.String)">CompleteMission(Player, string)</h4>
-  <div class="markdown level1 summary"><p>Marks an active mission as completed and applies its rewards to the player.</p>
+  <a id="SharedLibrary_Managers_TasksManager_CompleteTask_" data-uid="SharedLibrary.Managers.TasksManager.CompleteTask*"></a>
+  <h4 id="SharedLibrary_Managers_TasksManager_CompleteTask_SharedLibrary_Data_Player_System_String_" data-uid="SharedLibrary.Managers.TasksManager.CompleteTask(SharedLibrary.Data.Player,System.String)">CompleteTask(Player, string)</h4>
+  <div class="markdown level1 summary"><p>Marks an active task as completed and applies its rewards to the player.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Player CompleteMission(Player player, string taskId)</code></pre>
+    <pre><code class="lang-csharp hljs">public Player CompleteTask(Player player, string taskId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -232,13 +232,13 @@ to <code>SuggestionTasks</code> to keep suggestions capped and unique.</p>
       <tr>
         <td><a class="xref" href="SharedLibrary.Data.Player.html">Player</a></td>
         <td><span class="parametername">player</span></td>
-        <td><p>The player who completes the mission.</p>
+        <td><p>The player who completes the task.</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">taskId</span></td>
-        <td><p>The identifier of the mission in <code>ActiveTasks</code> to complete.</p>
+        <td><p>The identifier of the task in <code>ActiveTasks</code> to complete.</p>
 </td>
       </tr>
     </tbody>
@@ -259,14 +259,14 @@ to <code>SuggestionTasks</code> to keep suggestions capped and unique.</p>
       </tr>
     </tbody>
   </table>
-  <h5 id="SharedLibrary_Managers_TasksManager_CompleteMission_SharedLibrary_Data_Player_System_String__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>The mission is not removed from <code>ActiveTasks</code>; only its <a class="xref" href="SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_CompleteDate">CompleteDate</a> is set
+  <h5 id="SharedLibrary_Managers_TasksManager_CompleteTask_SharedLibrary_Data_Player_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The task is not removed from <code>ActiveTasks</code>; only its <a class="xref" href="SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_CompleteDate">CompleteDate</a> is set
 to <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime.utcnow">UtcNow</a>. For each entry in <a class="xref" href="SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_Result">Result</a>, the corresponding
 resource is added via <code>player.AddResource(resourceType, bigVal)</code>.
-If the mission is not found, the method returns the player unchanged.</p>
+If the task is not found, the method returns the player unchanged.</p>
 </div>
-  <h5 id="SharedLibrary_Managers_TasksManager_CompleteMission_SharedLibrary_Data_Player_System_String__examples">Examples</h5>
-  <pre><code class="lang-csharp">var updatedPlayer = manager.CompleteMission(player, "self_care_20");</code></pre>
+  <h5 id="SharedLibrary_Managers_TasksManager_CompleteTask_SharedLibrary_Data_Player_System_String__examples">Examples</h5>
+  <pre><code class="lang-csharp">var updatedPlayer = manager.CompleteTask(player, "self_care_20");</code></pre>
 
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
@@ -419,12 +419,12 @@ var tasks = manager.GetPlayerTasks(player);
   </span>
   <a id="SharedLibrary_Managers_TasksManager_UpdateTask_" data-uid="SharedLibrary.Managers.TasksManager.UpdateTask*"></a>
   <h4 id="SharedLibrary_Managers_TasksManager_UpdateTask_SharedLibrary_Data_Player_SharedLibrary_Data_Tasks_TaskCare_" data-uid="SharedLibrary.Managers.TasksManager.UpdateTask(SharedLibrary.Data.Player,SharedLibrary.Data.Tasks.TaskCare)">UpdateTask(Player, TaskCare)</h4>
-  <div class="markdown level1 summary"><p>Updates an existing active mission by replacing it with the provided instance.</p>
+  <div class="markdown level1 summary"><p>Updates an existing active Task by replacing it with the provided instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PlayerTasks UpdateTask(Player player, TaskCare mission)</code></pre>
+    <pre><code class="lang-csharp hljs">public PlayerTasks UpdateTask(Player player, TaskCare task)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -439,13 +439,13 @@ var tasks = manager.GetPlayerTasks(player);
       <tr>
         <td><a class="xref" href="SharedLibrary.Data.Player.html">Player</a></td>
         <td><span class="parametername">player</span></td>
-        <td><p>The player whose mission should be updated.</p>
+        <td><p>The player whose Task should be updated.</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="SharedLibrary.Data.Tasks.TaskCare.html">TaskCare</a></td>
-        <td><span class="parametername">mission</span></td>
-        <td><p>The mission to put in place of the existing one. Matching is performed by <a class="xref" href="SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_Id">Id</a>.</p>
+        <td><span class="parametername">task</span></td>
+        <td><p>The Task to put in place of the existing one. Matching is performed by <a class="xref" href="SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_Id">Id</a>.</p>
 </td>
       </tr>
     </tbody>
@@ -468,12 +468,12 @@ var tasks = manager.GetPlayerTasks(player);
   </table>
   <h5 id="SharedLibrary_Managers_TasksManager_UpdateTask_SharedLibrary_Data_Player_SharedLibrary_Data_Tasks_TaskCare__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>The method searches <a class="xref" href="SharedLibrary.Data.Tasks.PlayerTasks.html#SharedLibrary_Data_Tasks_PlayerTasks_ActiveTasks">ActiveTasks</a> for an item with the same <a class="xref" href="SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_Id">Id</a> as
-the provided <code class="paramref">mission</code>. If found, the existing item is replaced with <code class="paramref">mission</code>.
-If no matching mission is found, the player's tasks remain unchanged.</p>
+the provided <code class="paramref">task</code>. If found, the existing item is replaced with <code class="paramref">task</code>.
+If no matching Task is found, the player's tasks remain unchanged.</p>
 </div>
   <h5 id="SharedLibrary_Managers_TasksManager_UpdateTask_SharedLibrary_Data_Player_SharedLibrary_Data_Tasks_TaskCare__examples">Examples</h5>
   <pre><code class="lang-csharp">var updated = manager.UpdateTask(player, new TaskSelfCare { Id = "self_care_20", Title = "New Title" });
-// ActiveTasks now contains the updated mission instance for Id "self_care_20".</code></pre>
+// ActiveTasks now contains the updated Task instance for Id "self_care_20".</code></pre>
 
 
 </article>

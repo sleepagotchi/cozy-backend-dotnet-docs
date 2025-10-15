@@ -1585,38 +1585,38 @@ references:
   fullName.vb: SharedLibrary.Managers.TasksManager.New
   nameWithType: TasksManager.TasksManager
   nameWithType.vb: TasksManager.New
-- uid: SharedLibrary.Managers.TasksManager.AddMissionFromSuggestions(SharedLibrary.Data.Player,System.String)
-  name: AddMissionFromSuggestions(Player, string)
-  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_AddMissionFromSuggestions_SharedLibrary_Data_Player_System_String_
-  commentId: M:SharedLibrary.Managers.TasksManager.AddMissionFromSuggestions(SharedLibrary.Data.Player,System.String)
-  name.vb: AddMissionFromSuggestions(Player, String)
-  fullName: SharedLibrary.Managers.TasksManager.AddMissionFromSuggestions(SharedLibrary.Data.Player, string)
-  fullName.vb: SharedLibrary.Managers.TasksManager.AddMissionFromSuggestions(SharedLibrary.Data.Player, String)
-  nameWithType: TasksManager.AddMissionFromSuggestions(Player, string)
-  nameWithType.vb: TasksManager.AddMissionFromSuggestions(Player, String)
-- uid: SharedLibrary.Managers.TasksManager.AddMissionFromSuggestions*
-  name: AddMissionFromSuggestions
-  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_AddMissionFromSuggestions_
-  commentId: Overload:SharedLibrary.Managers.TasksManager.AddMissionFromSuggestions
+- uid: SharedLibrary.Managers.TasksManager.AddMTaskFromSuggestions(SharedLibrary.Data.Player,System.String)
+  name: AddMTaskFromSuggestions(Player, string)
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_AddMTaskFromSuggestions_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Managers.TasksManager.AddMTaskFromSuggestions(SharedLibrary.Data.Player,System.String)
+  name.vb: AddMTaskFromSuggestions(Player, String)
+  fullName: SharedLibrary.Managers.TasksManager.AddMTaskFromSuggestions(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Managers.TasksManager.AddMTaskFromSuggestions(SharedLibrary.Data.Player, String)
+  nameWithType: TasksManager.AddMTaskFromSuggestions(Player, string)
+  nameWithType.vb: TasksManager.AddMTaskFromSuggestions(Player, String)
+- uid: SharedLibrary.Managers.TasksManager.AddMTaskFromSuggestions*
+  name: AddMTaskFromSuggestions
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_AddMTaskFromSuggestions_
+  commentId: Overload:SharedLibrary.Managers.TasksManager.AddMTaskFromSuggestions
   isSpec: "True"
-  fullName: SharedLibrary.Managers.TasksManager.AddMissionFromSuggestions
-  nameWithType: TasksManager.AddMissionFromSuggestions
-- uid: SharedLibrary.Managers.TasksManager.CompleteMission(SharedLibrary.Data.Player,System.String)
-  name: CompleteMission(Player, string)
-  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_CompleteMission_SharedLibrary_Data_Player_System_String_
-  commentId: M:SharedLibrary.Managers.TasksManager.CompleteMission(SharedLibrary.Data.Player,System.String)
-  name.vb: CompleteMission(Player, String)
-  fullName: SharedLibrary.Managers.TasksManager.CompleteMission(SharedLibrary.Data.Player, string)
-  fullName.vb: SharedLibrary.Managers.TasksManager.CompleteMission(SharedLibrary.Data.Player, String)
-  nameWithType: TasksManager.CompleteMission(Player, string)
-  nameWithType.vb: TasksManager.CompleteMission(Player, String)
-- uid: SharedLibrary.Managers.TasksManager.CompleteMission*
-  name: CompleteMission
-  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_CompleteMission_
-  commentId: Overload:SharedLibrary.Managers.TasksManager.CompleteMission
+  fullName: SharedLibrary.Managers.TasksManager.AddMTaskFromSuggestions
+  nameWithType: TasksManager.AddMTaskFromSuggestions
+- uid: SharedLibrary.Managers.TasksManager.CompleteTask(SharedLibrary.Data.Player,System.String)
+  name: CompleteTask(Player, string)
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_CompleteTask_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Managers.TasksManager.CompleteTask(SharedLibrary.Data.Player,System.String)
+  name.vb: CompleteTask(Player, String)
+  fullName: SharedLibrary.Managers.TasksManager.CompleteTask(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Managers.TasksManager.CompleteTask(SharedLibrary.Data.Player, String)
+  nameWithType: TasksManager.CompleteTask(Player, string)
+  nameWithType.vb: TasksManager.CompleteTask(Player, String)
+- uid: SharedLibrary.Managers.TasksManager.CompleteTask*
+  name: CompleteTask
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_CompleteTask_
+  commentId: Overload:SharedLibrary.Managers.TasksManager.CompleteTask
   isSpec: "True"
-  fullName: SharedLibrary.Managers.TasksManager.CompleteMission
-  nameWithType: TasksManager.CompleteMission
+  fullName: SharedLibrary.Managers.TasksManager.CompleteTask
+  nameWithType: TasksManager.CompleteTask
 - uid: SharedLibrary.Managers.TasksManager.CreateTask(SharedLibrary.Data.Player,SharedLibrary.Data.Tasks.TaskCare)
   name: CreateTask(Player, TaskCare)
   href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_CreateTask_SharedLibrary_Data_Player_SharedLibrary_Data_Tasks_TaskCare_
