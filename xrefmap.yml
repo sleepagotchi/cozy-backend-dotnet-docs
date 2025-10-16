@@ -514,6 +514,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Player.Parameters
   nameWithType: Player.Parameters
+- uid: SharedLibrary.Data.Player.Random
+  name: Random
+  href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_Random
+  commentId: P:SharedLibrary.Data.Player.Random
+  fullName: SharedLibrary.Data.Player.Random
+  nameWithType: Player.Random
+- uid: SharedLibrary.Data.Player.Random*
+  name: Random
+  href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_Random_
+  commentId: Overload:SharedLibrary.Data.Player.Random
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Player.Random
+  nameWithType: Player.Random
 - uid: SharedLibrary.Data.Player.Tasks
   name: Tasks
   href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_Tasks
@@ -1554,6 +1567,54 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Extensions.PlayerParametersExtension.SubtractResource
   nameWithType: PlayerParametersExtension.SubtractResource
+- uid: SharedLibrary.Extensions.PlayerRandom
+  name: PlayerRandom
+  href: api/api/SharedLibrary.Extensions.PlayerRandom.html
+  commentId: T:SharedLibrary.Extensions.PlayerRandom
+  fullName: SharedLibrary.Extensions.PlayerRandom
+  nameWithType: PlayerRandom
+- uid: SharedLibrary.Extensions.PlayerRandom.Random
+  name: Random
+  href: api/api/SharedLibrary.Extensions.PlayerRandom.html#SharedLibrary_Extensions_PlayerRandom_Random
+  commentId: P:SharedLibrary.Extensions.PlayerRandom.Random
+  fullName: SharedLibrary.Extensions.PlayerRandom.Random
+  nameWithType: PlayerRandom.Random
+- uid: SharedLibrary.Extensions.PlayerRandom.Random*
+  name: Random
+  href: api/api/SharedLibrary.Extensions.PlayerRandom.html#SharedLibrary_Extensions_PlayerRandom_Random_
+  commentId: Overload:SharedLibrary.Extensions.PlayerRandom.Random
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.PlayerRandom.Random
+  nameWithType: PlayerRandom.Random
+- uid: SharedLibrary.Extensions.PlayerRandom.Seed
+  name: Seed
+  href: api/api/SharedLibrary.Extensions.PlayerRandom.html#SharedLibrary_Extensions_PlayerRandom_Seed
+  commentId: P:SharedLibrary.Extensions.PlayerRandom.Seed
+  fullName: SharedLibrary.Extensions.PlayerRandom.Seed
+  nameWithType: PlayerRandom.Seed
+- uid: SharedLibrary.Extensions.PlayerRandom.Seed*
+  name: Seed
+  href: api/api/SharedLibrary.Extensions.PlayerRandom.html#SharedLibrary_Extensions_PlayerRandom_Seed_
+  commentId: Overload:SharedLibrary.Extensions.PlayerRandom.Seed
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.PlayerRandom.Seed
+  nameWithType: PlayerRandom.Seed
+- uid: SharedLibrary.Extensions.PlayerRandom.SetSeed(System.Int32)
+  name: SetSeed(int)
+  href: api/api/SharedLibrary.Extensions.PlayerRandom.html#SharedLibrary_Extensions_PlayerRandom_SetSeed_System_Int32_
+  commentId: M:SharedLibrary.Extensions.PlayerRandom.SetSeed(System.Int32)
+  name.vb: SetSeed(Integer)
+  fullName: SharedLibrary.Extensions.PlayerRandom.SetSeed(int)
+  fullName.vb: SharedLibrary.Extensions.PlayerRandom.SetSeed(Integer)
+  nameWithType: PlayerRandom.SetSeed(int)
+  nameWithType.vb: PlayerRandom.SetSeed(Integer)
+- uid: SharedLibrary.Extensions.PlayerRandom.SetSeed*
+  name: SetSeed
+  href: api/api/SharedLibrary.Extensions.PlayerRandom.html#SharedLibrary_Extensions_PlayerRandom_SetSeed_
+  commentId: Overload:SharedLibrary.Extensions.PlayerRandom.SetSeed
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.PlayerRandom.SetSeed
+  nameWithType: PlayerRandom.SetSeed
 - uid: SharedLibrary.Managers
   name: SharedLibrary.Managers
   href: api/api/SharedLibrary.Managers.html

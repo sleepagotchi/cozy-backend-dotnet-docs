@@ -320,6 +320,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Extensions.PlayerRandom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Extensions.PlayerRandom.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Extensions.PlayerRandom",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Extensions.PlayerRandom.yml\" sourcestartlinenumber=\"1\">Represents a deterministic random number generator that maintains the same sequence of values\nacross both server and client by sharing the same seed value.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Extensions.yml",
       "output": {
         ".html": {
