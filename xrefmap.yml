@@ -808,6 +808,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Tasks.TaskCare.CategoryId
   nameWithType: TaskCare.CategoryId
+- uid: SharedLibrary.Data.Tasks.TaskCare.Clone
+  name: Clone()
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_Clone
+  commentId: M:SharedLibrary.Data.Tasks.TaskCare.Clone
+  fullName: SharedLibrary.Data.Tasks.TaskCare.Clone()
+  nameWithType: TaskCare.Clone()
+- uid: SharedLibrary.Data.Tasks.TaskCare.Clone*
+  name: Clone
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_Clone_
+  commentId: Overload:SharedLibrary.Data.Tasks.TaskCare.Clone
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.TaskCare.Clone
+  nameWithType: TaskCare.Clone
 - uid: SharedLibrary.Data.Tasks.TaskCare.CompleteDate
   name: CompleteDate
   href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_CompleteDate
@@ -860,6 +873,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Tasks.TaskCare.IsCompleted
   nameWithType: TaskCare.IsCompleted
+- uid: SharedLibrary.Data.Tasks.TaskCare.NeedToShow
+  name: NeedToShow
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_NeedToShow
+  commentId: P:SharedLibrary.Data.Tasks.TaskCare.NeedToShow
+  fullName: SharedLibrary.Data.Tasks.TaskCare.NeedToShow
+  nameWithType: TaskCare.NeedToShow
+- uid: SharedLibrary.Data.Tasks.TaskCare.NeedToShow*
+  name: NeedToShow
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_NeedToShow_
+  commentId: Overload:SharedLibrary.Data.Tasks.TaskCare.NeedToShow
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.TaskCare.NeedToShow
+  nameWithType: TaskCare.NeedToShow
 - uid: SharedLibrary.Data.Tasks.TaskCare.Reminder
   name: Reminder
   href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_Reminder
