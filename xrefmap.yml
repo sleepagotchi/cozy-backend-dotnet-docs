@@ -2002,6 +2002,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Managers.TasksManager.GetPlayerTasks
   nameWithType: TasksManager.GetPlayerTasks
+- uid: SharedLibrary.Managers.TasksManager.RemoveTask(SharedLibrary.Data.Player,System.String)
+  name: RemoveTask(Player, string)
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_RemoveTask_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Managers.TasksManager.RemoveTask(SharedLibrary.Data.Player,System.String)
+  name.vb: RemoveTask(Player, String)
+  fullName: SharedLibrary.Managers.TasksManager.RemoveTask(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Managers.TasksManager.RemoveTask(SharedLibrary.Data.Player, String)
+  nameWithType: TasksManager.RemoveTask(Player, string)
+  nameWithType.vb: TasksManager.RemoveTask(Player, String)
+- uid: SharedLibrary.Managers.TasksManager.RemoveTask*
+  name: RemoveTask
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_RemoveTask_
+  commentId: Overload:SharedLibrary.Managers.TasksManager.RemoveTask
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.TasksManager.RemoveTask
+  nameWithType: TasksManager.RemoveTask
 - uid: SharedLibrary.Managers.TasksManager.UpdateTask(SharedLibrary.Data.Player,SharedLibrary.Data.Tasks.TaskCare)
   name: UpdateTask(Player, TaskCare)
   href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_UpdateTask_SharedLibrary_Data_Player_SharedLibrary_Data_Tasks_TaskCare_
