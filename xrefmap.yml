@@ -295,32 +295,6 @@ references:
   commentId: T:SharedLibrary.Data.Island.IslandBase
   fullName: SharedLibrary.Data.Island.IslandBase
   nameWithType: IslandBase
-- uid: SharedLibrary.Data.Island.IslandBase.CozyPoints
-  name: CozyPoints
-  href: api/api/SharedLibrary.Data.Island.IslandBase.html#SharedLibrary_Data_Island_IslandBase_CozyPoints
-  commentId: P:SharedLibrary.Data.Island.IslandBase.CozyPoints
-  fullName: SharedLibrary.Data.Island.IslandBase.CozyPoints
-  nameWithType: IslandBase.CozyPoints
-- uid: SharedLibrary.Data.Island.IslandBase.CozyPoints*
-  name: CozyPoints
-  href: api/api/SharedLibrary.Data.Island.IslandBase.html#SharedLibrary_Data_Island_IslandBase_CozyPoints_
-  commentId: Overload:SharedLibrary.Data.Island.IslandBase.CozyPoints
-  isSpec: "True"
-  fullName: SharedLibrary.Data.Island.IslandBase.CozyPoints
-  nameWithType: IslandBase.CozyPoints
-- uid: SharedLibrary.Data.Island.IslandBase.Id
-  name: Id
-  href: api/api/SharedLibrary.Data.Island.IslandBase.html#SharedLibrary_Data_Island_IslandBase_Id
-  commentId: P:SharedLibrary.Data.Island.IslandBase.Id
-  fullName: SharedLibrary.Data.Island.IslandBase.Id
-  nameWithType: IslandBase.Id
-- uid: SharedLibrary.Data.Island.IslandBase.Id*
-  name: Id
-  href: api/api/SharedLibrary.Data.Island.IslandBase.html#SharedLibrary_Data_Island_IslandBase_Id_
-  commentId: Overload:SharedLibrary.Data.Island.IslandBase.Id
-  isSpec: "True"
-  fullName: SharedLibrary.Data.Island.IslandBase.Id
-  nameWithType: IslandBase.Id
 - uid: SharedLibrary.Data.Island.IslandBase.Items
   name: Items
   href: api/api/SharedLibrary.Data.Island.IslandBase.html#SharedLibrary_Data_Island_IslandBase_Items
@@ -430,19 +404,6 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Items.ItemBase.Cost
   nameWithType: ItemBase.Cost
-- uid: SharedLibrary.Data.Items.ItemBase.CozyPoints
-  name: CozyPoints
-  href: api/api/SharedLibrary.Data.Items.ItemBase.html#SharedLibrary_Data_Items_ItemBase_CozyPoints
-  commentId: P:SharedLibrary.Data.Items.ItemBase.CozyPoints
-  fullName: SharedLibrary.Data.Items.ItemBase.CozyPoints
-  nameWithType: ItemBase.CozyPoints
-- uid: SharedLibrary.Data.Items.ItemBase.CozyPoints*
-  name: CozyPoints
-  href: api/api/SharedLibrary.Data.Items.ItemBase.html#SharedLibrary_Data_Items_ItemBase_CozyPoints_
-  commentId: Overload:SharedLibrary.Data.Items.ItemBase.CozyPoints
-  isSpec: "True"
-  fullName: SharedLibrary.Data.Items.ItemBase.CozyPoints
-  nameWithType: ItemBase.CozyPoints
 - uid: SharedLibrary.Data.Items.ItemBase.DropChance
   name: DropChance
   href: api/api/SharedLibrary.Data.Items.ItemBase.html#SharedLibrary_Data_Items_ItemBase_DropChance
@@ -469,6 +430,90 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Items.ItemBase.Id
   nameWithType: ItemBase.Id
+- uid: SharedLibrary.Data.Items.ItemBase.IsCanBeUpgraded
+  name: IsCanBeUpgraded()
+  href: api/api/SharedLibrary.Data.Items.ItemBase.html#SharedLibrary_Data_Items_ItemBase_IsCanBeUpgraded
+  commentId: M:SharedLibrary.Data.Items.ItemBase.IsCanBeUpgraded
+  fullName: SharedLibrary.Data.Items.ItemBase.IsCanBeUpgraded()
+  nameWithType: ItemBase.IsCanBeUpgraded()
+- uid: SharedLibrary.Data.Items.ItemBase.IsCanBeUpgraded*
+  name: IsCanBeUpgraded
+  href: api/api/SharedLibrary.Data.Items.ItemBase.html#SharedLibrary_Data_Items_ItemBase_IsCanBeUpgraded_
+  commentId: Overload:SharedLibrary.Data.Items.ItemBase.IsCanBeUpgraded
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Items.ItemBase.IsCanBeUpgraded
+  nameWithType: ItemBase.IsCanBeUpgraded
+- uid: SharedLibrary.Data.Items.ItemBase.Level
+  name: Level
+  href: api/api/SharedLibrary.Data.Items.ItemBase.html#SharedLibrary_Data_Items_ItemBase_Level
+  commentId: P:SharedLibrary.Data.Items.ItemBase.Level
+  fullName: SharedLibrary.Data.Items.ItemBase.Level
+  nameWithType: ItemBase.Level
+- uid: SharedLibrary.Data.Items.ItemBase.Level*
+  name: Level
+  href: api/api/SharedLibrary.Data.Items.ItemBase.html#SharedLibrary_Data_Items_ItemBase_Level_
+  commentId: Overload:SharedLibrary.Data.Items.ItemBase.Level
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Items.ItemBase.Level
+  nameWithType: ItemBase.Level
+- uid: SharedLibrary.Data.Items.ItemBase.UpdatedItemId
+  name: UpdatedItemId
+  href: api/api/SharedLibrary.Data.Items.ItemBase.html#SharedLibrary_Data_Items_ItemBase_UpdatedItemId
+  commentId: P:SharedLibrary.Data.Items.ItemBase.UpdatedItemId
+  fullName: SharedLibrary.Data.Items.ItemBase.UpdatedItemId
+  nameWithType: ItemBase.UpdatedItemId
+- uid: SharedLibrary.Data.Items.ItemBase.UpdatedItemId*
+  name: UpdatedItemId
+  href: api/api/SharedLibrary.Data.Items.ItemBase.html#SharedLibrary_Data_Items_ItemBase_UpdatedItemId_
+  commentId: Overload:SharedLibrary.Data.Items.ItemBase.UpdatedItemId
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Items.ItemBase.UpdatedItemId
+  nameWithType: ItemBase.UpdatedItemId
+- uid: SharedLibrary.Data.Items.ItemBase.UpgradeCost
+  name: UpgradeCost
+  href: api/api/SharedLibrary.Data.Items.ItemBase.html#SharedLibrary_Data_Items_ItemBase_UpgradeCost
+  commentId: P:SharedLibrary.Data.Items.ItemBase.UpgradeCost
+  fullName: SharedLibrary.Data.Items.ItemBase.UpgradeCost
+  nameWithType: ItemBase.UpgradeCost
+- uid: SharedLibrary.Data.Items.ItemBase.UpgradeCost*
+  name: UpgradeCost
+  href: api/api/SharedLibrary.Data.Items.ItemBase.html#SharedLibrary_Data_Items_ItemBase_UpgradeCost_
+  commentId: Overload:SharedLibrary.Data.Items.ItemBase.UpgradeCost
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Items.ItemBase.UpgradeCost
+  nameWithType: ItemBase.UpgradeCost
+- uid: SharedLibrary.Data.Items.ItemOnIsland
+  name: ItemOnIsland
+  href: api/api/SharedLibrary.Data.Items.ItemOnIsland.html
+  commentId: T:SharedLibrary.Data.Items.ItemOnIsland
+  fullName: SharedLibrary.Data.Items.ItemOnIsland
+  nameWithType: ItemOnIsland
+- uid: SharedLibrary.Data.Items.ItemOnIsland.ContainerId
+  name: ContainerId
+  href: api/api/SharedLibrary.Data.Items.ItemOnIsland.html#SharedLibrary_Data_Items_ItemOnIsland_ContainerId
+  commentId: P:SharedLibrary.Data.Items.ItemOnIsland.ContainerId
+  fullName: SharedLibrary.Data.Items.ItemOnIsland.ContainerId
+  nameWithType: ItemOnIsland.ContainerId
+- uid: SharedLibrary.Data.Items.ItemOnIsland.ContainerId*
+  name: ContainerId
+  href: api/api/SharedLibrary.Data.Items.ItemOnIsland.html#SharedLibrary_Data_Items_ItemOnIsland_ContainerId_
+  commentId: Overload:SharedLibrary.Data.Items.ItemOnIsland.ContainerId
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Items.ItemOnIsland.ContainerId
+  nameWithType: ItemOnIsland.ContainerId
+- uid: SharedLibrary.Data.Items.ItemOnIsland.ItemId
+  name: ItemId
+  href: api/api/SharedLibrary.Data.Items.ItemOnIsland.html#SharedLibrary_Data_Items_ItemOnIsland_ItemId
+  commentId: P:SharedLibrary.Data.Items.ItemOnIsland.ItemId
+  fullName: SharedLibrary.Data.Items.ItemOnIsland.ItemId
+  nameWithType: ItemOnIsland.ItemId
+- uid: SharedLibrary.Data.Items.ItemOnIsland.ItemId*
+  name: ItemId
+  href: api/api/SharedLibrary.Data.Items.ItemOnIsland.html#SharedLibrary_Data_Items_ItemOnIsland_ItemId_
+  commentId: Overload:SharedLibrary.Data.Items.ItemOnIsland.ItemId
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Items.ItemOnIsland.ItemId
+  nameWithType: ItemOnIsland.ItemId
 - uid: SharedLibrary.Data.Player
   name: Player
   href: api/api/SharedLibrary.Data.Player.html
@@ -501,6 +546,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Player.Islands
   nameWithType: Player.Islands
+- uid: SharedLibrary.Data.Player.OwnedItemIds
+  name: OwnedItemIds
+  href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_OwnedItemIds
+  commentId: P:SharedLibrary.Data.Player.OwnedItemIds
+  fullName: SharedLibrary.Data.Player.OwnedItemIds
+  nameWithType: Player.OwnedItemIds
+- uid: SharedLibrary.Data.Player.OwnedItemIds*
+  name: OwnedItemIds
+  href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_OwnedItemIds_
+  commentId: Overload:SharedLibrary.Data.Player.OwnedItemIds
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Player.OwnedItemIds
+  nameWithType: Player.OwnedItemIds
 - uid: SharedLibrary.Data.Player.Parameters
   name: Parameters
   href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_Parameters
@@ -540,6 +598,38 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Player.Tasks
   nameWithType: Player.Tasks
+- uid: SharedLibrary.Data.PlayerIslands
+  name: PlayerIslands
+  href: api/api/SharedLibrary.Data.PlayerIslands.html
+  commentId: T:SharedLibrary.Data.PlayerIslands
+  fullName: SharedLibrary.Data.PlayerIslands
+  nameWithType: PlayerIslands
+- uid: SharedLibrary.Data.PlayerIslands.CurrentIslandId
+  name: CurrentIslandId
+  href: api/api/SharedLibrary.Data.PlayerIslands.html#SharedLibrary_Data_PlayerIslands_CurrentIslandId
+  commentId: P:SharedLibrary.Data.PlayerIslands.CurrentIslandId
+  fullName: SharedLibrary.Data.PlayerIslands.CurrentIslandId
+  nameWithType: PlayerIslands.CurrentIslandId
+- uid: SharedLibrary.Data.PlayerIslands.CurrentIslandId*
+  name: CurrentIslandId
+  href: api/api/SharedLibrary.Data.PlayerIslands.html#SharedLibrary_Data_PlayerIslands_CurrentIslandId_
+  commentId: Overload:SharedLibrary.Data.PlayerIslands.CurrentIslandId
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerIslands.CurrentIslandId
+  nameWithType: PlayerIslands.CurrentIslandId
+- uid: SharedLibrary.Data.PlayerIslands.IslandsList
+  name: IslandsList
+  href: api/api/SharedLibrary.Data.PlayerIslands.html#SharedLibrary_Data_PlayerIslands_IslandsList
+  commentId: P:SharedLibrary.Data.PlayerIslands.IslandsList
+  fullName: SharedLibrary.Data.PlayerIslands.IslandsList
+  nameWithType: PlayerIslands.IslandsList
+- uid: SharedLibrary.Data.PlayerIslands.IslandsList*
+  name: IslandsList
+  href: api/api/SharedLibrary.Data.PlayerIslands.html#SharedLibrary_Data_PlayerIslands_IslandsList_
+  commentId: Overload:SharedLibrary.Data.PlayerIslands.IslandsList
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerIslands.IslandsList
+  nameWithType: PlayerIslands.IslandsList
 - uid: SharedLibrary.Data.PlayerParameter
   name: PlayerParameter
   href: api/api/SharedLibrary.Data.PlayerParameter.html
@@ -757,6 +847,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Tasks.TaskCare.Id
   nameWithType: TaskCare.Id
+- uid: SharedLibrary.Data.Tasks.TaskCare.IsCompleted
+  name: IsCompleted
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_IsCompleted
+  commentId: P:SharedLibrary.Data.Tasks.TaskCare.IsCompleted
+  fullName: SharedLibrary.Data.Tasks.TaskCare.IsCompleted
+  nameWithType: TaskCare.IsCompleted
+- uid: SharedLibrary.Data.Tasks.TaskCare.IsCompleted*
+  name: IsCompleted
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_IsCompleted_
+  commentId: Overload:SharedLibrary.Data.Tasks.TaskCare.IsCompleted
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.TaskCare.IsCompleted
+  nameWithType: TaskCare.IsCompleted
 - uid: SharedLibrary.Data.Tasks.TaskCare.Reminder
   name: Reminder
   href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_Reminder
@@ -1449,19 +1552,6 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Extensions.PlayerIslandsExtension.GetIslandById
   nameWithType: PlayerIslandsExtension.GetIslandById
-- uid: SharedLibrary.Extensions.PlayerIslandsExtension.GetTotalCozyPoints(SharedLibrary.Data.Player)
-  name: GetTotalCozyPoints(Player)
-  href: api/api/SharedLibrary.Extensions.PlayerIslandsExtension.html#SharedLibrary_Extensions_PlayerIslandsExtension_GetTotalCozyPoints_SharedLibrary_Data_Player_
-  commentId: M:SharedLibrary.Extensions.PlayerIslandsExtension.GetTotalCozyPoints(SharedLibrary.Data.Player)
-  fullName: SharedLibrary.Extensions.PlayerIslandsExtension.GetTotalCozyPoints(SharedLibrary.Data.Player)
-  nameWithType: PlayerIslandsExtension.GetTotalCozyPoints(Player)
-- uid: SharedLibrary.Extensions.PlayerIslandsExtension.GetTotalCozyPoints*
-  name: GetTotalCozyPoints
-  href: api/api/SharedLibrary.Extensions.PlayerIslandsExtension.html#SharedLibrary_Extensions_PlayerIslandsExtension_GetTotalCozyPoints_
-  commentId: Overload:SharedLibrary.Extensions.PlayerIslandsExtension.GetTotalCozyPoints
-  isSpec: "True"
-  fullName: SharedLibrary.Extensions.PlayerIslandsExtension.GetTotalCozyPoints
-  nameWithType: PlayerIslandsExtension.GetTotalCozyPoints
 - uid: SharedLibrary.Extensions.PlayerIslandsExtension.HasIsland(SharedLibrary.Data.Player,System.String)
   name: HasIsland(Player, string)
   href: api/api/SharedLibrary.Extensions.PlayerIslandsExtension.html#SharedLibrary_Extensions_PlayerIslandsExtension_HasIsland_SharedLibrary_Data_Player_System_String_
@@ -1621,31 +1711,239 @@ references:
   commentId: N:SharedLibrary.Managers
   fullName: SharedLibrary.Managers
   nameWithType: SharedLibrary.Managers
+- uid: SharedLibrary.Managers.ConfigManager
+  name: ConfigManager
+  href: api/api/SharedLibrary.Managers.ConfigManager.html
+  commentId: T:SharedLibrary.Managers.ConfigManager
+  fullName: SharedLibrary.Managers.ConfigManager
+  nameWithType: ConfigManager
+- uid: SharedLibrary.Managers.ConfigManager.GetItems
+  name: GetItems
+  href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_GetItems
+  commentId: P:SharedLibrary.Managers.ConfigManager.GetItems
+  fullName: SharedLibrary.Managers.ConfigManager.GetItems
+  nameWithType: ConfigManager.GetItems
+- uid: SharedLibrary.Managers.ConfigManager.GetItems*
+  name: GetItems
+  href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_GetItems_
+  commentId: Overload:SharedLibrary.Managers.ConfigManager.GetItems
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.ConfigManager.GetItems
+  nameWithType: ConfigManager.GetItems
+- uid: SharedLibrary.Managers.ConfigManager.GetTasks
+  name: GetTasks
+  href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_GetTasks
+  commentId: P:SharedLibrary.Managers.ConfigManager.GetTasks
+  fullName: SharedLibrary.Managers.ConfigManager.GetTasks
+  nameWithType: ConfigManager.GetTasks
+- uid: SharedLibrary.Managers.ConfigManager.GetTasks*
+  name: GetTasks
+  href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_GetTasks_
+  commentId: Overload:SharedLibrary.Managers.ConfigManager.GetTasks
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.ConfigManager.GetTasks
+  nameWithType: ConfigManager.GetTasks
+- uid: SharedLibrary.Managers.ConfigManager.Initialize
+  name: Initialize()
+  href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_Initialize
+  commentId: M:SharedLibrary.Managers.ConfigManager.Initialize
+  fullName: SharedLibrary.Managers.ConfigManager.Initialize()
+  nameWithType: ConfigManager.Initialize()
+- uid: SharedLibrary.Managers.ConfigManager.Initialize*
+  name: Initialize
+  href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_Initialize_
+  commentId: Overload:SharedLibrary.Managers.ConfigManager.Initialize
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.ConfigManager.Initialize
+  nameWithType: ConfigManager.Initialize
+- uid: SharedLibrary.Managers.ItemsManager
+  name: ItemsManager
+  href: api/api/SharedLibrary.Managers.ItemsManager.html
+  commentId: T:SharedLibrary.Managers.ItemsManager
+  fullName: SharedLibrary.Managers.ItemsManager
+  nameWithType: ItemsManager
+- uid: SharedLibrary.Managers.ItemsManager.AddItemToPlayer(SharedLibrary.Data.Player,System.String)
+  name: AddItemToPlayer(Player, string)
+  href: api/api/SharedLibrary.Managers.ItemsManager.html#SharedLibrary_Managers_ItemsManager_AddItemToPlayer_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Managers.ItemsManager.AddItemToPlayer(SharedLibrary.Data.Player,System.String)
+  name.vb: AddItemToPlayer(Player, String)
+  fullName: SharedLibrary.Managers.ItemsManager.AddItemToPlayer(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Managers.ItemsManager.AddItemToPlayer(SharedLibrary.Data.Player, String)
+  nameWithType: ItemsManager.AddItemToPlayer(Player, string)
+  nameWithType.vb: ItemsManager.AddItemToPlayer(Player, String)
+- uid: SharedLibrary.Managers.ItemsManager.AddItemToPlayer*
+  name: AddItemToPlayer
+  href: api/api/SharedLibrary.Managers.ItemsManager.html#SharedLibrary_Managers_ItemsManager_AddItemToPlayer_
+  commentId: Overload:SharedLibrary.Managers.ItemsManager.AddItemToPlayer
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.ItemsManager.AddItemToPlayer
+  nameWithType: ItemsManager.AddItemToPlayer
+- uid: SharedLibrary.Managers.ItemsManager.GetAllItemsByCollectionId(System.String)
+  name: GetAllItemsByCollectionId(string)
+  href: api/api/SharedLibrary.Managers.ItemsManager.html#SharedLibrary_Managers_ItemsManager_GetAllItemsByCollectionId_System_String_
+  commentId: M:SharedLibrary.Managers.ItemsManager.GetAllItemsByCollectionId(System.String)
+  name.vb: GetAllItemsByCollectionId(String)
+  fullName: SharedLibrary.Managers.ItemsManager.GetAllItemsByCollectionId(string)
+  fullName.vb: SharedLibrary.Managers.ItemsManager.GetAllItemsByCollectionId(String)
+  nameWithType: ItemsManager.GetAllItemsByCollectionId(string)
+  nameWithType.vb: ItemsManager.GetAllItemsByCollectionId(String)
+- uid: SharedLibrary.Managers.ItemsManager.GetAllItemsByCollectionId*
+  name: GetAllItemsByCollectionId
+  href: api/api/SharedLibrary.Managers.ItemsManager.html#SharedLibrary_Managers_ItemsManager_GetAllItemsByCollectionId_
+  commentId: Overload:SharedLibrary.Managers.ItemsManager.GetAllItemsByCollectionId
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.ItemsManager.GetAllItemsByCollectionId
+  nameWithType: ItemsManager.GetAllItemsByCollectionId
+- uid: SharedLibrary.Managers.ItemsManager.GetAllItemsByContainerId(System.String)
+  name: GetAllItemsByContainerId(string)
+  href: api/api/SharedLibrary.Managers.ItemsManager.html#SharedLibrary_Managers_ItemsManager_GetAllItemsByContainerId_System_String_
+  commentId: M:SharedLibrary.Managers.ItemsManager.GetAllItemsByContainerId(System.String)
+  name.vb: GetAllItemsByContainerId(String)
+  fullName: SharedLibrary.Managers.ItemsManager.GetAllItemsByContainerId(string)
+  fullName.vb: SharedLibrary.Managers.ItemsManager.GetAllItemsByContainerId(String)
+  nameWithType: ItemsManager.GetAllItemsByContainerId(string)
+  nameWithType.vb: ItemsManager.GetAllItemsByContainerId(String)
+- uid: SharedLibrary.Managers.ItemsManager.GetAllItemsByContainerId*
+  name: GetAllItemsByContainerId
+  href: api/api/SharedLibrary.Managers.ItemsManager.html#SharedLibrary_Managers_ItemsManager_GetAllItemsByContainerId_
+  commentId: Overload:SharedLibrary.Managers.ItemsManager.GetAllItemsByContainerId
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.ItemsManager.GetAllItemsByContainerId
+  nameWithType: ItemsManager.GetAllItemsByContainerId
+- uid: SharedLibrary.Managers.ItemsManager.GetAllItemsInIsland(SharedLibrary.Data.Player,System.String)
+  name: GetAllItemsInIsland(Player, string)
+  href: api/api/SharedLibrary.Managers.ItemsManager.html#SharedLibrary_Managers_ItemsManager_GetAllItemsInIsland_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Managers.ItemsManager.GetAllItemsInIsland(SharedLibrary.Data.Player,System.String)
+  name.vb: GetAllItemsInIsland(Player, String)
+  fullName: SharedLibrary.Managers.ItemsManager.GetAllItemsInIsland(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Managers.ItemsManager.GetAllItemsInIsland(SharedLibrary.Data.Player, String)
+  nameWithType: ItemsManager.GetAllItemsInIsland(Player, string)
+  nameWithType.vb: ItemsManager.GetAllItemsInIsland(Player, String)
+- uid: SharedLibrary.Managers.ItemsManager.GetAllItemsInIsland*
+  name: GetAllItemsInIsland
+  href: api/api/SharedLibrary.Managers.ItemsManager.html#SharedLibrary_Managers_ItemsManager_GetAllItemsInIsland_
+  commentId: Overload:SharedLibrary.Managers.ItemsManager.GetAllItemsInIsland
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.ItemsManager.GetAllItemsInIsland
+  nameWithType: ItemsManager.GetAllItemsInIsland
+- uid: SharedLibrary.Managers.ItemsManager.GetItemById(System.String)
+  name: GetItemById(string)
+  href: api/api/SharedLibrary.Managers.ItemsManager.html#SharedLibrary_Managers_ItemsManager_GetItemById_System_String_
+  commentId: M:SharedLibrary.Managers.ItemsManager.GetItemById(System.String)
+  name.vb: GetItemById(String)
+  fullName: SharedLibrary.Managers.ItemsManager.GetItemById(string)
+  fullName.vb: SharedLibrary.Managers.ItemsManager.GetItemById(String)
+  nameWithType: ItemsManager.GetItemById(string)
+  nameWithType.vb: ItemsManager.GetItemById(String)
+- uid: SharedLibrary.Managers.ItemsManager.GetItemById*
+  name: GetItemById
+  href: api/api/SharedLibrary.Managers.ItemsManager.html#SharedLibrary_Managers_ItemsManager_GetItemById_
+  commentId: Overload:SharedLibrary.Managers.ItemsManager.GetItemById
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.ItemsManager.GetItemById
+  nameWithType: ItemsManager.GetItemById
+- uid: SharedLibrary.Managers.ItemsManager.IsHasItemById(SharedLibrary.Data.Player,System.String)
+  name: IsHasItemById(Player, string)
+  href: api/api/SharedLibrary.Managers.ItemsManager.html#SharedLibrary_Managers_ItemsManager_IsHasItemById_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Managers.ItemsManager.IsHasItemById(SharedLibrary.Data.Player,System.String)
+  name.vb: IsHasItemById(Player, String)
+  fullName: SharedLibrary.Managers.ItemsManager.IsHasItemById(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Managers.ItemsManager.IsHasItemById(SharedLibrary.Data.Player, String)
+  nameWithType: ItemsManager.IsHasItemById(Player, string)
+  nameWithType.vb: ItemsManager.IsHasItemById(Player, String)
+- uid: SharedLibrary.Managers.ItemsManager.IsHasItemById*
+  name: IsHasItemById
+  href: api/api/SharedLibrary.Managers.ItemsManager.html#SharedLibrary_Managers_ItemsManager_IsHasItemById_
+  commentId: Overload:SharedLibrary.Managers.ItemsManager.IsHasItemById
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.ItemsManager.IsHasItemById
+  nameWithType: ItemsManager.IsHasItemById
+- uid: SharedLibrary.Managers.ItemsManager.PlaceItemToIsland(SharedLibrary.Data.Player,System.String,System.String)
+  name: PlaceItemToIsland(Player, string, string)
+  href: api/api/SharedLibrary.Managers.ItemsManager.html#SharedLibrary_Managers_ItemsManager_PlaceItemToIsland_SharedLibrary_Data_Player_System_String_System_String_
+  commentId: M:SharedLibrary.Managers.ItemsManager.PlaceItemToIsland(SharedLibrary.Data.Player,System.String,System.String)
+  name.vb: PlaceItemToIsland(Player, String, String)
+  fullName: SharedLibrary.Managers.ItemsManager.PlaceItemToIsland(SharedLibrary.Data.Player, string, string)
+  fullName.vb: SharedLibrary.Managers.ItemsManager.PlaceItemToIsland(SharedLibrary.Data.Player, String, String)
+  nameWithType: ItemsManager.PlaceItemToIsland(Player, string, string)
+  nameWithType.vb: ItemsManager.PlaceItemToIsland(Player, String, String)
+- uid: SharedLibrary.Managers.ItemsManager.PlaceItemToIsland*
+  name: PlaceItemToIsland
+  href: api/api/SharedLibrary.Managers.ItemsManager.html#SharedLibrary_Managers_ItemsManager_PlaceItemToIsland_
+  commentId: Overload:SharedLibrary.Managers.ItemsManager.PlaceItemToIsland
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.ItemsManager.PlaceItemToIsland
+  nameWithType: ItemsManager.PlaceItemToIsland
+- uid: SharedLibrary.Managers.ItemsManager.RemoveItemFromIsland(SharedLibrary.Data.Player,System.String,System.String)
+  name: RemoveItemFromIsland(Player, string, string)
+  href: api/api/SharedLibrary.Managers.ItemsManager.html#SharedLibrary_Managers_ItemsManager_RemoveItemFromIsland_SharedLibrary_Data_Player_System_String_System_String_
+  commentId: M:SharedLibrary.Managers.ItemsManager.RemoveItemFromIsland(SharedLibrary.Data.Player,System.String,System.String)
+  name.vb: RemoveItemFromIsland(Player, String, String)
+  fullName: SharedLibrary.Managers.ItemsManager.RemoveItemFromIsland(SharedLibrary.Data.Player, string, string)
+  fullName.vb: SharedLibrary.Managers.ItemsManager.RemoveItemFromIsland(SharedLibrary.Data.Player, String, String)
+  nameWithType: ItemsManager.RemoveItemFromIsland(Player, string, string)
+  nameWithType.vb: ItemsManager.RemoveItemFromIsland(Player, String, String)
+- uid: SharedLibrary.Managers.ItemsManager.RemoveItemFromIsland*
+  name: RemoveItemFromIsland
+  href: api/api/SharedLibrary.Managers.ItemsManager.html#SharedLibrary_Managers_ItemsManager_RemoveItemFromIsland_
+  commentId: Overload:SharedLibrary.Managers.ItemsManager.RemoveItemFromIsland
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.ItemsManager.RemoveItemFromIsland
+  nameWithType: ItemsManager.RemoveItemFromIsland
+- uid: SharedLibrary.Managers.ItemsManager.RemoveItemFromPlayer(SharedLibrary.Data.Player,System.String)
+  name: RemoveItemFromPlayer(Player, string)
+  href: api/api/SharedLibrary.Managers.ItemsManager.html#SharedLibrary_Managers_ItemsManager_RemoveItemFromPlayer_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Managers.ItemsManager.RemoveItemFromPlayer(SharedLibrary.Data.Player,System.String)
+  name.vb: RemoveItemFromPlayer(Player, String)
+  fullName: SharedLibrary.Managers.ItemsManager.RemoveItemFromPlayer(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Managers.ItemsManager.RemoveItemFromPlayer(SharedLibrary.Data.Player, String)
+  nameWithType: ItemsManager.RemoveItemFromPlayer(Player, string)
+  nameWithType.vb: ItemsManager.RemoveItemFromPlayer(Player, String)
+- uid: SharedLibrary.Managers.ItemsManager.RemoveItemFromPlayer*
+  name: RemoveItemFromPlayer
+  href: api/api/SharedLibrary.Managers.ItemsManager.html#SharedLibrary_Managers_ItemsManager_RemoveItemFromPlayer_
+  commentId: Overload:SharedLibrary.Managers.ItemsManager.RemoveItemFromPlayer
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.ItemsManager.RemoveItemFromPlayer
+  nameWithType: ItemsManager.RemoveItemFromPlayer
+- uid: SharedLibrary.Managers.ItemsManager.TryToBuyItem(SharedLibrary.Data.Player,System.String)
+  name: TryToBuyItem(Player, string)
+  href: api/api/SharedLibrary.Managers.ItemsManager.html#SharedLibrary_Managers_ItemsManager_TryToBuyItem_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Managers.ItemsManager.TryToBuyItem(SharedLibrary.Data.Player,System.String)
+  name.vb: TryToBuyItem(Player, String)
+  fullName: SharedLibrary.Managers.ItemsManager.TryToBuyItem(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Managers.ItemsManager.TryToBuyItem(SharedLibrary.Data.Player, String)
+  nameWithType: ItemsManager.TryToBuyItem(Player, string)
+  nameWithType.vb: ItemsManager.TryToBuyItem(Player, String)
+- uid: SharedLibrary.Managers.ItemsManager.TryToBuyItem*
+  name: TryToBuyItem
+  href: api/api/SharedLibrary.Managers.ItemsManager.html#SharedLibrary_Managers_ItemsManager_TryToBuyItem_
+  commentId: Overload:SharedLibrary.Managers.ItemsManager.TryToBuyItem
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.ItemsManager.TryToBuyItem
+  nameWithType: ItemsManager.TryToBuyItem
+- uid: SharedLibrary.Managers.ItemsManager.TryToUpgradeItem(SharedLibrary.Data.Player,System.String)
+  name: TryToUpgradeItem(Player, string)
+  href: api/api/SharedLibrary.Managers.ItemsManager.html#SharedLibrary_Managers_ItemsManager_TryToUpgradeItem_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Managers.ItemsManager.TryToUpgradeItem(SharedLibrary.Data.Player,System.String)
+  name.vb: TryToUpgradeItem(Player, String)
+  fullName: SharedLibrary.Managers.ItemsManager.TryToUpgradeItem(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Managers.ItemsManager.TryToUpgradeItem(SharedLibrary.Data.Player, String)
+  nameWithType: ItemsManager.TryToUpgradeItem(Player, string)
+  nameWithType.vb: ItemsManager.TryToUpgradeItem(Player, String)
+- uid: SharedLibrary.Managers.ItemsManager.TryToUpgradeItem*
+  name: TryToUpgradeItem
+  href: api/api/SharedLibrary.Managers.ItemsManager.html#SharedLibrary_Managers_ItemsManager_TryToUpgradeItem_
+  commentId: Overload:SharedLibrary.Managers.ItemsManager.TryToUpgradeItem
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.ItemsManager.TryToUpgradeItem
+  nameWithType: ItemsManager.TryToUpgradeItem
 - uid: SharedLibrary.Managers.TasksManager
   name: TasksManager
   href: api/api/SharedLibrary.Managers.TasksManager.html
   commentId: T:SharedLibrary.Managers.TasksManager
   fullName: SharedLibrary.Managers.TasksManager
   nameWithType: TasksManager
-- uid: SharedLibrary.Managers.TasksManager.#ctor
-  name: TasksManager()
-  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager__ctor
-  commentId: M:SharedLibrary.Managers.TasksManager.#ctor
-  name.vb: New()
-  fullName: SharedLibrary.Managers.TasksManager.TasksManager()
-  fullName.vb: SharedLibrary.Managers.TasksManager.New()
-  nameWithType: TasksManager.TasksManager()
-  nameWithType.vb: TasksManager.New()
-- uid: SharedLibrary.Managers.TasksManager.#ctor*
-  name: TasksManager
-  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager__ctor_
-  commentId: Overload:SharedLibrary.Managers.TasksManager.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: SharedLibrary.Managers.TasksManager.TasksManager
-  fullName.vb: SharedLibrary.Managers.TasksManager.New
-  nameWithType: TasksManager.TasksManager
-  nameWithType.vb: TasksManager.New
 - uid: SharedLibrary.Managers.TasksManager.AddMTaskFromSuggestions(SharedLibrary.Data.Player,System.String)
   name: AddMTaskFromSuggestions(Player, string)
   href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_AddMTaskFromSuggestions_SharedLibrary_Data_Player_System_String_

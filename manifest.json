@@ -92,7 +92,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Data.Island.IslandBase",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Data.Island.IslandBase.yml\" sourcestartlinenumber=\"1\">Represents the base data structure of a player's island, containing all items placed on it and providing island-wide calculations.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -134,7 +134,21 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Data.Items.ItemBase",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Data.Items.ItemBase.yml\" sourcestartlinenumber=\"1\">Represents a base item definition containing metadata such as cost, upgrade information, level, and usage parameters.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Data.Items.ItemOnIsland.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Data.Items.ItemOnIsland.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Data.Items.ItemOnIsland",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Data.Items.ItemOnIsland.yml\" sourcestartlinenumber=\"1\">Represents an item placed on the player's island along with information about the container it resides in.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -163,6 +177,20 @@
       "IsMRef": true,
       "Title": "SharedLibrary.Data.Player",
       "Summary": "<p sourcefile=\"api/SharedLibrary.Data.Player.yml\" sourcestartlinenumber=\"1\">Represents a player entity.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Data.PlayerIslands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Data.PlayerIslands.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Data.PlayerIslands",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Data.PlayerIslands.yml\" sourcestartlinenumber=\"1\">Represents the player's island data, including all owned islands and the identifier of the currently active island.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -345,6 +373,34 @@
       "IsMRef": true,
       "Title": "SharedLibrary.Extensions",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Managers.ConfigManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Managers.ConfigManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Managers.ConfigManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Managers.ItemsManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Managers.ItemsManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Managers.ItemsManager",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Managers.ItemsManager.yml\" sourcestartlinenumber=\"1\">Manages operations related to items, such as retrieval, addition, removal, and upgrades.</p>\n"
     },
     {
       "type": "ManagedReference",

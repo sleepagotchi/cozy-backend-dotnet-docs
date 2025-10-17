@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width">
       <meta name="title" content="Class ItemBase | Sleepagotchi SharedLibrary API ">
     
-    
+    <meta name="description" content="Represents a base item definition containing metadata such as cost, upgrade information, level, and usage parameters.">
       <link rel="shortcut icon" href="../../favicon.ico">
       <link rel="stylesheet" href="../../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../../styles/docfx.css">
@@ -81,13 +81,13 @@
 
 
   <h1 id="SharedLibrary_Data_Items_ItemBase" data-uid="SharedLibrary.Data.Items.ItemBase" class="text-break">Class ItemBase</h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Represents a base item definition containing metadata such as cost, upgrade information, level, and usage parameters.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
     <div class="level1"><span class="xref">ItemBase</span></div>
-      <div class="level2"><a class="xref" href="SharedLibrary.Data.Items.Item.html">Item</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -113,6 +113,10 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class ItemBase</code></pre>
   </div>
+  <h5 id="SharedLibrary_Data_Items_ItemBase_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>This class serves as a fundamental data model for all in-game items, including their identifiers, collection grouping,
+upgrade path, drop chance, and applicable activities.</p>
+</div>
   <h3 id="properties">Properties
 </h3>
   <span class="small pull-right mobile-hide">
@@ -120,11 +124,12 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Data_Items_ItemBase_Activities.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Items.ItemBase.Activities%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Data/Items/ItemBase.cs/#L19">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Data/Items/ItemBase.cs/#L83">View Source</a>
   </span>
   <a id="SharedLibrary_Data_Items_ItemBase_Activities_" data-uid="SharedLibrary.Data.Items.ItemBase.Activities*"></a>
   <h4 id="SharedLibrary_Data_Items_ItemBase_Activities" data-uid="SharedLibrary.Data.Items.ItemBase.Activities">Activities</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>A list of activity identifiers where this item can be used or obtained.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -145,16 +150,20 @@
       </tr>
     </tbody>
   </table>
+  <h5 id="SharedLibrary_Data_Items_ItemBase_Activities_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Defines the gameplay contexts in which the item participates or provides bonuses.</p>
+</div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Data_Items_ItemBase_CollectionId.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Items.ItemBase.CollectionId%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Data/Items/ItemBase.cs/#L10">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Data/Items/ItemBase.cs/#L34">View Source</a>
   </span>
   <a id="SharedLibrary_Data_Items_ItemBase_CollectionId_" data-uid="SharedLibrary.Data.Items.ItemBase.CollectionId*"></a>
   <h4 id="SharedLibrary_Data_Items_ItemBase_CollectionId" data-uid="SharedLibrary.Data.Items.ItemBase.CollectionId">CollectionId</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The collection category to which the item belongs.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -175,16 +184,20 @@
       </tr>
     </tbody>
   </table>
+  <h5 id="SharedLibrary_Data_Items_ItemBase_CollectionId_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Typically represents a thematic or functional grouping such as &quot;Beds&quot;, &quot;Plants&quot;, or &quot;Decor&quot;.</p>
+</div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Data_Items_ItemBase_ContainerId.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Items.ItemBase.ContainerId%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Data/Items/ItemBase.cs/#L9">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Data/Items/ItemBase.cs/#L26">View Source</a>
   </span>
   <a id="SharedLibrary_Data_Items_ItemBase_ContainerId_" data-uid="SharedLibrary.Data.Items.ItemBase.ContainerId*"></a>
   <h4 id="SharedLibrary_Data_Items_ItemBase_ContainerId" data-uid="SharedLibrary.Data.Items.ItemBase.ContainerId">ContainerId</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The identifier of the container or group this item belongs to.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -210,11 +223,12 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Data_Items_ItemBase_Cost.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Items.ItemBase.Cost%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Data/Items/ItemBase.cs/#L13">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Data/Items/ItemBase.cs/#L42">View Source</a>
   </span>
   <a id="SharedLibrary_Data_Items_ItemBase_Cost_" data-uid="SharedLibrary.Data.Items.ItemBase.Cost*"></a>
   <h4 id="SharedLibrary_Data_Items_ItemBase_Cost" data-uid="SharedLibrary.Data.Items.ItemBase.Cost">Cost</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The base resource cost required to purchase the item.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -235,46 +249,20 @@
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Data_Items_ItemBase_CozyPoints.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Items.ItemBase.CozyPoints%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Data/Items/ItemBase.cs/#L11">View Source</a>
-  </span>
-  <a id="SharedLibrary_Data_Items_ItemBase_CozyPoints_" data-uid="SharedLibrary.Data.Items.ItemBase.CozyPoints*"></a>
-  <h4 id="SharedLibrary_Data_Items_ItemBase_CozyPoints" data-uid="SharedLibrary.Data.Items.ItemBase.CozyPoints">CozyPoints</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int CozyPoints { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <h5 id="SharedLibrary_Data_Items_ItemBase_Cost_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Represents the item's initial purchase price expressed in a game resource unit.</p>
+</div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Data_Items_ItemBase_DropChance.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Items.ItemBase.DropChance%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Data/Items/ItemBase.cs/#L16">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Data/Items/ItemBase.cs/#L75">View Source</a>
   </span>
   <a id="SharedLibrary_Data_Items_ItemBase_DropChance_" data-uid="SharedLibrary.Data.Items.ItemBase.DropChance*"></a>
   <h4 id="SharedLibrary_Data_Items_ItemBase_DropChance" data-uid="SharedLibrary.Data.Items.ItemBase.DropChance">DropChance</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The normalized probability (0–1) that this item will drop as a reward from activities.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -295,16 +283,20 @@
       </tr>
     </tbody>
   </table>
+  <h5 id="SharedLibrary_Data_Items_ItemBase_DropChance_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Higher values indicate greater likelihood of obtaining this item through gameplay actions.</p>
+</div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Data_Items_ItemBase_Id.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Items.ItemBase.Id%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Data/Items/ItemBase.cs/#L8">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Data/Items/ItemBase.cs/#L21">View Source</a>
   </span>
   <a id="SharedLibrary_Data_Items_ItemBase_Id_" data-uid="SharedLibrary.Data.Items.ItemBase.Id*"></a>
   <h4 id="SharedLibrary_Data_Items_ItemBase_Id" data-uid="SharedLibrary.Data.Items.ItemBase.Id">Id</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The unique identifier of the item.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -325,6 +317,143 @@
       </tr>
     </tbody>
   </table>
+  <h5 id="SharedLibrary_Data_Items_ItemBase_Id_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Used for referencing the item across the game's data systems, inventory, and upgrade relationships.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Data_Items_ItemBase_Level.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Items.ItemBase.Level%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Data/Items/ItemBase.cs/#L50">View Source</a>
+  </span>
+  <a id="SharedLibrary_Data_Items_ItemBase_Level_" data-uid="SharedLibrary.Data.Items.ItemBase.Level*"></a>
+  <h4 id="SharedLibrary_Data_Items_ItemBase_Level" data-uid="SharedLibrary.Data.Items.ItemBase.Level">Level</h4>
+  <div class="markdown level1 summary"><p>The current upgrade level of the item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Level { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SharedLibrary_Data_Items_ItemBase_Level_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Used to determine the item's progression and which upgraded variant it leads to.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Data_Items_ItemBase_UpdatedItemId.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Items.ItemBase.UpdatedItemId%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Data/Items/ItemBase.cs/#L67">View Source</a>
+  </span>
+  <a id="SharedLibrary_Data_Items_ItemBase_UpdatedItemId_" data-uid="SharedLibrary.Data.Items.ItemBase.UpdatedItemId*"></a>
+  <h4 id="SharedLibrary_Data_Items_ItemBase_UpdatedItemId" data-uid="SharedLibrary.Data.Items.ItemBase.UpdatedItemId">UpdatedItemId</h4>
+  <div class="markdown level1 summary"><p>The identifier of the next-level item that this item can be upgraded into.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string UpdatedItemId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SharedLibrary_Data_Items_ItemBase_UpdatedItemId_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If empty, the item is considered to be at its maximum level and cannot be upgraded further.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Data_Items_ItemBase_UpgradeCost.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Items.ItemBase.UpgradeCost%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Data/Items/ItemBase.cs/#L59">View Source</a>
+  </span>
+  <a id="SharedLibrary_Data_Items_ItemBase_UpgradeCost_" data-uid="SharedLibrary.Data.Items.ItemBase.UpgradeCost*"></a>
+  <h4 id="SharedLibrary_Data_Items_ItemBase_UpgradeCost" data-uid="SharedLibrary.Data.Items.ItemBase.UpgradeCost">UpgradeCost</h4>
+  <div class="markdown level1 summary"><p>The cost required to upgrade this item to its next level.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BigVal UpgradeCost { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Extensions.BigVal.html">BigVal</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SharedLibrary_Data_Items_ItemBase_UpgradeCost_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Represents the resource expenditure needed to transform this item into the one referenced by <a class="xref" href="SharedLibrary.Data.Items.ItemBase.html#SharedLibrary_Data_Items_ItemBase_UpdatedItemId">UpdatedItemId</a>.</p>
+</div>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Data_Items_ItemBase_IsCanBeUpgraded.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Items.ItemBase.IsCanBeUpgraded%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Data/Items/ItemBase.cs/#L85">View Source</a>
+  </span>
+  <a id="SharedLibrary_Data_Items_ItemBase_IsCanBeUpgraded_" data-uid="SharedLibrary.Data.Items.ItemBase.IsCanBeUpgraded*"></a>
+  <h4 id="SharedLibrary_Data_Items_ItemBase_IsCanBeUpgraded" data-uid="SharedLibrary.Data.Items.ItemBase.IsCanBeUpgraded">IsCanBeUpgraded()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCanBeUpgraded()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 </article>
           </div>
@@ -337,7 +466,7 @@
                     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Data_Items_ItemBase.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Items.ItemBase%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Data/Items/ItemBase.cs/#L6" class="contribution-link">View Source</a>
+                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Data/Items/ItemBase.cs/#L13" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

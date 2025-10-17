@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class IslandBase | Sleepagotchi SharedLibrary API </title>
+      <title>Class ConfigManager | Sleepagotchi SharedLibrary API </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class IslandBase | Sleepagotchi SharedLibrary API ">
+      <meta name="title" content="Class ConfigManager | Sleepagotchi SharedLibrary API ">
     
-    <meta name="description" content="Represents the base data structure of a player&#39;s island, containing all items placed on it and providing island-wide calculations.">
+    
       <link rel="shortcut icon" href="../../favicon.ico">
       <link rel="stylesheet" href="../../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../../styles/docfx.css">
@@ -76,18 +76,17 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="SharedLibrary.Data.Island.IslandBase">
+            <article class="content wrap" id="_content" data-uid="SharedLibrary.Managers.ConfigManager">
 
 
 
-  <h1 id="SharedLibrary_Data_Island_IslandBase" data-uid="SharedLibrary.Data.Island.IslandBase" class="text-break">Class IslandBase</h1>
-  <div class="markdown level0 summary"><p>Represents the base data structure of a player's island, containing all items placed on it and providing island-wide calculations.</p>
-</div>
+  <h1 id="SharedLibrary_Managers_ConfigManager" data-uid="SharedLibrary.Managers.ConfigManager" class="text-break">Class ConfigManager</h1>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">IslandBase</span></div>
+    <div class="level1"><span class="xref">ConfigManager</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -107,32 +106,28 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="SharedLibrary.html">SharedLibrary</a>.<a class="xref" href="SharedLibrary.Data.html">Data</a>.<a class="xref" href="SharedLibrary.Data.Island.html">Island</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SharedLibrary.html">SharedLibrary</a>.<a class="xref" href="SharedLibrary.Managers.html">Managers</a></h6>
   <h6><strong>Assembly</strong>: SharedLibrary.dll</h6>
-  <h5 id="SharedLibrary_Data_Island_IslandBase_syntax">Syntax</h5>
+  <h5 id="SharedLibrary_Managers_ConfigManager_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class IslandBase</code></pre>
+    <pre><code class="lang-csharp hljs">public static class ConfigManager</code></pre>
   </div>
-  <h5 id="SharedLibrary_Data_Island_IslandBase_remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level0 remarks"><p>This class stores the collection of items that make up an island and provides computed properties such as total CozyPoints.</p>
-</div>
   <h3 id="properties">Properties
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Data_Island_IslandBase_Items.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Island.IslandBase.Items%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Managers_ConfigManager_GetItems.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.ConfigManager.GetItems%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Data/Island/IslandBase.cs/#L20">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Managers/ConfigManager.cs/#L16">View Source</a>
   </span>
-  <a id="SharedLibrary_Data_Island_IslandBase_Items_" data-uid="SharedLibrary.Data.Island.IslandBase.Items*"></a>
-  <h4 id="SharedLibrary_Data_Island_IslandBase_Items" data-uid="SharedLibrary.Data.Island.IslandBase.Items">Items</h4>
-  <div class="markdown level1 summary"><p>A list of items currently placed on the island.</p>
-</div>
+  <a id="SharedLibrary_Managers_ConfigManager_GetItems_" data-uid="SharedLibrary.Managers.ConfigManager.GetItems*"></a>
+  <h4 id="SharedLibrary_Managers_ConfigManager_GetItems" data-uid="SharedLibrary.Managers.ConfigManager.GetItems">GetItems</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;ItemOnIsland&gt; Items { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;string, ItemBase&gt; GetItems { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -144,14 +139,58 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SharedLibrary.Data.Items.ItemOnIsland.html">ItemOnIsland</a>&gt;</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="SharedLibrary.Data.Items.ItemBase.html">ItemBase</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 id="SharedLibrary_Data_Island_IslandBase_Items_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>Each <a class="xref" href="SharedLibrary.Data.Items.ItemOnIsland.html">ItemOnIsland</a> represents a unique object on the island, such as furniture or decorations.</p>
-</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Managers_ConfigManager_GetTasks.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.ConfigManager.GetTasks%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Managers/ConfigManager.cs/#L14">View Source</a>
+  </span>
+  <a id="SharedLibrary_Managers_ConfigManager_GetTasks_" data-uid="SharedLibrary.Managers.ConfigManager.GetTasks*"></a>
+  <h4 id="SharedLibrary_Managers_ConfigManager_GetTasks" data-uid="SharedLibrary.Managers.ConfigManager.GetTasks">GetTasks</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;TaskCare&gt; GetTasks { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SharedLibrary.Data.Tasks.TaskCare.html">TaskCare</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Managers_ConfigManager_Initialize.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.ConfigManager.Initialize%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Managers/ConfigManager.cs/#L18">View Source</a>
+  </span>
+  <a id="SharedLibrary_Managers_ConfigManager_Initialize_" data-uid="SharedLibrary.Managers.ConfigManager.Initialize*"></a>
+  <h4 id="SharedLibrary_Managers_ConfigManager_Initialize" data-uid="SharedLibrary.Managers.ConfigManager.Initialize">Initialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Initialize()</code></pre>
+  </div>
 
 </article>
           </div>
@@ -161,10 +200,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Data_Island_IslandBase.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Island.IslandBase%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/master/apiSpec/new?filename=SharedLibrary_Managers_ConfigManager.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.ConfigManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Data/Island/IslandBase.cs/#L12" class="contribution-link">View Source</a>
+                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/master/SharedLibrary/Managers/ConfigManager.cs/#L12" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
