@@ -1,6 +1,1552 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: SharedLibrary.Commands
+  name: SharedLibrary.Commands
+  href: api/api/SharedLibrary.Commands.html
+  commentId: N:SharedLibrary.Commands
+  fullName: SharedLibrary.Commands
+  nameWithType: SharedLibrary.Commands
+- uid: SharedLibrary.Commands.Arguments.Cosmetic
+  name: SharedLibrary.Commands.Arguments.Cosmetic
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.html
+  commentId: N:SharedLibrary.Commands.Arguments.Cosmetic
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic
+  nameWithType: SharedLibrary.Commands.Arguments.Cosmetic
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs
+  name: AddCosmeticItemArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs
+  nameWithType: AddCosmeticItemArgs
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.CosmeticManager,System.String)
+  name: AddCosmeticItemArgs(Player, CosmeticManager, string)
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_AddCosmeticItemArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_CosmeticManager_System_String_
+  commentId: M:SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.CosmeticManager,System.String)
+  name.vb: New(Player, CosmeticManager, String)
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.AddCosmeticItemArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.CosmeticManager, string)
+  fullName.vb: SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.CosmeticManager, String)
+  nameWithType: AddCosmeticItemArgs.AddCosmeticItemArgs(Player, CosmeticManager, string)
+  nameWithType.vb: AddCosmeticItemArgs.New(Player, CosmeticManager, String)
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.#ctor*
+  name: AddCosmeticItemArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_AddCosmeticItemArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.AddCosmeticItemArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.New
+  nameWithType: AddCosmeticItemArgs.AddCosmeticItemArgs
+  nameWithType.vb: AddCosmeticItemArgs.New
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.CosmeticManager
+  name: CosmeticManager
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_AddCosmeticItemArgs_CosmeticManager
+  commentId: P:SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.CosmeticManager
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.CosmeticManager
+  nameWithType: AddCosmeticItemArgs.CosmeticManager
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.CosmeticManager*
+  name: CosmeticManager
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_AddCosmeticItemArgs_CosmeticManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.CosmeticManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.CosmeticManager
+  nameWithType: AddCosmeticItemArgs.CosmeticManager
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.ItemId
+  name: ItemId
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_AddCosmeticItemArgs_ItemId
+  commentId: P:SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.ItemId
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.ItemId
+  nameWithType: AddCosmeticItemArgs.ItemId
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.ItemId*
+  name: ItemId
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_AddCosmeticItemArgs_ItemId_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.ItemId
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.ItemId
+  nameWithType: AddCosmeticItemArgs.ItemId
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_AddCosmeticItemArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.Player
+  nameWithType: AddCosmeticItemArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_AddCosmeticItemArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs.Player
+  nameWithType: AddCosmeticItemArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs
+  name: CosmeticBuyItemArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs
+  nameWithType: CosmeticBuyItemArgs
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.CosmeticManager,System.String)
+  name: CosmeticBuyItemArgs(Player, CosmeticManager, string)
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticBuyItemArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_CosmeticManager_System_String_
+  commentId: M:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.CosmeticManager,System.String)
+  name.vb: New(Player, CosmeticManager, String)
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.CosmeticBuyItemArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.CosmeticManager, string)
+  fullName.vb: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.CosmeticManager, String)
+  nameWithType: CosmeticBuyItemArgs.CosmeticBuyItemArgs(Player, CosmeticManager, string)
+  nameWithType.vb: CosmeticBuyItemArgs.New(Player, CosmeticManager, String)
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.#ctor*
+  name: CosmeticBuyItemArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticBuyItemArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.CosmeticBuyItemArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.New
+  nameWithType: CosmeticBuyItemArgs.CosmeticBuyItemArgs
+  nameWithType.vb: CosmeticBuyItemArgs.New
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.CosmeticManager
+  name: CosmeticManager
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticBuyItemArgs_CosmeticManager
+  commentId: P:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.CosmeticManager
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.CosmeticManager
+  nameWithType: CosmeticBuyItemArgs.CosmeticManager
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.CosmeticManager*
+  name: CosmeticManager
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticBuyItemArgs_CosmeticManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.CosmeticManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.CosmeticManager
+  nameWithType: CosmeticBuyItemArgs.CosmeticManager
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.ItemId
+  name: ItemId
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticBuyItemArgs_ItemId
+  commentId: P:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.ItemId
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.ItemId
+  nameWithType: CosmeticBuyItemArgs.ItemId
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.ItemId*
+  name: ItemId
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticBuyItemArgs_ItemId_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.ItemId
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.ItemId
+  nameWithType: CosmeticBuyItemArgs.ItemId
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticBuyItemArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.Player
+  nameWithType: CosmeticBuyItemArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticBuyItemArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs.Player
+  nameWithType: CosmeticBuyItemArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs
+  name: CosmeticEquipArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs
+  nameWithType: CosmeticEquipArgs
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.CosmeticManager,System.String)
+  name: CosmeticEquipArgs(Player, CosmeticManager, string)
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticEquipArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_CosmeticManager_System_String_
+  commentId: M:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.CosmeticManager,System.String)
+  name.vb: New(Player, CosmeticManager, String)
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.CosmeticEquipArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.CosmeticManager, string)
+  fullName.vb: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.CosmeticManager, String)
+  nameWithType: CosmeticEquipArgs.CosmeticEquipArgs(Player, CosmeticManager, string)
+  nameWithType.vb: CosmeticEquipArgs.New(Player, CosmeticManager, String)
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.#ctor*
+  name: CosmeticEquipArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticEquipArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.CosmeticEquipArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.New
+  nameWithType: CosmeticEquipArgs.CosmeticEquipArgs
+  nameWithType.vb: CosmeticEquipArgs.New
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.CosmeticManager
+  name: CosmeticManager
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticEquipArgs_CosmeticManager
+  commentId: P:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.CosmeticManager
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.CosmeticManager
+  nameWithType: CosmeticEquipArgs.CosmeticManager
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.CosmeticManager*
+  name: CosmeticManager
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticEquipArgs_CosmeticManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.CosmeticManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.CosmeticManager
+  nameWithType: CosmeticEquipArgs.CosmeticManager
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.ItemId
+  name: ItemId
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticEquipArgs_ItemId
+  commentId: P:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.ItemId
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.ItemId
+  nameWithType: CosmeticEquipArgs.ItemId
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.ItemId*
+  name: ItemId
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticEquipArgs_ItemId_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.ItemId
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.ItemId
+  nameWithType: CosmeticEquipArgs.ItemId
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticEquipArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.Player
+  nameWithType: CosmeticEquipArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticEquipArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs.Player
+  nameWithType: CosmeticEquipArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs
+  name: CosmeticToggleFavoriteArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs
+  nameWithType: CosmeticToggleFavoriteArgs
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.CosmeticManager,System.String)
+  name: CosmeticToggleFavoriteArgs(Player, CosmeticManager, string)
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticToggleFavoriteArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_CosmeticManager_System_String_
+  commentId: M:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.CosmeticManager,System.String)
+  name.vb: New(Player, CosmeticManager, String)
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.CosmeticToggleFavoriteArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.CosmeticManager, string)
+  fullName.vb: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.CosmeticManager, String)
+  nameWithType: CosmeticToggleFavoriteArgs.CosmeticToggleFavoriteArgs(Player, CosmeticManager, string)
+  nameWithType.vb: CosmeticToggleFavoriteArgs.New(Player, CosmeticManager, String)
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.#ctor*
+  name: CosmeticToggleFavoriteArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticToggleFavoriteArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.CosmeticToggleFavoriteArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.New
+  nameWithType: CosmeticToggleFavoriteArgs.CosmeticToggleFavoriteArgs
+  nameWithType.vb: CosmeticToggleFavoriteArgs.New
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.CosmeticManager
+  name: CosmeticManager
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticToggleFavoriteArgs_CosmeticManager
+  commentId: P:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.CosmeticManager
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.CosmeticManager
+  nameWithType: CosmeticToggleFavoriteArgs.CosmeticManager
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.CosmeticManager*
+  name: CosmeticManager
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticToggleFavoriteArgs_CosmeticManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.CosmeticManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.CosmeticManager
+  nameWithType: CosmeticToggleFavoriteArgs.CosmeticManager
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.ItemId
+  name: ItemId
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticToggleFavoriteArgs_ItemId
+  commentId: P:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.ItemId
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.ItemId
+  nameWithType: CosmeticToggleFavoriteArgs.ItemId
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.ItemId*
+  name: ItemId
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticToggleFavoriteArgs_ItemId_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.ItemId
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.ItemId
+  nameWithType: CosmeticToggleFavoriteArgs.ItemId
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticToggleFavoriteArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.Player
+  nameWithType: CosmeticToggleFavoriteArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticToggleFavoriteArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs.Player
+  nameWithType: CosmeticToggleFavoriteArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs
+  name: CosmeticUnequipItemArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs
+  nameWithType: CosmeticUnequipItemArgs
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.CosmeticManager,System.String)
+  name: CosmeticUnequipItemArgs(Player, CosmeticManager, string)
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticUnequipItemArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_CosmeticManager_System_String_
+  commentId: M:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.CosmeticManager,System.String)
+  name.vb: New(Player, CosmeticManager, String)
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.CosmeticUnequipItemArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.CosmeticManager, string)
+  fullName.vb: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.CosmeticManager, String)
+  nameWithType: CosmeticUnequipItemArgs.CosmeticUnequipItemArgs(Player, CosmeticManager, string)
+  nameWithType.vb: CosmeticUnequipItemArgs.New(Player, CosmeticManager, String)
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.#ctor*
+  name: CosmeticUnequipItemArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticUnequipItemArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.CosmeticUnequipItemArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.New
+  nameWithType: CosmeticUnequipItemArgs.CosmeticUnequipItemArgs
+  nameWithType.vb: CosmeticUnequipItemArgs.New
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.CosmeticManager
+  name: CosmeticManager
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticUnequipItemArgs_CosmeticManager
+  commentId: P:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.CosmeticManager
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.CosmeticManager
+  nameWithType: CosmeticUnequipItemArgs.CosmeticManager
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.CosmeticManager*
+  name: CosmeticManager
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticUnequipItemArgs_CosmeticManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.CosmeticManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.CosmeticManager
+  nameWithType: CosmeticUnequipItemArgs.CosmeticManager
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.ItemId
+  name: ItemId
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticUnequipItemArgs_ItemId
+  commentId: P:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.ItemId
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.ItemId
+  nameWithType: CosmeticUnequipItemArgs.ItemId
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.ItemId*
+  name: ItemId
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticUnequipItemArgs_ItemId_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.ItemId
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.ItemId
+  nameWithType: CosmeticUnequipItemArgs.ItemId
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticUnequipItemArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.Player
+  nameWithType: CosmeticUnequipItemArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_CosmeticUnequipItemArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs.Player
+  nameWithType: CosmeticUnequipItemArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs
+  name: RemoveCosmeticItemArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs
+  nameWithType: RemoveCosmeticItemArgs
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.CosmeticManager,System.String)
+  name: RemoveCosmeticItemArgs(Player, CosmeticManager, string)
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_RemoveCosmeticItemArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_CosmeticManager_System_String_
+  commentId: M:SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.CosmeticManager,System.String)
+  name.vb: New(Player, CosmeticManager, String)
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.RemoveCosmeticItemArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.CosmeticManager, string)
+  fullName.vb: SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.CosmeticManager, String)
+  nameWithType: RemoveCosmeticItemArgs.RemoveCosmeticItemArgs(Player, CosmeticManager, string)
+  nameWithType.vb: RemoveCosmeticItemArgs.New(Player, CosmeticManager, String)
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.#ctor*
+  name: RemoveCosmeticItemArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_RemoveCosmeticItemArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.RemoveCosmeticItemArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.New
+  nameWithType: RemoveCosmeticItemArgs.RemoveCosmeticItemArgs
+  nameWithType.vb: RemoveCosmeticItemArgs.New
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.CosmeticManager
+  name: CosmeticManager
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_RemoveCosmeticItemArgs_CosmeticManager
+  commentId: P:SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.CosmeticManager
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.CosmeticManager
+  nameWithType: RemoveCosmeticItemArgs.CosmeticManager
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.CosmeticManager*
+  name: CosmeticManager
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_RemoveCosmeticItemArgs_CosmeticManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.CosmeticManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.CosmeticManager
+  nameWithType: RemoveCosmeticItemArgs.CosmeticManager
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.ItemId
+  name: ItemId
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_RemoveCosmeticItemArgs_ItemId
+  commentId: P:SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.ItemId
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.ItemId
+  nameWithType: RemoveCosmeticItemArgs.ItemId
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.ItemId*
+  name: ItemId
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_RemoveCosmeticItemArgs_ItemId_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.ItemId
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.ItemId
+  nameWithType: RemoveCosmeticItemArgs.ItemId
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_RemoveCosmeticItemArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.Player
+  nameWithType: RemoveCosmeticItemArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.html#SharedLibrary_Commands_Arguments_Cosmetic_RemoveCosmeticItemArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs.Player
+  nameWithType: RemoveCosmeticItemArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Items
+  name: SharedLibrary.Commands.Arguments.Items
+  href: api/api/SharedLibrary.Commands.Arguments.Items.html
+  commentId: N:SharedLibrary.Commands.Arguments.Items
+  fullName: SharedLibrary.Commands.Arguments.Items
+  nameWithType: SharedLibrary.Commands.Arguments.Items
+- uid: SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs
+  name: AddItemToPlayerArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs
+  fullName: SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs
+  nameWithType: AddItemToPlayerArgs
+- uid: SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.ItemsManager,System.String)
+  name: AddItemToPlayerArgs(Player, ItemsManager, string)
+  href: api/api/SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.html#SharedLibrary_Commands_Arguments_Items_AddItemToPlayerArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_ItemsManager_System_String_
+  commentId: M:SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.ItemsManager,System.String)
+  name.vb: New(Player, ItemsManager, String)
+  fullName: SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.AddItemToPlayerArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.ItemsManager, string)
+  fullName.vb: SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.ItemsManager, String)
+  nameWithType: AddItemToPlayerArgs.AddItemToPlayerArgs(Player, ItemsManager, string)
+  nameWithType.vb: AddItemToPlayerArgs.New(Player, ItemsManager, String)
+- uid: SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.#ctor*
+  name: AddItemToPlayerArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.html#SharedLibrary_Commands_Arguments_Items_AddItemToPlayerArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.AddItemToPlayerArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.New
+  nameWithType: AddItemToPlayerArgs.AddItemToPlayerArgs
+  nameWithType.vb: AddItemToPlayerArgs.New
+- uid: SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.ItemId
+  name: ItemId
+  href: api/api/SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.html#SharedLibrary_Commands_Arguments_Items_AddItemToPlayerArgs_ItemId
+  commentId: P:SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.ItemId
+  fullName: SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.ItemId
+  nameWithType: AddItemToPlayerArgs.ItemId
+- uid: SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.ItemId*
+  name: ItemId
+  href: api/api/SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.html#SharedLibrary_Commands_Arguments_Items_AddItemToPlayerArgs_ItemId_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.ItemId
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.ItemId
+  nameWithType: AddItemToPlayerArgs.ItemId
+- uid: SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.ItemsManager
+  name: ItemsManager
+  href: api/api/SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.html#SharedLibrary_Commands_Arguments_Items_AddItemToPlayerArgs_ItemsManager
+  commentId: P:SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.ItemsManager
+  fullName: SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.ItemsManager
+  nameWithType: AddItemToPlayerArgs.ItemsManager
+- uid: SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.ItemsManager*
+  name: ItemsManager
+  href: api/api/SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.html#SharedLibrary_Commands_Arguments_Items_AddItemToPlayerArgs_ItemsManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.ItemsManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.ItemsManager
+  nameWithType: AddItemToPlayerArgs.ItemsManager
+- uid: SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.html#SharedLibrary_Commands_Arguments_Items_AddItemToPlayerArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.Player
+  nameWithType: AddItemToPlayerArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.html#SharedLibrary_Commands_Arguments_Items_AddItemToPlayerArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs.Player
+  nameWithType: AddItemToPlayerArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Items.BuyItemArgs
+  name: BuyItemArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Items.BuyItemArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Items.BuyItemArgs
+  fullName: SharedLibrary.Commands.Arguments.Items.BuyItemArgs
+  nameWithType: BuyItemArgs
+- uid: SharedLibrary.Commands.Arguments.Items.BuyItemArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.ItemsManager,System.String)
+  name: BuyItemArgs(Player, ItemsManager, string)
+  href: api/api/SharedLibrary.Commands.Arguments.Items.BuyItemArgs.html#SharedLibrary_Commands_Arguments_Items_BuyItemArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_ItemsManager_System_String_
+  commentId: M:SharedLibrary.Commands.Arguments.Items.BuyItemArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.ItemsManager,System.String)
+  name.vb: New(Player, ItemsManager, String)
+  fullName: SharedLibrary.Commands.Arguments.Items.BuyItemArgs.BuyItemArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.ItemsManager, string)
+  fullName.vb: SharedLibrary.Commands.Arguments.Items.BuyItemArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.ItemsManager, String)
+  nameWithType: BuyItemArgs.BuyItemArgs(Player, ItemsManager, string)
+  nameWithType.vb: BuyItemArgs.New(Player, ItemsManager, String)
+- uid: SharedLibrary.Commands.Arguments.Items.BuyItemArgs.#ctor*
+  name: BuyItemArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Items.BuyItemArgs.html#SharedLibrary_Commands_Arguments_Items_BuyItemArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Items.BuyItemArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Items.BuyItemArgs.BuyItemArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Items.BuyItemArgs.New
+  nameWithType: BuyItemArgs.BuyItemArgs
+  nameWithType.vb: BuyItemArgs.New
+- uid: SharedLibrary.Commands.Arguments.Items.BuyItemArgs.ItemId
+  name: ItemId
+  href: api/api/SharedLibrary.Commands.Arguments.Items.BuyItemArgs.html#SharedLibrary_Commands_Arguments_Items_BuyItemArgs_ItemId
+  commentId: P:SharedLibrary.Commands.Arguments.Items.BuyItemArgs.ItemId
+  fullName: SharedLibrary.Commands.Arguments.Items.BuyItemArgs.ItemId
+  nameWithType: BuyItemArgs.ItemId
+- uid: SharedLibrary.Commands.Arguments.Items.BuyItemArgs.ItemId*
+  name: ItemId
+  href: api/api/SharedLibrary.Commands.Arguments.Items.BuyItemArgs.html#SharedLibrary_Commands_Arguments_Items_BuyItemArgs_ItemId_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Items.BuyItemArgs.ItemId
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Items.BuyItemArgs.ItemId
+  nameWithType: BuyItemArgs.ItemId
+- uid: SharedLibrary.Commands.Arguments.Items.BuyItemArgs.ItemsManager
+  name: ItemsManager
+  href: api/api/SharedLibrary.Commands.Arguments.Items.BuyItemArgs.html#SharedLibrary_Commands_Arguments_Items_BuyItemArgs_ItemsManager
+  commentId: P:SharedLibrary.Commands.Arguments.Items.BuyItemArgs.ItemsManager
+  fullName: SharedLibrary.Commands.Arguments.Items.BuyItemArgs.ItemsManager
+  nameWithType: BuyItemArgs.ItemsManager
+- uid: SharedLibrary.Commands.Arguments.Items.BuyItemArgs.ItemsManager*
+  name: ItemsManager
+  href: api/api/SharedLibrary.Commands.Arguments.Items.BuyItemArgs.html#SharedLibrary_Commands_Arguments_Items_BuyItemArgs_ItemsManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Items.BuyItemArgs.ItemsManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Items.BuyItemArgs.ItemsManager
+  nameWithType: BuyItemArgs.ItemsManager
+- uid: SharedLibrary.Commands.Arguments.Items.BuyItemArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Items.BuyItemArgs.html#SharedLibrary_Commands_Arguments_Items_BuyItemArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Items.BuyItemArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Items.BuyItemArgs.Player
+  nameWithType: BuyItemArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Items.BuyItemArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Items.BuyItemArgs.html#SharedLibrary_Commands_Arguments_Items_BuyItemArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Items.BuyItemArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Items.BuyItemArgs.Player
+  nameWithType: BuyItemArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs
+  name: PlaceItemToIslandArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs
+  fullName: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs
+  nameWithType: PlaceItemToIslandArgs
+- uid: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.ItemsManager,System.String)
+  name: PlaceItemToIslandArgs(Player, ItemsManager, string)
+  href: api/api/SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.html#SharedLibrary_Commands_Arguments_Items_PlaceItemToIslandArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_ItemsManager_System_String_
+  commentId: M:SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.ItemsManager,System.String)
+  name.vb: New(Player, ItemsManager, String)
+  fullName: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.PlaceItemToIslandArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.ItemsManager, string)
+  fullName.vb: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.ItemsManager, String)
+  nameWithType: PlaceItemToIslandArgs.PlaceItemToIslandArgs(Player, ItemsManager, string)
+  nameWithType.vb: PlaceItemToIslandArgs.New(Player, ItemsManager, String)
+- uid: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.#ctor*
+  name: PlaceItemToIslandArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.html#SharedLibrary_Commands_Arguments_Items_PlaceItemToIslandArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.PlaceItemToIslandArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.New
+  nameWithType: PlaceItemToIslandArgs.PlaceItemToIslandArgs
+  nameWithType.vb: PlaceItemToIslandArgs.New
+- uid: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.ItemId
+  name: ItemId
+  href: api/api/SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.html#SharedLibrary_Commands_Arguments_Items_PlaceItemToIslandArgs_ItemId
+  commentId: P:SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.ItemId
+  fullName: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.ItemId
+  nameWithType: PlaceItemToIslandArgs.ItemId
+- uid: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.ItemId*
+  name: ItemId
+  href: api/api/SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.html#SharedLibrary_Commands_Arguments_Items_PlaceItemToIslandArgs_ItemId_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.ItemId
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.ItemId
+  nameWithType: PlaceItemToIslandArgs.ItemId
+- uid: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.ItemsManager
+  name: ItemsManager
+  href: api/api/SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.html#SharedLibrary_Commands_Arguments_Items_PlaceItemToIslandArgs_ItemsManager
+  commentId: P:SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.ItemsManager
+  fullName: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.ItemsManager
+  nameWithType: PlaceItemToIslandArgs.ItemsManager
+- uid: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.ItemsManager*
+  name: ItemsManager
+  href: api/api/SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.html#SharedLibrary_Commands_Arguments_Items_PlaceItemToIslandArgs_ItemsManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.ItemsManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.ItemsManager
+  nameWithType: PlaceItemToIslandArgs.ItemsManager
+- uid: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.html#SharedLibrary_Commands_Arguments_Items_PlaceItemToIslandArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.Player
+  nameWithType: PlaceItemToIslandArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.html#SharedLibrary_Commands_Arguments_Items_PlaceItemToIslandArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.Player
+  nameWithType: PlaceItemToIslandArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs
+  name: RemoveItemFromIslandArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs
+  fullName: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs
+  nameWithType: RemoveItemFromIslandArgs
+- uid: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.ItemsManager,System.String)
+  name: RemoveItemFromIslandArgs(Player, ItemsManager, string)
+  href: api/api/SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.html#SharedLibrary_Commands_Arguments_Items_RemoveItemFromIslandArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_ItemsManager_System_String_
+  commentId: M:SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.ItemsManager,System.String)
+  name.vb: New(Player, ItemsManager, String)
+  fullName: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.RemoveItemFromIslandArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.ItemsManager, string)
+  fullName.vb: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.ItemsManager, String)
+  nameWithType: RemoveItemFromIslandArgs.RemoveItemFromIslandArgs(Player, ItemsManager, string)
+  nameWithType.vb: RemoveItemFromIslandArgs.New(Player, ItemsManager, String)
+- uid: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.#ctor*
+  name: RemoveItemFromIslandArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.html#SharedLibrary_Commands_Arguments_Items_RemoveItemFromIslandArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.RemoveItemFromIslandArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.New
+  nameWithType: RemoveItemFromIslandArgs.RemoveItemFromIslandArgs
+  nameWithType.vb: RemoveItemFromIslandArgs.New
+- uid: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.ItemId
+  name: ItemId
+  href: api/api/SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.html#SharedLibrary_Commands_Arguments_Items_RemoveItemFromIslandArgs_ItemId
+  commentId: P:SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.ItemId
+  fullName: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.ItemId
+  nameWithType: RemoveItemFromIslandArgs.ItemId
+- uid: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.ItemId*
+  name: ItemId
+  href: api/api/SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.html#SharedLibrary_Commands_Arguments_Items_RemoveItemFromIslandArgs_ItemId_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.ItemId
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.ItemId
+  nameWithType: RemoveItemFromIslandArgs.ItemId
+- uid: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.ItemsManager
+  name: ItemsManager
+  href: api/api/SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.html#SharedLibrary_Commands_Arguments_Items_RemoveItemFromIslandArgs_ItemsManager
+  commentId: P:SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.ItemsManager
+  fullName: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.ItemsManager
+  nameWithType: RemoveItemFromIslandArgs.ItemsManager
+- uid: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.ItemsManager*
+  name: ItemsManager
+  href: api/api/SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.html#SharedLibrary_Commands_Arguments_Items_RemoveItemFromIslandArgs_ItemsManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.ItemsManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.ItemsManager
+  nameWithType: RemoveItemFromIslandArgs.ItemsManager
+- uid: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.html#SharedLibrary_Commands_Arguments_Items_RemoveItemFromIslandArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.Player
+  nameWithType: RemoveItemFromIslandArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.html#SharedLibrary_Commands_Arguments_Items_RemoveItemFromIslandArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.Player
+  nameWithType: RemoveItemFromIslandArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs
+  name: RemoveItemFromPlayerArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs
+  fullName: SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs
+  nameWithType: RemoveItemFromPlayerArgs
+- uid: SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.ItemsManager,System.String)
+  name: RemoveItemFromPlayerArgs(Player, ItemsManager, string)
+  href: api/api/SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.html#SharedLibrary_Commands_Arguments_Items_RemoveItemFromPlayerArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_ItemsManager_System_String_
+  commentId: M:SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.ItemsManager,System.String)
+  name.vb: New(Player, ItemsManager, String)
+  fullName: SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.RemoveItemFromPlayerArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.ItemsManager, string)
+  fullName.vb: SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.ItemsManager, String)
+  nameWithType: RemoveItemFromPlayerArgs.RemoveItemFromPlayerArgs(Player, ItemsManager, string)
+  nameWithType.vb: RemoveItemFromPlayerArgs.New(Player, ItemsManager, String)
+- uid: SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.#ctor*
+  name: RemoveItemFromPlayerArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.html#SharedLibrary_Commands_Arguments_Items_RemoveItemFromPlayerArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.RemoveItemFromPlayerArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.New
+  nameWithType: RemoveItemFromPlayerArgs.RemoveItemFromPlayerArgs
+  nameWithType.vb: RemoveItemFromPlayerArgs.New
+- uid: SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.ItemId
+  name: ItemId
+  href: api/api/SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.html#SharedLibrary_Commands_Arguments_Items_RemoveItemFromPlayerArgs_ItemId
+  commentId: P:SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.ItemId
+  fullName: SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.ItemId
+  nameWithType: RemoveItemFromPlayerArgs.ItemId
+- uid: SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.ItemId*
+  name: ItemId
+  href: api/api/SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.html#SharedLibrary_Commands_Arguments_Items_RemoveItemFromPlayerArgs_ItemId_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.ItemId
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.ItemId
+  nameWithType: RemoveItemFromPlayerArgs.ItemId
+- uid: SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.ItemsManager
+  name: ItemsManager
+  href: api/api/SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.html#SharedLibrary_Commands_Arguments_Items_RemoveItemFromPlayerArgs_ItemsManager
+  commentId: P:SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.ItemsManager
+  fullName: SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.ItemsManager
+  nameWithType: RemoveItemFromPlayerArgs.ItemsManager
+- uid: SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.ItemsManager*
+  name: ItemsManager
+  href: api/api/SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.html#SharedLibrary_Commands_Arguments_Items_RemoveItemFromPlayerArgs_ItemsManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.ItemsManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.ItemsManager
+  nameWithType: RemoveItemFromPlayerArgs.ItemsManager
+- uid: SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.html#SharedLibrary_Commands_Arguments_Items_RemoveItemFromPlayerArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.Player
+  nameWithType: RemoveItemFromPlayerArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.html#SharedLibrary_Commands_Arguments_Items_RemoveItemFromPlayerArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs.Player
+  nameWithType: RemoveItemFromPlayerArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs
+  name: UpgradeItemArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs
+  fullName: SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs
+  nameWithType: UpgradeItemArgs
+- uid: SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.ItemsManager,System.String)
+  name: UpgradeItemArgs(Player, ItemsManager, string)
+  href: api/api/SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.html#SharedLibrary_Commands_Arguments_Items_UpgradeItemArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_ItemsManager_System_String_
+  commentId: M:SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.ItemsManager,System.String)
+  name.vb: New(Player, ItemsManager, String)
+  fullName: SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.UpgradeItemArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.ItemsManager, string)
+  fullName.vb: SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.ItemsManager, String)
+  nameWithType: UpgradeItemArgs.UpgradeItemArgs(Player, ItemsManager, string)
+  nameWithType.vb: UpgradeItemArgs.New(Player, ItemsManager, String)
+- uid: SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.#ctor*
+  name: UpgradeItemArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.html#SharedLibrary_Commands_Arguments_Items_UpgradeItemArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.UpgradeItemArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.New
+  nameWithType: UpgradeItemArgs.UpgradeItemArgs
+  nameWithType.vb: UpgradeItemArgs.New
+- uid: SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.ItemId
+  name: ItemId
+  href: api/api/SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.html#SharedLibrary_Commands_Arguments_Items_UpgradeItemArgs_ItemId
+  commentId: P:SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.ItemId
+  fullName: SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.ItemId
+  nameWithType: UpgradeItemArgs.ItemId
+- uid: SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.ItemId*
+  name: ItemId
+  href: api/api/SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.html#SharedLibrary_Commands_Arguments_Items_UpgradeItemArgs_ItemId_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.ItemId
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.ItemId
+  nameWithType: UpgradeItemArgs.ItemId
+- uid: SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.ItemsManager
+  name: ItemsManager
+  href: api/api/SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.html#SharedLibrary_Commands_Arguments_Items_UpgradeItemArgs_ItemsManager
+  commentId: P:SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.ItemsManager
+  fullName: SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.ItemsManager
+  nameWithType: UpgradeItemArgs.ItemsManager
+- uid: SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.ItemsManager*
+  name: ItemsManager
+  href: api/api/SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.html#SharedLibrary_Commands_Arguments_Items_UpgradeItemArgs_ItemsManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.ItemsManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.ItemsManager
+  nameWithType: UpgradeItemArgs.ItemsManager
+- uid: SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.html#SharedLibrary_Commands_Arguments_Items_UpgradeItemArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.Player
+  nameWithType: UpgradeItemArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.html#SharedLibrary_Commands_Arguments_Items_UpgradeItemArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.Player
+  nameWithType: UpgradeItemArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Tasks
+  name: SharedLibrary.Commands.Arguments.Tasks
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.html
+  commentId: N:SharedLibrary.Commands.Arguments.Tasks
+  fullName: SharedLibrary.Commands.Arguments.Tasks
+  nameWithType: SharedLibrary.Commands.Arguments.Tasks
+- uid: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs
+  name: AddTaskFromSuggestArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs
+  fullName: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs
+  nameWithType: AddTaskFromSuggestArgs
+- uid: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String)
+  name: AddTaskFromSuggestArgs(Player, TasksManager, string)
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.html#SharedLibrary_Commands_Arguments_Tasks_AddTaskFromSuggestArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_TasksManager_System_String_
+  commentId: M:SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String)
+  name.vb: New(Player, TasksManager, String)
+  fullName: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.AddTaskFromSuggestArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, string)
+  fullName.vb: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, String)
+  nameWithType: AddTaskFromSuggestArgs.AddTaskFromSuggestArgs(Player, TasksManager, string)
+  nameWithType.vb: AddTaskFromSuggestArgs.New(Player, TasksManager, String)
+- uid: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.#ctor*
+  name: AddTaskFromSuggestArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.html#SharedLibrary_Commands_Arguments_Tasks_AddTaskFromSuggestArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.AddTaskFromSuggestArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.New
+  nameWithType: AddTaskFromSuggestArgs.AddTaskFromSuggestArgs
+  nameWithType.vb: AddTaskFromSuggestArgs.New
+- uid: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.html#SharedLibrary_Commands_Arguments_Tasks_AddTaskFromSuggestArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.Player
+  nameWithType: AddTaskFromSuggestArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.html#SharedLibrary_Commands_Arguments_Tasks_AddTaskFromSuggestArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.Player
+  nameWithType: AddTaskFromSuggestArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.TaskId
+  name: TaskId
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.html#SharedLibrary_Commands_Arguments_Tasks_AddTaskFromSuggestArgs_TaskId
+  commentId: P:SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.TaskId
+  fullName: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.TaskId
+  nameWithType: AddTaskFromSuggestArgs.TaskId
+- uid: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.TaskId*
+  name: TaskId
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.html#SharedLibrary_Commands_Arguments_Tasks_AddTaskFromSuggestArgs_TaskId_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.TaskId
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.TaskId
+  nameWithType: AddTaskFromSuggestArgs.TaskId
+- uid: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.TasksManager
+  name: TasksManager
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.html#SharedLibrary_Commands_Arguments_Tasks_AddTaskFromSuggestArgs_TasksManager
+  commentId: P:SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.TasksManager
+  fullName: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.TasksManager
+  nameWithType: AddTaskFromSuggestArgs.TasksManager
+- uid: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.TasksManager*
+  name: TasksManager
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.html#SharedLibrary_Commands_Arguments_Tasks_AddTaskFromSuggestArgs_TasksManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.TasksManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.TasksManager
+  nameWithType: AddTaskFromSuggestArgs.TasksManager
+- uid: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs
+  name: CompleteTaskArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs
+  fullName: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs
+  nameWithType: CompleteTaskArgs
+- uid: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String)
+  name: CompleteTaskArgs(Player, TasksManager, string)
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_CompleteTaskArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_TasksManager_System_String_
+  commentId: M:SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String)
+  name.vb: New(Player, TasksManager, String)
+  fullName: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.CompleteTaskArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, string)
+  fullName.vb: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, String)
+  nameWithType: CompleteTaskArgs.CompleteTaskArgs(Player, TasksManager, string)
+  nameWithType.vb: CompleteTaskArgs.New(Player, TasksManager, String)
+- uid: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.#ctor*
+  name: CompleteTaskArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_CompleteTaskArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.CompleteTaskArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.New
+  nameWithType: CompleteTaskArgs.CompleteTaskArgs
+  nameWithType.vb: CompleteTaskArgs.New
+- uid: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_CompleteTaskArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.Player
+  nameWithType: CompleteTaskArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_CompleteTaskArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.Player
+  nameWithType: CompleteTaskArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.TaskId
+  name: TaskId
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_CompleteTaskArgs_TaskId
+  commentId: P:SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.TaskId
+  fullName: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.TaskId
+  nameWithType: CompleteTaskArgs.TaskId
+- uid: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.TaskId*
+  name: TaskId
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_CompleteTaskArgs_TaskId_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.TaskId
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.TaskId
+  nameWithType: CompleteTaskArgs.TaskId
+- uid: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.TasksManager
+  name: TasksManager
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_CompleteTaskArgs_TasksManager
+  commentId: P:SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.TasksManager
+  fullName: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.TasksManager
+  nameWithType: CompleteTaskArgs.TasksManager
+- uid: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.TasksManager*
+  name: TasksManager
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_CompleteTaskArgs_TasksManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.TasksManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.TasksManager
+  nameWithType: CompleteTaskArgs.TasksManager
+- uid: SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs
+  name: CreateTaskArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs
+  fullName: SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs
+  nameWithType: CreateTaskArgs
+- uid: SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,SharedLibrary.Data.Tasks.TaskCare)
+  name: CreateTaskArgs(Player, TasksManager, TaskCare)
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_CreateTaskArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_TasksManager_SharedLibrary_Data_Tasks_TaskCare_
+  commentId: M:SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,SharedLibrary.Data.Tasks.TaskCare)
+  name.vb: New(Player, TasksManager, TaskCare)
+  fullName: SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.CreateTaskArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, SharedLibrary.Data.Tasks.TaskCare)
+  fullName.vb: SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, SharedLibrary.Data.Tasks.TaskCare)
+  nameWithType: CreateTaskArgs.CreateTaskArgs(Player, TasksManager, TaskCare)
+  nameWithType.vb: CreateTaskArgs.New(Player, TasksManager, TaskCare)
+- uid: SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.#ctor*
+  name: CreateTaskArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_CreateTaskArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.CreateTaskArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.New
+  nameWithType: CreateTaskArgs.CreateTaskArgs
+  nameWithType.vb: CreateTaskArgs.New
+- uid: SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_CreateTaskArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.Player
+  nameWithType: CreateTaskArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_CreateTaskArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.Player
+  nameWithType: CreateTaskArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.Task
+  name: Task
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_CreateTaskArgs_Task
+  commentId: P:SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.Task
+  fullName: SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.Task
+  nameWithType: CreateTaskArgs.Task
+- uid: SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.Task*
+  name: Task
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_CreateTaskArgs_Task_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.Task
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.Task
+  nameWithType: CreateTaskArgs.Task
+- uid: SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.TasksManager
+  name: TasksManager
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_CreateTaskArgs_TasksManager
+  commentId: P:SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.TasksManager
+  fullName: SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.TasksManager
+  nameWithType: CreateTaskArgs.TasksManager
+- uid: SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.TasksManager*
+  name: TasksManager
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_CreateTaskArgs_TasksManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.TasksManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.TasksManager
+  nameWithType: CreateTaskArgs.TasksManager
+- uid: SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs
+  name: GetPlayerTasksArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs
+  fullName: SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs
+  nameWithType: GetPlayerTasksArgs
+- uid: SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager)
+  name: GetPlayerTasksArgs(Player, TasksManager)
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.html#SharedLibrary_Commands_Arguments_Tasks_GetPlayerTasksArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_TasksManager_
+  commentId: M:SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager)
+  name.vb: New(Player, TasksManager)
+  fullName: SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.GetPlayerTasksArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager)
+  fullName.vb: SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager)
+  nameWithType: GetPlayerTasksArgs.GetPlayerTasksArgs(Player, TasksManager)
+  nameWithType.vb: GetPlayerTasksArgs.New(Player, TasksManager)
+- uid: SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.#ctor*
+  name: GetPlayerTasksArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.html#SharedLibrary_Commands_Arguments_Tasks_GetPlayerTasksArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.GetPlayerTasksArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.New
+  nameWithType: GetPlayerTasksArgs.GetPlayerTasksArgs
+  nameWithType.vb: GetPlayerTasksArgs.New
+- uid: SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.html#SharedLibrary_Commands_Arguments_Tasks_GetPlayerTasksArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.Player
+  nameWithType: GetPlayerTasksArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.html#SharedLibrary_Commands_Arguments_Tasks_GetPlayerTasksArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.Player
+  nameWithType: GetPlayerTasksArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.TasksManager
+  name: TasksManager
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.html#SharedLibrary_Commands_Arguments_Tasks_GetPlayerTasksArgs_TasksManager
+  commentId: P:SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.TasksManager
+  fullName: SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.TasksManager
+  nameWithType: GetPlayerTasksArgs.TasksManager
+- uid: SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.TasksManager*
+  name: TasksManager
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.html#SharedLibrary_Commands_Arguments_Tasks_GetPlayerTasksArgs_TasksManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.TasksManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.TasksManager
+  nameWithType: GetPlayerTasksArgs.TasksManager
+- uid: SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs
+  name: UpdateTaskArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs
+  fullName: SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs
+  nameWithType: UpdateTaskArgs
+- uid: SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,SharedLibrary.Data.Tasks.TaskCare)
+  name: UpdateTaskArgs(Player, TasksManager, TaskCare)
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_UpdateTaskArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_TasksManager_SharedLibrary_Data_Tasks_TaskCare_
+  commentId: M:SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,SharedLibrary.Data.Tasks.TaskCare)
+  name.vb: New(Player, TasksManager, TaskCare)
+  fullName: SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.UpdateTaskArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, SharedLibrary.Data.Tasks.TaskCare)
+  fullName.vb: SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, SharedLibrary.Data.Tasks.TaskCare)
+  nameWithType: UpdateTaskArgs.UpdateTaskArgs(Player, TasksManager, TaskCare)
+  nameWithType.vb: UpdateTaskArgs.New(Player, TasksManager, TaskCare)
+- uid: SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.#ctor*
+  name: UpdateTaskArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_UpdateTaskArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.UpdateTaskArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.New
+  nameWithType: UpdateTaskArgs.UpdateTaskArgs
+  nameWithType.vb: UpdateTaskArgs.New
+- uid: SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_UpdateTaskArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.Player
+  nameWithType: UpdateTaskArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_UpdateTaskArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.Player
+  nameWithType: UpdateTaskArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.Task
+  name: Task
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_UpdateTaskArgs_Task
+  commentId: P:SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.Task
+  fullName: SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.Task
+  nameWithType: UpdateTaskArgs.Task
+- uid: SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.Task*
+  name: Task
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_UpdateTaskArgs_Task_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.Task
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.Task
+  nameWithType: UpdateTaskArgs.Task
+- uid: SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.TasksManager
+  name: TasksManager
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_UpdateTaskArgs_TasksManager
+  commentId: P:SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.TasksManager
+  fullName: SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.TasksManager
+  nameWithType: UpdateTaskArgs.TasksManager
+- uid: SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.TasksManager*
+  name: TasksManager
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_UpdateTaskArgs_TasksManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.TasksManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.TasksManager
+  nameWithType: UpdateTaskArgs.TasksManager
+- uid: SharedLibrary.Commands.CommandBase`2
+  name: CommandBase<TArgs, TResult>
+  href: api/api/SharedLibrary.Commands.CommandBase-2.html
+  commentId: T:SharedLibrary.Commands.CommandBase`2
+  name.vb: CommandBase(Of TArgs, TResult)
+  fullName: SharedLibrary.Commands.CommandBase<TArgs, TResult>
+  fullName.vb: SharedLibrary.Commands.CommandBase(Of TArgs, TResult)
+  nameWithType: CommandBase<TArgs, TResult>
+  nameWithType.vb: CommandBase(Of TArgs, TResult)
+- uid: SharedLibrary.Commands.CommandBase`2.Execute(`0)
+  name: Execute(TArgs)
+  href: api/api/SharedLibrary.Commands.CommandBase-2.html#SharedLibrary_Commands_CommandBase_2_Execute__0_
+  commentId: M:SharedLibrary.Commands.CommandBase`2.Execute(`0)
+  fullName: SharedLibrary.Commands.CommandBase<TArgs, TResult>.Execute(TArgs)
+  fullName.vb: SharedLibrary.Commands.CommandBase(Of TArgs, TResult).Execute(TArgs)
+  nameWithType: CommandBase<TArgs, TResult>.Execute(TArgs)
+  nameWithType.vb: CommandBase(Of TArgs, TResult).Execute(TArgs)
+- uid: SharedLibrary.Commands.CommandBase`2.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.CommandBase-2.html#SharedLibrary_Commands_CommandBase_2_Execute_
+  commentId: Overload:SharedLibrary.Commands.CommandBase`2.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.CommandBase<TArgs, TResult>.Execute
+  fullName.vb: SharedLibrary.Commands.CommandBase(Of TArgs, TResult).Execute
+  nameWithType: CommandBase<TArgs, TResult>.Execute
+  nameWithType.vb: CommandBase(Of TArgs, TResult).Execute
+- uid: SharedLibrary.Commands.CommandsPool
+  name: CommandsPool
+  href: api/api/SharedLibrary.Commands.CommandsPool.html
+  commentId: T:SharedLibrary.Commands.CommandsPool
+  fullName: SharedLibrary.Commands.CommandsPool
+  nameWithType: CommandsPool
+- uid: SharedLibrary.Commands.CommandsPool.GetCommand(SharedLibrary.Data.CommandType)
+  name: GetCommand(CommandType)
+  href: api/api/SharedLibrary.Commands.CommandsPool.html#SharedLibrary_Commands_CommandsPool_GetCommand_SharedLibrary_Data_CommandType_
+  commentId: M:SharedLibrary.Commands.CommandsPool.GetCommand(SharedLibrary.Data.CommandType)
+  fullName: SharedLibrary.Commands.CommandsPool.GetCommand(SharedLibrary.Data.CommandType)
+  nameWithType: CommandsPool.GetCommand(CommandType)
+- uid: SharedLibrary.Commands.CommandsPool.GetCommand*
+  name: GetCommand
+  href: api/api/SharedLibrary.Commands.CommandsPool.html#SharedLibrary_Commands_CommandsPool_GetCommand_
+  commentId: Overload:SharedLibrary.Commands.CommandsPool.GetCommand
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.CommandsPool.GetCommand
+  nameWithType: CommandsPool.GetCommand
+- uid: SharedLibrary.Commands.CommandsPool.I
+  name: I
+  href: api/api/SharedLibrary.Commands.CommandsPool.html#SharedLibrary_Commands_CommandsPool_I
+  commentId: P:SharedLibrary.Commands.CommandsPool.I
+  fullName: SharedLibrary.Commands.CommandsPool.I
+  nameWithType: CommandsPool.I
+- uid: SharedLibrary.Commands.CommandsPool.I*
+  name: I
+  href: api/api/SharedLibrary.Commands.CommandsPool.html#SharedLibrary_Commands_CommandsPool_I_
+  commentId: Overload:SharedLibrary.Commands.CommandsPool.I
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.CommandsPool.I
+  nameWithType: CommandsPool.I
+- uid: SharedLibrary.Commands.Cosmetic
+  name: SharedLibrary.Commands.Cosmetic
+  href: api/api/SharedLibrary.Commands.Cosmetic.html
+  commentId: N:SharedLibrary.Commands.Cosmetic
+  fullName: SharedLibrary.Commands.Cosmetic
+  nameWithType: SharedLibrary.Commands.Cosmetic
+- uid: SharedLibrary.Commands.Cosmetic.AddCosmeticItemCommand
+  name: AddCosmeticItemCommand
+  href: api/api/SharedLibrary.Commands.Cosmetic.AddCosmeticItemCommand.html
+  commentId: T:SharedLibrary.Commands.Cosmetic.AddCosmeticItemCommand
+  fullName: SharedLibrary.Commands.Cosmetic.AddCosmeticItemCommand
+  nameWithType: AddCosmeticItemCommand
+- uid: SharedLibrary.Commands.Cosmetic.AddCosmeticItemCommand.Execute(SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs)
+  name: Execute(AddCosmeticItemArgs)
+  href: api/api/SharedLibrary.Commands.Cosmetic.AddCosmeticItemCommand.html#SharedLibrary_Commands_Cosmetic_AddCosmeticItemCommand_Execute_SharedLibrary_Commands_Arguments_Cosmetic_AddCosmeticItemArgs_
+  commentId: M:SharedLibrary.Commands.Cosmetic.AddCosmeticItemCommand.Execute(SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs)
+  fullName: SharedLibrary.Commands.Cosmetic.AddCosmeticItemCommand.Execute(SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs)
+  nameWithType: AddCosmeticItemCommand.Execute(AddCosmeticItemArgs)
+- uid: SharedLibrary.Commands.Cosmetic.AddCosmeticItemCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Cosmetic.AddCosmeticItemCommand.html#SharedLibrary_Commands_Cosmetic_AddCosmeticItemCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.Cosmetic.AddCosmeticItemCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Cosmetic.AddCosmeticItemCommand.Execute
+  nameWithType: AddCosmeticItemCommand.Execute
+- uid: SharedLibrary.Commands.Cosmetic.CosmeticBuyItemCommand
+  name: CosmeticBuyItemCommand
+  href: api/api/SharedLibrary.Commands.Cosmetic.CosmeticBuyItemCommand.html
+  commentId: T:SharedLibrary.Commands.Cosmetic.CosmeticBuyItemCommand
+  fullName: SharedLibrary.Commands.Cosmetic.CosmeticBuyItemCommand
+  nameWithType: CosmeticBuyItemCommand
+- uid: SharedLibrary.Commands.Cosmetic.CosmeticBuyItemCommand.Execute(SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs)
+  name: Execute(CosmeticBuyItemArgs)
+  href: api/api/SharedLibrary.Commands.Cosmetic.CosmeticBuyItemCommand.html#SharedLibrary_Commands_Cosmetic_CosmeticBuyItemCommand_Execute_SharedLibrary_Commands_Arguments_Cosmetic_CosmeticBuyItemArgs_
+  commentId: M:SharedLibrary.Commands.Cosmetic.CosmeticBuyItemCommand.Execute(SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs)
+  fullName: SharedLibrary.Commands.Cosmetic.CosmeticBuyItemCommand.Execute(SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs)
+  nameWithType: CosmeticBuyItemCommand.Execute(CosmeticBuyItemArgs)
+- uid: SharedLibrary.Commands.Cosmetic.CosmeticBuyItemCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Cosmetic.CosmeticBuyItemCommand.html#SharedLibrary_Commands_Cosmetic_CosmeticBuyItemCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.Cosmetic.CosmeticBuyItemCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Cosmetic.CosmeticBuyItemCommand.Execute
+  nameWithType: CosmeticBuyItemCommand.Execute
+- uid: SharedLibrary.Commands.Cosmetic.CosmeticEquipCommand
+  name: CosmeticEquipCommand
+  href: api/api/SharedLibrary.Commands.Cosmetic.CosmeticEquipCommand.html
+  commentId: T:SharedLibrary.Commands.Cosmetic.CosmeticEquipCommand
+  fullName: SharedLibrary.Commands.Cosmetic.CosmeticEquipCommand
+  nameWithType: CosmeticEquipCommand
+- uid: SharedLibrary.Commands.Cosmetic.CosmeticEquipCommand.Execute(SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs)
+  name: Execute(CosmeticEquipArgs)
+  href: api/api/SharedLibrary.Commands.Cosmetic.CosmeticEquipCommand.html#SharedLibrary_Commands_Cosmetic_CosmeticEquipCommand_Execute_SharedLibrary_Commands_Arguments_Cosmetic_CosmeticEquipArgs_
+  commentId: M:SharedLibrary.Commands.Cosmetic.CosmeticEquipCommand.Execute(SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs)
+  fullName: SharedLibrary.Commands.Cosmetic.CosmeticEquipCommand.Execute(SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs)
+  nameWithType: CosmeticEquipCommand.Execute(CosmeticEquipArgs)
+- uid: SharedLibrary.Commands.Cosmetic.CosmeticEquipCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Cosmetic.CosmeticEquipCommand.html#SharedLibrary_Commands_Cosmetic_CosmeticEquipCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.Cosmetic.CosmeticEquipCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Cosmetic.CosmeticEquipCommand.Execute
+  nameWithType: CosmeticEquipCommand.Execute
+- uid: SharedLibrary.Commands.Cosmetic.CosmeticToggleFavoriteCommand
+  name: CosmeticToggleFavoriteCommand
+  href: api/api/SharedLibrary.Commands.Cosmetic.CosmeticToggleFavoriteCommand.html
+  commentId: T:SharedLibrary.Commands.Cosmetic.CosmeticToggleFavoriteCommand
+  fullName: SharedLibrary.Commands.Cosmetic.CosmeticToggleFavoriteCommand
+  nameWithType: CosmeticToggleFavoriteCommand
+- uid: SharedLibrary.Commands.Cosmetic.CosmeticToggleFavoriteCommand.Execute(SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs)
+  name: Execute(CosmeticToggleFavoriteArgs)
+  href: api/api/SharedLibrary.Commands.Cosmetic.CosmeticToggleFavoriteCommand.html#SharedLibrary_Commands_Cosmetic_CosmeticToggleFavoriteCommand_Execute_SharedLibrary_Commands_Arguments_Cosmetic_CosmeticToggleFavoriteArgs_
+  commentId: M:SharedLibrary.Commands.Cosmetic.CosmeticToggleFavoriteCommand.Execute(SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs)
+  fullName: SharedLibrary.Commands.Cosmetic.CosmeticToggleFavoriteCommand.Execute(SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs)
+  nameWithType: CosmeticToggleFavoriteCommand.Execute(CosmeticToggleFavoriteArgs)
+- uid: SharedLibrary.Commands.Cosmetic.CosmeticToggleFavoriteCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Cosmetic.CosmeticToggleFavoriteCommand.html#SharedLibrary_Commands_Cosmetic_CosmeticToggleFavoriteCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.Cosmetic.CosmeticToggleFavoriteCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Cosmetic.CosmeticToggleFavoriteCommand.Execute
+  nameWithType: CosmeticToggleFavoriteCommand.Execute
+- uid: SharedLibrary.Commands.Cosmetic.CosmeticUnequipItemCommand
+  name: CosmeticUnequipItemCommand
+  href: api/api/SharedLibrary.Commands.Cosmetic.CosmeticUnequipItemCommand.html
+  commentId: T:SharedLibrary.Commands.Cosmetic.CosmeticUnequipItemCommand
+  fullName: SharedLibrary.Commands.Cosmetic.CosmeticUnequipItemCommand
+  nameWithType: CosmeticUnequipItemCommand
+- uid: SharedLibrary.Commands.Cosmetic.CosmeticUnequipItemCommand.Execute(SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs)
+  name: Execute(CosmeticUnequipItemArgs)
+  href: api/api/SharedLibrary.Commands.Cosmetic.CosmeticUnequipItemCommand.html#SharedLibrary_Commands_Cosmetic_CosmeticUnequipItemCommand_Execute_SharedLibrary_Commands_Arguments_Cosmetic_CosmeticUnequipItemArgs_
+  commentId: M:SharedLibrary.Commands.Cosmetic.CosmeticUnequipItemCommand.Execute(SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs)
+  fullName: SharedLibrary.Commands.Cosmetic.CosmeticUnequipItemCommand.Execute(SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs)
+  nameWithType: CosmeticUnequipItemCommand.Execute(CosmeticUnequipItemArgs)
+- uid: SharedLibrary.Commands.Cosmetic.CosmeticUnequipItemCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Cosmetic.CosmeticUnequipItemCommand.html#SharedLibrary_Commands_Cosmetic_CosmeticUnequipItemCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.Cosmetic.CosmeticUnequipItemCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Cosmetic.CosmeticUnequipItemCommand.Execute
+  nameWithType: CosmeticUnequipItemCommand.Execute
+- uid: SharedLibrary.Commands.Cosmetic.RemoveCosmeticItemCommand
+  name: RemoveCosmeticItemCommand
+  href: api/api/SharedLibrary.Commands.Cosmetic.RemoveCosmeticItemCommand.html
+  commentId: T:SharedLibrary.Commands.Cosmetic.RemoveCosmeticItemCommand
+  fullName: SharedLibrary.Commands.Cosmetic.RemoveCosmeticItemCommand
+  nameWithType: RemoveCosmeticItemCommand
+- uid: SharedLibrary.Commands.Cosmetic.RemoveCosmeticItemCommand.Execute(SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs)
+  name: Execute(RemoveCosmeticItemArgs)
+  href: api/api/SharedLibrary.Commands.Cosmetic.RemoveCosmeticItemCommand.html#SharedLibrary_Commands_Cosmetic_RemoveCosmeticItemCommand_Execute_SharedLibrary_Commands_Arguments_Cosmetic_RemoveCosmeticItemArgs_
+  commentId: M:SharedLibrary.Commands.Cosmetic.RemoveCosmeticItemCommand.Execute(SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs)
+  fullName: SharedLibrary.Commands.Cosmetic.RemoveCosmeticItemCommand.Execute(SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs)
+  nameWithType: RemoveCosmeticItemCommand.Execute(RemoveCosmeticItemArgs)
+- uid: SharedLibrary.Commands.Cosmetic.RemoveCosmeticItemCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Cosmetic.RemoveCosmeticItemCommand.html#SharedLibrary_Commands_Cosmetic_RemoveCosmeticItemCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.Cosmetic.RemoveCosmeticItemCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Cosmetic.RemoveCosmeticItemCommand.Execute
+  nameWithType: RemoveCosmeticItemCommand.Execute
+- uid: SharedLibrary.Commands.ICommandBase
+  name: ICommandBase
+  href: api/api/SharedLibrary.Commands.ICommandBase.html
+  commentId: T:SharedLibrary.Commands.ICommandBase
+  fullName: SharedLibrary.Commands.ICommandBase
+  nameWithType: ICommandBase
+- uid: SharedLibrary.Commands.ICommandBase.ExecuteUntyped(System.Object)
+  name: ExecuteUntyped(object)
+  href: api/api/SharedLibrary.Commands.ICommandBase.html#SharedLibrary_Commands_ICommandBase_ExecuteUntyped_System_Object_
+  commentId: M:SharedLibrary.Commands.ICommandBase.ExecuteUntyped(System.Object)
+  name.vb: ExecuteUntyped(Object)
+  fullName: SharedLibrary.Commands.ICommandBase.ExecuteUntyped(object)
+  fullName.vb: SharedLibrary.Commands.ICommandBase.ExecuteUntyped(Object)
+  nameWithType: ICommandBase.ExecuteUntyped(object)
+  nameWithType.vb: ICommandBase.ExecuteUntyped(Object)
+- uid: SharedLibrary.Commands.ICommandBase.ExecuteUntyped*
+  name: ExecuteUntyped
+  href: api/api/SharedLibrary.Commands.ICommandBase.html#SharedLibrary_Commands_ICommandBase_ExecuteUntyped_
+  commentId: Overload:SharedLibrary.Commands.ICommandBase.ExecuteUntyped
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.ICommandBase.ExecuteUntyped
+  nameWithType: ICommandBase.ExecuteUntyped
+- uid: SharedLibrary.Commands.ICommand`2
+  name: ICommand<TArgs, TResult>
+  href: api/api/SharedLibrary.Commands.ICommand-2.html
+  commentId: T:SharedLibrary.Commands.ICommand`2
+  name.vb: ICommand(Of TArgs, TResult)
+  fullName: SharedLibrary.Commands.ICommand<TArgs, TResult>
+  fullName.vb: SharedLibrary.Commands.ICommand(Of TArgs, TResult)
+  nameWithType: ICommand<TArgs, TResult>
+  nameWithType.vb: ICommand(Of TArgs, TResult)
+- uid: SharedLibrary.Commands.ICommand`2.Execute(`0)
+  name: Execute(TArgs)
+  href: api/api/SharedLibrary.Commands.ICommand-2.html#SharedLibrary_Commands_ICommand_2_Execute__0_
+  commentId: M:SharedLibrary.Commands.ICommand`2.Execute(`0)
+  fullName: SharedLibrary.Commands.ICommand<TArgs, TResult>.Execute(TArgs)
+  fullName.vb: SharedLibrary.Commands.ICommand(Of TArgs, TResult).Execute(TArgs)
+  nameWithType: ICommand<TArgs, TResult>.Execute(TArgs)
+  nameWithType.vb: ICommand(Of TArgs, TResult).Execute(TArgs)
+- uid: SharedLibrary.Commands.ICommand`2.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.ICommand-2.html#SharedLibrary_Commands_ICommand_2_Execute_
+  commentId: Overload:SharedLibrary.Commands.ICommand`2.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.ICommand<TArgs, TResult>.Execute
+  fullName.vb: SharedLibrary.Commands.ICommand(Of TArgs, TResult).Execute
+  nameWithType: ICommand<TArgs, TResult>.Execute
+  nameWithType.vb: ICommand(Of TArgs, TResult).Execute
+- uid: SharedLibrary.Commands.Items
+  name: SharedLibrary.Commands.Items
+  href: api/api/SharedLibrary.Commands.Items.html
+  commentId: N:SharedLibrary.Commands.Items
+  fullName: SharedLibrary.Commands.Items
+  nameWithType: SharedLibrary.Commands.Items
+- uid: SharedLibrary.Commands.Items.AddItemToPlayerCommand
+  name: AddItemToPlayerCommand
+  href: api/api/SharedLibrary.Commands.Items.AddItemToPlayerCommand.html
+  commentId: T:SharedLibrary.Commands.Items.AddItemToPlayerCommand
+  fullName: SharedLibrary.Commands.Items.AddItemToPlayerCommand
+  nameWithType: AddItemToPlayerCommand
+- uid: SharedLibrary.Commands.Items.AddItemToPlayerCommand.Execute(SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs)
+  name: Execute(AddItemToPlayerArgs)
+  href: api/api/SharedLibrary.Commands.Items.AddItemToPlayerCommand.html#SharedLibrary_Commands_Items_AddItemToPlayerCommand_Execute_SharedLibrary_Commands_Arguments_Items_AddItemToPlayerArgs_
+  commentId: M:SharedLibrary.Commands.Items.AddItemToPlayerCommand.Execute(SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs)
+  fullName: SharedLibrary.Commands.Items.AddItemToPlayerCommand.Execute(SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs)
+  nameWithType: AddItemToPlayerCommand.Execute(AddItemToPlayerArgs)
+- uid: SharedLibrary.Commands.Items.AddItemToPlayerCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Items.AddItemToPlayerCommand.html#SharedLibrary_Commands_Items_AddItemToPlayerCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.Items.AddItemToPlayerCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Items.AddItemToPlayerCommand.Execute
+  nameWithType: AddItemToPlayerCommand.Execute
+- uid: SharedLibrary.Commands.Items.BuyItemCommand
+  name: BuyItemCommand
+  href: api/api/SharedLibrary.Commands.Items.BuyItemCommand.html
+  commentId: T:SharedLibrary.Commands.Items.BuyItemCommand
+  fullName: SharedLibrary.Commands.Items.BuyItemCommand
+  nameWithType: BuyItemCommand
+- uid: SharedLibrary.Commands.Items.BuyItemCommand.Execute(SharedLibrary.Commands.Arguments.Items.BuyItemArgs)
+  name: Execute(BuyItemArgs)
+  href: api/api/SharedLibrary.Commands.Items.BuyItemCommand.html#SharedLibrary_Commands_Items_BuyItemCommand_Execute_SharedLibrary_Commands_Arguments_Items_BuyItemArgs_
+  commentId: M:SharedLibrary.Commands.Items.BuyItemCommand.Execute(SharedLibrary.Commands.Arguments.Items.BuyItemArgs)
+  fullName: SharedLibrary.Commands.Items.BuyItemCommand.Execute(SharedLibrary.Commands.Arguments.Items.BuyItemArgs)
+  nameWithType: BuyItemCommand.Execute(BuyItemArgs)
+- uid: SharedLibrary.Commands.Items.BuyItemCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Items.BuyItemCommand.html#SharedLibrary_Commands_Items_BuyItemCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.Items.BuyItemCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Items.BuyItemCommand.Execute
+  nameWithType: BuyItemCommand.Execute
+- uid: SharedLibrary.Commands.Items.PlaceItemToIslandCommand
+  name: PlaceItemToIslandCommand
+  href: api/api/SharedLibrary.Commands.Items.PlaceItemToIslandCommand.html
+  commentId: T:SharedLibrary.Commands.Items.PlaceItemToIslandCommand
+  fullName: SharedLibrary.Commands.Items.PlaceItemToIslandCommand
+  nameWithType: PlaceItemToIslandCommand
+- uid: SharedLibrary.Commands.Items.PlaceItemToIslandCommand.Execute(SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs)
+  name: Execute(PlaceItemToIslandArgs)
+  href: api/api/SharedLibrary.Commands.Items.PlaceItemToIslandCommand.html#SharedLibrary_Commands_Items_PlaceItemToIslandCommand_Execute_SharedLibrary_Commands_Arguments_Items_PlaceItemToIslandArgs_
+  commentId: M:SharedLibrary.Commands.Items.PlaceItemToIslandCommand.Execute(SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs)
+  fullName: SharedLibrary.Commands.Items.PlaceItemToIslandCommand.Execute(SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs)
+  nameWithType: PlaceItemToIslandCommand.Execute(PlaceItemToIslandArgs)
+- uid: SharedLibrary.Commands.Items.PlaceItemToIslandCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Items.PlaceItemToIslandCommand.html#SharedLibrary_Commands_Items_PlaceItemToIslandCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.Items.PlaceItemToIslandCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Items.PlaceItemToIslandCommand.Execute
+  nameWithType: PlaceItemToIslandCommand.Execute
+- uid: SharedLibrary.Commands.Items.RemoveItemFromIslandCommand
+  name: RemoveItemFromIslandCommand
+  href: api/api/SharedLibrary.Commands.Items.RemoveItemFromIslandCommand.html
+  commentId: T:SharedLibrary.Commands.Items.RemoveItemFromIslandCommand
+  fullName: SharedLibrary.Commands.Items.RemoveItemFromIslandCommand
+  nameWithType: RemoveItemFromIslandCommand
+- uid: SharedLibrary.Commands.Items.RemoveItemFromIslandCommand.Execute(SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs)
+  name: Execute(RemoveItemFromIslandArgs)
+  href: api/api/SharedLibrary.Commands.Items.RemoveItemFromIslandCommand.html#SharedLibrary_Commands_Items_RemoveItemFromIslandCommand_Execute_SharedLibrary_Commands_Arguments_Items_RemoveItemFromIslandArgs_
+  commentId: M:SharedLibrary.Commands.Items.RemoveItemFromIslandCommand.Execute(SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs)
+  fullName: SharedLibrary.Commands.Items.RemoveItemFromIslandCommand.Execute(SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs)
+  nameWithType: RemoveItemFromIslandCommand.Execute(RemoveItemFromIslandArgs)
+- uid: SharedLibrary.Commands.Items.RemoveItemFromIslandCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Items.RemoveItemFromIslandCommand.html#SharedLibrary_Commands_Items_RemoveItemFromIslandCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.Items.RemoveItemFromIslandCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Items.RemoveItemFromIslandCommand.Execute
+  nameWithType: RemoveItemFromIslandCommand.Execute
+- uid: SharedLibrary.Commands.Items.RemoveItemFromPlayerCommand
+  name: RemoveItemFromPlayerCommand
+  href: api/api/SharedLibrary.Commands.Items.RemoveItemFromPlayerCommand.html
+  commentId: T:SharedLibrary.Commands.Items.RemoveItemFromPlayerCommand
+  fullName: SharedLibrary.Commands.Items.RemoveItemFromPlayerCommand
+  nameWithType: RemoveItemFromPlayerCommand
+- uid: SharedLibrary.Commands.Items.RemoveItemFromPlayerCommand.Execute(SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs)
+  name: Execute(RemoveItemFromPlayerArgs)
+  href: api/api/SharedLibrary.Commands.Items.RemoveItemFromPlayerCommand.html#SharedLibrary_Commands_Items_RemoveItemFromPlayerCommand_Execute_SharedLibrary_Commands_Arguments_Items_RemoveItemFromPlayerArgs_
+  commentId: M:SharedLibrary.Commands.Items.RemoveItemFromPlayerCommand.Execute(SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs)
+  fullName: SharedLibrary.Commands.Items.RemoveItemFromPlayerCommand.Execute(SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs)
+  nameWithType: RemoveItemFromPlayerCommand.Execute(RemoveItemFromPlayerArgs)
+- uid: SharedLibrary.Commands.Items.RemoveItemFromPlayerCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Items.RemoveItemFromPlayerCommand.html#SharedLibrary_Commands_Items_RemoveItemFromPlayerCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.Items.RemoveItemFromPlayerCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Items.RemoveItemFromPlayerCommand.Execute
+  nameWithType: RemoveItemFromPlayerCommand.Execute
+- uid: SharedLibrary.Commands.Items.UpgradeItemCommand
+  name: UpgradeItemCommand
+  href: api/api/SharedLibrary.Commands.Items.UpgradeItemCommand.html
+  commentId: T:SharedLibrary.Commands.Items.UpgradeItemCommand
+  fullName: SharedLibrary.Commands.Items.UpgradeItemCommand
+  nameWithType: UpgradeItemCommand
+- uid: SharedLibrary.Commands.Items.UpgradeItemCommand.Execute(SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs)
+  name: Execute(UpgradeItemArgs)
+  href: api/api/SharedLibrary.Commands.Items.UpgradeItemCommand.html#SharedLibrary_Commands_Items_UpgradeItemCommand_Execute_SharedLibrary_Commands_Arguments_Items_UpgradeItemArgs_
+  commentId: M:SharedLibrary.Commands.Items.UpgradeItemCommand.Execute(SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs)
+  fullName: SharedLibrary.Commands.Items.UpgradeItemCommand.Execute(SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs)
+  nameWithType: UpgradeItemCommand.Execute(UpgradeItemArgs)
+- uid: SharedLibrary.Commands.Items.UpgradeItemCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Items.UpgradeItemCommand.html#SharedLibrary_Commands_Items_UpgradeItemCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.Items.UpgradeItemCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Items.UpgradeItemCommand.Execute
+  nameWithType: UpgradeItemCommand.Execute
+- uid: SharedLibrary.Commands.Tasks
+  name: SharedLibrary.Commands.Tasks
+  href: api/api/SharedLibrary.Commands.Tasks.html
+  commentId: N:SharedLibrary.Commands.Tasks
+  fullName: SharedLibrary.Commands.Tasks
+  nameWithType: SharedLibrary.Commands.Tasks
+- uid: SharedLibrary.Commands.Tasks.AddTaskFromSuggestionCommand
+  name: AddTaskFromSuggestionCommand
+  href: api/api/SharedLibrary.Commands.Tasks.AddTaskFromSuggestionCommand.html
+  commentId: T:SharedLibrary.Commands.Tasks.AddTaskFromSuggestionCommand
+  fullName: SharedLibrary.Commands.Tasks.AddTaskFromSuggestionCommand
+  nameWithType: AddTaskFromSuggestionCommand
+- uid: SharedLibrary.Commands.Tasks.AddTaskFromSuggestionCommand.Execute(SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs)
+  name: Execute(AddTaskFromSuggestArgs)
+  href: api/api/SharedLibrary.Commands.Tasks.AddTaskFromSuggestionCommand.html#SharedLibrary_Commands_Tasks_AddTaskFromSuggestionCommand_Execute_SharedLibrary_Commands_Arguments_Tasks_AddTaskFromSuggestArgs_
+  commentId: M:SharedLibrary.Commands.Tasks.AddTaskFromSuggestionCommand.Execute(SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs)
+  fullName: SharedLibrary.Commands.Tasks.AddTaskFromSuggestionCommand.Execute(SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs)
+  nameWithType: AddTaskFromSuggestionCommand.Execute(AddTaskFromSuggestArgs)
+- uid: SharedLibrary.Commands.Tasks.AddTaskFromSuggestionCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Tasks.AddTaskFromSuggestionCommand.html#SharedLibrary_Commands_Tasks_AddTaskFromSuggestionCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.Tasks.AddTaskFromSuggestionCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Tasks.AddTaskFromSuggestionCommand.Execute
+  nameWithType: AddTaskFromSuggestionCommand.Execute
+- uid: SharedLibrary.Commands.Tasks.CompleteTaskCommand
+  name: CompleteTaskCommand
+  href: api/api/SharedLibrary.Commands.Tasks.CompleteTaskCommand.html
+  commentId: T:SharedLibrary.Commands.Tasks.CompleteTaskCommand
+  fullName: SharedLibrary.Commands.Tasks.CompleteTaskCommand
+  nameWithType: CompleteTaskCommand
+- uid: SharedLibrary.Commands.Tasks.CompleteTaskCommand.Execute(SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs)
+  name: Execute(CompleteTaskArgs)
+  href: api/api/SharedLibrary.Commands.Tasks.CompleteTaskCommand.html#SharedLibrary_Commands_Tasks_CompleteTaskCommand_Execute_SharedLibrary_Commands_Arguments_Tasks_CompleteTaskArgs_
+  commentId: M:SharedLibrary.Commands.Tasks.CompleteTaskCommand.Execute(SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs)
+  fullName: SharedLibrary.Commands.Tasks.CompleteTaskCommand.Execute(SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs)
+  nameWithType: CompleteTaskCommand.Execute(CompleteTaskArgs)
+- uid: SharedLibrary.Commands.Tasks.CompleteTaskCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Tasks.CompleteTaskCommand.html#SharedLibrary_Commands_Tasks_CompleteTaskCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.Tasks.CompleteTaskCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Tasks.CompleteTaskCommand.Execute
+  nameWithType: CompleteTaskCommand.Execute
+- uid: SharedLibrary.Commands.Tasks.CreateTaskCommand
+  name: CreateTaskCommand
+  href: api/api/SharedLibrary.Commands.Tasks.CreateTaskCommand.html
+  commentId: T:SharedLibrary.Commands.Tasks.CreateTaskCommand
+  fullName: SharedLibrary.Commands.Tasks.CreateTaskCommand
+  nameWithType: CreateTaskCommand
+- uid: SharedLibrary.Commands.Tasks.CreateTaskCommand.Execute(SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs)
+  name: Execute(CreateTaskArgs)
+  href: api/api/SharedLibrary.Commands.Tasks.CreateTaskCommand.html#SharedLibrary_Commands_Tasks_CreateTaskCommand_Execute_SharedLibrary_Commands_Arguments_Tasks_CreateTaskArgs_
+  commentId: M:SharedLibrary.Commands.Tasks.CreateTaskCommand.Execute(SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs)
+  fullName: SharedLibrary.Commands.Tasks.CreateTaskCommand.Execute(SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs)
+  nameWithType: CreateTaskCommand.Execute(CreateTaskArgs)
+- uid: SharedLibrary.Commands.Tasks.CreateTaskCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Tasks.CreateTaskCommand.html#SharedLibrary_Commands_Tasks_CreateTaskCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.Tasks.CreateTaskCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Tasks.CreateTaskCommand.Execute
+  nameWithType: CreateTaskCommand.Execute
+- uid: SharedLibrary.Commands.Tasks.GetPlayerTasksCommand
+  name: GetPlayerTasksCommand
+  href: api/api/SharedLibrary.Commands.Tasks.GetPlayerTasksCommand.html
+  commentId: T:SharedLibrary.Commands.Tasks.GetPlayerTasksCommand
+  fullName: SharedLibrary.Commands.Tasks.GetPlayerTasksCommand
+  nameWithType: GetPlayerTasksCommand
+- uid: SharedLibrary.Commands.Tasks.GetPlayerTasksCommand.Execute(SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs)
+  name: Execute(GetPlayerTasksArgs)
+  href: api/api/SharedLibrary.Commands.Tasks.GetPlayerTasksCommand.html#SharedLibrary_Commands_Tasks_GetPlayerTasksCommand_Execute_SharedLibrary_Commands_Arguments_Tasks_GetPlayerTasksArgs_
+  commentId: M:SharedLibrary.Commands.Tasks.GetPlayerTasksCommand.Execute(SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs)
+  fullName: SharedLibrary.Commands.Tasks.GetPlayerTasksCommand.Execute(SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs)
+  nameWithType: GetPlayerTasksCommand.Execute(GetPlayerTasksArgs)
+- uid: SharedLibrary.Commands.Tasks.GetPlayerTasksCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Tasks.GetPlayerTasksCommand.html#SharedLibrary_Commands_Tasks_GetPlayerTasksCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.Tasks.GetPlayerTasksCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Tasks.GetPlayerTasksCommand.Execute
+  nameWithType: GetPlayerTasksCommand.Execute
+- uid: SharedLibrary.Commands.Tasks.UpdateTaskCommand
+  name: UpdateTaskCommand
+  href: api/api/SharedLibrary.Commands.Tasks.UpdateTaskCommand.html
+  commentId: T:SharedLibrary.Commands.Tasks.UpdateTaskCommand
+  fullName: SharedLibrary.Commands.Tasks.UpdateTaskCommand
+  nameWithType: UpdateTaskCommand
+- uid: SharedLibrary.Commands.Tasks.UpdateTaskCommand.Execute(SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs)
+  name: Execute(UpdateTaskArgs)
+  href: api/api/SharedLibrary.Commands.Tasks.UpdateTaskCommand.html#SharedLibrary_Commands_Tasks_UpdateTaskCommand_Execute_SharedLibrary_Commands_Arguments_Tasks_UpdateTaskArgs_
+  commentId: M:SharedLibrary.Commands.Tasks.UpdateTaskCommand.Execute(SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs)
+  fullName: SharedLibrary.Commands.Tasks.UpdateTaskCommand.Execute(SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs)
+  nameWithType: UpdateTaskCommand.Execute(UpdateTaskArgs)
+- uid: SharedLibrary.Commands.Tasks.UpdateTaskCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Tasks.UpdateTaskCommand.html#SharedLibrary_Commands_Tasks_UpdateTaskCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.Tasks.UpdateTaskCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Tasks.UpdateTaskCommand.Execute
+  nameWithType: UpdateTaskCommand.Execute
 - uid: SharedLibrary.Data
   name: SharedLibrary.Data
   href: api/api/SharedLibrary.Data.html
@@ -148,6 +1694,114 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Adventures.AdventureBase.Time
   nameWithType: AdventureBase.Time
+- uid: SharedLibrary.Data.CommandType
+  name: CommandType
+  href: api/api/SharedLibrary.Data.CommandType.html
+  commentId: T:SharedLibrary.Data.CommandType
+  fullName: SharedLibrary.Data.CommandType
+  nameWithType: CommandType
+- uid: SharedLibrary.Data.CommandType.CosmeticAddToPlayer
+  name: CosmeticAddToPlayer
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_CosmeticAddToPlayer
+  commentId: F:SharedLibrary.Data.CommandType.CosmeticAddToPlayer
+  fullName: SharedLibrary.Data.CommandType.CosmeticAddToPlayer
+  nameWithType: CommandType.CosmeticAddToPlayer
+- uid: SharedLibrary.Data.CommandType.CosmeticBuy
+  name: CosmeticBuy
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_CosmeticBuy
+  commentId: F:SharedLibrary.Data.CommandType.CosmeticBuy
+  fullName: SharedLibrary.Data.CommandType.CosmeticBuy
+  nameWithType: CommandType.CosmeticBuy
+- uid: SharedLibrary.Data.CommandType.CosmeticEquip
+  name: CosmeticEquip
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_CosmeticEquip
+  commentId: F:SharedLibrary.Data.CommandType.CosmeticEquip
+  fullName: SharedLibrary.Data.CommandType.CosmeticEquip
+  nameWithType: CommandType.CosmeticEquip
+- uid: SharedLibrary.Data.CommandType.CosmeticRemoveFromPlayer
+  name: CosmeticRemoveFromPlayer
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_CosmeticRemoveFromPlayer
+  commentId: F:SharedLibrary.Data.CommandType.CosmeticRemoveFromPlayer
+  fullName: SharedLibrary.Data.CommandType.CosmeticRemoveFromPlayer
+  nameWithType: CommandType.CosmeticRemoveFromPlayer
+- uid: SharedLibrary.Data.CommandType.CosmeticToggleFavorite
+  name: CosmeticToggleFavorite
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_CosmeticToggleFavorite
+  commentId: F:SharedLibrary.Data.CommandType.CosmeticToggleFavorite
+  fullName: SharedLibrary.Data.CommandType.CosmeticToggleFavorite
+  nameWithType: CommandType.CosmeticToggleFavorite
+- uid: SharedLibrary.Data.CommandType.CosmeticUnequip
+  name: CosmeticUnequip
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_CosmeticUnequip
+  commentId: F:SharedLibrary.Data.CommandType.CosmeticUnequip
+  fullName: SharedLibrary.Data.CommandType.CosmeticUnequip
+  nameWithType: CommandType.CosmeticUnequip
+- uid: SharedLibrary.Data.CommandType.ItemAddToPlayer
+  name: ItemAddToPlayer
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_ItemAddToPlayer
+  commentId: F:SharedLibrary.Data.CommandType.ItemAddToPlayer
+  fullName: SharedLibrary.Data.CommandType.ItemAddToPlayer
+  nameWithType: CommandType.ItemAddToPlayer
+- uid: SharedLibrary.Data.CommandType.ItemBuy
+  name: ItemBuy
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_ItemBuy
+  commentId: F:SharedLibrary.Data.CommandType.ItemBuy
+  fullName: SharedLibrary.Data.CommandType.ItemBuy
+  nameWithType: CommandType.ItemBuy
+- uid: SharedLibrary.Data.CommandType.ItemPlaceToIsland
+  name: ItemPlaceToIsland
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_ItemPlaceToIsland
+  commentId: F:SharedLibrary.Data.CommandType.ItemPlaceToIsland
+  fullName: SharedLibrary.Data.CommandType.ItemPlaceToIsland
+  nameWithType: CommandType.ItemPlaceToIsland
+- uid: SharedLibrary.Data.CommandType.ItemRemoveFromIsland
+  name: ItemRemoveFromIsland
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_ItemRemoveFromIsland
+  commentId: F:SharedLibrary.Data.CommandType.ItemRemoveFromIsland
+  fullName: SharedLibrary.Data.CommandType.ItemRemoveFromIsland
+  nameWithType: CommandType.ItemRemoveFromIsland
+- uid: SharedLibrary.Data.CommandType.ItemRemoveFromPlayer
+  name: ItemRemoveFromPlayer
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_ItemRemoveFromPlayer
+  commentId: F:SharedLibrary.Data.CommandType.ItemRemoveFromPlayer
+  fullName: SharedLibrary.Data.CommandType.ItemRemoveFromPlayer
+  nameWithType: CommandType.ItemRemoveFromPlayer
+- uid: SharedLibrary.Data.CommandType.ItemUpgrade
+  name: ItemUpgrade
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_ItemUpgrade
+  commentId: F:SharedLibrary.Data.CommandType.ItemUpgrade
+  fullName: SharedLibrary.Data.CommandType.ItemUpgrade
+  nameWithType: CommandType.ItemUpgrade
+- uid: SharedLibrary.Data.CommandType.TaskAddFromSuggest
+  name: TaskAddFromSuggest
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_TaskAddFromSuggest
+  commentId: F:SharedLibrary.Data.CommandType.TaskAddFromSuggest
+  fullName: SharedLibrary.Data.CommandType.TaskAddFromSuggest
+  nameWithType: CommandType.TaskAddFromSuggest
+- uid: SharedLibrary.Data.CommandType.TaskComplete
+  name: TaskComplete
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_TaskComplete
+  commentId: F:SharedLibrary.Data.CommandType.TaskComplete
+  fullName: SharedLibrary.Data.CommandType.TaskComplete
+  nameWithType: CommandType.TaskComplete
+- uid: SharedLibrary.Data.CommandType.TaskCreate
+  name: TaskCreate
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_TaskCreate
+  commentId: F:SharedLibrary.Data.CommandType.TaskCreate
+  fullName: SharedLibrary.Data.CommandType.TaskCreate
+  nameWithType: CommandType.TaskCreate
+- uid: SharedLibrary.Data.CommandType.TaskUpdate
+  name: TaskUpdate
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_TaskUpdate
+  commentId: F:SharedLibrary.Data.CommandType.TaskUpdate
+  fullName: SharedLibrary.Data.CommandType.TaskUpdate
+  nameWithType: CommandType.TaskUpdate
+- uid: SharedLibrary.Data.CommandType.TasksGetPlayerTasks
+  name: TasksGetPlayerTasks
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_TasksGetPlayerTasks
+  commentId: F:SharedLibrary.Data.CommandType.TasksGetPlayerTasks
+  fullName: SharedLibrary.Data.CommandType.TasksGetPlayerTasks
+  nameWithType: CommandType.TasksGetPlayerTasks
 - uid: SharedLibrary.Data.Constants
   name: Constants
   href: api/api/SharedLibrary.Data.Constants.html
@@ -1832,11 +3486,14 @@ references:
   fullName: SharedLibrary.Managers.CosmeticManager.AddItem
   nameWithType: CosmeticManager.AddItem
 - uid: SharedLibrary.Managers.CosmeticManager.EquipItem(SharedLibrary.Data.Player,SharedLibrary.Data.Cosmetic.CosmeticItem)
-  name: EquipItem(Player, CosmeticItem)
+  name: EquipItem(Player, CosmeticItem?)
   href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_EquipItem_SharedLibrary_Data_Player_SharedLibrary_Data_Cosmetic_CosmeticItem_
   commentId: M:SharedLibrary.Managers.CosmeticManager.EquipItem(SharedLibrary.Data.Player,SharedLibrary.Data.Cosmetic.CosmeticItem)
-  fullName: SharedLibrary.Managers.CosmeticManager.EquipItem(SharedLibrary.Data.Player, SharedLibrary.Data.Cosmetic.CosmeticItem)
-  nameWithType: CosmeticManager.EquipItem(Player, CosmeticItem)
+  name.vb: EquipItem(Player, CosmeticItem)
+  fullName: SharedLibrary.Managers.CosmeticManager.EquipItem(SharedLibrary.Data.Player, SharedLibrary.Data.Cosmetic.CosmeticItem?)
+  fullName.vb: SharedLibrary.Managers.CosmeticManager.EquipItem(SharedLibrary.Data.Player, SharedLibrary.Data.Cosmetic.CosmeticItem)
+  nameWithType: CosmeticManager.EquipItem(Player, CosmeticItem?)
+  nameWithType.vb: CosmeticManager.EquipItem(Player, CosmeticItem)
 - uid: SharedLibrary.Managers.CosmeticManager.EquipItem*
   name: EquipItem
   href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_EquipItem_
@@ -1999,11 +3656,14 @@ references:
   fullName: SharedLibrary.Managers.CosmeticManager.RemoveItem
   nameWithType: CosmeticManager.RemoveItem
 - uid: SharedLibrary.Managers.CosmeticManager.ToggleFavoriteItem(SharedLibrary.Data.Player,SharedLibrary.Data.Cosmetic.CosmeticItem)
-  name: ToggleFavoriteItem(Player, CosmeticItem)
+  name: ToggleFavoriteItem(Player, CosmeticItem?)
   href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_ToggleFavoriteItem_SharedLibrary_Data_Player_SharedLibrary_Data_Cosmetic_CosmeticItem_
   commentId: M:SharedLibrary.Managers.CosmeticManager.ToggleFavoriteItem(SharedLibrary.Data.Player,SharedLibrary.Data.Cosmetic.CosmeticItem)
-  fullName: SharedLibrary.Managers.CosmeticManager.ToggleFavoriteItem(SharedLibrary.Data.Player, SharedLibrary.Data.Cosmetic.CosmeticItem)
-  nameWithType: CosmeticManager.ToggleFavoriteItem(Player, CosmeticItem)
+  name.vb: ToggleFavoriteItem(Player, CosmeticItem)
+  fullName: SharedLibrary.Managers.CosmeticManager.ToggleFavoriteItem(SharedLibrary.Data.Player, SharedLibrary.Data.Cosmetic.CosmeticItem?)
+  fullName.vb: SharedLibrary.Managers.CosmeticManager.ToggleFavoriteItem(SharedLibrary.Data.Player, SharedLibrary.Data.Cosmetic.CosmeticItem)
+  nameWithType: CosmeticManager.ToggleFavoriteItem(Player, CosmeticItem?)
+  nameWithType.vb: CosmeticManager.ToggleFavoriteItem(Player, CosmeticItem)
 - uid: SharedLibrary.Managers.CosmeticManager.ToggleFavoriteItem*
   name: ToggleFavoriteItem
   href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_ToggleFavoriteItem_
@@ -2231,22 +3891,22 @@ references:
   commentId: T:SharedLibrary.Managers.TasksManager
   fullName: SharedLibrary.Managers.TasksManager
   nameWithType: TasksManager
-- uid: SharedLibrary.Managers.TasksManager.AddMTaskFromSuggestions(SharedLibrary.Data.Player,System.String)
-  name: AddMTaskFromSuggestions(Player, string)
-  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_AddMTaskFromSuggestions_SharedLibrary_Data_Player_System_String_
-  commentId: M:SharedLibrary.Managers.TasksManager.AddMTaskFromSuggestions(SharedLibrary.Data.Player,System.String)
-  name.vb: AddMTaskFromSuggestions(Player, String)
-  fullName: SharedLibrary.Managers.TasksManager.AddMTaskFromSuggestions(SharedLibrary.Data.Player, string)
-  fullName.vb: SharedLibrary.Managers.TasksManager.AddMTaskFromSuggestions(SharedLibrary.Data.Player, String)
-  nameWithType: TasksManager.AddMTaskFromSuggestions(Player, string)
-  nameWithType.vb: TasksManager.AddMTaskFromSuggestions(Player, String)
-- uid: SharedLibrary.Managers.TasksManager.AddMTaskFromSuggestions*
-  name: AddMTaskFromSuggestions
-  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_AddMTaskFromSuggestions_
-  commentId: Overload:SharedLibrary.Managers.TasksManager.AddMTaskFromSuggestions
+- uid: SharedLibrary.Managers.TasksManager.AddTaskFromSuggestions(SharedLibrary.Data.Player,System.String)
+  name: AddTaskFromSuggestions(Player, string)
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_AddTaskFromSuggestions_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Managers.TasksManager.AddTaskFromSuggestions(SharedLibrary.Data.Player,System.String)
+  name.vb: AddTaskFromSuggestions(Player, String)
+  fullName: SharedLibrary.Managers.TasksManager.AddTaskFromSuggestions(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Managers.TasksManager.AddTaskFromSuggestions(SharedLibrary.Data.Player, String)
+  nameWithType: TasksManager.AddTaskFromSuggestions(Player, string)
+  nameWithType.vb: TasksManager.AddTaskFromSuggestions(Player, String)
+- uid: SharedLibrary.Managers.TasksManager.AddTaskFromSuggestions*
+  name: AddTaskFromSuggestions
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_AddTaskFromSuggestions_
+  commentId: Overload:SharedLibrary.Managers.TasksManager.AddTaskFromSuggestions
   isSpec: "True"
-  fullName: SharedLibrary.Managers.TasksManager.AddMTaskFromSuggestions
-  nameWithType: TasksManager.AddMTaskFromSuggestions
+  fullName: SharedLibrary.Managers.TasksManager.AddTaskFromSuggestions
+  nameWithType: TasksManager.AddTaskFromSuggestions
 - uid: SharedLibrary.Managers.TasksManager.CompleteTask(SharedLibrary.Data.Player,System.String)
   name: CompleteTask(Player, string)
   href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_CompleteTask_SharedLibrary_Data_Player_System_String_

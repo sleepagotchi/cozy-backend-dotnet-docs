@@ -122,19 +122,19 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Managers_TasksManager_AddMTaskFromSuggestions_SharedLibrary_Data_Player_System_String_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.TasksManager.AddMTaskFromSuggestions(SharedLibrary.Data.Player%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Managers_TasksManager_AddTaskFromSuggestions_SharedLibrary_Data_Player_System_String_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.TasksManager.AddTaskFromSuggestions(SharedLibrary.Data.Player%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/TasksManager.cs/#L100">View Source</a>
   </span>
-  <a id="SharedLibrary_Managers_TasksManager_AddMTaskFromSuggestions_" data-uid="SharedLibrary.Managers.TasksManager.AddMTaskFromSuggestions*"></a>
-  <h4 id="SharedLibrary_Managers_TasksManager_AddMTaskFromSuggestions_SharedLibrary_Data_Player_System_String_" data-uid="SharedLibrary.Managers.TasksManager.AddMTaskFromSuggestions(SharedLibrary.Data.Player,System.String)">AddMTaskFromSuggestions(Player, string)</h4>
+  <a id="SharedLibrary_Managers_TasksManager_AddTaskFromSuggestions_" data-uid="SharedLibrary.Managers.TasksManager.AddTaskFromSuggestions*"></a>
+  <h4 id="SharedLibrary_Managers_TasksManager_AddTaskFromSuggestions_SharedLibrary_Data_Player_System_String_" data-uid="SharedLibrary.Managers.TasksManager.AddTaskFromSuggestions(SharedLibrary.Data.Player,System.String)">AddTaskFromSuggestions(Player, string)</h4>
   <div class="markdown level1 summary"><p>Moves a suggested Task to the player's active Tasks and replenishes the suggestions list.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PlayerTasks AddMTaskFromSuggestions(Player player, string taskId)</code></pre>
+    <pre><code class="lang-csharp hljs">public PlayerTasks AddTaskFromSuggestions(Player player, string taskId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -176,13 +176,13 @@
       </tr>
     </tbody>
   </table>
-  <h5 id="SharedLibrary_Managers_TasksManager_AddMTaskFromSuggestions_SharedLibrary_Data_Player_System_String__remarks">Remarks</h5>
+  <h5 id="SharedLibrary_Managers_TasksManager_AddTaskFromSuggestions_SharedLibrary_Data_Player_System_String__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>If the Task with the given <code class="paramref">taskId</code> exists in <code>SuggestionTasks</code>, it is
 added to <code>ActiveTasks</code> (if not already present) and removed from suggestions. The method then
 picks the next available task from the internal pool that is not present in either list and adds it
 to <code>SuggestionTasks</code> to keep suggestions capped and unique.</p>
 </div>
-  <h5 id="SharedLibrary_Managers_TasksManager_AddMTaskFromSuggestions_SharedLibrary_Data_Player_System_String__examples">Examples</h5>
+  <h5 id="SharedLibrary_Managers_TasksManager_AddTaskFromSuggestions_SharedLibrary_Data_Player_System_String__examples">Examples</h5>
   <pre><code class="lang-csharp">var updated = manager.AddMTaskFromSuggestions(player, "self_care_20");
 // The Task is now in ActiveTasks; suggestions were replenished.</code></pre>
 
