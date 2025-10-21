@@ -154,6 +154,12 @@ references:
   commentId: T:SharedLibrary.Data.Constants
   fullName: SharedLibrary.Data.Constants
   nameWithType: Constants
+- uid: SharedLibrary.Data.Constants.CosmeticItemsPerPage
+  name: CosmeticItemsPerPage
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_CosmeticItemsPerPage
+  commentId: F:SharedLibrary.Data.Constants.CosmeticItemsPerPage
+  fullName: SharedLibrary.Data.Constants.CosmeticItemsPerPage
+  nameWithType: Constants.CosmeticItemsPerPage
 - uid: SharedLibrary.Data.Constants.DecreaseRate
   name: DecreaseRate
   href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_DecreaseRate
@@ -283,6 +289,188 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Constants.UserTaskEnergy
   nameWithType: Constants.UserTaskEnergy
+- uid: SharedLibrary.Data.Cosmetic
+  name: SharedLibrary.Data.Cosmetic
+  href: api/api/SharedLibrary.Data.Cosmetic.html
+  commentId: N:SharedLibrary.Data.Cosmetic
+  fullName: SharedLibrary.Data.Cosmetic
+  nameWithType: SharedLibrary.Data.Cosmetic
+- uid: SharedLibrary.Data.Cosmetic.CosmeticItem
+  name: CosmeticItem
+  href: api/api/SharedLibrary.Data.Cosmetic.CosmeticItem.html
+  commentId: T:SharedLibrary.Data.Cosmetic.CosmeticItem
+  fullName: SharedLibrary.Data.Cosmetic.CosmeticItem
+  nameWithType: CosmeticItem
+- uid: SharedLibrary.Data.Cosmetic.CosmeticItem.Category
+  name: Category
+  href: api/api/SharedLibrary.Data.Cosmetic.CosmeticItem.html#SharedLibrary_Data_Cosmetic_CosmeticItem_Category
+  commentId: P:SharedLibrary.Data.Cosmetic.CosmeticItem.Category
+  fullName: SharedLibrary.Data.Cosmetic.CosmeticItem.Category
+  nameWithType: CosmeticItem.Category
+- uid: SharedLibrary.Data.Cosmetic.CosmeticItem.Category*
+  name: Category
+  href: api/api/SharedLibrary.Data.Cosmetic.CosmeticItem.html#SharedLibrary_Data_Cosmetic_CosmeticItem_Category_
+  commentId: Overload:SharedLibrary.Data.Cosmetic.CosmeticItem.Category
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Cosmetic.CosmeticItem.Category
+  nameWithType: CosmeticItem.Category
+- uid: SharedLibrary.Data.Cosmetic.CosmeticItem.Id
+  name: Id
+  href: api/api/SharedLibrary.Data.Cosmetic.CosmeticItem.html#SharedLibrary_Data_Cosmetic_CosmeticItem_Id
+  commentId: P:SharedLibrary.Data.Cosmetic.CosmeticItem.Id
+  fullName: SharedLibrary.Data.Cosmetic.CosmeticItem.Id
+  nameWithType: CosmeticItem.Id
+- uid: SharedLibrary.Data.Cosmetic.CosmeticItem.Id*
+  name: Id
+  href: api/api/SharedLibrary.Data.Cosmetic.CosmeticItem.html#SharedLibrary_Data_Cosmetic_CosmeticItem_Id_
+  commentId: Overload:SharedLibrary.Data.Cosmetic.CosmeticItem.Id
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Cosmetic.CosmeticItem.Id
+  nameWithType: CosmeticItem.Id
+- uid: SharedLibrary.Data.Cosmetic.CosmeticItem.IsSkin
+  name: IsSkin
+  href: api/api/SharedLibrary.Data.Cosmetic.CosmeticItem.html#SharedLibrary_Data_Cosmetic_CosmeticItem_IsSkin
+  commentId: P:SharedLibrary.Data.Cosmetic.CosmeticItem.IsSkin
+  fullName: SharedLibrary.Data.Cosmetic.CosmeticItem.IsSkin
+  nameWithType: CosmeticItem.IsSkin
+- uid: SharedLibrary.Data.Cosmetic.CosmeticItem.IsSkin*
+  name: IsSkin
+  href: api/api/SharedLibrary.Data.Cosmetic.CosmeticItem.html#SharedLibrary_Data_Cosmetic_CosmeticItem_IsSkin_
+  commentId: Overload:SharedLibrary.Data.Cosmetic.CosmeticItem.IsSkin
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Cosmetic.CosmeticItem.IsSkin
+  nameWithType: CosmeticItem.IsSkin
+- uid: SharedLibrary.Data.Cosmetic.CosmeticItem.Price
+  name: Price
+  href: api/api/SharedLibrary.Data.Cosmetic.CosmeticItem.html#SharedLibrary_Data_Cosmetic_CosmeticItem_Price
+  commentId: P:SharedLibrary.Data.Cosmetic.CosmeticItem.Price
+  fullName: SharedLibrary.Data.Cosmetic.CosmeticItem.Price
+  nameWithType: CosmeticItem.Price
+- uid: SharedLibrary.Data.Cosmetic.CosmeticItem.Price*
+  name: Price
+  href: api/api/SharedLibrary.Data.Cosmetic.CosmeticItem.html#SharedLibrary_Data_Cosmetic_CosmeticItem_Price_
+  commentId: Overload:SharedLibrary.Data.Cosmetic.CosmeticItem.Price
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Cosmetic.CosmeticItem.Price
+  nameWithType: CosmeticItem.Price
+- uid: SharedLibrary.Data.Cosmetic.CosmeticItemSmall
+  name: CosmeticItemSmall
+  href: api/api/SharedLibrary.Data.Cosmetic.CosmeticItemSmall.html
+  commentId: T:SharedLibrary.Data.Cosmetic.CosmeticItemSmall
+  fullName: SharedLibrary.Data.Cosmetic.CosmeticItemSmall
+  nameWithType: CosmeticItemSmall
+- uid: SharedLibrary.Data.Cosmetic.CosmeticItemSmall.#ctor
+  name: CosmeticItemSmall()
+  href: api/api/SharedLibrary.Data.Cosmetic.CosmeticItemSmall.html#SharedLibrary_Data_Cosmetic_CosmeticItemSmall__ctor
+  commentId: M:SharedLibrary.Data.Cosmetic.CosmeticItemSmall.#ctor
+  name.vb: New()
+  fullName: SharedLibrary.Data.Cosmetic.CosmeticItemSmall.CosmeticItemSmall()
+  fullName.vb: SharedLibrary.Data.Cosmetic.CosmeticItemSmall.New()
+  nameWithType: CosmeticItemSmall.CosmeticItemSmall()
+  nameWithType.vb: CosmeticItemSmall.New()
+- uid: SharedLibrary.Data.Cosmetic.CosmeticItemSmall.#ctor(SharedLibrary.Data.Cosmetic.CosmeticItem)
+  name: CosmeticItemSmall(CosmeticItem)
+  href: api/api/SharedLibrary.Data.Cosmetic.CosmeticItemSmall.html#SharedLibrary_Data_Cosmetic_CosmeticItemSmall__ctor_SharedLibrary_Data_Cosmetic_CosmeticItem_
+  commentId: M:SharedLibrary.Data.Cosmetic.CosmeticItemSmall.#ctor(SharedLibrary.Data.Cosmetic.CosmeticItem)
+  name.vb: New(CosmeticItem)
+  fullName: SharedLibrary.Data.Cosmetic.CosmeticItemSmall.CosmeticItemSmall(SharedLibrary.Data.Cosmetic.CosmeticItem)
+  fullName.vb: SharedLibrary.Data.Cosmetic.CosmeticItemSmall.New(SharedLibrary.Data.Cosmetic.CosmeticItem)
+  nameWithType: CosmeticItemSmall.CosmeticItemSmall(CosmeticItem)
+  nameWithType.vb: CosmeticItemSmall.New(CosmeticItem)
+- uid: SharedLibrary.Data.Cosmetic.CosmeticItemSmall.#ctor*
+  name: CosmeticItemSmall
+  href: api/api/SharedLibrary.Data.Cosmetic.CosmeticItemSmall.html#SharedLibrary_Data_Cosmetic_CosmeticItemSmall__ctor_
+  commentId: Overload:SharedLibrary.Data.Cosmetic.CosmeticItemSmall.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Data.Cosmetic.CosmeticItemSmall.CosmeticItemSmall
+  fullName.vb: SharedLibrary.Data.Cosmetic.CosmeticItemSmall.New
+  nameWithType: CosmeticItemSmall.CosmeticItemSmall
+  nameWithType.vb: CosmeticItemSmall.New
+- uid: SharedLibrary.Data.Cosmetic.CosmeticItemSmall.Category
+  name: Category
+  href: api/api/SharedLibrary.Data.Cosmetic.CosmeticItemSmall.html#SharedLibrary_Data_Cosmetic_CosmeticItemSmall_Category
+  commentId: P:SharedLibrary.Data.Cosmetic.CosmeticItemSmall.Category
+  fullName: SharedLibrary.Data.Cosmetic.CosmeticItemSmall.Category
+  nameWithType: CosmeticItemSmall.Category
+- uid: SharedLibrary.Data.Cosmetic.CosmeticItemSmall.Category*
+  name: Category
+  href: api/api/SharedLibrary.Data.Cosmetic.CosmeticItemSmall.html#SharedLibrary_Data_Cosmetic_CosmeticItemSmall_Category_
+  commentId: Overload:SharedLibrary.Data.Cosmetic.CosmeticItemSmall.Category
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Cosmetic.CosmeticItemSmall.Category
+  nameWithType: CosmeticItemSmall.Category
+- uid: SharedLibrary.Data.Cosmetic.CosmeticItemSmall.Id
+  name: Id
+  href: api/api/SharedLibrary.Data.Cosmetic.CosmeticItemSmall.html#SharedLibrary_Data_Cosmetic_CosmeticItemSmall_Id
+  commentId: P:SharedLibrary.Data.Cosmetic.CosmeticItemSmall.Id
+  fullName: SharedLibrary.Data.Cosmetic.CosmeticItemSmall.Id
+  nameWithType: CosmeticItemSmall.Id
+- uid: SharedLibrary.Data.Cosmetic.CosmeticItemSmall.Id*
+  name: Id
+  href: api/api/SharedLibrary.Data.Cosmetic.CosmeticItemSmall.html#SharedLibrary_Data_Cosmetic_CosmeticItemSmall_Id_
+  commentId: Overload:SharedLibrary.Data.Cosmetic.CosmeticItemSmall.Id
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Cosmetic.CosmeticItemSmall.Id
+  nameWithType: CosmeticItemSmall.Id
+- uid: SharedLibrary.Data.Cosmetic.CosmeticItemSmall.IsSkin
+  name: IsSkin
+  href: api/api/SharedLibrary.Data.Cosmetic.CosmeticItemSmall.html#SharedLibrary_Data_Cosmetic_CosmeticItemSmall_IsSkin
+  commentId: P:SharedLibrary.Data.Cosmetic.CosmeticItemSmall.IsSkin
+  fullName: SharedLibrary.Data.Cosmetic.CosmeticItemSmall.IsSkin
+  nameWithType: CosmeticItemSmall.IsSkin
+- uid: SharedLibrary.Data.Cosmetic.CosmeticItemSmall.IsSkin*
+  name: IsSkin
+  href: api/api/SharedLibrary.Data.Cosmetic.CosmeticItemSmall.html#SharedLibrary_Data_Cosmetic_CosmeticItemSmall_IsSkin_
+  commentId: Overload:SharedLibrary.Data.Cosmetic.CosmeticItemSmall.IsSkin
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Cosmetic.CosmeticItemSmall.IsSkin
+  nameWithType: CosmeticItemSmall.IsSkin
+- uid: SharedLibrary.Data.Cosmetic.PlayerCosmetic
+  name: PlayerCosmetic
+  href: api/api/SharedLibrary.Data.Cosmetic.PlayerCosmetic.html
+  commentId: T:SharedLibrary.Data.Cosmetic.PlayerCosmetic
+  fullName: SharedLibrary.Data.Cosmetic.PlayerCosmetic
+  nameWithType: PlayerCosmetic
+- uid: SharedLibrary.Data.Cosmetic.PlayerCosmetic.EquippedItems
+  name: EquippedItems
+  href: api/api/SharedLibrary.Data.Cosmetic.PlayerCosmetic.html#SharedLibrary_Data_Cosmetic_PlayerCosmetic_EquippedItems
+  commentId: P:SharedLibrary.Data.Cosmetic.PlayerCosmetic.EquippedItems
+  fullName: SharedLibrary.Data.Cosmetic.PlayerCosmetic.EquippedItems
+  nameWithType: PlayerCosmetic.EquippedItems
+- uid: SharedLibrary.Data.Cosmetic.PlayerCosmetic.EquippedItems*
+  name: EquippedItems
+  href: api/api/SharedLibrary.Data.Cosmetic.PlayerCosmetic.html#SharedLibrary_Data_Cosmetic_PlayerCosmetic_EquippedItems_
+  commentId: Overload:SharedLibrary.Data.Cosmetic.PlayerCosmetic.EquippedItems
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Cosmetic.PlayerCosmetic.EquippedItems
+  nameWithType: PlayerCosmetic.EquippedItems
+- uid: SharedLibrary.Data.Cosmetic.PlayerCosmetic.FavoritesItems
+  name: FavoritesItems
+  href: api/api/SharedLibrary.Data.Cosmetic.PlayerCosmetic.html#SharedLibrary_Data_Cosmetic_PlayerCosmetic_FavoritesItems
+  commentId: P:SharedLibrary.Data.Cosmetic.PlayerCosmetic.FavoritesItems
+  fullName: SharedLibrary.Data.Cosmetic.PlayerCosmetic.FavoritesItems
+  nameWithType: PlayerCosmetic.FavoritesItems
+- uid: SharedLibrary.Data.Cosmetic.PlayerCosmetic.FavoritesItems*
+  name: FavoritesItems
+  href: api/api/SharedLibrary.Data.Cosmetic.PlayerCosmetic.html#SharedLibrary_Data_Cosmetic_PlayerCosmetic_FavoritesItems_
+  commentId: Overload:SharedLibrary.Data.Cosmetic.PlayerCosmetic.FavoritesItems
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Cosmetic.PlayerCosmetic.FavoritesItems
+  nameWithType: PlayerCosmetic.FavoritesItems
+- uid: SharedLibrary.Data.Cosmetic.PlayerCosmetic.OwnedItems
+  name: OwnedItems
+  href: api/api/SharedLibrary.Data.Cosmetic.PlayerCosmetic.html#SharedLibrary_Data_Cosmetic_PlayerCosmetic_OwnedItems
+  commentId: P:SharedLibrary.Data.Cosmetic.PlayerCosmetic.OwnedItems
+  fullName: SharedLibrary.Data.Cosmetic.PlayerCosmetic.OwnedItems
+  nameWithType: PlayerCosmetic.OwnedItems
+- uid: SharedLibrary.Data.Cosmetic.PlayerCosmetic.OwnedItems*
+  name: OwnedItems
+  href: api/api/SharedLibrary.Data.Cosmetic.PlayerCosmetic.html#SharedLibrary_Data_Cosmetic_PlayerCosmetic_OwnedItems_
+  commentId: Overload:SharedLibrary.Data.Cosmetic.PlayerCosmetic.OwnedItems
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Cosmetic.PlayerCosmetic.OwnedItems
+  nameWithType: PlayerCosmetic.OwnedItems
 - uid: SharedLibrary.Data.Island
   name: SharedLibrary.Data.Island
   href: api/api/SharedLibrary.Data.Island.html
@@ -520,6 +708,19 @@ references:
   commentId: T:SharedLibrary.Data.Player
   fullName: SharedLibrary.Data.Player
   nameWithType: Player
+- uid: SharedLibrary.Data.Player.Cosmetic
+  name: Cosmetic
+  href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_Cosmetic
+  commentId: P:SharedLibrary.Data.Player.Cosmetic
+  fullName: SharedLibrary.Data.Player.Cosmetic
+  nameWithType: Player.Cosmetic
+- uid: SharedLibrary.Data.Player.Cosmetic*
+  name: Cosmetic
+  href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_Cosmetic_
+  commentId: Overload:SharedLibrary.Data.Player.Cosmetic
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Player.Cosmetic
+  nameWithType: Player.Cosmetic
 - uid: SharedLibrary.Data.Player.CreateUser
   name: CreateUser()
   href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_CreateUser
@@ -1743,6 +1944,19 @@ references:
   commentId: T:SharedLibrary.Managers.ConfigManager
   fullName: SharedLibrary.Managers.ConfigManager
   nameWithType: ConfigManager
+- uid: SharedLibrary.Managers.ConfigManager.GetCosmeticItems
+  name: GetCosmeticItems
+  href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_GetCosmeticItems
+  commentId: P:SharedLibrary.Managers.ConfigManager.GetCosmeticItems
+  fullName: SharedLibrary.Managers.ConfigManager.GetCosmeticItems
+  nameWithType: ConfigManager.GetCosmeticItems
+- uid: SharedLibrary.Managers.ConfigManager.GetCosmeticItems*
+  name: GetCosmeticItems
+  href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_GetCosmeticItems_
+  commentId: Overload:SharedLibrary.Managers.ConfigManager.GetCosmeticItems
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.ConfigManager.GetCosmeticItems
+  nameWithType: ConfigManager.GetCosmeticItems
 - uid: SharedLibrary.Managers.ConfigManager.GetItems
   name: GetItems
   href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_GetItems
@@ -1782,6 +1996,240 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Managers.ConfigManager.Initialize
   nameWithType: ConfigManager.Initialize
+- uid: SharedLibrary.Managers.CosmeticManager
+  name: CosmeticManager
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html
+  commentId: T:SharedLibrary.Managers.CosmeticManager
+  fullName: SharedLibrary.Managers.CosmeticManager
+  nameWithType: CosmeticManager
+- uid: SharedLibrary.Managers.CosmeticManager.AddItem(SharedLibrary.Data.Player,System.String)
+  name: AddItem(Player, string)
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_AddItem_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Managers.CosmeticManager.AddItem(SharedLibrary.Data.Player,System.String)
+  name.vb: AddItem(Player, String)
+  fullName: SharedLibrary.Managers.CosmeticManager.AddItem(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Managers.CosmeticManager.AddItem(SharedLibrary.Data.Player, String)
+  nameWithType: CosmeticManager.AddItem(Player, string)
+  nameWithType.vb: CosmeticManager.AddItem(Player, String)
+- uid: SharedLibrary.Managers.CosmeticManager.AddItem*
+  name: AddItem
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_AddItem_
+  commentId: Overload:SharedLibrary.Managers.CosmeticManager.AddItem
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.CosmeticManager.AddItem
+  nameWithType: CosmeticManager.AddItem
+- uid: SharedLibrary.Managers.CosmeticManager.EquipItem(SharedLibrary.Data.Player,SharedLibrary.Data.Cosmetic.CosmeticItem)
+  name: EquipItem(Player, CosmeticItem)
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_EquipItem_SharedLibrary_Data_Player_SharedLibrary_Data_Cosmetic_CosmeticItem_
+  commentId: M:SharedLibrary.Managers.CosmeticManager.EquipItem(SharedLibrary.Data.Player,SharedLibrary.Data.Cosmetic.CosmeticItem)
+  fullName: SharedLibrary.Managers.CosmeticManager.EquipItem(SharedLibrary.Data.Player, SharedLibrary.Data.Cosmetic.CosmeticItem)
+  nameWithType: CosmeticManager.EquipItem(Player, CosmeticItem)
+- uid: SharedLibrary.Managers.CosmeticManager.EquipItem*
+  name: EquipItem
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_EquipItem_
+  commentId: Overload:SharedLibrary.Managers.CosmeticManager.EquipItem
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.CosmeticManager.EquipItem
+  nameWithType: CosmeticManager.EquipItem
+- uid: SharedLibrary.Managers.CosmeticManager.GetEquippedItems(SharedLibrary.Data.Player)
+  name: GetEquippedItems(Player)
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_GetEquippedItems_SharedLibrary_Data_Player_
+  commentId: M:SharedLibrary.Managers.CosmeticManager.GetEquippedItems(SharedLibrary.Data.Player)
+  fullName: SharedLibrary.Managers.CosmeticManager.GetEquippedItems(SharedLibrary.Data.Player)
+  nameWithType: CosmeticManager.GetEquippedItems(Player)
+- uid: SharedLibrary.Managers.CosmeticManager.GetEquippedItems*
+  name: GetEquippedItems
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_GetEquippedItems_
+  commentId: Overload:SharedLibrary.Managers.CosmeticManager.GetEquippedItems
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.CosmeticManager.GetEquippedItems
+  nameWithType: CosmeticManager.GetEquippedItems
+- uid: SharedLibrary.Managers.CosmeticManager.GetFavoritesItems(SharedLibrary.Data.Player)
+  name: GetFavoritesItems(Player)
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_GetFavoritesItems_SharedLibrary_Data_Player_
+  commentId: M:SharedLibrary.Managers.CosmeticManager.GetFavoritesItems(SharedLibrary.Data.Player)
+  fullName: SharedLibrary.Managers.CosmeticManager.GetFavoritesItems(SharedLibrary.Data.Player)
+  nameWithType: CosmeticManager.GetFavoritesItems(Player)
+- uid: SharedLibrary.Managers.CosmeticManager.GetFavoritesItems*
+  name: GetFavoritesItems
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_GetFavoritesItems_
+  commentId: Overload:SharedLibrary.Managers.CosmeticManager.GetFavoritesItems
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.CosmeticManager.GetFavoritesItems
+  nameWithType: CosmeticManager.GetFavoritesItems
+- uid: SharedLibrary.Managers.CosmeticManager.GetFavoritesItemsInCategory(SharedLibrary.Data.Player,System.String)
+  name: GetFavoritesItemsInCategory(Player, string)
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_GetFavoritesItemsInCategory_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Managers.CosmeticManager.GetFavoritesItemsInCategory(SharedLibrary.Data.Player,System.String)
+  name.vb: GetFavoritesItemsInCategory(Player, String)
+  fullName: SharedLibrary.Managers.CosmeticManager.GetFavoritesItemsInCategory(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Managers.CosmeticManager.GetFavoritesItemsInCategory(SharedLibrary.Data.Player, String)
+  nameWithType: CosmeticManager.GetFavoritesItemsInCategory(Player, string)
+  nameWithType.vb: CosmeticManager.GetFavoritesItemsInCategory(Player, String)
+- uid: SharedLibrary.Managers.CosmeticManager.GetFavoritesItemsInCategory*
+  name: GetFavoritesItemsInCategory
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_GetFavoritesItemsInCategory_
+  commentId: Overload:SharedLibrary.Managers.CosmeticManager.GetFavoritesItemsInCategory
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.CosmeticManager.GetFavoritesItemsInCategory
+  nameWithType: CosmeticManager.GetFavoritesItemsInCategory
+- uid: SharedLibrary.Managers.CosmeticManager.GetItemById(System.String)
+  name: GetItemById(string)
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_GetItemById_System_String_
+  commentId: M:SharedLibrary.Managers.CosmeticManager.GetItemById(System.String)
+  name.vb: GetItemById(String)
+  fullName: SharedLibrary.Managers.CosmeticManager.GetItemById(string)
+  fullName.vb: SharedLibrary.Managers.CosmeticManager.GetItemById(String)
+  nameWithType: CosmeticManager.GetItemById(string)
+  nameWithType.vb: CosmeticManager.GetItemById(String)
+- uid: SharedLibrary.Managers.CosmeticManager.GetItemById*
+  name: GetItemById
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_GetItemById_
+  commentId: Overload:SharedLibrary.Managers.CosmeticManager.GetItemById
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.CosmeticManager.GetItemById
+  nameWithType: CosmeticManager.GetItemById
+- uid: SharedLibrary.Managers.CosmeticManager.GetItems(System.Int32)
+  name: GetItems(int)
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_GetItems_System_Int32_
+  commentId: M:SharedLibrary.Managers.CosmeticManager.GetItems(System.Int32)
+  name.vb: GetItems(Integer)
+  fullName: SharedLibrary.Managers.CosmeticManager.GetItems(int)
+  fullName.vb: SharedLibrary.Managers.CosmeticManager.GetItems(Integer)
+  nameWithType: CosmeticManager.GetItems(int)
+  nameWithType.vb: CosmeticManager.GetItems(Integer)
+- uid: SharedLibrary.Managers.CosmeticManager.GetItems*
+  name: GetItems
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_GetItems_
+  commentId: Overload:SharedLibrary.Managers.CosmeticManager.GetItems
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.CosmeticManager.GetItems
+  nameWithType: CosmeticManager.GetItems
+- uid: SharedLibrary.Managers.CosmeticManager.GetItemsInCategory(System.String,System.Int32)
+  name: GetItemsInCategory(string, int)
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_GetItemsInCategory_System_String_System_Int32_
+  commentId: M:SharedLibrary.Managers.CosmeticManager.GetItemsInCategory(System.String,System.Int32)
+  name.vb: GetItemsInCategory(String, Integer)
+  fullName: SharedLibrary.Managers.CosmeticManager.GetItemsInCategory(string, int)
+  fullName.vb: SharedLibrary.Managers.CosmeticManager.GetItemsInCategory(String, Integer)
+  nameWithType: CosmeticManager.GetItemsInCategory(string, int)
+  nameWithType.vb: CosmeticManager.GetItemsInCategory(String, Integer)
+- uid: SharedLibrary.Managers.CosmeticManager.GetItemsInCategory*
+  name: GetItemsInCategory
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_GetItemsInCategory_
+  commentId: Overload:SharedLibrary.Managers.CosmeticManager.GetItemsInCategory
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.CosmeticManager.GetItemsInCategory
+  nameWithType: CosmeticManager.GetItemsInCategory
+- uid: SharedLibrary.Managers.CosmeticManager.HasItem(SharedLibrary.Data.Player,System.String)
+  name: HasItem(Player, string)
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_HasItem_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Managers.CosmeticManager.HasItem(SharedLibrary.Data.Player,System.String)
+  name.vb: HasItem(Player, String)
+  fullName: SharedLibrary.Managers.CosmeticManager.HasItem(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Managers.CosmeticManager.HasItem(SharedLibrary.Data.Player, String)
+  nameWithType: CosmeticManager.HasItem(Player, string)
+  nameWithType.vb: CosmeticManager.HasItem(Player, String)
+- uid: SharedLibrary.Managers.CosmeticManager.HasItem*
+  name: HasItem
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_HasItem_
+  commentId: Overload:SharedLibrary.Managers.CosmeticManager.HasItem
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.CosmeticManager.HasItem
+  nameWithType: CosmeticManager.HasItem
+- uid: SharedLibrary.Managers.CosmeticManager.IsItemEquipped(SharedLibrary.Data.Player,System.String)
+  name: IsItemEquipped(Player, string)
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_IsItemEquipped_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Managers.CosmeticManager.IsItemEquipped(SharedLibrary.Data.Player,System.String)
+  name.vb: IsItemEquipped(Player, String)
+  fullName: SharedLibrary.Managers.CosmeticManager.IsItemEquipped(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Managers.CosmeticManager.IsItemEquipped(SharedLibrary.Data.Player, String)
+  nameWithType: CosmeticManager.IsItemEquipped(Player, string)
+  nameWithType.vb: CosmeticManager.IsItemEquipped(Player, String)
+- uid: SharedLibrary.Managers.CosmeticManager.IsItemEquipped*
+  name: IsItemEquipped
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_IsItemEquipped_
+  commentId: Overload:SharedLibrary.Managers.CosmeticManager.IsItemEquipped
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.CosmeticManager.IsItemEquipped
+  nameWithType: CosmeticManager.IsItemEquipped
+- uid: SharedLibrary.Managers.CosmeticManager.IsItemFavorited(SharedLibrary.Data.Player,System.String)
+  name: IsItemFavorited(Player, string)
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_IsItemFavorited_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Managers.CosmeticManager.IsItemFavorited(SharedLibrary.Data.Player,System.String)
+  name.vb: IsItemFavorited(Player, String)
+  fullName: SharedLibrary.Managers.CosmeticManager.IsItemFavorited(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Managers.CosmeticManager.IsItemFavorited(SharedLibrary.Data.Player, String)
+  nameWithType: CosmeticManager.IsItemFavorited(Player, string)
+  nameWithType.vb: CosmeticManager.IsItemFavorited(Player, String)
+- uid: SharedLibrary.Managers.CosmeticManager.IsItemFavorited*
+  name: IsItemFavorited
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_IsItemFavorited_
+  commentId: Overload:SharedLibrary.Managers.CosmeticManager.IsItemFavorited
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.CosmeticManager.IsItemFavorited
+  nameWithType: CosmeticManager.IsItemFavorited
+- uid: SharedLibrary.Managers.CosmeticManager.RemoveItem(SharedLibrary.Data.Player,System.String)
+  name: RemoveItem(Player, string)
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_RemoveItem_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Managers.CosmeticManager.RemoveItem(SharedLibrary.Data.Player,System.String)
+  name.vb: RemoveItem(Player, String)
+  fullName: SharedLibrary.Managers.CosmeticManager.RemoveItem(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Managers.CosmeticManager.RemoveItem(SharedLibrary.Data.Player, String)
+  nameWithType: CosmeticManager.RemoveItem(Player, string)
+  nameWithType.vb: CosmeticManager.RemoveItem(Player, String)
+- uid: SharedLibrary.Managers.CosmeticManager.RemoveItem*
+  name: RemoveItem
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_RemoveItem_
+  commentId: Overload:SharedLibrary.Managers.CosmeticManager.RemoveItem
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.CosmeticManager.RemoveItem
+  nameWithType: CosmeticManager.RemoveItem
+- uid: SharedLibrary.Managers.CosmeticManager.ToggleFavoriteItem(SharedLibrary.Data.Player,SharedLibrary.Data.Cosmetic.CosmeticItem)
+  name: ToggleFavoriteItem(Player, CosmeticItem)
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_ToggleFavoriteItem_SharedLibrary_Data_Player_SharedLibrary_Data_Cosmetic_CosmeticItem_
+  commentId: M:SharedLibrary.Managers.CosmeticManager.ToggleFavoriteItem(SharedLibrary.Data.Player,SharedLibrary.Data.Cosmetic.CosmeticItem)
+  fullName: SharedLibrary.Managers.CosmeticManager.ToggleFavoriteItem(SharedLibrary.Data.Player, SharedLibrary.Data.Cosmetic.CosmeticItem)
+  nameWithType: CosmeticManager.ToggleFavoriteItem(Player, CosmeticItem)
+- uid: SharedLibrary.Managers.CosmeticManager.ToggleFavoriteItem*
+  name: ToggleFavoriteItem
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_ToggleFavoriteItem_
+  commentId: Overload:SharedLibrary.Managers.CosmeticManager.ToggleFavoriteItem
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.CosmeticManager.ToggleFavoriteItem
+  nameWithType: CosmeticManager.ToggleFavoriteItem
+- uid: SharedLibrary.Managers.CosmeticManager.TryToBuyItem(SharedLibrary.Data.Player,System.String)
+  name: TryToBuyItem(Player, string)
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_TryToBuyItem_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Managers.CosmeticManager.TryToBuyItem(SharedLibrary.Data.Player,System.String)
+  name.vb: TryToBuyItem(Player, String)
+  fullName: SharedLibrary.Managers.CosmeticManager.TryToBuyItem(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Managers.CosmeticManager.TryToBuyItem(SharedLibrary.Data.Player, String)
+  nameWithType: CosmeticManager.TryToBuyItem(Player, string)
+  nameWithType.vb: CosmeticManager.TryToBuyItem(Player, String)
+- uid: SharedLibrary.Managers.CosmeticManager.TryToBuyItem*
+  name: TryToBuyItem
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_TryToBuyItem_
+  commentId: Overload:SharedLibrary.Managers.CosmeticManager.TryToBuyItem
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.CosmeticManager.TryToBuyItem
+  nameWithType: CosmeticManager.TryToBuyItem
+- uid: SharedLibrary.Managers.CosmeticManager.UnequipItem(SharedLibrary.Data.Player,SharedLibrary.Data.Cosmetic.CosmeticItem)
+  name: UnequipItem(Player, CosmeticItem?)
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_UnequipItem_SharedLibrary_Data_Player_SharedLibrary_Data_Cosmetic_CosmeticItem_
+  commentId: M:SharedLibrary.Managers.CosmeticManager.UnequipItem(SharedLibrary.Data.Player,SharedLibrary.Data.Cosmetic.CosmeticItem)
+  name.vb: UnequipItem(Player, CosmeticItem)
+  fullName: SharedLibrary.Managers.CosmeticManager.UnequipItem(SharedLibrary.Data.Player, SharedLibrary.Data.Cosmetic.CosmeticItem?)
+  fullName.vb: SharedLibrary.Managers.CosmeticManager.UnequipItem(SharedLibrary.Data.Player, SharedLibrary.Data.Cosmetic.CosmeticItem)
+  nameWithType: CosmeticManager.UnequipItem(Player, CosmeticItem?)
+  nameWithType.vb: CosmeticManager.UnequipItem(Player, CosmeticItem)
+- uid: SharedLibrary.Managers.CosmeticManager.UnequipItem*
+  name: UnequipItem
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_UnequipItem_
+  commentId: Overload:SharedLibrary.Managers.CosmeticManager.UnequipItem
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.CosmeticManager.UnequipItem
+  nameWithType: CosmeticManager.UnequipItem
 - uid: SharedLibrary.Managers.ItemsManager
   name: ItemsManager
   href: api/api/SharedLibrary.Managers.ItemsManager.html
