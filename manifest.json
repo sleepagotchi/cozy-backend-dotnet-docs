@@ -166,20 +166,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/SharedLibrary.Data.Items.Item.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/api/SharedLibrary.Data.Items.Item.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "SharedLibrary.Data.Items.Item",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Data.Items.ItemBase.yml",
       "output": {
         ".html": {
@@ -303,34 +289,6 @@
       "IsMRef": true,
       "Title": "SharedLibrary.Data.Tasks.TaskCare",
       "Summary": "<p sourcefile=\"api/SharedLibrary.Data.Tasks.TaskCare.yml\" sourcestartlinenumber=\"1\">Represents a self-care task that a player can perform to improve various resources or attributes.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/SharedLibrary.Data.Tasks.TaskDinoCare.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/api/SharedLibrary.Data.Tasks.TaskDinoCare.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "SharedLibrary.Data.Tasks.TaskDinoCare",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/SharedLibrary.Data.Tasks.TaskSelfCare.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/api/SharedLibrary.Data.Tasks.TaskSelfCare.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "SharedLibrary.Data.Tasks.TaskSelfCare",
-      "Summary": null
     },
     {
       "type": "ManagedReference",
