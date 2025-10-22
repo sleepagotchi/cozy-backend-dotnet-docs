@@ -1132,6 +1132,22 @@ references:
   commentId: T:SharedLibrary.Commands.CommandsPool
   fullName: SharedLibrary.Commands.CommandsPool
   nameWithType: CommandsPool
+- uid: SharedLibrary.Commands.CommandsPool.ExecuteCommand*
+  name: ExecuteCommand
+  href: api/api/SharedLibrary.Commands.CommandsPool.html#SharedLibrary_Commands_CommandsPool_ExecuteCommand_
+  commentId: Overload:SharedLibrary.Commands.CommandsPool.ExecuteCommand
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.CommandsPool.ExecuteCommand
+  nameWithType: CommandsPool.ExecuteCommand
+- uid: SharedLibrary.Commands.CommandsPool.ExecuteCommand``2(SharedLibrary.Data.CommandType,``0)
+  name: ExecuteCommand<TArgs, TReturn>(CommandType, TArgs)
+  href: api/api/SharedLibrary.Commands.CommandsPool.html#SharedLibrary_Commands_CommandsPool_ExecuteCommand__2_SharedLibrary_Data_CommandType___0_
+  commentId: M:SharedLibrary.Commands.CommandsPool.ExecuteCommand``2(SharedLibrary.Data.CommandType,``0)
+  name.vb: ExecuteCommand(Of TArgs, TReturn)(CommandType, TArgs)
+  fullName: SharedLibrary.Commands.CommandsPool.ExecuteCommand<TArgs, TReturn>(SharedLibrary.Data.CommandType, TArgs)
+  fullName.vb: SharedLibrary.Commands.CommandsPool.ExecuteCommand(Of TArgs, TReturn)(SharedLibrary.Data.CommandType, TArgs)
+  nameWithType: CommandsPool.ExecuteCommand<TArgs, TReturn>(CommandType, TArgs)
+  nameWithType.vb: CommandsPool.ExecuteCommand(Of TArgs, TReturn)(CommandType, TArgs)
 - uid: SharedLibrary.Commands.CommandsPool.GetCommand(SharedLibrary.Data.CommandType)
   name: GetCommand(CommandType)
   href: api/api/SharedLibrary.Commands.CommandsPool.html#SharedLibrary_Commands_CommandsPool_GetCommand_SharedLibrary_Data_CommandType_
