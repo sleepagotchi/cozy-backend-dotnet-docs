@@ -1984,6 +1984,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Cosmetic.CosmeticItem.Category
   nameWithType: CosmeticItem.Category
+- uid: SharedLibrary.Data.Cosmetic.CosmeticItem.CollectionId
+  name: CollectionId
+  href: api/api/SharedLibrary.Data.Cosmetic.CosmeticItem.html#SharedLibrary_Data_Cosmetic_CosmeticItem_CollectionId
+  commentId: P:SharedLibrary.Data.Cosmetic.CosmeticItem.CollectionId
+  fullName: SharedLibrary.Data.Cosmetic.CosmeticItem.CollectionId
+  nameWithType: CosmeticItem.CollectionId
+- uid: SharedLibrary.Data.Cosmetic.CosmeticItem.CollectionId*
+  name: CollectionId
+  href: api/api/SharedLibrary.Data.Cosmetic.CosmeticItem.html#SharedLibrary_Data_Cosmetic_CosmeticItem_CollectionId_
+  commentId: Overload:SharedLibrary.Data.Cosmetic.CosmeticItem.CollectionId
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Cosmetic.CosmeticItem.CollectionId
+  nameWithType: CosmeticItem.CollectionId
 - uid: SharedLibrary.Data.Cosmetic.CosmeticItem.Id
   name: Id
   href: api/api/SharedLibrary.Data.Cosmetic.CosmeticItem.html#SharedLibrary_Data_Cosmetic_CosmeticItem_Id
@@ -3591,6 +3604,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Managers.CosmeticManager.GetItems
   nameWithType: CosmeticManager.GetItems
+- uid: SharedLibrary.Managers.CosmeticManager.GetItemsByCollectionId(System.String,System.Int32)
+  name: GetItemsByCollectionId(string, int)
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_GetItemsByCollectionId_System_String_System_Int32_
+  commentId: M:SharedLibrary.Managers.CosmeticManager.GetItemsByCollectionId(System.String,System.Int32)
+  name.vb: GetItemsByCollectionId(String, Integer)
+  fullName: SharedLibrary.Managers.CosmeticManager.GetItemsByCollectionId(string, int)
+  fullName.vb: SharedLibrary.Managers.CosmeticManager.GetItemsByCollectionId(String, Integer)
+  nameWithType: CosmeticManager.GetItemsByCollectionId(string, int)
+  nameWithType.vb: CosmeticManager.GetItemsByCollectionId(String, Integer)
+- uid: SharedLibrary.Managers.CosmeticManager.GetItemsByCollectionId*
+  name: GetItemsByCollectionId
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_GetItemsByCollectionId_
+  commentId: Overload:SharedLibrary.Managers.CosmeticManager.GetItemsByCollectionId
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.CosmeticManager.GetItemsByCollectionId
+  nameWithType: CosmeticManager.GetItemsByCollectionId
 - uid: SharedLibrary.Managers.CosmeticManager.GetItemsInCategory(System.String,System.Int32)
   name: GetItemsInCategory(string, int)
   href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_GetItemsInCategory_System_String_System_Int32_
