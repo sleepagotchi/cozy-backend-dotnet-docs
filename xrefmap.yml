@@ -1710,6 +1710,51 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Adventures.AdventureBase.Time
   nameWithType: AdventureBase.Time
+- uid: SharedLibrary.Data.BalanceModel
+  name: BalanceModel
+  href: api/api/SharedLibrary.Data.BalanceModel.html
+  commentId: T:SharedLibrary.Data.BalanceModel
+  fullName: SharedLibrary.Data.BalanceModel
+  nameWithType: BalanceModel
+- uid: SharedLibrary.Data.BalanceModel.Cosmetics
+  name: Cosmetics
+  href: api/api/SharedLibrary.Data.BalanceModel.html#SharedLibrary_Data_BalanceModel_Cosmetics
+  commentId: P:SharedLibrary.Data.BalanceModel.Cosmetics
+  fullName: SharedLibrary.Data.BalanceModel.Cosmetics
+  nameWithType: BalanceModel.Cosmetics
+- uid: SharedLibrary.Data.BalanceModel.Cosmetics*
+  name: Cosmetics
+  href: api/api/SharedLibrary.Data.BalanceModel.html#SharedLibrary_Data_BalanceModel_Cosmetics_
+  commentId: Overload:SharedLibrary.Data.BalanceModel.Cosmetics
+  isSpec: "True"
+  fullName: SharedLibrary.Data.BalanceModel.Cosmetics
+  nameWithType: BalanceModel.Cosmetics
+- uid: SharedLibrary.Data.BalanceModel.Items
+  name: Items
+  href: api/api/SharedLibrary.Data.BalanceModel.html#SharedLibrary_Data_BalanceModel_Items
+  commentId: P:SharedLibrary.Data.BalanceModel.Items
+  fullName: SharedLibrary.Data.BalanceModel.Items
+  nameWithType: BalanceModel.Items
+- uid: SharedLibrary.Data.BalanceModel.Items*
+  name: Items
+  href: api/api/SharedLibrary.Data.BalanceModel.html#SharedLibrary_Data_BalanceModel_Items_
+  commentId: Overload:SharedLibrary.Data.BalanceModel.Items
+  isSpec: "True"
+  fullName: SharedLibrary.Data.BalanceModel.Items
+  nameWithType: BalanceModel.Items
+- uid: SharedLibrary.Data.BalanceModel.Tasks
+  name: Tasks
+  href: api/api/SharedLibrary.Data.BalanceModel.html#SharedLibrary_Data_BalanceModel_Tasks
+  commentId: P:SharedLibrary.Data.BalanceModel.Tasks
+  fullName: SharedLibrary.Data.BalanceModel.Tasks
+  nameWithType: BalanceModel.Tasks
+- uid: SharedLibrary.Data.BalanceModel.Tasks*
+  name: Tasks
+  href: api/api/SharedLibrary.Data.BalanceModel.html#SharedLibrary_Data_BalanceModel_Tasks_
+  commentId: Overload:SharedLibrary.Data.BalanceModel.Tasks
+  isSpec: "True"
+  fullName: SharedLibrary.Data.BalanceModel.Tasks
+  nameWithType: BalanceModel.Tasks
 - uid: SharedLibrary.Data.CommandType
   name: CommandType
   href: api/api/SharedLibrary.Data.CommandType.html
@@ -1824,6 +1869,18 @@ references:
   commentId: T:SharedLibrary.Data.Constants
   fullName: SharedLibrary.Data.Constants
   nameWithType: Constants
+- uid: SharedLibrary.Data.Constants.BALANCE_DOWNLOAD_RETRY_COUNT
+  name: BALANCE_DOWNLOAD_RETRY_COUNT
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_BALANCE_DOWNLOAD_RETRY_COUNT
+  commentId: F:SharedLibrary.Data.Constants.BALANCE_DOWNLOAD_RETRY_COUNT
+  fullName: SharedLibrary.Data.Constants.BALANCE_DOWNLOAD_RETRY_COUNT
+  nameWithType: Constants.BALANCE_DOWNLOAD_RETRY_COUNT
+- uid: SharedLibrary.Data.Constants.BALANCE_URL
+  name: BALANCE_URL
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_BALANCE_URL
+  commentId: F:SharedLibrary.Data.Constants.BALANCE_URL
+  fullName: SharedLibrary.Data.Constants.BALANCE_URL
+  nameWithType: Constants.BALANCE_URL
 - uid: SharedLibrary.Data.Constants.CosmeticItemsPerPage
   name: CosmeticItemsPerPage
   href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_CosmeticItemsPerPage
@@ -3440,6 +3497,22 @@ references:
   commentId: T:SharedLibrary.Managers.ConfigManager
   fullName: SharedLibrary.Managers.ConfigManager
   nameWithType: ConfigManager
+- uid: SharedLibrary.Managers.ConfigManager.DownloadBalance(System.String,System.Int32)
+  name: DownloadBalance(string, int)
+  href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_DownloadBalance_System_String_System_Int32_
+  commentId: M:SharedLibrary.Managers.ConfigManager.DownloadBalance(System.String,System.Int32)
+  name.vb: DownloadBalance(String, Integer)
+  fullName: SharedLibrary.Managers.ConfigManager.DownloadBalance(string, int)
+  fullName.vb: SharedLibrary.Managers.ConfigManager.DownloadBalance(String, Integer)
+  nameWithType: ConfigManager.DownloadBalance(string, int)
+  nameWithType.vb: ConfigManager.DownloadBalance(String, Integer)
+- uid: SharedLibrary.Managers.ConfigManager.DownloadBalance*
+  name: DownloadBalance
+  href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_DownloadBalance_
+  commentId: Overload:SharedLibrary.Managers.ConfigManager.DownloadBalance
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.ConfigManager.DownloadBalance
+  nameWithType: ConfigManager.DownloadBalance
 - uid: SharedLibrary.Managers.ConfigManager.GetCosmeticItems
   name: GetCosmeticItems
   href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_GetCosmeticItems
@@ -3479,12 +3552,15 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Managers.ConfigManager.GetTasks
   nameWithType: ConfigManager.GetTasks
-- uid: SharedLibrary.Managers.ConfigManager.Initialize
-  name: Initialize()
-  href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_Initialize
-  commentId: M:SharedLibrary.Managers.ConfigManager.Initialize
-  fullName: SharedLibrary.Managers.ConfigManager.Initialize()
-  nameWithType: ConfigManager.Initialize()
+- uid: SharedLibrary.Managers.ConfigManager.Initialize(System.String)
+  name: Initialize(string)
+  href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_Initialize_System_String_
+  commentId: M:SharedLibrary.Managers.ConfigManager.Initialize(System.String)
+  name.vb: Initialize(String)
+  fullName: SharedLibrary.Managers.ConfigManager.Initialize(string)
+  fullName.vb: SharedLibrary.Managers.ConfigManager.Initialize(String)
+  nameWithType: ConfigManager.Initialize(string)
+  nameWithType.vb: ConfigManager.Initialize(String)
 - uid: SharedLibrary.Managers.ConfigManager.Initialize*
   name: Initialize
   href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_Initialize_
@@ -3492,6 +3568,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Managers.ConfigManager.Initialize
   nameWithType: ConfigManager.Initialize
+- uid: SharedLibrary.Managers.ConfigManager.IsInitialized
+  name: IsInitialized
+  href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_IsInitialized
+  commentId: P:SharedLibrary.Managers.ConfigManager.IsInitialized
+  fullName: SharedLibrary.Managers.ConfigManager.IsInitialized
+  nameWithType: ConfigManager.IsInitialized
+- uid: SharedLibrary.Managers.ConfigManager.IsInitialized*
+  name: IsInitialized
+  href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_IsInitialized_
+  commentId: Overload:SharedLibrary.Managers.ConfigManager.IsInitialized
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.ConfigManager.IsInitialized
+  nameWithType: ConfigManager.IsInitialized
 - uid: SharedLibrary.Managers.CosmeticManager
   name: CosmeticManager
   href: api/api/SharedLibrary.Managers.CosmeticManager.html

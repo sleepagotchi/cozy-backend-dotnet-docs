@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width">
       <meta name="title" content="Class ConfigManager | Sleepagotchi SharedLibrary API ">
     
-    
+    <meta name="description" content="Manager for handling balance data, including initialization and downloading.">
       <link rel="shortcut icon" href="../../favicon.ico">
       <link rel="stylesheet" href="../../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../../styles/docfx.css">
@@ -81,7 +81,8 @@
 
 
   <h1 id="SharedLibrary_Managers_ConfigManager" data-uid="SharedLibrary.Managers.ConfigManager" class="text-break">Class ConfigManager</h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Manager for handling balance data, including initialization and downloading.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -119,15 +120,16 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Managers_ConfigManager_GetCosmeticItems.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.ConfigManager.GetCosmeticItems%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/ConfigManager.cs/#L19">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/ConfigManager.cs/#L31">View Source</a>
   </span>
   <a id="SharedLibrary_Managers_ConfigManager_GetCosmeticItems_" data-uid="SharedLibrary.Managers.ConfigManager.GetCosmeticItems*"></a>
   <h4 id="SharedLibrary_Managers_ConfigManager_GetCosmeticItems" data-uid="SharedLibrary.Managers.ConfigManager.GetCosmeticItems">GetCosmeticItems</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the list of cosmetic items from the balance.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;CosmeticItem&gt; GetCosmeticItems { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static List&lt;CosmeticItem&gt;? GetCosmeticItems { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -149,15 +151,16 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Managers_ConfigManager_GetItems.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.ConfigManager.GetItems%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/ConfigManager.cs/#L17">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/ConfigManager.cs/#L26">View Source</a>
   </span>
   <a id="SharedLibrary_Managers_ConfigManager_GetItems_" data-uid="SharedLibrary.Managers.ConfigManager.GetItems*"></a>
   <h4 id="SharedLibrary_Managers_ConfigManager_GetItems" data-uid="SharedLibrary.Managers.ConfigManager.GetItems">GetItems</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the list of base items from the balance.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Dictionary&lt;string, ItemBase&gt; GetItems { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static List&lt;ItemBase&gt;? GetItems { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -169,7 +172,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="SharedLibrary.Data.Items.ItemBase.html">ItemBase</a>&gt;</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SharedLibrary.Data.Items.ItemBase.html">ItemBase</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -179,15 +182,16 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Managers_ConfigManager_GetTasks.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.ConfigManager.GetTasks%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/ConfigManager.cs/#L15">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/ConfigManager.cs/#L21">View Source</a>
   </span>
   <a id="SharedLibrary_Managers_ConfigManager_GetTasks_" data-uid="SharedLibrary.Managers.ConfigManager.GetTasks*"></a>
   <h4 id="SharedLibrary_Managers_ConfigManager_GetTasks" data-uid="SharedLibrary.Managers.ConfigManager.GetTasks">GetTasks</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the list of care tasks from the balance.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;TaskCare&gt; GetTasks { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static List&lt;TaskCare&gt;? GetTasks { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -204,23 +208,162 @@
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Managers_ConfigManager_IsInitialized.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.ConfigManager.IsInitialized%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/ConfigManager.cs/#L36">View Source</a>
+  </span>
+  <a id="SharedLibrary_Managers_ConfigManager_IsInitialized_" data-uid="SharedLibrary.Managers.ConfigManager.IsInitialized*"></a>
+  <h4 id="SharedLibrary_Managers_ConfigManager_IsInitialized" data-uid="SharedLibrary.Managers.ConfigManager.IsInitialized">IsInitialized</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the balance has been initialized.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsInitialized { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Managers_ConfigManager_Initialize.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.ConfigManager.Initialize%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Managers_ConfigManager_DownloadBalance_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.ConfigManager.DownloadBalance(System.String%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/ConfigManager.cs/#L21">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/ConfigManager.cs/#L68">View Source</a>
   </span>
-  <a id="SharedLibrary_Managers_ConfigManager_Initialize_" data-uid="SharedLibrary.Managers.ConfigManager.Initialize*"></a>
-  <h4 id="SharedLibrary_Managers_ConfigManager_Initialize" data-uid="SharedLibrary.Managers.ConfigManager.Initialize">Initialize()</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="SharedLibrary_Managers_ConfigManager_DownloadBalance_" data-uid="SharedLibrary.Managers.ConfigManager.DownloadBalance*"></a>
+  <h4 id="SharedLibrary_Managers_ConfigManager_DownloadBalance_System_String_System_Int32_" data-uid="SharedLibrary.Managers.ConfigManager.DownloadBalance(System.String,System.Int32)">DownloadBalance(string, int)</h4>
+  <div class="markdown level1 summary"><p>Downloads the balance from a predefined URL, supporting ETag for caching.
+Retries the download up to 3 times in case of failure.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Initialize()</code></pre>
+    <pre><code class="lang-csharp hljs">public static Task&lt;(HttpStatusCode statusCode, string json, string? tag)&gt; DownloadBalance(string etag, int retryCount = 0)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">etag</span></td>
+        <td><p>The ETag value for conditional requests.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">retryCount</span></td>
+        <td><p>The current retry attempt count (default is 0).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.httpstatuscode">HttpStatusCode</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.net.httpstatuscode,system.string,system.string-.statuscode">statusCode</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.net.httpstatuscode,system.string,system.string-.json">json</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-system.net.httpstatuscode,system.string,system.string-.tag">tag</a>)&gt;</td>
+        <td><p>A tuple containing the HTTP status code, the downloaded JSON string, and the new ETag value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></td>
+        <td><p>Thrown if the download fails after 3 retries.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Managers_ConfigManager_Initialize_System_String_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.ConfigManager.Initialize(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/ConfigManager.cs/#L48">View Source</a>
+  </span>
+  <a id="SharedLibrary_Managers_ConfigManager_Initialize_" data-uid="SharedLibrary.Managers.ConfigManager.Initialize*"></a>
+  <h4 id="SharedLibrary_Managers_ConfigManager_Initialize_System_String_" data-uid="SharedLibrary.Managers.ConfigManager.Initialize(System.String)">Initialize(string)</h4>
+  <div class="markdown level1 summary"><p>Initializes the balance by deserializing the provided JSON string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Initialize(string json)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">json</span></td>
+        <td><p>The JSON string representing the balance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></td>
+        <td><p>Thrown if the JSON cannot be parsed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 </article>
           </div>
@@ -233,7 +376,7 @@
                     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Managers_ConfigManager.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.ConfigManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/ConfigManager.cs/#L13" class="contribution-link">View Source</a>
+                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/ConfigManager.cs/#L16" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
