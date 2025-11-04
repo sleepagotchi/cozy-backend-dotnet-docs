@@ -1971,6 +1971,12 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Constants.MinParametersValue
   nameWithType: Constants.MinParametersValue
+- uid: SharedLibrary.Data.Constants.TMP_UNITY_PLAYER_CHANGED
+  name: TMP_UNITY_PLAYER_CHANGED
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_TMP_UNITY_PLAYER_CHANGED
+  commentId: F:SharedLibrary.Data.Constants.TMP_UNITY_PLAYER_CHANGED
+  fullName: SharedLibrary.Data.Constants.TMP_UNITY_PLAYER_CHANGED
+  nameWithType: Constants.TMP_UNITY_PLAYER_CHANGED
 - uid: SharedLibrary.Data.Constants.TasksMaxSuggestions
   name: TasksMaxSuggestions
   href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_TasksMaxSuggestions
