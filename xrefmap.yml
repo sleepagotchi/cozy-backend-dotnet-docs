@@ -7,6 +7,171 @@ references:
   commentId: N:SharedLibrary.Commands
   fullName: SharedLibrary.Commands
   nameWithType: SharedLibrary.Commands
+- uid: SharedLibrary.Commands.Adventures
+  name: SharedLibrary.Commands.Adventures
+  href: api/api/SharedLibrary.Commands.Adventures.html
+  commentId: N:SharedLibrary.Commands.Adventures
+  fullName: SharedLibrary.Commands.Adventures
+  nameWithType: SharedLibrary.Commands.Adventures
+- uid: SharedLibrary.Commands.Adventures.AdventureCompleteCommand
+  name: AdventureCompleteCommand
+  href: api/api/SharedLibrary.Commands.Adventures.AdventureCompleteCommand.html
+  commentId: T:SharedLibrary.Commands.Adventures.AdventureCompleteCommand
+  fullName: SharedLibrary.Commands.Adventures.AdventureCompleteCommand
+  nameWithType: AdventureCompleteCommand
+- uid: SharedLibrary.Commands.Adventures.AdventureCompleteCommand.Execute(SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs)
+  name: Execute(AdventureCompleteArgs)
+  href: api/api/SharedLibrary.Commands.Adventures.AdventureCompleteCommand.html#SharedLibrary_Commands_Adventures_AdventureCompleteCommand_Execute_SharedLibrary_Commands_Arguments_Adventures_AdventureCompleteArgs_
+  commentId: M:SharedLibrary.Commands.Adventures.AdventureCompleteCommand.Execute(SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs)
+  fullName: SharedLibrary.Commands.Adventures.AdventureCompleteCommand.Execute(SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs)
+  nameWithType: AdventureCompleteCommand.Execute(AdventureCompleteArgs)
+- uid: SharedLibrary.Commands.Adventures.AdventureCompleteCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Adventures.AdventureCompleteCommand.html#SharedLibrary_Commands_Adventures_AdventureCompleteCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.Adventures.AdventureCompleteCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Adventures.AdventureCompleteCommand.Execute
+  nameWithType: AdventureCompleteCommand.Execute
+- uid: SharedLibrary.Commands.Adventures.AdventureStartCommand
+  name: AdventureStartCommand
+  href: api/api/SharedLibrary.Commands.Adventures.AdventureStartCommand.html
+  commentId: T:SharedLibrary.Commands.Adventures.AdventureStartCommand
+  fullName: SharedLibrary.Commands.Adventures.AdventureStartCommand
+  nameWithType: AdventureStartCommand
+- uid: SharedLibrary.Commands.Adventures.AdventureStartCommand.Execute(SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs)
+  name: Execute(AdventureStartArgs)
+  href: api/api/SharedLibrary.Commands.Adventures.AdventureStartCommand.html#SharedLibrary_Commands_Adventures_AdventureStartCommand_Execute_SharedLibrary_Commands_Arguments_Adventures_AdventureStartArgs_
+  commentId: M:SharedLibrary.Commands.Adventures.AdventureStartCommand.Execute(SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs)
+  fullName: SharedLibrary.Commands.Adventures.AdventureStartCommand.Execute(SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs)
+  nameWithType: AdventureStartCommand.Execute(AdventureStartArgs)
+- uid: SharedLibrary.Commands.Adventures.AdventureStartCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Adventures.AdventureStartCommand.html#SharedLibrary_Commands_Adventures_AdventureStartCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.Adventures.AdventureStartCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Adventures.AdventureStartCommand.Execute
+  nameWithType: AdventureStartCommand.Execute
+- uid: SharedLibrary.Commands.Arguments.Adventures
+  name: SharedLibrary.Commands.Arguments.Adventures
+  href: api/api/SharedLibrary.Commands.Arguments.Adventures.html
+  commentId: N:SharedLibrary.Commands.Arguments.Adventures
+  fullName: SharedLibrary.Commands.Arguments.Adventures
+  nameWithType: SharedLibrary.Commands.Arguments.Adventures
+- uid: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs
+  name: AdventureCompleteArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs
+  fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs
+  nameWithType: AdventureCompleteArgs
+- uid: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.AdventuresManager)
+  name: AdventureCompleteArgs(Player, AdventuresManager)
+  href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.html#SharedLibrary_Commands_Arguments_Adventures_AdventureCompleteArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_AdventuresManager_
+  commentId: M:SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.AdventuresManager)
+  name.vb: New(Player, AdventuresManager)
+  fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.AdventureCompleteArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.AdventuresManager)
+  fullName.vb: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.AdventuresManager)
+  nameWithType: AdventureCompleteArgs.AdventureCompleteArgs(Player, AdventuresManager)
+  nameWithType.vb: AdventureCompleteArgs.New(Player, AdventuresManager)
+- uid: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.#ctor*
+  name: AdventureCompleteArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.html#SharedLibrary_Commands_Arguments_Adventures_AdventureCompleteArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.AdventureCompleteArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.New
+  nameWithType: AdventureCompleteArgs.AdventureCompleteArgs
+  nameWithType.vb: AdventureCompleteArgs.New
+- uid: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.AdventuresManager
+  name: AdventuresManager
+  href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.html#SharedLibrary_Commands_Arguments_Adventures_AdventureCompleteArgs_AdventuresManager
+  commentId: P:SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.AdventuresManager
+  fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.AdventuresManager
+  nameWithType: AdventureCompleteArgs.AdventuresManager
+- uid: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.AdventuresManager*
+  name: AdventuresManager
+  href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.html#SharedLibrary_Commands_Arguments_Adventures_AdventureCompleteArgs_AdventuresManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.AdventuresManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.AdventuresManager
+  nameWithType: AdventureCompleteArgs.AdventuresManager
+- uid: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.html#SharedLibrary_Commands_Arguments_Adventures_AdventureCompleteArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.Player
+  nameWithType: AdventureCompleteArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.html#SharedLibrary_Commands_Arguments_Adventures_AdventureCompleteArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.Player
+  nameWithType: AdventureCompleteArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs
+  name: AdventureStartArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs
+  fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs
+  nameWithType: AdventureStartArgs
+- uid: SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.AdventuresManager,System.String)
+  name: AdventureStartArgs(Player, AdventuresManager, string)
+  href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.html#SharedLibrary_Commands_Arguments_Adventures_AdventureStartArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_AdventuresManager_System_String_
+  commentId: M:SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.AdventuresManager,System.String)
+  name.vb: New(Player, AdventuresManager, String)
+  fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.AdventureStartArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.AdventuresManager, string)
+  fullName.vb: SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.AdventuresManager, String)
+  nameWithType: AdventureStartArgs.AdventureStartArgs(Player, AdventuresManager, string)
+  nameWithType.vb: AdventureStartArgs.New(Player, AdventuresManager, String)
+- uid: SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.#ctor*
+  name: AdventureStartArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.html#SharedLibrary_Commands_Arguments_Adventures_AdventureStartArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.AdventureStartArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.New
+  nameWithType: AdventureStartArgs.AdventureStartArgs
+  nameWithType.vb: AdventureStartArgs.New
+- uid: SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.AdventureId
+  name: AdventureId
+  href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.html#SharedLibrary_Commands_Arguments_Adventures_AdventureStartArgs_AdventureId
+  commentId: P:SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.AdventureId
+  fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.AdventureId
+  nameWithType: AdventureStartArgs.AdventureId
+- uid: SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.AdventureId*
+  name: AdventureId
+  href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.html#SharedLibrary_Commands_Arguments_Adventures_AdventureStartArgs_AdventureId_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.AdventureId
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.AdventureId
+  nameWithType: AdventureStartArgs.AdventureId
+- uid: SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.AdventuresManager
+  name: AdventuresManager
+  href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.html#SharedLibrary_Commands_Arguments_Adventures_AdventureStartArgs_AdventuresManager
+  commentId: P:SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.AdventuresManager
+  fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.AdventuresManager
+  nameWithType: AdventureStartArgs.AdventuresManager
+- uid: SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.AdventuresManager*
+  name: AdventuresManager
+  href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.html#SharedLibrary_Commands_Arguments_Adventures_AdventureStartArgs_AdventuresManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.AdventuresManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.AdventuresManager
+  nameWithType: AdventureStartArgs.AdventuresManager
+- uid: SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.html#SharedLibrary_Commands_Arguments_Adventures_AdventureStartArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.Player
+  nameWithType: AdventureStartArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.html#SharedLibrary_Commands_Arguments_Adventures_AdventureStartArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs.Player
+  nameWithType: AdventureStartArgs.Player
 - uid: SharedLibrary.Commands.Arguments.Cosmetic
   name: SharedLibrary.Commands.Arguments.Cosmetic
   href: api/api/SharedLibrary.Commands.Arguments.Cosmetic.html
@@ -1036,6 +1201,70 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.TasksManager
   nameWithType: GetPlayerTasksArgs.TasksManager
+- uid: SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs
+  name: RemoveTaskArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs
+  fullName: SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs
+  nameWithType: RemoveTaskArgs
+- uid: SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String)
+  name: RemoveTaskArgs(Player, TasksManager, string)
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_RemoveTaskArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_TasksManager_System_String_
+  commentId: M:SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String)
+  name.vb: New(Player, TasksManager, String)
+  fullName: SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.RemoveTaskArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, string)
+  fullName.vb: SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, String)
+  nameWithType: RemoveTaskArgs.RemoveTaskArgs(Player, TasksManager, string)
+  nameWithType.vb: RemoveTaskArgs.New(Player, TasksManager, String)
+- uid: SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.#ctor*
+  name: RemoveTaskArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_RemoveTaskArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.RemoveTaskArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.New
+  nameWithType: RemoveTaskArgs.RemoveTaskArgs
+  nameWithType.vb: RemoveTaskArgs.New
+- uid: SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_RemoveTaskArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.Player
+  nameWithType: RemoveTaskArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_RemoveTaskArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.Player
+  nameWithType: RemoveTaskArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.TaskId
+  name: TaskId
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_RemoveTaskArgs_TaskId
+  commentId: P:SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.TaskId
+  fullName: SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.TaskId
+  nameWithType: RemoveTaskArgs.TaskId
+- uid: SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.TaskId*
+  name: TaskId
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_RemoveTaskArgs_TaskId_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.TaskId
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.TaskId
+  nameWithType: RemoveTaskArgs.TaskId
+- uid: SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.TasksManager
+  name: TasksManager
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_RemoveTaskArgs_TasksManager
+  commentId: P:SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.TasksManager
+  fullName: SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.TasksManager
+  nameWithType: RemoveTaskArgs.TasksManager
+- uid: SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.TasksManager*
+  name: TasksManager
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_RemoveTaskArgs_TasksManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.TasksManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.TasksManager
+  nameWithType: RemoveTaskArgs.TasksManager
 - uid: SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs
   name: UpdateTaskArgs
   href: api/api/SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.html
@@ -1544,6 +1773,25 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Tasks.GetPlayerTasksCommand.Execute
   nameWithType: GetPlayerTasksCommand.Execute
+- uid: SharedLibrary.Commands.Tasks.RemoveTaskCommand
+  name: RemoveTaskCommand
+  href: api/api/SharedLibrary.Commands.Tasks.RemoveTaskCommand.html
+  commentId: T:SharedLibrary.Commands.Tasks.RemoveTaskCommand
+  fullName: SharedLibrary.Commands.Tasks.RemoveTaskCommand
+  nameWithType: RemoveTaskCommand
+- uid: SharedLibrary.Commands.Tasks.RemoveTaskCommand.Execute(SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs)
+  name: Execute(RemoveTaskArgs)
+  href: api/api/SharedLibrary.Commands.Tasks.RemoveTaskCommand.html#SharedLibrary_Commands_Tasks_RemoveTaskCommand_Execute_SharedLibrary_Commands_Arguments_Tasks_RemoveTaskArgs_
+  commentId: M:SharedLibrary.Commands.Tasks.RemoveTaskCommand.Execute(SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs)
+  fullName: SharedLibrary.Commands.Tasks.RemoveTaskCommand.Execute(SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs)
+  nameWithType: RemoveTaskCommand.Execute(RemoveTaskArgs)
+- uid: SharedLibrary.Commands.Tasks.RemoveTaskCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Tasks.RemoveTaskCommand.html#SharedLibrary_Commands_Tasks_RemoveTaskCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.Tasks.RemoveTaskCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Tasks.RemoveTaskCommand.Execute
+  nameWithType: RemoveTaskCommand.Execute
 - uid: SharedLibrary.Commands.Tasks.UpdateTaskCommand
   name: UpdateTaskCommand
   href: api/api/SharedLibrary.Commands.Tasks.UpdateTaskCommand.html
@@ -1710,12 +1958,154 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Adventures.AdventureBase.Time
   nameWithType: AdventureBase.Time
+- uid: SharedLibrary.Data.Adventures.PlayerAdventures
+  name: PlayerAdventures
+  href: api/api/SharedLibrary.Data.Adventures.PlayerAdventures.html
+  commentId: T:SharedLibrary.Data.Adventures.PlayerAdventures
+  fullName: SharedLibrary.Data.Adventures.PlayerAdventures
+  nameWithType: PlayerAdventures
+- uid: SharedLibrary.Data.Adventures.PlayerAdventures.AdventureCompleteTime
+  name: AdventureCompleteTime
+  href: api/api/SharedLibrary.Data.Adventures.PlayerAdventures.html#SharedLibrary_Data_Adventures_PlayerAdventures_AdventureCompleteTime
+  commentId: P:SharedLibrary.Data.Adventures.PlayerAdventures.AdventureCompleteTime
+  fullName: SharedLibrary.Data.Adventures.PlayerAdventures.AdventureCompleteTime
+  nameWithType: PlayerAdventures.AdventureCompleteTime
+- uid: SharedLibrary.Data.Adventures.PlayerAdventures.AdventureCompleteTime*
+  name: AdventureCompleteTime
+  href: api/api/SharedLibrary.Data.Adventures.PlayerAdventures.html#SharedLibrary_Data_Adventures_PlayerAdventures_AdventureCompleteTime_
+  commentId: Overload:SharedLibrary.Data.Adventures.PlayerAdventures.AdventureCompleteTime
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Adventures.PlayerAdventures.AdventureCompleteTime
+  nameWithType: PlayerAdventures.AdventureCompleteTime
+- uid: SharedLibrary.Data.Adventures.PlayerAdventures.AdventureId
+  name: AdventureId
+  href: api/api/SharedLibrary.Data.Adventures.PlayerAdventures.html#SharedLibrary_Data_Adventures_PlayerAdventures_AdventureId
+  commentId: P:SharedLibrary.Data.Adventures.PlayerAdventures.AdventureId
+  fullName: SharedLibrary.Data.Adventures.PlayerAdventures.AdventureId
+  nameWithType: PlayerAdventures.AdventureId
+- uid: SharedLibrary.Data.Adventures.PlayerAdventures.AdventureId*
+  name: AdventureId
+  href: api/api/SharedLibrary.Data.Adventures.PlayerAdventures.html#SharedLibrary_Data_Adventures_PlayerAdventures_AdventureId_
+  commentId: Overload:SharedLibrary.Data.Adventures.PlayerAdventures.AdventureId
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Adventures.PlayerAdventures.AdventureId
+  nameWithType: PlayerAdventures.AdventureId
+- uid: SharedLibrary.Data.Adventures.PlayerAdventures.Clone
+  name: Clone()
+  href: api/api/SharedLibrary.Data.Adventures.PlayerAdventures.html#SharedLibrary_Data_Adventures_PlayerAdventures_Clone
+  commentId: M:SharedLibrary.Data.Adventures.PlayerAdventures.Clone
+  fullName: SharedLibrary.Data.Adventures.PlayerAdventures.Clone()
+  nameWithType: PlayerAdventures.Clone()
+- uid: SharedLibrary.Data.Adventures.PlayerAdventures.Clone*
+  name: Clone
+  href: api/api/SharedLibrary.Data.Adventures.PlayerAdventures.html#SharedLibrary_Data_Adventures_PlayerAdventures_Clone_
+  commentId: Overload:SharedLibrary.Data.Adventures.PlayerAdventures.Clone
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Adventures.PlayerAdventures.Clone
+  nameWithType: PlayerAdventures.Clone
+- uid: SharedLibrary.Data.Adventures.PlayerAdventures.IsOnAdventure
+  name: IsOnAdventure
+  href: api/api/SharedLibrary.Data.Adventures.PlayerAdventures.html#SharedLibrary_Data_Adventures_PlayerAdventures_IsOnAdventure
+  commentId: P:SharedLibrary.Data.Adventures.PlayerAdventures.IsOnAdventure
+  fullName: SharedLibrary.Data.Adventures.PlayerAdventures.IsOnAdventure
+  nameWithType: PlayerAdventures.IsOnAdventure
+- uid: SharedLibrary.Data.Adventures.PlayerAdventures.IsOnAdventure*
+  name: IsOnAdventure
+  href: api/api/SharedLibrary.Data.Adventures.PlayerAdventures.html#SharedLibrary_Data_Adventures_PlayerAdventures_IsOnAdventure_
+  commentId: Overload:SharedLibrary.Data.Adventures.PlayerAdventures.IsOnAdventure
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Adventures.PlayerAdventures.IsOnAdventure
+  nameWithType: PlayerAdventures.IsOnAdventure
+- uid: SharedLibrary.Data.BalanceConstants
+  name: BalanceConstants
+  href: api/api/SharedLibrary.Data.BalanceConstants.html
+  commentId: T:SharedLibrary.Data.BalanceConstants
+  fullName: SharedLibrary.Data.BalanceConstants
+  nameWithType: BalanceConstants
+- uid: SharedLibrary.Data.BalanceConstants.DinoParametersDecrease
+  name: DinoParametersDecrease
+  href: api/api/SharedLibrary.Data.BalanceConstants.html#SharedLibrary_Data_BalanceConstants_DinoParametersDecrease
+  commentId: P:SharedLibrary.Data.BalanceConstants.DinoParametersDecrease
+  fullName: SharedLibrary.Data.BalanceConstants.DinoParametersDecrease
+  nameWithType: BalanceConstants.DinoParametersDecrease
+- uid: SharedLibrary.Data.BalanceConstants.DinoParametersDecrease*
+  name: DinoParametersDecrease
+  href: api/api/SharedLibrary.Data.BalanceConstants.html#SharedLibrary_Data_BalanceConstants_DinoParametersDecrease_
+  commentId: Overload:SharedLibrary.Data.BalanceConstants.DinoParametersDecrease
+  isSpec: "True"
+  fullName: SharedLibrary.Data.BalanceConstants.DinoParametersDecrease
+  nameWithType: BalanceConstants.DinoParametersDecrease
+- uid: SharedLibrary.Data.BalanceConstants.DinoParametersMin
+  name: DinoParametersMin
+  href: api/api/SharedLibrary.Data.BalanceConstants.html#SharedLibrary_Data_BalanceConstants_DinoParametersMin
+  commentId: P:SharedLibrary.Data.BalanceConstants.DinoParametersMin
+  fullName: SharedLibrary.Data.BalanceConstants.DinoParametersMin
+  nameWithType: BalanceConstants.DinoParametersMin
+- uid: SharedLibrary.Data.BalanceConstants.DinoParametersMin*
+  name: DinoParametersMin
+  href: api/api/SharedLibrary.Data.BalanceConstants.html#SharedLibrary_Data_BalanceConstants_DinoParametersMin_
+  commentId: Overload:SharedLibrary.Data.BalanceConstants.DinoParametersMin
+  isSpec: "True"
+  fullName: SharedLibrary.Data.BalanceConstants.DinoParametersMin
+  nameWithType: BalanceConstants.DinoParametersMin
+- uid: SharedLibrary.Data.BalanceConstants.EnergyToDreamStones
+  name: EnergyToDreamStones
+  href: api/api/SharedLibrary.Data.BalanceConstants.html#SharedLibrary_Data_BalanceConstants_EnergyToDreamStones
+  commentId: P:SharedLibrary.Data.BalanceConstants.EnergyToDreamStones
+  fullName: SharedLibrary.Data.BalanceConstants.EnergyToDreamStones
+  nameWithType: BalanceConstants.EnergyToDreamStones
+- uid: SharedLibrary.Data.BalanceConstants.EnergyToDreamStones*
+  name: EnergyToDreamStones
+  href: api/api/SharedLibrary.Data.BalanceConstants.html#SharedLibrary_Data_BalanceConstants_EnergyToDreamStones_
+  commentId: Overload:SharedLibrary.Data.BalanceConstants.EnergyToDreamStones
+  isSpec: "True"
+  fullName: SharedLibrary.Data.BalanceConstants.EnergyToDreamStones
+  nameWithType: BalanceConstants.EnergyToDreamStones
+- uid: SharedLibrary.Data.BalanceConstants.TaskToTime
+  name: TaskToTime
+  href: api/api/SharedLibrary.Data.BalanceConstants.html#SharedLibrary_Data_BalanceConstants_TaskToTime
+  commentId: P:SharedLibrary.Data.BalanceConstants.TaskToTime
+  fullName: SharedLibrary.Data.BalanceConstants.TaskToTime
+  nameWithType: BalanceConstants.TaskToTime
+- uid: SharedLibrary.Data.BalanceConstants.TaskToTime*
+  name: TaskToTime
+  href: api/api/SharedLibrary.Data.BalanceConstants.html#SharedLibrary_Data_BalanceConstants_TaskToTime_
+  commentId: Overload:SharedLibrary.Data.BalanceConstants.TaskToTime
+  isSpec: "True"
+  fullName: SharedLibrary.Data.BalanceConstants.TaskToTime
+  nameWithType: BalanceConstants.TaskToTime
 - uid: SharedLibrary.Data.BalanceModel
   name: BalanceModel
   href: api/api/SharedLibrary.Data.BalanceModel.html
   commentId: T:SharedLibrary.Data.BalanceModel
   fullName: SharedLibrary.Data.BalanceModel
   nameWithType: BalanceModel
+- uid: SharedLibrary.Data.BalanceModel.Adventures
+  name: Adventures
+  href: api/api/SharedLibrary.Data.BalanceModel.html#SharedLibrary_Data_BalanceModel_Adventures
+  commentId: P:SharedLibrary.Data.BalanceModel.Adventures
+  fullName: SharedLibrary.Data.BalanceModel.Adventures
+  nameWithType: BalanceModel.Adventures
+- uid: SharedLibrary.Data.BalanceModel.Adventures*
+  name: Adventures
+  href: api/api/SharedLibrary.Data.BalanceModel.html#SharedLibrary_Data_BalanceModel_Adventures_
+  commentId: Overload:SharedLibrary.Data.BalanceModel.Adventures
+  isSpec: "True"
+  fullName: SharedLibrary.Data.BalanceModel.Adventures
+  nameWithType: BalanceModel.Adventures
+- uid: SharedLibrary.Data.BalanceModel.Constants
+  name: Constants
+  href: api/api/SharedLibrary.Data.BalanceModel.html#SharedLibrary_Data_BalanceModel_Constants
+  commentId: P:SharedLibrary.Data.BalanceModel.Constants
+  fullName: SharedLibrary.Data.BalanceModel.Constants
+  nameWithType: BalanceModel.Constants
+- uid: SharedLibrary.Data.BalanceModel.Constants*
+  name: Constants
+  href: api/api/SharedLibrary.Data.BalanceModel.html#SharedLibrary_Data_BalanceModel_Constants_
+  commentId: Overload:SharedLibrary.Data.BalanceModel.Constants
+  isSpec: "True"
+  fullName: SharedLibrary.Data.BalanceModel.Constants
+  nameWithType: BalanceModel.Constants
 - uid: SharedLibrary.Data.BalanceModel.Cosmetics
   name: Cosmetics
   href: api/api/SharedLibrary.Data.BalanceModel.html#SharedLibrary_Data_BalanceModel_Cosmetics
@@ -1761,6 +2151,18 @@ references:
   commentId: T:SharedLibrary.Data.CommandType
   fullName: SharedLibrary.Data.CommandType
   nameWithType: CommandType
+- uid: SharedLibrary.Data.CommandType.AdventureComplete
+  name: AdventureComplete
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_AdventureComplete
+  commentId: F:SharedLibrary.Data.CommandType.AdventureComplete
+  fullName: SharedLibrary.Data.CommandType.AdventureComplete
+  nameWithType: CommandType.AdventureComplete
+- uid: SharedLibrary.Data.CommandType.AdventureStart
+  name: AdventureStart
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_AdventureStart
+  commentId: F:SharedLibrary.Data.CommandType.AdventureStart
+  fullName: SharedLibrary.Data.CommandType.AdventureStart
+  nameWithType: CommandType.AdventureStart
 - uid: SharedLibrary.Data.CommandType.CosmeticAddToPlayer
   name: CosmeticAddToPlayer
   href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_CosmeticAddToPlayer
@@ -1851,6 +2253,12 @@ references:
   commentId: F:SharedLibrary.Data.CommandType.TaskCreate
   fullName: SharedLibrary.Data.CommandType.TaskCreate
   nameWithType: CommandType.TaskCreate
+- uid: SharedLibrary.Data.CommandType.TaskRemove
+  name: TaskRemove
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_TaskRemove
+  commentId: F:SharedLibrary.Data.CommandType.TaskRemove
+  fullName: SharedLibrary.Data.CommandType.TaskRemove
+  nameWithType: CommandType.TaskRemove
 - uid: SharedLibrary.Data.CommandType.TaskUpdate
   name: TaskUpdate
   href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_TaskUpdate
@@ -1913,6 +2321,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Constants.EnergyMax
   nameWithType: Constants.EnergyMax
+- uid: SharedLibrary.Data.Constants.EnergyToDreamStones
+  name: EnergyToDreamStones
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_EnergyToDreamStones
+  commentId: P:SharedLibrary.Data.Constants.EnergyToDreamStones
+  fullName: SharedLibrary.Data.Constants.EnergyToDreamStones
+  nameWithType: Constants.EnergyToDreamStones
+- uid: SharedLibrary.Data.Constants.EnergyToDreamStones*
+  name: EnergyToDreamStones
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_EnergyToDreamStones_
+  commentId: Overload:SharedLibrary.Data.Constants.EnergyToDreamStones
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Constants.EnergyToDreamStones
+  nameWithType: Constants.EnergyToDreamStones
 - uid: SharedLibrary.Data.Constants.GetBigValSuffix(System.Int32)
   name: GetBigValSuffix(int)
   href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_GetBigValSuffix_System_Int32_
@@ -1977,6 +2398,19 @@ references:
   commentId: F:SharedLibrary.Data.Constants.TMP_UNITY_PLAYER_CHANGED
   fullName: SharedLibrary.Data.Constants.TMP_UNITY_PLAYER_CHANGED
   nameWithType: Constants.TMP_UNITY_PLAYER_CHANGED
+- uid: SharedLibrary.Data.Constants.TaskToTime
+  name: TaskToTime
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_TaskToTime
+  commentId: P:SharedLibrary.Data.Constants.TaskToTime
+  fullName: SharedLibrary.Data.Constants.TaskToTime
+  nameWithType: Constants.TaskToTime
+- uid: SharedLibrary.Data.Constants.TaskToTime*
+  name: TaskToTime
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_TaskToTime_
+  commentId: Overload:SharedLibrary.Data.Constants.TaskToTime
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Constants.TaskToTime
+  nameWithType: Constants.TaskToTime
 - uid: SharedLibrary.Data.Constants.TasksMaxSuggestions
   name: TasksMaxSuggestions
   href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_TasksMaxSuggestions
@@ -2422,6 +2856,19 @@ references:
   commentId: T:SharedLibrary.Data.Player
   fullName: SharedLibrary.Data.Player
   nameWithType: Player
+- uid: SharedLibrary.Data.Player.Adventures
+  name: Adventures
+  href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_Adventures
+  commentId: P:SharedLibrary.Data.Player.Adventures
+  fullName: SharedLibrary.Data.Player.Adventures
+  nameWithType: Player.Adventures
+- uid: SharedLibrary.Data.Player.Adventures*
+  name: Adventures
+  href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_Adventures_
+  commentId: Overload:SharedLibrary.Data.Player.Adventures
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Player.Adventures
+  nameWithType: Player.Adventures
 - uid: SharedLibrary.Data.Player.Cosmetic
   name: Cosmetic
   href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_Cosmetic
@@ -2564,6 +3011,12 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.PlayerParameter.LastChangeTime
   nameWithType: PlayerParameter.LastChangeTime
+- uid: SharedLibrary.Data.PlayerParameter.OnValueChanged
+  name: OnValueChanged
+  href: api/api/SharedLibrary.Data.PlayerParameter.html#SharedLibrary_Data_PlayerParameter_OnValueChanged
+  commentId: F:SharedLibrary.Data.PlayerParameter.OnValueChanged
+  fullName: SharedLibrary.Data.PlayerParameter.OnValueChanged
+  nameWithType: PlayerParameter.OnValueChanged
 - uid: SharedLibrary.Data.PlayerParameter.Value
   name: Value
   href: api/api/SharedLibrary.Data.PlayerParameter.html#SharedLibrary_Data_PlayerParameter_Value
@@ -2948,6 +3401,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Extensions.BigVal.GetSmallFormatValue
   nameWithType: BigVal.GetSmallFormatValue
+- uid: SharedLibrary.Extensions.BigVal.Max(SharedLibrary.Extensions.BigVal,SharedLibrary.Extensions.BigVal)
+  name: Max(BigVal, BigVal)
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_Max_SharedLibrary_Extensions_BigVal_SharedLibrary_Extensions_BigVal_
+  commentId: M:SharedLibrary.Extensions.BigVal.Max(SharedLibrary.Extensions.BigVal,SharedLibrary.Extensions.BigVal)
+  fullName: SharedLibrary.Extensions.BigVal.Max(SharedLibrary.Extensions.BigVal, SharedLibrary.Extensions.BigVal)
+  nameWithType: BigVal.Max(BigVal, BigVal)
+- uid: SharedLibrary.Extensions.BigVal.Max*
+  name: Max
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_Max_
+  commentId: Overload:SharedLibrary.Extensions.BigVal.Max
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.BigVal.Max
+  nameWithType: BigVal.Max
 - uid: SharedLibrary.Extensions.BigVal.Normalize
   name: Normalize()
   href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_Normalize
@@ -3497,6 +3963,83 @@ references:
   commentId: N:SharedLibrary.Managers
   fullName: SharedLibrary.Managers
   nameWithType: SharedLibrary.Managers
+- uid: SharedLibrary.Managers.AdventuresManager
+  name: AdventuresManager
+  href: api/api/SharedLibrary.Managers.AdventuresManager.html
+  commentId: T:SharedLibrary.Managers.AdventuresManager
+  fullName: SharedLibrary.Managers.AdventuresManager
+  nameWithType: AdventuresManager
+- uid: SharedLibrary.Managers.AdventuresManager.CompleteAdventure(SharedLibrary.Data.Player)
+  name: CompleteAdventure(Player)
+  href: api/api/SharedLibrary.Managers.AdventuresManager.html#SharedLibrary_Managers_AdventuresManager_CompleteAdventure_SharedLibrary_Data_Player_
+  commentId: M:SharedLibrary.Managers.AdventuresManager.CompleteAdventure(SharedLibrary.Data.Player)
+  fullName: SharedLibrary.Managers.AdventuresManager.CompleteAdventure(SharedLibrary.Data.Player)
+  nameWithType: AdventuresManager.CompleteAdventure(Player)
+- uid: SharedLibrary.Managers.AdventuresManager.CompleteAdventure*
+  name: CompleteAdventure
+  href: api/api/SharedLibrary.Managers.AdventuresManager.html#SharedLibrary_Managers_AdventuresManager_CompleteAdventure_
+  commentId: Overload:SharedLibrary.Managers.AdventuresManager.CompleteAdventure
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.AdventuresManager.CompleteAdventure
+  nameWithType: AdventuresManager.CompleteAdventure
+- uid: SharedLibrary.Managers.AdventuresManager.GetAdventureById(System.String)
+  name: GetAdventureById(string)
+  href: api/api/SharedLibrary.Managers.AdventuresManager.html#SharedLibrary_Managers_AdventuresManager_GetAdventureById_System_String_
+  commentId: M:SharedLibrary.Managers.AdventuresManager.GetAdventureById(System.String)
+  name.vb: GetAdventureById(String)
+  fullName: SharedLibrary.Managers.AdventuresManager.GetAdventureById(string)
+  fullName.vb: SharedLibrary.Managers.AdventuresManager.GetAdventureById(String)
+  nameWithType: AdventuresManager.GetAdventureById(string)
+  nameWithType.vb: AdventuresManager.GetAdventureById(String)
+- uid: SharedLibrary.Managers.AdventuresManager.GetAdventureById*
+  name: GetAdventureById
+  href: api/api/SharedLibrary.Managers.AdventuresManager.html#SharedLibrary_Managers_AdventuresManager_GetAdventureById_
+  commentId: Overload:SharedLibrary.Managers.AdventuresManager.GetAdventureById
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.AdventuresManager.GetAdventureById
+  nameWithType: AdventuresManager.GetAdventureById
+- uid: SharedLibrary.Managers.AdventuresManager.IsAdventureComplete(SharedLibrary.Data.Player)
+  name: IsAdventureComplete(Player)
+  href: api/api/SharedLibrary.Managers.AdventuresManager.html#SharedLibrary_Managers_AdventuresManager_IsAdventureComplete_SharedLibrary_Data_Player_
+  commentId: M:SharedLibrary.Managers.AdventuresManager.IsAdventureComplete(SharedLibrary.Data.Player)
+  fullName: SharedLibrary.Managers.AdventuresManager.IsAdventureComplete(SharedLibrary.Data.Player)
+  nameWithType: AdventuresManager.IsAdventureComplete(Player)
+- uid: SharedLibrary.Managers.AdventuresManager.IsAdventureComplete*
+  name: IsAdventureComplete
+  href: api/api/SharedLibrary.Managers.AdventuresManager.html#SharedLibrary_Managers_AdventuresManager_IsAdventureComplete_
+  commentId: Overload:SharedLibrary.Managers.AdventuresManager.IsAdventureComplete
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.AdventuresManager.IsAdventureComplete
+  nameWithType: AdventuresManager.IsAdventureComplete
+- uid: SharedLibrary.Managers.AdventuresManager.IsPlayerOnAdventure(SharedLibrary.Data.Player)
+  name: IsPlayerOnAdventure(Player)
+  href: api/api/SharedLibrary.Managers.AdventuresManager.html#SharedLibrary_Managers_AdventuresManager_IsPlayerOnAdventure_SharedLibrary_Data_Player_
+  commentId: M:SharedLibrary.Managers.AdventuresManager.IsPlayerOnAdventure(SharedLibrary.Data.Player)
+  fullName: SharedLibrary.Managers.AdventuresManager.IsPlayerOnAdventure(SharedLibrary.Data.Player)
+  nameWithType: AdventuresManager.IsPlayerOnAdventure(Player)
+- uid: SharedLibrary.Managers.AdventuresManager.IsPlayerOnAdventure*
+  name: IsPlayerOnAdventure
+  href: api/api/SharedLibrary.Managers.AdventuresManager.html#SharedLibrary_Managers_AdventuresManager_IsPlayerOnAdventure_
+  commentId: Overload:SharedLibrary.Managers.AdventuresManager.IsPlayerOnAdventure
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.AdventuresManager.IsPlayerOnAdventure
+  nameWithType: AdventuresManager.IsPlayerOnAdventure
+- uid: SharedLibrary.Managers.AdventuresManager.StartAdventure(SharedLibrary.Data.Player,System.String)
+  name: StartAdventure(Player, string)
+  href: api/api/SharedLibrary.Managers.AdventuresManager.html#SharedLibrary_Managers_AdventuresManager_StartAdventure_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Managers.AdventuresManager.StartAdventure(SharedLibrary.Data.Player,System.String)
+  name.vb: StartAdventure(Player, String)
+  fullName: SharedLibrary.Managers.AdventuresManager.StartAdventure(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Managers.AdventuresManager.StartAdventure(SharedLibrary.Data.Player, String)
+  nameWithType: AdventuresManager.StartAdventure(Player, string)
+  nameWithType.vb: AdventuresManager.StartAdventure(Player, String)
+- uid: SharedLibrary.Managers.AdventuresManager.StartAdventure*
+  name: StartAdventure
+  href: api/api/SharedLibrary.Managers.AdventuresManager.html#SharedLibrary_Managers_AdventuresManager_StartAdventure_
+  commentId: Overload:SharedLibrary.Managers.AdventuresManager.StartAdventure
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.AdventuresManager.StartAdventure
+  nameWithType: AdventuresManager.StartAdventure
 - uid: SharedLibrary.Managers.ConfigManager
   name: ConfigManager
   href: api/api/SharedLibrary.Managers.ConfigManager.html
@@ -3519,6 +4062,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Managers.ConfigManager.DownloadBalance
   nameWithType: ConfigManager.DownloadBalance
+- uid: SharedLibrary.Managers.ConfigManager.GetAdventures
+  name: GetAdventures
+  href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_GetAdventures
+  commentId: P:SharedLibrary.Managers.ConfigManager.GetAdventures
+  fullName: SharedLibrary.Managers.ConfigManager.GetAdventures
+  nameWithType: ConfigManager.GetAdventures
+- uid: SharedLibrary.Managers.ConfigManager.GetAdventures*
+  name: GetAdventures
+  href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_GetAdventures_
+  commentId: Overload:SharedLibrary.Managers.ConfigManager.GetAdventures
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.ConfigManager.GetAdventures
+  nameWithType: ConfigManager.GetAdventures
 - uid: SharedLibrary.Managers.ConfigManager.GetCosmeticItems
   name: GetCosmeticItems
   href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_GetCosmeticItems
