@@ -2580,6 +2580,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Cosmetic.CosmeticItemSmall.Category
   nameWithType: CosmeticItemSmall.Category
+- uid: SharedLibrary.Data.Cosmetic.CosmeticItemSmall.Clone
+  name: Clone()
+  href: api/api/SharedLibrary.Data.Cosmetic.CosmeticItemSmall.html#SharedLibrary_Data_Cosmetic_CosmeticItemSmall_Clone
+  commentId: M:SharedLibrary.Data.Cosmetic.CosmeticItemSmall.Clone
+  fullName: SharedLibrary.Data.Cosmetic.CosmeticItemSmall.Clone()
+  nameWithType: CosmeticItemSmall.Clone()
+- uid: SharedLibrary.Data.Cosmetic.CosmeticItemSmall.Clone*
+  name: Clone
+  href: api/api/SharedLibrary.Data.Cosmetic.CosmeticItemSmall.html#SharedLibrary_Data_Cosmetic_CosmeticItemSmall_Clone_
+  commentId: Overload:SharedLibrary.Data.Cosmetic.CosmeticItemSmall.Clone
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Cosmetic.CosmeticItemSmall.Clone
+  nameWithType: CosmeticItemSmall.Clone
 - uid: SharedLibrary.Data.Cosmetic.CosmeticItemSmall.Id
   name: Id
   href: api/api/SharedLibrary.Data.Cosmetic.CosmeticItemSmall.html#SharedLibrary_Data_Cosmetic_CosmeticItemSmall_Id
@@ -2612,6 +2625,19 @@ references:
   commentId: T:SharedLibrary.Data.Cosmetic.PlayerCosmetic
   fullName: SharedLibrary.Data.Cosmetic.PlayerCosmetic
   nameWithType: PlayerCosmetic
+- uid: SharedLibrary.Data.Cosmetic.PlayerCosmetic.Clone
+  name: Clone()
+  href: api/api/SharedLibrary.Data.Cosmetic.PlayerCosmetic.html#SharedLibrary_Data_Cosmetic_PlayerCosmetic_Clone
+  commentId: M:SharedLibrary.Data.Cosmetic.PlayerCosmetic.Clone
+  fullName: SharedLibrary.Data.Cosmetic.PlayerCosmetic.Clone()
+  nameWithType: PlayerCosmetic.Clone()
+- uid: SharedLibrary.Data.Cosmetic.PlayerCosmetic.Clone*
+  name: Clone
+  href: api/api/SharedLibrary.Data.Cosmetic.PlayerCosmetic.html#SharedLibrary_Data_Cosmetic_PlayerCosmetic_Clone_
+  commentId: Overload:SharedLibrary.Data.Cosmetic.PlayerCosmetic.Clone
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Cosmetic.PlayerCosmetic.Clone
+  nameWithType: PlayerCosmetic.Clone
 - uid: SharedLibrary.Data.Cosmetic.PlayerCosmetic.EquippedItems
   name: EquippedItems
   href: api/api/SharedLibrary.Data.Cosmetic.PlayerCosmetic.html#SharedLibrary_Data_Cosmetic_PlayerCosmetic_EquippedItems
@@ -2663,6 +2689,19 @@ references:
   commentId: T:SharedLibrary.Data.Island.IslandBase
   fullName: SharedLibrary.Data.Island.IslandBase
   nameWithType: IslandBase
+- uid: SharedLibrary.Data.Island.IslandBase.Clone
+  name: Clone()
+  href: api/api/SharedLibrary.Data.Island.IslandBase.html#SharedLibrary_Data_Island_IslandBase_Clone
+  commentId: M:SharedLibrary.Data.Island.IslandBase.Clone
+  fullName: SharedLibrary.Data.Island.IslandBase.Clone()
+  nameWithType: IslandBase.Clone()
+- uid: SharedLibrary.Data.Island.IslandBase.Clone*
+  name: Clone
+  href: api/api/SharedLibrary.Data.Island.IslandBase.html#SharedLibrary_Data_Island_IslandBase_Clone_
+  commentId: Overload:SharedLibrary.Data.Island.IslandBase.Clone
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Island.IslandBase.Clone
+  nameWithType: IslandBase.Clone
 - uid: SharedLibrary.Data.Island.IslandBase.Items
   name: Items
   href: api/api/SharedLibrary.Data.Island.IslandBase.html#SharedLibrary_Data_Island_IslandBase_Items
@@ -2824,6 +2863,19 @@ references:
   commentId: T:SharedLibrary.Data.Items.ItemOnIsland
   fullName: SharedLibrary.Data.Items.ItemOnIsland
   nameWithType: ItemOnIsland
+- uid: SharedLibrary.Data.Items.ItemOnIsland.Clone
+  name: Clone()
+  href: api/api/SharedLibrary.Data.Items.ItemOnIsland.html#SharedLibrary_Data_Items_ItemOnIsland_Clone
+  commentId: M:SharedLibrary.Data.Items.ItemOnIsland.Clone
+  fullName: SharedLibrary.Data.Items.ItemOnIsland.Clone()
+  nameWithType: ItemOnIsland.Clone()
+- uid: SharedLibrary.Data.Items.ItemOnIsland.Clone*
+  name: Clone
+  href: api/api/SharedLibrary.Data.Items.ItemOnIsland.html#SharedLibrary_Data_Items_ItemOnIsland_Clone_
+  commentId: Overload:SharedLibrary.Data.Items.ItemOnIsland.Clone
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Items.ItemOnIsland.Clone
+  nameWithType: ItemOnIsland.Clone
 - uid: SharedLibrary.Data.Items.ItemOnIsland.ContainerId
   name: ContainerId
   href: api/api/SharedLibrary.Data.Items.ItemOnIsland.html#SharedLibrary_Data_Items_ItemOnIsland_ContainerId
@@ -2869,6 +2921,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Player.Adventures
   nameWithType: Player.Adventures
+- uid: SharedLibrary.Data.Player.Clone
+  name: Clone()
+  href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_Clone
+  commentId: M:SharedLibrary.Data.Player.Clone
+  fullName: SharedLibrary.Data.Player.Clone()
+  nameWithType: Player.Clone()
+- uid: SharedLibrary.Data.Player.Clone*
+  name: Clone
+  href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_Clone_
+  commentId: Overload:SharedLibrary.Data.Player.Clone
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Player.Clone
+  nameWithType: Player.Clone
 - uid: SharedLibrary.Data.Player.Cosmetic
   name: Cosmetic
   href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_Cosmetic
@@ -2966,6 +3031,19 @@ references:
   commentId: T:SharedLibrary.Data.PlayerIslands
   fullName: SharedLibrary.Data.PlayerIslands
   nameWithType: PlayerIslands
+- uid: SharedLibrary.Data.PlayerIslands.Clone
+  name: Clone()
+  href: api/api/SharedLibrary.Data.PlayerIslands.html#SharedLibrary_Data_PlayerIslands_Clone
+  commentId: M:SharedLibrary.Data.PlayerIslands.Clone
+  fullName: SharedLibrary.Data.PlayerIslands.Clone()
+  nameWithType: PlayerIslands.Clone()
+- uid: SharedLibrary.Data.PlayerIslands.Clone*
+  name: Clone
+  href: api/api/SharedLibrary.Data.PlayerIslands.html#SharedLibrary_Data_PlayerIslands_Clone_
+  commentId: Overload:SharedLibrary.Data.PlayerIslands.Clone
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerIslands.Clone
+  nameWithType: PlayerIslands.Clone
 - uid: SharedLibrary.Data.PlayerIslands.CurrentIslandId
   name: CurrentIslandId
   href: api/api/SharedLibrary.Data.PlayerIslands.html#SharedLibrary_Data_PlayerIslands_CurrentIslandId
@@ -2998,6 +3076,19 @@ references:
   commentId: T:SharedLibrary.Data.PlayerParameter
   fullName: SharedLibrary.Data.PlayerParameter
   nameWithType: PlayerParameter
+- uid: SharedLibrary.Data.PlayerParameter.Clone
+  name: Clone()
+  href: api/api/SharedLibrary.Data.PlayerParameter.html#SharedLibrary_Data_PlayerParameter_Clone
+  commentId: M:SharedLibrary.Data.PlayerParameter.Clone
+  fullName: SharedLibrary.Data.PlayerParameter.Clone()
+  nameWithType: PlayerParameter.Clone()
+- uid: SharedLibrary.Data.PlayerParameter.Clone*
+  name: Clone
+  href: api/api/SharedLibrary.Data.PlayerParameter.html#SharedLibrary_Data_PlayerParameter_Clone_
+  commentId: Overload:SharedLibrary.Data.PlayerParameter.Clone
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerParameter.Clone
+  nameWithType: PlayerParameter.Clone
 - uid: SharedLibrary.Data.PlayerParameter.LastChangeTime
   name: LastChangeTime
   href: api/api/SharedLibrary.Data.PlayerParameter.html#SharedLibrary_Data_PlayerParameter_LastChangeTime
@@ -3103,6 +3194,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Tasks.PlayerTasks.ActiveTasks
   nameWithType: PlayerTasks.ActiveTasks
+- uid: SharedLibrary.Data.Tasks.PlayerTasks.Clone
+  name: Clone()
+  href: api/api/SharedLibrary.Data.Tasks.PlayerTasks.html#SharedLibrary_Data_Tasks_PlayerTasks_Clone
+  commentId: M:SharedLibrary.Data.Tasks.PlayerTasks.Clone
+  fullName: SharedLibrary.Data.Tasks.PlayerTasks.Clone()
+  nameWithType: PlayerTasks.Clone()
+- uid: SharedLibrary.Data.Tasks.PlayerTasks.Clone*
+  name: Clone
+  href: api/api/SharedLibrary.Data.Tasks.PlayerTasks.html#SharedLibrary_Data_Tasks_PlayerTasks_Clone_
+  commentId: Overload:SharedLibrary.Data.Tasks.PlayerTasks.Clone
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.PlayerTasks.Clone
+  nameWithType: PlayerTasks.Clone
 - uid: SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasks
   name: SuggestionTasks
   href: api/api/SharedLibrary.Data.Tasks.PlayerTasks.html#SharedLibrary_Data_Tasks_PlayerTasks_SuggestionTasks
@@ -3915,6 +4019,19 @@ references:
   commentId: T:SharedLibrary.Extensions.PlayerRandom
   fullName: SharedLibrary.Extensions.PlayerRandom
   nameWithType: PlayerRandom
+- uid: SharedLibrary.Extensions.PlayerRandom.Clone
+  name: Clone()
+  href: api/api/SharedLibrary.Extensions.PlayerRandom.html#SharedLibrary_Extensions_PlayerRandom_Clone
+  commentId: M:SharedLibrary.Extensions.PlayerRandom.Clone
+  fullName: SharedLibrary.Extensions.PlayerRandom.Clone()
+  nameWithType: PlayerRandom.Clone()
+- uid: SharedLibrary.Extensions.PlayerRandom.Clone*
+  name: Clone
+  href: api/api/SharedLibrary.Extensions.PlayerRandom.html#SharedLibrary_Extensions_PlayerRandom_Clone_
+  commentId: Overload:SharedLibrary.Extensions.PlayerRandom.Clone
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.PlayerRandom.Clone
+  nameWithType: PlayerRandom.Clone
 - uid: SharedLibrary.Extensions.PlayerRandom.Random
   name: Random
   href: api/api/SharedLibrary.Extensions.PlayerRandom.html#SharedLibrary_Extensions_PlayerRandom_Random

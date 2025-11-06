@@ -1016,7 +1016,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Data.Player",
-      "Summary": "<p sourcefile=\"api/SharedLibrary.Data.Player.yml\" sourcestartlinenumber=\"1\">Represents a player entity.</p>\n"
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Data.Player.yml\" sourcestartlinenumber=\"1\">Represents a player entity.\nIt is an aggregate root for all player-related data in the game.</p>\n"
     },
     {
       "type": "ManagedReference",
