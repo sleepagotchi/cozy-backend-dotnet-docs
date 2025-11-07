@@ -2286,7 +2286,14 @@ references:
 - uid: SharedLibrary.Data.Constants.BALANCE_URL
   name: BALANCE_URL
   href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_BALANCE_URL
-  commentId: F:SharedLibrary.Data.Constants.BALANCE_URL
+  commentId: P:SharedLibrary.Data.Constants.BALANCE_URL
+  fullName: SharedLibrary.Data.Constants.BALANCE_URL
+  nameWithType: Constants.BALANCE_URL
+- uid: SharedLibrary.Data.Constants.BALANCE_URL*
+  name: BALANCE_URL
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_BALANCE_URL_
+  commentId: Overload:SharedLibrary.Data.Constants.BALANCE_URL
+  isSpec: "True"
   fullName: SharedLibrary.Data.Constants.BALANCE_URL
   nameWithType: Constants.BALANCE_URL
 - uid: SharedLibrary.Data.Constants.CosmeticItemsPerPage
@@ -2308,6 +2315,12 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Constants.DecreaseRate
   nameWithType: Constants.DecreaseRate
+- uid: SharedLibrary.Data.Constants.ENVIRONMENT
+  name: ENVIRONMENT
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_ENVIRONMENT
+  commentId: F:SharedLibrary.Data.Constants.ENVIRONMENT
+  fullName: SharedLibrary.Data.Constants.ENVIRONMENT
+  nameWithType: Constants.ENVIRONMENT
 - uid: SharedLibrary.Data.Constants.EnergyMax
   name: EnergyMax
   href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_EnergyMax
@@ -2677,6 +2690,30 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Cosmetic.PlayerCosmetic.OwnedItems
   nameWithType: PlayerCosmetic.OwnedItems
+- uid: SharedLibrary.Data.EnvironmentType
+  name: EnvironmentType
+  href: api/api/SharedLibrary.Data.EnvironmentType.html
+  commentId: T:SharedLibrary.Data.EnvironmentType
+  fullName: SharedLibrary.Data.EnvironmentType
+  nameWithType: EnvironmentType
+- uid: SharedLibrary.Data.EnvironmentType.Development
+  name: Development
+  href: api/api/SharedLibrary.Data.EnvironmentType.html#SharedLibrary_Data_EnvironmentType_Development
+  commentId: F:SharedLibrary.Data.EnvironmentType.Development
+  fullName: SharedLibrary.Data.EnvironmentType.Development
+  nameWithType: EnvironmentType.Development
+- uid: SharedLibrary.Data.EnvironmentType.Production
+  name: Production
+  href: api/api/SharedLibrary.Data.EnvironmentType.html#SharedLibrary_Data_EnvironmentType_Production
+  commentId: F:SharedLibrary.Data.EnvironmentType.Production
+  fullName: SharedLibrary.Data.EnvironmentType.Production
+  nameWithType: EnvironmentType.Production
+- uid: SharedLibrary.Data.EnvironmentType.Stage
+  name: Stage
+  href: api/api/SharedLibrary.Data.EnvironmentType.html#SharedLibrary_Data_EnvironmentType_Stage
+  commentId: F:SharedLibrary.Data.EnvironmentType.Stage
+  fullName: SharedLibrary.Data.EnvironmentType.Stage
+  nameWithType: EnvironmentType.Stage
 - uid: SharedLibrary.Data.Island
   name: SharedLibrary.Data.Island
   href: api/api/SharedLibrary.Data.Island.html
@@ -4260,6 +4297,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Managers.ConfigManager.IsInitialized
   nameWithType: ConfigManager.IsInitialized
+- uid: SharedLibrary.Managers.ConfigManager.SetEnvironment(SharedLibrary.Data.EnvironmentType)
+  name: SetEnvironment(EnvironmentType)
+  href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_SetEnvironment_SharedLibrary_Data_EnvironmentType_
+  commentId: M:SharedLibrary.Managers.ConfigManager.SetEnvironment(SharedLibrary.Data.EnvironmentType)
+  fullName: SharedLibrary.Managers.ConfigManager.SetEnvironment(SharedLibrary.Data.EnvironmentType)
+  nameWithType: ConfigManager.SetEnvironment(EnvironmentType)
+- uid: SharedLibrary.Managers.ConfigManager.SetEnvironment*
+  name: SetEnvironment
+  href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_SetEnvironment_
+  commentId: Overload:SharedLibrary.Managers.ConfigManager.SetEnvironment
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.ConfigManager.SetEnvironment
+  nameWithType: ConfigManager.SetEnvironment
 - uid: SharedLibrary.Managers.CosmeticManager
   name: CosmeticManager
   href: api/api/SharedLibrary.Managers.CosmeticManager.html

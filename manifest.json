@@ -936,6 +936,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Data.EnvironmentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Data.EnvironmentType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Data.EnvironmentType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Data.Island.IslandBase.yml",
       "output": {
         ".html": {
