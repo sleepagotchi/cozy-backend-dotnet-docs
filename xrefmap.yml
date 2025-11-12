@@ -95,25 +95,32 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.AdventuresManager
   nameWithType: AdventureCompleteArgs.AdventuresManager
-- uid: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.CosmeticManager
-  name: CosmeticManager
-  href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.html#SharedLibrary_Commands_Arguments_Adventures_AdventureCompleteArgs_CosmeticManager
-  commentId: F:SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.CosmeticManager
-  fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.CosmeticManager
-  nameWithType: AdventureCompleteArgs.CosmeticManager
-- uid: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.ItemsManager
-  name: ItemsManager
-  href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.html#SharedLibrary_Commands_Arguments_Adventures_AdventureCompleteArgs_ItemsManager
-  commentId: P:SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.ItemsManager
-  fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.ItemsManager
-  nameWithType: AdventureCompleteArgs.ItemsManager
-- uid: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.ItemsManager*
-  name: ItemsManager
-  href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.html#SharedLibrary_Commands_Arguments_Adventures_AdventureCompleteArgs_ItemsManager_
-  commentId: Overload:SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.ItemsManager
+- uid: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.CosmeticsManager
+  name: CosmeticsManager
+  href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.html#SharedLibrary_Commands_Arguments_Adventures_AdventureCompleteArgs_CosmeticsManager
+  commentId: P:SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.CosmeticsManager
+  fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.CosmeticsManager
+  nameWithType: AdventureCompleteArgs.CosmeticsManager
+- uid: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.CosmeticsManager*
+  name: CosmeticsManager
+  href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.html#SharedLibrary_Commands_Arguments_Adventures_AdventureCompleteArgs_CosmeticsManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.CosmeticsManager
   isSpec: "True"
-  fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.ItemsManager
-  nameWithType: AdventureCompleteArgs.ItemsManager
+  fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.CosmeticsManager
+  nameWithType: AdventureCompleteArgs.CosmeticsManager
+- uid: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.ItemManager
+  name: ItemManager
+  href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.html#SharedLibrary_Commands_Arguments_Adventures_AdventureCompleteArgs_ItemManager
+  commentId: P:SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.ItemManager
+  fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.ItemManager
+  nameWithType: AdventureCompleteArgs.ItemManager
+- uid: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.ItemManager*
+  name: ItemManager
+  href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.html#SharedLibrary_Commands_Arguments_Adventures_AdventureCompleteArgs_ItemManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.ItemManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.ItemManager
+  nameWithType: AdventureCompleteArgs.ItemManager
 - uid: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.Player
   name: Player
   href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.html#SharedLibrary_Commands_Arguments_Adventures_AdventureCompleteArgs_Player
