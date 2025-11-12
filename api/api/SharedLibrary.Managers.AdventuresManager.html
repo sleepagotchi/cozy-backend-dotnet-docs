@@ -120,7 +120,7 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Managers_AdventuresManager_CompleteAdventure_SharedLibrary_Data_Player_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.AdventuresManager.CompleteAdventure(SharedLibrary.Data.Player)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/AdventuresManager.cs/#L72">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/AdventuresManager.cs/#L73">View Source</a>
   </span>
   <a id="SharedLibrary_Managers_AdventuresManager_CompleteAdventure_" data-uid="SharedLibrary.Managers.AdventuresManager.CompleteAdventure*"></a>
   <h4 id="SharedLibrary_Managers_AdventuresManager_CompleteAdventure_SharedLibrary_Data_Player_" data-uid="SharedLibrary.Managers.AdventuresManager.CompleteAdventure(SharedLibrary.Data.Player)">CompleteAdventure(Player)</h4>
@@ -129,7 +129,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public (Player updatedPlayer, bool isCompleted) CompleteAdventure(Player player)</code></pre>
+    <pre><code class="lang-csharp hljs">public (Player updatedPlayer, bool isCompleted, Dictionary&lt;ResourceType, object&gt; rewards) CompleteAdventure(Player player)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -159,7 +159,7 @@
     </thead>
     <tbody>
       <tr>
-        <td>(<a class="xref" href="SharedLibrary.Data.Player.html">Player</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-sharedlibrary.data.player,system.boolean-.updatedplayer">updatedPlayer</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-sharedlibrary.data.player,system.boolean-.iscompleted">isCompleted</a>)</td>
+        <td>(<a class="xref" href="SharedLibrary.Data.Player.html">Player</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-sharedlibrary.data.player,system.boolean,system.collections.generic.dictionary-sharedlibrary.data.resourcetype,system.object--.updatedplayer">updatedPlayer</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-sharedlibrary.data.player,system.boolean,system.collections.generic.dictionary-sharedlibrary.data.resourcetype,system.object--.iscompleted">isCompleted</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="SharedLibrary.Data.ResourceType.html">ResourceType</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt; <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-sharedlibrary.data.player,system.boolean,system.collections.generic.dictionary-sharedlibrary.data.resourcetype,system.object--.rewards">rewards</a>)</td>
         <td><p>A tuple containing the updated player object and a boolean indicating whether the adventure was completed.</p>
 </td>
       </tr>
@@ -170,7 +170,7 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Managers_AdventuresManager_GetAdventureById_System_String_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.AdventuresManager.GetAdventureById(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/AdventuresManager.cs/#L18">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/AdventuresManager.cs/#L19">View Source</a>
   </span>
   <a id="SharedLibrary_Managers_AdventuresManager_GetAdventureById_" data-uid="SharedLibrary.Managers.AdventuresManager.GetAdventureById*"></a>
   <h4 id="SharedLibrary_Managers_AdventuresManager_GetAdventureById_System_String_" data-uid="SharedLibrary.Managers.AdventuresManager.GetAdventureById(System.String)">GetAdventureById(string)</h4>
@@ -220,7 +220,7 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Managers_AdventuresManager_IsAdventureComplete_SharedLibrary_Data_Player_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.AdventuresManager.IsAdventureComplete(SharedLibrary.Data.Player)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/AdventuresManager.cs/#L38">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/AdventuresManager.cs/#L39">View Source</a>
   </span>
   <a id="SharedLibrary_Managers_AdventuresManager_IsAdventureComplete_" data-uid="SharedLibrary.Managers.AdventuresManager.IsAdventureComplete*"></a>
   <h4 id="SharedLibrary_Managers_AdventuresManager_IsAdventureComplete_SharedLibrary_Data_Player_" data-uid="SharedLibrary.Managers.AdventuresManager.IsAdventureComplete(SharedLibrary.Data.Player)">IsAdventureComplete(Player)</h4>
@@ -270,7 +270,7 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Managers_AdventuresManager_IsPlayerOnAdventure_SharedLibrary_Data_Player_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.AdventuresManager.IsPlayerOnAdventure(SharedLibrary.Data.Player)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/AdventuresManager.cs/#L28">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/AdventuresManager.cs/#L29">View Source</a>
   </span>
   <a id="SharedLibrary_Managers_AdventuresManager_IsPlayerOnAdventure_" data-uid="SharedLibrary.Managers.AdventuresManager.IsPlayerOnAdventure*"></a>
   <h4 id="SharedLibrary_Managers_AdventuresManager_IsPlayerOnAdventure_SharedLibrary_Data_Player_" data-uid="SharedLibrary.Managers.AdventuresManager.IsPlayerOnAdventure(SharedLibrary.Data.Player)">IsPlayerOnAdventure(Player)</h4>
@@ -320,7 +320,7 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Managers_AdventuresManager_StartAdventure_SharedLibrary_Data_Player_System_String_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.AdventuresManager.StartAdventure(SharedLibrary.Data.Player%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/AdventuresManager.cs/#L51">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/AdventuresManager.cs/#L52">View Source</a>
   </span>
   <a id="SharedLibrary_Managers_AdventuresManager_StartAdventure_" data-uid="SharedLibrary.Managers.AdventuresManager.StartAdventure*"></a>
   <h4 id="SharedLibrary_Managers_AdventuresManager_StartAdventure_SharedLibrary_Data_Player_System_String_" data-uid="SharedLibrary.Managers.AdventuresManager.StartAdventure(SharedLibrary.Data.Player,System.String)">StartAdventure(Player, string)</h4>
@@ -365,7 +365,7 @@
     </thead>
     <tbody>
       <tr>
-        <td>(<a class="xref" href="SharedLibrary.Data.Player.html">Player</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-sharedlibrary.data.player,system.boolean-.updatedplayer">updatedPlayer</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-sharedlibrary.data.player,system.boolean-.iscompleted">isCompleted</a>)</td>
+        <td>(<a class="xref" href="SharedLibrary.Data.Player.html">Player</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-sharedlibrary.data.player,system.boolean-.updatedplayer">updatedPlayer</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-sharedlibrary.data.player,system.boolean-.isstarted">isStarted</a>)</td>
         <td><p>A tuple containing the updated player object and a boolean indicating whether the adventure was started.</p>
 </td>
       </tr>
@@ -383,7 +383,7 @@
                     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Managers_AdventuresManager.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.AdventuresManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/AdventuresManager.cs/#L11" class="contribution-link">View Source</a>
+                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/AdventuresManager.cs/#L12" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

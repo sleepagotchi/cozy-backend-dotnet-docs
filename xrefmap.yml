@@ -63,15 +63,15 @@ references:
   commentId: T:SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs
   fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs
   nameWithType: AdventureCompleteArgs
-- uid: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.AdventuresManager)
-  name: AdventureCompleteArgs(Player, AdventuresManager)
-  href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.html#SharedLibrary_Commands_Arguments_Adventures_AdventureCompleteArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_AdventuresManager_
-  commentId: M:SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.AdventuresManager)
-  name.vb: New(Player, AdventuresManager)
-  fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.AdventureCompleteArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.AdventuresManager)
-  fullName.vb: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.AdventuresManager)
-  nameWithType: AdventureCompleteArgs.AdventureCompleteArgs(Player, AdventuresManager)
-  nameWithType.vb: AdventureCompleteArgs.New(Player, AdventuresManager)
+- uid: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.AdventuresManager,SharedLibrary.Managers.ItemsManager,SharedLibrary.Managers.CosmeticManager)
+  name: AdventureCompleteArgs(Player, AdventuresManager, ItemsManager, CosmeticManager)
+  href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.html#SharedLibrary_Commands_Arguments_Adventures_AdventureCompleteArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_AdventuresManager_SharedLibrary_Managers_ItemsManager_SharedLibrary_Managers_CosmeticManager_
+  commentId: M:SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.AdventuresManager,SharedLibrary.Managers.ItemsManager,SharedLibrary.Managers.CosmeticManager)
+  name.vb: New(Player, AdventuresManager, ItemsManager, CosmeticManager)
+  fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.AdventureCompleteArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.AdventuresManager, SharedLibrary.Managers.ItemsManager, SharedLibrary.Managers.CosmeticManager)
+  fullName.vb: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.AdventuresManager, SharedLibrary.Managers.ItemsManager, SharedLibrary.Managers.CosmeticManager)
+  nameWithType: AdventureCompleteArgs.AdventureCompleteArgs(Player, AdventuresManager, ItemsManager, CosmeticManager)
+  nameWithType.vb: AdventureCompleteArgs.New(Player, AdventuresManager, ItemsManager, CosmeticManager)
 - uid: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.#ctor*
   name: AdventureCompleteArgs
   href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.html#SharedLibrary_Commands_Arguments_Adventures_AdventureCompleteArgs__ctor_
@@ -95,6 +95,25 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.AdventuresManager
   nameWithType: AdventureCompleteArgs.AdventuresManager
+- uid: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.CosmeticManager
+  name: CosmeticManager
+  href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.html#SharedLibrary_Commands_Arguments_Adventures_AdventureCompleteArgs_CosmeticManager
+  commentId: F:SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.CosmeticManager
+  fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.CosmeticManager
+  nameWithType: AdventureCompleteArgs.CosmeticManager
+- uid: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.ItemsManager
+  name: ItemsManager
+  href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.html#SharedLibrary_Commands_Arguments_Adventures_AdventureCompleteArgs_ItemsManager
+  commentId: P:SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.ItemsManager
+  fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.ItemsManager
+  nameWithType: AdventureCompleteArgs.ItemsManager
+- uid: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.ItemsManager*
+  name: ItemsManager
+  href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.html#SharedLibrary_Commands_Arguments_Adventures_AdventureCompleteArgs_ItemsManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.ItemsManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.ItemsManager
+  nameWithType: AdventureCompleteArgs.ItemsManager
 - uid: SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.Player
   name: Player
   href: api/api/SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.html#SharedLibrary_Commands_Arguments_Adventures_AdventureCompleteArgs_Player
@@ -2048,6 +2067,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.BalanceConstants.DinoParametersMin
   nameWithType: BalanceConstants.DinoParametersMin
+- uid: SharedLibrary.Data.BalanceConstants.DreamStonesFromEmptyRewards
+  name: DreamStonesFromEmptyRewards
+  href: api/api/SharedLibrary.Data.BalanceConstants.html#SharedLibrary_Data_BalanceConstants_DreamStonesFromEmptyRewards
+  commentId: P:SharedLibrary.Data.BalanceConstants.DreamStonesFromEmptyRewards
+  fullName: SharedLibrary.Data.BalanceConstants.DreamStonesFromEmptyRewards
+  nameWithType: BalanceConstants.DreamStonesFromEmptyRewards
+- uid: SharedLibrary.Data.BalanceConstants.DreamStonesFromEmptyRewards*
+  name: DreamStonesFromEmptyRewards
+  href: api/api/SharedLibrary.Data.BalanceConstants.html#SharedLibrary_Data_BalanceConstants_DreamStonesFromEmptyRewards_
+  commentId: Overload:SharedLibrary.Data.BalanceConstants.DreamStonesFromEmptyRewards
+  isSpec: "True"
+  fullName: SharedLibrary.Data.BalanceConstants.DreamStonesFromEmptyRewards
+  nameWithType: BalanceConstants.DreamStonesFromEmptyRewards
 - uid: SharedLibrary.Data.BalanceConstants.EnergyToDreamStones
   name: EnergyToDreamStones
   href: api/api/SharedLibrary.Data.BalanceConstants.html#SharedLibrary_Data_BalanceConstants_EnergyToDreamStones
@@ -2315,6 +2347,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Constants.DecreaseRate
   nameWithType: Constants.DecreaseRate
+- uid: SharedLibrary.Data.Constants.DreamStonesFromEmptyRewards
+  name: DreamStonesFromEmptyRewards
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_DreamStonesFromEmptyRewards
+  commentId: P:SharedLibrary.Data.Constants.DreamStonesFromEmptyRewards
+  fullName: SharedLibrary.Data.Constants.DreamStonesFromEmptyRewards
+  nameWithType: Constants.DreamStonesFromEmptyRewards
+- uid: SharedLibrary.Data.Constants.DreamStonesFromEmptyRewards*
+  name: DreamStonesFromEmptyRewards
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_DreamStonesFromEmptyRewards_
+  commentId: Overload:SharedLibrary.Data.Constants.DreamStonesFromEmptyRewards
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Constants.DreamStonesFromEmptyRewards
+  nameWithType: Constants.DreamStonesFromEmptyRewards
 - uid: SharedLibrary.Data.Constants.ENVIRONMENT
   name: ENVIRONMENT
   href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_ENVIRONMENT
@@ -2507,6 +2552,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Cosmetic.CosmeticItem.CollectionId
   nameWithType: CosmeticItem.CollectionId
+- uid: SharedLibrary.Data.Cosmetic.CosmeticItem.DropChance
+  name: DropChance
+  href: api/api/SharedLibrary.Data.Cosmetic.CosmeticItem.html#SharedLibrary_Data_Cosmetic_CosmeticItem_DropChance
+  commentId: P:SharedLibrary.Data.Cosmetic.CosmeticItem.DropChance
+  fullName: SharedLibrary.Data.Cosmetic.CosmeticItem.DropChance
+  nameWithType: CosmeticItem.DropChance
+- uid: SharedLibrary.Data.Cosmetic.CosmeticItem.DropChance*
+  name: DropChance
+  href: api/api/SharedLibrary.Data.Cosmetic.CosmeticItem.html#SharedLibrary_Data_Cosmetic_CosmeticItem_DropChance_
+  commentId: Overload:SharedLibrary.Data.Cosmetic.CosmeticItem.DropChance
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Cosmetic.CosmeticItem.DropChance
+  nameWithType: CosmeticItem.DropChance
 - uid: SharedLibrary.Data.Cosmetic.CosmeticItem.Id
   name: Id
   href: api/api/SharedLibrary.Data.Cosmetic.CosmeticItem.html#SharedLibrary_Data_Cosmetic_CosmeticItem_Id
@@ -3164,6 +3222,12 @@ references:
   commentId: T:SharedLibrary.Data.ResourceType
   fullName: SharedLibrary.Data.ResourceType
   nameWithType: ResourceType
+- uid: SharedLibrary.Data.ResourceType.Cosmetic
+  name: Cosmetic
+  href: api/api/SharedLibrary.Data.ResourceType.html#SharedLibrary_Data_ResourceType_Cosmetic
+  commentId: F:SharedLibrary.Data.ResourceType.Cosmetic
+  fullName: SharedLibrary.Data.ResourceType.Cosmetic
+  nameWithType: ResourceType.Cosmetic
 - uid: SharedLibrary.Data.ResourceType.DreamStones
   name: DreamStones
   href: api/api/SharedLibrary.Data.ResourceType.html#SharedLibrary_Data_ResourceType_DreamStones
@@ -3188,6 +3252,12 @@ references:
   commentId: F:SharedLibrary.Data.ResourceType.Health
   fullName: SharedLibrary.Data.ResourceType.Health
   nameWithType: ResourceType.Health
+- uid: SharedLibrary.Data.ResourceType.Item
+  name: Item
+  href: api/api/SharedLibrary.Data.ResourceType.html#SharedLibrary_Data_ResourceType_Item
+  commentId: F:SharedLibrary.Data.ResourceType.Item
+  fullName: SharedLibrary.Data.ResourceType.Item
+  nameWithType: ResourceType.Item
 - uid: SharedLibrary.Data.ResourceType.Mood
   name: Mood
   href: api/api/SharedLibrary.Data.ResourceType.html#SharedLibrary_Data_ResourceType_Mood
@@ -4348,6 +4418,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Managers.CosmeticManager.EquipItem
   nameWithType: CosmeticManager.EquipItem
+- uid: SharedLibrary.Managers.CosmeticManager.GenerateRandomItemByChances(SharedLibrary.Data.Player)
+  name: GenerateRandomItemByChances(Player)
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_GenerateRandomItemByChances_SharedLibrary_Data_Player_
+  commentId: M:SharedLibrary.Managers.CosmeticManager.GenerateRandomItemByChances(SharedLibrary.Data.Player)
+  fullName: SharedLibrary.Managers.CosmeticManager.GenerateRandomItemByChances(SharedLibrary.Data.Player)
+  nameWithType: CosmeticManager.GenerateRandomItemByChances(Player)
+- uid: SharedLibrary.Managers.CosmeticManager.GenerateRandomItemByChances*
+  name: GenerateRandomItemByChances
+  href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_GenerateRandomItemByChances_
+  commentId: Overload:SharedLibrary.Managers.CosmeticManager.GenerateRandomItemByChances
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.CosmeticManager.GenerateRandomItemByChances
+  nameWithType: CosmeticManager.GenerateRandomItemByChances
 - uid: SharedLibrary.Managers.CosmeticManager.GetEquippedItems(SharedLibrary.Data.Player)
   name: GetEquippedItems(Player)
   href: api/api/SharedLibrary.Managers.CosmeticManager.html#SharedLibrary_Managers_CosmeticManager_GetEquippedItems_SharedLibrary_Data_Player_
@@ -4588,6 +4671,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Managers.ItemsManager.AddItemToPlayer
   nameWithType: ItemsManager.AddItemToPlayer
+- uid: SharedLibrary.Managers.ItemsManager.GenerateRandomItemByChances(SharedLibrary.Data.Player)
+  name: GenerateRandomItemByChances(Player)
+  href: api/api/SharedLibrary.Managers.ItemsManager.html#SharedLibrary_Managers_ItemsManager_GenerateRandomItemByChances_SharedLibrary_Data_Player_
+  commentId: M:SharedLibrary.Managers.ItemsManager.GenerateRandomItemByChances(SharedLibrary.Data.Player)
+  fullName: SharedLibrary.Managers.ItemsManager.GenerateRandomItemByChances(SharedLibrary.Data.Player)
+  nameWithType: ItemsManager.GenerateRandomItemByChances(Player)
+- uid: SharedLibrary.Managers.ItemsManager.GenerateRandomItemByChances*
+  name: GenerateRandomItemByChances
+  href: api/api/SharedLibrary.Managers.ItemsManager.html#SharedLibrary_Managers_ItemsManager_GenerateRandomItemByChances_
+  commentId: Overload:SharedLibrary.Managers.ItemsManager.GenerateRandomItemByChances
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.ItemsManager.GenerateRandomItemByChances
+  nameWithType: ItemsManager.GenerateRandomItemByChances
 - uid: SharedLibrary.Managers.ItemsManager.GetAllItemsByCollectionId(System.String)
   name: GetAllItemsByCollectionId(string)
   href: api/api/SharedLibrary.Managers.ItemsManager.html#SharedLibrary_Managers_ItemsManager_GetAllItemsByCollectionId_System_String_
