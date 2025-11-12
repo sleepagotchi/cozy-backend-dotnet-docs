@@ -1355,6 +1355,63 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.TasksManager
   nameWithType: UpdateTaskArgs.TasksManager
+- uid: SharedLibrary.Commands.Arguments.Tutorial
+  name: SharedLibrary.Commands.Arguments.Tutorial
+  href: api/api/SharedLibrary.Commands.Arguments.Tutorial.html
+  commentId: N:SharedLibrary.Commands.Arguments.Tutorial
+  fullName: SharedLibrary.Commands.Arguments.Tutorial
+  nameWithType: SharedLibrary.Commands.Arguments.Tutorial
+- uid: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs
+  name: TutorialSetStepArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs
+  fullName: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs
+  nameWithType: TutorialSetStepArgs
+- uid: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.#ctor(SharedLibrary.Data.Player,System.Int32)
+  name: TutorialSetStepArgs(Player, int)
+  href: api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.html#SharedLibrary_Commands_Arguments_Tutorial_TutorialSetStepArgs__ctor_SharedLibrary_Data_Player_System_Int32_
+  commentId: M:SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.#ctor(SharedLibrary.Data.Player,System.Int32)
+  name.vb: New(Player, Integer)
+  fullName: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.TutorialSetStepArgs(SharedLibrary.Data.Player, int)
+  fullName.vb: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.New(SharedLibrary.Data.Player, Integer)
+  nameWithType: TutorialSetStepArgs.TutorialSetStepArgs(Player, int)
+  nameWithType.vb: TutorialSetStepArgs.New(Player, Integer)
+- uid: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.#ctor*
+  name: TutorialSetStepArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.html#SharedLibrary_Commands_Arguments_Tutorial_TutorialSetStepArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.TutorialSetStepArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.New
+  nameWithType: TutorialSetStepArgs.TutorialSetStepArgs
+  nameWithType.vb: TutorialSetStepArgs.New
+- uid: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.html#SharedLibrary_Commands_Arguments_Tutorial_TutorialSetStepArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.Player
+  nameWithType: TutorialSetStepArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.html#SharedLibrary_Commands_Arguments_Tutorial_TutorialSetStepArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.Player
+  nameWithType: TutorialSetStepArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.Step
+  name: Step
+  href: api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.html#SharedLibrary_Commands_Arguments_Tutorial_TutorialSetStepArgs_Step
+  commentId: P:SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.Step
+  fullName: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.Step
+  nameWithType: TutorialSetStepArgs.Step
+- uid: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.Step*
+  name: Step
+  href: api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.html#SharedLibrary_Commands_Arguments_Tutorial_TutorialSetStepArgs_Step_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.Step
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.Step
+  nameWithType: TutorialSetStepArgs.Step
 - uid: SharedLibrary.Commands.CommandBase`2
   name: CommandBase<TArgs, TResult>
   href: api/api/SharedLibrary.Commands.CommandBase-2.html
@@ -1837,6 +1894,31 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Tasks.UpdateTaskCommand.Execute
   nameWithType: UpdateTaskCommand.Execute
+- uid: SharedLibrary.Commands.Tutorial
+  name: SharedLibrary.Commands.Tutorial
+  href: api/api/SharedLibrary.Commands.Tutorial.html
+  commentId: N:SharedLibrary.Commands.Tutorial
+  fullName: SharedLibrary.Commands.Tutorial
+  nameWithType: SharedLibrary.Commands.Tutorial
+- uid: SharedLibrary.Commands.Tutorial.TutorialSetStepCommand
+  name: TutorialSetStepCommand
+  href: api/api/SharedLibrary.Commands.Tutorial.TutorialSetStepCommand.html
+  commentId: T:SharedLibrary.Commands.Tutorial.TutorialSetStepCommand
+  fullName: SharedLibrary.Commands.Tutorial.TutorialSetStepCommand
+  nameWithType: TutorialSetStepCommand
+- uid: SharedLibrary.Commands.Tutorial.TutorialSetStepCommand.Execute(SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs)
+  name: Execute(TutorialSetStepArgs)
+  href: api/api/SharedLibrary.Commands.Tutorial.TutorialSetStepCommand.html#SharedLibrary_Commands_Tutorial_TutorialSetStepCommand_Execute_SharedLibrary_Commands_Arguments_Tutorial_TutorialSetStepArgs_
+  commentId: M:SharedLibrary.Commands.Tutorial.TutorialSetStepCommand.Execute(SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs)
+  fullName: SharedLibrary.Commands.Tutorial.TutorialSetStepCommand.Execute(SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs)
+  nameWithType: TutorialSetStepCommand.Execute(TutorialSetStepArgs)
+- uid: SharedLibrary.Commands.Tutorial.TutorialSetStepCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Tutorial.TutorialSetStepCommand.html#SharedLibrary_Commands_Tutorial_TutorialSetStepCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.Tutorial.TutorialSetStepCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Tutorial.TutorialSetStepCommand.Execute
+  nameWithType: TutorialSetStepCommand.Execute
 - uid: SharedLibrary.Data
   name: SharedLibrary.Data
   href: api/api/SharedLibrary.Data.html
@@ -2310,6 +2392,12 @@ references:
   commentId: F:SharedLibrary.Data.CommandType.TasksGetPlayerTasks
   fullName: SharedLibrary.Data.CommandType.TasksGetPlayerTasks
   nameWithType: CommandType.TasksGetPlayerTasks
+- uid: SharedLibrary.Data.CommandType.TutorialSetStep
+  name: TutorialSetStep
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_TutorialSetStep
+  commentId: F:SharedLibrary.Data.CommandType.TutorialSetStep
+  fullName: SharedLibrary.Data.CommandType.TutorialSetStep
+  nameWithType: CommandType.TutorialSetStep
 - uid: SharedLibrary.Data.Constants
   name: Constants
   href: api/api/SharedLibrary.Data.Constants.html
@@ -3127,6 +3215,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Player.Tasks
   nameWithType: Player.Tasks
+- uid: SharedLibrary.Data.Player.Tutorial
+  name: Tutorial
+  href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_Tutorial
+  commentId: P:SharedLibrary.Data.Player.Tutorial
+  fullName: SharedLibrary.Data.Player.Tutorial
+  nameWithType: Player.Tutorial
+- uid: SharedLibrary.Data.Player.Tutorial*
+  name: Tutorial
+  href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_Tutorial_
+  commentId: Overload:SharedLibrary.Data.Player.Tutorial
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Player.Tutorial
+  nameWithType: Player.Tutorial
 - uid: SharedLibrary.Data.PlayerIslands
   name: PlayerIslands
   href: api/api/SharedLibrary.Data.PlayerIslands.html
@@ -3223,6 +3324,38 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.PlayerParameter.Value
   nameWithType: PlayerParameter.Value
+- uid: SharedLibrary.Data.PlayerTutorial
+  name: PlayerTutorial
+  href: api/api/SharedLibrary.Data.PlayerTutorial.html
+  commentId: T:SharedLibrary.Data.PlayerTutorial
+  fullName: SharedLibrary.Data.PlayerTutorial
+  nameWithType: PlayerTutorial
+- uid: SharedLibrary.Data.PlayerTutorial.Clone
+  name: Clone()
+  href: api/api/SharedLibrary.Data.PlayerTutorial.html#SharedLibrary_Data_PlayerTutorial_Clone
+  commentId: M:SharedLibrary.Data.PlayerTutorial.Clone
+  fullName: SharedLibrary.Data.PlayerTutorial.Clone()
+  nameWithType: PlayerTutorial.Clone()
+- uid: SharedLibrary.Data.PlayerTutorial.Clone*
+  name: Clone
+  href: api/api/SharedLibrary.Data.PlayerTutorial.html#SharedLibrary_Data_PlayerTutorial_Clone_
+  commentId: Overload:SharedLibrary.Data.PlayerTutorial.Clone
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerTutorial.Clone
+  nameWithType: PlayerTutorial.Clone
+- uid: SharedLibrary.Data.PlayerTutorial.CurrentStep
+  name: CurrentStep
+  href: api/api/SharedLibrary.Data.PlayerTutorial.html#SharedLibrary_Data_PlayerTutorial_CurrentStep
+  commentId: P:SharedLibrary.Data.PlayerTutorial.CurrentStep
+  fullName: SharedLibrary.Data.PlayerTutorial.CurrentStep
+  nameWithType: PlayerTutorial.CurrentStep
+- uid: SharedLibrary.Data.PlayerTutorial.CurrentStep*
+  name: CurrentStep
+  href: api/api/SharedLibrary.Data.PlayerTutorial.html#SharedLibrary_Data_PlayerTutorial_CurrentStep_
+  commentId: Overload:SharedLibrary.Data.PlayerTutorial.CurrentStep
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerTutorial.CurrentStep
+  nameWithType: PlayerTutorial.CurrentStep
 - uid: SharedLibrary.Data.ResourceType
   name: ResourceType
   href: api/api/SharedLibrary.Data.ResourceType.html
