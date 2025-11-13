@@ -2647,6 +2647,12 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Constants.MinParametersValue
   nameWithType: Constants.MinParametersValue
+- uid: SharedLibrary.Data.Constants.STARTED_ITEM_ON_USER_CREATION
+  name: STARTED_ITEM_ON_USER_CREATION
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_STARTED_ITEM_ON_USER_CREATION
+  commentId: F:SharedLibrary.Data.Constants.STARTED_ITEM_ON_USER_CREATION
+  fullName: SharedLibrary.Data.Constants.STARTED_ITEM_ON_USER_CREATION
+  nameWithType: Constants.STARTED_ITEM_ON_USER_CREATION
 - uid: SharedLibrary.Data.Constants.TMP_UNITY_PLAYER_CHANGED
   name: TMP_UNITY_PLAYER_CHANGED
   href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_TMP_UNITY_PLAYER_CHANGED
