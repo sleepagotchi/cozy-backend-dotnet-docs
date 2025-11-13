@@ -22,7 +22,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Commands.Adventures.AdventureCompleteCommand",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Commands.Adventures.AdventureCompleteCommand.yml\" sourcestartlinenumber=\"1\">Represents a command to complete an adventure for a player.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -36,7 +36,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Commands.Adventures.AdventureStartCommand",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Commands.Adventures.AdventureStartCommand.yml\" sourcestartlinenumber=\"1\">Represents a command to start an adventure for a player.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -386,6 +386,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Commands.Arguments.Tasks",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs",
       "Summary": null
     },
     {
@@ -768,6 +782,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Tutorial.TutorialAddTaskCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Tutorial.TutorialAddTaskCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Tutorial.TutorialAddTaskCommand",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Commands.Tutorial.TutorialAddTaskCommand.yml\" sourcestartlinenumber=\"1\">Represents a command to add a task to the player's tutorial suggestions.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Commands.Tutorial.TutorialSetStepCommand.yml",
       "output": {
         ".html": {
@@ -778,7 +806,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Commands.Tutorial.TutorialSetStepCommand",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Commands.Tutorial.TutorialSetStepCommand.yml\" sourcestartlinenumber=\"1\">Represents a command to set the current step in the player's tutorial.</p>\n"
     },
     {
       "type": "ManagedReference",

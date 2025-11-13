@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width">
       <meta name="title" content="Class AdventureCompleteCommand | Sleepagotchi SharedLibrary API ">
     
-    
+    <meta name="description" content="Represents a command to complete an adventure for a player.">
       <link rel="shortcut icon" href="../../favicon.ico">
       <link rel="stylesheet" href="../../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../../styles/docfx.css">
@@ -81,7 +81,8 @@
 
 
   <h1 id="SharedLibrary_Commands_Adventures_AdventureCompleteCommand" data-uid="SharedLibrary.Commands.Adventures.AdventureCompleteCommand" class="text-break">Class AdventureCompleteCommand</h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Represents a command to complete an adventure for a player.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -128,11 +129,11 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Commands_Adventures_AdventureCompleteCommand_Execute_SharedLibrary_Commands_Arguments_Adventures_AdventureCompleteArgs_.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.Adventures.AdventureCompleteCommand.Execute(SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Commands/Adventures/AdventureCompleteCommand.cs/#L10">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Commands/Adventures/AdventureCompleteCommand.cs/#L23">View Source</a>
   </span>
   <a id="SharedLibrary_Commands_Adventures_AdventureCompleteCommand_Execute_" data-uid="SharedLibrary.Commands.Adventures.AdventureCompleteCommand.Execute*"></a>
   <h4 id="SharedLibrary_Commands_Adventures_AdventureCompleteCommand_Execute_SharedLibrary_Commands_Arguments_Adventures_AdventureCompleteArgs_" data-uid="SharedLibrary.Commands.Adventures.AdventureCompleteCommand.Execute(SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs)">Execute(AdventureCompleteArgs)</h4>
-  <div class="markdown level1 summary"><p>Executes the command with the specified arguments.</p>
+  <div class="markdown level1 summary"><p>Executes the adventure completion logic.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -152,7 +153,7 @@
       <tr>
         <td><a class="xref" href="SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs.html">AdventureCompleteArgs</a></td>
         <td><span class="parametername">args</span></td>
-        <td><p>The arguments required to execute the command.</p>
+        <td><p>The arguments required to complete the adventure, including the player and managers.</p>
 </td>
       </tr>
     </tbody>
@@ -168,7 +169,12 @@
     <tbody>
       <tr>
         <td>(<a class="xref" href="SharedLibrary.Data.Player.html">Player</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-sharedlibrary.data.player,system.boolean,system.collections.generic.dictionary-sharedlibrary.data.resourcetype,system.object--.updatedplayer">updatedPlayer</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-sharedlibrary.data.player,system.boolean,system.collections.generic.dictionary-sharedlibrary.data.resourcetype,system.object--.iscompleted">isCompleted</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="SharedLibrary.Data.ResourceType.html">ResourceType</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt; <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-sharedlibrary.data.player,system.boolean,system.collections.generic.dictionary-sharedlibrary.data.resourcetype,system.object--.rewards">rewards</a>)</td>
-        <td><p>The result of the command execution.</p>
+        <td><p>A tuple containing:</p>
+<ul>
+<li>The updated player object.</li>
+<li>A boolean indicating whether the adventure was completed.</li>
+<li>A dictionary of rewards obtained from completing the adventure.</li>
+</ul>
 </td>
       </tr>
     </tbody>
@@ -194,7 +200,7 @@
                     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Commands_Adventures_AdventureCompleteCommand.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.Adventures.AdventureCompleteCommand%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Commands/Adventures/AdventureCompleteCommand.cs/#L8" class="contribution-link">View Source</a>
+                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Commands/Adventures/AdventureCompleteCommand.cs/#L11" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

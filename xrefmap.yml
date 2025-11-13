@@ -1361,6 +1361,70 @@ references:
   commentId: N:SharedLibrary.Commands.Arguments.Tutorial
   fullName: SharedLibrary.Commands.Arguments.Tutorial
   nameWithType: SharedLibrary.Commands.Arguments.Tutorial
+- uid: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs
+  name: TutorialAddTaskArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs
+  fullName: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs
+  nameWithType: TutorialAddTaskArgs
+- uid: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String)
+  name: TutorialAddTaskArgs(Player, TasksManager, string)
+  href: api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.html#SharedLibrary_Commands_Arguments_Tutorial_TutorialAddTaskArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_TasksManager_System_String_
+  commentId: M:SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String)
+  name.vb: New(Player, TasksManager, String)
+  fullName: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.TutorialAddTaskArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, string)
+  fullName.vb: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, String)
+  nameWithType: TutorialAddTaskArgs.TutorialAddTaskArgs(Player, TasksManager, string)
+  nameWithType.vb: TutorialAddTaskArgs.New(Player, TasksManager, String)
+- uid: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.#ctor*
+  name: TutorialAddTaskArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.html#SharedLibrary_Commands_Arguments_Tutorial_TutorialAddTaskArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.TutorialAddTaskArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.New
+  nameWithType: TutorialAddTaskArgs.TutorialAddTaskArgs
+  nameWithType.vb: TutorialAddTaskArgs.New
+- uid: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.html#SharedLibrary_Commands_Arguments_Tutorial_TutorialAddTaskArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.Player
+  nameWithType: TutorialAddTaskArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.html#SharedLibrary_Commands_Arguments_Tutorial_TutorialAddTaskArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.Player
+  nameWithType: TutorialAddTaskArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.TaskId
+  name: TaskId
+  href: api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.html#SharedLibrary_Commands_Arguments_Tutorial_TutorialAddTaskArgs_TaskId
+  commentId: P:SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.TaskId
+  fullName: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.TaskId
+  nameWithType: TutorialAddTaskArgs.TaskId
+- uid: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.TaskId*
+  name: TaskId
+  href: api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.html#SharedLibrary_Commands_Arguments_Tutorial_TutorialAddTaskArgs_TaskId_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.TaskId
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.TaskId
+  nameWithType: TutorialAddTaskArgs.TaskId
+- uid: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.TasksManager
+  name: TasksManager
+  href: api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.html#SharedLibrary_Commands_Arguments_Tutorial_TutorialAddTaskArgs_TasksManager
+  commentId: P:SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.TasksManager
+  fullName: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.TasksManager
+  nameWithType: TutorialAddTaskArgs.TasksManager
+- uid: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.TasksManager*
+  name: TasksManager
+  href: api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.html#SharedLibrary_Commands_Arguments_Tutorial_TutorialAddTaskArgs_TasksManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.TasksManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.TasksManager
+  nameWithType: TutorialAddTaskArgs.TasksManager
 - uid: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs
   name: TutorialSetStepArgs
   href: api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.html
@@ -1900,6 +1964,25 @@ references:
   commentId: N:SharedLibrary.Commands.Tutorial
   fullName: SharedLibrary.Commands.Tutorial
   nameWithType: SharedLibrary.Commands.Tutorial
+- uid: SharedLibrary.Commands.Tutorial.TutorialAddTaskCommand
+  name: TutorialAddTaskCommand
+  href: api/api/SharedLibrary.Commands.Tutorial.TutorialAddTaskCommand.html
+  commentId: T:SharedLibrary.Commands.Tutorial.TutorialAddTaskCommand
+  fullName: SharedLibrary.Commands.Tutorial.TutorialAddTaskCommand
+  nameWithType: TutorialAddTaskCommand
+- uid: SharedLibrary.Commands.Tutorial.TutorialAddTaskCommand.Execute(SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs)
+  name: Execute(TutorialAddTaskArgs)
+  href: api/api/SharedLibrary.Commands.Tutorial.TutorialAddTaskCommand.html#SharedLibrary_Commands_Tutorial_TutorialAddTaskCommand_Execute_SharedLibrary_Commands_Arguments_Tutorial_TutorialAddTaskArgs_
+  commentId: M:SharedLibrary.Commands.Tutorial.TutorialAddTaskCommand.Execute(SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs)
+  fullName: SharedLibrary.Commands.Tutorial.TutorialAddTaskCommand.Execute(SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs)
+  nameWithType: TutorialAddTaskCommand.Execute(TutorialAddTaskArgs)
+- uid: SharedLibrary.Commands.Tutorial.TutorialAddTaskCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Tutorial.TutorialAddTaskCommand.html#SharedLibrary_Commands_Tutorial_TutorialAddTaskCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.Tutorial.TutorialAddTaskCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Tutorial.TutorialAddTaskCommand.Execute
+  nameWithType: TutorialAddTaskCommand.Execute
 - uid: SharedLibrary.Commands.Tutorial.TutorialSetStepCommand
   name: TutorialSetStepCommand
   href: api/api/SharedLibrary.Commands.Tutorial.TutorialSetStepCommand.html
@@ -2014,6 +2097,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Adventures.AdventureBase.Id
   nameWithType: AdventureBase.Id
+- uid: SharedLibrary.Data.Adventures.AdventureBase.IsTutorial
+  name: IsTutorial
+  href: api/api/SharedLibrary.Data.Adventures.AdventureBase.html#SharedLibrary_Data_Adventures_AdventureBase_IsTutorial
+  commentId: P:SharedLibrary.Data.Adventures.AdventureBase.IsTutorial
+  fullName: SharedLibrary.Data.Adventures.AdventureBase.IsTutorial
+  nameWithType: AdventureBase.IsTutorial
+- uid: SharedLibrary.Data.Adventures.AdventureBase.IsTutorial*
+  name: IsTutorial
+  href: api/api/SharedLibrary.Data.Adventures.AdventureBase.html#SharedLibrary_Data_Adventures_AdventureBase_IsTutorial_
+  commentId: Overload:SharedLibrary.Data.Adventures.AdventureBase.IsTutorial
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Adventures.AdventureBase.IsTutorial
+  nameWithType: AdventureBase.IsTutorial
 - uid: SharedLibrary.Data.Adventures.AdventureBase.LastStarDate
   name: LastStarDate
   href: api/api/SharedLibrary.Data.Adventures.AdventureBase.html#SharedLibrary_Data_Adventures_AdventureBase_LastStarDate
@@ -2392,6 +2488,12 @@ references:
   commentId: F:SharedLibrary.Data.CommandType.TasksGetPlayerTasks
   fullName: SharedLibrary.Data.CommandType.TasksGetPlayerTasks
   nameWithType: CommandType.TasksGetPlayerTasks
+- uid: SharedLibrary.Data.CommandType.TutorialAddTask
+  name: TutorialAddTask
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_TutorialAddTask
+  commentId: F:SharedLibrary.Data.CommandType.TutorialAddTask
+  fullName: SharedLibrary.Data.CommandType.TutorialAddTask
+  nameWithType: CommandType.TutorialAddTask
 - uid: SharedLibrary.Data.CommandType.TutorialSetStep
   name: TutorialSetStep
   href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_TutorialSetStep
@@ -2551,6 +2653,12 @@ references:
   commentId: F:SharedLibrary.Data.Constants.TMP_UNITY_PLAYER_CHANGED
   fullName: SharedLibrary.Data.Constants.TMP_UNITY_PLAYER_CHANGED
   nameWithType: Constants.TMP_UNITY_PLAYER_CHANGED
+- uid: SharedLibrary.Data.Constants.TUTORIAL_ITEM_REWARD_ID
+  name: TUTORIAL_ITEM_REWARD_ID
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_TUTORIAL_ITEM_REWARD_ID
+  commentId: F:SharedLibrary.Data.Constants.TUTORIAL_ITEM_REWARD_ID
+  fullName: SharedLibrary.Data.Constants.TUTORIAL_ITEM_REWARD_ID
+  nameWithType: Constants.TUTORIAL_ITEM_REWARD_ID
 - uid: SharedLibrary.Data.Constants.TaskToTime
   name: TaskToTime
   href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_TaskToTime
@@ -3356,6 +3464,32 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.PlayerTutorial.CurrentStep
   nameWithType: PlayerTutorial.CurrentStep
+- uid: SharedLibrary.Data.PlayerTutorial.IsCompleted
+  name: IsCompleted
+  href: api/api/SharedLibrary.Data.PlayerTutorial.html#SharedLibrary_Data_PlayerTutorial_IsCompleted
+  commentId: P:SharedLibrary.Data.PlayerTutorial.IsCompleted
+  fullName: SharedLibrary.Data.PlayerTutorial.IsCompleted
+  nameWithType: PlayerTutorial.IsCompleted
+- uid: SharedLibrary.Data.PlayerTutorial.IsCompleted*
+  name: IsCompleted
+  href: api/api/SharedLibrary.Data.PlayerTutorial.html#SharedLibrary_Data_PlayerTutorial_IsCompleted_
+  commentId: Overload:SharedLibrary.Data.PlayerTutorial.IsCompleted
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerTutorial.IsCompleted
+  nameWithType: PlayerTutorial.IsCompleted
+- uid: SharedLibrary.Data.PlayerTutorial.LastReceivedItemId
+  name: LastReceivedItemId
+  href: api/api/SharedLibrary.Data.PlayerTutorial.html#SharedLibrary_Data_PlayerTutorial_LastReceivedItemId
+  commentId: P:SharedLibrary.Data.PlayerTutorial.LastReceivedItemId
+  fullName: SharedLibrary.Data.PlayerTutorial.LastReceivedItemId
+  nameWithType: PlayerTutorial.LastReceivedItemId
+- uid: SharedLibrary.Data.PlayerTutorial.LastReceivedItemId*
+  name: LastReceivedItemId
+  href: api/api/SharedLibrary.Data.PlayerTutorial.html#SharedLibrary_Data_PlayerTutorial_LastReceivedItemId_
+  commentId: Overload:SharedLibrary.Data.PlayerTutorial.LastReceivedItemId
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerTutorial.LastReceivedItemId
+  nameWithType: PlayerTutorial.LastReceivedItemId
 - uid: SharedLibrary.Data.ResourceType
   name: ResourceType
   href: api/api/SharedLibrary.Data.ResourceType.html
@@ -3592,6 +3726,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Tasks.TaskCare.IsCompleted
   nameWithType: TaskCare.IsCompleted
+- uid: SharedLibrary.Data.Tasks.TaskCare.IsTutorial
+  name: IsTutorial
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_IsTutorial
+  commentId: P:SharedLibrary.Data.Tasks.TaskCare.IsTutorial
+  fullName: SharedLibrary.Data.Tasks.TaskCare.IsTutorial
+  nameWithType: TaskCare.IsTutorial
+- uid: SharedLibrary.Data.Tasks.TaskCare.IsTutorial*
+  name: IsTutorial
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_IsTutorial_
+  commentId: Overload:SharedLibrary.Data.Tasks.TaskCare.IsTutorial
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.TaskCare.IsTutorial
+  nameWithType: TaskCare.IsTutorial
 - uid: SharedLibrary.Data.Tasks.TaskCare.NeedToShow
   name: NeedToShow
   href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_NeedToShow
@@ -4904,6 +5051,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Managers.ItemsManager.IsHasItemById
   nameWithType: ItemsManager.IsHasItemById
+- uid: SharedLibrary.Managers.ItemsManager.IsHasItemByStartId(SharedLibrary.Data.Player,System.String)
+  name: IsHasItemByStartId(Player, string)
+  href: api/api/SharedLibrary.Managers.ItemsManager.html#SharedLibrary_Managers_ItemsManager_IsHasItemByStartId_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Managers.ItemsManager.IsHasItemByStartId(SharedLibrary.Data.Player,System.String)
+  name.vb: IsHasItemByStartId(Player, String)
+  fullName: SharedLibrary.Managers.ItemsManager.IsHasItemByStartId(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Managers.ItemsManager.IsHasItemByStartId(SharedLibrary.Data.Player, String)
+  nameWithType: ItemsManager.IsHasItemByStartId(Player, string)
+  nameWithType.vb: ItemsManager.IsHasItemByStartId(Player, String)
+- uid: SharedLibrary.Managers.ItemsManager.IsHasItemByStartId*
+  name: IsHasItemByStartId
+  href: api/api/SharedLibrary.Managers.ItemsManager.html#SharedLibrary_Managers_ItemsManager_IsHasItemByStartId_
+  commentId: Overload:SharedLibrary.Managers.ItemsManager.IsHasItemByStartId
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.ItemsManager.IsHasItemByStartId
+  nameWithType: ItemsManager.IsHasItemByStartId
 - uid: SharedLibrary.Managers.ItemsManager.PlaceItemToIsland(SharedLibrary.Data.Player,System.String,System.String)
   name: PlaceItemToIsland(Player, string, string)
   href: api/api/SharedLibrary.Managers.ItemsManager.html#SharedLibrary_Managers_ItemsManager_PlaceItemToIsland_SharedLibrary_Data_Player_System_String_System_String_
