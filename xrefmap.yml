@@ -1718,6 +1718,41 @@ references:
   fullName.vb: SharedLibrary.Commands.ICommand(Of TArgs, TResult).Execute
   nameWithType: ICommand<TArgs, TResult>.Execute
   nameWithType.vb: ICommand(Of TArgs, TResult).Execute
+- uid: SharedLibrary.Commands.ICommandsPool
+  name: ICommandsPool
+  href: api/api/SharedLibrary.Commands.ICommandsPool.html
+  commentId: T:SharedLibrary.Commands.ICommandsPool
+  fullName: SharedLibrary.Commands.ICommandsPool
+  nameWithType: ICommandsPool
+- uid: SharedLibrary.Commands.ICommandsPool.ExecuteCommand*
+  name: ExecuteCommand
+  href: api/api/SharedLibrary.Commands.ICommandsPool.html#SharedLibrary_Commands_ICommandsPool_ExecuteCommand_
+  commentId: Overload:SharedLibrary.Commands.ICommandsPool.ExecuteCommand
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.ICommandsPool.ExecuteCommand
+  nameWithType: ICommandsPool.ExecuteCommand
+- uid: SharedLibrary.Commands.ICommandsPool.ExecuteCommand``2(SharedLibrary.Data.CommandType,``0)
+  name: ExecuteCommand<TArgs, TReturn>(CommandType, TArgs)
+  href: api/api/SharedLibrary.Commands.ICommandsPool.html#SharedLibrary_Commands_ICommandsPool_ExecuteCommand__2_SharedLibrary_Data_CommandType___0_
+  commentId: M:SharedLibrary.Commands.ICommandsPool.ExecuteCommand``2(SharedLibrary.Data.CommandType,``0)
+  name.vb: ExecuteCommand(Of TArgs, TReturn)(CommandType, TArgs)
+  fullName: SharedLibrary.Commands.ICommandsPool.ExecuteCommand<TArgs, TReturn>(SharedLibrary.Data.CommandType, TArgs)
+  fullName.vb: SharedLibrary.Commands.ICommandsPool.ExecuteCommand(Of TArgs, TReturn)(SharedLibrary.Data.CommandType, TArgs)
+  nameWithType: ICommandsPool.ExecuteCommand<TArgs, TReturn>(CommandType, TArgs)
+  nameWithType.vb: ICommandsPool.ExecuteCommand(Of TArgs, TReturn)(CommandType, TArgs)
+- uid: SharedLibrary.Commands.ICommandsPool.GetCommand(SharedLibrary.Data.CommandType)
+  name: GetCommand(CommandType)
+  href: api/api/SharedLibrary.Commands.ICommandsPool.html#SharedLibrary_Commands_ICommandsPool_GetCommand_SharedLibrary_Data_CommandType_
+  commentId: M:SharedLibrary.Commands.ICommandsPool.GetCommand(SharedLibrary.Data.CommandType)
+  fullName: SharedLibrary.Commands.ICommandsPool.GetCommand(SharedLibrary.Data.CommandType)
+  nameWithType: ICommandsPool.GetCommand(CommandType)
+- uid: SharedLibrary.Commands.ICommandsPool.GetCommand*
+  name: GetCommand
+  href: api/api/SharedLibrary.Commands.ICommandsPool.html#SharedLibrary_Commands_ICommandsPool_GetCommand_
+  commentId: Overload:SharedLibrary.Commands.ICommandsPool.GetCommand
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.ICommandsPool.GetCommand
+  nameWithType: ICommandsPool.GetCommand
 - uid: SharedLibrary.Commands.Items
   name: SharedLibrary.Commands.Items
   href: api/api/SharedLibrary.Commands.Items.html
@@ -5246,3 +5281,413 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Managers.TasksManager.UpdateTask
   nameWithType: TasksManager.UpdateTask
+- uid: SharedLibrary.Protocol.JsonSerializer
+  name: SharedLibrary.Protocol.JsonSerializer
+  href: api/api/SharedLibrary.Protocol.JsonSerializer.html
+  commentId: N:SharedLibrary.Protocol.JsonSerializer
+  fullName: SharedLibrary.Protocol.JsonSerializer
+  nameWithType: SharedLibrary.Protocol.JsonSerializer
+- uid: SharedLibrary.Protocol.JsonSerializer.IJsonSerializer
+  name: IJsonSerializer
+  href: api/api/SharedLibrary.Protocol.JsonSerializer.IJsonSerializer.html
+  commentId: T:SharedLibrary.Protocol.JsonSerializer.IJsonSerializer
+  fullName: SharedLibrary.Protocol.JsonSerializer.IJsonSerializer
+  nameWithType: IJsonSerializer
+- uid: SharedLibrary.Protocol.JsonSerializer.IJsonSerializer.Deserialize*
+  name: Deserialize
+  href: api/api/SharedLibrary.Protocol.JsonSerializer.IJsonSerializer.html#SharedLibrary_Protocol_JsonSerializer_IJsonSerializer_Deserialize_
+  commentId: Overload:SharedLibrary.Protocol.JsonSerializer.IJsonSerializer.Deserialize
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.JsonSerializer.IJsonSerializer.Deserialize
+  nameWithType: IJsonSerializer.Deserialize
+- uid: SharedLibrary.Protocol.JsonSerializer.IJsonSerializer.Deserialize``1(System.String)
+  name: Deserialize<T>(string)
+  href: api/api/SharedLibrary.Protocol.JsonSerializer.IJsonSerializer.html#SharedLibrary_Protocol_JsonSerializer_IJsonSerializer_Deserialize__1_System_String_
+  commentId: M:SharedLibrary.Protocol.JsonSerializer.IJsonSerializer.Deserialize``1(System.String)
+  name.vb: Deserialize(Of T)(String)
+  fullName: SharedLibrary.Protocol.JsonSerializer.IJsonSerializer.Deserialize<T>(string)
+  fullName.vb: SharedLibrary.Protocol.JsonSerializer.IJsonSerializer.Deserialize(Of T)(String)
+  nameWithType: IJsonSerializer.Deserialize<T>(string)
+  nameWithType.vb: IJsonSerializer.Deserialize(Of T)(String)
+- uid: SharedLibrary.Protocol.JsonSerializer.IJsonSerializer.Serialize*
+  name: Serialize
+  href: api/api/SharedLibrary.Protocol.JsonSerializer.IJsonSerializer.html#SharedLibrary_Protocol_JsonSerializer_IJsonSerializer_Serialize_
+  commentId: Overload:SharedLibrary.Protocol.JsonSerializer.IJsonSerializer.Serialize
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.JsonSerializer.IJsonSerializer.Serialize
+  nameWithType: IJsonSerializer.Serialize
+- uid: SharedLibrary.Protocol.JsonSerializer.IJsonSerializer.Serialize``1(``0)
+  name: Serialize<T>(T)
+  href: api/api/SharedLibrary.Protocol.JsonSerializer.IJsonSerializer.html#SharedLibrary_Protocol_JsonSerializer_IJsonSerializer_Serialize__1___0_
+  commentId: M:SharedLibrary.Protocol.JsonSerializer.IJsonSerializer.Serialize``1(``0)
+  name.vb: Serialize(Of T)(T)
+  fullName: SharedLibrary.Protocol.JsonSerializer.IJsonSerializer.Serialize<T>(T)
+  fullName.vb: SharedLibrary.Protocol.JsonSerializer.IJsonSerializer.Serialize(Of T)(T)
+  nameWithType: IJsonSerializer.Serialize<T>(T)
+  nameWithType.vb: IJsonSerializer.Serialize(Of T)(T)
+- uid: SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer
+  name: NewtonsoftJsonSerializer
+  href: api/api/SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer.html
+  commentId: T:SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer
+  fullName: SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer
+  nameWithType: NewtonsoftJsonSerializer
+- uid: SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer.Deserialize*
+  name: Deserialize
+  href: api/api/SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer.html#SharedLibrary_Protocol_JsonSerializer_NewtonsoftJsonSerializer_Deserialize_
+  commentId: Overload:SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer.Deserialize
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer.Deserialize
+  nameWithType: NewtonsoftJsonSerializer.Deserialize
+- uid: SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer.Deserialize``1(System.String)
+  name: Deserialize<T>(string)
+  href: api/api/SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer.html#SharedLibrary_Protocol_JsonSerializer_NewtonsoftJsonSerializer_Deserialize__1_System_String_
+  commentId: M:SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer.Deserialize``1(System.String)
+  name.vb: Deserialize(Of T)(String)
+  fullName: SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer.Deserialize<T>(string)
+  fullName.vb: SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer.Deserialize(Of T)(String)
+  nameWithType: NewtonsoftJsonSerializer.Deserialize<T>(string)
+  nameWithType.vb: NewtonsoftJsonSerializer.Deserialize(Of T)(String)
+- uid: SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer.Serialize*
+  name: Serialize
+  href: api/api/SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer.html#SharedLibrary_Protocol_JsonSerializer_NewtonsoftJsonSerializer_Serialize_
+  commentId: Overload:SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer.Serialize
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer.Serialize
+  nameWithType: NewtonsoftJsonSerializer.Serialize
+- uid: SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer.Serialize``1(``0)
+  name: Serialize<T>(T)
+  href: api/api/SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer.html#SharedLibrary_Protocol_JsonSerializer_NewtonsoftJsonSerializer_Serialize__1___0_
+  commentId: M:SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer.Serialize``1(``0)
+  name.vb: Serialize(Of T)(T)
+  fullName: SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer.Serialize<T>(T)
+  fullName.vb: SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer.Serialize(Of T)(T)
+  nameWithType: NewtonsoftJsonSerializer.Serialize<T>(T)
+  nameWithType.vb: NewtonsoftJsonSerializer.Serialize(Of T)(T)
+- uid: SharedLibrary.Protocol.ProtocolMessages
+  name: SharedLibrary.Protocol.ProtocolMessages
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.html
+  commentId: N:SharedLibrary.Protocol.ProtocolMessages
+  fullName: SharedLibrary.Protocol.ProtocolMessages
+  nameWithType: SharedLibrary.Protocol.ProtocolMessages
+- uid: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage
+  name: IProtocolMessage
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage
+  fullName: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage
+  nameWithType: IProtocolMessage
+- uid: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.MessageName
+  name: MessageName
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_IProtocolMessage_MessageName
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.MessageName
+  fullName: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.MessageName
+  nameWithType: IProtocolMessage.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.MessageName*
+  name: MessageName
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_IProtocolMessage_MessageName_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.MessageName
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.MessageName
+  nameWithType: IProtocolMessage.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames
+  name: ProtocolMessageNames
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames
+  nameWithType: ProtocolMessageNames
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskAddFromSuggestionCommandV1
+  name: TaskAddFromSuggestionCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageNames_TaskAddFromSuggestionCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskAddFromSuggestionCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskAddFromSuggestionCommandV1
+  nameWithType: ProtocolMessageNames.TaskAddFromSuggestionCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskCompleteCommandV1
+  name: TaskCompleteCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageNames_TaskCompleteCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskCompleteCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskCompleteCommandV1
+  nameWithType: ProtocolMessageNames.TaskCompleteCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskCreateCommandV1
+  name: TaskCreateCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageNames_TaskCreateCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskCreateCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskCreateCommandV1
+  nameWithType: ProtocolMessageNames.TaskCreateCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskGetPlayerTasksCommandV1
+  name: TaskGetPlayerTasksCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageNames_TaskGetPlayerTasksCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskGetPlayerTasksCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskGetPlayerTasksCommandV1
+  nameWithType: ProtocolMessageNames.TaskGetPlayerTasksCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskRemoveCommandV1
+  name: TaskRemoveCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageNames_TaskRemoveCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskRemoveCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskRemoveCommandV1
+  nameWithType: ProtocolMessageNames.TaskRemoveCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskUpdateCommandV1
+  name: TaskUpdateCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageNames_TaskUpdateCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskUpdateCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskUpdateCommandV1
+  nameWithType: ProtocolMessageNames.TaskUpdateCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.UserRegisterCommandV1
+  name: UserRegisterCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageNames_UserRegisterCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.UserRegisterCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.UserRegisterCommandV1
+  nameWithType: ProtocolMessageNames.UserRegisterCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks
+  name: SharedLibrary.Protocol.ProtocolMessages.Tasks
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.html
+  commentId: N:SharedLibrary.Protocol.ProtocolMessages.Tasks
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks
+  nameWithType: SharedLibrary.Protocol.ProtocolMessages.Tasks
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1
+  name: TaskCreateProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1
+  nameWithType: TaskCreateProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.#ctor(System.String,SharedLibrary.Data.Tasks.TaskCare)
+  name: TaskCreateProtocolMessageV1(string, TaskCare)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskCreateProtocolMessageV1__ctor_System_String_SharedLibrary_Data_Tasks_TaskCare_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.#ctor(System.String,SharedLibrary.Data.Tasks.TaskCare)
+  name.vb: New(String, TaskCare)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.TaskCreateProtocolMessageV1(string, SharedLibrary.Data.Tasks.TaskCare)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.New(String, SharedLibrary.Data.Tasks.TaskCare)
+  nameWithType: TaskCreateProtocolMessageV1.TaskCreateProtocolMessageV1(string, TaskCare)
+  nameWithType.vb: TaskCreateProtocolMessageV1.New(String, TaskCare)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.#ctor*
+  name: TaskCreateProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskCreateProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.TaskCreateProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.New
+  nameWithType: TaskCreateProtocolMessageV1.TaskCreateProtocolMessageV1
+  nameWithType.vb: TaskCreateProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.MessageName
+  name: MessageName
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskCreateProtocolMessageV1_MessageName
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.MessageName
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.MessageName
+  nameWithType: TaskCreateProtocolMessageV1.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.MessageName*
+  name: MessageName
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskCreateProtocolMessageV1_MessageName_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.MessageName
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.MessageName
+  nameWithType: TaskCreateProtocolMessageV1.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.Task
+  name: Task
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskCreateProtocolMessageV1_Task
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.Task
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.Task
+  nameWithType: TaskCreateProtocolMessageV1.Task
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.Task*
+  name: Task
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskCreateProtocolMessageV1_Task_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.Task
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.Task
+  nameWithType: TaskCreateProtocolMessageV1.Task
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskCreateProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.UserId
+  nameWithType: TaskCreateProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskCreateProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.UserId
+  nameWithType: TaskCreateProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1
+  name: TaskRemoveProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1
+  nameWithType: TaskRemoveProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.#ctor(System.String,System.String)
+  name: TaskRemoveProtocolMessageV1(string, string)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskRemoveProtocolMessageV1__ctor_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.TaskRemoveProtocolMessageV1(string, string)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.New(String, String)
+  nameWithType: TaskRemoveProtocolMessageV1.TaskRemoveProtocolMessageV1(string, string)
+  nameWithType.vb: TaskRemoveProtocolMessageV1.New(String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.#ctor*
+  name: TaskRemoveProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskRemoveProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.TaskRemoveProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.New
+  nameWithType: TaskRemoveProtocolMessageV1.TaskRemoveProtocolMessageV1
+  nameWithType.vb: TaskRemoveProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.MessageName
+  name: MessageName
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskRemoveProtocolMessageV1_MessageName
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.MessageName
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.MessageName
+  nameWithType: TaskRemoveProtocolMessageV1.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.MessageName*
+  name: MessageName
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskRemoveProtocolMessageV1_MessageName_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.MessageName
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.MessageName
+  nameWithType: TaskRemoveProtocolMessageV1.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.TaskId
+  name: TaskId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskRemoveProtocolMessageV1_TaskId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.TaskId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.TaskId
+  nameWithType: TaskRemoveProtocolMessageV1.TaskId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.TaskId*
+  name: TaskId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskRemoveProtocolMessageV1_TaskId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.TaskId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.TaskId
+  nameWithType: TaskRemoveProtocolMessageV1.TaskId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskRemoveProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.UserId
+  nameWithType: TaskRemoveProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskRemoveProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.UserId
+  nameWithType: TaskRemoveProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1
+  name: TaskUpdateProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1
+  nameWithType: TaskUpdateProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.#ctor(System.String,SharedLibrary.Data.Tasks.TaskCare)
+  name: TaskUpdateProtocolMessageV1(string, TaskCare)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskUpdateProtocolMessageV1__ctor_System_String_SharedLibrary_Data_Tasks_TaskCare_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.#ctor(System.String,SharedLibrary.Data.Tasks.TaskCare)
+  name.vb: New(String, TaskCare)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.TaskUpdateProtocolMessageV1(string, SharedLibrary.Data.Tasks.TaskCare)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.New(String, SharedLibrary.Data.Tasks.TaskCare)
+  nameWithType: TaskUpdateProtocolMessageV1.TaskUpdateProtocolMessageV1(string, TaskCare)
+  nameWithType.vb: TaskUpdateProtocolMessageV1.New(String, TaskCare)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.#ctor*
+  name: TaskUpdateProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskUpdateProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.TaskUpdateProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.New
+  nameWithType: TaskUpdateProtocolMessageV1.TaskUpdateProtocolMessageV1
+  nameWithType.vb: TaskUpdateProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.MessageName
+  name: MessageName
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskUpdateProtocolMessageV1_MessageName
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.MessageName
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.MessageName
+  nameWithType: TaskUpdateProtocolMessageV1.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.MessageName*
+  name: MessageName
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskUpdateProtocolMessageV1_MessageName_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.MessageName
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.MessageName
+  nameWithType: TaskUpdateProtocolMessageV1.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.Task
+  name: Task
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskUpdateProtocolMessageV1_Task
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.Task
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.Task
+  nameWithType: TaskUpdateProtocolMessageV1.Task
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.Task*
+  name: Task
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskUpdateProtocolMessageV1_Task_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.Task
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.Task
+  nameWithType: TaskUpdateProtocolMessageV1.Task
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskUpdateProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.UserId
+  nameWithType: TaskUpdateProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskUpdateProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.UserId
+  nameWithType: TaskUpdateProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.User
+  name: SharedLibrary.Protocol.ProtocolMessages.User
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.html
+  commentId: N:SharedLibrary.Protocol.ProtocolMessages.User
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User
+  nameWithType: SharedLibrary.Protocol.ProtocolMessages.User
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1
+  name: UserRegisterProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1
+  nameWithType: UserRegisterProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.#ctor(System.String)
+  name: UserRegisterProtocolMessageV1(string)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserRegisterProtocolMessageV1__ctor_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.#ctor(System.String)
+  name.vb: New(String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.UserRegisterProtocolMessageV1(string)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.New(String)
+  nameWithType: UserRegisterProtocolMessageV1.UserRegisterProtocolMessageV1(string)
+  nameWithType.vb: UserRegisterProtocolMessageV1.New(String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.#ctor*
+  name: UserRegisterProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserRegisterProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.UserRegisterProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.New
+  nameWithType: UserRegisterProtocolMessageV1.UserRegisterProtocolMessageV1
+  nameWithType.vb: UserRegisterProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.MessageName
+  name: MessageName
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserRegisterProtocolMessageV1_MessageName
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.MessageName
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.MessageName
+  nameWithType: UserRegisterProtocolMessageV1.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.MessageName*
+  name: MessageName
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserRegisterProtocolMessageV1_MessageName_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.MessageName
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.MessageName
+  nameWithType: UserRegisterProtocolMessageV1.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserRegisterProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.UserId
+  nameWithType: UserRegisterProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserRegisterProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.UserId
+  nameWithType: UserRegisterProtocolMessageV1.UserId

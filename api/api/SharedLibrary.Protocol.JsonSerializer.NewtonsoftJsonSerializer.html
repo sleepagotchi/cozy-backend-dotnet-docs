@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class CommandsPool | Sleepagotchi SharedLibrary API </title>
+      <title>Class NewtonsoftJsonSerializer | Sleepagotchi SharedLibrary API </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class CommandsPool | Sleepagotchi SharedLibrary API ">
+      <meta name="title" content="Class NewtonsoftJsonSerializer | Sleepagotchi SharedLibrary API ">
     
-    <meta name="description" content="Represents a pool of commands that can be accessed and executed.">
+    
       <link rel="shortcut icon" href="../../favicon.ico">
       <link rel="stylesheet" href="../../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../../styles/docfx.css">
@@ -76,22 +76,21 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="SharedLibrary.Commands.CommandsPool">
+            <article class="content wrap" id="_content" data-uid="SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer">
 
 
 
-  <h1 id="SharedLibrary_Commands_CommandsPool" data-uid="SharedLibrary.Commands.CommandsPool" class="text-break">Class CommandsPool</h1>
-  <div class="markdown level0 summary"><p>Represents a pool of commands that can be accessed and executed.</p>
-</div>
+  <h1 id="SharedLibrary_Protocol_JsonSerializer_NewtonsoftJsonSerializer" data-uid="SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer" class="text-break">Class NewtonsoftJsonSerializer</h1>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">CommandsPool</span></div>
+    <div class="level1"><span class="xref">NewtonsoftJsonSerializer</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="SharedLibrary.Commands.ICommandsPool.html">ICommandsPool</a></div>
+    <div><a class="xref" href="SharedLibrary.Protocol.JsonSerializer.IJsonSerializer.html">IJsonSerializer</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -111,62 +110,28 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="SharedLibrary.html">SharedLibrary</a>.<a class="xref" href="SharedLibrary.Commands.html">Commands</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SharedLibrary.html">SharedLibrary</a>.<a class="xref" href="SharedLibrary.Protocol.html">Protocol</a>.<a class="xref" href="SharedLibrary.Protocol.JsonSerializer.html">JsonSerializer</a></h6>
   <h6><strong>Assembly</strong>: SharedLibrary.dll</h6>
-  <h5 id="SharedLibrary_Commands_CommandsPool_syntax">Syntax</h5>
+  <h5 id="SharedLibrary_Protocol_JsonSerializer_NewtonsoftJsonSerializer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CommandsPool : ICommandsPool</code></pre>
+    <pre><code class="lang-csharp hljs">public class NewtonsoftJsonSerializer : IJsonSerializer</code></pre>
   </div>
-  <h3 id="properties">Properties
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Commands_CommandsPool_I.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.CommandsPool.I%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Commands/CommandsPool.cs/#L19">View Source</a>
-  </span>
-  <a id="SharedLibrary_Commands_CommandsPool_I_" data-uid="SharedLibrary.Commands.CommandsPool.I*"></a>
-  <h4 id="SharedLibrary_Commands_CommandsPool_I" data-uid="SharedLibrary.Commands.CommandsPool.I">I</h4>
-  <div class="markdown level1 summary"><p>Gets the singleton instance of the CommandsPool.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static CommandsPool I { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="SharedLibrary.Commands.CommandsPool.html">CommandsPool</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Commands_CommandsPool_ExecuteCommand__2_SharedLibrary_Data_CommandType___0_.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.CommandsPool.ExecuteCommand%60%602(SharedLibrary.Data.CommandType%2C%60%600)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Protocol_JsonSerializer_NewtonsoftJsonSerializer_Deserialize__1_System_String_.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer.Deserialize%60%601(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Commands/CommandsPool.cs/#L95">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Protocol/JsonSerializer/NewtonsoftJsonSerializer.cs/#L27">View Source</a>
   </span>
-  <a id="SharedLibrary_Commands_CommandsPool_ExecuteCommand_" data-uid="SharedLibrary.Commands.CommandsPool.ExecuteCommand*"></a>
-  <h4 id="SharedLibrary_Commands_CommandsPool_ExecuteCommand__2_SharedLibrary_Data_CommandType___0_" data-uid="SharedLibrary.Commands.CommandsPool.ExecuteCommand``2(SharedLibrary.Data.CommandType,``0)">ExecuteCommand&lt;TArgs, TReturn&gt;(CommandType, TArgs)</h4>
-  <div class="markdown level1 summary"><p>Executes a command with the specified arguments and returns the result.</p>
-</div>
+  <a id="SharedLibrary_Protocol_JsonSerializer_NewtonsoftJsonSerializer_Deserialize_" data-uid="SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer.Deserialize*"></a>
+  <h4 id="SharedLibrary_Protocol_JsonSerializer_NewtonsoftJsonSerializer_Deserialize__1_System_String_" data-uid="SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer.Deserialize``1(System.String)">Deserialize&lt;T&gt;(string)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TReturn ExecuteCommand&lt;TArgs, TReturn&gt;(CommandType type, TArgs args)</code></pre>
+    <pre><code class="lang-csharp hljs">public T? Deserialize&lt;T&gt;(string json) where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -179,16 +144,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="SharedLibrary.Data.CommandType.html">CommandType</a></td>
-        <td><span class="parametername">type</span></td>
-        <td><p>The type of the command to execute.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">TArgs</span></td>
-        <td><span class="parametername">args</span></td>
-        <td><p>The arguments to pass to the command.</p>
-</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">json</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -202,9 +160,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TReturn</span></td>
-        <td><p>The result of the command execution.</p>
-</td>
+        <td><span class="xref">T</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -218,32 +175,25 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TArgs</span></td>
-        <td><p>The type of the arguments required by the command.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TReturn</span></td>
-        <td><p>The type of the result returned by the command.</p>
-</td>
+        <td><span class="parametername">T</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Commands_CommandsPool_GetCommand_SharedLibrary_Data_CommandType_.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.CommandsPool.GetCommand(SharedLibrary.Data.CommandType)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Protocol_JsonSerializer_NewtonsoftJsonSerializer_Serialize__1___0_.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer.Serialize%60%601(%60%600)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Commands/CommandsPool.cs/#L82">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Protocol/JsonSerializer/NewtonsoftJsonSerializer.cs/#L22">View Source</a>
   </span>
-  <a id="SharedLibrary_Commands_CommandsPool_GetCommand_" data-uid="SharedLibrary.Commands.CommandsPool.GetCommand*"></a>
-  <h4 id="SharedLibrary_Commands_CommandsPool_GetCommand_SharedLibrary_Data_CommandType_" data-uid="SharedLibrary.Commands.CommandsPool.GetCommand(SharedLibrary.Data.CommandType)">GetCommand(CommandType)</h4>
-  <div class="markdown level1 summary"><p>Retrieves a command implementation based on the specified command type.</p>
-</div>
+  <a id="SharedLibrary_Protocol_JsonSerializer_NewtonsoftJsonSerializer_Serialize_" data-uid="SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer.Serialize*"></a>
+  <h4 id="SharedLibrary_Protocol_JsonSerializer_NewtonsoftJsonSerializer_Serialize__1___0_" data-uid="SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer.Serialize``1(``0)">Serialize&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ICommandBase GetCommand(CommandType commandType)</code></pre>
+    <pre><code class="lang-csharp hljs">public string Serialize&lt;T&gt;(T value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -256,10 +206,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="SharedLibrary.Data.CommandType.html">CommandType</a></td>
-        <td><span class="parametername">commandType</span></td>
-        <td><p>The type of the command to retrieve.</p>
-</td>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -273,15 +222,29 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="SharedLibrary.Commands.ICommandBase.html">ICommandBase</a></td>
-        <td><p>The command implementation associated with the specified type.</p>
-</td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="SharedLibrary.Commands.ICommandsPool.html">ICommandsPool</a>
+      <a class="xref" href="SharedLibrary.Protocol.JsonSerializer.IJsonSerializer.html">IJsonSerializer</a>
   </div>
 
 </article>
@@ -292,10 +255,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Commands_CommandsPool.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.CommandsPool%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Protocol_JsonSerializer_NewtonsoftJsonSerializer.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.JsonSerializer.NewtonsoftJsonSerializer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Commands/CommandsPool.cs/#L14" class="contribution-link">View Source</a>
+                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Protocol/JsonSerializer/NewtonsoftJsonSerializer.cs/#L7" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
