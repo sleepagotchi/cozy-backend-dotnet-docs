@@ -85,6 +85,8 @@
     <h3 id="classes">
 Classes
 </h3>
+      <h4><a class="xref" href="SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.html">BaseProtocolMessage</a></h4>
+      <section></section>
       <h4><a class="xref" href="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.html">ProtocolMessageNames</a></h4>
       <section><p>Should be considered as an enum with protocol message names.
 Unfortunately, C# doesn't support enums with string values.</p>
@@ -94,7 +96,10 @@ Unfortunately, C# doesn't support enums with string values.</p>
 Interfaces
 </h3>
       <h4><a class="xref" href="SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.html">IProtocolMessage</a></h4>
-      <section></section>
+      <section><p>Base interface for all protocol messages as they are sent over the network by a client.
+While not confirmed yet, it is likely that SleepagotchiBackend can receive a slightly
+extended version of these messages. I.e. those having additional fields.</p>
+</section>
 
 
 </article>

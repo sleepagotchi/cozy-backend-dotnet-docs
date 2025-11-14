@@ -1440,6 +1440,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.yml",
       "output": {
         ".html": {
@@ -1450,7 +1464,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.yml\" sourcestartlinenumber=\"1\">Base interface for all protocol messages as they are sent over the network by a client.\nWhile not confirmed yet, it is likely that SleepagotchiBackend can receive a slightly\nextended version of these messages. I.e. those having additional fields.</p>\n"
     },
     {
       "type": "ManagedReference",

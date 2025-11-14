@@ -86,7 +86,8 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">UserRegisterProtocolMessageV1</span></div>
+    <div class="level1"><a class="xref" href="SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.html">BaseProtocolMessage</a></div>
+    <div class="level2"><span class="xref">UserRegisterProtocolMessageV1</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
@@ -94,6 +95,12 @@
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_BaseProtocolMessage_ClientMarker">BaseProtocolMessage.ClientMarker</a>
+    </div>
+    <div>
+      <a class="xref" href="SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_BaseProtocolMessage_ValidateClientMarker_System_String_">BaseProtocolMessage.ValidateClientMarker(string)</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
     </div>
@@ -114,24 +121,24 @@
   <h6><strong>Assembly</strong>: SharedLibrary.dll</h6>
   <h5 id="SharedLibrary_Protocol_ProtocolMessages_User_UserRegisterProtocolMessageV1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class UserRegisterProtocolMessageV1 : IProtocolMessage</code></pre>
+    <pre><code class="lang-csharp hljs">public class UserRegisterProtocolMessageV1 : BaseProtocolMessage, IProtocolMessage</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_User_UserRegisterProtocolMessageV1__ctor_System_String_.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.%23ctor(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_User_UserRegisterProtocolMessageV1__ctor_System_String_System_String_.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.%23ctor(System.String%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Protocol/ProtocolMessages/User/UserRegisterProtocolMessageV1.cs/#L10">View Source</a>
   </span>
   <a id="SharedLibrary_Protocol_ProtocolMessages_User_UserRegisterProtocolMessageV1__ctor_" data-uid="SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.#ctor*"></a>
-  <h4 id="SharedLibrary_Protocol_ProtocolMessages_User_UserRegisterProtocolMessageV1__ctor_System_String_" data-uid="SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.#ctor(System.String)">UserRegisterProtocolMessageV1(string)</h4>
+  <h4 id="SharedLibrary_Protocol_ProtocolMessages_User_UserRegisterProtocolMessageV1__ctor_System_String_System_String_" data-uid="SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.#ctor(System.String,System.String)">UserRegisterProtocolMessageV1(string, string?)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UserRegisterProtocolMessageV1(string userId)</code></pre>
+    <pre><code class="lang-csharp hljs">public UserRegisterProtocolMessageV1(string userId, string? clientMarker = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -146,6 +153,11 @@
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">userId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">clientMarker</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -165,7 +177,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string MessageName { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public override string MessageName { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -182,6 +194,8 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_BaseProtocolMessage_MessageName">BaseProtocolMessage.MessageName</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_User_UserRegisterProtocolMessageV1_UserId.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.UserId%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>

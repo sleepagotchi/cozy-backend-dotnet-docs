@@ -5369,12 +5369,92 @@ references:
   commentId: N:SharedLibrary.Protocol.ProtocolMessages
   fullName: SharedLibrary.Protocol.ProtocolMessages
   nameWithType: SharedLibrary.Protocol.ProtocolMessages
+- uid: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage
+  name: BaseProtocolMessage
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage
+  fullName: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage
+  nameWithType: BaseProtocolMessage
+- uid: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.#ctor(System.String)
+  name: BaseProtocolMessage(string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_BaseProtocolMessage__ctor_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.#ctor(System.String)
+  name.vb: New(String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.BaseProtocolMessage(string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.New(String)
+  nameWithType: BaseProtocolMessage.BaseProtocolMessage(string?)
+  nameWithType.vb: BaseProtocolMessage.New(String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.#ctor*
+  name: BaseProtocolMessage
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_BaseProtocolMessage__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.BaseProtocolMessage
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.New
+  nameWithType: BaseProtocolMessage.BaseProtocolMessage
+  nameWithType.vb: BaseProtocolMessage.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.ClientMarker
+  name: ClientMarker
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_BaseProtocolMessage_ClientMarker
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.ClientMarker
+  fullName: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.ClientMarker
+  nameWithType: BaseProtocolMessage.ClientMarker
+- uid: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.ClientMarker*
+  name: ClientMarker
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_BaseProtocolMessage_ClientMarker_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.ClientMarker
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.ClientMarker
+  nameWithType: BaseProtocolMessage.ClientMarker
+- uid: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.MessageName
+  name: MessageName
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_BaseProtocolMessage_MessageName
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.MessageName
+  fullName: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.MessageName
+  nameWithType: BaseProtocolMessage.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.MessageName*
+  name: MessageName
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_BaseProtocolMessage_MessageName_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.MessageName
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.MessageName
+  nameWithType: BaseProtocolMessage.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.ValidateClientMarker(System.String)
+  name: ValidateClientMarker(string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_BaseProtocolMessage_ValidateClientMarker_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.ValidateClientMarker(System.String)
+  name.vb: ValidateClientMarker(String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.ValidateClientMarker(string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.ValidateClientMarker(String)
+  nameWithType: BaseProtocolMessage.ValidateClientMarker(string?)
+  nameWithType.vb: BaseProtocolMessage.ValidateClientMarker(String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.ValidateClientMarker*
+  name: ValidateClientMarker
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_BaseProtocolMessage_ValidateClientMarker_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.ValidateClientMarker
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.ValidateClientMarker
+  nameWithType: BaseProtocolMessage.ValidateClientMarker
 - uid: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage
   name: IProtocolMessage
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.html
   commentId: T:SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage
   fullName: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage
   nameWithType: IProtocolMessage
+- uid: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.ClientMarker
+  name: ClientMarker
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_IProtocolMessage_ClientMarker
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.ClientMarker
+  fullName: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.ClientMarker
+  nameWithType: IProtocolMessage.ClientMarker
+- uid: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.ClientMarker*
+  name: ClientMarker
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_IProtocolMessage_ClientMarker_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.ClientMarker
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.ClientMarker
+  nameWithType: IProtocolMessage.ClientMarker
 - uid: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.MessageName
   name: MessageName
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_IProtocolMessage_MessageName
@@ -5448,15 +5528,15 @@ references:
   commentId: T:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1
   nameWithType: TaskCreateProtocolMessageV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.#ctor(System.String,SharedLibrary.Data.Tasks.TaskCare)
-  name: TaskCreateProtocolMessageV1(string, TaskCare)
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskCreateProtocolMessageV1__ctor_System_String_SharedLibrary_Data_Tasks_TaskCare_
-  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.#ctor(System.String,SharedLibrary.Data.Tasks.TaskCare)
-  name.vb: New(String, TaskCare)
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.TaskCreateProtocolMessageV1(string, SharedLibrary.Data.Tasks.TaskCare)
-  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.New(String, SharedLibrary.Data.Tasks.TaskCare)
-  nameWithType: TaskCreateProtocolMessageV1.TaskCreateProtocolMessageV1(string, TaskCare)
-  nameWithType.vb: TaskCreateProtocolMessageV1.New(String, TaskCare)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.#ctor(System.String,SharedLibrary.Data.Tasks.TaskCare,System.String)
+  name: TaskCreateProtocolMessageV1(string, TaskCare, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskCreateProtocolMessageV1__ctor_System_String_SharedLibrary_Data_Tasks_TaskCare_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.#ctor(System.String,SharedLibrary.Data.Tasks.TaskCare,System.String)
+  name.vb: New(String, TaskCare, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.TaskCreateProtocolMessageV1(string, SharedLibrary.Data.Tasks.TaskCare, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.New(String, SharedLibrary.Data.Tasks.TaskCare, String)
+  nameWithType: TaskCreateProtocolMessageV1.TaskCreateProtocolMessageV1(string, TaskCare, string?)
+  nameWithType.vb: TaskCreateProtocolMessageV1.New(String, TaskCare, String)
 - uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.#ctor*
   name: TaskCreateProtocolMessageV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskCreateProtocolMessageV1__ctor_
@@ -5512,15 +5592,15 @@ references:
   commentId: T:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1
   nameWithType: TaskRemoveProtocolMessageV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.#ctor(System.String,System.String)
-  name: TaskRemoveProtocolMessageV1(string, string)
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskRemoveProtocolMessageV1__ctor_System_String_System_String_
-  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.#ctor(System.String,System.String)
-  name.vb: New(String, String)
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.TaskRemoveProtocolMessageV1(string, string)
-  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.New(String, String)
-  nameWithType: TaskRemoveProtocolMessageV1.TaskRemoveProtocolMessageV1(string, string)
-  nameWithType.vb: TaskRemoveProtocolMessageV1.New(String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.#ctor(System.String,System.String,System.String)
+  name: TaskRemoveProtocolMessageV1(string, string, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskRemoveProtocolMessageV1__ctor_System_String_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.#ctor(System.String,System.String,System.String)
+  name.vb: New(String, String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.TaskRemoveProtocolMessageV1(string, string, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.New(String, String, String)
+  nameWithType: TaskRemoveProtocolMessageV1.TaskRemoveProtocolMessageV1(string, string, string?)
+  nameWithType.vb: TaskRemoveProtocolMessageV1.New(String, String, String)
 - uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.#ctor*
   name: TaskRemoveProtocolMessageV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskRemoveProtocolMessageV1__ctor_
@@ -5576,15 +5656,15 @@ references:
   commentId: T:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1
   nameWithType: TaskUpdateProtocolMessageV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.#ctor(System.String,SharedLibrary.Data.Tasks.TaskCare)
-  name: TaskUpdateProtocolMessageV1(string, TaskCare)
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskUpdateProtocolMessageV1__ctor_System_String_SharedLibrary_Data_Tasks_TaskCare_
-  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.#ctor(System.String,SharedLibrary.Data.Tasks.TaskCare)
-  name.vb: New(String, TaskCare)
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.TaskUpdateProtocolMessageV1(string, SharedLibrary.Data.Tasks.TaskCare)
-  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.New(String, SharedLibrary.Data.Tasks.TaskCare)
-  nameWithType: TaskUpdateProtocolMessageV1.TaskUpdateProtocolMessageV1(string, TaskCare)
-  nameWithType.vb: TaskUpdateProtocolMessageV1.New(String, TaskCare)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.#ctor(System.String,SharedLibrary.Data.Tasks.TaskCare,System.String)
+  name: TaskUpdateProtocolMessageV1(string, TaskCare, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskUpdateProtocolMessageV1__ctor_System_String_SharedLibrary_Data_Tasks_TaskCare_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.#ctor(System.String,SharedLibrary.Data.Tasks.TaskCare,System.String)
+  name.vb: New(String, TaskCare, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.TaskUpdateProtocolMessageV1(string, SharedLibrary.Data.Tasks.TaskCare, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.New(String, SharedLibrary.Data.Tasks.TaskCare, String)
+  nameWithType: TaskUpdateProtocolMessageV1.TaskUpdateProtocolMessageV1(string, TaskCare, string?)
+  nameWithType.vb: TaskUpdateProtocolMessageV1.New(String, TaskCare, String)
 - uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.#ctor*
   name: TaskUpdateProtocolMessageV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskUpdateProtocolMessageV1__ctor_
@@ -5646,15 +5726,15 @@ references:
   commentId: T:SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1
   nameWithType: UserRegisterProtocolMessageV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.#ctor(System.String)
-  name: UserRegisterProtocolMessageV1(string)
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserRegisterProtocolMessageV1__ctor_System_String_
-  commentId: M:SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.#ctor(System.String)
-  name.vb: New(String)
-  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.UserRegisterProtocolMessageV1(string)
-  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.New(String)
-  nameWithType: UserRegisterProtocolMessageV1.UserRegisterProtocolMessageV1(string)
-  nameWithType.vb: UserRegisterProtocolMessageV1.New(String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.#ctor(System.String,System.String)
+  name: UserRegisterProtocolMessageV1(string, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserRegisterProtocolMessageV1__ctor_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.UserRegisterProtocolMessageV1(string, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.New(String, String)
+  nameWithType: UserRegisterProtocolMessageV1.UserRegisterProtocolMessageV1(string, string?)
+  nameWithType.vb: UserRegisterProtocolMessageV1.New(String, String)
 - uid: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.#ctor*
   name: UserRegisterProtocolMessageV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserRegisterProtocolMessageV1__ctor_
