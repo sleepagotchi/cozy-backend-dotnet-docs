@@ -1440,6 +1440,48 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.MessageSerializer.EncodingMessageSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.MessageSerializer.EncodingMessageSerializer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.MessageSerializer.EncodingMessageSerializer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.MessageSerializer.IMessageSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.MessageSerializer.IMessageSerializer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.MessageSerializer.IMessageSerializer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.MessageSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.MessageSerializer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.MessageSerializer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.yml",
       "output": {
         ".html": {
@@ -1479,6 +1521,34 @@
       "IsMRef": true,
       "Title": "SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames",
       "Summary": "<p sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.yml\" sourcestartlinenumber=\"1\">Should be considered as an enum with protocol message names.\nUnfortunately, C# doesn't support enums with string values.</p>\n<p sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.yml\" sourcestartlinenumber=\"4\">Note: all the names are following ENTITY_ACTION_TYPE/VERSION convention.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
