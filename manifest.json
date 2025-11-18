@@ -292,6 +292,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Arguments.PlayerInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Arguments.PlayerInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Arguments.PlayerInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.yml",
       "output": {
         ".html": {
@@ -362,6 +390,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.yml",
       "output": {
         ".html": {
@@ -400,6 +442,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs",
       "Summary": null
     },
     {
@@ -698,6 +754,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand.yml\" sourcestartlinenumber=\"1\">Command to change the name of a player.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.PlayerInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.PlayerInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.PlayerInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Commands.Tasks.AddTaskFromSuggestionCommand.yml",
       "output": {
         ".html": {
@@ -768,6 +852,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Tasks.TasksAddNonSuggestTaskCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Tasks.TasksAddNonSuggestTaskCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Tasks.TasksAddNonSuggestTaskCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Commands.Tasks.UpdateTaskCommand.yml",
       "output": {
         ".html": {
@@ -807,6 +905,20 @@
       "IsMRef": true,
       "Title": "SharedLibrary.Commands.Tutorial.TutorialAddTaskCommand",
       "Summary": "<p sourcefile=\"api/SharedLibrary.Commands.Tutorial.TutorialAddTaskCommand.yml\" sourcestartlinenumber=\"1\">Represents a command to add a task to the player's tutorial suggestions.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Tutorial.TutorialSetOnboardingCompletedCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Tutorial.TutorialSetOnboardingCompletedCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Tutorial.TutorialSetOnboardingCompletedCommand",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Commands.Tutorial.TutorialSetOnboardingCompletedCommand.yml\" sourcestartlinenumber=\"1\">Represents a command that sets the onboarding process as completed for a player.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1129,6 +1241,20 @@
       "IsMRef": true,
       "Title": "SharedLibrary.Data.Player",
       "Summary": "<p sourcefile=\"api/SharedLibrary.Data.Player.yml\" sourcestartlinenumber=\"1\">Represents a player entity.\nIt is an aggregate root for all player-related data in the game.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Data.PlayerInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Data.PlayerInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Data.PlayerInfo",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Data.PlayerInfo.yml\" sourcestartlinenumber=\"1\">Represents information about a player.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1510,6 +1636,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.PlayerInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.yml",
       "output": {
         ".html": {
@@ -1534,6 +1688,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1",
       "Summary": null
     },
     {

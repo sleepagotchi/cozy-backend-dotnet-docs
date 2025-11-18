@@ -978,6 +978,63 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs.Player
   nameWithType: UpgradeItemArgs.Player
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo
+  name: SharedLibrary.Commands.Arguments.PlayerInfo
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.html
+  commentId: N:SharedLibrary.Commands.Arguments.PlayerInfo
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo
+  nameWithType: SharedLibrary.Commands.Arguments.PlayerInfo
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs
+  name: PlayerInfoChangeNameArgs
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs
+  nameWithType: PlayerInfoChangeNameArgs
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.#ctor(SharedLibrary.Data.Player,System.String)
+  name: PlayerInfoChangeNameArgs(Player, string)
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoChangeNameArgs__ctor_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.#ctor(SharedLibrary.Data.Player,System.String)
+  name.vb: New(Player, String)
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.PlayerInfoChangeNameArgs(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.New(SharedLibrary.Data.Player, String)
+  nameWithType: PlayerInfoChangeNameArgs.PlayerInfoChangeNameArgs(Player, string)
+  nameWithType.vb: PlayerInfoChangeNameArgs.New(Player, String)
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.#ctor*
+  name: PlayerInfoChangeNameArgs
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoChangeNameArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.PlayerInfoChangeNameArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.New
+  nameWithType: PlayerInfoChangeNameArgs.PlayerInfoChangeNameArgs
+  nameWithType.vb: PlayerInfoChangeNameArgs.New
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.NewName
+  name: NewName
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoChangeNameArgs_NewName
+  commentId: P:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.NewName
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.NewName
+  nameWithType: PlayerInfoChangeNameArgs.NewName
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.NewName*
+  name: NewName
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoChangeNameArgs_NewName_
+  commentId: Overload:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.NewName
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.NewName
+  nameWithType: PlayerInfoChangeNameArgs.NewName
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoChangeNameArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.Player
+  nameWithType: PlayerInfoChangeNameArgs.Player
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoChangeNameArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.Player
+  nameWithType: PlayerInfoChangeNameArgs.Player
 - uid: SharedLibrary.Commands.Arguments.Tasks
   name: SharedLibrary.Commands.Arguments.Tasks
   href: api/api/SharedLibrary.Commands.Arguments.Tasks.html
@@ -1291,6 +1348,70 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.TasksManager
   nameWithType: RemoveTaskArgs.TasksManager
+- uid: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs
+  name: TasksAddNonSuggestTaskArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs
+  fullName: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs
+  nameWithType: TasksAddNonSuggestTaskArgs
+- uid: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String)
+  name: TasksAddNonSuggestTaskArgs(Player, TasksManager, string)
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_TasksAddNonSuggestTaskArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_TasksManager_System_String_
+  commentId: M:SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String)
+  name.vb: New(Player, TasksManager, String)
+  fullName: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.TasksAddNonSuggestTaskArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, string)
+  fullName.vb: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, String)
+  nameWithType: TasksAddNonSuggestTaskArgs.TasksAddNonSuggestTaskArgs(Player, TasksManager, string)
+  nameWithType.vb: TasksAddNonSuggestTaskArgs.New(Player, TasksManager, String)
+- uid: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.#ctor*
+  name: TasksAddNonSuggestTaskArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_TasksAddNonSuggestTaskArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.TasksAddNonSuggestTaskArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.New
+  nameWithType: TasksAddNonSuggestTaskArgs.TasksAddNonSuggestTaskArgs
+  nameWithType.vb: TasksAddNonSuggestTaskArgs.New
+- uid: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_TasksAddNonSuggestTaskArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.Player
+  nameWithType: TasksAddNonSuggestTaskArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_TasksAddNonSuggestTaskArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.Player
+  nameWithType: TasksAddNonSuggestTaskArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.TaskId
+  name: TaskId
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_TasksAddNonSuggestTaskArgs_TaskId
+  commentId: P:SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.TaskId
+  fullName: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.TaskId
+  nameWithType: TasksAddNonSuggestTaskArgs.TaskId
+- uid: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.TaskId*
+  name: TaskId
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_TasksAddNonSuggestTaskArgs_TaskId_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.TaskId
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.TaskId
+  nameWithType: TasksAddNonSuggestTaskArgs.TaskId
+- uid: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.TasksManager
+  name: TasksManager
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_TasksAddNonSuggestTaskArgs_TasksManager
+  commentId: P:SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.TasksManager
+  fullName: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.TasksManager
+  nameWithType: TasksAddNonSuggestTaskArgs.TasksManager
+- uid: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.TasksManager*
+  name: TasksManager
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_TasksAddNonSuggestTaskArgs_TasksManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.TasksManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.TasksManager
+  nameWithType: TasksAddNonSuggestTaskArgs.TasksManager
 - uid: SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs
   name: UpdateTaskArgs
   href: api/api/SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.html
@@ -1425,6 +1546,44 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.TasksManager
   nameWithType: TutorialAddTaskArgs.TasksManager
+- uid: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs
+  name: TutorialSetOnboardingCompletedArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs
+  fullName: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs
+  nameWithType: TutorialSetOnboardingCompletedArgs
+- uid: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs.#ctor(SharedLibrary.Data.Player)
+  name: TutorialSetOnboardingCompletedArgs(Player)
+  href: api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs.html#SharedLibrary_Commands_Arguments_Tutorial_TutorialSetOnboardingCompletedArgs__ctor_SharedLibrary_Data_Player_
+  commentId: M:SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs.#ctor(SharedLibrary.Data.Player)
+  name.vb: New(Player)
+  fullName: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs.TutorialSetOnboardingCompletedArgs(SharedLibrary.Data.Player)
+  fullName.vb: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs.New(SharedLibrary.Data.Player)
+  nameWithType: TutorialSetOnboardingCompletedArgs.TutorialSetOnboardingCompletedArgs(Player)
+  nameWithType.vb: TutorialSetOnboardingCompletedArgs.New(Player)
+- uid: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs.#ctor*
+  name: TutorialSetOnboardingCompletedArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs.html#SharedLibrary_Commands_Arguments_Tutorial_TutorialSetOnboardingCompletedArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs.TutorialSetOnboardingCompletedArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs.New
+  nameWithType: TutorialSetOnboardingCompletedArgs.TutorialSetOnboardingCompletedArgs
+  nameWithType.vb: TutorialSetOnboardingCompletedArgs.New
+- uid: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs.html#SharedLibrary_Commands_Arguments_Tutorial_TutorialSetOnboardingCompletedArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs.Player
+  nameWithType: TutorialSetOnboardingCompletedArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs.html#SharedLibrary_Commands_Arguments_Tutorial_TutorialSetOnboardingCompletedArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs.Player
+  nameWithType: TutorialSetOnboardingCompletedArgs.Player
 - uid: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs
   name: TutorialSetStepArgs
   href: api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.html
@@ -1873,6 +2032,31 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Items.UpgradeItemCommand.Execute
   nameWithType: UpgradeItemCommand.Execute
+- uid: SharedLibrary.Commands.PlayerInfo
+  name: SharedLibrary.Commands.PlayerInfo
+  href: api/api/SharedLibrary.Commands.PlayerInfo.html
+  commentId: N:SharedLibrary.Commands.PlayerInfo
+  fullName: SharedLibrary.Commands.PlayerInfo
+  nameWithType: SharedLibrary.Commands.PlayerInfo
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand
+  name: PlayerInfoChangeNameCommand
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand.html
+  commentId: T:SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand
+  nameWithType: PlayerInfoChangeNameCommand
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand.Execute(SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs)
+  name: Execute(PlayerInfoChangeNameArgs)
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand.html#SharedLibrary_Commands_PlayerInfo_PlayerInfoChangeNameCommand_Execute_SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoChangeNameArgs_
+  commentId: M:SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand.Execute(SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs)
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand.Execute(SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs)
+  nameWithType: PlayerInfoChangeNameCommand.Execute(PlayerInfoChangeNameArgs)
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand.html#SharedLibrary_Commands_PlayerInfo_PlayerInfoChangeNameCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand.Execute
+  nameWithType: PlayerInfoChangeNameCommand.Execute
 - uid: SharedLibrary.Commands.Tasks
   name: SharedLibrary.Commands.Tasks
   href: api/api/SharedLibrary.Commands.Tasks.html
@@ -1974,6 +2158,25 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Tasks.RemoveTaskCommand.Execute
   nameWithType: RemoveTaskCommand.Execute
+- uid: SharedLibrary.Commands.Tasks.TasksAddNonSuggestTaskCommand
+  name: TasksAddNonSuggestTaskCommand
+  href: api/api/SharedLibrary.Commands.Tasks.TasksAddNonSuggestTaskCommand.html
+  commentId: T:SharedLibrary.Commands.Tasks.TasksAddNonSuggestTaskCommand
+  fullName: SharedLibrary.Commands.Tasks.TasksAddNonSuggestTaskCommand
+  nameWithType: TasksAddNonSuggestTaskCommand
+- uid: SharedLibrary.Commands.Tasks.TasksAddNonSuggestTaskCommand.Execute(SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs)
+  name: Execute(TasksAddNonSuggestTaskArgs)
+  href: api/api/SharedLibrary.Commands.Tasks.TasksAddNonSuggestTaskCommand.html#SharedLibrary_Commands_Tasks_TasksAddNonSuggestTaskCommand_Execute_SharedLibrary_Commands_Arguments_Tasks_TasksAddNonSuggestTaskArgs_
+  commentId: M:SharedLibrary.Commands.Tasks.TasksAddNonSuggestTaskCommand.Execute(SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs)
+  fullName: SharedLibrary.Commands.Tasks.TasksAddNonSuggestTaskCommand.Execute(SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs)
+  nameWithType: TasksAddNonSuggestTaskCommand.Execute(TasksAddNonSuggestTaskArgs)
+- uid: SharedLibrary.Commands.Tasks.TasksAddNonSuggestTaskCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Tasks.TasksAddNonSuggestTaskCommand.html#SharedLibrary_Commands_Tasks_TasksAddNonSuggestTaskCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.Tasks.TasksAddNonSuggestTaskCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Tasks.TasksAddNonSuggestTaskCommand.Execute
+  nameWithType: TasksAddNonSuggestTaskCommand.Execute
 - uid: SharedLibrary.Commands.Tasks.UpdateTaskCommand
   name: UpdateTaskCommand
   href: api/api/SharedLibrary.Commands.Tasks.UpdateTaskCommand.html
@@ -2018,6 +2221,25 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Tutorial.TutorialAddTaskCommand.Execute
   nameWithType: TutorialAddTaskCommand.Execute
+- uid: SharedLibrary.Commands.Tutorial.TutorialSetOnboardingCompletedCommand
+  name: TutorialSetOnboardingCompletedCommand
+  href: api/api/SharedLibrary.Commands.Tutorial.TutorialSetOnboardingCompletedCommand.html
+  commentId: T:SharedLibrary.Commands.Tutorial.TutorialSetOnboardingCompletedCommand
+  fullName: SharedLibrary.Commands.Tutorial.TutorialSetOnboardingCompletedCommand
+  nameWithType: TutorialSetOnboardingCompletedCommand
+- uid: SharedLibrary.Commands.Tutorial.TutorialSetOnboardingCompletedCommand.Execute(SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs)
+  name: Execute(TutorialSetOnboardingCompletedArgs)
+  href: api/api/SharedLibrary.Commands.Tutorial.TutorialSetOnboardingCompletedCommand.html#SharedLibrary_Commands_Tutorial_TutorialSetOnboardingCompletedCommand_Execute_SharedLibrary_Commands_Arguments_Tutorial_TutorialSetOnboardingCompletedArgs_
+  commentId: M:SharedLibrary.Commands.Tutorial.TutorialSetOnboardingCompletedCommand.Execute(SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs)
+  fullName: SharedLibrary.Commands.Tutorial.TutorialSetOnboardingCompletedCommand.Execute(SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs)
+  nameWithType: TutorialSetOnboardingCompletedCommand.Execute(TutorialSetOnboardingCompletedArgs)
+- uid: SharedLibrary.Commands.Tutorial.TutorialSetOnboardingCompletedCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Tutorial.TutorialSetOnboardingCompletedCommand.html#SharedLibrary_Commands_Tutorial_TutorialSetOnboardingCompletedCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.Tutorial.TutorialSetOnboardingCompletedCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Tutorial.TutorialSetOnboardingCompletedCommand.Execute
+  nameWithType: TutorialSetOnboardingCompletedCommand.Execute
 - uid: SharedLibrary.Commands.Tutorial.TutorialSetStepCommand
   name: TutorialSetStepCommand
   href: api/api/SharedLibrary.Commands.Tutorial.TutorialSetStepCommand.html
@@ -2500,12 +2722,24 @@ references:
   commentId: F:SharedLibrary.Data.CommandType.ItemUpgrade
   fullName: SharedLibrary.Data.CommandType.ItemUpgrade
   nameWithType: CommandType.ItemUpgrade
+- uid: SharedLibrary.Data.CommandType.PlayerInfoChangeName
+  name: PlayerInfoChangeName
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_PlayerInfoChangeName
+  commentId: F:SharedLibrary.Data.CommandType.PlayerInfoChangeName
+  fullName: SharedLibrary.Data.CommandType.PlayerInfoChangeName
+  nameWithType: CommandType.PlayerInfoChangeName
 - uid: SharedLibrary.Data.CommandType.TaskAddFromSuggest
   name: TaskAddFromSuggest
   href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_TaskAddFromSuggest
   commentId: F:SharedLibrary.Data.CommandType.TaskAddFromSuggest
   fullName: SharedLibrary.Data.CommandType.TaskAddFromSuggest
   nameWithType: CommandType.TaskAddFromSuggest
+- uid: SharedLibrary.Data.CommandType.TaskAddNonSuggest
+  name: TaskAddNonSuggest
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_TaskAddNonSuggest
+  commentId: F:SharedLibrary.Data.CommandType.TaskAddNonSuggest
+  fullName: SharedLibrary.Data.CommandType.TaskAddNonSuggest
+  nameWithType: CommandType.TaskAddNonSuggest
 - uid: SharedLibrary.Data.CommandType.TaskComplete
   name: TaskComplete
   href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_TaskComplete
@@ -2542,6 +2776,12 @@ references:
   commentId: F:SharedLibrary.Data.CommandType.TutorialAddTask
   fullName: SharedLibrary.Data.CommandType.TutorialAddTask
   nameWithType: CommandType.TutorialAddTask
+- uid: SharedLibrary.Data.CommandType.TutorialSetOnboardingCompleted
+  name: TutorialSetOnboardingCompleted
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_TutorialSetOnboardingCompleted
+  commentId: F:SharedLibrary.Data.CommandType.TutorialSetOnboardingCompleted
+  fullName: SharedLibrary.Data.CommandType.TutorialSetOnboardingCompleted
+  nameWithType: CommandType.TutorialSetOnboardingCompleted
 - uid: SharedLibrary.Data.CommandType.TutorialSetStep
   name: TutorialSetStep
   href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_TutorialSetStep
@@ -3312,6 +3552,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Player.CreateUser
   nameWithType: Player.CreateUser
+- uid: SharedLibrary.Data.Player.Info
+  name: Info
+  href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_Info
+  commentId: P:SharedLibrary.Data.Player.Info
+  fullName: SharedLibrary.Data.Player.Info
+  nameWithType: Player.Info
+- uid: SharedLibrary.Data.Player.Info*
+  name: Info
+  href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_Info_
+  commentId: Overload:SharedLibrary.Data.Player.Info
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Player.Info
+  nameWithType: Player.Info
 - uid: SharedLibrary.Data.Player.Islands
   name: Islands
   href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_Islands
@@ -3390,6 +3643,38 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Player.Tutorial
   nameWithType: Player.Tutorial
+- uid: SharedLibrary.Data.PlayerInfo
+  name: PlayerInfo
+  href: api/api/SharedLibrary.Data.PlayerInfo.html
+  commentId: T:SharedLibrary.Data.PlayerInfo
+  fullName: SharedLibrary.Data.PlayerInfo
+  nameWithType: PlayerInfo
+- uid: SharedLibrary.Data.PlayerInfo.Clone
+  name: Clone()
+  href: api/api/SharedLibrary.Data.PlayerInfo.html#SharedLibrary_Data_PlayerInfo_Clone
+  commentId: M:SharedLibrary.Data.PlayerInfo.Clone
+  fullName: SharedLibrary.Data.PlayerInfo.Clone()
+  nameWithType: PlayerInfo.Clone()
+- uid: SharedLibrary.Data.PlayerInfo.Clone*
+  name: Clone
+  href: api/api/SharedLibrary.Data.PlayerInfo.html#SharedLibrary_Data_PlayerInfo_Clone_
+  commentId: Overload:SharedLibrary.Data.PlayerInfo.Clone
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerInfo.Clone
+  nameWithType: PlayerInfo.Clone
+- uid: SharedLibrary.Data.PlayerInfo.UserName
+  name: UserName
+  href: api/api/SharedLibrary.Data.PlayerInfo.html#SharedLibrary_Data_PlayerInfo_UserName
+  commentId: P:SharedLibrary.Data.PlayerInfo.UserName
+  fullName: SharedLibrary.Data.PlayerInfo.UserName
+  nameWithType: PlayerInfo.UserName
+- uid: SharedLibrary.Data.PlayerInfo.UserName*
+  name: UserName
+  href: api/api/SharedLibrary.Data.PlayerInfo.html#SharedLibrary_Data_PlayerInfo_UserName_
+  commentId: Overload:SharedLibrary.Data.PlayerInfo.UserName
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerInfo.UserName
+  nameWithType: PlayerInfo.UserName
 - uid: SharedLibrary.Data.PlayerIslands
   name: PlayerIslands
   href: api/api/SharedLibrary.Data.PlayerIslands.html
@@ -3544,6 +3829,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.PlayerTutorial.LastReceivedItemId
   nameWithType: PlayerTutorial.LastReceivedItemId
+- uid: SharedLibrary.Data.PlayerTutorial.OnboardingCompleted
+  name: OnboardingCompleted
+  href: api/api/SharedLibrary.Data.PlayerTutorial.html#SharedLibrary_Data_PlayerTutorial_OnboardingCompleted
+  commentId: P:SharedLibrary.Data.PlayerTutorial.OnboardingCompleted
+  fullName: SharedLibrary.Data.PlayerTutorial.OnboardingCompleted
+  nameWithType: PlayerTutorial.OnboardingCompleted
+- uid: SharedLibrary.Data.PlayerTutorial.OnboardingCompleted*
+  name: OnboardingCompleted
+  href: api/api/SharedLibrary.Data.PlayerTutorial.html#SharedLibrary_Data_PlayerTutorial_OnboardingCompleted_
+  commentId: Overload:SharedLibrary.Data.PlayerTutorial.OnboardingCompleted
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerTutorial.OnboardingCompleted
+  nameWithType: PlayerTutorial.OnboardingCompleted
 - uid: SharedLibrary.Data.ResourceType
   name: ResourceType
   href: api/api/SharedLibrary.Data.ResourceType.html
@@ -5236,6 +5534,22 @@ references:
   commentId: T:SharedLibrary.Managers.TasksManager
   fullName: SharedLibrary.Managers.TasksManager
   nameWithType: TasksManager
+- uid: SharedLibrary.Managers.TasksManager.AddNonSuggestTask(SharedLibrary.Data.Player,System.String)
+  name: AddNonSuggestTask(Player, string)
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_AddNonSuggestTask_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Managers.TasksManager.AddNonSuggestTask(SharedLibrary.Data.Player,System.String)
+  name.vb: AddNonSuggestTask(Player, String)
+  fullName: SharedLibrary.Managers.TasksManager.AddNonSuggestTask(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Managers.TasksManager.AddNonSuggestTask(SharedLibrary.Data.Player, String)
+  nameWithType: TasksManager.AddNonSuggestTask(Player, string)
+  nameWithType.vb: TasksManager.AddNonSuggestTask(Player, String)
+- uid: SharedLibrary.Managers.TasksManager.AddNonSuggestTask*
+  name: AddNonSuggestTask
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_AddNonSuggestTask_
+  commentId: Overload:SharedLibrary.Managers.TasksManager.AddNonSuggestTask
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.TasksManager.AddNonSuggestTask
+  nameWithType: TasksManager.AddNonSuggestTask
 - uid: SharedLibrary.Managers.TasksManager.AddTaskFromSuggestions(SharedLibrary.Data.Player,System.String)
   name: AddTaskFromSuggestions(Player, string)
   href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_AddTaskFromSuggestions_SharedLibrary_Data_Player_System_String_
@@ -5592,18 +5906,113 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.MessageName
   nameWithType: IProtocolMessage.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo
+  name: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.html
+  commentId: N:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo
+  nameWithType: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1
+  name: PlayerInfoChangeNameProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1
+  nameWithType: PlayerInfoChangeNameProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.#ctor(System.String,System.String,System.String)
+  name: PlayerInfoChangeNameProtocolMessageV1(string, string, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeNameProtocolMessageV1__ctor_System_String_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.#ctor(System.String,System.String,System.String)
+  name.vb: New(String, String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.PlayerInfoChangeNameProtocolMessageV1(string, string, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.New(String, String, String)
+  nameWithType: PlayerInfoChangeNameProtocolMessageV1.PlayerInfoChangeNameProtocolMessageV1(string, string, string?)
+  nameWithType.vb: PlayerInfoChangeNameProtocolMessageV1.New(String, String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.#ctor*
+  name: PlayerInfoChangeNameProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeNameProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.PlayerInfoChangeNameProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.New
+  nameWithType: PlayerInfoChangeNameProtocolMessageV1.PlayerInfoChangeNameProtocolMessageV1
+  nameWithType.vb: PlayerInfoChangeNameProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.ClientMarker
+  name: ClientMarker
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeNameProtocolMessageV1_ClientMarker
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.ClientMarker
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.ClientMarker
+  nameWithType: PlayerInfoChangeNameProtocolMessageV1.ClientMarker
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.ClientMarker*
+  name: ClientMarker
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeNameProtocolMessageV1_ClientMarker_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.ClientMarker
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.ClientMarker
+  nameWithType: PlayerInfoChangeNameProtocolMessageV1.ClientMarker
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.MessageName
+  name: MessageName
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeNameProtocolMessageV1_MessageName
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.MessageName
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.MessageName
+  nameWithType: PlayerInfoChangeNameProtocolMessageV1.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.MessageName*
+  name: MessageName
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeNameProtocolMessageV1_MessageName_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.MessageName
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.MessageName
+  nameWithType: PlayerInfoChangeNameProtocolMessageV1.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeNameProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.UserId
+  nameWithType: PlayerInfoChangeNameProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeNameProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.UserId
+  nameWithType: PlayerInfoChangeNameProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.Username
+  name: Username
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeNameProtocolMessageV1_Username
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.Username
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.Username
+  nameWithType: PlayerInfoChangeNameProtocolMessageV1.Username
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.Username*
+  name: Username
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeNameProtocolMessageV1_Username_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.Username
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.Username
+  nameWithType: PlayerInfoChangeNameProtocolMessageV1.Username
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames
   name: ProtocolMessageNames
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.html
   commentId: T:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames
   nameWithType: ProtocolMessageNames
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.PlayerInfoChangeNameCommandV1
+  name: PlayerInfoChangeNameCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageNames_PlayerInfoChangeNameCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.PlayerInfoChangeNameCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.PlayerInfoChangeNameCommandV1
+  nameWithType: ProtocolMessageNames.PlayerInfoChangeNameCommandV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskAddFromSuggestionCommandV1
   name: TaskAddFromSuggestionCommandV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageNames_TaskAddFromSuggestionCommandV1
   commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskAddFromSuggestionCommandV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskAddFromSuggestionCommandV1
   nameWithType: ProtocolMessageNames.TaskAddFromSuggestionCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskAddNonSuggestCommandV1
+  name: TaskAddNonSuggestCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageNames_TaskAddNonSuggestCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskAddNonSuggestCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskAddNonSuggestCommandV1
+  nameWithType: ProtocolMessageNames.TaskAddNonSuggestCommandV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskCompleteCommandV1
   name: TaskCompleteCommandV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageNames_TaskCompleteCommandV1
@@ -5723,6 +6132,83 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.UserId
   nameWithType: TaskAddFromSuggestionProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1
+  name: TaskAddNonSuggestProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1
+  nameWithType: TaskAddNonSuggestProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.#ctor(System.String,System.String,System.String)
+  name: TaskAddNonSuggestProtocolMessageV1(string, string, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddNonSuggestProtocolMessageV1__ctor_System_String_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.#ctor(System.String,System.String,System.String)
+  name.vb: New(String, String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.TaskAddNonSuggestProtocolMessageV1(string, string, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.New(String, String, String)
+  nameWithType: TaskAddNonSuggestProtocolMessageV1.TaskAddNonSuggestProtocolMessageV1(string, string, string?)
+  nameWithType.vb: TaskAddNonSuggestProtocolMessageV1.New(String, String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.#ctor*
+  name: TaskAddNonSuggestProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddNonSuggestProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.TaskAddNonSuggestProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.New
+  nameWithType: TaskAddNonSuggestProtocolMessageV1.TaskAddNonSuggestProtocolMessageV1
+  nameWithType.vb: TaskAddNonSuggestProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.ClientMarker
+  name: ClientMarker
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddNonSuggestProtocolMessageV1_ClientMarker
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.ClientMarker
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.ClientMarker
+  nameWithType: TaskAddNonSuggestProtocolMessageV1.ClientMarker
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.ClientMarker*
+  name: ClientMarker
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddNonSuggestProtocolMessageV1_ClientMarker_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.ClientMarker
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.ClientMarker
+  nameWithType: TaskAddNonSuggestProtocolMessageV1.ClientMarker
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.MessageName
+  name: MessageName
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddNonSuggestProtocolMessageV1_MessageName
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.MessageName
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.MessageName
+  nameWithType: TaskAddNonSuggestProtocolMessageV1.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.MessageName*
+  name: MessageName
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddNonSuggestProtocolMessageV1_MessageName_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.MessageName
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.MessageName
+  nameWithType: TaskAddNonSuggestProtocolMessageV1.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.TaskId
+  name: TaskId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddNonSuggestProtocolMessageV1_TaskId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.TaskId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.TaskId
+  nameWithType: TaskAddNonSuggestProtocolMessageV1.TaskId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.TaskId*
+  name: TaskId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddNonSuggestProtocolMessageV1_TaskId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.TaskId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.TaskId
+  nameWithType: TaskAddNonSuggestProtocolMessageV1.TaskId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddNonSuggestProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.UserId
+  nameWithType: TaskAddNonSuggestProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddNonSuggestProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.UserId
+  nameWithType: TaskAddNonSuggestProtocolMessageV1.UserId
 - uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1
   name: TaskCompleteProtocolMessageV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.html
