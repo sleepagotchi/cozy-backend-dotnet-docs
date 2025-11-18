@@ -2119,6 +2119,19 @@ references:
   commentId: T:SharedLibrary.Data.Adventures.AdventureBase
   fullName: SharedLibrary.Data.Adventures.AdventureBase
   nameWithType: AdventureBase
+- uid: SharedLibrary.Data.Adventures.AdventureBase.AdditionalRewardChance
+  name: AdditionalRewardChance
+  href: api/api/SharedLibrary.Data.Adventures.AdventureBase.html#SharedLibrary_Data_Adventures_AdventureBase_AdditionalRewardChance
+  commentId: P:SharedLibrary.Data.Adventures.AdventureBase.AdditionalRewardChance
+  fullName: SharedLibrary.Data.Adventures.AdventureBase.AdditionalRewardChance
+  nameWithType: AdventureBase.AdditionalRewardChance
+- uid: SharedLibrary.Data.Adventures.AdventureBase.AdditionalRewardChance*
+  name: AdditionalRewardChance
+  href: api/api/SharedLibrary.Data.Adventures.AdventureBase.html#SharedLibrary_Data_Adventures_AdventureBase_AdditionalRewardChance_
+  commentId: Overload:SharedLibrary.Data.Adventures.AdventureBase.AdditionalRewardChance
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Adventures.AdventureBase.AdditionalRewardChance
+  nameWithType: AdventureBase.AdditionalRewardChance
 - uid: SharedLibrary.Data.Adventures.AdventureBase.Id
   name: Id
   href: api/api/SharedLibrary.Data.Adventures.AdventureBase.html#SharedLibrary_Data_Adventures_AdventureBase_Id
