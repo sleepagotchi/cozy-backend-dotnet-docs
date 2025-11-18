@@ -4467,6 +4467,35 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Extensions.PlayerRandom.Clone
   nameWithType: PlayerRandom.Clone
+- uid: SharedLibrary.Extensions.PlayerRandom.GetDouble
+  name: GetDouble()
+  href: api/api/SharedLibrary.Extensions.PlayerRandom.html#SharedLibrary_Extensions_PlayerRandom_GetDouble
+  commentId: M:SharedLibrary.Extensions.PlayerRandom.GetDouble
+  fullName: SharedLibrary.Extensions.PlayerRandom.GetDouble()
+  nameWithType: PlayerRandom.GetDouble()
+- uid: SharedLibrary.Extensions.PlayerRandom.GetDouble*
+  name: GetDouble
+  href: api/api/SharedLibrary.Extensions.PlayerRandom.html#SharedLibrary_Extensions_PlayerRandom_GetDouble_
+  commentId: Overload:SharedLibrary.Extensions.PlayerRandom.GetDouble
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.PlayerRandom.GetDouble
+  nameWithType: PlayerRandom.GetDouble
+- uid: SharedLibrary.Extensions.PlayerRandom.Next(System.Int32)
+  name: Next(int)
+  href: api/api/SharedLibrary.Extensions.PlayerRandom.html#SharedLibrary_Extensions_PlayerRandom_Next_System_Int32_
+  commentId: M:SharedLibrary.Extensions.PlayerRandom.Next(System.Int32)
+  name.vb: Next(Integer)
+  fullName: SharedLibrary.Extensions.PlayerRandom.Next(int)
+  fullName.vb: SharedLibrary.Extensions.PlayerRandom.Next(Integer)
+  nameWithType: PlayerRandom.Next(int)
+  nameWithType.vb: PlayerRandom.Next(Integer)
+- uid: SharedLibrary.Extensions.PlayerRandom.Next*
+  name: Next
+  href: api/api/SharedLibrary.Extensions.PlayerRandom.html#SharedLibrary_Extensions_PlayerRandom_Next_
+  commentId: Overload:SharedLibrary.Extensions.PlayerRandom.Next
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.PlayerRandom.Next
+  nameWithType: PlayerRandom.Next
 - uid: SharedLibrary.Extensions.PlayerRandom.Random
   name: Random
   href: api/api/SharedLibrary.Extensions.PlayerRandom.html#SharedLibrary_Extensions_PlayerRandom_Random
