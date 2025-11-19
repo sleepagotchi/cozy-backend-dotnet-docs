@@ -1622,6 +1622,90 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticBuyItemProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticBuyItemProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticBuyItemProtocolMessageV1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticEquipProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticEquipProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticEquipProtocolMessageV1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticToggleFavoriteProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticToggleFavoriteProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticToggleFavoriteProtocolMessageV1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticUnequipItemProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticUnequipItemProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticUnequipItemProtocolMessageV1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Cosmetic",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.yml",
       "output": {
         ".html": {
