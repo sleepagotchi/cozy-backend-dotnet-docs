@@ -120,7 +120,7 @@
   <h6><strong>Assembly</strong>: SharedLibrary.dll</h6>
   <h5 id="SharedLibrary_Commands_Cosmetic_CosmeticBuyItemCommand_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CosmeticBuyItemCommand : CommandBase&lt;CosmeticBuyItemArgs, (Player, bool, CosmeticItem)&gt;, ICommand&lt;CosmeticBuyItemArgs, (Player, bool, CosmeticItem)&gt;, ICommandBase</code></pre>
+    <pre><code class="lang-csharp hljs">public class CosmeticBuyItemCommand : CommandBase&lt;CosmeticBuyItemArgs, (Player, bool, CosmeticItem?)&gt;, ICommand&lt;CosmeticBuyItemArgs, (Player, bool, CosmeticItem?)&gt;, ICommandBase</code></pre>
   </div>
   <h3 id="methods">Methods
 </h3>
@@ -138,7 +138,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override (Player, bool, CosmeticItem) Execute(CosmeticBuyItemArgs args)</code></pre>
+    <pre><code class="lang-csharp hljs">public override (Player, bool, CosmeticItem?) Execute(CosmeticBuyItemArgs args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -173,7 +173,7 @@
 <ul>
 <li>The updated player object after the operation.</li>
 <li>A boolean indicating whether the purchase was successful.</li>
-<li>The purchased cosmetic item.</li>
+<li>The purchased cosmetic item, or null if the purchase was unsuccessful.</li>
 </ul>
 </td>
       </tr>
