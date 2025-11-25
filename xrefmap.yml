@@ -5845,19 +5845,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.ClientMarker
   nameWithType: BaseProtocolMessage.ClientMarker
-- uid: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.MessageName
-  name: MessageName
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_BaseProtocolMessage_MessageName
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.MessageName
-  fullName: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.MessageName
-  nameWithType: BaseProtocolMessage.MessageName
-- uid: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.MessageName*
-  name: MessageName
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_BaseProtocolMessage_MessageName_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_BaseProtocolMessage_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.MessageType
+  nameWithType: BaseProtocolMessage.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_BaseProtocolMessage_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.MessageType
   isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.MessageName
-  nameWithType: BaseProtocolMessage.MessageName
+  fullName: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.MessageType
+  nameWithType: BaseProtocolMessage.MessageType
 - uid: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.ValidateClientMarker(System.String)
   name: ValidateClientMarker(string?)
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_BaseProtocolMessage_ValidateClientMarker_System_String_
@@ -5918,19 +5918,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.ItemId
   nameWithType: AddCosmeticItemProtocolMessageV1.ItemId
-- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.MessageName
-  name: MessageName
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_AddCosmeticItemProtocolMessageV1_MessageName
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.MessageName
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.MessageName
-  nameWithType: AddCosmeticItemProtocolMessageV1.MessageName
-- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.MessageName*
-  name: MessageName
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_AddCosmeticItemProtocolMessageV1_MessageName_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_AddCosmeticItemProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.MessageType
+  nameWithType: AddCosmeticItemProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_AddCosmeticItemProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.MessageType
   isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.MessageName
-  nameWithType: AddCosmeticItemProtocolMessageV1.MessageName
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.MessageType
+  nameWithType: AddCosmeticItemProtocolMessageV1.MessageType
 - uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.UserId
   name: UserId
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_AddCosmeticItemProtocolMessageV1_UserId
@@ -5982,19 +5982,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticBuyItemProtocolMessageV1.ItemId
   nameWithType: CosmeticBuyItemProtocolMessageV1.ItemId
-- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticBuyItemProtocolMessageV1.MessageName
-  name: MessageName
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticBuyItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticBuyItemProtocolMessageV1_MessageName
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticBuyItemProtocolMessageV1.MessageName
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticBuyItemProtocolMessageV1.MessageName
-  nameWithType: CosmeticBuyItemProtocolMessageV1.MessageName
-- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticBuyItemProtocolMessageV1.MessageName*
-  name: MessageName
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticBuyItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticBuyItemProtocolMessageV1_MessageName_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticBuyItemProtocolMessageV1.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticBuyItemProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticBuyItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticBuyItemProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticBuyItemProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticBuyItemProtocolMessageV1.MessageType
+  nameWithType: CosmeticBuyItemProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticBuyItemProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticBuyItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticBuyItemProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticBuyItemProtocolMessageV1.MessageType
   isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticBuyItemProtocolMessageV1.MessageName
-  nameWithType: CosmeticBuyItemProtocolMessageV1.MessageName
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticBuyItemProtocolMessageV1.MessageType
+  nameWithType: CosmeticBuyItemProtocolMessageV1.MessageType
 - uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticBuyItemProtocolMessageV1.UserId
   name: UserId
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticBuyItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticBuyItemProtocolMessageV1_UserId
@@ -6046,19 +6046,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticEquipProtocolMessageV1.ItemId
   nameWithType: CosmeticEquipProtocolMessageV1.ItemId
-- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticEquipProtocolMessageV1.MessageName
-  name: MessageName
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticEquipProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticEquipProtocolMessageV1_MessageName
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticEquipProtocolMessageV1.MessageName
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticEquipProtocolMessageV1.MessageName
-  nameWithType: CosmeticEquipProtocolMessageV1.MessageName
-- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticEquipProtocolMessageV1.MessageName*
-  name: MessageName
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticEquipProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticEquipProtocolMessageV1_MessageName_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticEquipProtocolMessageV1.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticEquipProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticEquipProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticEquipProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticEquipProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticEquipProtocolMessageV1.MessageType
+  nameWithType: CosmeticEquipProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticEquipProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticEquipProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticEquipProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticEquipProtocolMessageV1.MessageType
   isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticEquipProtocolMessageV1.MessageName
-  nameWithType: CosmeticEquipProtocolMessageV1.MessageName
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticEquipProtocolMessageV1.MessageType
+  nameWithType: CosmeticEquipProtocolMessageV1.MessageType
 - uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticEquipProtocolMessageV1.UserId
   name: UserId
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticEquipProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticEquipProtocolMessageV1_UserId
@@ -6110,19 +6110,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticToggleFavoriteProtocolMessageV1.ItemId
   nameWithType: CosmeticToggleFavoriteProtocolMessageV1.ItemId
-- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticToggleFavoriteProtocolMessageV1.MessageName
-  name: MessageName
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticToggleFavoriteProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticToggleFavoriteProtocolMessageV1_MessageName
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticToggleFavoriteProtocolMessageV1.MessageName
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticToggleFavoriteProtocolMessageV1.MessageName
-  nameWithType: CosmeticToggleFavoriteProtocolMessageV1.MessageName
-- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticToggleFavoriteProtocolMessageV1.MessageName*
-  name: MessageName
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticToggleFavoriteProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticToggleFavoriteProtocolMessageV1_MessageName_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticToggleFavoriteProtocolMessageV1.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticToggleFavoriteProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticToggleFavoriteProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticToggleFavoriteProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticToggleFavoriteProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticToggleFavoriteProtocolMessageV1.MessageType
+  nameWithType: CosmeticToggleFavoriteProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticToggleFavoriteProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticToggleFavoriteProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticToggleFavoriteProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticToggleFavoriteProtocolMessageV1.MessageType
   isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticToggleFavoriteProtocolMessageV1.MessageName
-  nameWithType: CosmeticToggleFavoriteProtocolMessageV1.MessageName
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticToggleFavoriteProtocolMessageV1.MessageType
+  nameWithType: CosmeticToggleFavoriteProtocolMessageV1.MessageType
 - uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticToggleFavoriteProtocolMessageV1.UserId
   name: UserId
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticToggleFavoriteProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticToggleFavoriteProtocolMessageV1_UserId
@@ -6174,19 +6174,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticUnequipItemProtocolMessageV1.ItemId
   nameWithType: CosmeticUnequipItemProtocolMessageV1.ItemId
-- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticUnequipItemProtocolMessageV1.MessageName
-  name: MessageName
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticUnequipItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticUnequipItemProtocolMessageV1_MessageName
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticUnequipItemProtocolMessageV1.MessageName
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticUnequipItemProtocolMessageV1.MessageName
-  nameWithType: CosmeticUnequipItemProtocolMessageV1.MessageName
-- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticUnequipItemProtocolMessageV1.MessageName*
-  name: MessageName
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticUnequipItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticUnequipItemProtocolMessageV1_MessageName_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticUnequipItemProtocolMessageV1.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticUnequipItemProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticUnequipItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticUnequipItemProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticUnequipItemProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticUnequipItemProtocolMessageV1.MessageType
+  nameWithType: CosmeticUnequipItemProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticUnequipItemProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticUnequipItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticUnequipItemProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticUnequipItemProtocolMessageV1.MessageType
   isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticUnequipItemProtocolMessageV1.MessageName
-  nameWithType: CosmeticUnequipItemProtocolMessageV1.MessageName
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticUnequipItemProtocolMessageV1.MessageType
+  nameWithType: CosmeticUnequipItemProtocolMessageV1.MessageType
 - uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticUnequipItemProtocolMessageV1.UserId
   name: UserId
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticUnequipItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticUnequipItemProtocolMessageV1_UserId
@@ -6219,19 +6219,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.ClientMarker
   nameWithType: IProtocolMessage.ClientMarker
-- uid: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.MessageName
-  name: MessageName
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_IProtocolMessage_MessageName
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.MessageName
-  fullName: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.MessageName
-  nameWithType: IProtocolMessage.MessageName
-- uid: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.MessageName*
-  name: MessageName
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_IProtocolMessage_MessageName_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_IProtocolMessage_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.MessageType
+  nameWithType: IProtocolMessage.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_IProtocolMessage_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.MessageType
   isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.MessageName
-  nameWithType: IProtocolMessage.MessageName
+  fullName: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.MessageType
+  nameWithType: IProtocolMessage.MessageType
 - uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo
   name: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.html
@@ -6276,19 +6276,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.ClientMarker
   nameWithType: PlayerInfoChangeNameProtocolMessageV1.ClientMarker
-- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.MessageName
-  name: MessageName
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeNameProtocolMessageV1_MessageName
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.MessageName
-  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.MessageName
-  nameWithType: PlayerInfoChangeNameProtocolMessageV1.MessageName
-- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.MessageName*
-  name: MessageName
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeNameProtocolMessageV1_MessageName_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeNameProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.MessageType
+  nameWithType: PlayerInfoChangeNameProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeNameProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.MessageType
   isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.MessageName
-  nameWithType: PlayerInfoChangeNameProtocolMessageV1.MessageName
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.MessageType
+  nameWithType: PlayerInfoChangeNameProtocolMessageV1.MessageType
 - uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.UserId
   name: UserId
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeNameProtocolMessageV1_UserId
@@ -6315,96 +6315,96 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.Username
   nameWithType: PlayerInfoChangeNameProtocolMessageV1.Username
-- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames
-  name: ProtocolMessageNames
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.html
-  commentId: T:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames
-  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames
-  nameWithType: ProtocolMessageNames
-- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.AddCosmeticItemCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes
+  name: ProtocolMessageTypes
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes
+  nameWithType: ProtocolMessageTypes
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.AddCosmeticItemCommandV1
   name: AddCosmeticItemCommandV1
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageNames_AddCosmeticItemCommandV1
-  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.AddCosmeticItemCommandV1
-  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.AddCosmeticItemCommandV1
-  nameWithType: ProtocolMessageNames.AddCosmeticItemCommandV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.CosmeticBuyItemCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_AddCosmeticItemCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.AddCosmeticItemCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.AddCosmeticItemCommandV1
+  nameWithType: ProtocolMessageTypes.AddCosmeticItemCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticBuyItemCommandV1
   name: CosmeticBuyItemCommandV1
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageNames_CosmeticBuyItemCommandV1
-  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.CosmeticBuyItemCommandV1
-  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.CosmeticBuyItemCommandV1
-  nameWithType: ProtocolMessageNames.CosmeticBuyItemCommandV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.CosmeticEquipCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_CosmeticBuyItemCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticBuyItemCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticBuyItemCommandV1
+  nameWithType: ProtocolMessageTypes.CosmeticBuyItemCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticEquipCommandV1
   name: CosmeticEquipCommandV1
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageNames_CosmeticEquipCommandV1
-  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.CosmeticEquipCommandV1
-  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.CosmeticEquipCommandV1
-  nameWithType: ProtocolMessageNames.CosmeticEquipCommandV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.CosmeticToggleFavoriteCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_CosmeticEquipCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticEquipCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticEquipCommandV1
+  nameWithType: ProtocolMessageTypes.CosmeticEquipCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticToggleFavoriteCommandV1
   name: CosmeticToggleFavoriteCommandV1
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageNames_CosmeticToggleFavoriteCommandV1
-  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.CosmeticToggleFavoriteCommandV1
-  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.CosmeticToggleFavoriteCommandV1
-  nameWithType: ProtocolMessageNames.CosmeticToggleFavoriteCommandV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.CosmeticUnequipItemCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_CosmeticToggleFavoriteCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticToggleFavoriteCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticToggleFavoriteCommandV1
+  nameWithType: ProtocolMessageTypes.CosmeticToggleFavoriteCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticUnequipItemCommandV1
   name: CosmeticUnequipItemCommandV1
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageNames_CosmeticUnequipItemCommandV1
-  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.CosmeticUnequipItemCommandV1
-  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.CosmeticUnequipItemCommandV1
-  nameWithType: ProtocolMessageNames.CosmeticUnequipItemCommandV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.PlayerInfoChangeNameCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_CosmeticUnequipItemCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticUnequipItemCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticUnequipItemCommandV1
+  nameWithType: ProtocolMessageTypes.CosmeticUnequipItemCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoChangeNameCommandV1
   name: PlayerInfoChangeNameCommandV1
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageNames_PlayerInfoChangeNameCommandV1
-  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.PlayerInfoChangeNameCommandV1
-  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.PlayerInfoChangeNameCommandV1
-  nameWithType: ProtocolMessageNames.PlayerInfoChangeNameCommandV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskAddFromSuggestionCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PlayerInfoChangeNameCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoChangeNameCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoChangeNameCommandV1
+  nameWithType: ProtocolMessageTypes.PlayerInfoChangeNameCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskAddFromSuggestionCommandV1
   name: TaskAddFromSuggestionCommandV1
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageNames_TaskAddFromSuggestionCommandV1
-  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskAddFromSuggestionCommandV1
-  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskAddFromSuggestionCommandV1
-  nameWithType: ProtocolMessageNames.TaskAddFromSuggestionCommandV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskAddNonSuggestCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TaskAddFromSuggestionCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskAddFromSuggestionCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskAddFromSuggestionCommandV1
+  nameWithType: ProtocolMessageTypes.TaskAddFromSuggestionCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskAddNonSuggestCommandV1
   name: TaskAddNonSuggestCommandV1
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageNames_TaskAddNonSuggestCommandV1
-  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskAddNonSuggestCommandV1
-  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskAddNonSuggestCommandV1
-  nameWithType: ProtocolMessageNames.TaskAddNonSuggestCommandV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskCompleteCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TaskAddNonSuggestCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskAddNonSuggestCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskAddNonSuggestCommandV1
+  nameWithType: ProtocolMessageTypes.TaskAddNonSuggestCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskCompleteCommandV1
   name: TaskCompleteCommandV1
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageNames_TaskCompleteCommandV1
-  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskCompleteCommandV1
-  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskCompleteCommandV1
-  nameWithType: ProtocolMessageNames.TaskCompleteCommandV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskCreateCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TaskCompleteCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskCompleteCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskCompleteCommandV1
+  nameWithType: ProtocolMessageTypes.TaskCompleteCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskCreateCommandV1
   name: TaskCreateCommandV1
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageNames_TaskCreateCommandV1
-  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskCreateCommandV1
-  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskCreateCommandV1
-  nameWithType: ProtocolMessageNames.TaskCreateCommandV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskGetPlayerTasksCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TaskCreateCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskCreateCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskCreateCommandV1
+  nameWithType: ProtocolMessageTypes.TaskCreateCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskGetPlayerTasksCommandV1
   name: TaskGetPlayerTasksCommandV1
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageNames_TaskGetPlayerTasksCommandV1
-  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskGetPlayerTasksCommandV1
-  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskGetPlayerTasksCommandV1
-  nameWithType: ProtocolMessageNames.TaskGetPlayerTasksCommandV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskRemoveCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TaskGetPlayerTasksCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskGetPlayerTasksCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskGetPlayerTasksCommandV1
+  nameWithType: ProtocolMessageTypes.TaskGetPlayerTasksCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskRemoveCommandV1
   name: TaskRemoveCommandV1
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageNames_TaskRemoveCommandV1
-  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskRemoveCommandV1
-  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskRemoveCommandV1
-  nameWithType: ProtocolMessageNames.TaskRemoveCommandV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskUpdateCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TaskRemoveCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskRemoveCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskRemoveCommandV1
+  nameWithType: ProtocolMessageTypes.TaskRemoveCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskUpdateCommandV1
   name: TaskUpdateCommandV1
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageNames_TaskUpdateCommandV1
-  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskUpdateCommandV1
-  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.TaskUpdateCommandV1
-  nameWithType: ProtocolMessageNames.TaskUpdateCommandV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.UserRegisterCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TaskUpdateCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskUpdateCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskUpdateCommandV1
+  nameWithType: ProtocolMessageTypes.TaskUpdateCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.UserRegisterCommandV1
   name: UserRegisterCommandV1
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageNames_UserRegisterCommandV1
-  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.UserRegisterCommandV1
-  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.UserRegisterCommandV1
-  nameWithType: ProtocolMessageNames.UserRegisterCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_UserRegisterCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.UserRegisterCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.UserRegisterCommandV1
+  nameWithType: ProtocolMessageTypes.UserRegisterCommandV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.Tasks
   name: SharedLibrary.Protocol.ProtocolMessages.Tasks
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.html
@@ -6449,19 +6449,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.ClientMarker
   nameWithType: TaskAddFromSuggestionProtocolMessageV1.ClientMarker
-- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.MessageName
-  name: MessageName
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddFromSuggestionProtocolMessageV1_MessageName
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.MessageName
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.MessageName
-  nameWithType: TaskAddFromSuggestionProtocolMessageV1.MessageName
-- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.MessageName*
-  name: MessageName
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddFromSuggestionProtocolMessageV1_MessageName_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddFromSuggestionProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.MessageType
+  nameWithType: TaskAddFromSuggestionProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddFromSuggestionProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.MessageType
   isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.MessageName
-  nameWithType: TaskAddFromSuggestionProtocolMessageV1.MessageName
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.MessageType
+  nameWithType: TaskAddFromSuggestionProtocolMessageV1.MessageType
 - uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.TaskId
   name: TaskId
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddFromSuggestionProtocolMessageV1_TaskId
@@ -6526,19 +6526,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.ClientMarker
   nameWithType: TaskAddNonSuggestProtocolMessageV1.ClientMarker
-- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.MessageName
-  name: MessageName
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddNonSuggestProtocolMessageV1_MessageName
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.MessageName
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.MessageName
-  nameWithType: TaskAddNonSuggestProtocolMessageV1.MessageName
-- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.MessageName*
-  name: MessageName
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddNonSuggestProtocolMessageV1_MessageName_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddNonSuggestProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.MessageType
+  nameWithType: TaskAddNonSuggestProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddNonSuggestProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.MessageType
   isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.MessageName
-  nameWithType: TaskAddNonSuggestProtocolMessageV1.MessageName
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.MessageType
+  nameWithType: TaskAddNonSuggestProtocolMessageV1.MessageType
 - uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.TaskId
   name: TaskId
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddNonSuggestProtocolMessageV1_TaskId
@@ -6590,19 +6590,19 @@ references:
   fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.New
   nameWithType: TaskCompleteProtocolMessageV1.TaskCompleteProtocolMessageV1
   nameWithType.vb: TaskCompleteProtocolMessageV1.New
-- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.MessageName
-  name: MessageName
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskCompleteProtocolMessageV1_MessageName
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.MessageName
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.MessageName
-  nameWithType: TaskCompleteProtocolMessageV1.MessageName
-- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.MessageName*
-  name: MessageName
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskCompleteProtocolMessageV1_MessageName_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskCompleteProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.MessageType
+  nameWithType: TaskCompleteProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskCompleteProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.MessageType
   isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.MessageName
-  nameWithType: TaskCompleteProtocolMessageV1.MessageName
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.MessageType
+  nameWithType: TaskCompleteProtocolMessageV1.MessageType
 - uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.TaskId
   name: TaskId
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskCompleteProtocolMessageV1_TaskId
@@ -6654,19 +6654,19 @@ references:
   fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.New
   nameWithType: TaskCreateProtocolMessageV1.TaskCreateProtocolMessageV1
   nameWithType.vb: TaskCreateProtocolMessageV1.New
-- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.MessageName
-  name: MessageName
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskCreateProtocolMessageV1_MessageName
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.MessageName
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.MessageName
-  nameWithType: TaskCreateProtocolMessageV1.MessageName
-- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.MessageName*
-  name: MessageName
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskCreateProtocolMessageV1_MessageName_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskCreateProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.MessageType
+  nameWithType: TaskCreateProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskCreateProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.MessageType
   isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.MessageName
-  nameWithType: TaskCreateProtocolMessageV1.MessageName
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.MessageType
+  nameWithType: TaskCreateProtocolMessageV1.MessageType
 - uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.Task
   name: Task
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskCreateProtocolMessageV1_Task
@@ -6718,19 +6718,19 @@ references:
   fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.New
   nameWithType: TaskRemoveProtocolMessageV1.TaskRemoveProtocolMessageV1
   nameWithType.vb: TaskRemoveProtocolMessageV1.New
-- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.MessageName
-  name: MessageName
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskRemoveProtocolMessageV1_MessageName
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.MessageName
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.MessageName
-  nameWithType: TaskRemoveProtocolMessageV1.MessageName
-- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.MessageName*
-  name: MessageName
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskRemoveProtocolMessageV1_MessageName_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskRemoveProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.MessageType
+  nameWithType: TaskRemoveProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskRemoveProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.MessageType
   isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.MessageName
-  nameWithType: TaskRemoveProtocolMessageV1.MessageName
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.MessageType
+  nameWithType: TaskRemoveProtocolMessageV1.MessageType
 - uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.TaskId
   name: TaskId
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskRemoveProtocolMessageV1_TaskId
@@ -6782,19 +6782,19 @@ references:
   fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.New
   nameWithType: TaskUpdateProtocolMessageV1.TaskUpdateProtocolMessageV1
   nameWithType.vb: TaskUpdateProtocolMessageV1.New
-- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.MessageName
-  name: MessageName
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskUpdateProtocolMessageV1_MessageName
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.MessageName
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.MessageName
-  nameWithType: TaskUpdateProtocolMessageV1.MessageName
-- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.MessageName*
-  name: MessageName
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskUpdateProtocolMessageV1_MessageName_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskUpdateProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.MessageType
+  nameWithType: TaskUpdateProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskUpdateProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.MessageType
   isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.MessageName
-  nameWithType: TaskUpdateProtocolMessageV1.MessageName
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.MessageType
+  nameWithType: TaskUpdateProtocolMessageV1.MessageType
 - uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.Task
   name: Task
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskUpdateProtocolMessageV1_Task
@@ -6852,19 +6852,19 @@ references:
   fullName.vb: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.New
   nameWithType: UserRegisterProtocolMessageV1.UserRegisterProtocolMessageV1
   nameWithType.vb: UserRegisterProtocolMessageV1.New
-- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.MessageName
-  name: MessageName
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserRegisterProtocolMessageV1_MessageName
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.MessageName
-  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.MessageName
-  nameWithType: UserRegisterProtocolMessageV1.MessageName
-- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.MessageName*
-  name: MessageName
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserRegisterProtocolMessageV1_MessageName_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.MessageName
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserRegisterProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.MessageType
+  nameWithType: UserRegisterProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserRegisterProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.MessageType
   isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.MessageName
-  nameWithType: UserRegisterProtocolMessageV1.MessageName
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.MessageType
+  nameWithType: UserRegisterProtocolMessageV1.MessageType
 - uid: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.UserId
   name: UserId
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserRegisterProtocolMessageV1_UserId

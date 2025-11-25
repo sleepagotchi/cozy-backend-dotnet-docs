@@ -1748,17 +1748,17 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.yml",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.yml",
       "output": {
         ".html": {
-          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.html"
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames",
-      "Summary": "<p sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.yml\" sourcestartlinenumber=\"1\">Should be considered as an enum with protocol message names.\nUnfortunately, C# doesn't support enums with string values.</p>\n<p sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageNames.yml\" sourcestartlinenumber=\"4\">Note: all the names are following ENTITY_ACTION_TYPE/VERSION convention.</p>\n"
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.yml\" sourcestartlinenumber=\"1\">Should be considered as an enum with protocol message types.\nUnfortunately, C# doesn't support enums with string values.</p>\n<p sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.yml\" sourcestartlinenumber=\"4\">Note: all the names are following ENTITY_ACTION_TYPE/VERSION convention.</p>\n"
     },
     {
       "type": "ManagedReference",
