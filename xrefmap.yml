@@ -6232,6 +6232,422 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.MessageType
   nameWithType: IProtocolMessage.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items
+  name: SharedLibrary.Protocol.ProtocolMessages.Items
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.html
+  commentId: N:SharedLibrary.Protocol.ProtocolMessages.Items
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items
+  nameWithType: SharedLibrary.Protocol.ProtocolMessages.Items
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1
+  name: ItemAddToPlayerProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1
+  nameWithType: ItemAddToPlayerProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.#ctor(System.String,System.String,System.String)
+  name: ItemAddToPlayerProtocolMessageV1(string, string, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemAddToPlayerProtocolMessageV1__ctor_System_String_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.#ctor(System.String,System.String,System.String)
+  name.vb: New(String, String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.ItemAddToPlayerProtocolMessageV1(string, string, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.New(String, String, String)
+  nameWithType: ItemAddToPlayerProtocolMessageV1.ItemAddToPlayerProtocolMessageV1(string, string, string?)
+  nameWithType.vb: ItemAddToPlayerProtocolMessageV1.New(String, String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.#ctor*
+  name: ItemAddToPlayerProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemAddToPlayerProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.ItemAddToPlayerProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.New
+  nameWithType: ItemAddToPlayerProtocolMessageV1.ItemAddToPlayerProtocolMessageV1
+  nameWithType.vb: ItemAddToPlayerProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.ItemId
+  name: ItemId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemAddToPlayerProtocolMessageV1_ItemId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.ItemId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.ItemId
+  nameWithType: ItemAddToPlayerProtocolMessageV1.ItemId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.ItemId*
+  name: ItemId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemAddToPlayerProtocolMessageV1_ItemId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.ItemId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.ItemId
+  nameWithType: ItemAddToPlayerProtocolMessageV1.ItemId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemAddToPlayerProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.MessageType
+  nameWithType: ItemAddToPlayerProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemAddToPlayerProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.MessageType
+  nameWithType: ItemAddToPlayerProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemAddToPlayerProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.UserId
+  nameWithType: ItemAddToPlayerProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemAddToPlayerProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemAddToPlayerProtocolMessageV1.UserId
+  nameWithType: ItemAddToPlayerProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1
+  name: ItemBuyProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1
+  nameWithType: ItemBuyProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.#ctor(System.String,System.String,System.String)
+  name: ItemBuyProtocolMessageV1(string, string, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemBuyProtocolMessageV1__ctor_System_String_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.#ctor(System.String,System.String,System.String)
+  name.vb: New(String, String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.ItemBuyProtocolMessageV1(string, string, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.New(String, String, String)
+  nameWithType: ItemBuyProtocolMessageV1.ItemBuyProtocolMessageV1(string, string, string?)
+  nameWithType.vb: ItemBuyProtocolMessageV1.New(String, String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.#ctor*
+  name: ItemBuyProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemBuyProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.ItemBuyProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.New
+  nameWithType: ItemBuyProtocolMessageV1.ItemBuyProtocolMessageV1
+  nameWithType.vb: ItemBuyProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.ItemId
+  name: ItemId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemBuyProtocolMessageV1_ItemId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.ItemId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.ItemId
+  nameWithType: ItemBuyProtocolMessageV1.ItemId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.ItemId*
+  name: ItemId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemBuyProtocolMessageV1_ItemId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.ItemId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.ItemId
+  nameWithType: ItemBuyProtocolMessageV1.ItemId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemBuyProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.MessageType
+  nameWithType: ItemBuyProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemBuyProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.MessageType
+  nameWithType: ItemBuyProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemBuyProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.UserId
+  nameWithType: ItemBuyProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemBuyProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemBuyProtocolMessageV1.UserId
+  nameWithType: ItemBuyProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1
+  name: ItemPlaceToIslandProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1
+  nameWithType: ItemPlaceToIslandProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.#ctor(System.String,System.String,System.String,System.String)
+  name: ItemPlaceToIslandProtocolMessageV1(string, string, string, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemPlaceToIslandProtocolMessageV1__ctor_System_String_System_String_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.#ctor(System.String,System.String,System.String,System.String)
+  name.vb: New(String, String, String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.ItemPlaceToIslandProtocolMessageV1(string, string, string, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.New(String, String, String, String)
+  nameWithType: ItemPlaceToIslandProtocolMessageV1.ItemPlaceToIslandProtocolMessageV1(string, string, string, string?)
+  nameWithType.vb: ItemPlaceToIslandProtocolMessageV1.New(String, String, String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.#ctor*
+  name: ItemPlaceToIslandProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemPlaceToIslandProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.ItemPlaceToIslandProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.New
+  nameWithType: ItemPlaceToIslandProtocolMessageV1.ItemPlaceToIslandProtocolMessageV1
+  nameWithType.vb: ItemPlaceToIslandProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.IslandId
+  name: IslandId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemPlaceToIslandProtocolMessageV1_IslandId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.IslandId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.IslandId
+  nameWithType: ItemPlaceToIslandProtocolMessageV1.IslandId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.IslandId*
+  name: IslandId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemPlaceToIslandProtocolMessageV1_IslandId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.IslandId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.IslandId
+  nameWithType: ItemPlaceToIslandProtocolMessageV1.IslandId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.ItemId
+  name: ItemId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemPlaceToIslandProtocolMessageV1_ItemId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.ItemId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.ItemId
+  nameWithType: ItemPlaceToIslandProtocolMessageV1.ItemId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.ItemId*
+  name: ItemId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemPlaceToIslandProtocolMessageV1_ItemId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.ItemId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.ItemId
+  nameWithType: ItemPlaceToIslandProtocolMessageV1.ItemId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemPlaceToIslandProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.MessageType
+  nameWithType: ItemPlaceToIslandProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemPlaceToIslandProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.MessageType
+  nameWithType: ItemPlaceToIslandProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemPlaceToIslandProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.UserId
+  nameWithType: ItemPlaceToIslandProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemPlaceToIslandProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemPlaceToIslandProtocolMessageV1.UserId
+  nameWithType: ItemPlaceToIslandProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1
+  name: ItemRemoveFromIslandProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1
+  nameWithType: ItemRemoveFromIslandProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.#ctor(System.String,System.String,System.String,System.String)
+  name: ItemRemoveFromIslandProtocolMessageV1(string, string, string, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemRemoveFromIslandProtocolMessageV1__ctor_System_String_System_String_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.#ctor(System.String,System.String,System.String,System.String)
+  name.vb: New(String, String, String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.ItemRemoveFromIslandProtocolMessageV1(string, string, string, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.New(String, String, String, String)
+  nameWithType: ItemRemoveFromIslandProtocolMessageV1.ItemRemoveFromIslandProtocolMessageV1(string, string, string, string?)
+  nameWithType.vb: ItemRemoveFromIslandProtocolMessageV1.New(String, String, String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.#ctor*
+  name: ItemRemoveFromIslandProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemRemoveFromIslandProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.ItemRemoveFromIslandProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.New
+  nameWithType: ItemRemoveFromIslandProtocolMessageV1.ItemRemoveFromIslandProtocolMessageV1
+  nameWithType.vb: ItemRemoveFromIslandProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.IslandId
+  name: IslandId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemRemoveFromIslandProtocolMessageV1_IslandId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.IslandId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.IslandId
+  nameWithType: ItemRemoveFromIslandProtocolMessageV1.IslandId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.IslandId*
+  name: IslandId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemRemoveFromIslandProtocolMessageV1_IslandId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.IslandId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.IslandId
+  nameWithType: ItemRemoveFromIslandProtocolMessageV1.IslandId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.ItemId
+  name: ItemId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemRemoveFromIslandProtocolMessageV1_ItemId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.ItemId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.ItemId
+  nameWithType: ItemRemoveFromIslandProtocolMessageV1.ItemId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.ItemId*
+  name: ItemId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemRemoveFromIslandProtocolMessageV1_ItemId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.ItemId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.ItemId
+  nameWithType: ItemRemoveFromIslandProtocolMessageV1.ItemId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemRemoveFromIslandProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.MessageType
+  nameWithType: ItemRemoveFromIslandProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemRemoveFromIslandProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.MessageType
+  nameWithType: ItemRemoveFromIslandProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemRemoveFromIslandProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.UserId
+  nameWithType: ItemRemoveFromIslandProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemRemoveFromIslandProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromIslandProtocolMessageV1.UserId
+  nameWithType: ItemRemoveFromIslandProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1
+  name: ItemRemoveFromPlayerProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1
+  nameWithType: ItemRemoveFromPlayerProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.#ctor(System.String,System.String,System.String)
+  name: ItemRemoveFromPlayerProtocolMessageV1(string, string, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemRemoveFromPlayerProtocolMessageV1__ctor_System_String_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.#ctor(System.String,System.String,System.String)
+  name.vb: New(String, String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.ItemRemoveFromPlayerProtocolMessageV1(string, string, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.New(String, String, String)
+  nameWithType: ItemRemoveFromPlayerProtocolMessageV1.ItemRemoveFromPlayerProtocolMessageV1(string, string, string?)
+  nameWithType.vb: ItemRemoveFromPlayerProtocolMessageV1.New(String, String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.#ctor*
+  name: ItemRemoveFromPlayerProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemRemoveFromPlayerProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.ItemRemoveFromPlayerProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.New
+  nameWithType: ItemRemoveFromPlayerProtocolMessageV1.ItemRemoveFromPlayerProtocolMessageV1
+  nameWithType.vb: ItemRemoveFromPlayerProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.ItemId
+  name: ItemId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemRemoveFromPlayerProtocolMessageV1_ItemId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.ItemId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.ItemId
+  nameWithType: ItemRemoveFromPlayerProtocolMessageV1.ItemId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.ItemId*
+  name: ItemId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemRemoveFromPlayerProtocolMessageV1_ItemId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.ItemId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.ItemId
+  nameWithType: ItemRemoveFromPlayerProtocolMessageV1.ItemId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemRemoveFromPlayerProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.MessageType
+  nameWithType: ItemRemoveFromPlayerProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemRemoveFromPlayerProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.MessageType
+  nameWithType: ItemRemoveFromPlayerProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemRemoveFromPlayerProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.UserId
+  nameWithType: ItemRemoveFromPlayerProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemRemoveFromPlayerProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemRemoveFromPlayerProtocolMessageV1.UserId
+  nameWithType: ItemRemoveFromPlayerProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1
+  name: ItemUpgradeProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1
+  nameWithType: ItemUpgradeProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.#ctor(System.String,System.String,System.String)
+  name: ItemUpgradeProtocolMessageV1(string, string, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemUpgradeProtocolMessageV1__ctor_System_String_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.#ctor(System.String,System.String,System.String)
+  name.vb: New(String, String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.ItemUpgradeProtocolMessageV1(string, string, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.New(String, String, String)
+  nameWithType: ItemUpgradeProtocolMessageV1.ItemUpgradeProtocolMessageV1(string, string, string?)
+  nameWithType.vb: ItemUpgradeProtocolMessageV1.New(String, String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.#ctor*
+  name: ItemUpgradeProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemUpgradeProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.ItemUpgradeProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.New
+  nameWithType: ItemUpgradeProtocolMessageV1.ItemUpgradeProtocolMessageV1
+  nameWithType.vb: ItemUpgradeProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.ItemId
+  name: ItemId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemUpgradeProtocolMessageV1_ItemId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.ItemId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.ItemId
+  nameWithType: ItemUpgradeProtocolMessageV1.ItemId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.ItemId*
+  name: ItemId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemUpgradeProtocolMessageV1_ItemId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.ItemId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.ItemId
+  nameWithType: ItemUpgradeProtocolMessageV1.ItemId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemUpgradeProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.MessageType
+  nameWithType: ItemUpgradeProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemUpgradeProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.MessageType
+  nameWithType: ItemUpgradeProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemUpgradeProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.UserId
+  nameWithType: ItemUpgradeProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Items_ItemUpgradeProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Items.ItemUpgradeProtocolMessageV1.UserId
+  nameWithType: ItemUpgradeProtocolMessageV1.UserId
 - uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo
   name: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.html
@@ -6351,6 +6767,42 @@ references:
   commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticUnequipItemCommandV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticUnequipItemCommandV1
   nameWithType: ProtocolMessageTypes.CosmeticUnequipItemCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemAddToPlayerCommandV1
+  name: ItemAddToPlayerCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_ItemAddToPlayerCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemAddToPlayerCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemAddToPlayerCommandV1
+  nameWithType: ProtocolMessageTypes.ItemAddToPlayerCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemBuyCommandV1
+  name: ItemBuyCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_ItemBuyCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemBuyCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemBuyCommandV1
+  nameWithType: ProtocolMessageTypes.ItemBuyCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemPlaceToIslandCommandV1
+  name: ItemPlaceToIslandCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_ItemPlaceToIslandCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemPlaceToIslandCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemPlaceToIslandCommandV1
+  nameWithType: ProtocolMessageTypes.ItemPlaceToIslandCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemRemoveFromIslandCommandV1
+  name: ItemRemoveFromIslandCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_ItemRemoveFromIslandCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemRemoveFromIslandCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemRemoveFromIslandCommandV1
+  nameWithType: ProtocolMessageTypes.ItemRemoveFromIslandCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemRemoveFromPlayerCommandV1
+  name: ItemRemoveFromPlayerCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_ItemRemoveFromPlayerCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemRemoveFromPlayerCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemRemoveFromPlayerCommandV1
+  nameWithType: ProtocolMessageTypes.ItemRemoveFromPlayerCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemUpgradeCommandV1
+  name: ItemUpgradeCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_ItemUpgradeCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemUpgradeCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemUpgradeCommandV1
+  nameWithType: ProtocolMessageTypes.ItemUpgradeCommandV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoChangeNameCommandV1
   name: PlayerInfoChangeNameCommandV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PlayerInfoChangeNameCommandV1
