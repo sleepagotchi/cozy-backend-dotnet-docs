@@ -320,6 +320,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyUpdateArgs.yml",
       "output": {
         ".html": {
@@ -820,6 +834,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Commands.PlayerInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Sleep.SleepChangeScheduleCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Sleep.SleepChangeScheduleCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Sleep.SleepChangeScheduleCommand",
       "Summary": null
     },
     {
@@ -1422,7 +1450,35 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Data.Sleep.PlayerSleep",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Data.Sleep.PlayerSleep.yml\" sourcestartlinenumber=\"1\">Represents the sleep data of a player, including their last sleep information and sleep schedule.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Data.Sleep.PlayerSleepInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Data.Sleep.PlayerSleepInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Data.Sleep.PlayerSleepInfo",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Data.Sleep.PlayerSleepSchedule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Data.Sleep.PlayerSleepSchedule.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Data.Sleep.PlayerSleepSchedule",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Data.Sleep.PlayerSleepSchedule.yml\" sourcestartlinenumber=\"1\">Represents a player's sleep schedule with target bed and wake-up times.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1549,6 +1605,20 @@
       "IsMRef": true,
       "Title": "SharedLibrary.Extensions.PlayerRandom",
       "Summary": "<p sourcefile=\"api/SharedLibrary.Extensions.PlayerRandom.yml\" sourcestartlinenumber=\"1\">Represents a deterministic random number generator that maintains the same sequence of values\nacross both server and client by sharing the same seed value.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Extensions.TimeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Extensions.TimeExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Extensions.TimeExtensions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1997,6 +2067,20 @@
       "IsMRef": true,
       "Title": "SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes",
       "Summary": "<p sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.yml\" sourcestartlinenumber=\"1\">Should be considered as an enum with protocol message types.\nUnfortunately, C# doesn't support enums with string values.</p>\n<p sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.yml\" sourcestartlinenumber=\"4\">Note: all the names are following ENTITY_ACTION_TYPE/VERSION convention.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1",
+      "Summary": null
     },
     {
       "type": "ManagedReference",

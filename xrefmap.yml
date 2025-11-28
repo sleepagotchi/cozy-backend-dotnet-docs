@@ -1041,6 +1041,70 @@ references:
   commentId: N:SharedLibrary.Commands.Arguments.Sleep
   fullName: SharedLibrary.Commands.Arguments.Sleep
   nameWithType: SharedLibrary.Commands.Arguments.Sleep
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs
+  name: SleepChangeScheduleArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs
+  nameWithType: SleepChangeScheduleArgs
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.#ctor(SharedLibrary.Data.Player,System.String,System.String)
+  name: SleepChangeScheduleArgs(Player, string, string)
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.html#SharedLibrary_Commands_Arguments_Sleep_SleepChangeScheduleArgs__ctor_SharedLibrary_Data_Player_System_String_System_String_
+  commentId: M:SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.#ctor(SharedLibrary.Data.Player,System.String,System.String)
+  name.vb: New(Player, String, String)
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.SleepChangeScheduleArgs(SharedLibrary.Data.Player, string, string)
+  fullName.vb: SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.New(SharedLibrary.Data.Player, String, String)
+  nameWithType: SleepChangeScheduleArgs.SleepChangeScheduleArgs(Player, string, string)
+  nameWithType.vb: SleepChangeScheduleArgs.New(Player, String, String)
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.#ctor*
+  name: SleepChangeScheduleArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.html#SharedLibrary_Commands_Arguments_Sleep_SleepChangeScheduleArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.SleepChangeScheduleArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.New
+  nameWithType: SleepChangeScheduleArgs.SleepChangeScheduleArgs
+  nameWithType.vb: SleepChangeScheduleArgs.New
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.html#SharedLibrary_Commands_Arguments_Sleep_SleepChangeScheduleArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.Player
+  nameWithType: SleepChangeScheduleArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.html#SharedLibrary_Commands_Arguments_Sleep_SleepChangeScheduleArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.Player
+  nameWithType: SleepChangeScheduleArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.TargetGoToBedISO
+  name: TargetGoToBedISO
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.html#SharedLibrary_Commands_Arguments_Sleep_SleepChangeScheduleArgs_TargetGoToBedISO
+  commentId: P:SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.TargetGoToBedISO
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.TargetGoToBedISO
+  nameWithType: SleepChangeScheduleArgs.TargetGoToBedISO
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.TargetGoToBedISO*
+  name: TargetGoToBedISO
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.html#SharedLibrary_Commands_Arguments_Sleep_SleepChangeScheduleArgs_TargetGoToBedISO_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.TargetGoToBedISO
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.TargetGoToBedISO
+  nameWithType: SleepChangeScheduleArgs.TargetGoToBedISO
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.TargetWakeUpISO
+  name: TargetWakeUpISO
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.html#SharedLibrary_Commands_Arguments_Sleep_SleepChangeScheduleArgs_TargetWakeUpISO
+  commentId: P:SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.TargetWakeUpISO
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.TargetWakeUpISO
+  nameWithType: SleepChangeScheduleArgs.TargetWakeUpISO
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.TargetWakeUpISO*
+  name: TargetWakeUpISO
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.html#SharedLibrary_Commands_Arguments_Sleep_SleepChangeScheduleArgs_TargetWakeUpISO_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.TargetWakeUpISO
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.TargetWakeUpISO
+  nameWithType: SleepChangeScheduleArgs.TargetWakeUpISO
 - uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyUpdateArgs
   name: SleepConsistencyUpdateArgs
   href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyUpdateArgs.html
@@ -2184,6 +2248,25 @@ references:
   commentId: N:SharedLibrary.Commands.Sleep
   fullName: SharedLibrary.Commands.Sleep
   nameWithType: SharedLibrary.Commands.Sleep
+- uid: SharedLibrary.Commands.Sleep.SleepChangeScheduleCommand
+  name: SleepChangeScheduleCommand
+  href: api/api/SharedLibrary.Commands.Sleep.SleepChangeScheduleCommand.html
+  commentId: T:SharedLibrary.Commands.Sleep.SleepChangeScheduleCommand
+  fullName: SharedLibrary.Commands.Sleep.SleepChangeScheduleCommand
+  nameWithType: SleepChangeScheduleCommand
+- uid: SharedLibrary.Commands.Sleep.SleepChangeScheduleCommand.Execute(SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs)
+  name: Execute(SleepChangeScheduleArgs)
+  href: api/api/SharedLibrary.Commands.Sleep.SleepChangeScheduleCommand.html#SharedLibrary_Commands_Sleep_SleepChangeScheduleCommand_Execute_SharedLibrary_Commands_Arguments_Sleep_SleepChangeScheduleArgs_
+  commentId: M:SharedLibrary.Commands.Sleep.SleepChangeScheduleCommand.Execute(SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs)
+  fullName: SharedLibrary.Commands.Sleep.SleepChangeScheduleCommand.Execute(SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs)
+  nameWithType: SleepChangeScheduleCommand.Execute(SleepChangeScheduleArgs)
+- uid: SharedLibrary.Commands.Sleep.SleepChangeScheduleCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Sleep.SleepChangeScheduleCommand.html#SharedLibrary_Commands_Sleep_SleepChangeScheduleCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.Sleep.SleepChangeScheduleCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Sleep.SleepChangeScheduleCommand.Execute
+  nameWithType: SleepChangeScheduleCommand.Execute
 - uid: SharedLibrary.Commands.Sleep.SleepConsistencyUpdateCommand
   name: SleepConsistencyUpdateCommand
   href: api/api/SharedLibrary.Commands.Sleep.SleepConsistencyUpdateCommand.html
@@ -2893,6 +2976,12 @@ references:
   commentId: F:SharedLibrary.Data.CommandType.PlayerInfoChangeName
   fullName: SharedLibrary.Data.CommandType.PlayerInfoChangeName
   nameWithType: CommandType.PlayerInfoChangeName
+- uid: SharedLibrary.Data.CommandType.SleepChangeSchedule
+  name: SleepChangeSchedule
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_SleepChangeSchedule
+  commentId: F:SharedLibrary.Data.CommandType.SleepChangeSchedule
+  fullName: SharedLibrary.Data.CommandType.SleepChangeSchedule
+  nameWithType: CommandType.SleepChangeSchedule
 - uid: SharedLibrary.Data.CommandType.SleepConsistencyUpdate
   name: SleepConsistencyUpdate
   href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_SleepConsistencyUpdate
@@ -4128,19 +4217,6 @@ references:
   commentId: T:SharedLibrary.Data.Sleep.PlayerSleep
   fullName: SharedLibrary.Data.Sleep.PlayerSleep
   nameWithType: PlayerSleep
-- uid: SharedLibrary.Data.Sleep.PlayerSleep.BedTimeIso
-  name: BedTimeIso
-  href: api/api/SharedLibrary.Data.Sleep.PlayerSleep.html#SharedLibrary_Data_Sleep_PlayerSleep_BedTimeIso
-  commentId: P:SharedLibrary.Data.Sleep.PlayerSleep.BedTimeIso
-  fullName: SharedLibrary.Data.Sleep.PlayerSleep.BedTimeIso
-  nameWithType: PlayerSleep.BedTimeIso
-- uid: SharedLibrary.Data.Sleep.PlayerSleep.BedTimeIso*
-  name: BedTimeIso
-  href: api/api/SharedLibrary.Data.Sleep.PlayerSleep.html#SharedLibrary_Data_Sleep_PlayerSleep_BedTimeIso_
-  commentId: Overload:SharedLibrary.Data.Sleep.PlayerSleep.BedTimeIso
-  isSpec: "True"
-  fullName: SharedLibrary.Data.Sleep.PlayerSleep.BedTimeIso
-  nameWithType: PlayerSleep.BedTimeIso
 - uid: SharedLibrary.Data.Sleep.PlayerSleep.Clone
   name: Clone()
   href: api/api/SharedLibrary.Data.Sleep.PlayerSleep.html#SharedLibrary_Data_Sleep_PlayerSleep_Clone
@@ -4154,58 +4230,200 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Sleep.PlayerSleep.Clone
   nameWithType: PlayerSleep.Clone
-- uid: SharedLibrary.Data.Sleep.PlayerSleep.ConsistencyPoints
+- uid: SharedLibrary.Data.Sleep.PlayerSleep.LastSleepInfo
+  name: LastSleepInfo
+  href: api/api/SharedLibrary.Data.Sleep.PlayerSleep.html#SharedLibrary_Data_Sleep_PlayerSleep_LastSleepInfo
+  commentId: P:SharedLibrary.Data.Sleep.PlayerSleep.LastSleepInfo
+  fullName: SharedLibrary.Data.Sleep.PlayerSleep.LastSleepInfo
+  nameWithType: PlayerSleep.LastSleepInfo
+- uid: SharedLibrary.Data.Sleep.PlayerSleep.LastSleepInfo*
+  name: LastSleepInfo
+  href: api/api/SharedLibrary.Data.Sleep.PlayerSleep.html#SharedLibrary_Data_Sleep_PlayerSleep_LastSleepInfo_
+  commentId: Overload:SharedLibrary.Data.Sleep.PlayerSleep.LastSleepInfo
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Sleep.PlayerSleep.LastSleepInfo
+  nameWithType: PlayerSleep.LastSleepInfo
+- uid: SharedLibrary.Data.Sleep.PlayerSleep.SleepSchedule
+  name: SleepSchedule
+  href: api/api/SharedLibrary.Data.Sleep.PlayerSleep.html#SharedLibrary_Data_Sleep_PlayerSleep_SleepSchedule
+  commentId: P:SharedLibrary.Data.Sleep.PlayerSleep.SleepSchedule
+  fullName: SharedLibrary.Data.Sleep.PlayerSleep.SleepSchedule
+  nameWithType: PlayerSleep.SleepSchedule
+- uid: SharedLibrary.Data.Sleep.PlayerSleep.SleepSchedule*
+  name: SleepSchedule
+  href: api/api/SharedLibrary.Data.Sleep.PlayerSleep.html#SharedLibrary_Data_Sleep_PlayerSleep_SleepSchedule_
+  commentId: Overload:SharedLibrary.Data.Sleep.PlayerSleep.SleepSchedule
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Sleep.PlayerSleep.SleepSchedule
+  nameWithType: PlayerSleep.SleepSchedule
+- uid: SharedLibrary.Data.Sleep.PlayerSleepInfo
+  name: PlayerSleepInfo
+  href: api/api/SharedLibrary.Data.Sleep.PlayerSleepInfo.html
+  commentId: T:SharedLibrary.Data.Sleep.PlayerSleepInfo
+  fullName: SharedLibrary.Data.Sleep.PlayerSleepInfo
+  nameWithType: PlayerSleepInfo
+- uid: SharedLibrary.Data.Sleep.PlayerSleepInfo.BedTimeIso
+  name: BedTimeIso
+  href: api/api/SharedLibrary.Data.Sleep.PlayerSleepInfo.html#SharedLibrary_Data_Sleep_PlayerSleepInfo_BedTimeIso
+  commentId: P:SharedLibrary.Data.Sleep.PlayerSleepInfo.BedTimeIso
+  fullName: SharedLibrary.Data.Sleep.PlayerSleepInfo.BedTimeIso
+  nameWithType: PlayerSleepInfo.BedTimeIso
+- uid: SharedLibrary.Data.Sleep.PlayerSleepInfo.BedTimeIso*
+  name: BedTimeIso
+  href: api/api/SharedLibrary.Data.Sleep.PlayerSleepInfo.html#SharedLibrary_Data_Sleep_PlayerSleepInfo_BedTimeIso_
+  commentId: Overload:SharedLibrary.Data.Sleep.PlayerSleepInfo.BedTimeIso
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Sleep.PlayerSleepInfo.BedTimeIso
+  nameWithType: PlayerSleepInfo.BedTimeIso
+- uid: SharedLibrary.Data.Sleep.PlayerSleepInfo.Clone
+  name: Clone()
+  href: api/api/SharedLibrary.Data.Sleep.PlayerSleepInfo.html#SharedLibrary_Data_Sleep_PlayerSleepInfo_Clone
+  commentId: M:SharedLibrary.Data.Sleep.PlayerSleepInfo.Clone
+  fullName: SharedLibrary.Data.Sleep.PlayerSleepInfo.Clone()
+  nameWithType: PlayerSleepInfo.Clone()
+- uid: SharedLibrary.Data.Sleep.PlayerSleepInfo.Clone*
+  name: Clone
+  href: api/api/SharedLibrary.Data.Sleep.PlayerSleepInfo.html#SharedLibrary_Data_Sleep_PlayerSleepInfo_Clone_
+  commentId: Overload:SharedLibrary.Data.Sleep.PlayerSleepInfo.Clone
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Sleep.PlayerSleepInfo.Clone
+  nameWithType: PlayerSleepInfo.Clone
+- uid: SharedLibrary.Data.Sleep.PlayerSleepInfo.ConsistencyPoints
   name: ConsistencyPoints
-  href: api/api/SharedLibrary.Data.Sleep.PlayerSleep.html#SharedLibrary_Data_Sleep_PlayerSleep_ConsistencyPoints
-  commentId: P:SharedLibrary.Data.Sleep.PlayerSleep.ConsistencyPoints
-  fullName: SharedLibrary.Data.Sleep.PlayerSleep.ConsistencyPoints
-  nameWithType: PlayerSleep.ConsistencyPoints
-- uid: SharedLibrary.Data.Sleep.PlayerSleep.ConsistencyPoints*
+  href: api/api/SharedLibrary.Data.Sleep.PlayerSleepInfo.html#SharedLibrary_Data_Sleep_PlayerSleepInfo_ConsistencyPoints
+  commentId: P:SharedLibrary.Data.Sleep.PlayerSleepInfo.ConsistencyPoints
+  fullName: SharedLibrary.Data.Sleep.PlayerSleepInfo.ConsistencyPoints
+  nameWithType: PlayerSleepInfo.ConsistencyPoints
+- uid: SharedLibrary.Data.Sleep.PlayerSleepInfo.ConsistencyPoints*
   name: ConsistencyPoints
-  href: api/api/SharedLibrary.Data.Sleep.PlayerSleep.html#SharedLibrary_Data_Sleep_PlayerSleep_ConsistencyPoints_
-  commentId: Overload:SharedLibrary.Data.Sleep.PlayerSleep.ConsistencyPoints
+  href: api/api/SharedLibrary.Data.Sleep.PlayerSleepInfo.html#SharedLibrary_Data_Sleep_PlayerSleepInfo_ConsistencyPoints_
+  commentId: Overload:SharedLibrary.Data.Sleep.PlayerSleepInfo.ConsistencyPoints
   isSpec: "True"
-  fullName: SharedLibrary.Data.Sleep.PlayerSleep.ConsistencyPoints
-  nameWithType: PlayerSleep.ConsistencyPoints
-- uid: SharedLibrary.Data.Sleep.PlayerSleep.Date
+  fullName: SharedLibrary.Data.Sleep.PlayerSleepInfo.ConsistencyPoints
+  nameWithType: PlayerSleepInfo.ConsistencyPoints
+- uid: SharedLibrary.Data.Sleep.PlayerSleepInfo.Date
   name: Date
-  href: api/api/SharedLibrary.Data.Sleep.PlayerSleep.html#SharedLibrary_Data_Sleep_PlayerSleep_Date
-  commentId: P:SharedLibrary.Data.Sleep.PlayerSleep.Date
-  fullName: SharedLibrary.Data.Sleep.PlayerSleep.Date
-  nameWithType: PlayerSleep.Date
-- uid: SharedLibrary.Data.Sleep.PlayerSleep.Date*
+  href: api/api/SharedLibrary.Data.Sleep.PlayerSleepInfo.html#SharedLibrary_Data_Sleep_PlayerSleepInfo_Date
+  commentId: P:SharedLibrary.Data.Sleep.PlayerSleepInfo.Date
+  fullName: SharedLibrary.Data.Sleep.PlayerSleepInfo.Date
+  nameWithType: PlayerSleepInfo.Date
+- uid: SharedLibrary.Data.Sleep.PlayerSleepInfo.Date*
   name: Date
-  href: api/api/SharedLibrary.Data.Sleep.PlayerSleep.html#SharedLibrary_Data_Sleep_PlayerSleep_Date_
-  commentId: Overload:SharedLibrary.Data.Sleep.PlayerSleep.Date
+  href: api/api/SharedLibrary.Data.Sleep.PlayerSleepInfo.html#SharedLibrary_Data_Sleep_PlayerSleepInfo_Date_
+  commentId: Overload:SharedLibrary.Data.Sleep.PlayerSleepInfo.Date
   isSpec: "True"
-  fullName: SharedLibrary.Data.Sleep.PlayerSleep.Date
-  nameWithType: PlayerSleep.Date
-- uid: SharedLibrary.Data.Sleep.PlayerSleep.DurationMinutes
+  fullName: SharedLibrary.Data.Sleep.PlayerSleepInfo.Date
+  nameWithType: PlayerSleepInfo.Date
+- uid: SharedLibrary.Data.Sleep.PlayerSleepInfo.DurationMinutes
   name: DurationMinutes
-  href: api/api/SharedLibrary.Data.Sleep.PlayerSleep.html#SharedLibrary_Data_Sleep_PlayerSleep_DurationMinutes
-  commentId: P:SharedLibrary.Data.Sleep.PlayerSleep.DurationMinutes
-  fullName: SharedLibrary.Data.Sleep.PlayerSleep.DurationMinutes
-  nameWithType: PlayerSleep.DurationMinutes
-- uid: SharedLibrary.Data.Sleep.PlayerSleep.DurationMinutes*
+  href: api/api/SharedLibrary.Data.Sleep.PlayerSleepInfo.html#SharedLibrary_Data_Sleep_PlayerSleepInfo_DurationMinutes
+  commentId: P:SharedLibrary.Data.Sleep.PlayerSleepInfo.DurationMinutes
+  fullName: SharedLibrary.Data.Sleep.PlayerSleepInfo.DurationMinutes
+  nameWithType: PlayerSleepInfo.DurationMinutes
+- uid: SharedLibrary.Data.Sleep.PlayerSleepInfo.DurationMinutes*
   name: DurationMinutes
-  href: api/api/SharedLibrary.Data.Sleep.PlayerSleep.html#SharedLibrary_Data_Sleep_PlayerSleep_DurationMinutes_
-  commentId: Overload:SharedLibrary.Data.Sleep.PlayerSleep.DurationMinutes
+  href: api/api/SharedLibrary.Data.Sleep.PlayerSleepInfo.html#SharedLibrary_Data_Sleep_PlayerSleepInfo_DurationMinutes_
+  commentId: Overload:SharedLibrary.Data.Sleep.PlayerSleepInfo.DurationMinutes
   isSpec: "True"
-  fullName: SharedLibrary.Data.Sleep.PlayerSleep.DurationMinutes
-  nameWithType: PlayerSleep.DurationMinutes
-- uid: SharedLibrary.Data.Sleep.PlayerSleep.WakeTimeIso
-  name: WakeTimeIso
-  href: api/api/SharedLibrary.Data.Sleep.PlayerSleep.html#SharedLibrary_Data_Sleep_PlayerSleep_WakeTimeIso
-  commentId: P:SharedLibrary.Data.Sleep.PlayerSleep.WakeTimeIso
-  fullName: SharedLibrary.Data.Sleep.PlayerSleep.WakeTimeIso
-  nameWithType: PlayerSleep.WakeTimeIso
-- uid: SharedLibrary.Data.Sleep.PlayerSleep.WakeTimeIso*
-  name: WakeTimeIso
-  href: api/api/SharedLibrary.Data.Sleep.PlayerSleep.html#SharedLibrary_Data_Sleep_PlayerSleep_WakeTimeIso_
-  commentId: Overload:SharedLibrary.Data.Sleep.PlayerSleep.WakeTimeIso
+  fullName: SharedLibrary.Data.Sleep.PlayerSleepInfo.DurationMinutes
+  nameWithType: PlayerSleepInfo.DurationMinutes
+- uid: SharedLibrary.Data.Sleep.PlayerSleepInfo.GoToBedDeltaMinutes
+  name: GoToBedDeltaMinutes
+  href: api/api/SharedLibrary.Data.Sleep.PlayerSleepInfo.html#SharedLibrary_Data_Sleep_PlayerSleepInfo_GoToBedDeltaMinutes
+  commentId: P:SharedLibrary.Data.Sleep.PlayerSleepInfo.GoToBedDeltaMinutes
+  fullName: SharedLibrary.Data.Sleep.PlayerSleepInfo.GoToBedDeltaMinutes
+  nameWithType: PlayerSleepInfo.GoToBedDeltaMinutes
+- uid: SharedLibrary.Data.Sleep.PlayerSleepInfo.GoToBedDeltaMinutes*
+  name: GoToBedDeltaMinutes
+  href: api/api/SharedLibrary.Data.Sleep.PlayerSleepInfo.html#SharedLibrary_Data_Sleep_PlayerSleepInfo_GoToBedDeltaMinutes_
+  commentId: Overload:SharedLibrary.Data.Sleep.PlayerSleepInfo.GoToBedDeltaMinutes
   isSpec: "True"
-  fullName: SharedLibrary.Data.Sleep.PlayerSleep.WakeTimeIso
-  nameWithType: PlayerSleep.WakeTimeIso
+  fullName: SharedLibrary.Data.Sleep.PlayerSleepInfo.GoToBedDeltaMinutes
+  nameWithType: PlayerSleepInfo.GoToBedDeltaMinutes
+- uid: SharedLibrary.Data.Sleep.PlayerSleepInfo.WakeTimeIso
+  name: WakeTimeIso
+  href: api/api/SharedLibrary.Data.Sleep.PlayerSleepInfo.html#SharedLibrary_Data_Sleep_PlayerSleepInfo_WakeTimeIso
+  commentId: P:SharedLibrary.Data.Sleep.PlayerSleepInfo.WakeTimeIso
+  fullName: SharedLibrary.Data.Sleep.PlayerSleepInfo.WakeTimeIso
+  nameWithType: PlayerSleepInfo.WakeTimeIso
+- uid: SharedLibrary.Data.Sleep.PlayerSleepInfo.WakeTimeIso*
+  name: WakeTimeIso
+  href: api/api/SharedLibrary.Data.Sleep.PlayerSleepInfo.html#SharedLibrary_Data_Sleep_PlayerSleepInfo_WakeTimeIso_
+  commentId: Overload:SharedLibrary.Data.Sleep.PlayerSleepInfo.WakeTimeIso
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Sleep.PlayerSleepInfo.WakeTimeIso
+  nameWithType: PlayerSleepInfo.WakeTimeIso
+- uid: SharedLibrary.Data.Sleep.PlayerSleepInfo.WakeUpDeltaMinutes
+  name: WakeUpDeltaMinutes
+  href: api/api/SharedLibrary.Data.Sleep.PlayerSleepInfo.html#SharedLibrary_Data_Sleep_PlayerSleepInfo_WakeUpDeltaMinutes
+  commentId: P:SharedLibrary.Data.Sleep.PlayerSleepInfo.WakeUpDeltaMinutes
+  fullName: SharedLibrary.Data.Sleep.PlayerSleepInfo.WakeUpDeltaMinutes
+  nameWithType: PlayerSleepInfo.WakeUpDeltaMinutes
+- uid: SharedLibrary.Data.Sleep.PlayerSleepInfo.WakeUpDeltaMinutes*
+  name: WakeUpDeltaMinutes
+  href: api/api/SharedLibrary.Data.Sleep.PlayerSleepInfo.html#SharedLibrary_Data_Sleep_PlayerSleepInfo_WakeUpDeltaMinutes_
+  commentId: Overload:SharedLibrary.Data.Sleep.PlayerSleepInfo.WakeUpDeltaMinutes
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Sleep.PlayerSleepInfo.WakeUpDeltaMinutes
+  nameWithType: PlayerSleepInfo.WakeUpDeltaMinutes
+- uid: SharedLibrary.Data.Sleep.PlayerSleepSchedule
+  name: PlayerSleepSchedule
+  href: api/api/SharedLibrary.Data.Sleep.PlayerSleepSchedule.html
+  commentId: T:SharedLibrary.Data.Sleep.PlayerSleepSchedule
+  fullName: SharedLibrary.Data.Sleep.PlayerSleepSchedule
+  nameWithType: PlayerSleepSchedule
+- uid: SharedLibrary.Data.Sleep.PlayerSleepSchedule.Clone
+  name: Clone()
+  href: api/api/SharedLibrary.Data.Sleep.PlayerSleepSchedule.html#SharedLibrary_Data_Sleep_PlayerSleepSchedule_Clone
+  commentId: M:SharedLibrary.Data.Sleep.PlayerSleepSchedule.Clone
+  fullName: SharedLibrary.Data.Sleep.PlayerSleepSchedule.Clone()
+  nameWithType: PlayerSleepSchedule.Clone()
+- uid: SharedLibrary.Data.Sleep.PlayerSleepSchedule.Clone*
+  name: Clone
+  href: api/api/SharedLibrary.Data.Sleep.PlayerSleepSchedule.html#SharedLibrary_Data_Sleep_PlayerSleepSchedule_Clone_
+  commentId: Overload:SharedLibrary.Data.Sleep.PlayerSleepSchedule.Clone
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Sleep.PlayerSleepSchedule.Clone
+  nameWithType: PlayerSleepSchedule.Clone
+- uid: SharedLibrary.Data.Sleep.PlayerSleepSchedule.OnValueChanged
+  name: OnValueChanged
+  href: api/api/SharedLibrary.Data.Sleep.PlayerSleepSchedule.html#SharedLibrary_Data_Sleep_PlayerSleepSchedule_OnValueChanged
+  commentId: P:SharedLibrary.Data.Sleep.PlayerSleepSchedule.OnValueChanged
+  fullName: SharedLibrary.Data.Sleep.PlayerSleepSchedule.OnValueChanged
+  nameWithType: PlayerSleepSchedule.OnValueChanged
+- uid: SharedLibrary.Data.Sleep.PlayerSleepSchedule.OnValueChanged*
+  name: OnValueChanged
+  href: api/api/SharedLibrary.Data.Sleep.PlayerSleepSchedule.html#SharedLibrary_Data_Sleep_PlayerSleepSchedule_OnValueChanged_
+  commentId: Overload:SharedLibrary.Data.Sleep.PlayerSleepSchedule.OnValueChanged
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Sleep.PlayerSleepSchedule.OnValueChanged
+  nameWithType: PlayerSleepSchedule.OnValueChanged
+- uid: SharedLibrary.Data.Sleep.PlayerSleepSchedule.TargetGoToBedISO
+  name: TargetGoToBedISO
+  href: api/api/SharedLibrary.Data.Sleep.PlayerSleepSchedule.html#SharedLibrary_Data_Sleep_PlayerSleepSchedule_TargetGoToBedISO
+  commentId: P:SharedLibrary.Data.Sleep.PlayerSleepSchedule.TargetGoToBedISO
+  fullName: SharedLibrary.Data.Sleep.PlayerSleepSchedule.TargetGoToBedISO
+  nameWithType: PlayerSleepSchedule.TargetGoToBedISO
+- uid: SharedLibrary.Data.Sleep.PlayerSleepSchedule.TargetGoToBedISO*
+  name: TargetGoToBedISO
+  href: api/api/SharedLibrary.Data.Sleep.PlayerSleepSchedule.html#SharedLibrary_Data_Sleep_PlayerSleepSchedule_TargetGoToBedISO_
+  commentId: Overload:SharedLibrary.Data.Sleep.PlayerSleepSchedule.TargetGoToBedISO
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Sleep.PlayerSleepSchedule.TargetGoToBedISO
+  nameWithType: PlayerSleepSchedule.TargetGoToBedISO
+- uid: SharedLibrary.Data.Sleep.PlayerSleepSchedule.TargetWakeUpISO
+  name: TargetWakeUpISO
+  href: api/api/SharedLibrary.Data.Sleep.PlayerSleepSchedule.html#SharedLibrary_Data_Sleep_PlayerSleepSchedule_TargetWakeUpISO
+  commentId: P:SharedLibrary.Data.Sleep.PlayerSleepSchedule.TargetWakeUpISO
+  fullName: SharedLibrary.Data.Sleep.PlayerSleepSchedule.TargetWakeUpISO
+  nameWithType: PlayerSleepSchedule.TargetWakeUpISO
+- uid: SharedLibrary.Data.Sleep.PlayerSleepSchedule.TargetWakeUpISO*
+  name: TargetWakeUpISO
+  href: api/api/SharedLibrary.Data.Sleep.PlayerSleepSchedule.html#SharedLibrary_Data_Sleep_PlayerSleepSchedule_TargetWakeUpISO_
+  commentId: Overload:SharedLibrary.Data.Sleep.PlayerSleepSchedule.TargetWakeUpISO
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Sleep.PlayerSleepSchedule.TargetWakeUpISO
+  nameWithType: PlayerSleepSchedule.TargetWakeUpISO
 - uid: SharedLibrary.Data.Tasks
   name: SharedLibrary.Data.Tasks
   href: api/api/SharedLibrary.Data.Tasks.html
@@ -5153,6 +5371,101 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Extensions.PlayerRandom.SetSeed
   nameWithType: PlayerRandom.SetSeed
+- uid: SharedLibrary.Extensions.TimeExtensions
+  name: TimeExtensions
+  href: api/api/SharedLibrary.Extensions.TimeExtensions.html
+  commentId: T:SharedLibrary.Extensions.TimeExtensions
+  fullName: SharedLibrary.Extensions.TimeExtensions
+  nameWithType: TimeExtensions
+- uid: SharedLibrary.Extensions.TimeExtensions.GetDiffInMinutes(System.String,System.String)
+  name: GetDiffInMinutes(string, string)
+  href: api/api/SharedLibrary.Extensions.TimeExtensions.html#SharedLibrary_Extensions_TimeExtensions_GetDiffInMinutes_System_String_System_String_
+  commentId: M:SharedLibrary.Extensions.TimeExtensions.GetDiffInMinutes(System.String,System.String)
+  name.vb: GetDiffInMinutes(String, String)
+  fullName: SharedLibrary.Extensions.TimeExtensions.GetDiffInMinutes(string, string)
+  fullName.vb: SharedLibrary.Extensions.TimeExtensions.GetDiffInMinutes(String, String)
+  nameWithType: TimeExtensions.GetDiffInMinutes(string, string)
+  nameWithType.vb: TimeExtensions.GetDiffInMinutes(String, String)
+- uid: SharedLibrary.Extensions.TimeExtensions.GetDiffInMinutes*
+  name: GetDiffInMinutes
+  href: api/api/SharedLibrary.Extensions.TimeExtensions.html#SharedLibrary_Extensions_TimeExtensions_GetDiffInMinutes_
+  commentId: Overload:SharedLibrary.Extensions.TimeExtensions.GetDiffInMinutes
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.TimeExtensions.GetDiffInMinutes
+  nameWithType: TimeExtensions.GetDiffInMinutes
+- uid: SharedLibrary.Extensions.TimeExtensions.ISOToDateTime(System.String)
+  name: ISOToDateTime(string)
+  href: api/api/SharedLibrary.Extensions.TimeExtensions.html#SharedLibrary_Extensions_TimeExtensions_ISOToDateTime_System_String_
+  commentId: M:SharedLibrary.Extensions.TimeExtensions.ISOToDateTime(System.String)
+  name.vb: ISOToDateTime(String)
+  fullName: SharedLibrary.Extensions.TimeExtensions.ISOToDateTime(string)
+  fullName.vb: SharedLibrary.Extensions.TimeExtensions.ISOToDateTime(String)
+  nameWithType: TimeExtensions.ISOToDateTime(string)
+  nameWithType.vb: TimeExtensions.ISOToDateTime(String)
+- uid: SharedLibrary.Extensions.TimeExtensions.ISOToDateTime*
+  name: ISOToDateTime
+  href: api/api/SharedLibrary.Extensions.TimeExtensions.html#SharedLibrary_Extensions_TimeExtensions_ISOToDateTime_
+  commentId: Overload:SharedLibrary.Extensions.TimeExtensions.ISOToDateTime
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.TimeExtensions.ISOToDateTime
+  nameWithType: TimeExtensions.ISOToDateTime
+- uid: SharedLibrary.Extensions.TimeExtensions.ISOToTime(System.String)
+  name: ISOToTime(string)
+  href: api/api/SharedLibrary.Extensions.TimeExtensions.html#SharedLibrary_Extensions_TimeExtensions_ISOToTime_System_String_
+  commentId: M:SharedLibrary.Extensions.TimeExtensions.ISOToTime(System.String)
+  name.vb: ISOToTime(String)
+  fullName: SharedLibrary.Extensions.TimeExtensions.ISOToTime(string)
+  fullName.vb: SharedLibrary.Extensions.TimeExtensions.ISOToTime(String)
+  nameWithType: TimeExtensions.ISOToTime(string)
+  nameWithType.vb: TimeExtensions.ISOToTime(String)
+- uid: SharedLibrary.Extensions.TimeExtensions.ISOToTime*
+  name: ISOToTime
+  href: api/api/SharedLibrary.Extensions.TimeExtensions.html#SharedLibrary_Extensions_TimeExtensions_ISOToTime_
+  commentId: Overload:SharedLibrary.Extensions.TimeExtensions.ISOToTime
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.TimeExtensions.ISOToTime
+  nameWithType: TimeExtensions.ISOToTime
+- uid: SharedLibrary.Extensions.TimeExtensions.NormalizeToIsoTime(System.String)
+  name: NormalizeToIsoTime(string)
+  href: api/api/SharedLibrary.Extensions.TimeExtensions.html#SharedLibrary_Extensions_TimeExtensions_NormalizeToIsoTime_System_String_
+  commentId: M:SharedLibrary.Extensions.TimeExtensions.NormalizeToIsoTime(System.String)
+  name.vb: NormalizeToIsoTime(String)
+  fullName: SharedLibrary.Extensions.TimeExtensions.NormalizeToIsoTime(string)
+  fullName.vb: SharedLibrary.Extensions.TimeExtensions.NormalizeToIsoTime(String)
+  nameWithType: TimeExtensions.NormalizeToIsoTime(string)
+  nameWithType.vb: TimeExtensions.NormalizeToIsoTime(String)
+- uid: SharedLibrary.Extensions.TimeExtensions.NormalizeToIsoTime*
+  name: NormalizeToIsoTime
+  href: api/api/SharedLibrary.Extensions.TimeExtensions.html#SharedLibrary_Extensions_TimeExtensions_NormalizeToIsoTime_
+  commentId: Overload:SharedLibrary.Extensions.TimeExtensions.NormalizeToIsoTime
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.TimeExtensions.NormalizeToIsoTime
+  nameWithType: TimeExtensions.NormalizeToIsoTime
+- uid: SharedLibrary.Extensions.TimeExtensions.TimeToISO(System.Int32,System.Int32)
+  name: TimeToISO(int, int)
+  href: api/api/SharedLibrary.Extensions.TimeExtensions.html#SharedLibrary_Extensions_TimeExtensions_TimeToISO_System_Int32_System_Int32_
+  commentId: M:SharedLibrary.Extensions.TimeExtensions.TimeToISO(System.Int32,System.Int32)
+  name.vb: TimeToISO(Integer, Integer)
+  fullName: SharedLibrary.Extensions.TimeExtensions.TimeToISO(int, int)
+  fullName.vb: SharedLibrary.Extensions.TimeExtensions.TimeToISO(Integer, Integer)
+  nameWithType: TimeExtensions.TimeToISO(int, int)
+  nameWithType.vb: TimeExtensions.TimeToISO(Integer, Integer)
+- uid: SharedLibrary.Extensions.TimeExtensions.TimeToISO(System.String)
+  name: TimeToISO(string)
+  href: api/api/SharedLibrary.Extensions.TimeExtensions.html#SharedLibrary_Extensions_TimeExtensions_TimeToISO_System_String_
+  commentId: M:SharedLibrary.Extensions.TimeExtensions.TimeToISO(System.String)
+  name.vb: TimeToISO(String)
+  fullName: SharedLibrary.Extensions.TimeExtensions.TimeToISO(string)
+  fullName.vb: SharedLibrary.Extensions.TimeExtensions.TimeToISO(String)
+  nameWithType: TimeExtensions.TimeToISO(string)
+  nameWithType.vb: TimeExtensions.TimeToISO(String)
+- uid: SharedLibrary.Extensions.TimeExtensions.TimeToISO*
+  name: TimeToISO
+  href: api/api/SharedLibrary.Extensions.TimeExtensions.html#SharedLibrary_Extensions_TimeExtensions_TimeToISO_
+  commentId: Overload:SharedLibrary.Extensions.TimeExtensions.TimeToISO
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.TimeExtensions.TimeToISO
+  nameWithType: TimeExtensions.TimeToISO
 - uid: SharedLibrary.Managers
   name: SharedLibrary.Managers
   href: api/api/SharedLibrary.Managers.html
@@ -7132,6 +7445,12 @@ references:
   commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoChangeNameCommandV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoChangeNameCommandV1
   nameWithType: ProtocolMessageTypes.PlayerInfoChangeNameCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepChangeScheduleCommandV1
+  name: SleepChangeScheduleCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepChangeScheduleCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepChangeScheduleCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepChangeScheduleCommandV1
+  nameWithType: ProtocolMessageTypes.SleepChangeScheduleCommandV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepConsistencyUpdateCommandV1
   name: SleepConsistencyUpdateCommandV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepConsistencyUpdateCommandV1
@@ -7198,6 +7517,83 @@ references:
   commentId: N:SharedLibrary.Protocol.ProtocolMessages.Sleep
   fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep
   nameWithType: SharedLibrary.Protocol.ProtocolMessages.Sleep
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1
+  name: SleepChangeScheduleProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1
+  nameWithType: SleepChangeScheduleProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.#ctor(System.String,System.String,System.String,System.String)
+  name: SleepChangeScheduleProtocolMessageV1(string, string, string, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepChangeScheduleProtocolMessageV1__ctor_System_String_System_String_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.#ctor(System.String,System.String,System.String,System.String)
+  name.vb: New(String, String, String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.SleepChangeScheduleProtocolMessageV1(string, string, string, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.New(String, String, String, String)
+  nameWithType: SleepChangeScheduleProtocolMessageV1.SleepChangeScheduleProtocolMessageV1(string, string, string, string?)
+  nameWithType.vb: SleepChangeScheduleProtocolMessageV1.New(String, String, String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.#ctor*
+  name: SleepChangeScheduleProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepChangeScheduleProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.SleepChangeScheduleProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.New
+  nameWithType: SleepChangeScheduleProtocolMessageV1.SleepChangeScheduleProtocolMessageV1
+  nameWithType.vb: SleepChangeScheduleProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepChangeScheduleProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.MessageType
+  nameWithType: SleepChangeScheduleProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepChangeScheduleProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.MessageType
+  nameWithType: SleepChangeScheduleProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.TargetGoToBedISO
+  name: TargetGoToBedISO
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepChangeScheduleProtocolMessageV1_TargetGoToBedISO
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.TargetGoToBedISO
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.TargetGoToBedISO
+  nameWithType: SleepChangeScheduleProtocolMessageV1.TargetGoToBedISO
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.TargetGoToBedISO*
+  name: TargetGoToBedISO
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepChangeScheduleProtocolMessageV1_TargetGoToBedISO_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.TargetGoToBedISO
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.TargetGoToBedISO
+  nameWithType: SleepChangeScheduleProtocolMessageV1.TargetGoToBedISO
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.TargetWakeUpISO
+  name: TargetWakeUpISO
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepChangeScheduleProtocolMessageV1_TargetWakeUpISO
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.TargetWakeUpISO
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.TargetWakeUpISO
+  nameWithType: SleepChangeScheduleProtocolMessageV1.TargetWakeUpISO
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.TargetWakeUpISO*
+  name: TargetWakeUpISO
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepChangeScheduleProtocolMessageV1_TargetWakeUpISO_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.TargetWakeUpISO
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.TargetWakeUpISO
+  nameWithType: SleepChangeScheduleProtocolMessageV1.TargetWakeUpISO
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepChangeScheduleProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.UserId
+  nameWithType: SleepChangeScheduleProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepChangeScheduleProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.UserId
+  nameWithType: SleepChangeScheduleProtocolMessageV1.UserId
 - uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1
   name: SleepConsistencyCalculatedEventProtocolMessageV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.html
@@ -7281,15 +7677,15 @@ references:
   commentId: T:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto
   fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto
   nameWithType: SleepConsistencyEntryDto
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.#ctor(System.Nullable{System.DateTime},System.String,System.String,System.Double,System.String,System.String,System.Nullable{System.Double},System.Nullable{System.Double})
-  name: SleepConsistencyEntryDto(DateTime?, string, string, double, string?, string?, double?, double?)
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto__ctor_System_Nullable_System_DateTime__System_String_System_String_System_Double_System_String_System_String_System_Nullable_System_Double__System_Nullable_System_Double__
-  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.#ctor(System.Nullable{System.DateTime},System.String,System.String,System.Double,System.String,System.String,System.Nullable{System.Double},System.Nullable{System.Double})
-  name.vb: New(Date?, String, String, Double, String, String, Double?, Double?)
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.SleepConsistencyEntryDto(System.DateTime?, string, string, double, string?, string?, double?, double?)
-  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.New(Date?, String, String, Double, String, String, Double?, Double?)
-  nameWithType: SleepConsistencyEntryDto.SleepConsistencyEntryDto(DateTime?, string, string, double, string?, string?, double?, double?)
-  nameWithType.vb: SleepConsistencyEntryDto.New(Date?, String, String, Double, String, String, Double?, Double?)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.#ctor(System.DateTime,System.String,System.String,System.Double,System.String,System.String)
+  name: SleepConsistencyEntryDto(DateTime, string, string, double, string, string)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto__ctor_System_DateTime_System_String_System_String_System_Double_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.#ctor(System.DateTime,System.String,System.String,System.Double,System.String,System.String)
+  name.vb: New(Date, String, String, Double, String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.SleepConsistencyEntryDto(System.DateTime, string, string, double, string, string)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.New(Date, String, String, Double, String, String)
+  nameWithType: SleepConsistencyEntryDto.SleepConsistencyEntryDto(DateTime, string, string, double, string, string)
+  nameWithType.vb: SleepConsistencyEntryDto.New(Date, String, String, Double, String, String)
 - uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.#ctor*
   name: SleepConsistencyEntryDto
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto__ctor_
@@ -7313,32 +7709,6 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.Date
   nameWithType: SleepConsistencyEntryDto.Date
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaBedMinutes
-  name: DeltaBedMinutes
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_DeltaBedMinutes
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaBedMinutes
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaBedMinutes
-  nameWithType: SleepConsistencyEntryDto.DeltaBedMinutes
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaBedMinutes*
-  name: DeltaBedMinutes
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_DeltaBedMinutes_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaBedMinutes
-  isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaBedMinutes
-  nameWithType: SleepConsistencyEntryDto.DeltaBedMinutes
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaWakeMinutes
-  name: DeltaWakeMinutes
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_DeltaWakeMinutes
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaWakeMinutes
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaWakeMinutes
-  nameWithType: SleepConsistencyEntryDto.DeltaWakeMinutes
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaWakeMinutes*
-  name: DeltaWakeMinutes
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_DeltaWakeMinutes_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaWakeMinutes
-  isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaWakeMinutes
-  nameWithType: SleepConsistencyEntryDto.DeltaWakeMinutes
 - uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DurationMinutes
   name: DurationMinutes
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_DurationMinutes
