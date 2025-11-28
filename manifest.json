@@ -334,6 +334,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Commands.Arguments.Sleep.yml",
       "output": {
         ".html": {
@@ -821,6 +835,20 @@
       "IsMRef": true,
       "Title": "SharedLibrary.Commands.Sleep.SleepConsistencyUpdateCommand",
       "Summary": "<p sourcefile=\"api/SharedLibrary.Commands.Sleep.SleepConsistencyUpdateCommand.yml\" sourcestartlinenumber=\"1\">Command to update the player's sleep consistency data and points.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Sleep.SleepGenerateRewardCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Sleep.SleepGenerateRewardCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Sleep.SleepGenerateRewardCommand",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Commands.Sleep.SleepGenerateRewardCommand.yml\" sourcestartlinenumber=\"1\">Represents a command for generating rewards based on the player's sleep activity.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1370,6 +1398,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Data.RewardKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Data.RewardKind.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Data.RewardKind",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Data.Sleep.PlayerSleep.yml",
       "output": {
         ".html": {
@@ -1577,6 +1619,20 @@
       "IsMRef": true,
       "Title": "SharedLibrary.Managers.ItemsManager",
       "Summary": "<p sourcefile=\"api/SharedLibrary.Managers.ItemsManager.yml\" sourcestartlinenumber=\"1\">Manages operations related to items, such as retrieval, addition, removal, and upgrades.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Managers.RewardsManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Managers.RewardsManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Managers.RewardsManager",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1982,6 +2038,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1",
       "Summary": null
     },
     {

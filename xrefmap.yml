@@ -1092,6 +1092,70 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyUpdateArgs.SleepData
   nameWithType: SleepConsistencyUpdateArgs.SleepData
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs
+  name: SleepGenerateRewardArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs
+  nameWithType: SleepGenerateRewardArgs
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.ItemsManager,SharedLibrary.Managers.CosmeticManager)
+  name: SleepGenerateRewardArgs(Player, ItemsManager, CosmeticManager)
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.html#SharedLibrary_Commands_Arguments_Sleep_SleepGenerateRewardArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_ItemsManager_SharedLibrary_Managers_CosmeticManager_
+  commentId: M:SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.ItemsManager,SharedLibrary.Managers.CosmeticManager)
+  name.vb: New(Player, ItemsManager, CosmeticManager)
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.SleepGenerateRewardArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.ItemsManager, SharedLibrary.Managers.CosmeticManager)
+  fullName.vb: SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.ItemsManager, SharedLibrary.Managers.CosmeticManager)
+  nameWithType: SleepGenerateRewardArgs.SleepGenerateRewardArgs(Player, ItemsManager, CosmeticManager)
+  nameWithType.vb: SleepGenerateRewardArgs.New(Player, ItemsManager, CosmeticManager)
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.#ctor*
+  name: SleepGenerateRewardArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.html#SharedLibrary_Commands_Arguments_Sleep_SleepGenerateRewardArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.SleepGenerateRewardArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.New
+  nameWithType: SleepGenerateRewardArgs.SleepGenerateRewardArgs
+  nameWithType.vb: SleepGenerateRewardArgs.New
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.CosmeticManager
+  name: CosmeticManager
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.html#SharedLibrary_Commands_Arguments_Sleep_SleepGenerateRewardArgs_CosmeticManager
+  commentId: P:SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.CosmeticManager
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.CosmeticManager
+  nameWithType: SleepGenerateRewardArgs.CosmeticManager
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.CosmeticManager*
+  name: CosmeticManager
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.html#SharedLibrary_Commands_Arguments_Sleep_SleepGenerateRewardArgs_CosmeticManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.CosmeticManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.CosmeticManager
+  nameWithType: SleepGenerateRewardArgs.CosmeticManager
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.ItemsManager
+  name: ItemsManager
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.html#SharedLibrary_Commands_Arguments_Sleep_SleepGenerateRewardArgs_ItemsManager
+  commentId: P:SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.ItemsManager
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.ItemsManager
+  nameWithType: SleepGenerateRewardArgs.ItemsManager
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.ItemsManager*
+  name: ItemsManager
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.html#SharedLibrary_Commands_Arguments_Sleep_SleepGenerateRewardArgs_ItemsManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.ItemsManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.ItemsManager
+  nameWithType: SleepGenerateRewardArgs.ItemsManager
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.html#SharedLibrary_Commands_Arguments_Sleep_SleepGenerateRewardArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.Player
+  nameWithType: SleepGenerateRewardArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.html#SharedLibrary_Commands_Arguments_Sleep_SleepGenerateRewardArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.Player
+  nameWithType: SleepGenerateRewardArgs.Player
 - uid: SharedLibrary.Commands.Arguments.Tasks
   name: SharedLibrary.Commands.Arguments.Tasks
   href: api/api/SharedLibrary.Commands.Arguments.Tasks.html
@@ -2139,6 +2203,25 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Sleep.SleepConsistencyUpdateCommand.Execute
   nameWithType: SleepConsistencyUpdateCommand.Execute
+- uid: SharedLibrary.Commands.Sleep.SleepGenerateRewardCommand
+  name: SleepGenerateRewardCommand
+  href: api/api/SharedLibrary.Commands.Sleep.SleepGenerateRewardCommand.html
+  commentId: T:SharedLibrary.Commands.Sleep.SleepGenerateRewardCommand
+  fullName: SharedLibrary.Commands.Sleep.SleepGenerateRewardCommand
+  nameWithType: SleepGenerateRewardCommand
+- uid: SharedLibrary.Commands.Sleep.SleepGenerateRewardCommand.Execute(SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs)
+  name: Execute(SleepGenerateRewardArgs)
+  href: api/api/SharedLibrary.Commands.Sleep.SleepGenerateRewardCommand.html#SharedLibrary_Commands_Sleep_SleepGenerateRewardCommand_Execute_SharedLibrary_Commands_Arguments_Sleep_SleepGenerateRewardArgs_
+  commentId: M:SharedLibrary.Commands.Sleep.SleepGenerateRewardCommand.Execute(SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs)
+  fullName: SharedLibrary.Commands.Sleep.SleepGenerateRewardCommand.Execute(SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs)
+  nameWithType: SleepGenerateRewardCommand.Execute(SleepGenerateRewardArgs)
+- uid: SharedLibrary.Commands.Sleep.SleepGenerateRewardCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Sleep.SleepGenerateRewardCommand.html#SharedLibrary_Commands_Sleep_SleepGenerateRewardCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.Sleep.SleepGenerateRewardCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Sleep.SleepGenerateRewardCommand.Execute
+  nameWithType: SleepGenerateRewardCommand.Execute
 - uid: SharedLibrary.Commands.Tasks
   name: SharedLibrary.Commands.Tasks
   href: api/api/SharedLibrary.Commands.Tasks.html
@@ -2816,6 +2899,12 @@ references:
   commentId: F:SharedLibrary.Data.CommandType.SleepConsistencyUpdate
   fullName: SharedLibrary.Data.CommandType.SleepConsistencyUpdate
   nameWithType: CommandType.SleepConsistencyUpdate
+- uid: SharedLibrary.Data.CommandType.SleepGenerateReward
+  name: SleepGenerateReward
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_SleepGenerateReward
+  commentId: F:SharedLibrary.Data.CommandType.SleepGenerateReward
+  fullName: SharedLibrary.Data.CommandType.SleepGenerateReward
+  nameWithType: CommandType.SleepGenerateReward
 - uid: SharedLibrary.Data.CommandType.TaskAddFromSuggest
   name: TaskAddFromSuggest
   href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_TaskAddFromSuggest
@@ -4003,6 +4092,30 @@ references:
   commentId: F:SharedLibrary.Data.ResourceType.Social
   fullName: SharedLibrary.Data.ResourceType.Social
   nameWithType: ResourceType.Social
+- uid: SharedLibrary.Data.RewardKind
+  name: RewardKind
+  href: api/api/SharedLibrary.Data.RewardKind.html
+  commentId: T:SharedLibrary.Data.RewardKind
+  fullName: SharedLibrary.Data.RewardKind
+  nameWithType: RewardKind
+- uid: SharedLibrary.Data.RewardKind.Cosmetic
+  name: Cosmetic
+  href: api/api/SharedLibrary.Data.RewardKind.html#SharedLibrary_Data_RewardKind_Cosmetic
+  commentId: F:SharedLibrary.Data.RewardKind.Cosmetic
+  fullName: SharedLibrary.Data.RewardKind.Cosmetic
+  nameWithType: RewardKind.Cosmetic
+- uid: SharedLibrary.Data.RewardKind.Dreamstones
+  name: Dreamstones
+  href: api/api/SharedLibrary.Data.RewardKind.html#SharedLibrary_Data_RewardKind_Dreamstones
+  commentId: F:SharedLibrary.Data.RewardKind.Dreamstones
+  fullName: SharedLibrary.Data.RewardKind.Dreamstones
+  nameWithType: RewardKind.Dreamstones
+- uid: SharedLibrary.Data.RewardKind.Item
+  name: Item
+  href: api/api/SharedLibrary.Data.RewardKind.html#SharedLibrary_Data_RewardKind_Item
+  commentId: F:SharedLibrary.Data.RewardKind.Item
+  fullName: SharedLibrary.Data.RewardKind.Item
+  nameWithType: RewardKind.Item
 - uid: SharedLibrary.Data.Sleep
   name: SharedLibrary.Data.Sleep
   href: api/api/SharedLibrary.Data.Sleep.html
@@ -5719,6 +5832,25 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Managers.ItemsManager.TryToUpgradeItem
   nameWithType: ItemsManager.TryToUpgradeItem
+- uid: SharedLibrary.Managers.RewardsManager
+  name: RewardsManager
+  href: api/api/SharedLibrary.Managers.RewardsManager.html
+  commentId: T:SharedLibrary.Managers.RewardsManager
+  fullName: SharedLibrary.Managers.RewardsManager
+  nameWithType: RewardsManager
+- uid: SharedLibrary.Managers.RewardsManager.GenerateRandomReward(SharedLibrary.Managers.ItemsManager,SharedLibrary.Managers.CosmeticManager,SharedLibrary.Data.Player)
+  name: GenerateRandomReward(ItemsManager, CosmeticManager, Player)
+  href: api/api/SharedLibrary.Managers.RewardsManager.html#SharedLibrary_Managers_RewardsManager_GenerateRandomReward_SharedLibrary_Managers_ItemsManager_SharedLibrary_Managers_CosmeticManager_SharedLibrary_Data_Player_
+  commentId: M:SharedLibrary.Managers.RewardsManager.GenerateRandomReward(SharedLibrary.Managers.ItemsManager,SharedLibrary.Managers.CosmeticManager,SharedLibrary.Data.Player)
+  fullName: SharedLibrary.Managers.RewardsManager.GenerateRandomReward(SharedLibrary.Managers.ItemsManager, SharedLibrary.Managers.CosmeticManager, SharedLibrary.Data.Player)
+  nameWithType: RewardsManager.GenerateRandomReward(ItemsManager, CosmeticManager, Player)
+- uid: SharedLibrary.Managers.RewardsManager.GenerateRandomReward*
+  name: GenerateRandomReward
+  href: api/api/SharedLibrary.Managers.RewardsManager.html#SharedLibrary_Managers_RewardsManager_GenerateRandomReward_
+  commentId: Overload:SharedLibrary.Managers.RewardsManager.GenerateRandomReward
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.RewardsManager.GenerateRandomReward
+  nameWithType: RewardsManager.GenerateRandomReward
 - uid: SharedLibrary.Managers.TasksManager
   name: TasksManager
   href: api/api/SharedLibrary.Managers.TasksManager.html
@@ -7006,6 +7138,12 @@ references:
   commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepConsistencyUpdateCommandV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepConsistencyUpdateCommandV1
   nameWithType: ProtocolMessageTypes.SleepConsistencyUpdateCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepGenerateRewardCommandV1
+  name: SleepGenerateRewardCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepGenerateRewardCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepGenerateRewardCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepGenerateRewardCommandV1
+  nameWithType: ProtocolMessageTypes.SleepGenerateRewardCommandV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskAddFromSuggestionCommandV1
   name: TaskAddFromSuggestionCommandV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TaskAddFromSuggestionCommandV1
@@ -7317,6 +7455,57 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.Entry
   nameWithType: SleepConsistencyPayloadData.Entry
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1
+  name: SleepGenerateRewardProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1
+  nameWithType: SleepGenerateRewardProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.#ctor(System.String,System.String)
+  name: SleepGenerateRewardProtocolMessageV1(string, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepGenerateRewardProtocolMessageV1__ctor_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.SleepGenerateRewardProtocolMessageV1(string, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.New(String, String)
+  nameWithType: SleepGenerateRewardProtocolMessageV1.SleepGenerateRewardProtocolMessageV1(string, string?)
+  nameWithType.vb: SleepGenerateRewardProtocolMessageV1.New(String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.#ctor*
+  name: SleepGenerateRewardProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepGenerateRewardProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.SleepGenerateRewardProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.New
+  nameWithType: SleepGenerateRewardProtocolMessageV1.SleepGenerateRewardProtocolMessageV1
+  nameWithType.vb: SleepGenerateRewardProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepGenerateRewardProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.MessageType
+  nameWithType: SleepGenerateRewardProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepGenerateRewardProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.MessageType
+  nameWithType: SleepGenerateRewardProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepGenerateRewardProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.UserId
+  nameWithType: SleepGenerateRewardProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepGenerateRewardProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.UserId
+  nameWithType: SleepGenerateRewardProtocolMessageV1.UserId
 - uid: SharedLibrary.Protocol.ProtocolMessages.Tasks
   name: SharedLibrary.Protocol.ProtocolMessages.Tasks
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.html
