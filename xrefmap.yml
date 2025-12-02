@@ -1548,15 +1548,6 @@ references:
   fullName.vb: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, String)
   nameWithType: TasksAddNonSuggestTaskArgs.TasksAddNonSuggestTaskArgs(Player, TasksManager, string)
   nameWithType.vb: TasksAddNonSuggestTaskArgs.New(Player, TasksManager, String)
-- uid: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String,System.Boolean)
-  name: TasksAddNonSuggestTaskArgs(Player, TasksManager, string, bool)
-  href: api/api/SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_TasksAddNonSuggestTaskArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_TasksManager_System_String_System_Boolean_
-  commentId: M:SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String,System.Boolean)
-  name.vb: New(Player, TasksManager, String, Boolean)
-  fullName: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.TasksAddNonSuggestTaskArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, string, bool)
-  fullName.vb: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, String, Boolean)
-  nameWithType: TasksAddNonSuggestTaskArgs.TasksAddNonSuggestTaskArgs(Player, TasksManager, string, bool)
-  nameWithType.vb: TasksAddNonSuggestTaskArgs.New(Player, TasksManager, String, Boolean)
 - uid: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.#ctor*
   name: TasksAddNonSuggestTaskArgs
   href: api/api/SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_TasksAddNonSuggestTaskArgs__ctor_
@@ -1567,19 +1558,6 @@ references:
   fullName.vb: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.New
   nameWithType: TasksAddNonSuggestTaskArgs.TasksAddNonSuggestTaskArgs
   nameWithType.vb: TasksAddNonSuggestTaskArgs.New
-- uid: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.NeedMoveToTop
-  name: NeedMoveToTop
-  href: api/api/SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_TasksAddNonSuggestTaskArgs_NeedMoveToTop
-  commentId: P:SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.NeedMoveToTop
-  fullName: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.NeedMoveToTop
-  nameWithType: TasksAddNonSuggestTaskArgs.NeedMoveToTop
-- uid: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.NeedMoveToTop*
-  name: NeedMoveToTop
-  href: api/api/SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_TasksAddNonSuggestTaskArgs_NeedMoveToTop_
-  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.NeedMoveToTop
-  isSpec: "True"
-  fullName: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.NeedMoveToTop
-  nameWithType: TasksAddNonSuggestTaskArgs.NeedMoveToTop
 - uid: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.Player
   name: Player
   href: api/api/SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_TasksAddNonSuggestTaskArgs_Player
@@ -3235,12 +3213,6 @@ references:
   commentId: F:SharedLibrary.Data.Constants.TMP_UNITY_PLAYER_CHANGED
   fullName: SharedLibrary.Data.Constants.TMP_UNITY_PLAYER_CHANGED
   nameWithType: Constants.TMP_UNITY_PLAYER_CHANGED
-- uid: SharedLibrary.Data.Constants.TUTORIAL_COSMETIC_REWARD_ID
-  name: TUTORIAL_COSMETIC_REWARD_ID
-  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_TUTORIAL_COSMETIC_REWARD_ID
-  commentId: F:SharedLibrary.Data.Constants.TUTORIAL_COSMETIC_REWARD_ID
-  fullName: SharedLibrary.Data.Constants.TUTORIAL_COSMETIC_REWARD_ID
-  nameWithType: Constants.TUTORIAL_COSMETIC_REWARD_ID
 - uid: SharedLibrary.Data.Constants.TUTORIAL_ITEM_REWARD_ID
   name: TUTORIAL_ITEM_REWARD_ID
   href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_TUTORIAL_ITEM_REWARD_ID
@@ -5405,15 +5377,15 @@ references:
   commentId: T:SharedLibrary.Extensions.TimeExtensions
   fullName: SharedLibrary.Extensions.TimeExtensions
   nameWithType: TimeExtensions
-- uid: SharedLibrary.Extensions.TimeExtensions.GetDiffInMinutes(System.String,System.String,System.Boolean)
-  name: GetDiffInMinutes(string, string, bool)
-  href: api/api/SharedLibrary.Extensions.TimeExtensions.html#SharedLibrary_Extensions_TimeExtensions_GetDiffInMinutes_System_String_System_String_System_Boolean_
-  commentId: M:SharedLibrary.Extensions.TimeExtensions.GetDiffInMinutes(System.String,System.String,System.Boolean)
-  name.vb: GetDiffInMinutes(String, String, Boolean)
-  fullName: SharedLibrary.Extensions.TimeExtensions.GetDiffInMinutes(string, string, bool)
-  fullName.vb: SharedLibrary.Extensions.TimeExtensions.GetDiffInMinutes(String, String, Boolean)
-  nameWithType: TimeExtensions.GetDiffInMinutes(string, string, bool)
-  nameWithType.vb: TimeExtensions.GetDiffInMinutes(String, String, Boolean)
+- uid: SharedLibrary.Extensions.TimeExtensions.GetDiffInMinutes(System.String,System.String)
+  name: GetDiffInMinutes(string, string)
+  href: api/api/SharedLibrary.Extensions.TimeExtensions.html#SharedLibrary_Extensions_TimeExtensions_GetDiffInMinutes_System_String_System_String_
+  commentId: M:SharedLibrary.Extensions.TimeExtensions.GetDiffInMinutes(System.String,System.String)
+  name.vb: GetDiffInMinutes(String, String)
+  fullName: SharedLibrary.Extensions.TimeExtensions.GetDiffInMinutes(string, string)
+  fullName.vb: SharedLibrary.Extensions.TimeExtensions.GetDiffInMinutes(String, String)
+  nameWithType: TimeExtensions.GetDiffInMinutes(string, string)
+  nameWithType.vb: TimeExtensions.GetDiffInMinutes(String, String)
 - uid: SharedLibrary.Extensions.TimeExtensions.GetDiffInMinutes*
   name: GetDiffInMinutes
   href: api/api/SharedLibrary.Extensions.TimeExtensions.html#SharedLibrary_Extensions_TimeExtensions_GetDiffInMinutes_
@@ -6198,15 +6170,15 @@ references:
   commentId: T:SharedLibrary.Managers.TasksManager
   fullName: SharedLibrary.Managers.TasksManager
   nameWithType: TasksManager
-- uid: SharedLibrary.Managers.TasksManager.AddNonSuggestTask(SharedLibrary.Data.Player,System.String,System.Boolean)
-  name: AddNonSuggestTask(Player, string, bool)
-  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_AddNonSuggestTask_SharedLibrary_Data_Player_System_String_System_Boolean_
-  commentId: M:SharedLibrary.Managers.TasksManager.AddNonSuggestTask(SharedLibrary.Data.Player,System.String,System.Boolean)
-  name.vb: AddNonSuggestTask(Player, String, Boolean)
-  fullName: SharedLibrary.Managers.TasksManager.AddNonSuggestTask(SharedLibrary.Data.Player, string, bool)
-  fullName.vb: SharedLibrary.Managers.TasksManager.AddNonSuggestTask(SharedLibrary.Data.Player, String, Boolean)
-  nameWithType: TasksManager.AddNonSuggestTask(Player, string, bool)
-  nameWithType.vb: TasksManager.AddNonSuggestTask(Player, String, Boolean)
+- uid: SharedLibrary.Managers.TasksManager.AddNonSuggestTask(SharedLibrary.Data.Player,System.String)
+  name: AddNonSuggestTask(Player, string)
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_AddNonSuggestTask_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Managers.TasksManager.AddNonSuggestTask(SharedLibrary.Data.Player,System.String)
+  name.vb: AddNonSuggestTask(Player, String)
+  fullName: SharedLibrary.Managers.TasksManager.AddNonSuggestTask(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Managers.TasksManager.AddNonSuggestTask(SharedLibrary.Data.Player, String)
+  nameWithType: TasksManager.AddNonSuggestTask(Player, string)
+  nameWithType.vb: TasksManager.AddNonSuggestTask(Player, String)
 - uid: SharedLibrary.Managers.TasksManager.AddNonSuggestTask*
   name: AddNonSuggestTask
   href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_AddNonSuggestTask_
