@@ -122,19 +122,19 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Managers_TasksManager_AddNonSuggestTask_SharedLibrary_Data_Player_System_String_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.TasksManager.AddNonSuggestTask(SharedLibrary.Data.Player%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Managers_TasksManager_AddNonSuggestTask_SharedLibrary_Data_Player_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.TasksManager.AddNonSuggestTask(SharedLibrary.Data.Player%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/TasksManager.cs/#L140">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Managers/TasksManager.cs/#L144">View Source</a>
   </span>
   <a id="SharedLibrary_Managers_TasksManager_AddNonSuggestTask_" data-uid="SharedLibrary.Managers.TasksManager.AddNonSuggestTask*"></a>
-  <h4 id="SharedLibrary_Managers_TasksManager_AddNonSuggestTask_SharedLibrary_Data_Player_System_String_" data-uid="SharedLibrary.Managers.TasksManager.AddNonSuggestTask(SharedLibrary.Data.Player,System.String)">AddNonSuggestTask(Player, string)</h4>
+  <h4 id="SharedLibrary_Managers_TasksManager_AddNonSuggestTask_SharedLibrary_Data_Player_System_String_System_Boolean_" data-uid="SharedLibrary.Managers.TasksManager.AddNonSuggestTask(SharedLibrary.Data.Player,System.String,System.Boolean)">AddNonSuggestTask(Player, string, bool)</h4>
   <div class="markdown level1 summary"><p>Adds a non-suggested task to the player's suggestion tasks and processes it as if it were a suggested task.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PlayerTasks AddNonSuggestTask(Player player, string taskId)</code></pre>
+    <pre><code class="lang-csharp hljs">public PlayerTasks AddNonSuggestTask(Player player, string taskId, bool needToMoveToTop)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -158,6 +158,12 @@
         <td><p>The unique identifier of the task to add.</p>
 </td>
       </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">needToMoveToTop</span></td>
+        <td><p>Indicates whether the task should be moved to the top of the active tasks list after being added.</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
@@ -176,16 +182,21 @@
       </tr>
     </tbody>
   </table>
-  <h5 id="SharedLibrary_Managers_TasksManager_AddNonSuggestTask_SharedLibrary_Data_Player_System_String__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>This method retrieves a task by its identifier from the configuration manager. If the task exists,
-it is added to the player's suggestion tasks and then processed using <a class="xref" href="SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_AddTaskFromSuggestions_SharedLibrary_Data_Player_System_String_">AddTaskFromSuggestions(Player, string)</a>.</p>
+  <h5 id="SharedLibrary_Managers_TasksManager_AddNonSuggestTask_SharedLibrary_Data_Player_System_String_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method retrieves a task by its identifier from the configuration manager. If the task exists:</p>
+<ul>
+<li>If the task is already in the player's active tasks, it can optionally be moved to the top of the list.</li>
+<li>If the task is not in the active tasks, it is added to the player's suggestion tasks (if not already present),
+then processed as a suggested task using <a class="xref" href="SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_AddTaskFromSuggestions_SharedLibrary_Data_Player_System_String_">AddTaskFromSuggestions(Player, string)</a>.</li>
+<li>If the task is moved to the active tasks, it can optionally be moved to the top of the list.</li>
+</ul>
 </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Managers_TasksManager_AddTaskFromSuggestions_SharedLibrary_Data_Player_System_String_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.TasksManager.AddTaskFromSuggestions(SharedLibrary.Data.Player%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Managers_TasksManager_AddTaskFromSuggestions_SharedLibrary_Data_Player_System_String_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.TasksManager.AddTaskFromSuggestions(SharedLibrary.Data.Player%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/TasksManager.cs/#L100">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Managers/TasksManager.cs/#L100">View Source</a>
   </span>
   <a id="SharedLibrary_Managers_TasksManager_AddTaskFromSuggestions_" data-uid="SharedLibrary.Managers.TasksManager.AddTaskFromSuggestions*"></a>
   <h4 id="SharedLibrary_Managers_TasksManager_AddTaskFromSuggestions_SharedLibrary_Data_Player_System_String_" data-uid="SharedLibrary.Managers.TasksManager.AddTaskFromSuggestions(SharedLibrary.Data.Player,System.String)">AddTaskFromSuggestions(Player, string)</h4>
@@ -248,10 +259,10 @@ to <code>SuggestionTasks</code> to keep suggestions capped and unique.</p>
 
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Managers_TasksManager_CompleteTask_SharedLibrary_Data_Player_System_String_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.TasksManager.CompleteTask(SharedLibrary.Data.Player%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Managers_TasksManager_CompleteTask_SharedLibrary_Data_Player_System_String_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.TasksManager.CompleteTask(SharedLibrary.Data.Player%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/TasksManager.cs/#L190">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Managers/TasksManager.cs/#L198">View Source</a>
   </span>
   <a id="SharedLibrary_Managers_TasksManager_CompleteTask_" data-uid="SharedLibrary.Managers.TasksManager.CompleteTask*"></a>
   <h4 id="SharedLibrary_Managers_TasksManager_CompleteTask_SharedLibrary_Data_Player_System_String_" data-uid="SharedLibrary.Managers.TasksManager.CompleteTask(SharedLibrary.Data.Player,System.String)">CompleteTask(Player, string)</h4>
@@ -313,10 +324,10 @@ If the task is not found, the method returns the player unchanged.</p>
 
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Managers_TasksManager_CreateTask_SharedLibrary_Data_Player_SharedLibrary_Data_Tasks_TaskCare_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.TasksManager.CreateTask(SharedLibrary.Data.Player%2CSharedLibrary.Data.Tasks.TaskCare)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Managers_TasksManager_CreateTask_SharedLibrary_Data_Player_SharedLibrary_Data_Tasks_TaskCare_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.TasksManager.CreateTask(SharedLibrary.Data.Player%2CSharedLibrary.Data.Tasks.TaskCare)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/TasksManager.cs/#L65">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Managers/TasksManager.cs/#L65">View Source</a>
   </span>
   <a id="SharedLibrary_Managers_TasksManager_CreateTask_" data-uid="SharedLibrary.Managers.TasksManager.CreateTask*"></a>
   <h4 id="SharedLibrary_Managers_TasksManager_CreateTask_SharedLibrary_Data_Player_SharedLibrary_Data_Tasks_TaskCare_" data-uid="SharedLibrary.Managers.TasksManager.CreateTask(SharedLibrary.Data.Player,SharedLibrary.Data.Tasks.TaskCare)">CreateTask(Player, TaskCare)</h4>
@@ -395,10 +406,10 @@ var updatedTasks = manager.CreateTask(player, manualTask);
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Managers_TasksManager_GetPlayerTasks_SharedLibrary_Data_Player_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.TasksManager.GetPlayerTasks(SharedLibrary.Data.Player)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Managers_TasksManager_GetPlayerTasks_SharedLibrary_Data_Player_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.TasksManager.GetPlayerTasks(SharedLibrary.Data.Player)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/TasksManager.cs/#L40">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Managers/TasksManager.cs/#L40">View Source</a>
   </span>
   <a id="SharedLibrary_Managers_TasksManager_GetPlayerTasks_" data-uid="SharedLibrary.Managers.TasksManager.GetPlayerTasks*"></a>
   <h4 id="SharedLibrary_Managers_TasksManager_GetPlayerTasks_SharedLibrary_Data_Player_" data-uid="SharedLibrary.Managers.TasksManager.GetPlayerTasks(SharedLibrary.Data.Player)">GetPlayerTasks(Player)</h4>
@@ -455,10 +466,10 @@ var tasks = manager.GetPlayerTasks(player);
 
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Managers_TasksManager_RemoveTask_SharedLibrary_Data_Player_System_String_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.TasksManager.RemoveTask(SharedLibrary.Data.Player%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Managers_TasksManager_RemoveTask_SharedLibrary_Data_Player_System_String_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.TasksManager.RemoveTask(SharedLibrary.Data.Player%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/TasksManager.cs/#L226">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Managers/TasksManager.cs/#L234">View Source</a>
   </span>
   <a id="SharedLibrary_Managers_TasksManager_RemoveTask_" data-uid="SharedLibrary.Managers.TasksManager.RemoveTask*"></a>
   <h4 id="SharedLibrary_Managers_TasksManager_RemoveTask_SharedLibrary_Data_Player_System_String_" data-uid="SharedLibrary.Managers.TasksManager.RemoveTask(SharedLibrary.Data.Player,System.String)">RemoveTask(Player, string)</h4>
@@ -535,10 +546,10 @@ the provided <code class="paramref">taskId</code> and removes it if found. If no
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Managers_TasksManager_UpdateTask_SharedLibrary_Data_Player_SharedLibrary_Data_Tasks_TaskCare_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.TasksManager.UpdateTask(SharedLibrary.Data.Player%2CSharedLibrary.Data.Tasks.TaskCare)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Managers_TasksManager_UpdateTask_SharedLibrary_Data_Player_SharedLibrary_Data_Tasks_TaskCare_.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.TasksManager.UpdateTask(SharedLibrary.Data.Player%2CSharedLibrary.Data.Tasks.TaskCare)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/TasksManager.cs/#L254">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Managers/TasksManager.cs/#L262">View Source</a>
   </span>
   <a id="SharedLibrary_Managers_TasksManager_UpdateTask_" data-uid="SharedLibrary.Managers.TasksManager.UpdateTask*"></a>
   <h4 id="SharedLibrary_Managers_TasksManager_UpdateTask_SharedLibrary_Data_Player_SharedLibrary_Data_Tasks_TaskCare_" data-uid="SharedLibrary.Managers.TasksManager.UpdateTask(SharedLibrary.Data.Player,SharedLibrary.Data.Tasks.TaskCare)">UpdateTask(Player, TaskCare)</h4>
@@ -607,10 +618,10 @@ If no matching Task is found, the player's tasks remain unchanged.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/main/apiSpec/new?filename=SharedLibrary_Managers_TasksManager.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.TasksManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Managers_TasksManager.md&amp;value=---%0Auid%3A%20SharedLibrary.Managers.TasksManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/main/SharedLibrary/Managers/TasksManager.cs/#L21" class="contribution-link">View Source</a>
+                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Managers/TasksManager.cs/#L21" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
