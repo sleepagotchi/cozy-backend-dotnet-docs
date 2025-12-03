@@ -7479,12 +7479,12 @@ references:
   commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepChangeScheduleCommandV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepChangeScheduleCommandV1
   nameWithType: ProtocolMessageTypes.SleepChangeScheduleCommandV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepConsistencyUpdateCommandV1
-  name: SleepConsistencyUpdateCommandV1
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepConsistencyUpdateCommandV1
-  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepConsistencyUpdateCommandV1
-  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepConsistencyUpdateCommandV1
-  nameWithType: ProtocolMessageTypes.SleepConsistencyUpdateCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepConsistencyCalculateCommandV1
+  name: SleepConsistencyCalculateCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepConsistencyCalculateCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepConsistencyCalculateCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepConsistencyCalculateCommandV1
+  nameWithType: ProtocolMessageTypes.SleepConsistencyCalculateCommandV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepGenerateRewardCommandV1
   name: SleepGenerateRewardCommandV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepGenerateRewardCommandV1
