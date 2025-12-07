@@ -116,18 +116,18 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto__ctor_System_DateTime_System_String_System_String_System_Double_System_String_System_String_.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.%23ctor(System.DateTime%2CSystem.String%2CSystem.String%2CSystem.Double%2CSystem.String%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto__ctor_System_DateTime_System_String_System_String_System_Double_System_String_System_String_System_Double_System_Double_.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.%23ctor(System.DateTime%2CSystem.String%2CSystem.String%2CSystem.Double%2CSystem.String%2CSystem.String%2CSystem.Double%2CSystem.Double)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/Sleep/SleepConsistencyCalculatedEventProtocolMessageV1.cs/#L47">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/Sleep/SleepConsistencyCalculatedEventProtocolMessageV1.cs/#L54">View Source</a>
   </span>
   <a id="SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto__ctor_" data-uid="SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.#ctor*"></a>
-  <h4 id="SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto__ctor_System_DateTime_System_String_System_String_System_Double_System_String_System_String_" data-uid="SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.#ctor(System.DateTime,System.String,System.String,System.Double,System.String,System.String)">SleepConsistencyEntryDto(DateTime, string, string, double, string, string)</h4>
+  <h4 id="SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto__ctor_System_DateTime_System_String_System_String_System_Double_System_String_System_String_System_Double_System_Double_" data-uid="SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.#ctor(System.DateTime,System.String,System.String,System.Double,System.String,System.String,System.Double,System.Double)">SleepConsistencyEntryDto(DateTime, string, string, double, string, string, double, double)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SleepConsistencyEntryDto(DateTime date, string goToBedISO, string wakeUpISO, double durationMinutes, string targetGoToBedISO, string targetWakeUpISO)</code></pre>
+    <pre><code class="lang-csharp hljs">public SleepConsistencyEntryDto(DateTime date, string goToBedISO, string wakeUpISO, double durationMinutes, string targetGoToBedISO, string targetWakeUpISO, double deltaBedMinutes, double deltaWakeMinutes)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -169,6 +169,16 @@
         <td><span class="parametername">targetWakeUpISO</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td><span class="parametername">deltaBedMinutes</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td><span class="parametername">deltaWakeMinutes</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
@@ -178,7 +188,7 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_Date.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.Date%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/Sleep/SleepConsistencyCalculatedEventProtocolMessageV1.cs/#L40">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/Sleep/SleepConsistencyCalculatedEventProtocolMessageV1.cs/#L45">View Source</a>
   </span>
   <a id="SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_Date_" data-uid="SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.Date*"></a>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_Date" data-uid="SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.Date">Date</h4>
@@ -205,10 +215,70 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_DeltaBedMinutes.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaBedMinutes%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/Sleep/SleepConsistencyCalculatedEventProtocolMessageV1.cs/#L51">View Source</a>
+  </span>
+  <a id="SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_DeltaBedMinutes_" data-uid="SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaBedMinutes*"></a>
+  <h4 id="SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_DeltaBedMinutes" data-uid="SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaBedMinutes">DeltaBedMinutes</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double DeltaBedMinutes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_DeltaWakeMinutes.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaWakeMinutes%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/Sleep/SleepConsistencyCalculatedEventProtocolMessageV1.cs/#L52">View Source</a>
+  </span>
+  <a id="SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_DeltaWakeMinutes_" data-uid="SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaWakeMinutes*"></a>
+  <h4 id="SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_DeltaWakeMinutes" data-uid="SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaWakeMinutes">DeltaWakeMinutes</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double DeltaWakeMinutes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_DurationMinutes.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DurationMinutes%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/Sleep/SleepConsistencyCalculatedEventProtocolMessageV1.cs/#L43">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/Sleep/SleepConsistencyCalculatedEventProtocolMessageV1.cs/#L48">View Source</a>
   </span>
   <a id="SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_DurationMinutes_" data-uid="SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DurationMinutes*"></a>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_DurationMinutes" data-uid="SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DurationMinutes">DurationMinutes</h4>
@@ -238,7 +308,7 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_GoToBedISO.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.GoToBedISO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/Sleep/SleepConsistencyCalculatedEventProtocolMessageV1.cs/#L41">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/Sleep/SleepConsistencyCalculatedEventProtocolMessageV1.cs/#L46">View Source</a>
   </span>
   <a id="SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_GoToBedISO_" data-uid="SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.GoToBedISO*"></a>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_GoToBedISO" data-uid="SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.GoToBedISO">GoToBedISO</h4>
@@ -268,7 +338,7 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_TargetGoToBedISO.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.TargetGoToBedISO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/Sleep/SleepConsistencyCalculatedEventProtocolMessageV1.cs/#L44">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/Sleep/SleepConsistencyCalculatedEventProtocolMessageV1.cs/#L49">View Source</a>
   </span>
   <a id="SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_TargetGoToBedISO_" data-uid="SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.TargetGoToBedISO*"></a>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_TargetGoToBedISO" data-uid="SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.TargetGoToBedISO">TargetGoToBedISO</h4>
@@ -298,7 +368,7 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_TargetWakeUpISO.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.TargetWakeUpISO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/Sleep/SleepConsistencyCalculatedEventProtocolMessageV1.cs/#L45">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/Sleep/SleepConsistencyCalculatedEventProtocolMessageV1.cs/#L50">View Source</a>
   </span>
   <a id="SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_TargetWakeUpISO_" data-uid="SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.TargetWakeUpISO*"></a>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_TargetWakeUpISO" data-uid="SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.TargetWakeUpISO">TargetWakeUpISO</h4>
@@ -328,7 +398,7 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_WakeUpISO.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.WakeUpISO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/Sleep/SleepConsistencyCalculatedEventProtocolMessageV1.cs/#L42">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/Sleep/SleepConsistencyCalculatedEventProtocolMessageV1.cs/#L47">View Source</a>
   </span>
   <a id="SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_WakeUpISO_" data-uid="SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.WakeUpISO*"></a>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_WakeUpISO" data-uid="SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.WakeUpISO">WakeUpISO</h4>
@@ -365,7 +435,7 @@
                     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/Sleep/SleepConsistencyCalculatedEventProtocolMessageV1.cs/#L38" class="contribution-link">View Source</a>
+                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/Sleep/SleepConsistencyCalculatedEventProtocolMessageV1.cs/#L43" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

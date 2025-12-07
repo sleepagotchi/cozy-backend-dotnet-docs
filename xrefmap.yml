@@ -7705,15 +7705,15 @@ references:
   commentId: T:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto
   fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto
   nameWithType: SleepConsistencyEntryDto
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.#ctor(System.DateTime,System.String,System.String,System.Double,System.String,System.String)
-  name: SleepConsistencyEntryDto(DateTime, string, string, double, string, string)
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto__ctor_System_DateTime_System_String_System_String_System_Double_System_String_System_String_
-  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.#ctor(System.DateTime,System.String,System.String,System.Double,System.String,System.String)
-  name.vb: New(Date, String, String, Double, String, String)
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.SleepConsistencyEntryDto(System.DateTime, string, string, double, string, string)
-  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.New(Date, String, String, Double, String, String)
-  nameWithType: SleepConsistencyEntryDto.SleepConsistencyEntryDto(DateTime, string, string, double, string, string)
-  nameWithType.vb: SleepConsistencyEntryDto.New(Date, String, String, Double, String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.#ctor(System.DateTime,System.String,System.String,System.Double,System.String,System.String,System.Double,System.Double)
+  name: SleepConsistencyEntryDto(DateTime, string, string, double, string, string, double, double)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto__ctor_System_DateTime_System_String_System_String_System_Double_System_String_System_String_System_Double_System_Double_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.#ctor(System.DateTime,System.String,System.String,System.Double,System.String,System.String,System.Double,System.Double)
+  name.vb: New(Date, String, String, Double, String, String, Double, Double)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.SleepConsistencyEntryDto(System.DateTime, string, string, double, string, string, double, double)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.New(Date, String, String, Double, String, String, Double, Double)
+  nameWithType: SleepConsistencyEntryDto.SleepConsistencyEntryDto(DateTime, string, string, double, string, string, double, double)
+  nameWithType.vb: SleepConsistencyEntryDto.New(Date, String, String, Double, String, String, Double, Double)
 - uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.#ctor*
   name: SleepConsistencyEntryDto
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto__ctor_
@@ -7737,6 +7737,32 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.Date
   nameWithType: SleepConsistencyEntryDto.Date
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaBedMinutes
+  name: DeltaBedMinutes
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_DeltaBedMinutes
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaBedMinutes
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaBedMinutes
+  nameWithType: SleepConsistencyEntryDto.DeltaBedMinutes
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaBedMinutes*
+  name: DeltaBedMinutes
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_DeltaBedMinutes_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaBedMinutes
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaBedMinutes
+  nameWithType: SleepConsistencyEntryDto.DeltaBedMinutes
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaWakeMinutes
+  name: DeltaWakeMinutes
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_DeltaWakeMinutes
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaWakeMinutes
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaWakeMinutes
+  nameWithType: SleepConsistencyEntryDto.DeltaWakeMinutes
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaWakeMinutes*
+  name: DeltaWakeMinutes
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_DeltaWakeMinutes_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaWakeMinutes
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaWakeMinutes
+  nameWithType: SleepConsistencyEntryDto.DeltaWakeMinutes
 - uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DurationMinutes
   name: DurationMinutes
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_DurationMinutes
@@ -7808,15 +7834,15 @@ references:
   commentId: T:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData
   fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData
   nameWithType: SleepConsistencyPayloadData
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.#ctor(System.Double,SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto)
-  name: SleepConsistencyPayloadData(double, SleepConsistencyEntryDto)
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyPayloadData__ctor_System_Double_SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_
-  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.#ctor(System.Double,SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto)
-  name.vb: New(Double, SleepConsistencyEntryDto)
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.SleepConsistencyPayloadData(double, SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto)
-  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.New(Double, SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto)
-  nameWithType: SleepConsistencyPayloadData.SleepConsistencyPayloadData(double, SleepConsistencyEntryDto)
-  nameWithType.vb: SleepConsistencyPayloadData.New(Double, SleepConsistencyEntryDto)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.#ctor(System.Double,System.Boolean,SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto)
+  name: SleepConsistencyPayloadData(double, bool, SleepConsistencyEntryDto)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyPayloadData__ctor_System_Double_System_Boolean_SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.#ctor(System.Double,System.Boolean,SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto)
+  name.vb: New(Double, Boolean, SleepConsistencyEntryDto)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.SleepConsistencyPayloadData(double, bool, SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.New(Double, Boolean, SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto)
+  nameWithType: SleepConsistencyPayloadData.SleepConsistencyPayloadData(double, bool, SleepConsistencyEntryDto)
+  nameWithType.vb: SleepConsistencyPayloadData.New(Double, Boolean, SleepConsistencyEntryDto)
 - uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.#ctor*
   name: SleepConsistencyPayloadData
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyPayloadData__ctor_
@@ -7853,6 +7879,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.Entry
   nameWithType: SleepConsistencyPayloadData.Entry
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.IsManual
+  name: IsManual
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyPayloadData_IsManual
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.IsManual
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.IsManual
+  nameWithType: SleepConsistencyPayloadData.IsManual
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.IsManual*
+  name: IsManual
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyPayloadData_IsManual_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.IsManual
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.IsManual
+  nameWithType: SleepConsistencyPayloadData.IsManual
 - uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1
   name: SleepGenerateRewardProtocolMessageV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.html
