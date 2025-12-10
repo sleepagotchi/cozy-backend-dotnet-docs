@@ -3133,6 +3133,12 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Constants.DreamStonesFromEmptyRewards
   nameWithType: Constants.DreamStonesFromEmptyRewards
+- uid: SharedLibrary.Data.Constants.EMPTY_CATEGORY_ID
+  name: EMPTY_CATEGORY_ID
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_EMPTY_CATEGORY_ID
+  commentId: F:SharedLibrary.Data.Constants.EMPTY_CATEGORY_ID
+  fullName: SharedLibrary.Data.Constants.EMPTY_CATEGORY_ID
+  nameWithType: Constants.EMPTY_CATEGORY_ID
 - uid: SharedLibrary.Data.Constants.ENVIRONMENT
   name: ENVIRONMENT
   href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_ENVIRONMENT
@@ -3235,6 +3241,12 @@ references:
   commentId: F:SharedLibrary.Data.Constants.STARTED_ITEM_ON_USER_CREATION
   fullName: SharedLibrary.Data.Constants.STARTED_ITEM_ON_USER_CREATION
   nameWithType: Constants.STARTED_ITEM_ON_USER_CREATION
+- uid: SharedLibrary.Data.Constants.TASKS_CATEGORIES
+  name: TASKS_CATEGORIES
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_TASKS_CATEGORIES
+  commentId: F:SharedLibrary.Data.Constants.TASKS_CATEGORIES
+  fullName: SharedLibrary.Data.Constants.TASKS_CATEGORIES
+  nameWithType: Constants.TASKS_CATEGORIES
 - uid: SharedLibrary.Data.Constants.TMP_UNITY_PLAYER_CHANGED
   name: TMP_UNITY_PLAYER_CHANGED
   href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_TMP_UNITY_PLAYER_CHANGED
@@ -4509,6 +4521,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasks
   nameWithType: PlayerTasks.SuggestionTasks
+- uid: SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasksByCategory
+  name: SuggestionTasksByCategory
+  href: api/api/SharedLibrary.Data.Tasks.PlayerTasks.html#SharedLibrary_Data_Tasks_PlayerTasks_SuggestionTasksByCategory
+  commentId: P:SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasksByCategory
+  fullName: SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasksByCategory
+  nameWithType: PlayerTasks.SuggestionTasksByCategory
+- uid: SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasksByCategory*
+  name: SuggestionTasksByCategory
+  href: api/api/SharedLibrary.Data.Tasks.PlayerTasks.html#SharedLibrary_Data_Tasks_PlayerTasks_SuggestionTasksByCategory_
+  commentId: Overload:SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasksByCategory
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasksByCategory
+  nameWithType: PlayerTasks.SuggestionTasksByCategory
 - uid: SharedLibrary.Data.Tasks.TaskCare
   name: TaskCare
   href: api/api/SharedLibrary.Data.Tasks.TaskCare.html

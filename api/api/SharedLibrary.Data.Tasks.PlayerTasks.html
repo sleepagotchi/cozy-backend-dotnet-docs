@@ -119,11 +119,12 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Data_Tasks_PlayerTasks_ActiveTasks.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Tasks.PlayerTasks.ActiveTasks%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/PlayerTasks.cs/#L9">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/PlayerTasks.cs/#L13">View Source</a>
   </span>
   <a id="SharedLibrary_Data_Tasks_PlayerTasks_ActiveTasks_" data-uid="SharedLibrary.Data.Tasks.PlayerTasks.ActiveTasks*"></a>
   <h4 id="SharedLibrary_Data_Tasks_PlayerTasks_ActiveTasks" data-uid="SharedLibrary.Data.Tasks.PlayerTasks.ActiveTasks">ActiveTasks</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>A list of tasks that are currently active for the player.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
@@ -149,15 +150,17 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Data_Tasks_PlayerTasks_SuggestionTasks.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasks%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/PlayerTasks.cs/#L10">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/PlayerTasks.cs/#L32">View Source</a>
   </span>
   <a id="SharedLibrary_Data_Tasks_PlayerTasks_SuggestionTasks_" data-uid="SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasks*"></a>
   <h4 id="SharedLibrary_Data_Tasks_PlayerTasks_SuggestionTasks" data-uid="SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasks">SuggestionTasks</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets a flat list of all suggestion tasks across all categories.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;TaskCare&gt; SuggestionTasks { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
+public List&lt;TaskCare&gt; SuggestionTasks { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -174,6 +177,45 @@
       </tr>
     </tbody>
   </table>
+  <h5 id="SharedLibrary_Data_Tasks_PlayerTasks_SuggestionTasks_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This property aggregates all tasks from the <code>SuggestionTasksByCategory</code> dictionary
+into a single list. It is marked with the <code>[JsonIgnore]</code> attribute to exclude it
+from JSON serialization, as it is a derived property.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Data_Tasks_PlayerTasks_SuggestionTasksByCategory.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasksByCategory%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/PlayerTasks.cs/#L21">View Source</a>
+  </span>
+  <a id="SharedLibrary_Data_Tasks_PlayerTasks_SuggestionTasksByCategory_" data-uid="SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasksByCategory*"></a>
+  <h4 id="SharedLibrary_Data_Tasks_PlayerTasks_SuggestionTasksByCategory" data-uid="SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasksByCategory">SuggestionTasksByCategory</h4>
+  <div class="markdown level1 summary"><p>A dictionary that organizes suggestion tasks by their respective categories.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, List&lt;TaskCare&gt;&gt; SuggestionTasksByCategory { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SharedLibrary.Data.Tasks.TaskCare.html">TaskCare</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SharedLibrary_Data_Tasks_PlayerTasks_SuggestionTasksByCategory_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The key represents the category name, and the value is a list of tasks belonging to that category.</p>
+</div>
   <h3 id="methods">Methods
 </h3>
   <span class="small pull-right mobile-hide">
@@ -181,7 +223,7 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Data_Tasks_PlayerTasks_Clone.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Tasks.PlayerTasks.Clone%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/PlayerTasks.cs/#L12">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/PlayerTasks.cs/#L41">View Source</a>
   </span>
   <a id="SharedLibrary_Data_Tasks_PlayerTasks_Clone_" data-uid="SharedLibrary.Data.Tasks.PlayerTasks.Clone*"></a>
   <h4 id="SharedLibrary_Data_Tasks_PlayerTasks_Clone" data-uid="SharedLibrary.Data.Tasks.PlayerTasks.Clone">Clone()</h4>
@@ -218,7 +260,7 @@
                     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Data_Tasks_PlayerTasks.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Tasks.PlayerTasks%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/PlayerTasks.cs/#L7" class="contribution-link">View Source</a>
+                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/PlayerTasks.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
