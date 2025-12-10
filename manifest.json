@@ -446,6 +446,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.yml",
       "output": {
         ".html": {
@@ -960,6 +974,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Commands.Tasks.RemoveTaskCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Tasks.TaskAddDailyTasksCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Tasks.TaskAddDailyTasksCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Tasks.TaskAddDailyTasksCommand",
       "Summary": null
     },
     {
@@ -2150,6 +2178,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Protocol.ProtocolMessages.Sleep",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1",
       "Summary": null
     },
     {

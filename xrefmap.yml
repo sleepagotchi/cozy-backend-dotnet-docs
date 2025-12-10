@@ -1533,6 +1533,70 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.TasksManager
   nameWithType: RemoveTaskArgs.TasksManager
+- uid: SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs
+  name: TaskAddDailyTasksArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs
+  fullName: SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs
+  nameWithType: TaskAddDailyTasksArgs
+- uid: SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.Int32)
+  name: TaskAddDailyTasksArgs(Player, TasksManager, int)
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.html#SharedLibrary_Commands_Arguments_Tasks_TaskAddDailyTasksArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_TasksManager_System_Int32_
+  commentId: M:SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.Int32)
+  name.vb: New(Player, TasksManager, Integer)
+  fullName: SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.TaskAddDailyTasksArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, int)
+  fullName.vb: SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, Integer)
+  nameWithType: TaskAddDailyTasksArgs.TaskAddDailyTasksArgs(Player, TasksManager, int)
+  nameWithType.vb: TaskAddDailyTasksArgs.New(Player, TasksManager, Integer)
+- uid: SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.#ctor*
+  name: TaskAddDailyTasksArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.html#SharedLibrary_Commands_Arguments_Tasks_TaskAddDailyTasksArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.TaskAddDailyTasksArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.New
+  nameWithType: TaskAddDailyTasksArgs.TaskAddDailyTasksArgs
+  nameWithType.vb: TaskAddDailyTasksArgs.New
+- uid: SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.html#SharedLibrary_Commands_Arguments_Tasks_TaskAddDailyTasksArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.Player
+  nameWithType: TaskAddDailyTasksArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.html#SharedLibrary_Commands_Arguments_Tasks_TaskAddDailyTasksArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.Player
+  nameWithType: TaskAddDailyTasksArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.TasksManager
+  name: TasksManager
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.html#SharedLibrary_Commands_Arguments_Tasks_TaskAddDailyTasksArgs_TasksManager
+  commentId: P:SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.TasksManager
+  fullName: SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.TasksManager
+  nameWithType: TaskAddDailyTasksArgs.TasksManager
+- uid: SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.TasksManager*
+  name: TasksManager
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.html#SharedLibrary_Commands_Arguments_Tasks_TaskAddDailyTasksArgs_TasksManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.TasksManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.TasksManager
+  nameWithType: TaskAddDailyTasksArgs.TasksManager
+- uid: SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.TzOffsetSeconds
+  name: TzOffsetSeconds
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.html#SharedLibrary_Commands_Arguments_Tasks_TaskAddDailyTasksArgs_TzOffsetSeconds
+  commentId: P:SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.TzOffsetSeconds
+  fullName: SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.TzOffsetSeconds
+  nameWithType: TaskAddDailyTasksArgs.TzOffsetSeconds
+- uid: SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.TzOffsetSeconds*
+  name: TzOffsetSeconds
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.html#SharedLibrary_Commands_Arguments_Tasks_TaskAddDailyTasksArgs_TzOffsetSeconds_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.TzOffsetSeconds
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs.TzOffsetSeconds
+  nameWithType: TaskAddDailyTasksArgs.TzOffsetSeconds
 - uid: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs
   name: TasksAddNonSuggestTaskArgs
   href: api/api/SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.html
@@ -2428,6 +2492,25 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Tasks.RemoveTaskCommand.Execute
   nameWithType: RemoveTaskCommand.Execute
+- uid: SharedLibrary.Commands.Tasks.TaskAddDailyTasksCommand
+  name: TaskAddDailyTasksCommand
+  href: api/api/SharedLibrary.Commands.Tasks.TaskAddDailyTasksCommand.html
+  commentId: T:SharedLibrary.Commands.Tasks.TaskAddDailyTasksCommand
+  fullName: SharedLibrary.Commands.Tasks.TaskAddDailyTasksCommand
+  nameWithType: TaskAddDailyTasksCommand
+- uid: SharedLibrary.Commands.Tasks.TaskAddDailyTasksCommand.Execute(SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs)
+  name: Execute(TaskAddDailyTasksArgs)
+  href: api/api/SharedLibrary.Commands.Tasks.TaskAddDailyTasksCommand.html#SharedLibrary_Commands_Tasks_TaskAddDailyTasksCommand_Execute_SharedLibrary_Commands_Arguments_Tasks_TaskAddDailyTasksArgs_
+  commentId: M:SharedLibrary.Commands.Tasks.TaskAddDailyTasksCommand.Execute(SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs)
+  fullName: SharedLibrary.Commands.Tasks.TaskAddDailyTasksCommand.Execute(SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs)
+  nameWithType: TaskAddDailyTasksCommand.Execute(TaskAddDailyTasksArgs)
+- uid: SharedLibrary.Commands.Tasks.TaskAddDailyTasksCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Tasks.TaskAddDailyTasksCommand.html#SharedLibrary_Commands_Tasks_TaskAddDailyTasksCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.Tasks.TaskAddDailyTasksCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Tasks.TaskAddDailyTasksCommand.Execute
+  nameWithType: TaskAddDailyTasksCommand.Execute
 - uid: SharedLibrary.Commands.Tasks.TasksAddNonSuggestTaskCommand
   name: TasksAddNonSuggestTaskCommand
   href: api/api/SharedLibrary.Commands.Tasks.TasksAddNonSuggestTaskCommand.html
@@ -2818,6 +2901,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.BalanceConstants.EnergyToDreamStones
   nameWithType: BalanceConstants.EnergyToDreamStones
+- uid: SharedLibrary.Data.BalanceConstants.EveryDayTaskIds
+  name: EveryDayTaskIds
+  href: api/api/SharedLibrary.Data.BalanceConstants.html#SharedLibrary_Data_BalanceConstants_EveryDayTaskIds
+  commentId: P:SharedLibrary.Data.BalanceConstants.EveryDayTaskIds
+  fullName: SharedLibrary.Data.BalanceConstants.EveryDayTaskIds
+  nameWithType: BalanceConstants.EveryDayTaskIds
+- uid: SharedLibrary.Data.BalanceConstants.EveryDayTaskIds*
+  name: EveryDayTaskIds
+  href: api/api/SharedLibrary.Data.BalanceConstants.html#SharedLibrary_Data_BalanceConstants_EveryDayTaskIds_
+  commentId: Overload:SharedLibrary.Data.BalanceConstants.EveryDayTaskIds
+  isSpec: "True"
+  fullName: SharedLibrary.Data.BalanceConstants.EveryDayTaskIds
+  nameWithType: BalanceConstants.EveryDayTaskIds
 - uid: SharedLibrary.Data.BalanceConstants.TaskToTime
   name: TaskToTime
   href: api/api/SharedLibrary.Data.BalanceConstants.html#SharedLibrary_Data_BalanceConstants_TaskToTime
@@ -3016,6 +3112,12 @@ references:
   commentId: F:SharedLibrary.Data.CommandType.SleepGenerateReward
   fullName: SharedLibrary.Data.CommandType.SleepGenerateReward
   nameWithType: CommandType.SleepGenerateReward
+- uid: SharedLibrary.Data.CommandType.TaskAddDailyTasks
+  name: TaskAddDailyTasks
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_TaskAddDailyTasks
+  commentId: F:SharedLibrary.Data.CommandType.TaskAddDailyTasks
+  fullName: SharedLibrary.Data.CommandType.TaskAddDailyTasks
+  nameWithType: CommandType.TaskAddDailyTasks
 - uid: SharedLibrary.Data.CommandType.TaskAddFromSuggest
   name: TaskAddFromSuggest
   href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_TaskAddFromSuggest
@@ -4508,6 +4610,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Tasks.PlayerTasks.Clone
   nameWithType: PlayerTasks.Clone
+- uid: SharedLibrary.Data.Tasks.PlayerTasks.LastDailyTasksAddTime
+  name: LastDailyTasksAddTime
+  href: api/api/SharedLibrary.Data.Tasks.PlayerTasks.html#SharedLibrary_Data_Tasks_PlayerTasks_LastDailyTasksAddTime
+  commentId: P:SharedLibrary.Data.Tasks.PlayerTasks.LastDailyTasksAddTime
+  fullName: SharedLibrary.Data.Tasks.PlayerTasks.LastDailyTasksAddTime
+  nameWithType: PlayerTasks.LastDailyTasksAddTime
+- uid: SharedLibrary.Data.Tasks.PlayerTasks.LastDailyTasksAddTime*
+  name: LastDailyTasksAddTime
+  href: api/api/SharedLibrary.Data.Tasks.PlayerTasks.html#SharedLibrary_Data_Tasks_PlayerTasks_LastDailyTasksAddTime_
+  commentId: Overload:SharedLibrary.Data.Tasks.PlayerTasks.LastDailyTasksAddTime
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.PlayerTasks.LastDailyTasksAddTime
+  nameWithType: PlayerTasks.LastDailyTasksAddTime
 - uid: SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasks
   name: SuggestionTasks
   href: api/api/SharedLibrary.Data.Tasks.PlayerTasks.html#SharedLibrary_Data_Tasks_PlayerTasks_SuggestionTasks
@@ -5656,6 +5771,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Managers.ConfigManager.GetCosmeticItems
   nameWithType: ConfigManager.GetCosmeticItems
+- uid: SharedLibrary.Managers.ConfigManager.GetEveryDayTasksIds
+  name: GetEveryDayTasksIds
+  href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_GetEveryDayTasksIds
+  commentId: P:SharedLibrary.Managers.ConfigManager.GetEveryDayTasksIds
+  fullName: SharedLibrary.Managers.ConfigManager.GetEveryDayTasksIds
+  nameWithType: ConfigManager.GetEveryDayTasksIds
+- uid: SharedLibrary.Managers.ConfigManager.GetEveryDayTasksIds*
+  name: GetEveryDayTasksIds
+  href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_GetEveryDayTasksIds_
+  commentId: Overload:SharedLibrary.Managers.ConfigManager.GetEveryDayTasksIds
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.ConfigManager.GetEveryDayTasksIds
+  nameWithType: ConfigManager.GetEveryDayTasksIds
 - uid: SharedLibrary.Managers.ConfigManager.GetItems
   name: GetItems
   href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_GetItems
@@ -7522,6 +7650,12 @@ references:
   commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepGenerateRewardCommandV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepGenerateRewardCommandV1
   nameWithType: ProtocolMessageTypes.SleepGenerateRewardCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskAddDailyTasksCommandV1
+  name: TaskAddDailyTasksCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TaskAddDailyTasksCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskAddDailyTasksCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskAddDailyTasksCommandV1
+  nameWithType: ProtocolMessageTypes.TaskAddDailyTasksCommandV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskAddFromSuggestionCommandV1
   name: TaskAddFromSuggestionCommandV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TaskAddFromSuggestionCommandV1
@@ -7980,6 +8114,70 @@ references:
   commentId: N:SharedLibrary.Protocol.ProtocolMessages.Tasks
   fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks
   nameWithType: SharedLibrary.Protocol.ProtocolMessages.Tasks
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1
+  name: TaskAddDailyTasksProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1
+  nameWithType: TaskAddDailyTasksProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.#ctor(System.String,System.Int32,System.String)
+  name: TaskAddDailyTasksProtocolMessageV1(string, int, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddDailyTasksProtocolMessageV1__ctor_System_String_System_Int32_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.#ctor(System.String,System.Int32,System.String)
+  name.vb: New(String, Integer, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.TaskAddDailyTasksProtocolMessageV1(string, int, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.New(String, Integer, String)
+  nameWithType: TaskAddDailyTasksProtocolMessageV1.TaskAddDailyTasksProtocolMessageV1(string, int, string?)
+  nameWithType.vb: TaskAddDailyTasksProtocolMessageV1.New(String, Integer, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.#ctor*
+  name: TaskAddDailyTasksProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddDailyTasksProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.TaskAddDailyTasksProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.New
+  nameWithType: TaskAddDailyTasksProtocolMessageV1.TaskAddDailyTasksProtocolMessageV1
+  nameWithType.vb: TaskAddDailyTasksProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddDailyTasksProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.MessageType
+  nameWithType: TaskAddDailyTasksProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddDailyTasksProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.MessageType
+  nameWithType: TaskAddDailyTasksProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.TzOffsetSeconds
+  name: TzOffsetSeconds
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddDailyTasksProtocolMessageV1_TzOffsetSeconds
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.TzOffsetSeconds
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.TzOffsetSeconds
+  nameWithType: TaskAddDailyTasksProtocolMessageV1.TzOffsetSeconds
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.TzOffsetSeconds*
+  name: TzOffsetSeconds
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddDailyTasksProtocolMessageV1_TzOffsetSeconds_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.TzOffsetSeconds
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.TzOffsetSeconds
+  nameWithType: TaskAddDailyTasksProtocolMessageV1.TzOffsetSeconds
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddDailyTasksProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.UserId
+  nameWithType: TaskAddDailyTasksProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddDailyTasksProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddDailyTasksProtocolMessageV1.UserId
+  nameWithType: TaskAddDailyTasksProtocolMessageV1.UserId
 - uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1
   name: TaskAddFromSuggestionProtocolMessageV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.html
