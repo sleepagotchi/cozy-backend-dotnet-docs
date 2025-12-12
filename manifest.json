@@ -334,6 +334,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyUpdateArgs.yml",
       "output": {
         ".html": {
@@ -863,6 +877,20 @@
       "IsMRef": true,
       "Title": "SharedLibrary.Commands.Sleep.SleepChangeScheduleCommand",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Sleep.SleepCheatDateShiftCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Sleep.SleepCheatDateShiftCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Sleep.SleepCheatDateShiftCommand",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Commands.Sleep.SleepCheatDateShiftCommand.yml\" sourcestartlinenumber=\"1\">Command to shift the existing sleep date back by N days.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2122,6 +2150,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage",
       "Summary": null
     },
     {

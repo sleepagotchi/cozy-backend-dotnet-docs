@@ -1105,6 +1105,57 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.TargetWakeUpISO
   nameWithType: SleepChangeScheduleArgs.TargetWakeUpISO
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs
+  name: SleepCheatDateShiftArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs
+  nameWithType: SleepCheatDateShiftArgs
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs.#ctor(SharedLibrary.Data.Player,System.Int32)
+  name: SleepCheatDateShiftArgs(Player, int)
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs.html#SharedLibrary_Commands_Arguments_Sleep_SleepCheatDateShiftArgs__ctor_SharedLibrary_Data_Player_System_Int32_
+  commentId: M:SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs.#ctor(SharedLibrary.Data.Player,System.Int32)
+  name.vb: New(Player, Integer)
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs.SleepCheatDateShiftArgs(SharedLibrary.Data.Player, int)
+  fullName.vb: SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs.New(SharedLibrary.Data.Player, Integer)
+  nameWithType: SleepCheatDateShiftArgs.SleepCheatDateShiftArgs(Player, int)
+  nameWithType.vb: SleepCheatDateShiftArgs.New(Player, Integer)
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs.#ctor*
+  name: SleepCheatDateShiftArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs.html#SharedLibrary_Commands_Arguments_Sleep_SleepCheatDateShiftArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs.SleepCheatDateShiftArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs.New
+  nameWithType: SleepCheatDateShiftArgs.SleepCheatDateShiftArgs
+  nameWithType.vb: SleepCheatDateShiftArgs.New
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs.html#SharedLibrary_Commands_Arguments_Sleep_SleepCheatDateShiftArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs.Player
+  nameWithType: SleepCheatDateShiftArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs.html#SharedLibrary_Commands_Arguments_Sleep_SleepCheatDateShiftArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs.Player
+  nameWithType: SleepCheatDateShiftArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs.ShiftDays
+  name: ShiftDays
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs.html#SharedLibrary_Commands_Arguments_Sleep_SleepCheatDateShiftArgs_ShiftDays
+  commentId: P:SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs.ShiftDays
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs.ShiftDays
+  nameWithType: SleepCheatDateShiftArgs.ShiftDays
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs.ShiftDays*
+  name: ShiftDays
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs.html#SharedLibrary_Commands_Arguments_Sleep_SleepCheatDateShiftArgs_ShiftDays_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs.ShiftDays
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs.ShiftDays
+  nameWithType: SleepCheatDateShiftArgs.ShiftDays
 - uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyUpdateArgs
   name: SleepConsistencyUpdateArgs
   href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyUpdateArgs.html
@@ -2418,6 +2469,25 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Sleep.SleepChangeScheduleCommand.Execute
   nameWithType: SleepChangeScheduleCommand.Execute
+- uid: SharedLibrary.Commands.Sleep.SleepCheatDateShiftCommand
+  name: SleepCheatDateShiftCommand
+  href: api/api/SharedLibrary.Commands.Sleep.SleepCheatDateShiftCommand.html
+  commentId: T:SharedLibrary.Commands.Sleep.SleepCheatDateShiftCommand
+  fullName: SharedLibrary.Commands.Sleep.SleepCheatDateShiftCommand
+  nameWithType: SleepCheatDateShiftCommand
+- uid: SharedLibrary.Commands.Sleep.SleepCheatDateShiftCommand.Execute(SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs)
+  name: Execute(SleepCheatDateShiftArgs)
+  href: api/api/SharedLibrary.Commands.Sleep.SleepCheatDateShiftCommand.html#SharedLibrary_Commands_Sleep_SleepCheatDateShiftCommand_Execute_SharedLibrary_Commands_Arguments_Sleep_SleepCheatDateShiftArgs_
+  commentId: M:SharedLibrary.Commands.Sleep.SleepCheatDateShiftCommand.Execute(SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs)
+  fullName: SharedLibrary.Commands.Sleep.SleepCheatDateShiftCommand.Execute(SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs)
+  nameWithType: SleepCheatDateShiftCommand.Execute(SleepCheatDateShiftArgs)
+- uid: SharedLibrary.Commands.Sleep.SleepCheatDateShiftCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Sleep.SleepCheatDateShiftCommand.html#SharedLibrary_Commands_Sleep_SleepCheatDateShiftCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.Sleep.SleepCheatDateShiftCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Sleep.SleepCheatDateShiftCommand.Execute
+  nameWithType: SleepCheatDateShiftCommand.Execute
 - uid: SharedLibrary.Commands.Sleep.SleepConsistencyUpdateCommand
   name: SleepConsistencyUpdateCommand
   href: api/api/SharedLibrary.Commands.Sleep.SleepConsistencyUpdateCommand.html
@@ -3165,6 +3235,12 @@ references:
   commentId: F:SharedLibrary.Data.CommandType.SleepChangeSchedule
   fullName: SharedLibrary.Data.CommandType.SleepChangeSchedule
   nameWithType: CommandType.SleepChangeSchedule
+- uid: SharedLibrary.Data.CommandType.SleepCheatDateShift
+  name: SleepCheatDateShift
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_SleepCheatDateShift
+  commentId: F:SharedLibrary.Data.CommandType.SleepCheatDateShift
+  fullName: SharedLibrary.Data.CommandType.SleepCheatDateShift
+  nameWithType: CommandType.SleepCheatDateShift
 - uid: SharedLibrary.Data.CommandType.SleepConsistencyUpdate
   name: SleepConsistencyUpdate
   href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_SleepConsistencyUpdate
@@ -7807,6 +7883,12 @@ references:
   commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepChangeScheduleCommandV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepChangeScheduleCommandV1
   nameWithType: ProtocolMessageTypes.SleepChangeScheduleCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepCheatDateShiftCommandV1
+  name: SleepCheatDateShiftCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepCheatDateShiftCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepCheatDateShiftCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepCheatDateShiftCommandV1
+  nameWithType: ProtocolMessageTypes.SleepCheatDateShiftCommandV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepConsistencyCalculateCommandV1
   name: SleepConsistencyCalculateCommandV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepConsistencyCalculateCommandV1
@@ -7956,6 +8038,70 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepChangeScheduleProtocolMessageV1.UserId
   nameWithType: SleepChangeScheduleProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage
+  name: SleepCheatDateShiftProtocolMessage
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage
+  nameWithType: SleepCheatDateShiftProtocolMessage
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.#ctor(System.String,System.Int32,System.String)
+  name: SleepCheatDateShiftProtocolMessage(string, int, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepCheatDateShiftProtocolMessage__ctor_System_String_System_Int32_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.#ctor(System.String,System.Int32,System.String)
+  name.vb: New(String, Integer, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.SleepCheatDateShiftProtocolMessage(string, int, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.New(String, Integer, String)
+  nameWithType: SleepCheatDateShiftProtocolMessage.SleepCheatDateShiftProtocolMessage(string, int, string?)
+  nameWithType.vb: SleepCheatDateShiftProtocolMessage.New(String, Integer, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.#ctor*
+  name: SleepCheatDateShiftProtocolMessage
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepCheatDateShiftProtocolMessage__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.SleepCheatDateShiftProtocolMessage
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.New
+  nameWithType: SleepCheatDateShiftProtocolMessage.SleepCheatDateShiftProtocolMessage
+  nameWithType.vb: SleepCheatDateShiftProtocolMessage.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepCheatDateShiftProtocolMessage_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.MessageType
+  nameWithType: SleepCheatDateShiftProtocolMessage.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepCheatDateShiftProtocolMessage_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.MessageType
+  nameWithType: SleepCheatDateShiftProtocolMessage.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.ShiftDays
+  name: ShiftDays
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepCheatDateShiftProtocolMessage_ShiftDays
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.ShiftDays
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.ShiftDays
+  nameWithType: SleepCheatDateShiftProtocolMessage.ShiftDays
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.ShiftDays*
+  name: ShiftDays
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepCheatDateShiftProtocolMessage_ShiftDays_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.ShiftDays
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.ShiftDays
+  nameWithType: SleepCheatDateShiftProtocolMessage.ShiftDays
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepCheatDateShiftProtocolMessage_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.UserId
+  nameWithType: SleepCheatDateShiftProtocolMessage.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepCheatDateShiftProtocolMessage_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.UserId
+  nameWithType: SleepCheatDateShiftProtocolMessage.UserId
 - uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1
   name: SleepConsistencyCalculatedEventProtocolMessageV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.html
