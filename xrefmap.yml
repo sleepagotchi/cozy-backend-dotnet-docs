@@ -1035,6 +1035,44 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.Player
   nameWithType: PlayerInfoChangeNameArgs.Player
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs
+  name: PlayerResetCheatArgs
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs
+  nameWithType: PlayerResetCheatArgs
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs.#ctor(SharedLibrary.Data.Player)
+  name: PlayerResetCheatArgs(Player)
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerResetCheatArgs__ctor_SharedLibrary_Data_Player_
+  commentId: M:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs.#ctor(SharedLibrary.Data.Player)
+  name.vb: New(Player)
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs.PlayerResetCheatArgs(SharedLibrary.Data.Player)
+  fullName.vb: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs.New(SharedLibrary.Data.Player)
+  nameWithType: PlayerResetCheatArgs.PlayerResetCheatArgs(Player)
+  nameWithType.vb: PlayerResetCheatArgs.New(Player)
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs.#ctor*
+  name: PlayerResetCheatArgs
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerResetCheatArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs.PlayerResetCheatArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs.New
+  nameWithType: PlayerResetCheatArgs.PlayerResetCheatArgs
+  nameWithType.vb: PlayerResetCheatArgs.New
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs.CurrentPlayer
+  name: CurrentPlayer
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerResetCheatArgs_CurrentPlayer
+  commentId: P:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs.CurrentPlayer
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs.CurrentPlayer
+  nameWithType: PlayerResetCheatArgs.CurrentPlayer
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs.CurrentPlayer*
+  name: CurrentPlayer
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerResetCheatArgs_CurrentPlayer_
+  commentId: Overload:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs.CurrentPlayer
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs.CurrentPlayer
+  nameWithType: PlayerResetCheatArgs.CurrentPlayer
 - uid: SharedLibrary.Commands.Arguments.Sleep
   name: SharedLibrary.Commands.Arguments.Sleep
   href: api/api/SharedLibrary.Commands.Arguments.Sleep.html
@@ -2444,6 +2482,25 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand.Execute
   nameWithType: PlayerInfoChangeNameCommand.Execute
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerResetCheatCommand
+  name: PlayerResetCheatCommand
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerResetCheatCommand.html
+  commentId: T:SharedLibrary.Commands.PlayerInfo.PlayerResetCheatCommand
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerResetCheatCommand
+  nameWithType: PlayerResetCheatCommand
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerResetCheatCommand.Execute(SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs)
+  name: Execute(PlayerResetCheatArgs)
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerResetCheatCommand.html#SharedLibrary_Commands_PlayerInfo_PlayerResetCheatCommand_Execute_SharedLibrary_Commands_Arguments_PlayerInfo_PlayerResetCheatArgs_
+  commentId: M:SharedLibrary.Commands.PlayerInfo.PlayerResetCheatCommand.Execute(SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs)
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerResetCheatCommand.Execute(SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs)
+  nameWithType: PlayerResetCheatCommand.Execute(PlayerResetCheatArgs)
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerResetCheatCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerResetCheatCommand.html#SharedLibrary_Commands_PlayerInfo_PlayerResetCheatCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.PlayerInfo.PlayerResetCheatCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerResetCheatCommand.Execute
+  nameWithType: PlayerResetCheatCommand.Execute
 - uid: SharedLibrary.Commands.Sleep
   name: SharedLibrary.Commands.Sleep
   href: api/api/SharedLibrary.Commands.Sleep.html
@@ -3229,6 +3286,12 @@ references:
   commentId: F:SharedLibrary.Data.CommandType.PlayerInfoChangeName
   fullName: SharedLibrary.Data.CommandType.PlayerInfoChangeName
   nameWithType: CommandType.PlayerInfoChangeName
+- uid: SharedLibrary.Data.CommandType.PlayerResetCheat
+  name: PlayerResetCheat
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_PlayerResetCheat
+  commentId: F:SharedLibrary.Data.CommandType.PlayerResetCheat
+  fullName: SharedLibrary.Data.CommandType.PlayerResetCheat
+  nameWithType: CommandType.PlayerResetCheat
 - uid: SharedLibrary.Data.CommandType.SleepChangeSchedule
   name: SleepChangeSchedule
   href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_SleepChangeSchedule
@@ -7799,6 +7862,57 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.Username
   nameWithType: PlayerInfoChangeNameProtocolMessageV1.Username
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage
+  name: PlayerResetProtocolCheatMessage
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage
+  nameWithType: PlayerResetProtocolCheatMessage
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.#ctor(System.String,System.String)
+  name: PlayerResetProtocolCheatMessage(string, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerResetProtocolCheatMessage__ctor_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.PlayerResetProtocolCheatMessage(string, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.New(String, String)
+  nameWithType: PlayerResetProtocolCheatMessage.PlayerResetProtocolCheatMessage(string, string?)
+  nameWithType.vb: PlayerResetProtocolCheatMessage.New(String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.#ctor*
+  name: PlayerResetProtocolCheatMessage
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerResetProtocolCheatMessage__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.PlayerResetProtocolCheatMessage
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.New
+  nameWithType: PlayerResetProtocolCheatMessage.PlayerResetProtocolCheatMessage
+  nameWithType.vb: PlayerResetProtocolCheatMessage.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerResetProtocolCheatMessage_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.MessageType
+  nameWithType: PlayerResetProtocolCheatMessage.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerResetProtocolCheatMessage_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.MessageType
+  nameWithType: PlayerResetProtocolCheatMessage.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerResetProtocolCheatMessage_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.UserId
+  nameWithType: PlayerResetProtocolCheatMessage.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerResetProtocolCheatMessage_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.UserId
+  nameWithType: PlayerResetProtocolCheatMessage.UserId
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes
   name: ProtocolMessageTypes
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html
@@ -7877,6 +7991,12 @@ references:
   commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoChangeNameCommandV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoChangeNameCommandV1
   nameWithType: ProtocolMessageTypes.PlayerInfoChangeNameCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerResetCheatCommandV1
+  name: PlayerResetCheatCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PlayerResetCheatCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerResetCheatCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerResetCheatCommandV1
+  nameWithType: ProtocolMessageTypes.PlayerResetCheatCommandV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepChangeScheduleCommandV1
   name: SleepChangeScheduleCommandV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepChangeScheduleCommandV1
@@ -7895,6 +8015,12 @@ references:
   commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepConsistencyCalculateCommandV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepConsistencyCalculateCommandV1
   nameWithType: ProtocolMessageTypes.SleepConsistencyCalculateCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepDateShiftCommand
+  name: SleepDateShiftCommand
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepDateShiftCommand
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepDateShiftCommand
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepDateShiftCommand
+  nameWithType: ProtocolMessageTypes.SleepDateShiftCommand
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepGenerateRewardCommandV1
   name: SleepGenerateRewardCommandV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepGenerateRewardCommandV1
