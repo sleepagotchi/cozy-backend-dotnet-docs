@@ -1552,6 +1552,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Data.Tasks.TaskRepeatType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Data.Tasks.TaskRepeatType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Data.Tasks.TaskRepeatType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Data.Tasks.yml",
       "output": {
         ".html": {

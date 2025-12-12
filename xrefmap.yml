@@ -1232,15 +1232,15 @@ references:
   commentId: T:SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs
   fullName: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs
   nameWithType: AddTaskFromSuggestArgs
-- uid: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String)
-  name: AddTaskFromSuggestArgs(Player, TasksManager, string)
-  href: api/api/SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.html#SharedLibrary_Commands_Arguments_Tasks_AddTaskFromSuggestArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_TasksManager_System_String_
-  commentId: M:SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String)
-  name.vb: New(Player, TasksManager, String)
-  fullName: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.AddTaskFromSuggestArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, string)
-  fullName.vb: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, String)
-  nameWithType: AddTaskFromSuggestArgs.AddTaskFromSuggestArgs(Player, TasksManager, string)
-  nameWithType.vb: AddTaskFromSuggestArgs.New(Player, TasksManager, String)
+- uid: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String,System.Int32)
+  name: AddTaskFromSuggestArgs(Player, TasksManager, string, int)
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.html#SharedLibrary_Commands_Arguments_Tasks_AddTaskFromSuggestArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_TasksManager_System_String_System_Int32_
+  commentId: M:SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String,System.Int32)
+  name.vb: New(Player, TasksManager, String, Integer)
+  fullName: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.AddTaskFromSuggestArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, string, int)
+  fullName.vb: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, String, Integer)
+  nameWithType: AddTaskFromSuggestArgs.AddTaskFromSuggestArgs(Player, TasksManager, string, int)
+  nameWithType.vb: AddTaskFromSuggestArgs.New(Player, TasksManager, String, Integer)
 - uid: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.#ctor*
   name: AddTaskFromSuggestArgs
   href: api/api/SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.html#SharedLibrary_Commands_Arguments_Tasks_AddTaskFromSuggestArgs__ctor_
@@ -1290,21 +1290,34 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.TasksManager
   nameWithType: AddTaskFromSuggestArgs.TasksManager
+- uid: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.TzOffsetSeconds
+  name: TzOffsetSeconds
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.html#SharedLibrary_Commands_Arguments_Tasks_AddTaskFromSuggestArgs_TzOffsetSeconds
+  commentId: P:SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.TzOffsetSeconds
+  fullName: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.TzOffsetSeconds
+  nameWithType: AddTaskFromSuggestArgs.TzOffsetSeconds
+- uid: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.TzOffsetSeconds*
+  name: TzOffsetSeconds
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.html#SharedLibrary_Commands_Arguments_Tasks_AddTaskFromSuggestArgs_TzOffsetSeconds_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.TzOffsetSeconds
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs.TzOffsetSeconds
+  nameWithType: AddTaskFromSuggestArgs.TzOffsetSeconds
 - uid: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs
   name: CompleteTaskArgs
   href: api/api/SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.html
   commentId: T:SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs
   fullName: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs
   nameWithType: CompleteTaskArgs
-- uid: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String)
-  name: CompleteTaskArgs(Player, TasksManager, string)
-  href: api/api/SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_CompleteTaskArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_TasksManager_System_String_
-  commentId: M:SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String)
-  name.vb: New(Player, TasksManager, String)
-  fullName: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.CompleteTaskArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, string)
-  fullName.vb: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, String)
-  nameWithType: CompleteTaskArgs.CompleteTaskArgs(Player, TasksManager, string)
-  nameWithType.vb: CompleteTaskArgs.New(Player, TasksManager, String)
+- uid: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String,System.Int32)
+  name: CompleteTaskArgs(Player, TasksManager, string, int)
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_CompleteTaskArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_TasksManager_System_String_System_Int32_
+  commentId: M:SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String,System.Int32)
+  name.vb: New(Player, TasksManager, String, Integer)
+  fullName: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.CompleteTaskArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, string, int)
+  fullName.vb: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, String, Integer)
+  nameWithType: CompleteTaskArgs.CompleteTaskArgs(Player, TasksManager, string, int)
+  nameWithType.vb: CompleteTaskArgs.New(Player, TasksManager, String, Integer)
 - uid: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.#ctor*
   name: CompleteTaskArgs
   href: api/api/SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_CompleteTaskArgs__ctor_
@@ -1354,6 +1367,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.TasksManager
   nameWithType: CompleteTaskArgs.TasksManager
+- uid: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.TzOffsetSeconds
+  name: TzOffsetSeconds
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_CompleteTaskArgs_TzOffsetSeconds
+  commentId: P:SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.TzOffsetSeconds
+  fullName: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.TzOffsetSeconds
+  nameWithType: CompleteTaskArgs.TzOffsetSeconds
+- uid: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.TzOffsetSeconds*
+  name: TzOffsetSeconds
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_CompleteTaskArgs_TzOffsetSeconds_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.TzOffsetSeconds
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs.TzOffsetSeconds
+  nameWithType: CompleteTaskArgs.TzOffsetSeconds
 - uid: SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs
   name: CreateTaskArgs
   href: api/api/SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs.html
@@ -1424,15 +1450,15 @@ references:
   commentId: T:SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs
   fullName: SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs
   nameWithType: GetPlayerTasksArgs
-- uid: SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager)
-  name: GetPlayerTasksArgs(Player, TasksManager)
-  href: api/api/SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.html#SharedLibrary_Commands_Arguments_Tasks_GetPlayerTasksArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_TasksManager_
-  commentId: M:SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager)
-  name.vb: New(Player, TasksManager)
-  fullName: SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.GetPlayerTasksArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager)
-  fullName.vb: SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager)
-  nameWithType: GetPlayerTasksArgs.GetPlayerTasksArgs(Player, TasksManager)
-  nameWithType.vb: GetPlayerTasksArgs.New(Player, TasksManager)
+- uid: SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.Int32)
+  name: GetPlayerTasksArgs(Player, TasksManager, int)
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.html#SharedLibrary_Commands_Arguments_Tasks_GetPlayerTasksArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_TasksManager_System_Int32_
+  commentId: M:SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.Int32)
+  name.vb: New(Player, TasksManager, Integer)
+  fullName: SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.GetPlayerTasksArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, int)
+  fullName.vb: SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, Integer)
+  nameWithType: GetPlayerTasksArgs.GetPlayerTasksArgs(Player, TasksManager, int)
+  nameWithType.vb: GetPlayerTasksArgs.New(Player, TasksManager, Integer)
 - uid: SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.#ctor*
   name: GetPlayerTasksArgs
   href: api/api/SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.html#SharedLibrary_Commands_Arguments_Tasks_GetPlayerTasksArgs__ctor_
@@ -1469,6 +1495,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.TasksManager
   nameWithType: GetPlayerTasksArgs.TasksManager
+- uid: SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.TzOffsetSeconds
+  name: TzOffsetSeconds
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.html#SharedLibrary_Commands_Arguments_Tasks_GetPlayerTasksArgs_TzOffsetSeconds
+  commentId: P:SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.TzOffsetSeconds
+  fullName: SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.TzOffsetSeconds
+  nameWithType: GetPlayerTasksArgs.TzOffsetSeconds
+- uid: SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.TzOffsetSeconds*
+  name: TzOffsetSeconds
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.html#SharedLibrary_Commands_Arguments_Tasks_GetPlayerTasksArgs_TzOffsetSeconds_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.TzOffsetSeconds
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.TzOffsetSeconds
+  nameWithType: GetPlayerTasksArgs.TzOffsetSeconds
 - uid: SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs
   name: RemoveTaskArgs
   href: api/api/SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs.html
@@ -1603,24 +1642,24 @@ references:
   commentId: T:SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs
   fullName: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs
   nameWithType: TasksAddNonSuggestTaskArgs
-- uid: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String)
-  name: TasksAddNonSuggestTaskArgs(Player, TasksManager, string)
-  href: api/api/SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_TasksAddNonSuggestTaskArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_TasksManager_System_String_
-  commentId: M:SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String)
-  name.vb: New(Player, TasksManager, String)
-  fullName: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.TasksAddNonSuggestTaskArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, string)
-  fullName.vb: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, String)
-  nameWithType: TasksAddNonSuggestTaskArgs.TasksAddNonSuggestTaskArgs(Player, TasksManager, string)
-  nameWithType.vb: TasksAddNonSuggestTaskArgs.New(Player, TasksManager, String)
-- uid: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String,System.Boolean)
-  name: TasksAddNonSuggestTaskArgs(Player, TasksManager, string, bool)
-  href: api/api/SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_TasksAddNonSuggestTaskArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_TasksManager_System_String_System_Boolean_
-  commentId: M:SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String,System.Boolean)
-  name.vb: New(Player, TasksManager, String, Boolean)
-  fullName: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.TasksAddNonSuggestTaskArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, string, bool)
-  fullName.vb: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, String, Boolean)
-  nameWithType: TasksAddNonSuggestTaskArgs.TasksAddNonSuggestTaskArgs(Player, TasksManager, string, bool)
-  nameWithType.vb: TasksAddNonSuggestTaskArgs.New(Player, TasksManager, String, Boolean)
+- uid: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String,System.Boolean,System.Int32)
+  name: TasksAddNonSuggestTaskArgs(Player, TasksManager, string, bool, int)
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_TasksAddNonSuggestTaskArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_TasksManager_System_String_System_Boolean_System_Int32_
+  commentId: M:SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String,System.Boolean,System.Int32)
+  name.vb: New(Player, TasksManager, String, Boolean, Integer)
+  fullName: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.TasksAddNonSuggestTaskArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, string, bool, int)
+  fullName.vb: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, String, Boolean, Integer)
+  nameWithType: TasksAddNonSuggestTaskArgs.TasksAddNonSuggestTaskArgs(Player, TasksManager, string, bool, int)
+  nameWithType.vb: TasksAddNonSuggestTaskArgs.New(Player, TasksManager, String, Boolean, Integer)
+- uid: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String,System.Int32)
+  name: TasksAddNonSuggestTaskArgs(Player, TasksManager, string, int)
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_TasksAddNonSuggestTaskArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_TasksManager_System_String_System_Int32_
+  commentId: M:SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String,System.Int32)
+  name.vb: New(Player, TasksManager, String, Integer)
+  fullName: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.TasksAddNonSuggestTaskArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, string, int)
+  fullName.vb: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, String, Integer)
+  nameWithType: TasksAddNonSuggestTaskArgs.TasksAddNonSuggestTaskArgs(Player, TasksManager, string, int)
+  nameWithType.vb: TasksAddNonSuggestTaskArgs.New(Player, TasksManager, String, Integer)
 - uid: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.#ctor*
   name: TasksAddNonSuggestTaskArgs
   href: api/api/SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_TasksAddNonSuggestTaskArgs__ctor_
@@ -1683,6 +1722,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.TasksManager
   nameWithType: TasksAddNonSuggestTaskArgs.TasksManager
+- uid: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.TzOffsetSeconds
+  name: TzOffsetSeconds
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_TasksAddNonSuggestTaskArgs_TzOffsetSeconds
+  commentId: P:SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.TzOffsetSeconds
+  fullName: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.TzOffsetSeconds
+  nameWithType: TasksAddNonSuggestTaskArgs.TzOffsetSeconds
+- uid: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.TzOffsetSeconds*
+  name: TzOffsetSeconds
+  href: api/api/SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.html#SharedLibrary_Commands_Arguments_Tasks_TasksAddNonSuggestTaskArgs_TzOffsetSeconds_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.TzOffsetSeconds
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs.TzOffsetSeconds
+  nameWithType: TasksAddNonSuggestTaskArgs.TzOffsetSeconds
 - uid: SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs
   name: UpdateTaskArgs
   href: api/api/SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.html
@@ -1759,15 +1811,15 @@ references:
   commentId: T:SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs
   fullName: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs
   nameWithType: TutorialAddTaskArgs
-- uid: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String)
-  name: TutorialAddTaskArgs(Player, TasksManager, string)
-  href: api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.html#SharedLibrary_Commands_Arguments_Tutorial_TutorialAddTaskArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_TasksManager_System_String_
-  commentId: M:SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String)
-  name.vb: New(Player, TasksManager, String)
-  fullName: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.TutorialAddTaskArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, string)
-  fullName.vb: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, String)
-  nameWithType: TutorialAddTaskArgs.TutorialAddTaskArgs(Player, TasksManager, string)
-  nameWithType.vb: TutorialAddTaskArgs.New(Player, TasksManager, String)
+- uid: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String,System.Int32)
+  name: TutorialAddTaskArgs(Player, TasksManager, string, int)
+  href: api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.html#SharedLibrary_Commands_Arguments_Tutorial_TutorialAddTaskArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_TasksManager_System_String_System_Int32_
+  commentId: M:SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.String,System.Int32)
+  name.vb: New(Player, TasksManager, String, Integer)
+  fullName: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.TutorialAddTaskArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, string, int)
+  fullName.vb: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, String, Integer)
+  nameWithType: TutorialAddTaskArgs.TutorialAddTaskArgs(Player, TasksManager, string, int)
+  nameWithType.vb: TutorialAddTaskArgs.New(Player, TasksManager, String, Integer)
 - uid: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.#ctor*
   name: TutorialAddTaskArgs
   href: api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.html#SharedLibrary_Commands_Arguments_Tutorial_TutorialAddTaskArgs__ctor_
@@ -1817,6 +1869,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.TasksManager
   nameWithType: TutorialAddTaskArgs.TasksManager
+- uid: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.TzOffsetSeconds
+  name: TzOffsetSeconds
+  href: api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.html#SharedLibrary_Commands_Arguments_Tutorial_TutorialAddTaskArgs_TzOffsetSeconds
+  commentId: P:SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.TzOffsetSeconds
+  fullName: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.TzOffsetSeconds
+  nameWithType: TutorialAddTaskArgs.TzOffsetSeconds
+- uid: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.TzOffsetSeconds*
+  name: TzOffsetSeconds
+  href: api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.html#SharedLibrary_Commands_Arguments_Tutorial_TutorialAddTaskArgs_TzOffsetSeconds_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.TzOffsetSeconds
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs.TzOffsetSeconds
+  nameWithType: TutorialAddTaskArgs.TzOffsetSeconds
 - uid: SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs
   name: TutorialSetOnboardingCompletedArgs
   href: api/api/SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs.html
@@ -4623,6 +4688,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Tasks.PlayerTasks.LastDailyTasksAddTime
   nameWithType: PlayerTasks.LastDailyTasksAddTime
+- uid: SharedLibrary.Data.Tasks.PlayerTasks.ScheduledTasks
+  name: ScheduledTasks
+  href: api/api/SharedLibrary.Data.Tasks.PlayerTasks.html#SharedLibrary_Data_Tasks_PlayerTasks_ScheduledTasks
+  commentId: P:SharedLibrary.Data.Tasks.PlayerTasks.ScheduledTasks
+  fullName: SharedLibrary.Data.Tasks.PlayerTasks.ScheduledTasks
+  nameWithType: PlayerTasks.ScheduledTasks
+- uid: SharedLibrary.Data.Tasks.PlayerTasks.ScheduledTasks*
+  name: ScheduledTasks
+  href: api/api/SharedLibrary.Data.Tasks.PlayerTasks.html#SharedLibrary_Data_Tasks_PlayerTasks_ScheduledTasks_
+  commentId: Overload:SharedLibrary.Data.Tasks.PlayerTasks.ScheduledTasks
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.PlayerTasks.ScheduledTasks
+  nameWithType: PlayerTasks.ScheduledTasks
 - uid: SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasks
   name: SuggestionTasks
   href: api/api/SharedLibrary.Data.Tasks.PlayerTasks.html#SharedLibrary_Data_Tasks_PlayerTasks_SuggestionTasks
@@ -4664,15 +4742,15 @@ references:
   fullName.vb: SharedLibrary.Data.Tasks.TaskCare.New()
   nameWithType: TaskCare.TaskCare()
   nameWithType.vb: TaskCare.New()
-- uid: SharedLibrary.Data.Tasks.TaskCare.#ctor(System.String,System.String,System.DateTime,System.TimeSpan)
-  name: TaskCare(string, string, DateTime, TimeSpan)
-  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare__ctor_System_String_System_String_System_DateTime_System_TimeSpan_
-  commentId: M:SharedLibrary.Data.Tasks.TaskCare.#ctor(System.String,System.String,System.DateTime,System.TimeSpan)
-  name.vb: New(String, String, Date, TimeSpan)
-  fullName: SharedLibrary.Data.Tasks.TaskCare.TaskCare(string, string, System.DateTime, System.TimeSpan)
-  fullName.vb: SharedLibrary.Data.Tasks.TaskCare.New(String, String, Date, System.TimeSpan)
-  nameWithType: TaskCare.TaskCare(string, string, DateTime, TimeSpan)
-  nameWithType.vb: TaskCare.New(String, String, Date, TimeSpan)
+- uid: SharedLibrary.Data.Tasks.TaskCare.#ctor(System.String,System.String,System.DateTime,SharedLibrary.Data.Tasks.TaskRepeatType)
+  name: TaskCare(string, string, DateTime, TaskRepeatType)
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare__ctor_System_String_System_String_System_DateTime_SharedLibrary_Data_Tasks_TaskRepeatType_
+  commentId: M:SharedLibrary.Data.Tasks.TaskCare.#ctor(System.String,System.String,System.DateTime,SharedLibrary.Data.Tasks.TaskRepeatType)
+  name.vb: New(String, String, Date, TaskRepeatType)
+  fullName: SharedLibrary.Data.Tasks.TaskCare.TaskCare(string, string, System.DateTime, SharedLibrary.Data.Tasks.TaskRepeatType)
+  fullName.vb: SharedLibrary.Data.Tasks.TaskCare.New(String, String, Date, SharedLibrary.Data.Tasks.TaskRepeatType)
+  nameWithType: TaskCare.TaskCare(string, string, DateTime, TaskRepeatType)
+  nameWithType.vb: TaskCare.New(String, String, Date, TaskRepeatType)
 - uid: SharedLibrary.Data.Tasks.TaskCare.#ctor*
   name: TaskCare
   href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare__ctor_
@@ -4722,6 +4800,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Tasks.TaskCare.Clone
   nameWithType: TaskCare.Clone
+- uid: SharedLibrary.Data.Tasks.TaskCare.CompleteCount
+  name: CompleteCount
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_CompleteCount
+  commentId: P:SharedLibrary.Data.Tasks.TaskCare.CompleteCount
+  fullName: SharedLibrary.Data.Tasks.TaskCare.CompleteCount
+  nameWithType: TaskCare.CompleteCount
+- uid: SharedLibrary.Data.Tasks.TaskCare.CompleteCount*
+  name: CompleteCount
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_CompleteCount_
+  commentId: Overload:SharedLibrary.Data.Tasks.TaskCare.CompleteCount
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.TaskCare.CompleteCount
+  nameWithType: TaskCare.CompleteCount
 - uid: SharedLibrary.Data.Tasks.TaskCare.CompleteDate
   name: CompleteDate
   href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_CompleteDate
@@ -4748,6 +4839,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Tasks.TaskCare.Date
   nameWithType: TaskCare.Date
+- uid: SharedLibrary.Data.Tasks.TaskCare.FormattedTitle
+  name: FormattedTitle
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_FormattedTitle
+  commentId: P:SharedLibrary.Data.Tasks.TaskCare.FormattedTitle
+  fullName: SharedLibrary.Data.Tasks.TaskCare.FormattedTitle
+  nameWithType: TaskCare.FormattedTitle
+- uid: SharedLibrary.Data.Tasks.TaskCare.FormattedTitle*
+  name: FormattedTitle
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_FormattedTitle_
+  commentId: Overload:SharedLibrary.Data.Tasks.TaskCare.FormattedTitle
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.TaskCare.FormattedTitle
+  nameWithType: TaskCare.FormattedTitle
 - uid: SharedLibrary.Data.Tasks.TaskCare.Id
   name: Id
   href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_Id
@@ -4813,19 +4917,45 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Tasks.TaskCare.Reminder
   nameWithType: TaskCare.Reminder
-- uid: SharedLibrary.Data.Tasks.TaskCare.Repeat
-  name: Repeat
-  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_Repeat
-  commentId: P:SharedLibrary.Data.Tasks.TaskCare.Repeat
-  fullName: SharedLibrary.Data.Tasks.TaskCare.Repeat
-  nameWithType: TaskCare.Repeat
-- uid: SharedLibrary.Data.Tasks.TaskCare.Repeat*
-  name: Repeat
-  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_Repeat_
-  commentId: Overload:SharedLibrary.Data.Tasks.TaskCare.Repeat
+- uid: SharedLibrary.Data.Tasks.TaskCare.RepeatCount
+  name: RepeatCount
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_RepeatCount
+  commentId: P:SharedLibrary.Data.Tasks.TaskCare.RepeatCount
+  fullName: SharedLibrary.Data.Tasks.TaskCare.RepeatCount
+  nameWithType: TaskCare.RepeatCount
+- uid: SharedLibrary.Data.Tasks.TaskCare.RepeatCount*
+  name: RepeatCount
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_RepeatCount_
+  commentId: Overload:SharedLibrary.Data.Tasks.TaskCare.RepeatCount
   isSpec: "True"
-  fullName: SharedLibrary.Data.Tasks.TaskCare.Repeat
-  nameWithType: TaskCare.Repeat
+  fullName: SharedLibrary.Data.Tasks.TaskCare.RepeatCount
+  nameWithType: TaskCare.RepeatCount
+- uid: SharedLibrary.Data.Tasks.TaskCare.RepeatType
+  name: RepeatType
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_RepeatType
+  commentId: P:SharedLibrary.Data.Tasks.TaskCare.RepeatType
+  fullName: SharedLibrary.Data.Tasks.TaskCare.RepeatType
+  nameWithType: TaskCare.RepeatType
+- uid: SharedLibrary.Data.Tasks.TaskCare.RepeatType*
+  name: RepeatType
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_RepeatType_
+  commentId: Overload:SharedLibrary.Data.Tasks.TaskCare.RepeatType
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.TaskCare.RepeatType
+  nameWithType: TaskCare.RepeatType
+- uid: SharedLibrary.Data.Tasks.TaskCare.RepeatUntilDate
+  name: RepeatUntilDate
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_RepeatUntilDate
+  commentId: P:SharedLibrary.Data.Tasks.TaskCare.RepeatUntilDate
+  fullName: SharedLibrary.Data.Tasks.TaskCare.RepeatUntilDate
+  nameWithType: TaskCare.RepeatUntilDate
+- uid: SharedLibrary.Data.Tasks.TaskCare.RepeatUntilDate*
+  name: RepeatUntilDate
+  href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_RepeatUntilDate_
+  commentId: Overload:SharedLibrary.Data.Tasks.TaskCare.RepeatUntilDate
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Tasks.TaskCare.RepeatUntilDate
+  nameWithType: TaskCare.RepeatUntilDate
 - uid: SharedLibrary.Data.Tasks.TaskCare.Result
   name: Result
   href: api/api/SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_Result
@@ -4852,6 +4982,42 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Tasks.TaskCare.Title
   nameWithType: TaskCare.Title
+- uid: SharedLibrary.Data.Tasks.TaskRepeatType
+  name: TaskRepeatType
+  href: api/api/SharedLibrary.Data.Tasks.TaskRepeatType.html
+  commentId: T:SharedLibrary.Data.Tasks.TaskRepeatType
+  fullName: SharedLibrary.Data.Tasks.TaskRepeatType
+  nameWithType: TaskRepeatType
+- uid: SharedLibrary.Data.Tasks.TaskRepeatType.DoNotRepeat
+  name: DoNotRepeat
+  href: api/api/SharedLibrary.Data.Tasks.TaskRepeatType.html#SharedLibrary_Data_Tasks_TaskRepeatType_DoNotRepeat
+  commentId: F:SharedLibrary.Data.Tasks.TaskRepeatType.DoNotRepeat
+  fullName: SharedLibrary.Data.Tasks.TaskRepeatType.DoNotRepeat
+  nameWithType: TaskRepeatType.DoNotRepeat
+- uid: SharedLibrary.Data.Tasks.TaskRepeatType.EveryDay
+  name: EveryDay
+  href: api/api/SharedLibrary.Data.Tasks.TaskRepeatType.html#SharedLibrary_Data_Tasks_TaskRepeatType_EveryDay
+  commentId: F:SharedLibrary.Data.Tasks.TaskRepeatType.EveryDay
+  fullName: SharedLibrary.Data.Tasks.TaskRepeatType.EveryDay
+  nameWithType: TaskRepeatType.EveryDay
+- uid: SharedLibrary.Data.Tasks.TaskRepeatType.EveryMonth
+  name: EveryMonth
+  href: api/api/SharedLibrary.Data.Tasks.TaskRepeatType.html#SharedLibrary_Data_Tasks_TaskRepeatType_EveryMonth
+  commentId: F:SharedLibrary.Data.Tasks.TaskRepeatType.EveryMonth
+  fullName: SharedLibrary.Data.Tasks.TaskRepeatType.EveryMonth
+  nameWithType: TaskRepeatType.EveryMonth
+- uid: SharedLibrary.Data.Tasks.TaskRepeatType.EveryWeek
+  name: EveryWeek
+  href: api/api/SharedLibrary.Data.Tasks.TaskRepeatType.html#SharedLibrary_Data_Tasks_TaskRepeatType_EveryWeek
+  commentId: F:SharedLibrary.Data.Tasks.TaskRepeatType.EveryWeek
+  fullName: SharedLibrary.Data.Tasks.TaskRepeatType.EveryWeek
+  nameWithType: TaskRepeatType.EveryWeek
+- uid: SharedLibrary.Data.Tasks.TaskRepeatType.EveryWeekDay
+  name: EveryWeekDay
+  href: api/api/SharedLibrary.Data.Tasks.TaskRepeatType.html#SharedLibrary_Data_Tasks_TaskRepeatType_EveryWeekDay
+  commentId: F:SharedLibrary.Data.Tasks.TaskRepeatType.EveryWeekDay
+  fullName: SharedLibrary.Data.Tasks.TaskRepeatType.EveryWeekDay
+  nameWithType: TaskRepeatType.EveryWeekDay
 - uid: SharedLibrary.Extensions
   name: SharedLibrary.Extensions
   href: api/api/SharedLibrary.Extensions.html
@@ -6357,15 +6523,15 @@ references:
   commentId: T:SharedLibrary.Managers.TasksManager
   fullName: SharedLibrary.Managers.TasksManager
   nameWithType: TasksManager
-- uid: SharedLibrary.Managers.TasksManager.AddNonSuggestTask(SharedLibrary.Data.Player,System.String,System.Boolean)
-  name: AddNonSuggestTask(Player, string, bool)
-  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_AddNonSuggestTask_SharedLibrary_Data_Player_System_String_System_Boolean_
-  commentId: M:SharedLibrary.Managers.TasksManager.AddNonSuggestTask(SharedLibrary.Data.Player,System.String,System.Boolean)
-  name.vb: AddNonSuggestTask(Player, String, Boolean)
-  fullName: SharedLibrary.Managers.TasksManager.AddNonSuggestTask(SharedLibrary.Data.Player, string, bool)
-  fullName.vb: SharedLibrary.Managers.TasksManager.AddNonSuggestTask(SharedLibrary.Data.Player, String, Boolean)
-  nameWithType: TasksManager.AddNonSuggestTask(Player, string, bool)
-  nameWithType.vb: TasksManager.AddNonSuggestTask(Player, String, Boolean)
+- uid: SharedLibrary.Managers.TasksManager.AddNonSuggestTask(SharedLibrary.Data.Player,System.String,System.Boolean,System.Int32)
+  name: AddNonSuggestTask(Player, string, bool, int)
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_AddNonSuggestTask_SharedLibrary_Data_Player_System_String_System_Boolean_System_Int32_
+  commentId: M:SharedLibrary.Managers.TasksManager.AddNonSuggestTask(SharedLibrary.Data.Player,System.String,System.Boolean,System.Int32)
+  name.vb: AddNonSuggestTask(Player, String, Boolean, Integer)
+  fullName: SharedLibrary.Managers.TasksManager.AddNonSuggestTask(SharedLibrary.Data.Player, string, bool, int)
+  fullName.vb: SharedLibrary.Managers.TasksManager.AddNonSuggestTask(SharedLibrary.Data.Player, String, Boolean, Integer)
+  nameWithType: TasksManager.AddNonSuggestTask(Player, string, bool, int)
+  nameWithType.vb: TasksManager.AddNonSuggestTask(Player, String, Boolean, Integer)
 - uid: SharedLibrary.Managers.TasksManager.AddNonSuggestTask*
   name: AddNonSuggestTask
   href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_AddNonSuggestTask_
@@ -6373,15 +6539,15 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Managers.TasksManager.AddNonSuggestTask
   nameWithType: TasksManager.AddNonSuggestTask
-- uid: SharedLibrary.Managers.TasksManager.AddTaskFromSuggestions(SharedLibrary.Data.Player,System.String)
-  name: AddTaskFromSuggestions(Player, string)
-  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_AddTaskFromSuggestions_SharedLibrary_Data_Player_System_String_
-  commentId: M:SharedLibrary.Managers.TasksManager.AddTaskFromSuggestions(SharedLibrary.Data.Player,System.String)
-  name.vb: AddTaskFromSuggestions(Player, String)
-  fullName: SharedLibrary.Managers.TasksManager.AddTaskFromSuggestions(SharedLibrary.Data.Player, string)
-  fullName.vb: SharedLibrary.Managers.TasksManager.AddTaskFromSuggestions(SharedLibrary.Data.Player, String)
-  nameWithType: TasksManager.AddTaskFromSuggestions(Player, string)
-  nameWithType.vb: TasksManager.AddTaskFromSuggestions(Player, String)
+- uid: SharedLibrary.Managers.TasksManager.AddTaskFromSuggestions(SharedLibrary.Data.Player,System.String,System.Int32)
+  name: AddTaskFromSuggestions(Player, string, int)
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_AddTaskFromSuggestions_SharedLibrary_Data_Player_System_String_System_Int32_
+  commentId: M:SharedLibrary.Managers.TasksManager.AddTaskFromSuggestions(SharedLibrary.Data.Player,System.String,System.Int32)
+  name.vb: AddTaskFromSuggestions(Player, String, Integer)
+  fullName: SharedLibrary.Managers.TasksManager.AddTaskFromSuggestions(SharedLibrary.Data.Player, string, int)
+  fullName.vb: SharedLibrary.Managers.TasksManager.AddTaskFromSuggestions(SharedLibrary.Data.Player, String, Integer)
+  nameWithType: TasksManager.AddTaskFromSuggestions(Player, string, int)
+  nameWithType.vb: TasksManager.AddTaskFromSuggestions(Player, String, Integer)
 - uid: SharedLibrary.Managers.TasksManager.AddTaskFromSuggestions*
   name: AddTaskFromSuggestions
   href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_AddTaskFromSuggestions_
@@ -6389,15 +6555,15 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Managers.TasksManager.AddTaskFromSuggestions
   nameWithType: TasksManager.AddTaskFromSuggestions
-- uid: SharedLibrary.Managers.TasksManager.CompleteTask(SharedLibrary.Data.Player,System.String)
-  name: CompleteTask(Player, string)
-  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_CompleteTask_SharedLibrary_Data_Player_System_String_
-  commentId: M:SharedLibrary.Managers.TasksManager.CompleteTask(SharedLibrary.Data.Player,System.String)
-  name.vb: CompleteTask(Player, String)
-  fullName: SharedLibrary.Managers.TasksManager.CompleteTask(SharedLibrary.Data.Player, string)
-  fullName.vb: SharedLibrary.Managers.TasksManager.CompleteTask(SharedLibrary.Data.Player, String)
-  nameWithType: TasksManager.CompleteTask(Player, string)
-  nameWithType.vb: TasksManager.CompleteTask(Player, String)
+- uid: SharedLibrary.Managers.TasksManager.CompleteTask(SharedLibrary.Data.Player,System.String,System.Int32)
+  name: CompleteTask(Player, string, int)
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_CompleteTask_SharedLibrary_Data_Player_System_String_System_Int32_
+  commentId: M:SharedLibrary.Managers.TasksManager.CompleteTask(SharedLibrary.Data.Player,System.String,System.Int32)
+  name.vb: CompleteTask(Player, String, Integer)
+  fullName: SharedLibrary.Managers.TasksManager.CompleteTask(SharedLibrary.Data.Player, string, int)
+  fullName.vb: SharedLibrary.Managers.TasksManager.CompleteTask(SharedLibrary.Data.Player, String, Integer)
+  nameWithType: TasksManager.CompleteTask(Player, string, int)
+  nameWithType.vb: TasksManager.CompleteTask(Player, String, Integer)
 - uid: SharedLibrary.Managers.TasksManager.CompleteTask*
   name: CompleteTask
   href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_CompleteTask_
@@ -6418,12 +6584,15 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Managers.TasksManager.CreateTask
   nameWithType: TasksManager.CreateTask
-- uid: SharedLibrary.Managers.TasksManager.GetPlayerTasks(SharedLibrary.Data.Player)
-  name: GetPlayerTasks(Player)
-  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_GetPlayerTasks_SharedLibrary_Data_Player_
-  commentId: M:SharedLibrary.Managers.TasksManager.GetPlayerTasks(SharedLibrary.Data.Player)
-  fullName: SharedLibrary.Managers.TasksManager.GetPlayerTasks(SharedLibrary.Data.Player)
-  nameWithType: TasksManager.GetPlayerTasks(Player)
+- uid: SharedLibrary.Managers.TasksManager.GetPlayerTasks(SharedLibrary.Data.Player,System.Int32)
+  name: GetPlayerTasks(Player, int)
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_GetPlayerTasks_SharedLibrary_Data_Player_System_Int32_
+  commentId: M:SharedLibrary.Managers.TasksManager.GetPlayerTasks(SharedLibrary.Data.Player,System.Int32)
+  name.vb: GetPlayerTasks(Player, Integer)
+  fullName: SharedLibrary.Managers.TasksManager.GetPlayerTasks(SharedLibrary.Data.Player, int)
+  fullName.vb: SharedLibrary.Managers.TasksManager.GetPlayerTasks(SharedLibrary.Data.Player, Integer)
+  nameWithType: TasksManager.GetPlayerTasks(Player, int)
+  nameWithType.vb: TasksManager.GetPlayerTasks(Player, Integer)
 - uid: SharedLibrary.Managers.TasksManager.GetPlayerTasks*
   name: GetPlayerTasks
   href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_GetPlayerTasks_
@@ -8184,15 +8353,15 @@ references:
   commentId: T:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1
   nameWithType: TaskAddFromSuggestionProtocolMessageV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.#ctor(System.String,System.String,System.String)
-  name: TaskAddFromSuggestionProtocolMessageV1(string, string, string?)
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddFromSuggestionProtocolMessageV1__ctor_System_String_System_String_System_String_
-  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.#ctor(System.String,System.String,System.String)
-  name.vb: New(String, String, String)
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.TaskAddFromSuggestionProtocolMessageV1(string, string, string?)
-  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.New(String, String, String)
-  nameWithType: TaskAddFromSuggestionProtocolMessageV1.TaskAddFromSuggestionProtocolMessageV1(string, string, string?)
-  nameWithType.vb: TaskAddFromSuggestionProtocolMessageV1.New(String, String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.#ctor(System.String,System.String,System.Int32,System.String)
+  name: TaskAddFromSuggestionProtocolMessageV1(string, string, int, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddFromSuggestionProtocolMessageV1__ctor_System_String_System_String_System_Int32_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.#ctor(System.String,System.String,System.Int32,System.String)
+  name.vb: New(String, String, Integer, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.TaskAddFromSuggestionProtocolMessageV1(string, string, int, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.New(String, String, Integer, String)
+  nameWithType: TaskAddFromSuggestionProtocolMessageV1.TaskAddFromSuggestionProtocolMessageV1(string, string, int, string?)
+  nameWithType.vb: TaskAddFromSuggestionProtocolMessageV1.New(String, String, Integer, String)
 - uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.#ctor*
   name: TaskAddFromSuggestionProtocolMessageV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddFromSuggestionProtocolMessageV1__ctor_
@@ -8242,6 +8411,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.TaskId
   nameWithType: TaskAddFromSuggestionProtocolMessageV1.TaskId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.TzOffsetSeconds
+  name: TzOffsetSeconds
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddFromSuggestionProtocolMessageV1_TzOffsetSeconds
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.TzOffsetSeconds
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.TzOffsetSeconds
+  nameWithType: TaskAddFromSuggestionProtocolMessageV1.TzOffsetSeconds
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.TzOffsetSeconds*
+  name: TzOffsetSeconds
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddFromSuggestionProtocolMessageV1_TzOffsetSeconds_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.TzOffsetSeconds
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.TzOffsetSeconds
+  nameWithType: TaskAddFromSuggestionProtocolMessageV1.TzOffsetSeconds
 - uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.UserId
   name: UserId
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddFromSuggestionProtocolMessageV1_UserId
@@ -8261,15 +8443,15 @@ references:
   commentId: T:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1
   nameWithType: TaskAddNonSuggestProtocolMessageV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.#ctor(System.String,System.String,System.String)
-  name: TaskAddNonSuggestProtocolMessageV1(string, string, string?)
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddNonSuggestProtocolMessageV1__ctor_System_String_System_String_System_String_
-  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.#ctor(System.String,System.String,System.String)
-  name.vb: New(String, String, String)
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.TaskAddNonSuggestProtocolMessageV1(string, string, string?)
-  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.New(String, String, String)
-  nameWithType: TaskAddNonSuggestProtocolMessageV1.TaskAddNonSuggestProtocolMessageV1(string, string, string?)
-  nameWithType.vb: TaskAddNonSuggestProtocolMessageV1.New(String, String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.#ctor(System.String,System.String,System.Int32,System.String)
+  name: TaskAddNonSuggestProtocolMessageV1(string, string, int, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddNonSuggestProtocolMessageV1__ctor_System_String_System_String_System_Int32_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.#ctor(System.String,System.String,System.Int32,System.String)
+  name.vb: New(String, String, Integer, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.TaskAddNonSuggestProtocolMessageV1(string, string, int, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.New(String, String, Integer, String)
+  nameWithType: TaskAddNonSuggestProtocolMessageV1.TaskAddNonSuggestProtocolMessageV1(string, string, int, string?)
+  nameWithType.vb: TaskAddNonSuggestProtocolMessageV1.New(String, String, Integer, String)
 - uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.#ctor*
   name: TaskAddNonSuggestProtocolMessageV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddNonSuggestProtocolMessageV1__ctor_
@@ -8319,6 +8501,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.TaskId
   nameWithType: TaskAddNonSuggestProtocolMessageV1.TaskId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.TzOffsetSeconds
+  name: TzOffsetSeconds
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddNonSuggestProtocolMessageV1_TzOffsetSeconds
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.TzOffsetSeconds
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.TzOffsetSeconds
+  nameWithType: TaskAddNonSuggestProtocolMessageV1.TzOffsetSeconds
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.TzOffsetSeconds*
+  name: TzOffsetSeconds
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddNonSuggestProtocolMessageV1_TzOffsetSeconds_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.TzOffsetSeconds
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.TzOffsetSeconds
+  nameWithType: TaskAddNonSuggestProtocolMessageV1.TzOffsetSeconds
 - uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.UserId
   name: UserId
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddNonSuggestProtocolMessageV1_UserId
@@ -8338,15 +8533,15 @@ references:
   commentId: T:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1
   nameWithType: TaskCompleteProtocolMessageV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.#ctor(System.String,System.String,System.String)
-  name: TaskCompleteProtocolMessageV1(string, string, string?)
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskCompleteProtocolMessageV1__ctor_System_String_System_String_System_String_
-  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.#ctor(System.String,System.String,System.String)
-  name.vb: New(String, String, String)
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.TaskCompleteProtocolMessageV1(string, string, string?)
-  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.New(String, String, String)
-  nameWithType: TaskCompleteProtocolMessageV1.TaskCompleteProtocolMessageV1(string, string, string?)
-  nameWithType.vb: TaskCompleteProtocolMessageV1.New(String, String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.#ctor(System.String,System.String,System.Int32,System.String)
+  name: TaskCompleteProtocolMessageV1(string, string, int, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskCompleteProtocolMessageV1__ctor_System_String_System_String_System_Int32_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.#ctor(System.String,System.String,System.Int32,System.String)
+  name.vb: New(String, String, Integer, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.TaskCompleteProtocolMessageV1(string, string, int, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.New(String, String, Integer, String)
+  nameWithType: TaskCompleteProtocolMessageV1.TaskCompleteProtocolMessageV1(string, string, int, string?)
+  nameWithType.vb: TaskCompleteProtocolMessageV1.New(String, String, Integer, String)
 - uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.#ctor*
   name: TaskCompleteProtocolMessageV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskCompleteProtocolMessageV1__ctor_
@@ -8383,6 +8578,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.TaskId
   nameWithType: TaskCompleteProtocolMessageV1.TaskId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.TzOffsetSeconds
+  name: TzOffsetSeconds
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskCompleteProtocolMessageV1_TzOffsetSeconds
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.TzOffsetSeconds
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.TzOffsetSeconds
+  nameWithType: TaskCompleteProtocolMessageV1.TzOffsetSeconds
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.TzOffsetSeconds*
+  name: TzOffsetSeconds
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskCompleteProtocolMessageV1_TzOffsetSeconds_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.TzOffsetSeconds
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.TzOffsetSeconds
+  nameWithType: TaskCompleteProtocolMessageV1.TzOffsetSeconds
 - uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.UserId
   name: UserId
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCompleteProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskCompleteProtocolMessageV1_UserId

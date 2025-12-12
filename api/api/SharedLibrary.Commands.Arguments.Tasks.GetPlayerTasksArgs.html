@@ -116,18 +116,18 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Commands_Arguments_Tasks_GetPlayerTasksArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_TasksManager_.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.%23ctor(SharedLibrary.Data.Player%2CSharedLibrary.Managers.TasksManager)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Commands_Arguments_Tasks_GetPlayerTasksArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_TasksManager_System_Int32_.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.%23ctor(SharedLibrary.Data.Player%2CSharedLibrary.Managers.TasksManager%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/Arguments/Tasks/GetPlayerTasksArgs.cs/#L11">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/Arguments/Tasks/GetPlayerTasksArgs.cs/#L12">View Source</a>
   </span>
   <a id="SharedLibrary_Commands_Arguments_Tasks_GetPlayerTasksArgs__ctor_" data-uid="SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.#ctor*"></a>
-  <h4 id="SharedLibrary_Commands_Arguments_Tasks_GetPlayerTasksArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_TasksManager_" data-uid="SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager)">GetPlayerTasksArgs(Player, TasksManager)</h4>
+  <h4 id="SharedLibrary_Commands_Arguments_Tasks_GetPlayerTasksArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_TasksManager_System_Int32_" data-uid="SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.Int32)">GetPlayerTasksArgs(Player, TasksManager, int)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GetPlayerTasksArgs(Player player, TasksManager tasksManager)</code></pre>
+    <pre><code class="lang-csharp hljs">public GetPlayerTasksArgs(Player player, TasksManager tasksManager, int tzOffsetSeconds)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -147,6 +147,11 @@
       <tr>
         <td><a class="xref" href="SharedLibrary.Managers.TasksManager.html">TasksManager</a></td>
         <td><span class="parametername">tasksManager</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">tzOffsetSeconds</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -209,6 +214,36 @@
     <tbody>
       <tr>
         <td><a class="xref" href="SharedLibrary.Managers.TasksManager.html">TasksManager</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Commands_Arguments_Tasks_GetPlayerTasksArgs_TzOffsetSeconds.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.TzOffsetSeconds%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/Arguments/Tasks/GetPlayerTasksArgs.cs/#L10">View Source</a>
+  </span>
+  <a id="SharedLibrary_Commands_Arguments_Tasks_GetPlayerTasksArgs_TzOffsetSeconds_" data-uid="SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.TzOffsetSeconds*"></a>
+  <h4 id="SharedLibrary_Commands_Arguments_Tasks_GetPlayerTasksArgs_TzOffsetSeconds" data-uid="SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs.TzOffsetSeconds">TzOffsetSeconds</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TzOffsetSeconds { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
         <td></td>
       </tr>
     </tbody>

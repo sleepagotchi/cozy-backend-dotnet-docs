@@ -123,7 +123,7 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Data_Tasks_TaskCare__ctor.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Tasks.TaskCare.%23ctor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/TaskCare.cs/#L96">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/TaskCare.cs/#L136">View Source</a>
   </span>
   <a id="SharedLibrary_Data_Tasks_TaskCare__ctor_" data-uid="SharedLibrary.Data.Tasks.TaskCare.#ctor*"></a>
   <h4 id="SharedLibrary_Data_Tasks_TaskCare__ctor" data-uid="SharedLibrary.Data.Tasks.TaskCare.#ctor">TaskCare()</h4>
@@ -135,19 +135,19 @@
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Data_Tasks_TaskCare__ctor_System_String_System_String_System_DateTime_System_TimeSpan_.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Tasks.TaskCare.%23ctor(System.String%2CSystem.String%2CSystem.DateTime%2CSystem.TimeSpan)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Data_Tasks_TaskCare__ctor_System_String_System_String_System_DateTime_SharedLibrary_Data_Tasks_TaskRepeatType_.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Tasks.TaskCare.%23ctor(System.String%2CSystem.String%2CSystem.DateTime%2CSharedLibrary.Data.Tasks.TaskRepeatType)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/TaskCare.cs/#L110">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/TaskCare.cs/#L150">View Source</a>
   </span>
   <a id="SharedLibrary_Data_Tasks_TaskCare__ctor_" data-uid="SharedLibrary.Data.Tasks.TaskCare.#ctor*"></a>
-  <h4 id="SharedLibrary_Data_Tasks_TaskCare__ctor_System_String_System_String_System_DateTime_System_TimeSpan_" data-uid="SharedLibrary.Data.Tasks.TaskCare.#ctor(System.String,System.String,System.DateTime,System.TimeSpan)">TaskCare(string, string, DateTime, TimeSpan)</h4>
+  <h4 id="SharedLibrary_Data_Tasks_TaskCare__ctor_System_String_System_String_System_DateTime_SharedLibrary_Data_Tasks_TaskRepeatType_" data-uid="SharedLibrary.Data.Tasks.TaskCare.#ctor(System.String,System.String,System.DateTime,SharedLibrary.Data.Tasks.TaskRepeatType)">TaskCare(string, string, DateTime, TaskRepeatType)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="SharedLibrary.Data.Tasks.TaskCare.html">TaskCare</a> class for manual creation of a task by the user through the UI.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TaskCare(string categoryId, string title, DateTime date, TimeSpan repeat)</code></pre>
+    <pre><code class="lang-csharp hljs">public TaskCare(string categoryId, string title, DateTime date, TaskRepeatType repeat)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -178,14 +178,14 @@
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></td>
+        <td><a class="xref" href="SharedLibrary.Data.Tasks.TaskRepeatType.html">TaskRepeatType</a></td>
         <td><span class="parametername">repeat</span></td>
         <td><p>The repeat interval for the task (use <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan.zero">Zero</a> if not repeating).</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 id="SharedLibrary_Data_Tasks_TaskCare__ctor_System_String_System_String_System_DateTime_System_TimeSpan__remarks">Remarks</h5>
+  <h5 id="SharedLibrary_Data_Tasks_TaskCare__ctor_System_String_System_String_System_DateTime_SharedLibrary_Data_Tasks_TaskRepeatType__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>This constructor is primarily used when a player manually creates a custom mission from the game interface.</p>
 </div>
   <h3 id="properties">Properties
@@ -254,6 +254,41 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Data_Tasks_TaskCare_CompleteCount.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Tasks.TaskCare.CompleteCount%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/TaskCare.cs/#L89">View Source</a>
+  </span>
+  <a id="SharedLibrary_Data_Tasks_TaskCare_CompleteCount_" data-uid="SharedLibrary.Data.Tasks.TaskCare.CompleteCount*"></a>
+  <h4 id="SharedLibrary_Data_Tasks_TaskCare_CompleteCount" data-uid="SharedLibrary.Data.Tasks.TaskCare.CompleteCount">CompleteCount</h4>
+  <div class="markdown level1 summary"><p>Number of times this task has been completed during the current calendar day.
+Meaningful only when <a class="xref" href="SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_RepeatCount">RepeatCount</a> &gt; 1.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CompleteCount { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SharedLibrary_Data_Tasks_TaskCare_CompleteCount_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The counter should be incremented on each completion and reset by external logic (e.g., at midnight or daily refresh).</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Data_Tasks_TaskCare_CompleteDate.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Tasks.TaskCare.CompleteDate%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -261,7 +296,7 @@
   </span>
   <a id="SharedLibrary_Data_Tasks_TaskCare_CompleteDate_" data-uid="SharedLibrary.Data.Tasks.TaskCare.CompleteDate*"></a>
   <h4 id="SharedLibrary_Data_Tasks_TaskCare_CompleteDate" data-uid="SharedLibrary.Data.Tasks.TaskCare.CompleteDate">CompleteDate</h4>
-  <div class="markdown level1 summary"><p>The date and time when the task was completed. <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime.minvalue">MinValue</a> indicates it is not yet completed.</p>
+  <div class="markdown level1 summary"><p>The date and time when the task was completed last time. <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime.minvalue">MinValue</a> indicates it is not yet completed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -292,7 +327,7 @@
   </span>
   <a id="SharedLibrary_Data_Tasks_TaskCare_Date_" data-uid="SharedLibrary.Data.Tasks.TaskCare.Date*"></a>
   <h4 id="SharedLibrary_Data_Tasks_TaskCare_Date" data-uid="SharedLibrary.Data.Tasks.TaskCare.Date">Date</h4>
-  <div class="markdown level1 summary"><p>The date and time when the task should be performed.</p>
+  <div class="markdown level1 summary"><p>The date and time when the task was created.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -314,6 +349,42 @@
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Data_Tasks_TaskCare_FormattedTitle.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Tasks.TaskCare.FormattedTitle%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/TaskCare.cs/#L126">View Source</a>
+  </span>
+  <a id="SharedLibrary_Data_Tasks_TaskCare_FormattedTitle_" data-uid="SharedLibrary.Data.Tasks.TaskCare.FormattedTitle*"></a>
+  <h4 id="SharedLibrary_Data_Tasks_TaskCare_FormattedTitle" data-uid="SharedLibrary.Data.Tasks.TaskCare.FormattedTitle">FormattedTitle</h4>
+  <div class="markdown level1 summary"><p>Gets the title of the task, including completion progress if the task has a repeat count.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string FormattedTitle { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>The title of the task, optionally including completion progress.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SharedLibrary_Data_Tasks_TaskCare_FormattedTitle_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If <a class="xref" href="SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_RepeatCount">RepeatCount</a> is 0, the title is returned as is.
+Otherwise, the title is appended with the current completion progress in the format &quot;(CompleteCount/RepeatCount)&quot;.</p>
+</div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Data_Tasks_TaskCare_Id.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Tasks.TaskCare.Id%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
@@ -350,7 +421,7 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Data_Tasks_TaskCare_IsCompleted.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Tasks.TaskCare.IsCompleted%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/TaskCare.cs/#L75">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/TaskCare.cs/#L101">View Source</a>
   </span>
   <a id="SharedLibrary_Data_Tasks_TaskCare_IsCompleted_" data-uid="SharedLibrary.Data.Tasks.TaskCare.IsCompleted*"></a>
   <h4 id="SharedLibrary_Data_Tasks_TaskCare_IsCompleted" data-uid="SharedLibrary.Data.Tasks.TaskCare.IsCompleted">IsCompleted</h4>
@@ -379,7 +450,7 @@
   </table>
   <h5 id="SharedLibrary_Data_Tasks_TaskCare_IsCompleted_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Returns <code>true</code> if a completion date is set. For repeating tasks, it remains <code>true</code>
-until <a class="xref" href="SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_CompleteDate">CompleteDate</a> plus <a class="xref" href="SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_Repeat">Repeat</a> relative to <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime.utcnow">UtcNow</a>;
+until <a class="xref" href="SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_CompleteDate">CompleteDate</a> plus Repeat relative to <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime.utcnow">UtcNow</a>;
 after that moment it becomes <code>false</code>.
 Non-repeating tasks are completed when <a class="xref" href="SharedLibrary.Data.Tasks.TaskCare.html#SharedLibrary_Data_Tasks_TaskCare_CompleteDate">CompleteDate</a> is not <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime.minvalue">MinValue</a>.</p>
 </div>
@@ -388,7 +459,7 @@ Non-repeating tasks are completed when <a class="xref" href="SharedLibrary.Data.
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Data_Tasks_TaskCare_IsTutorial.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Tasks.TaskCare.IsTutorial%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/TaskCare.cs/#L63">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/TaskCare.cs/#L72">View Source</a>
   </span>
   <a id="SharedLibrary_Data_Tasks_TaskCare_IsTutorial_" data-uid="SharedLibrary.Data.Tasks.TaskCare.IsTutorial*"></a>
   <h4 id="SharedLibrary_Data_Tasks_TaskCare_IsTutorial" data-uid="SharedLibrary.Data.Tasks.TaskCare.IsTutorial">IsTutorial</h4>
@@ -419,7 +490,7 @@ Non-repeating tasks are completed when <a class="xref" href="SharedLibrary.Data.
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Data_Tasks_TaskCare_NeedToShow.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Tasks.TaskCare.NeedToShow%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/TaskCare.cs/#L94">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/TaskCare.cs/#L114">View Source</a>
   </span>
   <a id="SharedLibrary_Data_Tasks_TaskCare_NeedToShow_" data-uid="SharedLibrary.Data.Tasks.TaskCare.NeedToShow*"></a>
   <h4 id="SharedLibrary_Data_Tasks_TaskCare_NeedToShow" data-uid="SharedLibrary.Data.Tasks.TaskCare.NeedToShow">NeedToShow</h4>
@@ -450,7 +521,7 @@ Non-repeating tasks are completed when <a class="xref" href="SharedLibrary.Data.
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Data_Tasks_TaskCare_Reminder.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Tasks.TaskCare.Reminder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/TaskCare.cs/#L53">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/TaskCare.cs/#L62">View Source</a>
   </span>
   <a id="SharedLibrary_Data_Tasks_TaskCare_Reminder_" data-uid="SharedLibrary.Data.Tasks.TaskCare.Reminder*"></a>
   <h4 id="SharedLibrary_Data_Tasks_TaskCare_Reminder" data-uid="SharedLibrary.Data.Tasks.TaskCare.Reminder">Reminder</h4>
@@ -478,19 +549,19 @@ Non-repeating tasks are completed when <a class="xref" href="SharedLibrary.Data.
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Data_Tasks_TaskCare_Repeat.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Tasks.TaskCare.Repeat%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Data_Tasks_TaskCare_RepeatCount.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Tasks.TaskCare.RepeatCount%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/TaskCare.cs/#L48">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/TaskCare.cs/#L80">View Source</a>
   </span>
-  <a id="SharedLibrary_Data_Tasks_TaskCare_Repeat_" data-uid="SharedLibrary.Data.Tasks.TaskCare.Repeat*"></a>
-  <h4 id="SharedLibrary_Data_Tasks_TaskCare_Repeat" data-uid="SharedLibrary.Data.Tasks.TaskCare.Repeat">Repeat</h4>
-  <div class="markdown level1 summary"><p>The interval at which this task repeats (e.g., every 24 hours). <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan.zero">Zero</a> means no repetition.</p>
+  <a id="SharedLibrary_Data_Tasks_TaskCare_RepeatCount_" data-uid="SharedLibrary.Data.Tasks.TaskCare.RepeatCount*"></a>
+  <h4 id="SharedLibrary_Data_Tasks_TaskCare_RepeatCount" data-uid="SharedLibrary.Data.Tasks.TaskCare.RepeatCount">RepeatCount</h4>
+  <div class="markdown level1 summary"><p>Maximum number of times this task can be completed within a single calendar day. If 0/1 - task can be completed only once per day.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TimeSpan Repeat { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int RepeatCount { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -502,17 +573,86 @@ Non-repeating tasks are completed when <a class="xref" href="SharedLibrary.Data.
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SharedLibrary_Data_Tasks_TaskCare_RepeatCount_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Enforcement of this limit and resetting/updating the counter on day change should be handled by external logic.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Data_Tasks_TaskCare_RepeatType.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Tasks.TaskCare.RepeatType%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/TaskCare.cs/#L48">View Source</a>
+  </span>
+  <a id="SharedLibrary_Data_Tasks_TaskCare_RepeatType_" data-uid="SharedLibrary.Data.Tasks.TaskCare.RepeatType*"></a>
+  <h4 id="SharedLibrary_Data_Tasks_TaskCare_RepeatType" data-uid="SharedLibrary.Data.Tasks.TaskCare.RepeatType">RepeatType</h4>
+  <div class="markdown level1 summary"><p>The interval at which this task repeats. <a class="xref" href="SharedLibrary.Data.Tasks.TaskRepeatType.html#SharedLibrary_Data_Tasks_TaskRepeatType_DoNotRepeat">DoNotRepeat</a> means no repetition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TaskRepeatType RepeatType { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Data.Tasks.TaskRepeatType.html">TaskRepeatType</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Data_Tasks_TaskCare_RepeatUntilDate.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Tasks.TaskCare.RepeatUntilDate%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/TaskCare.cs/#L57">View Source</a>
+  </span>
+  <a id="SharedLibrary_Data_Tasks_TaskCare_RepeatUntilDate_" data-uid="SharedLibrary.Data.Tasks.TaskCare.RepeatUntilDate*"></a>
+  <h4 id="SharedLibrary_Data_Tasks_TaskCare_RepeatUntilDate" data-uid="SharedLibrary.Data.Tasks.TaskCare.RepeatUntilDate">RepeatUntilDate</h4>
+  <div class="markdown level1 summary"><p>The date (inclusive) until which this task will continue to repeat.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime RepeatUntilDate { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SharedLibrary_Data_Tasks_TaskCare_RepeatUntilDate_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>A value of <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime.minvalue">MinValue</a> (default) means there is no explicit &quot;repeat-until&quot; limit.
+When set, external logic should prevent scheduling repetitions after this date and handle timezone-aware comparisons and resets as needed.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Data_Tasks_TaskCare_Result.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Tasks.TaskCare.Result%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/TaskCare.cs/#L58">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/TaskCare.cs/#L67">View Source</a>
   </span>
   <a id="SharedLibrary_Data_Tasks_TaskCare_Result_" data-uid="SharedLibrary.Data.Tasks.TaskCare.Result*"></a>
   <h4 id="SharedLibrary_Data_Tasks_TaskCare_Result" data-uid="SharedLibrary.Data.Tasks.TaskCare.Result">Result</h4>
@@ -576,7 +716,7 @@ Non-repeating tasks are completed when <a class="xref" href="SharedLibrary.Data.
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Data_Tasks_TaskCare_Clone.md&amp;value=---%0Auid%3A%20SharedLibrary.Data.Tasks.TaskCare.Clone%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/TaskCare.cs/#L118">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Data/Tasks/TaskCare.cs/#L158">View Source</a>
   </span>
   <a id="SharedLibrary_Data_Tasks_TaskCare_Clone_" data-uid="SharedLibrary.Data.Tasks.TaskCare.Clone*"></a>
   <h4 id="SharedLibrary_Data_Tasks_TaskCare_Clone" data-uid="SharedLibrary.Data.Tasks.TaskCare.Clone">Clone()</h4>
