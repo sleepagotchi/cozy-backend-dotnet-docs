@@ -6694,6 +6694,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Managers.TasksManager.AddTaskFromSuggestions
   nameWithType: TasksManager.AddTaskFromSuggestions
+- uid: SharedLibrary.Managers.TasksManager.CheckScheduledTasks(SharedLibrary.Data.Player,System.Int32)
+  name: CheckScheduledTasks(Player, int)
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_CheckScheduledTasks_SharedLibrary_Data_Player_System_Int32_
+  commentId: M:SharedLibrary.Managers.TasksManager.CheckScheduledTasks(SharedLibrary.Data.Player,System.Int32)
+  name.vb: CheckScheduledTasks(Player, Integer)
+  fullName: SharedLibrary.Managers.TasksManager.CheckScheduledTasks(SharedLibrary.Data.Player, int)
+  fullName.vb: SharedLibrary.Managers.TasksManager.CheckScheduledTasks(SharedLibrary.Data.Player, Integer)
+  nameWithType: TasksManager.CheckScheduledTasks(Player, int)
+  nameWithType.vb: TasksManager.CheckScheduledTasks(Player, Integer)
+- uid: SharedLibrary.Managers.TasksManager.CheckScheduledTasks*
+  name: CheckScheduledTasks
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_CheckScheduledTasks_
+  commentId: Overload:SharedLibrary.Managers.TasksManager.CheckScheduledTasks
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.TasksManager.CheckScheduledTasks
+  nameWithType: TasksManager.CheckScheduledTasks
 - uid: SharedLibrary.Managers.TasksManager.CompleteTask(SharedLibrary.Data.Player,System.String,System.Int32)
   name: CompleteTask(Player, string, int)
   href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_CompleteTask_SharedLibrary_Data_Player_System_String_System_Int32_
