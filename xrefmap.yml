@@ -8097,6 +8097,12 @@ references:
   commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.UserRegisterCommandV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.UserRegisterCommandV1
   nameWithType: ProtocolMessageTypes.UserRegisterCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.UserSetFullStateCommandV1
+  name: UserSetFullStateCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_UserSetFullStateCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.UserSetFullStateCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.UserSetFullStateCommandV1
+  nameWithType: ProtocolMessageTypes.UserSetFullStateCommandV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.Sleep
   name: SharedLibrary.Protocol.ProtocolMessages.Sleep
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.html
@@ -9141,3 +9147,67 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.UserId
   nameWithType: UserRegisterProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1
+  name: UserSetFullStateProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1
+  nameWithType: UserSetFullStateProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.#ctor(System.String,SharedLibrary.Data.Player,System.String)
+  name: UserSetFullStateProtocolMessageV1(string, Player, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserSetFullStateProtocolMessageV1__ctor_System_String_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.#ctor(System.String,SharedLibrary.Data.Player,System.String)
+  name.vb: New(String, Player, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.UserSetFullStateProtocolMessageV1(string, SharedLibrary.Data.Player, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.New(String, SharedLibrary.Data.Player, String)
+  nameWithType: UserSetFullStateProtocolMessageV1.UserSetFullStateProtocolMessageV1(string, Player, string?)
+  nameWithType.vb: UserSetFullStateProtocolMessageV1.New(String, Player, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.#ctor*
+  name: UserSetFullStateProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserSetFullStateProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.UserSetFullStateProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.New
+  nameWithType: UserSetFullStateProtocolMessageV1.UserSetFullStateProtocolMessageV1
+  nameWithType.vb: UserSetFullStateProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserSetFullStateProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.MessageType
+  nameWithType: UserSetFullStateProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserSetFullStateProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.MessageType
+  nameWithType: UserSetFullStateProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.Player
+  name: Player
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserSetFullStateProtocolMessageV1_Player
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.Player
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.Player
+  nameWithType: UserSetFullStateProtocolMessageV1.Player
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.Player*
+  name: Player
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserSetFullStateProtocolMessageV1_Player_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.Player
+  nameWithType: UserSetFullStateProtocolMessageV1.Player
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserSetFullStateProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.UserId
+  nameWithType: UserSetFullStateProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserSetFullStateProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.UserId
+  nameWithType: UserSetFullStateProtocolMessageV1.UserId
