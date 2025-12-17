@@ -7598,70 +7598,70 @@ references:
   commentId: N:SharedLibrary.Protocol.ProtocolMessages.Cosmetic
   fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic
   nameWithType: SharedLibrary.Protocol.ProtocolMessages.Cosmetic
-- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1
-  name: AddCosmeticItemProtocolMessageV1
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.html
-  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1
-  nameWithType: AddCosmeticItemProtocolMessageV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.#ctor(System.String,System.String,System.String)
-  name: AddCosmeticItemProtocolMessageV1(string, string, string?)
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_AddCosmeticItemProtocolMessageV1__ctor_System_String_System_String_System_String_
-  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.#ctor(System.String,System.String,System.String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1
+  name: CosmeticAddItemProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1
+  nameWithType: CosmeticAddItemProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.#ctor(System.String,System.String,System.String)
+  name: CosmeticAddItemProtocolMessageV1(string, string, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticAddItemProtocolMessageV1__ctor_System_String_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.#ctor(System.String,System.String,System.String)
   name.vb: New(String, String, String)
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.AddCosmeticItemProtocolMessageV1(string, string, string?)
-  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.New(String, String, String)
-  nameWithType: AddCosmeticItemProtocolMessageV1.AddCosmeticItemProtocolMessageV1(string, string, string?)
-  nameWithType.vb: AddCosmeticItemProtocolMessageV1.New(String, String, String)
-- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.#ctor*
-  name: AddCosmeticItemProtocolMessageV1
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_AddCosmeticItemProtocolMessageV1__ctor_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.#ctor
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.CosmeticAddItemProtocolMessageV1(string, string, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.New(String, String, String)
+  nameWithType: CosmeticAddItemProtocolMessageV1.CosmeticAddItemProtocolMessageV1(string, string, string?)
+  nameWithType.vb: CosmeticAddItemProtocolMessageV1.New(String, String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.#ctor*
+  name: CosmeticAddItemProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticAddItemProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.AddCosmeticItemProtocolMessageV1
-  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.New
-  nameWithType: AddCosmeticItemProtocolMessageV1.AddCosmeticItemProtocolMessageV1
-  nameWithType.vb: AddCosmeticItemProtocolMessageV1.New
-- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.ItemId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.CosmeticAddItemProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.New
+  nameWithType: CosmeticAddItemProtocolMessageV1.CosmeticAddItemProtocolMessageV1
+  nameWithType.vb: CosmeticAddItemProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.ItemId
   name: ItemId
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_AddCosmeticItemProtocolMessageV1_ItemId
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.ItemId
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.ItemId
-  nameWithType: AddCosmeticItemProtocolMessageV1.ItemId
-- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.ItemId*
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticAddItemProtocolMessageV1_ItemId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.ItemId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.ItemId
+  nameWithType: CosmeticAddItemProtocolMessageV1.ItemId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.ItemId*
   name: ItemId
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_AddCosmeticItemProtocolMessageV1_ItemId_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.ItemId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticAddItemProtocolMessageV1_ItemId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.ItemId
   isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.ItemId
-  nameWithType: AddCosmeticItemProtocolMessageV1.ItemId
-- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.ItemId
+  nameWithType: CosmeticAddItemProtocolMessageV1.ItemId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.MessageType
   name: MessageType
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_AddCosmeticItemProtocolMessageV1_MessageType
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.MessageType
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.MessageType
-  nameWithType: AddCosmeticItemProtocolMessageV1.MessageType
-- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.MessageType*
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticAddItemProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.MessageType
+  nameWithType: CosmeticAddItemProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.MessageType*
   name: MessageType
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_AddCosmeticItemProtocolMessageV1_MessageType_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticAddItemProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.MessageType
   isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.MessageType
-  nameWithType: AddCosmeticItemProtocolMessageV1.MessageType
-- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.MessageType
+  nameWithType: CosmeticAddItemProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.UserId
   name: UserId
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_AddCosmeticItemProtocolMessageV1_UserId
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.UserId
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.UserId
-  nameWithType: AddCosmeticItemProtocolMessageV1.UserId
-- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.UserId*
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticAddItemProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.UserId
+  nameWithType: CosmeticAddItemProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.UserId*
   name: UserId
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_AddCosmeticItemProtocolMessageV1_UserId_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticAddItemProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.UserId
   isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.UserId
-  nameWithType: AddCosmeticItemProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.UserId
+  nameWithType: CosmeticAddItemProtocolMessageV1.UserId
 - uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticBuyItemProtocolMessageV1
   name: CosmeticBuyItemProtocolMessageV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticBuyItemProtocolMessageV1.html
@@ -7790,6 +7790,70 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticEquipProtocolMessageV1.UserId
   nameWithType: CosmeticEquipProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1
+  name: CosmeticRemoveItemProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1
+  nameWithType: CosmeticRemoveItemProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.#ctor(System.String,System.String,System.String)
+  name: CosmeticRemoveItemProtocolMessageV1(string, string, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticRemoveItemProtocolMessageV1__ctor_System_String_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.#ctor(System.String,System.String,System.String)
+  name.vb: New(String, String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.CosmeticRemoveItemProtocolMessageV1(string, string, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.New(String, String, String)
+  nameWithType: CosmeticRemoveItemProtocolMessageV1.CosmeticRemoveItemProtocolMessageV1(string, string, string?)
+  nameWithType.vb: CosmeticRemoveItemProtocolMessageV1.New(String, String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.#ctor*
+  name: CosmeticRemoveItemProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticRemoveItemProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.CosmeticRemoveItemProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.New
+  nameWithType: CosmeticRemoveItemProtocolMessageV1.CosmeticRemoveItemProtocolMessageV1
+  nameWithType.vb: CosmeticRemoveItemProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.ItemId
+  name: ItemId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticRemoveItemProtocolMessageV1_ItemId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.ItemId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.ItemId
+  nameWithType: CosmeticRemoveItemProtocolMessageV1.ItemId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.ItemId*
+  name: ItemId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticRemoveItemProtocolMessageV1_ItemId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.ItemId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.ItemId
+  nameWithType: CosmeticRemoveItemProtocolMessageV1.ItemId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticRemoveItemProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.MessageType
+  nameWithType: CosmeticRemoveItemProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticRemoveItemProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.MessageType
+  nameWithType: CosmeticRemoveItemProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticRemoveItemProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.UserId
+  nameWithType: CosmeticRemoveItemProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_CosmeticRemoveItemProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.UserId
+  nameWithType: CosmeticRemoveItemProtocolMessageV1.UserId
 - uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticToggleFavoriteProtocolMessageV1
   name: CosmeticToggleFavoriteProtocolMessageV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticToggleFavoriteProtocolMessageV1.html
@@ -7918,70 +7982,6 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticUnequipItemProtocolMessageV1.UserId
   nameWithType: CosmeticUnequipItemProtocolMessageV1.UserId
-- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1
-  name: RemoveCosmeticItemProtocolMessageV1
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.html
-  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1
-  nameWithType: RemoveCosmeticItemProtocolMessageV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.#ctor(System.String,System.String,System.String)
-  name: RemoveCosmeticItemProtocolMessageV1(string, string, string?)
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_RemoveCosmeticItemProtocolMessageV1__ctor_System_String_System_String_System_String_
-  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.#ctor(System.String,System.String,System.String)
-  name.vb: New(String, String, String)
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.RemoveCosmeticItemProtocolMessageV1(string, string, string?)
-  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.New(String, String, String)
-  nameWithType: RemoveCosmeticItemProtocolMessageV1.RemoveCosmeticItemProtocolMessageV1(string, string, string?)
-  nameWithType.vb: RemoveCosmeticItemProtocolMessageV1.New(String, String, String)
-- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.#ctor*
-  name: RemoveCosmeticItemProtocolMessageV1
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_RemoveCosmeticItemProtocolMessageV1__ctor_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.RemoveCosmeticItemProtocolMessageV1
-  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.New
-  nameWithType: RemoveCosmeticItemProtocolMessageV1.RemoveCosmeticItemProtocolMessageV1
-  nameWithType.vb: RemoveCosmeticItemProtocolMessageV1.New
-- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.ItemId
-  name: ItemId
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_RemoveCosmeticItemProtocolMessageV1_ItemId
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.ItemId
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.ItemId
-  nameWithType: RemoveCosmeticItemProtocolMessageV1.ItemId
-- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.ItemId*
-  name: ItemId
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_RemoveCosmeticItemProtocolMessageV1_ItemId_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.ItemId
-  isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.ItemId
-  nameWithType: RemoveCosmeticItemProtocolMessageV1.ItemId
-- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.MessageType
-  name: MessageType
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_RemoveCosmeticItemProtocolMessageV1_MessageType
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.MessageType
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.MessageType
-  nameWithType: RemoveCosmeticItemProtocolMessageV1.MessageType
-- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.MessageType*
-  name: MessageType
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_RemoveCosmeticItemProtocolMessageV1_MessageType_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.MessageType
-  isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.MessageType
-  nameWithType: RemoveCosmeticItemProtocolMessageV1.MessageType
-- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.UserId
-  name: UserId
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_RemoveCosmeticItemProtocolMessageV1_UserId
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.UserId
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.UserId
-  nameWithType: RemoveCosmeticItemProtocolMessageV1.UserId
-- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.UserId*
-  name: UserId
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_RemoveCosmeticItemProtocolMessageV1_UserId_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.UserId
-  isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.UserId
-  nameWithType: RemoveCosmeticItemProtocolMessageV1.UserId
 - uid: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage
   name: IProtocolMessage
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.html
@@ -8461,19 +8461,6 @@ references:
   fullName.vb: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.New
   nameWithType: PlayerInfoChangeNameProtocolMessageV1.PlayerInfoChangeNameProtocolMessageV1
   nameWithType.vb: PlayerInfoChangeNameProtocolMessageV1.New
-- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.ClientMarker
-  name: ClientMarker
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeNameProtocolMessageV1_ClientMarker
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.ClientMarker
-  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.ClientMarker
-  nameWithType: PlayerInfoChangeNameProtocolMessageV1.ClientMarker
-- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.ClientMarker*
-  name: ClientMarker
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeNameProtocolMessageV1_ClientMarker_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.ClientMarker
-  isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.ClientMarker
-  nameWithType: PlayerInfoChangeNameProtocolMessageV1.ClientMarker
 - uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.MessageType
   name: MessageType
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeNameProtocolMessageV1_MessageType
@@ -8543,24 +8530,24 @@ references:
   commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticBuyItemCommandV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticBuyItemCommandV1
   nameWithType: ProtocolMessageTypes.CosmeticBuyItemCommandV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticEquipCommandV1
-  name: CosmeticEquipCommandV1
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_CosmeticEquipCommandV1
-  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticEquipCommandV1
-  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticEquipCommandV1
-  nameWithType: ProtocolMessageTypes.CosmeticEquipCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticEquipItemCommandV1
+  name: CosmeticEquipItemCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_CosmeticEquipItemCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticEquipItemCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticEquipItemCommandV1
+  nameWithType: ProtocolMessageTypes.CosmeticEquipItemCommandV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticRemoveItemCommandV1
   name: CosmeticRemoveItemCommandV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_CosmeticRemoveItemCommandV1
   commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticRemoveItemCommandV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticRemoveItemCommandV1
   nameWithType: ProtocolMessageTypes.CosmeticRemoveItemCommandV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticToggleFavoriteCommandV1
-  name: CosmeticToggleFavoriteCommandV1
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_CosmeticToggleFavoriteCommandV1
-  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticToggleFavoriteCommandV1
-  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticToggleFavoriteCommandV1
-  nameWithType: ProtocolMessageTypes.CosmeticToggleFavoriteCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticToggleFavoriteItemCommandV1
+  name: CosmeticToggleFavoriteItemCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_CosmeticToggleFavoriteItemCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticToggleFavoriteItemCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticToggleFavoriteItemCommandV1
+  nameWithType: ProtocolMessageTypes.CosmeticToggleFavoriteItemCommandV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticUnequipItemCommandV1
   name: CosmeticUnequipItemCommandV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_CosmeticUnequipItemCommandV1
@@ -9195,19 +9182,6 @@ references:
   fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.New
   nameWithType: TaskAddFromSuggestionProtocolMessageV1.TaskAddFromSuggestionProtocolMessageV1
   nameWithType.vb: TaskAddFromSuggestionProtocolMessageV1.New
-- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.ClientMarker
-  name: ClientMarker
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddFromSuggestionProtocolMessageV1_ClientMarker
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.ClientMarker
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.ClientMarker
-  nameWithType: TaskAddFromSuggestionProtocolMessageV1.ClientMarker
-- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.ClientMarker*
-  name: ClientMarker
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddFromSuggestionProtocolMessageV1_ClientMarker_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.ClientMarker
-  isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.ClientMarker
-  nameWithType: TaskAddFromSuggestionProtocolMessageV1.ClientMarker
 - uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.MessageType
   name: MessageType
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddFromSuggestionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddFromSuggestionProtocolMessageV1_MessageType
@@ -9285,19 +9259,6 @@ references:
   fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.New
   nameWithType: TaskAddNonSuggestProtocolMessageV1.TaskAddNonSuggestProtocolMessageV1
   nameWithType.vb: TaskAddNonSuggestProtocolMessageV1.New
-- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.ClientMarker
-  name: ClientMarker
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddNonSuggestProtocolMessageV1_ClientMarker
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.ClientMarker
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.ClientMarker
-  nameWithType: TaskAddNonSuggestProtocolMessageV1.ClientMarker
-- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.ClientMarker*
-  name: ClientMarker
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddNonSuggestProtocolMessageV1_ClientMarker_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.ClientMarker
-  isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.ClientMarker
-  nameWithType: TaskAddNonSuggestProtocolMessageV1.ClientMarker
 - uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.MessageType
   name: MessageType
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskAddNonSuggestProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskAddNonSuggestProtocolMessageV1_MessageType

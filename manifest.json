@@ -2112,16 +2112,16 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.yml",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1.html"
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "SharedLibrary.Protocol.ProtocolMessages.Cosmetic.AddCosmeticItemProtocolMessageV1",
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticAddItemProtocolMessageV1",
       "Summary": null
     },
     {
@@ -2154,6 +2154,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticRemoveItemProtocolMessageV1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticToggleFavoriteProtocolMessageV1.yml",
       "output": {
         ".html": {
@@ -2178,20 +2192,6 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticUnequipItemProtocolMessageV1",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1",
       "Summary": null
     },
     {
