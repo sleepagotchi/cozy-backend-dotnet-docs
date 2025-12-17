@@ -1194,19 +1194,212 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs.ShiftDays
   nameWithType: SleepCheatDateShiftArgs.ShiftDays
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto
+  name: SleepConsistencyEntryDto
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.html
+  commentId: T:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto
+  nameWithType: SleepConsistencyEntryDto
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.#ctor(System.DateTime,System.String,System.String,System.Double,System.String,System.String,System.Double,System.Double)
+  name: SleepConsistencyEntryDto(DateTime, string, string, double, string, string, double, double)
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyEntryDto__ctor_System_DateTime_System_String_System_String_System_Double_System_String_System_String_System_Double_System_Double_
+  commentId: M:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.#ctor(System.DateTime,System.String,System.String,System.Double,System.String,System.String,System.Double,System.Double)
+  name.vb: New(Date, String, String, Double, String, String, Double, Double)
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.SleepConsistencyEntryDto(System.DateTime, string, string, double, string, string, double, double)
+  fullName.vb: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.New(Date, String, String, Double, String, String, Double, Double)
+  nameWithType: SleepConsistencyEntryDto.SleepConsistencyEntryDto(DateTime, string, string, double, string, string, double, double)
+  nameWithType.vb: SleepConsistencyEntryDto.New(Date, String, String, Double, String, String, Double, Double)
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.#ctor*
+  name: SleepConsistencyEntryDto
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyEntryDto__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.SleepConsistencyEntryDto
+  fullName.vb: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.New
+  nameWithType: SleepConsistencyEntryDto.SleepConsistencyEntryDto
+  nameWithType.vb: SleepConsistencyEntryDto.New
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.Date
+  name: Date
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyEntryDto_Date
+  commentId: P:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.Date
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.Date
+  nameWithType: SleepConsistencyEntryDto.Date
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.Date*
+  name: Date
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyEntryDto_Date_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.Date
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.Date
+  nameWithType: SleepConsistencyEntryDto.Date
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.DeltaBedMinutes
+  name: DeltaBedMinutes
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyEntryDto_DeltaBedMinutes
+  commentId: P:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.DeltaBedMinutes
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.DeltaBedMinutes
+  nameWithType: SleepConsistencyEntryDto.DeltaBedMinutes
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.DeltaBedMinutes*
+  name: DeltaBedMinutes
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyEntryDto_DeltaBedMinutes_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.DeltaBedMinutes
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.DeltaBedMinutes
+  nameWithType: SleepConsistencyEntryDto.DeltaBedMinutes
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.DeltaWakeMinutes
+  name: DeltaWakeMinutes
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyEntryDto_DeltaWakeMinutes
+  commentId: P:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.DeltaWakeMinutes
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.DeltaWakeMinutes
+  nameWithType: SleepConsistencyEntryDto.DeltaWakeMinutes
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.DeltaWakeMinutes*
+  name: DeltaWakeMinutes
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyEntryDto_DeltaWakeMinutes_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.DeltaWakeMinutes
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.DeltaWakeMinutes
+  nameWithType: SleepConsistencyEntryDto.DeltaWakeMinutes
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.DurationMinutes
+  name: DurationMinutes
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyEntryDto_DurationMinutes
+  commentId: P:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.DurationMinutes
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.DurationMinutes
+  nameWithType: SleepConsistencyEntryDto.DurationMinutes
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.DurationMinutes*
+  name: DurationMinutes
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyEntryDto_DurationMinutes_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.DurationMinutes
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.DurationMinutes
+  nameWithType: SleepConsistencyEntryDto.DurationMinutes
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.GoToBedISO
+  name: GoToBedISO
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyEntryDto_GoToBedISO
+  commentId: P:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.GoToBedISO
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.GoToBedISO
+  nameWithType: SleepConsistencyEntryDto.GoToBedISO
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.GoToBedISO*
+  name: GoToBedISO
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyEntryDto_GoToBedISO_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.GoToBedISO
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.GoToBedISO
+  nameWithType: SleepConsistencyEntryDto.GoToBedISO
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.TargetGoToBedISO
+  name: TargetGoToBedISO
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyEntryDto_TargetGoToBedISO
+  commentId: P:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.TargetGoToBedISO
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.TargetGoToBedISO
+  nameWithType: SleepConsistencyEntryDto.TargetGoToBedISO
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.TargetGoToBedISO*
+  name: TargetGoToBedISO
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyEntryDto_TargetGoToBedISO_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.TargetGoToBedISO
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.TargetGoToBedISO
+  nameWithType: SleepConsistencyEntryDto.TargetGoToBedISO
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.TargetWakeUpISO
+  name: TargetWakeUpISO
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyEntryDto_TargetWakeUpISO
+  commentId: P:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.TargetWakeUpISO
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.TargetWakeUpISO
+  nameWithType: SleepConsistencyEntryDto.TargetWakeUpISO
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.TargetWakeUpISO*
+  name: TargetWakeUpISO
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyEntryDto_TargetWakeUpISO_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.TargetWakeUpISO
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.TargetWakeUpISO
+  nameWithType: SleepConsistencyEntryDto.TargetWakeUpISO
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.WakeUpISO
+  name: WakeUpISO
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyEntryDto_WakeUpISO
+  commentId: P:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.WakeUpISO
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.WakeUpISO
+  nameWithType: SleepConsistencyEntryDto.WakeUpISO
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.WakeUpISO*
+  name: WakeUpISO
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyEntryDto_WakeUpISO_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.WakeUpISO
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.WakeUpISO
+  nameWithType: SleepConsistencyEntryDto.WakeUpISO
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData
+  name: SleepConsistencyPayloadData
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.html
+  commentId: T:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData
+  nameWithType: SleepConsistencyPayloadData
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.#ctor(System.Double,System.Boolean,SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto)
+  name: SleepConsistencyPayloadData(double, bool, SleepConsistencyEntryDto)
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.html#SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyPayloadData__ctor_System_Double_System_Boolean_SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyEntryDto_
+  commentId: M:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.#ctor(System.Double,System.Boolean,SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto)
+  name.vb: New(Double, Boolean, SleepConsistencyEntryDto)
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.SleepConsistencyPayloadData(double, bool, SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto)
+  fullName.vb: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.New(Double, Boolean, SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto)
+  nameWithType: SleepConsistencyPayloadData.SleepConsistencyPayloadData(double, bool, SleepConsistencyEntryDto)
+  nameWithType.vb: SleepConsistencyPayloadData.New(Double, Boolean, SleepConsistencyEntryDto)
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.#ctor*
+  name: SleepConsistencyPayloadData
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.html#SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyPayloadData__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.SleepConsistencyPayloadData
+  fullName.vb: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.New
+  nameWithType: SleepConsistencyPayloadData.SleepConsistencyPayloadData
+  nameWithType.vb: SleepConsistencyPayloadData.New
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.ConsistencyPoints
+  name: ConsistencyPoints
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.html#SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyPayloadData_ConsistencyPoints
+  commentId: P:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.ConsistencyPoints
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.ConsistencyPoints
+  nameWithType: SleepConsistencyPayloadData.ConsistencyPoints
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.ConsistencyPoints*
+  name: ConsistencyPoints
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.html#SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyPayloadData_ConsistencyPoints_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.ConsistencyPoints
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.ConsistencyPoints
+  nameWithType: SleepConsistencyPayloadData.ConsistencyPoints
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.Entry
+  name: Entry
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.html#SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyPayloadData_Entry
+  commentId: P:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.Entry
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.Entry
+  nameWithType: SleepConsistencyPayloadData.Entry
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.Entry*
+  name: Entry
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.html#SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyPayloadData_Entry_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.Entry
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.Entry
+  nameWithType: SleepConsistencyPayloadData.Entry
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.IsManual
+  name: IsManual
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.html#SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyPayloadData_IsManual
+  commentId: P:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.IsManual
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.IsManual
+  nameWithType: SleepConsistencyPayloadData.IsManual
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.IsManual*
+  name: IsManual
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.html#SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyPayloadData_IsManual_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.IsManual
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.IsManual
+  nameWithType: SleepConsistencyPayloadData.IsManual
 - uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyUpdateArgs
   name: SleepConsistencyUpdateArgs
   href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyUpdateArgs.html
   commentId: T:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyUpdateArgs
   fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyUpdateArgs
   nameWithType: SleepConsistencyUpdateArgs
-- uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyUpdateArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData)
+- uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyUpdateArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData)
   name: SleepConsistencyUpdateArgs(Player, SleepConsistencyPayloadData)
-  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyUpdateArgs.html#SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyUpdateArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyPayloadData_
-  commentId: M:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyUpdateArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData)
+  href: api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyUpdateArgs.html#SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyUpdateArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyPayloadData_
+  commentId: M:SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyUpdateArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData)
   name.vb: New(Player, SleepConsistencyPayloadData)
-  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyUpdateArgs.SleepConsistencyUpdateArgs(SharedLibrary.Data.Player, SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData)
-  fullName.vb: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyUpdateArgs.New(SharedLibrary.Data.Player, SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData)
+  fullName: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyUpdateArgs.SleepConsistencyUpdateArgs(SharedLibrary.Data.Player, SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData)
+  fullName.vb: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyUpdateArgs.New(SharedLibrary.Data.Player, SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData)
   nameWithType: SleepConsistencyUpdateArgs.SleepConsistencyUpdateArgs(Player, SleepConsistencyPayloadData)
   nameWithType.vb: SleepConsistencyUpdateArgs.New(Player, SleepConsistencyPayloadData)
 - uid: SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyUpdateArgs.#ctor*
@@ -6954,6 +7147,165 @@ references:
   commentId: N:SharedLibrary.Protocol.ProtocolMessages
   fullName: SharedLibrary.Protocol.ProtocolMessages
   nameWithType: SharedLibrary.Protocol.ProtocolMessages
+- uid: SharedLibrary.Protocol.ProtocolMessages.Adventures
+  name: SharedLibrary.Protocol.ProtocolMessages.Adventures
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Adventures.html
+  commentId: N:SharedLibrary.Protocol.ProtocolMessages.Adventures
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Adventures
+  nameWithType: SharedLibrary.Protocol.ProtocolMessages.Adventures
+- uid: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1
+  name: AdventureCompleteProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1
+  nameWithType: AdventureCompleteProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1.#ctor(System.String,System.String)
+  name: AdventureCompleteProtocolMessageV1(string, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Adventures_AdventureCompleteProtocolMessageV1__ctor_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1.AdventureCompleteProtocolMessageV1(string, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1.New(String, String)
+  nameWithType: AdventureCompleteProtocolMessageV1.AdventureCompleteProtocolMessageV1(string, string?)
+  nameWithType.vb: AdventureCompleteProtocolMessageV1.New(String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1.#ctor*
+  name: AdventureCompleteProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Adventures_AdventureCompleteProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1.AdventureCompleteProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1.New
+  nameWithType: AdventureCompleteProtocolMessageV1.AdventureCompleteProtocolMessageV1
+  nameWithType.vb: AdventureCompleteProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Adventures_AdventureCompleteProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1.MessageType
+  nameWithType: AdventureCompleteProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Adventures_AdventureCompleteProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1.MessageType
+  nameWithType: AdventureCompleteProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Adventures_AdventureCompleteProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1.UserId
+  nameWithType: AdventureCompleteProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Adventures_AdventureCompleteProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1.UserId
+  nameWithType: AdventureCompleteProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1
+  name: AdventureStartProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1
+  nameWithType: AdventureStartProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.#ctor(System.String,System.String,System.String)
+  name: AdventureStartProtocolMessageV1(string, string, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Adventures_AdventureStartProtocolMessageV1__ctor_System_String_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.#ctor(System.String,System.String,System.String)
+  name.vb: New(String, String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.AdventureStartProtocolMessageV1(string, string, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.New(String, String, String)
+  nameWithType: AdventureStartProtocolMessageV1.AdventureStartProtocolMessageV1(string, string, string?)
+  nameWithType.vb: AdventureStartProtocolMessageV1.New(String, String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.#ctor*
+  name: AdventureStartProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Adventures_AdventureStartProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.AdventureStartProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.New
+  nameWithType: AdventureStartProtocolMessageV1.AdventureStartProtocolMessageV1
+  nameWithType.vb: AdventureStartProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.AdventureId
+  name: AdventureId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Adventures_AdventureStartProtocolMessageV1_AdventureId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.AdventureId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.AdventureId
+  nameWithType: AdventureStartProtocolMessageV1.AdventureId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.AdventureId*
+  name: AdventureId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Adventures_AdventureStartProtocolMessageV1_AdventureId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.AdventureId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.AdventureId
+  nameWithType: AdventureStartProtocolMessageV1.AdventureId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Adventures_AdventureStartProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.MessageType
+  nameWithType: AdventureStartProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Adventures_AdventureStartProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.MessageType
+  nameWithType: AdventureStartProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Adventures_AdventureStartProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.UserId
+  nameWithType: AdventureStartProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Adventures_AdventureStartProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.UserId
+  nameWithType: AdventureStartProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.BaseCheatProtocolMessage
+  name: BaseCheatProtocolMessage
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.BaseCheatProtocolMessage.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.BaseCheatProtocolMessage
+  fullName: SharedLibrary.Protocol.ProtocolMessages.BaseCheatProtocolMessage
+  nameWithType: BaseCheatProtocolMessage
+- uid: SharedLibrary.Protocol.ProtocolMessages.BaseCheatProtocolMessage.#ctor(System.String)
+  name: BaseCheatProtocolMessage(string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.BaseCheatProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_BaseCheatProtocolMessage__ctor_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.BaseCheatProtocolMessage.#ctor(System.String)
+  name.vb: New(String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.BaseCheatProtocolMessage.BaseCheatProtocolMessage(string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.BaseCheatProtocolMessage.New(String)
+  nameWithType: BaseCheatProtocolMessage.BaseCheatProtocolMessage(string?)
+  nameWithType.vb: BaseCheatProtocolMessage.New(String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.BaseCheatProtocolMessage.#ctor*
+  name: BaseCheatProtocolMessage
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.BaseCheatProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_BaseCheatProtocolMessage__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.BaseCheatProtocolMessage.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.BaseCheatProtocolMessage.BaseCheatProtocolMessage
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.BaseCheatProtocolMessage.New
+  nameWithType: BaseCheatProtocolMessage.BaseCheatProtocolMessage
+  nameWithType.vb: BaseCheatProtocolMessage.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.BaseCheatProtocolMessage.IsCheat
+  name: IsCheat
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.BaseCheatProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_BaseCheatProtocolMessage_IsCheat
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.BaseCheatProtocolMessage.IsCheat
+  fullName: SharedLibrary.Protocol.ProtocolMessages.BaseCheatProtocolMessage.IsCheat
+  nameWithType: BaseCheatProtocolMessage.IsCheat
+- uid: SharedLibrary.Protocol.ProtocolMessages.BaseCheatProtocolMessage.IsCheat*
+  name: IsCheat
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.BaseCheatProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_BaseCheatProtocolMessage_IsCheat_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.BaseCheatProtocolMessage.IsCheat
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.BaseCheatProtocolMessage.IsCheat
+  nameWithType: BaseCheatProtocolMessage.IsCheat
 - uid: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage
   name: BaseProtocolMessage
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.html
@@ -7005,22 +7357,6 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.MessageType
   nameWithType: BaseProtocolMessage.MessageType
-- uid: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.ValidateClientMarker(System.String)
-  name: ValidateClientMarker(string?)
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_BaseProtocolMessage_ValidateClientMarker_System_String_
-  commentId: M:SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.ValidateClientMarker(System.String)
-  name.vb: ValidateClientMarker(String)
-  fullName: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.ValidateClientMarker(string?)
-  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.ValidateClientMarker(String)
-  nameWithType: BaseProtocolMessage.ValidateClientMarker(string?)
-  nameWithType.vb: BaseProtocolMessage.ValidateClientMarker(String)
-- uid: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.ValidateClientMarker*
-  name: ValidateClientMarker
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.html#SharedLibrary_Protocol_ProtocolMessages_BaseProtocolMessage_ValidateClientMarker_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.ValidateClientMarker
-  isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.ValidateClientMarker
-  nameWithType: BaseProtocolMessage.ValidateClientMarker
 - uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic
   name: SharedLibrary.Protocol.ProtocolMessages.Cosmetic
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.html
@@ -7347,6 +7683,70 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticUnequipItemProtocolMessageV1.UserId
   nameWithType: CosmeticUnequipItemProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1
+  name: RemoveCosmeticItemProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1
+  nameWithType: RemoveCosmeticItemProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.#ctor(System.String,System.String,System.String)
+  name: RemoveCosmeticItemProtocolMessageV1(string, string, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_RemoveCosmeticItemProtocolMessageV1__ctor_System_String_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.#ctor(System.String,System.String,System.String)
+  name.vb: New(String, String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.RemoveCosmeticItemProtocolMessageV1(string, string, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.New(String, String, String)
+  nameWithType: RemoveCosmeticItemProtocolMessageV1.RemoveCosmeticItemProtocolMessageV1(string, string, string?)
+  nameWithType.vb: RemoveCosmeticItemProtocolMessageV1.New(String, String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.#ctor*
+  name: RemoveCosmeticItemProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_RemoveCosmeticItemProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.RemoveCosmeticItemProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.New
+  nameWithType: RemoveCosmeticItemProtocolMessageV1.RemoveCosmeticItemProtocolMessageV1
+  nameWithType.vb: RemoveCosmeticItemProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.ItemId
+  name: ItemId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_RemoveCosmeticItemProtocolMessageV1_ItemId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.ItemId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.ItemId
+  nameWithType: RemoveCosmeticItemProtocolMessageV1.ItemId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.ItemId*
+  name: ItemId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_RemoveCosmeticItemProtocolMessageV1_ItemId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.ItemId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.ItemId
+  nameWithType: RemoveCosmeticItemProtocolMessageV1.ItemId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_RemoveCosmeticItemProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.MessageType
+  nameWithType: RemoveCosmeticItemProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_RemoveCosmeticItemProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.MessageType
+  nameWithType: RemoveCosmeticItemProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_RemoveCosmeticItemProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.UserId
+  nameWithType: RemoveCosmeticItemProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Cosmetic_RemoveCosmeticItemProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.UserId
+  nameWithType: RemoveCosmeticItemProtocolMessageV1.UserId
 - uid: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage
   name: IProtocolMessage
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.html
@@ -7878,57 +8278,6 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.Username
   nameWithType: PlayerInfoChangeNameProtocolMessageV1.Username
-- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage
-  name: PlayerResetProtocolCheatMessage
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.html
-  commentId: T:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage
-  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage
-  nameWithType: PlayerResetProtocolCheatMessage
-- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.#ctor(System.String,System.String)
-  name: PlayerResetProtocolCheatMessage(string, string?)
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerResetProtocolCheatMessage__ctor_System_String_System_String_
-  commentId: M:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.#ctor(System.String,System.String)
-  name.vb: New(String, String)
-  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.PlayerResetProtocolCheatMessage(string, string?)
-  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.New(String, String)
-  nameWithType: PlayerResetProtocolCheatMessage.PlayerResetProtocolCheatMessage(string, string?)
-  nameWithType.vb: PlayerResetProtocolCheatMessage.New(String, String)
-- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.#ctor*
-  name: PlayerResetProtocolCheatMessage
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerResetProtocolCheatMessage__ctor_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.PlayerResetProtocolCheatMessage
-  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.New
-  nameWithType: PlayerResetProtocolCheatMessage.PlayerResetProtocolCheatMessage
-  nameWithType.vb: PlayerResetProtocolCheatMessage.New
-- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.MessageType
-  name: MessageType
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerResetProtocolCheatMessage_MessageType
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.MessageType
-  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.MessageType
-  nameWithType: PlayerResetProtocolCheatMessage.MessageType
-- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.MessageType*
-  name: MessageType
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerResetProtocolCheatMessage_MessageType_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.MessageType
-  isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.MessageType
-  nameWithType: PlayerResetProtocolCheatMessage.MessageType
-- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.UserId
-  name: UserId
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerResetProtocolCheatMessage_UserId
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.UserId
-  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.UserId
-  nameWithType: PlayerResetProtocolCheatMessage.UserId
-- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.UserId*
-  name: UserId
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerResetProtocolCheatMessage_UserId_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.UserId
-  isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.UserId
-  nameWithType: PlayerResetProtocolCheatMessage.UserId
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes
   name: ProtocolMessageTypes
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html
@@ -7941,6 +8290,18 @@ references:
   commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.AddCosmeticItemCommandV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.AddCosmeticItemCommandV1
   nameWithType: ProtocolMessageTypes.AddCosmeticItemCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.AdventureCompleteCommandV1
+  name: AdventureCompleteCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_AdventureCompleteCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.AdventureCompleteCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.AdventureCompleteCommandV1
+  nameWithType: ProtocolMessageTypes.AdventureCompleteCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.AdventureStartCommandV1
+  name: AdventureStartCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_AdventureStartCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.AdventureStartCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.AdventureStartCommandV1
+  nameWithType: ProtocolMessageTypes.AdventureStartCommandV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticBuyItemCommandV1
   name: CosmeticBuyItemCommandV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_CosmeticBuyItemCommandV1
@@ -8007,12 +8368,12 @@ references:
   commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoChangeNameCommandV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoChangeNameCommandV1
   nameWithType: ProtocolMessageTypes.PlayerInfoChangeNameCommandV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerResetCheatCommandV1
-  name: PlayerResetCheatCommandV1
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PlayerResetCheatCommandV1
-  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerResetCheatCommandV1
-  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerResetCheatCommandV1
-  nameWithType: ProtocolMessageTypes.PlayerResetCheatCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.RemoveCosmeticItemCommandV1
+  name: RemoveCosmeticItemCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_RemoveCosmeticItemCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.RemoveCosmeticItemCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.RemoveCosmeticItemCommandV1
+  nameWithType: ProtocolMessageTypes.RemoveCosmeticItemCommandV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepChangeScheduleCommandV1
   name: SleepChangeScheduleCommandV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepChangeScheduleCommandV1
@@ -8025,18 +8386,18 @@ references:
   commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepCheatDateShiftCommandV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepCheatDateShiftCommandV1
   nameWithType: ProtocolMessageTypes.SleepCheatDateShiftCommandV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepConsistencyCalculateCommandV1
-  name: SleepConsistencyCalculateCommandV1
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepConsistencyCalculateCommandV1
-  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepConsistencyCalculateCommandV1
-  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepConsistencyCalculateCommandV1
-  nameWithType: ProtocolMessageTypes.SleepConsistencyCalculateCommandV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepDateShiftCommand
-  name: SleepDateShiftCommand
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepDateShiftCommand
-  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepDateShiftCommand
-  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepDateShiftCommand
-  nameWithType: ProtocolMessageTypes.SleepDateShiftCommand
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepConsistencyUpdateCommandV1
+  name: SleepConsistencyUpdateCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepConsistencyUpdateCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepConsistencyUpdateCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepConsistencyUpdateCommandV1
+  nameWithType: ProtocolMessageTypes.SleepConsistencyUpdateCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepDateShiftCommandV1
+  name: SleepDateShiftCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepDateShiftCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepDateShiftCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepDateShiftCommandV1
+  nameWithType: ProtocolMessageTypes.SleepDateShiftCommandV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepGenerateRewardCommandV1
   name: SleepGenerateRewardCommandV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepGenerateRewardCommandV1
@@ -8091,12 +8452,36 @@ references:
   commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskUpdateCommandV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskUpdateCommandV1
   nameWithType: ProtocolMessageTypes.TaskUpdateCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TutorialAddTaskCommandV1
+  name: TutorialAddTaskCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TutorialAddTaskCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TutorialAddTaskCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TutorialAddTaskCommandV1
+  nameWithType: ProtocolMessageTypes.TutorialAddTaskCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TutorialSetOnboardingCompletedCommandV1
+  name: TutorialSetOnboardingCompletedCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TutorialSetOnboardingCompletedCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TutorialSetOnboardingCompletedCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TutorialSetOnboardingCompletedCommandV1
+  nameWithType: ProtocolMessageTypes.TutorialSetOnboardingCompletedCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TutorialSetStepCommandV1
+  name: TutorialSetStepCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TutorialSetStepCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TutorialSetStepCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TutorialSetStepCommandV1
+  nameWithType: ProtocolMessageTypes.TutorialSetStepCommandV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.UserRegisterCommandV1
   name: UserRegisterCommandV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_UserRegisterCommandV1
   commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.UserRegisterCommandV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.UserRegisterCommandV1
   nameWithType: ProtocolMessageTypes.UserRegisterCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.UserResetCheatCommandV1
+  name: UserResetCheatCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_UserResetCheatCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.UserResetCheatCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.UserResetCheatCommandV1
+  nameWithType: ProtocolMessageTypes.UserResetCheatCommandV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.UserSetFullStateCommandV1
   name: UserSetFullStateCommandV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_UserSetFullStateCommandV1
@@ -8250,276 +8635,83 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepCheatDateShiftProtocolMessage.UserId
   nameWithType: SleepCheatDateShiftProtocolMessage.UserId
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1
-  name: SleepConsistencyCalculatedEventProtocolMessageV1
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.html
-  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1
-  nameWithType: SleepConsistencyCalculatedEventProtocolMessageV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.#ctor(System.String,System.DateTime,SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData,System.String)
-  name: SleepConsistencyCalculatedEventProtocolMessageV1(string, DateTime, SleepConsistencyPayloadData, string?)
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyCalculatedEventProtocolMessageV1__ctor_System_String_System_DateTime_SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyPayloadData_System_String_
-  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.#ctor(System.String,System.DateTime,SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData,System.String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1
+  name: SleepConsistencyUpdateProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1
+  nameWithType: SleepConsistencyUpdateProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.#ctor(System.String,System.DateTime,SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData,System.String)
+  name: SleepConsistencyUpdateProtocolMessageV1(string, DateTime, SleepConsistencyPayloadData, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyUpdateProtocolMessageV1__ctor_System_String_System_DateTime_SharedLibrary_Commands_Arguments_Sleep_SleepConsistencyPayloadData_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.#ctor(System.String,System.DateTime,SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData,System.String)
   name.vb: New(String, Date, SleepConsistencyPayloadData, String)
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.SleepConsistencyCalculatedEventProtocolMessageV1(string, System.DateTime, SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData, string?)
-  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.New(String, Date, SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData, String)
-  nameWithType: SleepConsistencyCalculatedEventProtocolMessageV1.SleepConsistencyCalculatedEventProtocolMessageV1(string, DateTime, SleepConsistencyPayloadData, string?)
-  nameWithType.vb: SleepConsistencyCalculatedEventProtocolMessageV1.New(String, Date, SleepConsistencyPayloadData, String)
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.#ctor*
-  name: SleepConsistencyCalculatedEventProtocolMessageV1
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyCalculatedEventProtocolMessageV1__ctor_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.#ctor
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.SleepConsistencyUpdateProtocolMessageV1(string, System.DateTime, SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.New(String, Date, SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData, String)
+  nameWithType: SleepConsistencyUpdateProtocolMessageV1.SleepConsistencyUpdateProtocolMessageV1(string, DateTime, SleepConsistencyPayloadData, string?)
+  nameWithType.vb: SleepConsistencyUpdateProtocolMessageV1.New(String, Date, SleepConsistencyPayloadData, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.#ctor*
+  name: SleepConsistencyUpdateProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyUpdateProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.SleepConsistencyCalculatedEventProtocolMessageV1
-  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.New
-  nameWithType: SleepConsistencyCalculatedEventProtocolMessageV1.SleepConsistencyCalculatedEventProtocolMessageV1
-  nameWithType.vb: SleepConsistencyCalculatedEventProtocolMessageV1.New
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.Data
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.SleepConsistencyUpdateProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.New
+  nameWithType: SleepConsistencyUpdateProtocolMessageV1.SleepConsistencyUpdateProtocolMessageV1
+  nameWithType.vb: SleepConsistencyUpdateProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.Data
   name: Data
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyCalculatedEventProtocolMessageV1_Data
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.Data
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.Data
-  nameWithType: SleepConsistencyCalculatedEventProtocolMessageV1.Data
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.Data*
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyUpdateProtocolMessageV1_Data
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.Data
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.Data
+  nameWithType: SleepConsistencyUpdateProtocolMessageV1.Data
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.Data*
   name: Data
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyCalculatedEventProtocolMessageV1_Data_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.Data
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyUpdateProtocolMessageV1_Data_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.Data
   isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.Data
-  nameWithType: SleepConsistencyCalculatedEventProtocolMessageV1.Data
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.Data
+  nameWithType: SleepConsistencyUpdateProtocolMessageV1.Data
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.MessageType
   name: MessageType
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyCalculatedEventProtocolMessageV1_MessageType
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.MessageType
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.MessageType
-  nameWithType: SleepConsistencyCalculatedEventProtocolMessageV1.MessageType
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.MessageType*
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyUpdateProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.MessageType
+  nameWithType: SleepConsistencyUpdateProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.MessageType*
   name: MessageType
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyCalculatedEventProtocolMessageV1_MessageType_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyUpdateProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.MessageType
   isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.MessageType
-  nameWithType: SleepConsistencyCalculatedEventProtocolMessageV1.MessageType
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.OccurredAt
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.MessageType
+  nameWithType: SleepConsistencyUpdateProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.OccurredAt
   name: OccurredAt
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyCalculatedEventProtocolMessageV1_OccurredAt
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.OccurredAt
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.OccurredAt
-  nameWithType: SleepConsistencyCalculatedEventProtocolMessageV1.OccurredAt
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.OccurredAt*
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyUpdateProtocolMessageV1_OccurredAt
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.OccurredAt
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.OccurredAt
+  nameWithType: SleepConsistencyUpdateProtocolMessageV1.OccurredAt
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.OccurredAt*
   name: OccurredAt
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyCalculatedEventProtocolMessageV1_OccurredAt_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.OccurredAt
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyUpdateProtocolMessageV1_OccurredAt_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.OccurredAt
   isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.OccurredAt
-  nameWithType: SleepConsistencyCalculatedEventProtocolMessageV1.OccurredAt
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.OccurredAt
+  nameWithType: SleepConsistencyUpdateProtocolMessageV1.OccurredAt
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.UserId
   name: UserId
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyCalculatedEventProtocolMessageV1_UserId
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.UserId
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.UserId
-  nameWithType: SleepConsistencyCalculatedEventProtocolMessageV1.UserId
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.UserId*
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyUpdateProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.UserId
+  nameWithType: SleepConsistencyUpdateProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.UserId*
   name: UserId
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyCalculatedEventProtocolMessageV1_UserId_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyUpdateProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.UserId
   isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.UserId
-  nameWithType: SleepConsistencyCalculatedEventProtocolMessageV1.UserId
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto
-  name: SleepConsistencyEntryDto
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html
-  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto
-  nameWithType: SleepConsistencyEntryDto
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.#ctor(System.DateTime,System.String,System.String,System.Double,System.String,System.String,System.Double,System.Double)
-  name: SleepConsistencyEntryDto(DateTime, string, string, double, string, string, double, double)
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto__ctor_System_DateTime_System_String_System_String_System_Double_System_String_System_String_System_Double_System_Double_
-  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.#ctor(System.DateTime,System.String,System.String,System.Double,System.String,System.String,System.Double,System.Double)
-  name.vb: New(Date, String, String, Double, String, String, Double, Double)
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.SleepConsistencyEntryDto(System.DateTime, string, string, double, string, string, double, double)
-  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.New(Date, String, String, Double, String, String, Double, Double)
-  nameWithType: SleepConsistencyEntryDto.SleepConsistencyEntryDto(DateTime, string, string, double, string, string, double, double)
-  nameWithType.vb: SleepConsistencyEntryDto.New(Date, String, String, Double, String, String, Double, Double)
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.#ctor*
-  name: SleepConsistencyEntryDto
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto__ctor_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.SleepConsistencyEntryDto
-  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.New
-  nameWithType: SleepConsistencyEntryDto.SleepConsistencyEntryDto
-  nameWithType.vb: SleepConsistencyEntryDto.New
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.Date
-  name: Date
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_Date
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.Date
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.Date
-  nameWithType: SleepConsistencyEntryDto.Date
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.Date*
-  name: Date
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_Date_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.Date
-  isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.Date
-  nameWithType: SleepConsistencyEntryDto.Date
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaBedMinutes
-  name: DeltaBedMinutes
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_DeltaBedMinutes
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaBedMinutes
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaBedMinutes
-  nameWithType: SleepConsistencyEntryDto.DeltaBedMinutes
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaBedMinutes*
-  name: DeltaBedMinutes
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_DeltaBedMinutes_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaBedMinutes
-  isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaBedMinutes
-  nameWithType: SleepConsistencyEntryDto.DeltaBedMinutes
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaWakeMinutes
-  name: DeltaWakeMinutes
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_DeltaWakeMinutes
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaWakeMinutes
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaWakeMinutes
-  nameWithType: SleepConsistencyEntryDto.DeltaWakeMinutes
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaWakeMinutes*
-  name: DeltaWakeMinutes
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_DeltaWakeMinutes_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaWakeMinutes
-  isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DeltaWakeMinutes
-  nameWithType: SleepConsistencyEntryDto.DeltaWakeMinutes
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DurationMinutes
-  name: DurationMinutes
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_DurationMinutes
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DurationMinutes
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DurationMinutes
-  nameWithType: SleepConsistencyEntryDto.DurationMinutes
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DurationMinutes*
-  name: DurationMinutes
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_DurationMinutes_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DurationMinutes
-  isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.DurationMinutes
-  nameWithType: SleepConsistencyEntryDto.DurationMinutes
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.GoToBedISO
-  name: GoToBedISO
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_GoToBedISO
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.GoToBedISO
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.GoToBedISO
-  nameWithType: SleepConsistencyEntryDto.GoToBedISO
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.GoToBedISO*
-  name: GoToBedISO
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_GoToBedISO_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.GoToBedISO
-  isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.GoToBedISO
-  nameWithType: SleepConsistencyEntryDto.GoToBedISO
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.TargetGoToBedISO
-  name: TargetGoToBedISO
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_TargetGoToBedISO
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.TargetGoToBedISO
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.TargetGoToBedISO
-  nameWithType: SleepConsistencyEntryDto.TargetGoToBedISO
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.TargetGoToBedISO*
-  name: TargetGoToBedISO
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_TargetGoToBedISO_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.TargetGoToBedISO
-  isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.TargetGoToBedISO
-  nameWithType: SleepConsistencyEntryDto.TargetGoToBedISO
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.TargetWakeUpISO
-  name: TargetWakeUpISO
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_TargetWakeUpISO
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.TargetWakeUpISO
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.TargetWakeUpISO
-  nameWithType: SleepConsistencyEntryDto.TargetWakeUpISO
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.TargetWakeUpISO*
-  name: TargetWakeUpISO
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_TargetWakeUpISO_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.TargetWakeUpISO
-  isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.TargetWakeUpISO
-  nameWithType: SleepConsistencyEntryDto.TargetWakeUpISO
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.WakeUpISO
-  name: WakeUpISO
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_WakeUpISO
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.WakeUpISO
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.WakeUpISO
-  nameWithType: SleepConsistencyEntryDto.WakeUpISO
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.WakeUpISO*
-  name: WakeUpISO
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_WakeUpISO_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.WakeUpISO
-  isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.WakeUpISO
-  nameWithType: SleepConsistencyEntryDto.WakeUpISO
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData
-  name: SleepConsistencyPayloadData
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.html
-  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData
-  nameWithType: SleepConsistencyPayloadData
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.#ctor(System.Double,System.Boolean,SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto)
-  name: SleepConsistencyPayloadData(double, bool, SleepConsistencyEntryDto)
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyPayloadData__ctor_System_Double_System_Boolean_SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyEntryDto_
-  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.#ctor(System.Double,System.Boolean,SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto)
-  name.vb: New(Double, Boolean, SleepConsistencyEntryDto)
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.SleepConsistencyPayloadData(double, bool, SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto)
-  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.New(Double, Boolean, SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto)
-  nameWithType: SleepConsistencyPayloadData.SleepConsistencyPayloadData(double, bool, SleepConsistencyEntryDto)
-  nameWithType.vb: SleepConsistencyPayloadData.New(Double, Boolean, SleepConsistencyEntryDto)
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.#ctor*
-  name: SleepConsistencyPayloadData
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyPayloadData__ctor_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.SleepConsistencyPayloadData
-  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.New
-  nameWithType: SleepConsistencyPayloadData.SleepConsistencyPayloadData
-  nameWithType.vb: SleepConsistencyPayloadData.New
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.ConsistencyPoints
-  name: ConsistencyPoints
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyPayloadData_ConsistencyPoints
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.ConsistencyPoints
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.ConsistencyPoints
-  nameWithType: SleepConsistencyPayloadData.ConsistencyPoints
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.ConsistencyPoints*
-  name: ConsistencyPoints
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyPayloadData_ConsistencyPoints_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.ConsistencyPoints
-  isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.ConsistencyPoints
-  nameWithType: SleepConsistencyPayloadData.ConsistencyPoints
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.Entry
-  name: Entry
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyPayloadData_Entry
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.Entry
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.Entry
-  nameWithType: SleepConsistencyPayloadData.Entry
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.Entry*
-  name: Entry
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyPayloadData_Entry_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.Entry
-  isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.Entry
-  nameWithType: SleepConsistencyPayloadData.Entry
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.IsManual
-  name: IsManual
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyPayloadData_IsManual
-  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.IsManual
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.IsManual
-  nameWithType: SleepConsistencyPayloadData.IsManual
-- uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.IsManual*
-  name: IsManual
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.html#SharedLibrary_Protocol_ProtocolMessages_Sleep_SleepConsistencyPayloadData_IsManual_
-  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.IsManual
-  isSpec: "True"
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.IsManual
-  nameWithType: SleepConsistencyPayloadData.IsManual
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.UserId
+  nameWithType: SleepConsistencyUpdateProtocolMessageV1.UserId
 - uid: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1
   name: SleepGenerateRewardProtocolMessageV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.html
@@ -8962,6 +9154,57 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskCreateProtocolMessageV1.UserId
   nameWithType: TaskCreateProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1
+  name: TaskGetPlayerTasksProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1
+  nameWithType: TaskGetPlayerTasksProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.#ctor(System.String,System.String)
+  name: TaskGetPlayerTasksProtocolMessageV1(string, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskGetPlayerTasksProtocolMessageV1__ctor_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.TaskGetPlayerTasksProtocolMessageV1(string, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.New(String, String)
+  nameWithType: TaskGetPlayerTasksProtocolMessageV1.TaskGetPlayerTasksProtocolMessageV1(string, string?)
+  nameWithType.vb: TaskGetPlayerTasksProtocolMessageV1.New(String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.#ctor*
+  name: TaskGetPlayerTasksProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskGetPlayerTasksProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.TaskGetPlayerTasksProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.New
+  nameWithType: TaskGetPlayerTasksProtocolMessageV1.TaskGetPlayerTasksProtocolMessageV1
+  nameWithType.vb: TaskGetPlayerTasksProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskGetPlayerTasksProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.MessageType
+  nameWithType: TaskGetPlayerTasksProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskGetPlayerTasksProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.MessageType
+  nameWithType: TaskGetPlayerTasksProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskGetPlayerTasksProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.UserId
+  nameWithType: TaskGetPlayerTasksProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskGetPlayerTasksProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.UserId
+  nameWithType: TaskGetPlayerTasksProtocolMessageV1.UserId
 - uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1
   name: TaskRemoveProtocolMessageV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.html
@@ -9090,6 +9333,204 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.UserId
   nameWithType: TaskUpdateProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tutorial
+  name: SharedLibrary.Protocol.ProtocolMessages.Tutorial
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.html
+  commentId: N:SharedLibrary.Protocol.ProtocolMessages.Tutorial
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tutorial
+  nameWithType: SharedLibrary.Protocol.ProtocolMessages.Tutorial
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1
+  name: TutorialAddTaskProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1
+  nameWithType: TutorialAddTaskProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.#ctor(System.String,System.String,System.Int32,System.String)
+  name: TutorialAddTaskProtocolMessageV1(string, string, int, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tutorial_TutorialAddTaskProtocolMessageV1__ctor_System_String_System_String_System_Int32_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.#ctor(System.String,System.String,System.Int32,System.String)
+  name.vb: New(String, String, Integer, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.TutorialAddTaskProtocolMessageV1(string, string, int, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.New(String, String, Integer, String)
+  nameWithType: TutorialAddTaskProtocolMessageV1.TutorialAddTaskProtocolMessageV1(string, string, int, string?)
+  nameWithType.vb: TutorialAddTaskProtocolMessageV1.New(String, String, Integer, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.#ctor*
+  name: TutorialAddTaskProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tutorial_TutorialAddTaskProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.TutorialAddTaskProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.New
+  nameWithType: TutorialAddTaskProtocolMessageV1.TutorialAddTaskProtocolMessageV1
+  nameWithType.vb: TutorialAddTaskProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tutorial_TutorialAddTaskProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.MessageType
+  nameWithType: TutorialAddTaskProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tutorial_TutorialAddTaskProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.MessageType
+  nameWithType: TutorialAddTaskProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.TaskId
+  name: TaskId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tutorial_TutorialAddTaskProtocolMessageV1_TaskId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.TaskId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.TaskId
+  nameWithType: TutorialAddTaskProtocolMessageV1.TaskId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.TaskId*
+  name: TaskId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tutorial_TutorialAddTaskProtocolMessageV1_TaskId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.TaskId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.TaskId
+  nameWithType: TutorialAddTaskProtocolMessageV1.TaskId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.TzOffsetSeconds
+  name: TzOffsetSeconds
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tutorial_TutorialAddTaskProtocolMessageV1_TzOffsetSeconds
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.TzOffsetSeconds
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.TzOffsetSeconds
+  nameWithType: TutorialAddTaskProtocolMessageV1.TzOffsetSeconds
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.TzOffsetSeconds*
+  name: TzOffsetSeconds
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tutorial_TutorialAddTaskProtocolMessageV1_TzOffsetSeconds_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.TzOffsetSeconds
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.TzOffsetSeconds
+  nameWithType: TutorialAddTaskProtocolMessageV1.TzOffsetSeconds
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tutorial_TutorialAddTaskProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.UserId
+  nameWithType: TutorialAddTaskProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tutorial_TutorialAddTaskProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.UserId
+  nameWithType: TutorialAddTaskProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1
+  name: TutorialSetOnboardingCompletedProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1
+  nameWithType: TutorialSetOnboardingCompletedProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1.#ctor(System.String,System.String)
+  name: TutorialSetOnboardingCompletedProtocolMessageV1(string, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tutorial_TutorialSetOnboardingCompletedProtocolMessageV1__ctor_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1.TutorialSetOnboardingCompletedProtocolMessageV1(string, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1.New(String, String)
+  nameWithType: TutorialSetOnboardingCompletedProtocolMessageV1.TutorialSetOnboardingCompletedProtocolMessageV1(string, string?)
+  nameWithType.vb: TutorialSetOnboardingCompletedProtocolMessageV1.New(String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1.#ctor*
+  name: TutorialSetOnboardingCompletedProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tutorial_TutorialSetOnboardingCompletedProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1.TutorialSetOnboardingCompletedProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1.New
+  nameWithType: TutorialSetOnboardingCompletedProtocolMessageV1.TutorialSetOnboardingCompletedProtocolMessageV1
+  nameWithType.vb: TutorialSetOnboardingCompletedProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tutorial_TutorialSetOnboardingCompletedProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1.MessageType
+  nameWithType: TutorialSetOnboardingCompletedProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tutorial_TutorialSetOnboardingCompletedProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1.MessageType
+  nameWithType: TutorialSetOnboardingCompletedProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tutorial_TutorialSetOnboardingCompletedProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1.UserId
+  nameWithType: TutorialSetOnboardingCompletedProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tutorial_TutorialSetOnboardingCompletedProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1.UserId
+  nameWithType: TutorialSetOnboardingCompletedProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1
+  name: TutorialSetStepProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1
+  nameWithType: TutorialSetStepProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.#ctor(System.String,System.Int32,System.String)
+  name: TutorialSetStepProtocolMessageV1(string, int, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tutorial_TutorialSetStepProtocolMessageV1__ctor_System_String_System_Int32_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.#ctor(System.String,System.Int32,System.String)
+  name.vb: New(String, Integer, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.TutorialSetStepProtocolMessageV1(string, int, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.New(String, Integer, String)
+  nameWithType: TutorialSetStepProtocolMessageV1.TutorialSetStepProtocolMessageV1(string, int, string?)
+  nameWithType.vb: TutorialSetStepProtocolMessageV1.New(String, Integer, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.#ctor*
+  name: TutorialSetStepProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tutorial_TutorialSetStepProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.TutorialSetStepProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.New
+  nameWithType: TutorialSetStepProtocolMessageV1.TutorialSetStepProtocolMessageV1
+  nameWithType.vb: TutorialSetStepProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tutorial_TutorialSetStepProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.MessageType
+  nameWithType: TutorialSetStepProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tutorial_TutorialSetStepProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.MessageType
+  nameWithType: TutorialSetStepProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.Step
+  name: Step
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tutorial_TutorialSetStepProtocolMessageV1_Step
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.Step
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.Step
+  nameWithType: TutorialSetStepProtocolMessageV1.Step
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.Step*
+  name: Step
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tutorial_TutorialSetStepProtocolMessageV1_Step_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.Step
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.Step
+  nameWithType: TutorialSetStepProtocolMessageV1.Step
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tutorial_TutorialSetStepProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.UserId
+  nameWithType: TutorialSetStepProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tutorial_TutorialSetStepProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.UserId
+  nameWithType: TutorialSetStepProtocolMessageV1.UserId
 - uid: SharedLibrary.Protocol.ProtocolMessages.User
   name: SharedLibrary.Protocol.ProtocolMessages.User
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.html
@@ -9147,6 +9588,57 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.UserId
   nameWithType: UserRegisterProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1
+  name: UserResetCheatProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1
+  nameWithType: UserResetCheatProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1.#ctor(System.String,System.String)
+  name: UserResetCheatProtocolMessageV1(string, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserResetCheatProtocolMessageV1__ctor_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1.UserResetCheatProtocolMessageV1(string, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1.New(String, String)
+  nameWithType: UserResetCheatProtocolMessageV1.UserResetCheatProtocolMessageV1(string, string?)
+  nameWithType.vb: UserResetCheatProtocolMessageV1.New(String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1.#ctor*
+  name: UserResetCheatProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserResetCheatProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1.UserResetCheatProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1.New
+  nameWithType: UserResetCheatProtocolMessageV1.UserResetCheatProtocolMessageV1
+  nameWithType.vb: UserResetCheatProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserResetCheatProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1.MessageType
+  nameWithType: UserResetCheatProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserResetCheatProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1.MessageType
+  nameWithType: UserResetCheatProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserResetCheatProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1.UserId
+  nameWithType: UserResetCheatProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserResetCheatProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1.UserId
+  nameWithType: UserResetCheatProtocolMessageV1.UserId
 - uid: SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1
   name: UserSetFullStateProtocolMessageV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserSetFullStateProtocolMessageV1.html

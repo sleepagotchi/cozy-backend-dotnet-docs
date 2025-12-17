@@ -362,6 +362,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyEntryDto",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyPayloadData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Commands.Arguments.Sleep.SleepConsistencyUpdateArgs.yml",
       "output": {
         ".html": {
@@ -1916,6 +1944,62 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureCompleteProtocolMessageV1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Adventures.AdventureStartProtocolMessageV1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Adventures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Adventures.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Adventures",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.BaseCheatProtocolMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.BaseCheatProtocolMessage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.BaseCheatProtocolMessage",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.BaseCheatProtocolMessage.yml\" sourcestartlinenumber=\"1\">All the same as BaseProtocolMessage, but for messages which are considered to be cheats</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.BaseProtocolMessage.yml",
       "output": {
         ".html": {
@@ -1996,6 +2080,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Protocol.ProtocolMessages.Cosmetic.CosmeticUnequipItemProtocolMessageV1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Cosmetic.RemoveCosmeticItemProtocolMessageV1",
       "Summary": null
     },
     {
@@ -2140,20 +2238,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerResetProtocolCheatMessage",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.yml",
       "output": {
         ".html": {
@@ -2210,44 +2294,16 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.yml",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1.html"
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyCalculatedEventProtocolMessageV1",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyEntryDto",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyPayloadData",
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepConsistencyUpdateProtocolMessageV1",
       "Summary": null
     },
     {
@@ -2350,6 +2406,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskRemoveProtocolMessageV1.yml",
       "output": {
         ".html": {
@@ -2392,6 +2462,62 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialAddTaskProtocolMessageV1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetOnboardingCompletedProtocolMessageV1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Tutorial.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Tutorial",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.yml",
       "output": {
         ".html": {
@@ -2402,6 +2528,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.User.UserResetCheatProtocolMessageV1",
       "Summary": null
     },
     {
