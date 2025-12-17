@@ -1073,6 +1073,89 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs.CurrentPlayer
   nameWithType: PlayerResetCheatArgs.CurrentPlayer
+- uid: SharedLibrary.Commands.Arguments.Purchase
+  name: SharedLibrary.Commands.Arguments.Purchase
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.html
+  commentId: N:SharedLibrary.Commands.Arguments.Purchase
+  fullName: SharedLibrary.Commands.Arguments.Purchase
+  nameWithType: SharedLibrary.Commands.Arguments.Purchase
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1
+  name: PurchaseValidateArgsV1
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.html
+  commentId: T:SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1
+  nameWithType: PurchaseValidateArgsV1
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.#ctor(SharedLibrary.Data.Player,System.String,SharedLibrary.Data.StoreType,System.String)
+  name: PurchaseValidateArgsV1(Player, string, StoreType, string?)
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseValidateArgsV1__ctor_SharedLibrary_Data_Player_System_String_SharedLibrary_Data_StoreType_System_String_
+  commentId: M:SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.#ctor(SharedLibrary.Data.Player,System.String,SharedLibrary.Data.StoreType,System.String)
+  name.vb: New(Player, String, StoreType, String)
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.PurchaseValidateArgsV1(SharedLibrary.Data.Player, string, SharedLibrary.Data.StoreType, string?)
+  fullName.vb: SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.New(SharedLibrary.Data.Player, String, SharedLibrary.Data.StoreType, String)
+  nameWithType: PurchaseValidateArgsV1.PurchaseValidateArgsV1(Player, string, StoreType, string?)
+  nameWithType.vb: PurchaseValidateArgsV1.New(Player, String, StoreType, String)
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.#ctor*
+  name: PurchaseValidateArgsV1
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseValidateArgsV1__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.PurchaseValidateArgsV1
+  fullName.vb: SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.New
+  nameWithType: PurchaseValidateArgsV1.PurchaseValidateArgsV1
+  nameWithType.vb: PurchaseValidateArgsV1.New
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseValidateArgsV1_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.Player
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.Player
+  nameWithType: PurchaseValidateArgsV1.Player
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseValidateArgsV1_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.Player
+  nameWithType: PurchaseValidateArgsV1.Player
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.ProductId
+  name: ProductId
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseValidateArgsV1_ProductId
+  commentId: P:SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.ProductId
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.ProductId
+  nameWithType: PurchaseValidateArgsV1.ProductId
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.ProductId*
+  name: ProductId
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseValidateArgsV1_ProductId_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.ProductId
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.ProductId
+  nameWithType: PurchaseValidateArgsV1.ProductId
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.Receipt
+  name: Receipt
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseValidateArgsV1_Receipt
+  commentId: P:SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.Receipt
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.Receipt
+  nameWithType: PurchaseValidateArgsV1.Receipt
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.Receipt*
+  name: Receipt
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseValidateArgsV1_Receipt_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.Receipt
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.Receipt
+  nameWithType: PurchaseValidateArgsV1.Receipt
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.StoreType
+  name: StoreType
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseValidateArgsV1_StoreType
+  commentId: P:SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.StoreType
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.StoreType
+  nameWithType: PurchaseValidateArgsV1.StoreType
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.StoreType*
+  name: StoreType
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseValidateArgsV1_StoreType_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.StoreType
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.StoreType
+  nameWithType: PurchaseValidateArgsV1.StoreType
 - uid: SharedLibrary.Commands.Arguments.Sleep
   name: SharedLibrary.Commands.Arguments.Sleep
   href: api/api/SharedLibrary.Commands.Arguments.Sleep.html
@@ -2694,6 +2777,31 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.PlayerInfo.PlayerResetCheatCommand.Execute
   nameWithType: PlayerResetCheatCommand.Execute
+- uid: SharedLibrary.Commands.Purchase
+  name: SharedLibrary.Commands.Purchase
+  href: api/api/SharedLibrary.Commands.Purchase.html
+  commentId: N:SharedLibrary.Commands.Purchase
+  fullName: SharedLibrary.Commands.Purchase
+  nameWithType: SharedLibrary.Commands.Purchase
+- uid: SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1
+  name: PurchaseValidateCommandV1
+  href: api/api/SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.html
+  commentId: T:SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1
+  fullName: SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1
+  nameWithType: PurchaseValidateCommandV1
+- uid: SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.Execute(SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1)
+  name: Execute(PurchaseValidateArgsV1)
+  href: api/api/SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.html#SharedLibrary_Commands_Purchase_PurchaseValidateCommandV1_Execute_SharedLibrary_Commands_Arguments_Purchase_PurchaseValidateArgsV1_
+  commentId: M:SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.Execute(SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1)
+  fullName: SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.Execute(SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1)
+  nameWithType: PurchaseValidateCommandV1.Execute(PurchaseValidateArgsV1)
+- uid: SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.html#SharedLibrary_Commands_Purchase_PurchaseValidateCommandV1_Execute_
+  commentId: Overload:SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.Execute
+  nameWithType: PurchaseValidateCommandV1.Execute
 - uid: SharedLibrary.Commands.Sleep
   name: SharedLibrary.Commands.Sleep
   href: api/api/SharedLibrary.Commands.Sleep.html
@@ -3485,6 +3593,12 @@ references:
   commentId: F:SharedLibrary.Data.CommandType.PlayerResetCheat
   fullName: SharedLibrary.Data.CommandType.PlayerResetCheat
   nameWithType: CommandType.PlayerResetCheat
+- uid: SharedLibrary.Data.CommandType.PurchaseValidateV1
+  name: PurchaseValidateV1
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_PurchaseValidateV1
+  commentId: F:SharedLibrary.Data.CommandType.PurchaseValidateV1
+  fullName: SharedLibrary.Data.CommandType.PurchaseValidateV1
+  nameWithType: CommandType.PurchaseValidateV1
 - uid: SharedLibrary.Data.CommandType.SleepChangeSchedule
   name: SleepChangeSchedule
   href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_SleepChangeSchedule
@@ -4415,6 +4529,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Player.Parameters
   nameWithType: Player.Parameters
+- uid: SharedLibrary.Data.Player.PendingPurchases
+  name: PendingPurchases
+  href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_PendingPurchases
+  commentId: P:SharedLibrary.Data.Player.PendingPurchases
+  fullName: SharedLibrary.Data.Player.PendingPurchases
+  nameWithType: Player.PendingPurchases
+- uid: SharedLibrary.Data.Player.PendingPurchases*
+  name: PendingPurchases
+  href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_PendingPurchases_
+  commentId: Overload:SharedLibrary.Data.Player.PendingPurchases
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Player.PendingPurchases
+  nameWithType: Player.PendingPurchases
 - uid: SharedLibrary.Data.Player.Random
   name: Random
   href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_Random
@@ -4666,6 +4793,83 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.PlayerTutorial.OnboardingCompleted
   nameWithType: PlayerTutorial.OnboardingCompleted
+- uid: SharedLibrary.Data.Purchase
+  name: SharedLibrary.Data.Purchase
+  href: api/api/SharedLibrary.Data.Purchase.html
+  commentId: N:SharedLibrary.Data.Purchase
+  fullName: SharedLibrary.Data.Purchase
+  nameWithType: SharedLibrary.Data.Purchase
+- uid: SharedLibrary.Data.Purchase.PendingPurchase
+  name: PendingPurchase
+  href: api/api/SharedLibrary.Data.Purchase.PendingPurchase.html
+  commentId: T:SharedLibrary.Data.Purchase.PendingPurchase
+  fullName: SharedLibrary.Data.Purchase.PendingPurchase
+  nameWithType: PendingPurchase
+- uid: SharedLibrary.Data.Purchase.PendingPurchase.Id
+  name: Id
+  href: api/api/SharedLibrary.Data.Purchase.PendingPurchase.html#SharedLibrary_Data_Purchase_PendingPurchase_Id
+  commentId: P:SharedLibrary.Data.Purchase.PendingPurchase.Id
+  fullName: SharedLibrary.Data.Purchase.PendingPurchase.Id
+  nameWithType: PendingPurchase.Id
+- uid: SharedLibrary.Data.Purchase.PendingPurchase.Id*
+  name: Id
+  href: api/api/SharedLibrary.Data.Purchase.PendingPurchase.html#SharedLibrary_Data_Purchase_PendingPurchase_Id_
+  commentId: Overload:SharedLibrary.Data.Purchase.PendingPurchase.Id
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Purchase.PendingPurchase.Id
+  nameWithType: PendingPurchase.Id
+- uid: SharedLibrary.Data.Purchase.PendingPurchase.ProductId
+  name: ProductId
+  href: api/api/SharedLibrary.Data.Purchase.PendingPurchase.html#SharedLibrary_Data_Purchase_PendingPurchase_ProductId
+  commentId: P:SharedLibrary.Data.Purchase.PendingPurchase.ProductId
+  fullName: SharedLibrary.Data.Purchase.PendingPurchase.ProductId
+  nameWithType: PendingPurchase.ProductId
+- uid: SharedLibrary.Data.Purchase.PendingPurchase.ProductId*
+  name: ProductId
+  href: api/api/SharedLibrary.Data.Purchase.PendingPurchase.html#SharedLibrary_Data_Purchase_PendingPurchase_ProductId_
+  commentId: Overload:SharedLibrary.Data.Purchase.PendingPurchase.ProductId
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Purchase.PendingPurchase.ProductId
+  nameWithType: PendingPurchase.ProductId
+- uid: SharedLibrary.Data.Purchase.PendingPurchase.Receipt
+  name: Receipt
+  href: api/api/SharedLibrary.Data.Purchase.PendingPurchase.html#SharedLibrary_Data_Purchase_PendingPurchase_Receipt
+  commentId: P:SharedLibrary.Data.Purchase.PendingPurchase.Receipt
+  fullName: SharedLibrary.Data.Purchase.PendingPurchase.Receipt
+  nameWithType: PendingPurchase.Receipt
+- uid: SharedLibrary.Data.Purchase.PendingPurchase.Receipt*
+  name: Receipt
+  href: api/api/SharedLibrary.Data.Purchase.PendingPurchase.html#SharedLibrary_Data_Purchase_PendingPurchase_Receipt_
+  commentId: Overload:SharedLibrary.Data.Purchase.PendingPurchase.Receipt
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Purchase.PendingPurchase.Receipt
+  nameWithType: PendingPurchase.Receipt
+- uid: SharedLibrary.Data.Purchase.PendingPurchase.RequestedAtIso
+  name: RequestedAtIso
+  href: api/api/SharedLibrary.Data.Purchase.PendingPurchase.html#SharedLibrary_Data_Purchase_PendingPurchase_RequestedAtIso
+  commentId: P:SharedLibrary.Data.Purchase.PendingPurchase.RequestedAtIso
+  fullName: SharedLibrary.Data.Purchase.PendingPurchase.RequestedAtIso
+  nameWithType: PendingPurchase.RequestedAtIso
+- uid: SharedLibrary.Data.Purchase.PendingPurchase.RequestedAtIso*
+  name: RequestedAtIso
+  href: api/api/SharedLibrary.Data.Purchase.PendingPurchase.html#SharedLibrary_Data_Purchase_PendingPurchase_RequestedAtIso_
+  commentId: Overload:SharedLibrary.Data.Purchase.PendingPurchase.RequestedAtIso
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Purchase.PendingPurchase.RequestedAtIso
+  nameWithType: PendingPurchase.RequestedAtIso
+- uid: SharedLibrary.Data.Purchase.PendingPurchase.StoreType
+  name: StoreType
+  href: api/api/SharedLibrary.Data.Purchase.PendingPurchase.html#SharedLibrary_Data_Purchase_PendingPurchase_StoreType
+  commentId: P:SharedLibrary.Data.Purchase.PendingPurchase.StoreType
+  fullName: SharedLibrary.Data.Purchase.PendingPurchase.StoreType
+  nameWithType: PendingPurchase.StoreType
+- uid: SharedLibrary.Data.Purchase.PendingPurchase.StoreType*
+  name: StoreType
+  href: api/api/SharedLibrary.Data.Purchase.PendingPurchase.html#SharedLibrary_Data_Purchase_PendingPurchase_StoreType_
+  commentId: Overload:SharedLibrary.Data.Purchase.PendingPurchase.StoreType
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Purchase.PendingPurchase.StoreType
+  nameWithType: PendingPurchase.StoreType
 - uid: SharedLibrary.Data.ResourceType
   name: ResourceType
   href: api/api/SharedLibrary.Data.ResourceType.html
@@ -4969,6 +5173,24 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Sleep.PlayerSleepSchedule.TargetWakeUpISO
   nameWithType: PlayerSleepSchedule.TargetWakeUpISO
+- uid: SharedLibrary.Data.StoreType
+  name: StoreType
+  href: api/api/SharedLibrary.Data.StoreType.html
+  commentId: T:SharedLibrary.Data.StoreType
+  fullName: SharedLibrary.Data.StoreType
+  nameWithType: StoreType
+- uid: SharedLibrary.Data.StoreType.APPLE
+  name: APPLE
+  href: api/api/SharedLibrary.Data.StoreType.html#SharedLibrary_Data_StoreType_APPLE
+  commentId: F:SharedLibrary.Data.StoreType.APPLE
+  fullName: SharedLibrary.Data.StoreType.APPLE
+  nameWithType: StoreType.APPLE
+- uid: SharedLibrary.Data.StoreType.GOOGLE
+  name: GOOGLE
+  href: api/api/SharedLibrary.Data.StoreType.html#SharedLibrary_Data_StoreType_GOOGLE
+  commentId: F:SharedLibrary.Data.StoreType.GOOGLE
+  fullName: SharedLibrary.Data.StoreType.GOOGLE
+  nameWithType: StoreType.GOOGLE
 - uid: SharedLibrary.Data.Tasks
   name: SharedLibrary.Data.Tasks
   href: api/api/SharedLibrary.Data.Tasks.html
@@ -8387,6 +8609,12 @@ references:
   commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoChangeNameCommandV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoChangeNameCommandV1
   nameWithType: ProtocolMessageTypes.PlayerInfoChangeNameCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PurchaseValidateRequestV1
+  name: PurchaseValidateRequestV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PurchaseValidateRequestV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PurchaseValidateRequestV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PurchaseValidateRequestV1
+  nameWithType: ProtocolMessageTypes.PurchaseValidateRequestV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepChangeScheduleCommandV1
   name: SleepChangeScheduleCommandV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepChangeScheduleCommandV1
@@ -8501,6 +8729,102 @@ references:
   commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.UserSetFullStateCommandV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.UserSetFullStateCommandV1
   nameWithType: ProtocolMessageTypes.UserSetFullStateCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase
+  name: SharedLibrary.Protocol.ProtocolMessages.Purchase
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.html
+  commentId: N:SharedLibrary.Protocol.ProtocolMessages.Purchase
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase
+  nameWithType: SharedLibrary.Protocol.ProtocolMessages.Purchase
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1
+  name: PurchaseValidateProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1
+  nameWithType: PurchaseValidateProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.#ctor(System.String,System.String,SharedLibrary.Data.StoreType,System.String,System.String)
+  name: PurchaseValidateProtocolMessageV1(string, string, StoreType, string?, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseValidateProtocolMessageV1__ctor_System_String_System_String_SharedLibrary_Data_StoreType_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.#ctor(System.String,System.String,SharedLibrary.Data.StoreType,System.String,System.String)
+  name.vb: New(String, String, StoreType, String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.PurchaseValidateProtocolMessageV1(string, string, SharedLibrary.Data.StoreType, string?, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.New(String, String, SharedLibrary.Data.StoreType, String, String)
+  nameWithType: PurchaseValidateProtocolMessageV1.PurchaseValidateProtocolMessageV1(string, string, StoreType, string?, string?)
+  nameWithType.vb: PurchaseValidateProtocolMessageV1.New(String, String, StoreType, String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.#ctor*
+  name: PurchaseValidateProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseValidateProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.PurchaseValidateProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.New
+  nameWithType: PurchaseValidateProtocolMessageV1.PurchaseValidateProtocolMessageV1
+  nameWithType.vb: PurchaseValidateProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseValidateProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.MessageType
+  nameWithType: PurchaseValidateProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseValidateProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.MessageType
+  nameWithType: PurchaseValidateProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.ProductId
+  name: ProductId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseValidateProtocolMessageV1_ProductId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.ProductId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.ProductId
+  nameWithType: PurchaseValidateProtocolMessageV1.ProductId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.ProductId*
+  name: ProductId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseValidateProtocolMessageV1_ProductId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.ProductId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.ProductId
+  nameWithType: PurchaseValidateProtocolMessageV1.ProductId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.Receipt
+  name: Receipt
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseValidateProtocolMessageV1_Receipt
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.Receipt
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.Receipt
+  nameWithType: PurchaseValidateProtocolMessageV1.Receipt
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.Receipt*
+  name: Receipt
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseValidateProtocolMessageV1_Receipt_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.Receipt
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.Receipt
+  nameWithType: PurchaseValidateProtocolMessageV1.Receipt
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.StoreType
+  name: StoreType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseValidateProtocolMessageV1_StoreType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.StoreType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.StoreType
+  nameWithType: PurchaseValidateProtocolMessageV1.StoreType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.StoreType*
+  name: StoreType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseValidateProtocolMessageV1_StoreType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.StoreType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.StoreType
+  nameWithType: PurchaseValidateProtocolMessageV1.StoreType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseValidateProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.UserId
+  nameWithType: PurchaseValidateProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseValidateProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.UserId
+  nameWithType: PurchaseValidateProtocolMessageV1.UserId
 - uid: SharedLibrary.Protocol.ProtocolMessages.Sleep
   name: SharedLibrary.Protocol.ProtocolMessages.Sleep
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.html

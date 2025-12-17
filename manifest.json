@@ -334,6 +334,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.yml\" sourcestartlinenumber=\"1\">Arguments required to execute the Purchase Validate Command (V1).\nEncapsulates the player context and the purchase details provided by the client.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Arguments.Purchase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Arguments.Purchase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Arguments.Purchase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs.yml",
       "output": {
         ".html": {
@@ -918,6 +946,34 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Commands.PlayerInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.yml\" sourcestartlinenumber=\"1\">Command to register a user's intent to validate a purchase (V1).\nThis does not validate the receipt itself; it only updates the player state to indicate a pending validation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Purchase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Purchase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Purchase",
       "Summary": null
     },
     {
@@ -1524,6 +1580,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Data.Purchase.PendingPurchase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Data.Purchase.PendingPurchase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Data.Purchase.PendingPurchase",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Data.Purchase.PendingPurchase.yml\" sourcestartlinenumber=\"1\">Represents a user's intent to purchase an item, pending validation from an external store.\nThis entity tracks the lifecycle of a purchase verification request.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Data.Purchase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Data.Purchase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Data.Purchase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Data.ResourceType.yml",
       "output": {
         ".html": {
@@ -1605,6 +1689,20 @@
       "IsMRef": true,
       "Title": "SharedLibrary.Data.Sleep",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Data.StoreType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Data.StoreType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Data.StoreType",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Data.StoreType.yml\" sourcestartlinenumber=\"1\">Defines the supported external application stores for purchase validation.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2263,6 +2361,34 @@
       "IsMRef": true,
       "Title": "SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes",
       "Summary": "<p sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.yml\" sourcestartlinenumber=\"1\">Should be considered as an enum with protocol message types.\nUnfortunately, C# doesn't support enums with string values.</p>\n<p sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.yml\" sourcestartlinenumber=\"4\">Note: all the names are following ENTITY_ACTION_TYPE/VERSION convention.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Purchase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Purchase",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
