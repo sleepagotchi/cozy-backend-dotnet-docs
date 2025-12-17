@@ -6179,6 +6179,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Managers.AdventuresManager.GetAdventureById
   nameWithType: AdventuresManager.GetAdventureById
+- uid: SharedLibrary.Managers.AdventuresManager.GetAllAdventures
+  name: GetAllAdventures()
+  href: api/api/SharedLibrary.Managers.AdventuresManager.html#SharedLibrary_Managers_AdventuresManager_GetAllAdventures
+  commentId: M:SharedLibrary.Managers.AdventuresManager.GetAllAdventures
+  fullName: SharedLibrary.Managers.AdventuresManager.GetAllAdventures()
+  nameWithType: AdventuresManager.GetAllAdventures()
+- uid: SharedLibrary.Managers.AdventuresManager.GetAllAdventures*
+  name: GetAllAdventures
+  href: api/api/SharedLibrary.Managers.AdventuresManager.html#SharedLibrary_Managers_AdventuresManager_GetAllAdventures_
+  commentId: Overload:SharedLibrary.Managers.AdventuresManager.GetAllAdventures
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.AdventuresManager.GetAllAdventures
+  nameWithType: AdventuresManager.GetAllAdventures
 - uid: SharedLibrary.Managers.AdventuresManager.IsAdventureComplete(SharedLibrary.Data.Player)
   name: IsAdventureComplete(Player)
   href: api/api/SharedLibrary.Managers.AdventuresManager.html#SharedLibrary_Managers_AdventuresManager_IsAdventureComplete_SharedLibrary_Data_Player_
@@ -8284,12 +8297,6 @@ references:
   commentId: T:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes
   nameWithType: ProtocolMessageTypes
-- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.AddCosmeticItemCommandV1
-  name: AddCosmeticItemCommandV1
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_AddCosmeticItemCommandV1
-  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.AddCosmeticItemCommandV1
-  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.AddCosmeticItemCommandV1
-  nameWithType: ProtocolMessageTypes.AddCosmeticItemCommandV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.AdventureCompleteCommandV1
   name: AdventureCompleteCommandV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_AdventureCompleteCommandV1
@@ -8302,6 +8309,12 @@ references:
   commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.AdventureStartCommandV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.AdventureStartCommandV1
   nameWithType: ProtocolMessageTypes.AdventureStartCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticAddItemCommandV1
+  name: CosmeticAddItemCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_CosmeticAddItemCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticAddItemCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticAddItemCommandV1
+  nameWithType: ProtocolMessageTypes.CosmeticAddItemCommandV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticBuyItemCommandV1
   name: CosmeticBuyItemCommandV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_CosmeticBuyItemCommandV1
@@ -8314,6 +8327,12 @@ references:
   commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticEquipCommandV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticEquipCommandV1
   nameWithType: ProtocolMessageTypes.CosmeticEquipCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticRemoveItemCommandV1
+  name: CosmeticRemoveItemCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_CosmeticRemoveItemCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticRemoveItemCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticRemoveItemCommandV1
+  nameWithType: ProtocolMessageTypes.CosmeticRemoveItemCommandV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticToggleFavoriteCommandV1
   name: CosmeticToggleFavoriteCommandV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_CosmeticToggleFavoriteCommandV1
@@ -8368,12 +8387,6 @@ references:
   commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoChangeNameCommandV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoChangeNameCommandV1
   nameWithType: ProtocolMessageTypes.PlayerInfoChangeNameCommandV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.RemoveCosmeticItemCommandV1
-  name: RemoveCosmeticItemCommandV1
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_RemoveCosmeticItemCommandV1
-  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.RemoveCosmeticItemCommandV1
-  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.RemoveCosmeticItemCommandV1
-  nameWithType: ProtocolMessageTypes.RemoveCosmeticItemCommandV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepChangeScheduleCommandV1
   name: SleepChangeScheduleCommandV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepChangeScheduleCommandV1
@@ -9160,15 +9173,15 @@ references:
   commentId: T:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1
   nameWithType: TaskGetPlayerTasksProtocolMessageV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.#ctor(System.String,System.String)
-  name: TaskGetPlayerTasksProtocolMessageV1(string, string?)
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskGetPlayerTasksProtocolMessageV1__ctor_System_String_System_String_
-  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.#ctor(System.String,System.String)
-  name.vb: New(String, String)
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.TaskGetPlayerTasksProtocolMessageV1(string, string?)
-  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.New(String, String)
-  nameWithType: TaskGetPlayerTasksProtocolMessageV1.TaskGetPlayerTasksProtocolMessageV1(string, string?)
-  nameWithType.vb: TaskGetPlayerTasksProtocolMessageV1.New(String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.#ctor(System.String,System.Int32,System.String)
+  name: TaskGetPlayerTasksProtocolMessageV1(string, int, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskGetPlayerTasksProtocolMessageV1__ctor_System_String_System_Int32_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.#ctor(System.String,System.Int32,System.String)
+  name.vb: New(String, Integer, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.TaskGetPlayerTasksProtocolMessageV1(string, int, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.New(String, Integer, String)
+  nameWithType: TaskGetPlayerTasksProtocolMessageV1.TaskGetPlayerTasksProtocolMessageV1(string, int, string?)
+  nameWithType.vb: TaskGetPlayerTasksProtocolMessageV1.New(String, Integer, String)
 - uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.#ctor*
   name: TaskGetPlayerTasksProtocolMessageV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskGetPlayerTasksProtocolMessageV1__ctor_
@@ -9192,6 +9205,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.MessageType
   nameWithType: TaskGetPlayerTasksProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.TzOffsetSeconds
+  name: TzOffsetSeconds
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskGetPlayerTasksProtocolMessageV1_TzOffsetSeconds
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.TzOffsetSeconds
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.TzOffsetSeconds
+  nameWithType: TaskGetPlayerTasksProtocolMessageV1.TzOffsetSeconds
+- uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.TzOffsetSeconds*
+  name: TzOffsetSeconds
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskGetPlayerTasksProtocolMessageV1_TzOffsetSeconds_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.TzOffsetSeconds
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.TzOffsetSeconds
+  nameWithType: TaskGetPlayerTasksProtocolMessageV1.TzOffsetSeconds
 - uid: SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.UserId
   name: UserId
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskGetPlayerTasksProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Tasks_TaskGetPlayerTasksProtocolMessageV1_UserId
