@@ -3465,6 +3465,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.BalanceModel.Cosmetics
   nameWithType: BalanceModel.Cosmetics
+- uid: SharedLibrary.Data.BalanceModel.GptConfig
+  name: GptConfig
+  href: api/api/SharedLibrary.Data.BalanceModel.html#SharedLibrary_Data_BalanceModel_GptConfig
+  commentId: P:SharedLibrary.Data.BalanceModel.GptConfig
+  fullName: SharedLibrary.Data.BalanceModel.GptConfig
+  nameWithType: BalanceModel.GptConfig
+- uid: SharedLibrary.Data.BalanceModel.GptConfig*
+  name: GptConfig
+  href: api/api/SharedLibrary.Data.BalanceModel.html#SharedLibrary_Data_BalanceModel_GptConfig_
+  commentId: Overload:SharedLibrary.Data.BalanceModel.GptConfig
+  isSpec: "True"
+  fullName: SharedLibrary.Data.BalanceModel.GptConfig
+  nameWithType: BalanceModel.GptConfig
 - uid: SharedLibrary.Data.BalanceModel.Items
   name: Items
   href: api/api/SharedLibrary.Data.BalanceModel.html#SharedLibrary_Data_BalanceModel_Items
@@ -4194,6 +4207,44 @@ references:
   commentId: F:SharedLibrary.Data.EnvironmentType.Stage
   fullName: SharedLibrary.Data.EnvironmentType.Stage
   nameWithType: EnvironmentType.Stage
+- uid: SharedLibrary.Data.GPT
+  name: SharedLibrary.Data.GPT
+  href: api/api/SharedLibrary.Data.GPT.html
+  commentId: N:SharedLibrary.Data.GPT
+  fullName: SharedLibrary.Data.GPT
+  nameWithType: SharedLibrary.Data.GPT
+- uid: SharedLibrary.Data.GPT.GPTConfig
+  name: GPTConfig
+  href: api/api/SharedLibrary.Data.GPT.GPTConfig.html
+  commentId: T:SharedLibrary.Data.GPT.GPTConfig
+  fullName: SharedLibrary.Data.GPT.GPTConfig
+  nameWithType: GPTConfig
+- uid: SharedLibrary.Data.GPT.GPTConfig.Instructions
+  name: Instructions
+  href: api/api/SharedLibrary.Data.GPT.GPTConfig.html#SharedLibrary_Data_GPT_GPTConfig_Instructions
+  commentId: P:SharedLibrary.Data.GPT.GPTConfig.Instructions
+  fullName: SharedLibrary.Data.GPT.GPTConfig.Instructions
+  nameWithType: GPTConfig.Instructions
+- uid: SharedLibrary.Data.GPT.GPTConfig.Instructions*
+  name: Instructions
+  href: api/api/SharedLibrary.Data.GPT.GPTConfig.html#SharedLibrary_Data_GPT_GPTConfig_Instructions_
+  commentId: Overload:SharedLibrary.Data.GPT.GPTConfig.Instructions
+  isSpec: "True"
+  fullName: SharedLibrary.Data.GPT.GPTConfig.Instructions
+  nameWithType: GPTConfig.Instructions
+- uid: SharedLibrary.Data.GPT.GPTConfig.SystemMessage
+  name: SystemMessage
+  href: api/api/SharedLibrary.Data.GPT.GPTConfig.html#SharedLibrary_Data_GPT_GPTConfig_SystemMessage
+  commentId: P:SharedLibrary.Data.GPT.GPTConfig.SystemMessage
+  fullName: SharedLibrary.Data.GPT.GPTConfig.SystemMessage
+  nameWithType: GPTConfig.SystemMessage
+- uid: SharedLibrary.Data.GPT.GPTConfig.SystemMessage*
+  name: SystemMessage
+  href: api/api/SharedLibrary.Data.GPT.GPTConfig.html#SharedLibrary_Data_GPT_GPTConfig_SystemMessage_
+  commentId: Overload:SharedLibrary.Data.GPT.GPTConfig.SystemMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Data.GPT.GPTConfig.SystemMessage
+  nameWithType: GPTConfig.SystemMessage
 - uid: SharedLibrary.Data.Island
   name: SharedLibrary.Data.Island
   href: api/api/SharedLibrary.Data.Island.html
@@ -6517,6 +6568,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Managers.ConfigManager.GetEveryDayTasksIds
   nameWithType: ConfigManager.GetEveryDayTasksIds
+- uid: SharedLibrary.Managers.ConfigManager.GetGptConfig
+  name: GetGptConfig
+  href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_GetGptConfig
+  commentId: P:SharedLibrary.Managers.ConfigManager.GetGptConfig
+  fullName: SharedLibrary.Managers.ConfigManager.GetGptConfig
+  nameWithType: ConfigManager.GetGptConfig
+- uid: SharedLibrary.Managers.ConfigManager.GetGptConfig*
+  name: GetGptConfig
+  href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_GetGptConfig_
+  commentId: Overload:SharedLibrary.Managers.ConfigManager.GetGptConfig
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.ConfigManager.GetGptConfig
+  nameWithType: ConfigManager.GetGptConfig
 - uid: SharedLibrary.Managers.ConfigManager.GetItems
   name: GetItems
   href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_GetItems

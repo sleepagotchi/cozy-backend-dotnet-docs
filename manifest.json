@@ -1440,6 +1440,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Data.GPT.GPTConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Data.GPT.GPTConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Data.GPT.GPTConfig",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Data.GPT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Data.GPT.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Data.GPT",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Data.Island.IslandBase.yml",
       "output": {
         ".html": {
