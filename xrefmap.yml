@@ -8762,6 +8762,12 @@ references:
   commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TutorialSetStepCommandV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TutorialSetStepCommandV1
   nameWithType: ProtocolMessageTypes.TutorialSetStepCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.UserGetFullStateCommandV1
+  name: UserGetFullStateCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_UserGetFullStateCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.UserGetFullStateCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.UserGetFullStateCommandV1
+  nameWithType: ProtocolMessageTypes.UserGetFullStateCommandV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.UserRegisterCommandV1
   name: UserRegisterCommandV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_UserRegisterCommandV1
@@ -9912,6 +9918,57 @@ references:
   commentId: N:SharedLibrary.Protocol.ProtocolMessages.User
   fullName: SharedLibrary.Protocol.ProtocolMessages.User
   nameWithType: SharedLibrary.Protocol.ProtocolMessages.User
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1
+  name: UserGetFullStateProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1
+  nameWithType: UserGetFullStateProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.#ctor(System.String,System.String)
+  name: UserGetFullStateProtocolMessageV1(string, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserGetFullStateProtocolMessageV1__ctor_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.UserGetFullStateProtocolMessageV1(string, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.New(String, String)
+  nameWithType: UserGetFullStateProtocolMessageV1.UserGetFullStateProtocolMessageV1(string, string?)
+  nameWithType.vb: UserGetFullStateProtocolMessageV1.New(String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.#ctor*
+  name: UserGetFullStateProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserGetFullStateProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.UserGetFullStateProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.New
+  nameWithType: UserGetFullStateProtocolMessageV1.UserGetFullStateProtocolMessageV1
+  nameWithType.vb: UserGetFullStateProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserGetFullStateProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.MessageType
+  nameWithType: UserGetFullStateProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserGetFullStateProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.MessageType
+  nameWithType: UserGetFullStateProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserGetFullStateProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.UserId
+  nameWithType: UserGetFullStateProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserGetFullStateProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.UserId
+  nameWithType: UserGetFullStateProtocolMessageV1.UserId
 - uid: SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1
   name: UserRegisterProtocolMessageV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserRegisterProtocolMessageV1.html
