@@ -2406,6 +2406,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.yml\" sourcestartlinenumber=\"1\">Internal system command sent to the validation worker to verify a receipt with the store provider.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Purchase.yml",
       "output": {
         ".html": {

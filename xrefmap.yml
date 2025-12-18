@@ -8660,6 +8660,12 @@ references:
   commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoChangeNameCommandV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoChangeNameCommandV1
   nameWithType: ProtocolMessageTypes.PlayerInfoChangeNameCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PurchaseValidateReceiptCommandV1
+  name: PurchaseValidateReceiptCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PurchaseValidateReceiptCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PurchaseValidateReceiptCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PurchaseValidateReceiptCommandV1
+  nameWithType: ProtocolMessageTypes.PurchaseValidateReceiptCommandV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PurchaseValidateRequestV1
   name: PurchaseValidateRequestV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PurchaseValidateRequestV1
@@ -8882,6 +8888,109 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.UserId
   nameWithType: PurchaseValidateProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1
+  name: PurchaseValidateReceiptProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1
+  nameWithType: PurchaseValidateReceiptProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.#ctor(System.String,System.String,System.String,SharedLibrary.Data.StoreType,System.String,System.String)
+  name: PurchaseValidateReceiptProtocolMessageV1(string, string, string, StoreType, string?, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseValidateReceiptProtocolMessageV1__ctor_System_String_System_String_System_String_SharedLibrary_Data_StoreType_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.#ctor(System.String,System.String,System.String,SharedLibrary.Data.StoreType,System.String,System.String)
+  name.vb: New(String, String, String, StoreType, String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.PurchaseValidateReceiptProtocolMessageV1(string, string, string, SharedLibrary.Data.StoreType, string?, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.New(String, String, String, SharedLibrary.Data.StoreType, String, String)
+  nameWithType: PurchaseValidateReceiptProtocolMessageV1.PurchaseValidateReceiptProtocolMessageV1(string, string, string, StoreType, string?, string?)
+  nameWithType.vb: PurchaseValidateReceiptProtocolMessageV1.New(String, String, String, StoreType, String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.#ctor*
+  name: PurchaseValidateReceiptProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseValidateReceiptProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.PurchaseValidateReceiptProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.New
+  nameWithType: PurchaseValidateReceiptProtocolMessageV1.PurchaseValidateReceiptProtocolMessageV1
+  nameWithType.vb: PurchaseValidateReceiptProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseValidateReceiptProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.MessageType
+  nameWithType: PurchaseValidateReceiptProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseValidateReceiptProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.MessageType
+  nameWithType: PurchaseValidateReceiptProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.ProductId
+  name: ProductId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseValidateReceiptProtocolMessageV1_ProductId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.ProductId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.ProductId
+  nameWithType: PurchaseValidateReceiptProtocolMessageV1.ProductId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.ProductId*
+  name: ProductId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseValidateReceiptProtocolMessageV1_ProductId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.ProductId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.ProductId
+  nameWithType: PurchaseValidateReceiptProtocolMessageV1.ProductId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.PurchaseId
+  name: PurchaseId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseValidateReceiptProtocolMessageV1_PurchaseId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.PurchaseId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.PurchaseId
+  nameWithType: PurchaseValidateReceiptProtocolMessageV1.PurchaseId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.PurchaseId*
+  name: PurchaseId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseValidateReceiptProtocolMessageV1_PurchaseId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.PurchaseId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.PurchaseId
+  nameWithType: PurchaseValidateReceiptProtocolMessageV1.PurchaseId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.Receipt
+  name: Receipt
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseValidateReceiptProtocolMessageV1_Receipt
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.Receipt
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.Receipt
+  nameWithType: PurchaseValidateReceiptProtocolMessageV1.Receipt
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.Receipt*
+  name: Receipt
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseValidateReceiptProtocolMessageV1_Receipt_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.Receipt
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.Receipt
+  nameWithType: PurchaseValidateReceiptProtocolMessageV1.Receipt
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.StoreType
+  name: StoreType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseValidateReceiptProtocolMessageV1_StoreType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.StoreType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.StoreType
+  nameWithType: PurchaseValidateReceiptProtocolMessageV1.StoreType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.StoreType*
+  name: StoreType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseValidateReceiptProtocolMessageV1_StoreType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.StoreType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.StoreType
+  nameWithType: PurchaseValidateReceiptProtocolMessageV1.StoreType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseValidateReceiptProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.UserId
+  nameWithType: PurchaseValidateReceiptProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseValidateReceiptProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.UserId
+  nameWithType: PurchaseValidateReceiptProtocolMessageV1.UserId
 - uid: SharedLibrary.Protocol.ProtocolMessages.Sleep
   name: SharedLibrary.Protocol.ProtocolMessages.Sleep
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.html
