@@ -3420,6 +3420,64 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.BalanceConstants.TaskToTime
   nameWithType: BalanceConstants.TaskToTime
+- uid: SharedLibrary.Data.BalanceDefaultUserParams
+  name: BalanceDefaultUserParams
+  href: api/api/SharedLibrary.Data.BalanceDefaultUserParams.html
+  commentId: T:SharedLibrary.Data.BalanceDefaultUserParams
+  fullName: SharedLibrary.Data.BalanceDefaultUserParams
+  nameWithType: BalanceDefaultUserParams
+- uid: SharedLibrary.Data.BalanceDefaultUserParams.Cosmetics
+  name: Cosmetics
+  href: api/api/SharedLibrary.Data.BalanceDefaultUserParams.html#SharedLibrary_Data_BalanceDefaultUserParams_Cosmetics
+  commentId: P:SharedLibrary.Data.BalanceDefaultUserParams.Cosmetics
+  fullName: SharedLibrary.Data.BalanceDefaultUserParams.Cosmetics
+  nameWithType: BalanceDefaultUserParams.Cosmetics
+- uid: SharedLibrary.Data.BalanceDefaultUserParams.Cosmetics*
+  name: Cosmetics
+  href: api/api/SharedLibrary.Data.BalanceDefaultUserParams.html#SharedLibrary_Data_BalanceDefaultUserParams_Cosmetics_
+  commentId: Overload:SharedLibrary.Data.BalanceDefaultUserParams.Cosmetics
+  isSpec: "True"
+  fullName: SharedLibrary.Data.BalanceDefaultUserParams.Cosmetics
+  nameWithType: BalanceDefaultUserParams.Cosmetics
+- uid: SharedLibrary.Data.BalanceDefaultUserParams.DreamStones
+  name: DreamStones
+  href: api/api/SharedLibrary.Data.BalanceDefaultUserParams.html#SharedLibrary_Data_BalanceDefaultUserParams_DreamStones
+  commentId: P:SharedLibrary.Data.BalanceDefaultUserParams.DreamStones
+  fullName: SharedLibrary.Data.BalanceDefaultUserParams.DreamStones
+  nameWithType: BalanceDefaultUserParams.DreamStones
+- uid: SharedLibrary.Data.BalanceDefaultUserParams.DreamStones*
+  name: DreamStones
+  href: api/api/SharedLibrary.Data.BalanceDefaultUserParams.html#SharedLibrary_Data_BalanceDefaultUserParams_DreamStones_
+  commentId: Overload:SharedLibrary.Data.BalanceDefaultUserParams.DreamStones
+  isSpec: "True"
+  fullName: SharedLibrary.Data.BalanceDefaultUserParams.DreamStones
+  nameWithType: BalanceDefaultUserParams.DreamStones
+- uid: SharedLibrary.Data.BalanceDefaultUserParams.Energy
+  name: Energy
+  href: api/api/SharedLibrary.Data.BalanceDefaultUserParams.html#SharedLibrary_Data_BalanceDefaultUserParams_Energy
+  commentId: P:SharedLibrary.Data.BalanceDefaultUserParams.Energy
+  fullName: SharedLibrary.Data.BalanceDefaultUserParams.Energy
+  nameWithType: BalanceDefaultUserParams.Energy
+- uid: SharedLibrary.Data.BalanceDefaultUserParams.Energy*
+  name: Energy
+  href: api/api/SharedLibrary.Data.BalanceDefaultUserParams.html#SharedLibrary_Data_BalanceDefaultUserParams_Energy_
+  commentId: Overload:SharedLibrary.Data.BalanceDefaultUserParams.Energy
+  isSpec: "True"
+  fullName: SharedLibrary.Data.BalanceDefaultUserParams.Energy
+  nameWithType: BalanceDefaultUserParams.Energy
+- uid: SharedLibrary.Data.BalanceDefaultUserParams.Items
+  name: Items
+  href: api/api/SharedLibrary.Data.BalanceDefaultUserParams.html#SharedLibrary_Data_BalanceDefaultUserParams_Items
+  commentId: P:SharedLibrary.Data.BalanceDefaultUserParams.Items
+  fullName: SharedLibrary.Data.BalanceDefaultUserParams.Items
+  nameWithType: BalanceDefaultUserParams.Items
+- uid: SharedLibrary.Data.BalanceDefaultUserParams.Items*
+  name: Items
+  href: api/api/SharedLibrary.Data.BalanceDefaultUserParams.html#SharedLibrary_Data_BalanceDefaultUserParams_Items_
+  commentId: Overload:SharedLibrary.Data.BalanceDefaultUserParams.Items
+  isSpec: "True"
+  fullName: SharedLibrary.Data.BalanceDefaultUserParams.Items
+  nameWithType: BalanceDefaultUserParams.Items
 - uid: SharedLibrary.Data.BalanceModel
   name: BalanceModel
   href: api/api/SharedLibrary.Data.BalanceModel.html
@@ -3465,6 +3523,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.BalanceModel.Cosmetics
   nameWithType: BalanceModel.Cosmetics
+- uid: SharedLibrary.Data.BalanceModel.DefaultUserParams
+  name: DefaultUserParams
+  href: api/api/SharedLibrary.Data.BalanceModel.html#SharedLibrary_Data_BalanceModel_DefaultUserParams
+  commentId: P:SharedLibrary.Data.BalanceModel.DefaultUserParams
+  fullName: SharedLibrary.Data.BalanceModel.DefaultUserParams
+  nameWithType: BalanceModel.DefaultUserParams
+- uid: SharedLibrary.Data.BalanceModel.DefaultUserParams*
+  name: DefaultUserParams
+  href: api/api/SharedLibrary.Data.BalanceModel.html#SharedLibrary_Data_BalanceModel_DefaultUserParams_
+  commentId: Overload:SharedLibrary.Data.BalanceModel.DefaultUserParams
+  isSpec: "True"
+  fullName: SharedLibrary.Data.BalanceModel.DefaultUserParams
+  nameWithType: BalanceModel.DefaultUserParams
 - uid: SharedLibrary.Data.BalanceModel.GptConfig
   name: GptConfig
   href: api/api/SharedLibrary.Data.BalanceModel.html#SharedLibrary_Data_BalanceModel_GptConfig
@@ -3861,12 +3932,6 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Constants.MinParametersValue
   nameWithType: Constants.MinParametersValue
-- uid: SharedLibrary.Data.Constants.STARTED_ITEM_ON_USER_CREATION
-  name: STARTED_ITEM_ON_USER_CREATION
-  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_STARTED_ITEM_ON_USER_CREATION
-  commentId: F:SharedLibrary.Data.Constants.STARTED_ITEM_ON_USER_CREATION
-  fullName: SharedLibrary.Data.Constants.STARTED_ITEM_ON_USER_CREATION
-  nameWithType: Constants.STARTED_ITEM_ON_USER_CREATION
 - uid: SharedLibrary.Data.Constants.TASKS_CATEGORIES
   name: TASKS_CATEGORIES
   href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_TASKS_CATEGORIES
@@ -6555,6 +6620,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Managers.ConfigManager.GetCosmeticItems
   nameWithType: ConfigManager.GetCosmeticItems
+- uid: SharedLibrary.Managers.ConfigManager.GetDefaultUserParams
+  name: GetDefaultUserParams
+  href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_GetDefaultUserParams
+  commentId: P:SharedLibrary.Managers.ConfigManager.GetDefaultUserParams
+  fullName: SharedLibrary.Managers.ConfigManager.GetDefaultUserParams
+  nameWithType: ConfigManager.GetDefaultUserParams
+- uid: SharedLibrary.Managers.ConfigManager.GetDefaultUserParams*
+  name: GetDefaultUserParams
+  href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_GetDefaultUserParams_
+  commentId: Overload:SharedLibrary.Managers.ConfigManager.GetDefaultUserParams
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.ConfigManager.GetDefaultUserParams
+  nameWithType: ConfigManager.GetDefaultUserParams
 - uid: SharedLibrary.Managers.ConfigManager.GetEveryDayTasksIds
   name: GetEveryDayTasksIds
   href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_GetEveryDayTasksIds
