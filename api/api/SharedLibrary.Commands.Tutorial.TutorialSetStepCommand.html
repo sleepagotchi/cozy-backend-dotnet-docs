@@ -94,6 +94,7 @@
     <h5>Implements</h5>
     <div><a class="xref" href="SharedLibrary.Commands.ICommand-2.html">ICommand</a>&lt;<a class="xref" href="SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.html">TutorialSetStepArgs</a>, <a class="xref" href="SharedLibrary.Data.Player.html">Player</a>&gt;</div>
     <div><a class="xref" href="SharedLibrary.Commands.ICommandBase.html">ICommandBase</a></div>
+    <div><a class="xref" href="SharedLibrary.Protocol.ProtocolMessages.IProtocolMessageConverter-2.html">IProtocolMessageConverter</a>&lt;<a class="xref" href="SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.html">TutorialSetStepArgs</a>, <a class="xref" href="SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.html">TutorialSetStepProtocolMessageV1</a>&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -120,7 +121,7 @@
   <h6><strong>Assembly</strong>: SharedLibrary.dll</h6>
   <h5 id="SharedLibrary_Commands_Tutorial_TutorialSetStepCommand_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TutorialSetStepCommand : CommandBase&lt;TutorialSetStepArgs, Player&gt;, ICommand&lt;TutorialSetStepArgs, Player&gt;, ICommandBase</code></pre>
+    <pre><code class="lang-csharp hljs">public class TutorialSetStepCommand : CommandBase&lt;TutorialSetStepArgs, Player&gt;, ICommand&lt;TutorialSetStepArgs, Player&gt;, ICommandBase, IProtocolMessageConverter&lt;TutorialSetStepArgs, TutorialSetStepProtocolMessageV1&gt;</code></pre>
   </div>
   <h3 id="methods">Methods
 </h3>
@@ -129,7 +130,7 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Commands_Tutorial_TutorialSetStepCommand_Execute_SharedLibrary_Commands_Arguments_Tutorial_TutorialSetStepArgs_.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.Tutorial.TutorialSetStepCommand.Execute(SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/Tutorial/TutorialSetStepCommand.cs/#L16">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/Tutorial/TutorialSetStepCommand.cs/#L19">View Source</a>
   </span>
   <a id="SharedLibrary_Commands_Tutorial_TutorialSetStepCommand_Execute_" data-uid="SharedLibrary.Commands.Tutorial.TutorialSetStepCommand.Execute*"></a>
   <h4 id="SharedLibrary_Commands_Tutorial_TutorialSetStepCommand_Execute_SharedLibrary_Commands_Arguments_Tutorial_TutorialSetStepArgs_" data-uid="SharedLibrary.Commands.Tutorial.TutorialSetStepCommand.Execute(SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs)">Execute(TutorialSetStepArgs)</h4>
@@ -176,12 +177,76 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="SharedLibrary.Commands.CommandBase-2.html#SharedLibrary_Commands_CommandBase_2_Execute__0_">CommandBase&lt;TutorialSetStepArgs, Player&gt;.Execute(TutorialSetStepArgs)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Commands_Tutorial_TutorialSetStepCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Tutorial_TutorialSetStepArgs_System_String_.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.Tutorial.TutorialSetStepCommand.ToProtocolMessage(System.String%2CSharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/Tutorial/TutorialSetStepCommand.cs/#L31">View Source</a>
+  </span>
+  <a id="SharedLibrary_Commands_Tutorial_TutorialSetStepCommand_ToProtocolMessage_" data-uid="SharedLibrary.Commands.Tutorial.TutorialSetStepCommand.ToProtocolMessage*"></a>
+  <h4 id="SharedLibrary_Commands_Tutorial_TutorialSetStepCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Tutorial_TutorialSetStepArgs_System_String_" data-uid="SharedLibrary.Commands.Tutorial.TutorialSetStepCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs,System.String)">ToProtocolMessage(string, TutorialSetStepArgs, string?)</h4>
+  <div class="markdown level1 summary"><p>Creates a protocol message from command arguments.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TutorialSetStepProtocolMessageV1 ToProtocolMessage(string userId, TutorialSetStepArgs args, string? clientMarker = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">userId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs.html">TutorialSetStepArgs</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The command arguments</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">clientMarker</span></td>
+        <td><p>Optional client marker for request correlation</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Protocol.ProtocolMessages.Tutorial.TutorialSetStepProtocolMessageV1.html">TutorialSetStepProtocolMessageV1</a></td>
+        <td><p>A protocol message ready to be sent over the network</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="SharedLibrary.Commands.ICommand-2.html">ICommand&lt;TArgs, TResult&gt;</a>
   </div>
   <div>
       <a class="xref" href="SharedLibrary.Commands.ICommandBase.html">ICommandBase</a>
+  </div>
+  <div>
+      <a class="xref" href="SharedLibrary.Protocol.ProtocolMessages.IProtocolMessageConverter-2.html">IProtocolMessageConverter&lt;TArgs, TProtocolMessage&gt;</a>
   </div>
 
 </article>
@@ -195,7 +260,7 @@
                     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Commands_Tutorial_TutorialSetStepCommand.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.Tutorial.TutorialSetStepCommand%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/Tutorial/TutorialSetStepCommand.cs/#L9" class="contribution-link">View Source</a>
+                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/Tutorial/TutorialSetStepCommand.cs/#L11" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

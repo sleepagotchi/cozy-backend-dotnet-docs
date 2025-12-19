@@ -32,6 +32,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Adventures.AdventureCompleteCommand.Execute
   nameWithType: AdventureCompleteCommand.Execute
+- uid: SharedLibrary.Commands.Adventures.AdventureCompleteCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs,System.String)
+  name: ToProtocolMessage(string, AdventureCompleteArgs, string?)
+  href: api/api/SharedLibrary.Commands.Adventures.AdventureCompleteCommand.html#SharedLibrary_Commands_Adventures_AdventureCompleteCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Adventures_AdventureCompleteArgs_System_String_
+  commentId: M:SharedLibrary.Commands.Adventures.AdventureCompleteCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs,System.String)
+  name.vb: ToProtocolMessage(String, AdventureCompleteArgs, String)
+  fullName: SharedLibrary.Commands.Adventures.AdventureCompleteCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs, string?)
+  fullName.vb: SharedLibrary.Commands.Adventures.AdventureCompleteCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Adventures.AdventureCompleteArgs, String)
+  nameWithType: AdventureCompleteCommand.ToProtocolMessage(string, AdventureCompleteArgs, string?)
+  nameWithType.vb: AdventureCompleteCommand.ToProtocolMessage(String, AdventureCompleteArgs, String)
+- uid: SharedLibrary.Commands.Adventures.AdventureCompleteCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Adventures.AdventureCompleteCommand.html#SharedLibrary_Commands_Adventures_AdventureCompleteCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Adventures.AdventureCompleteCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Adventures.AdventureCompleteCommand.ToProtocolMessage
+  nameWithType: AdventureCompleteCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.Adventures.AdventureStartCommand
   name: AdventureStartCommand
   href: api/api/SharedLibrary.Commands.Adventures.AdventureStartCommand.html
@@ -51,6 +67,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Adventures.AdventureStartCommand.Execute
   nameWithType: AdventureStartCommand.Execute
+- uid: SharedLibrary.Commands.Adventures.AdventureStartCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs,System.String)
+  name: ToProtocolMessage(string, AdventureStartArgs, string?)
+  href: api/api/SharedLibrary.Commands.Adventures.AdventureStartCommand.html#SharedLibrary_Commands_Adventures_AdventureStartCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Adventures_AdventureStartArgs_System_String_
+  commentId: M:SharedLibrary.Commands.Adventures.AdventureStartCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs,System.String)
+  name.vb: ToProtocolMessage(String, AdventureStartArgs, String)
+  fullName: SharedLibrary.Commands.Adventures.AdventureStartCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs, string?)
+  fullName.vb: SharedLibrary.Commands.Adventures.AdventureStartCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Adventures.AdventureStartArgs, String)
+  nameWithType: AdventureStartCommand.ToProtocolMessage(string, AdventureStartArgs, string?)
+  nameWithType.vb: AdventureStartCommand.ToProtocolMessage(String, AdventureStartArgs, String)
+- uid: SharedLibrary.Commands.Adventures.AdventureStartCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Adventures.AdventureStartCommand.html#SharedLibrary_Commands_Adventures_AdventureStartCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Adventures.AdventureStartCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Adventures.AdventureStartCommand.ToProtocolMessage
+  nameWithType: AdventureStartCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.Arguments.Adventures
   name: SharedLibrary.Commands.Arguments.Adventures
   href: api/api/SharedLibrary.Commands.Arguments.Adventures.html
@@ -728,15 +760,15 @@ references:
   commentId: T:SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs
   fullName: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs
   nameWithType: PlaceItemToIslandArgs
-- uid: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.ItemsManager,System.String)
-  name: PlaceItemToIslandArgs(Player, ItemsManager, string)
-  href: api/api/SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.html#SharedLibrary_Commands_Arguments_Items_PlaceItemToIslandArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_ItemsManager_System_String_
-  commentId: M:SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.ItemsManager,System.String)
-  name.vb: New(Player, ItemsManager, String)
-  fullName: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.PlaceItemToIslandArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.ItemsManager, string)
-  fullName.vb: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.ItemsManager, String)
-  nameWithType: PlaceItemToIslandArgs.PlaceItemToIslandArgs(Player, ItemsManager, string)
-  nameWithType.vb: PlaceItemToIslandArgs.New(Player, ItemsManager, String)
+- uid: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.ItemsManager,System.String,System.String)
+  name: PlaceItemToIslandArgs(Player, ItemsManager, string, string)
+  href: api/api/SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.html#SharedLibrary_Commands_Arguments_Items_PlaceItemToIslandArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_ItemsManager_System_String_System_String_
+  commentId: M:SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.ItemsManager,System.String,System.String)
+  name.vb: New(Player, ItemsManager, String, String)
+  fullName: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.PlaceItemToIslandArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.ItemsManager, string, string)
+  fullName.vb: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.ItemsManager, String, String)
+  nameWithType: PlaceItemToIslandArgs.PlaceItemToIslandArgs(Player, ItemsManager, string, string)
+  nameWithType.vb: PlaceItemToIslandArgs.New(Player, ItemsManager, String, String)
 - uid: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.#ctor*
   name: PlaceItemToIslandArgs
   href: api/api/SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.html#SharedLibrary_Commands_Arguments_Items_PlaceItemToIslandArgs__ctor_
@@ -747,6 +779,19 @@ references:
   fullName.vb: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.New
   nameWithType: PlaceItemToIslandArgs.PlaceItemToIslandArgs
   nameWithType.vb: PlaceItemToIslandArgs.New
+- uid: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.IslandId
+  name: IslandId
+  href: api/api/SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.html#SharedLibrary_Commands_Arguments_Items_PlaceItemToIslandArgs_IslandId
+  commentId: P:SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.IslandId
+  fullName: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.IslandId
+  nameWithType: PlaceItemToIslandArgs.IslandId
+- uid: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.IslandId*
+  name: IslandId
+  href: api/api/SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.html#SharedLibrary_Commands_Arguments_Items_PlaceItemToIslandArgs_IslandId_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.IslandId
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.IslandId
+  nameWithType: PlaceItemToIslandArgs.IslandId
 - uid: SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.ItemId
   name: ItemId
   href: api/api/SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs.html#SharedLibrary_Commands_Arguments_Items_PlaceItemToIslandArgs_ItemId
@@ -792,15 +837,15 @@ references:
   commentId: T:SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs
   fullName: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs
   nameWithType: RemoveItemFromIslandArgs
-- uid: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.ItemsManager,System.String)
-  name: RemoveItemFromIslandArgs(Player, ItemsManager, string)
-  href: api/api/SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.html#SharedLibrary_Commands_Arguments_Items_RemoveItemFromIslandArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_ItemsManager_System_String_
-  commentId: M:SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.ItemsManager,System.String)
-  name.vb: New(Player, ItemsManager, String)
-  fullName: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.RemoveItemFromIslandArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.ItemsManager, string)
-  fullName.vb: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.ItemsManager, String)
-  nameWithType: RemoveItemFromIslandArgs.RemoveItemFromIslandArgs(Player, ItemsManager, string)
-  nameWithType.vb: RemoveItemFromIslandArgs.New(Player, ItemsManager, String)
+- uid: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.ItemsManager,System.String,System.String)
+  name: RemoveItemFromIslandArgs(Player, ItemsManager, string, string)
+  href: api/api/SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.html#SharedLibrary_Commands_Arguments_Items_RemoveItemFromIslandArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_ItemsManager_System_String_System_String_
+  commentId: M:SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.ItemsManager,System.String,System.String)
+  name.vb: New(Player, ItemsManager, String, String)
+  fullName: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.RemoveItemFromIslandArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.ItemsManager, string, string)
+  fullName.vb: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.ItemsManager, String, String)
+  nameWithType: RemoveItemFromIslandArgs.RemoveItemFromIslandArgs(Player, ItemsManager, string, string)
+  nameWithType.vb: RemoveItemFromIslandArgs.New(Player, ItemsManager, String, String)
 - uid: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.#ctor*
   name: RemoveItemFromIslandArgs
   href: api/api/SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.html#SharedLibrary_Commands_Arguments_Items_RemoveItemFromIslandArgs__ctor_
@@ -811,6 +856,19 @@ references:
   fullName.vb: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.New
   nameWithType: RemoveItemFromIslandArgs.RemoveItemFromIslandArgs
   nameWithType.vb: RemoveItemFromIslandArgs.New
+- uid: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.IslandId
+  name: IslandId
+  href: api/api/SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.html#SharedLibrary_Commands_Arguments_Items_RemoveItemFromIslandArgs_IslandId
+  commentId: P:SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.IslandId
+  fullName: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.IslandId
+  nameWithType: RemoveItemFromIslandArgs.IslandId
+- uid: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.IslandId*
+  name: IslandId
+  href: api/api/SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.html#SharedLibrary_Commands_Arguments_Items_RemoveItemFromIslandArgs_IslandId_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.IslandId
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.IslandId
+  nameWithType: RemoveItemFromIslandArgs.IslandId
 - uid: SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.ItemId
   name: ItemId
   href: api/api/SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs.html#SharedLibrary_Commands_Arguments_Items_RemoveItemFromIslandArgs_ItemId
@@ -984,6 +1042,70 @@ references:
   commentId: N:SharedLibrary.Commands.Arguments.PlayerInfo
   fullName: SharedLibrary.Commands.Arguments.PlayerInfo
   nameWithType: SharedLibrary.Commands.Arguments.PlayerInfo
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs
+  name: PlayerGetArgs
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs
+  nameWithType: PlayerGetArgs
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.Int32)
+  name: PlayerGetArgs(Player, TasksManager, int)
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerGetArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_TasksManager_System_Int32_
+  commentId: M:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.Int32)
+  name.vb: New(Player, TasksManager, Integer)
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.PlayerGetArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, int)
+  fullName.vb: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, Integer)
+  nameWithType: PlayerGetArgs.PlayerGetArgs(Player, TasksManager, int)
+  nameWithType.vb: PlayerGetArgs.New(Player, TasksManager, Integer)
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.#ctor*
+  name: PlayerGetArgs
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerGetArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.PlayerGetArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.New
+  nameWithType: PlayerGetArgs.PlayerGetArgs
+  nameWithType.vb: PlayerGetArgs.New
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerGetArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.Player
+  nameWithType: PlayerGetArgs.Player
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerGetArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.Player
+  nameWithType: PlayerGetArgs.Player
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.TasksManager
+  name: TasksManager
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerGetArgs_TasksManager
+  commentId: P:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.TasksManager
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.TasksManager
+  nameWithType: PlayerGetArgs.TasksManager
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.TasksManager*
+  name: TasksManager
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerGetArgs_TasksManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.TasksManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.TasksManager
+  nameWithType: PlayerGetArgs.TasksManager
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.TzOffsetSeconds
+  name: TzOffsetSeconds
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerGetArgs_TzOffsetSeconds
+  commentId: P:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.TzOffsetSeconds
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.TzOffsetSeconds
+  nameWithType: PlayerGetArgs.TzOffsetSeconds
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.TzOffsetSeconds*
+  name: TzOffsetSeconds
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerGetArgs_TzOffsetSeconds_
+  commentId: Overload:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.TzOffsetSeconds
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.TzOffsetSeconds
+  nameWithType: PlayerGetArgs.TzOffsetSeconds
 - uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs
   name: PlayerInfoChangeNameArgs
   href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.html
@@ -2375,6 +2497,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.CommandsPool.ExecuteCommand
   nameWithType: CommandsPool.ExecuteCommand
+- uid: SharedLibrary.Commands.CommandsPool.ExecuteCommandWithProtocol*
+  name: ExecuteCommandWithProtocol
+  href: api/api/SharedLibrary.Commands.CommandsPool.html#SharedLibrary_Commands_CommandsPool_ExecuteCommandWithProtocol_
+  commentId: Overload:SharedLibrary.Commands.CommandsPool.ExecuteCommandWithProtocol
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.CommandsPool.ExecuteCommandWithProtocol
+  nameWithType: CommandsPool.ExecuteCommandWithProtocol
+- uid: SharedLibrary.Commands.CommandsPool.ExecuteCommandWithProtocol``2(SharedLibrary.Data.CommandType,``0,System.String,System.String)
+  name: ExecuteCommandWithProtocol<TArgs, TReturn>(CommandType, TArgs, string, string?)
+  href: api/api/SharedLibrary.Commands.CommandsPool.html#SharedLibrary_Commands_CommandsPool_ExecuteCommandWithProtocol__2_SharedLibrary_Data_CommandType___0_System_String_System_String_
+  commentId: M:SharedLibrary.Commands.CommandsPool.ExecuteCommandWithProtocol``2(SharedLibrary.Data.CommandType,``0,System.String,System.String)
+  name.vb: ExecuteCommandWithProtocol(Of TArgs, TReturn)(CommandType, TArgs, String, String)
+  fullName: SharedLibrary.Commands.CommandsPool.ExecuteCommandWithProtocol<TArgs, TReturn>(SharedLibrary.Data.CommandType, TArgs, string, string?)
+  fullName.vb: SharedLibrary.Commands.CommandsPool.ExecuteCommandWithProtocol(Of TArgs, TReturn)(SharedLibrary.Data.CommandType, TArgs, String, String)
+  nameWithType: CommandsPool.ExecuteCommandWithProtocol<TArgs, TReturn>(CommandType, TArgs, string, string?)
+  nameWithType.vb: CommandsPool.ExecuteCommandWithProtocol(Of TArgs, TReturn)(CommandType, TArgs, String, String)
 - uid: SharedLibrary.Commands.CommandsPool.ExecuteCommand``2(SharedLibrary.Data.CommandType,``0)
   name: ExecuteCommand<TArgs, TReturn>(CommandType, TArgs)
   href: api/api/SharedLibrary.Commands.CommandsPool.html#SharedLibrary_Commands_CommandsPool_ExecuteCommand__2_SharedLibrary_Data_CommandType___0_
@@ -2410,6 +2548,12 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.CommandsPool.I
   nameWithType: CommandsPool.I
+- uid: SharedLibrary.Commands.CommandsPool.OnProtocolMessageCreated
+  name: OnProtocolMessageCreated
+  href: api/api/SharedLibrary.Commands.CommandsPool.html#SharedLibrary_Commands_CommandsPool_OnProtocolMessageCreated
+  commentId: F:SharedLibrary.Commands.CommandsPool.OnProtocolMessageCreated
+  fullName: SharedLibrary.Commands.CommandsPool.OnProtocolMessageCreated
+  nameWithType: CommandsPool.OnProtocolMessageCreated
 - uid: SharedLibrary.Commands.Cosmetic
   name: SharedLibrary.Commands.Cosmetic
   href: api/api/SharedLibrary.Commands.Cosmetic.html
@@ -2435,6 +2579,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Cosmetic.AddCosmeticItemCommand.Execute
   nameWithType: AddCosmeticItemCommand.Execute
+- uid: SharedLibrary.Commands.Cosmetic.AddCosmeticItemCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs,System.String)
+  name: ToProtocolMessage(string, AddCosmeticItemArgs, string?)
+  href: api/api/SharedLibrary.Commands.Cosmetic.AddCosmeticItemCommand.html#SharedLibrary_Commands_Cosmetic_AddCosmeticItemCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Cosmetic_AddCosmeticItemArgs_System_String_
+  commentId: M:SharedLibrary.Commands.Cosmetic.AddCosmeticItemCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs,System.String)
+  name.vb: ToProtocolMessage(String, AddCosmeticItemArgs, String)
+  fullName: SharedLibrary.Commands.Cosmetic.AddCosmeticItemCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs, string?)
+  fullName.vb: SharedLibrary.Commands.Cosmetic.AddCosmeticItemCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Cosmetic.AddCosmeticItemArgs, String)
+  nameWithType: AddCosmeticItemCommand.ToProtocolMessage(string, AddCosmeticItemArgs, string?)
+  nameWithType.vb: AddCosmeticItemCommand.ToProtocolMessage(String, AddCosmeticItemArgs, String)
+- uid: SharedLibrary.Commands.Cosmetic.AddCosmeticItemCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Cosmetic.AddCosmeticItemCommand.html#SharedLibrary_Commands_Cosmetic_AddCosmeticItemCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Cosmetic.AddCosmeticItemCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Cosmetic.AddCosmeticItemCommand.ToProtocolMessage
+  nameWithType: AddCosmeticItemCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.Cosmetic.CosmeticBuyItemCommand
   name: CosmeticBuyItemCommand
   href: api/api/SharedLibrary.Commands.Cosmetic.CosmeticBuyItemCommand.html
@@ -2454,6 +2614,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Cosmetic.CosmeticBuyItemCommand.Execute
   nameWithType: CosmeticBuyItemCommand.Execute
+- uid: SharedLibrary.Commands.Cosmetic.CosmeticBuyItemCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs,System.String)
+  name: ToProtocolMessage(string, CosmeticBuyItemArgs, string?)
+  href: api/api/SharedLibrary.Commands.Cosmetic.CosmeticBuyItemCommand.html#SharedLibrary_Commands_Cosmetic_CosmeticBuyItemCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Cosmetic_CosmeticBuyItemArgs_System_String_
+  commentId: M:SharedLibrary.Commands.Cosmetic.CosmeticBuyItemCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs,System.String)
+  name.vb: ToProtocolMessage(String, CosmeticBuyItemArgs, String)
+  fullName: SharedLibrary.Commands.Cosmetic.CosmeticBuyItemCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs, string?)
+  fullName.vb: SharedLibrary.Commands.Cosmetic.CosmeticBuyItemCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Cosmetic.CosmeticBuyItemArgs, String)
+  nameWithType: CosmeticBuyItemCommand.ToProtocolMessage(string, CosmeticBuyItemArgs, string?)
+  nameWithType.vb: CosmeticBuyItemCommand.ToProtocolMessage(String, CosmeticBuyItemArgs, String)
+- uid: SharedLibrary.Commands.Cosmetic.CosmeticBuyItemCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Cosmetic.CosmeticBuyItemCommand.html#SharedLibrary_Commands_Cosmetic_CosmeticBuyItemCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Cosmetic.CosmeticBuyItemCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Cosmetic.CosmeticBuyItemCommand.ToProtocolMessage
+  nameWithType: CosmeticBuyItemCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.Cosmetic.CosmeticEquipCommand
   name: CosmeticEquipCommand
   href: api/api/SharedLibrary.Commands.Cosmetic.CosmeticEquipCommand.html
@@ -2473,6 +2649,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Cosmetic.CosmeticEquipCommand.Execute
   nameWithType: CosmeticEquipCommand.Execute
+- uid: SharedLibrary.Commands.Cosmetic.CosmeticEquipCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs,System.String)
+  name: ToProtocolMessage(string, CosmeticEquipArgs, string?)
+  href: api/api/SharedLibrary.Commands.Cosmetic.CosmeticEquipCommand.html#SharedLibrary_Commands_Cosmetic_CosmeticEquipCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Cosmetic_CosmeticEquipArgs_System_String_
+  commentId: M:SharedLibrary.Commands.Cosmetic.CosmeticEquipCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs,System.String)
+  name.vb: ToProtocolMessage(String, CosmeticEquipArgs, String)
+  fullName: SharedLibrary.Commands.Cosmetic.CosmeticEquipCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs, string?)
+  fullName.vb: SharedLibrary.Commands.Cosmetic.CosmeticEquipCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Cosmetic.CosmeticEquipArgs, String)
+  nameWithType: CosmeticEquipCommand.ToProtocolMessage(string, CosmeticEquipArgs, string?)
+  nameWithType.vb: CosmeticEquipCommand.ToProtocolMessage(String, CosmeticEquipArgs, String)
+- uid: SharedLibrary.Commands.Cosmetic.CosmeticEquipCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Cosmetic.CosmeticEquipCommand.html#SharedLibrary_Commands_Cosmetic_CosmeticEquipCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Cosmetic.CosmeticEquipCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Cosmetic.CosmeticEquipCommand.ToProtocolMessage
+  nameWithType: CosmeticEquipCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.Cosmetic.CosmeticToggleFavoriteCommand
   name: CosmeticToggleFavoriteCommand
   href: api/api/SharedLibrary.Commands.Cosmetic.CosmeticToggleFavoriteCommand.html
@@ -2492,6 +2684,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Cosmetic.CosmeticToggleFavoriteCommand.Execute
   nameWithType: CosmeticToggleFavoriteCommand.Execute
+- uid: SharedLibrary.Commands.Cosmetic.CosmeticToggleFavoriteCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs,System.String)
+  name: ToProtocolMessage(string, CosmeticToggleFavoriteArgs, string?)
+  href: api/api/SharedLibrary.Commands.Cosmetic.CosmeticToggleFavoriteCommand.html#SharedLibrary_Commands_Cosmetic_CosmeticToggleFavoriteCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Cosmetic_CosmeticToggleFavoriteArgs_System_String_
+  commentId: M:SharedLibrary.Commands.Cosmetic.CosmeticToggleFavoriteCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs,System.String)
+  name.vb: ToProtocolMessage(String, CosmeticToggleFavoriteArgs, String)
+  fullName: SharedLibrary.Commands.Cosmetic.CosmeticToggleFavoriteCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs, string?)
+  fullName.vb: SharedLibrary.Commands.Cosmetic.CosmeticToggleFavoriteCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Cosmetic.CosmeticToggleFavoriteArgs, String)
+  nameWithType: CosmeticToggleFavoriteCommand.ToProtocolMessage(string, CosmeticToggleFavoriteArgs, string?)
+  nameWithType.vb: CosmeticToggleFavoriteCommand.ToProtocolMessage(String, CosmeticToggleFavoriteArgs, String)
+- uid: SharedLibrary.Commands.Cosmetic.CosmeticToggleFavoriteCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Cosmetic.CosmeticToggleFavoriteCommand.html#SharedLibrary_Commands_Cosmetic_CosmeticToggleFavoriteCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Cosmetic.CosmeticToggleFavoriteCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Cosmetic.CosmeticToggleFavoriteCommand.ToProtocolMessage
+  nameWithType: CosmeticToggleFavoriteCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.Cosmetic.CosmeticUnequipItemCommand
   name: CosmeticUnequipItemCommand
   href: api/api/SharedLibrary.Commands.Cosmetic.CosmeticUnequipItemCommand.html
@@ -2511,6 +2719,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Cosmetic.CosmeticUnequipItemCommand.Execute
   nameWithType: CosmeticUnequipItemCommand.Execute
+- uid: SharedLibrary.Commands.Cosmetic.CosmeticUnequipItemCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs,System.String)
+  name: ToProtocolMessage(string, CosmeticUnequipItemArgs, string?)
+  href: api/api/SharedLibrary.Commands.Cosmetic.CosmeticUnequipItemCommand.html#SharedLibrary_Commands_Cosmetic_CosmeticUnequipItemCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Cosmetic_CosmeticUnequipItemArgs_System_String_
+  commentId: M:SharedLibrary.Commands.Cosmetic.CosmeticUnequipItemCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs,System.String)
+  name.vb: ToProtocolMessage(String, CosmeticUnequipItemArgs, String)
+  fullName: SharedLibrary.Commands.Cosmetic.CosmeticUnequipItemCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs, string?)
+  fullName.vb: SharedLibrary.Commands.Cosmetic.CosmeticUnequipItemCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Cosmetic.CosmeticUnequipItemArgs, String)
+  nameWithType: CosmeticUnequipItemCommand.ToProtocolMessage(string, CosmeticUnequipItemArgs, string?)
+  nameWithType.vb: CosmeticUnequipItemCommand.ToProtocolMessage(String, CosmeticUnequipItemArgs, String)
+- uid: SharedLibrary.Commands.Cosmetic.CosmeticUnequipItemCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Cosmetic.CosmeticUnequipItemCommand.html#SharedLibrary_Commands_Cosmetic_CosmeticUnequipItemCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Cosmetic.CosmeticUnequipItemCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Cosmetic.CosmeticUnequipItemCommand.ToProtocolMessage
+  nameWithType: CosmeticUnequipItemCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.Cosmetic.RemoveCosmeticItemCommand
   name: RemoveCosmeticItemCommand
   href: api/api/SharedLibrary.Commands.Cosmetic.RemoveCosmeticItemCommand.html
@@ -2530,6 +2754,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Cosmetic.RemoveCosmeticItemCommand.Execute
   nameWithType: RemoveCosmeticItemCommand.Execute
+- uid: SharedLibrary.Commands.Cosmetic.RemoveCosmeticItemCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs,System.String)
+  name: ToProtocolMessage(string, RemoveCosmeticItemArgs, string?)
+  href: api/api/SharedLibrary.Commands.Cosmetic.RemoveCosmeticItemCommand.html#SharedLibrary_Commands_Cosmetic_RemoveCosmeticItemCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Cosmetic_RemoveCosmeticItemArgs_System_String_
+  commentId: M:SharedLibrary.Commands.Cosmetic.RemoveCosmeticItemCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs,System.String)
+  name.vb: ToProtocolMessage(String, RemoveCosmeticItemArgs, String)
+  fullName: SharedLibrary.Commands.Cosmetic.RemoveCosmeticItemCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs, string?)
+  fullName.vb: SharedLibrary.Commands.Cosmetic.RemoveCosmeticItemCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Cosmetic.RemoveCosmeticItemArgs, String)
+  nameWithType: RemoveCosmeticItemCommand.ToProtocolMessage(string, RemoveCosmeticItemArgs, string?)
+  nameWithType.vb: RemoveCosmeticItemCommand.ToProtocolMessage(String, RemoveCosmeticItemArgs, String)
+- uid: SharedLibrary.Commands.Cosmetic.RemoveCosmeticItemCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Cosmetic.RemoveCosmeticItemCommand.html#SharedLibrary_Commands_Cosmetic_RemoveCosmeticItemCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Cosmetic.RemoveCosmeticItemCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Cosmetic.RemoveCosmeticItemCommand.ToProtocolMessage
+  nameWithType: RemoveCosmeticItemCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.ICommandBase
   name: ICommandBase
   href: api/api/SharedLibrary.Commands.ICommandBase.html
@@ -2591,6 +2831,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.ICommandsPool.ExecuteCommand
   nameWithType: ICommandsPool.ExecuteCommand
+- uid: SharedLibrary.Commands.ICommandsPool.ExecuteCommandWithProtocol*
+  name: ExecuteCommandWithProtocol
+  href: api/api/SharedLibrary.Commands.ICommandsPool.html#SharedLibrary_Commands_ICommandsPool_ExecuteCommandWithProtocol_
+  commentId: Overload:SharedLibrary.Commands.ICommandsPool.ExecuteCommandWithProtocol
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.ICommandsPool.ExecuteCommandWithProtocol
+  nameWithType: ICommandsPool.ExecuteCommandWithProtocol
+- uid: SharedLibrary.Commands.ICommandsPool.ExecuteCommandWithProtocol``2(SharedLibrary.Data.CommandType,``0,System.String,System.String)
+  name: ExecuteCommandWithProtocol<TArgs, TReturn>(CommandType, TArgs, string, string?)
+  href: api/api/SharedLibrary.Commands.ICommandsPool.html#SharedLibrary_Commands_ICommandsPool_ExecuteCommandWithProtocol__2_SharedLibrary_Data_CommandType___0_System_String_System_String_
+  commentId: M:SharedLibrary.Commands.ICommandsPool.ExecuteCommandWithProtocol``2(SharedLibrary.Data.CommandType,``0,System.String,System.String)
+  name.vb: ExecuteCommandWithProtocol(Of TArgs, TReturn)(CommandType, TArgs, String, String)
+  fullName: SharedLibrary.Commands.ICommandsPool.ExecuteCommandWithProtocol<TArgs, TReturn>(SharedLibrary.Data.CommandType, TArgs, string, string?)
+  fullName.vb: SharedLibrary.Commands.ICommandsPool.ExecuteCommandWithProtocol(Of TArgs, TReturn)(SharedLibrary.Data.CommandType, TArgs, String, String)
+  nameWithType: ICommandsPool.ExecuteCommandWithProtocol<TArgs, TReturn>(CommandType, TArgs, string, string?)
+  nameWithType.vb: ICommandsPool.ExecuteCommandWithProtocol(Of TArgs, TReturn)(CommandType, TArgs, String, String)
 - uid: SharedLibrary.Commands.ICommandsPool.ExecuteCommand``2(SharedLibrary.Data.CommandType,``0)
   name: ExecuteCommand<TArgs, TReturn>(CommandType, TArgs)
   href: api/api/SharedLibrary.Commands.ICommandsPool.html#SharedLibrary_Commands_ICommandsPool_ExecuteCommand__2_SharedLibrary_Data_CommandType___0_
@@ -2638,6 +2894,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Items.AddItemToPlayerCommand.Execute
   nameWithType: AddItemToPlayerCommand.Execute
+- uid: SharedLibrary.Commands.Items.AddItemToPlayerCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs,System.String)
+  name: ToProtocolMessage(string, AddItemToPlayerArgs, string?)
+  href: api/api/SharedLibrary.Commands.Items.AddItemToPlayerCommand.html#SharedLibrary_Commands_Items_AddItemToPlayerCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Items_AddItemToPlayerArgs_System_String_
+  commentId: M:SharedLibrary.Commands.Items.AddItemToPlayerCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs,System.String)
+  name.vb: ToProtocolMessage(String, AddItemToPlayerArgs, String)
+  fullName: SharedLibrary.Commands.Items.AddItemToPlayerCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs, string?)
+  fullName.vb: SharedLibrary.Commands.Items.AddItemToPlayerCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Items.AddItemToPlayerArgs, String)
+  nameWithType: AddItemToPlayerCommand.ToProtocolMessage(string, AddItemToPlayerArgs, string?)
+  nameWithType.vb: AddItemToPlayerCommand.ToProtocolMessage(String, AddItemToPlayerArgs, String)
+- uid: SharedLibrary.Commands.Items.AddItemToPlayerCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Items.AddItemToPlayerCommand.html#SharedLibrary_Commands_Items_AddItemToPlayerCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Items.AddItemToPlayerCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Items.AddItemToPlayerCommand.ToProtocolMessage
+  nameWithType: AddItemToPlayerCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.Items.BuyItemCommand
   name: BuyItemCommand
   href: api/api/SharedLibrary.Commands.Items.BuyItemCommand.html
@@ -2657,6 +2929,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Items.BuyItemCommand.Execute
   nameWithType: BuyItemCommand.Execute
+- uid: SharedLibrary.Commands.Items.BuyItemCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Items.BuyItemArgs,System.String)
+  name: ToProtocolMessage(string, BuyItemArgs, string?)
+  href: api/api/SharedLibrary.Commands.Items.BuyItemCommand.html#SharedLibrary_Commands_Items_BuyItemCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Items_BuyItemArgs_System_String_
+  commentId: M:SharedLibrary.Commands.Items.BuyItemCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Items.BuyItemArgs,System.String)
+  name.vb: ToProtocolMessage(String, BuyItemArgs, String)
+  fullName: SharedLibrary.Commands.Items.BuyItemCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Items.BuyItemArgs, string?)
+  fullName.vb: SharedLibrary.Commands.Items.BuyItemCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Items.BuyItemArgs, String)
+  nameWithType: BuyItemCommand.ToProtocolMessage(string, BuyItemArgs, string?)
+  nameWithType.vb: BuyItemCommand.ToProtocolMessage(String, BuyItemArgs, String)
+- uid: SharedLibrary.Commands.Items.BuyItemCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Items.BuyItemCommand.html#SharedLibrary_Commands_Items_BuyItemCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Items.BuyItemCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Items.BuyItemCommand.ToProtocolMessage
+  nameWithType: BuyItemCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.Items.PlaceItemToIslandCommand
   name: PlaceItemToIslandCommand
   href: api/api/SharedLibrary.Commands.Items.PlaceItemToIslandCommand.html
@@ -2676,6 +2964,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Items.PlaceItemToIslandCommand.Execute
   nameWithType: PlaceItemToIslandCommand.Execute
+- uid: SharedLibrary.Commands.Items.PlaceItemToIslandCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs,System.String)
+  name: ToProtocolMessage(string, PlaceItemToIslandArgs, string?)
+  href: api/api/SharedLibrary.Commands.Items.PlaceItemToIslandCommand.html#SharedLibrary_Commands_Items_PlaceItemToIslandCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Items_PlaceItemToIslandArgs_System_String_
+  commentId: M:SharedLibrary.Commands.Items.PlaceItemToIslandCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs,System.String)
+  name.vb: ToProtocolMessage(String, PlaceItemToIslandArgs, String)
+  fullName: SharedLibrary.Commands.Items.PlaceItemToIslandCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs, string?)
+  fullName.vb: SharedLibrary.Commands.Items.PlaceItemToIslandCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Items.PlaceItemToIslandArgs, String)
+  nameWithType: PlaceItemToIslandCommand.ToProtocolMessage(string, PlaceItemToIslandArgs, string?)
+  nameWithType.vb: PlaceItemToIslandCommand.ToProtocolMessage(String, PlaceItemToIslandArgs, String)
+- uid: SharedLibrary.Commands.Items.PlaceItemToIslandCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Items.PlaceItemToIslandCommand.html#SharedLibrary_Commands_Items_PlaceItemToIslandCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Items.PlaceItemToIslandCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Items.PlaceItemToIslandCommand.ToProtocolMessage
+  nameWithType: PlaceItemToIslandCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.Items.RemoveItemFromIslandCommand
   name: RemoveItemFromIslandCommand
   href: api/api/SharedLibrary.Commands.Items.RemoveItemFromIslandCommand.html
@@ -2695,6 +2999,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Items.RemoveItemFromIslandCommand.Execute
   nameWithType: RemoveItemFromIslandCommand.Execute
+- uid: SharedLibrary.Commands.Items.RemoveItemFromIslandCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs,System.String)
+  name: ToProtocolMessage(string, RemoveItemFromIslandArgs, string?)
+  href: api/api/SharedLibrary.Commands.Items.RemoveItemFromIslandCommand.html#SharedLibrary_Commands_Items_RemoveItemFromIslandCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Items_RemoveItemFromIslandArgs_System_String_
+  commentId: M:SharedLibrary.Commands.Items.RemoveItemFromIslandCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs,System.String)
+  name.vb: ToProtocolMessage(String, RemoveItemFromIslandArgs, String)
+  fullName: SharedLibrary.Commands.Items.RemoveItemFromIslandCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs, string?)
+  fullName.vb: SharedLibrary.Commands.Items.RemoveItemFromIslandCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Items.RemoveItemFromIslandArgs, String)
+  nameWithType: RemoveItemFromIslandCommand.ToProtocolMessage(string, RemoveItemFromIslandArgs, string?)
+  nameWithType.vb: RemoveItemFromIslandCommand.ToProtocolMessage(String, RemoveItemFromIslandArgs, String)
+- uid: SharedLibrary.Commands.Items.RemoveItemFromIslandCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Items.RemoveItemFromIslandCommand.html#SharedLibrary_Commands_Items_RemoveItemFromIslandCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Items.RemoveItemFromIslandCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Items.RemoveItemFromIslandCommand.ToProtocolMessage
+  nameWithType: RemoveItemFromIslandCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.Items.RemoveItemFromPlayerCommand
   name: RemoveItemFromPlayerCommand
   href: api/api/SharedLibrary.Commands.Items.RemoveItemFromPlayerCommand.html
@@ -2714,6 +3034,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Items.RemoveItemFromPlayerCommand.Execute
   nameWithType: RemoveItemFromPlayerCommand.Execute
+- uid: SharedLibrary.Commands.Items.RemoveItemFromPlayerCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs,System.String)
+  name: ToProtocolMessage(string, RemoveItemFromPlayerArgs, string?)
+  href: api/api/SharedLibrary.Commands.Items.RemoveItemFromPlayerCommand.html#SharedLibrary_Commands_Items_RemoveItemFromPlayerCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Items_RemoveItemFromPlayerArgs_System_String_
+  commentId: M:SharedLibrary.Commands.Items.RemoveItemFromPlayerCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs,System.String)
+  name.vb: ToProtocolMessage(String, RemoveItemFromPlayerArgs, String)
+  fullName: SharedLibrary.Commands.Items.RemoveItemFromPlayerCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs, string?)
+  fullName.vb: SharedLibrary.Commands.Items.RemoveItemFromPlayerCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Items.RemoveItemFromPlayerArgs, String)
+  nameWithType: RemoveItemFromPlayerCommand.ToProtocolMessage(string, RemoveItemFromPlayerArgs, string?)
+  nameWithType.vb: RemoveItemFromPlayerCommand.ToProtocolMessage(String, RemoveItemFromPlayerArgs, String)
+- uid: SharedLibrary.Commands.Items.RemoveItemFromPlayerCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Items.RemoveItemFromPlayerCommand.html#SharedLibrary_Commands_Items_RemoveItemFromPlayerCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Items.RemoveItemFromPlayerCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Items.RemoveItemFromPlayerCommand.ToProtocolMessage
+  nameWithType: RemoveItemFromPlayerCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.Items.UpgradeItemCommand
   name: UpgradeItemCommand
   href: api/api/SharedLibrary.Commands.Items.UpgradeItemCommand.html
@@ -2733,12 +3069,63 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Items.UpgradeItemCommand.Execute
   nameWithType: UpgradeItemCommand.Execute
+- uid: SharedLibrary.Commands.Items.UpgradeItemCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs,System.String)
+  name: ToProtocolMessage(string, UpgradeItemArgs, string?)
+  href: api/api/SharedLibrary.Commands.Items.UpgradeItemCommand.html#SharedLibrary_Commands_Items_UpgradeItemCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Items_UpgradeItemArgs_System_String_
+  commentId: M:SharedLibrary.Commands.Items.UpgradeItemCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs,System.String)
+  name.vb: ToProtocolMessage(String, UpgradeItemArgs, String)
+  fullName: SharedLibrary.Commands.Items.UpgradeItemCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs, string?)
+  fullName.vb: SharedLibrary.Commands.Items.UpgradeItemCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Items.UpgradeItemArgs, String)
+  nameWithType: UpgradeItemCommand.ToProtocolMessage(string, UpgradeItemArgs, string?)
+  nameWithType.vb: UpgradeItemCommand.ToProtocolMessage(String, UpgradeItemArgs, String)
+- uid: SharedLibrary.Commands.Items.UpgradeItemCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Items.UpgradeItemCommand.html#SharedLibrary_Commands_Items_UpgradeItemCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Items.UpgradeItemCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Items.UpgradeItemCommand.ToProtocolMessage
+  nameWithType: UpgradeItemCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.PlayerInfo
   name: SharedLibrary.Commands.PlayerInfo
   href: api/api/SharedLibrary.Commands.PlayerInfo.html
   commentId: N:SharedLibrary.Commands.PlayerInfo
   fullName: SharedLibrary.Commands.PlayerInfo
   nameWithType: SharedLibrary.Commands.PlayerInfo
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerGetCommand
+  name: PlayerGetCommand
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerGetCommand.html
+  commentId: T:SharedLibrary.Commands.PlayerInfo.PlayerGetCommand
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerGetCommand
+  nameWithType: PlayerGetCommand
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerGetCommand.Execute(SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs)
+  name: Execute(PlayerGetArgs)
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerGetCommand.html#SharedLibrary_Commands_PlayerInfo_PlayerGetCommand_Execute_SharedLibrary_Commands_Arguments_PlayerInfo_PlayerGetArgs_
+  commentId: M:SharedLibrary.Commands.PlayerInfo.PlayerGetCommand.Execute(SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs)
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerGetCommand.Execute(SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs)
+  nameWithType: PlayerGetCommand.Execute(PlayerGetArgs)
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerGetCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerGetCommand.html#SharedLibrary_Commands_PlayerInfo_PlayerGetCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.PlayerInfo.PlayerGetCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerGetCommand.Execute
+  nameWithType: PlayerGetCommand.Execute
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerGetCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs,System.String)
+  name: ToProtocolMessage(string, PlayerGetArgs, string?)
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerGetCommand.html#SharedLibrary_Commands_PlayerInfo_PlayerGetCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_PlayerInfo_PlayerGetArgs_System_String_
+  commentId: M:SharedLibrary.Commands.PlayerInfo.PlayerGetCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs,System.String)
+  name.vb: ToProtocolMessage(String, PlayerGetArgs, String)
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerGetCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs, string?)
+  fullName.vb: SharedLibrary.Commands.PlayerInfo.PlayerGetCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs, String)
+  nameWithType: PlayerGetCommand.ToProtocolMessage(string, PlayerGetArgs, string?)
+  nameWithType.vb: PlayerGetCommand.ToProtocolMessage(String, PlayerGetArgs, String)
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerGetCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerGetCommand.html#SharedLibrary_Commands_PlayerInfo_PlayerGetCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.PlayerInfo.PlayerGetCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerGetCommand.ToProtocolMessage
+  nameWithType: PlayerGetCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand
   name: PlayerInfoChangeNameCommand
   href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand.html
@@ -2758,6 +3145,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand.Execute
   nameWithType: PlayerInfoChangeNameCommand.Execute
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs,System.String)
+  name: ToProtocolMessage(string, PlayerInfoChangeNameArgs, string?)
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand.html#SharedLibrary_Commands_PlayerInfo_PlayerInfoChangeNameCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoChangeNameArgs_System_String_
+  commentId: M:SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs,System.String)
+  name.vb: ToProtocolMessage(String, PlayerInfoChangeNameArgs, String)
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs, string?)
+  fullName.vb: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs, String)
+  nameWithType: PlayerInfoChangeNameCommand.ToProtocolMessage(string, PlayerInfoChangeNameArgs, string?)
+  nameWithType.vb: PlayerInfoChangeNameCommand.ToProtocolMessage(String, PlayerInfoChangeNameArgs, String)
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand.html#SharedLibrary_Commands_PlayerInfo_PlayerInfoChangeNameCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand.ToProtocolMessage
+  nameWithType: PlayerInfoChangeNameCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.PlayerInfo.PlayerResetCheatCommand
   name: PlayerResetCheatCommand
   href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerResetCheatCommand.html
@@ -2802,6 +3205,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.Execute
   nameWithType: PurchaseValidateCommandV1.Execute
+- uid: SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1,System.String)
+  name: ToProtocolMessage(string, PurchaseValidateArgsV1, string?)
+  href: api/api/SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.html#SharedLibrary_Commands_Purchase_PurchaseValidateCommandV1_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Purchase_PurchaseValidateArgsV1_System_String_
+  commentId: M:SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1,System.String)
+  name.vb: ToProtocolMessage(String, PurchaseValidateArgsV1, String)
+  fullName: SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1, string?)
+  fullName.vb: SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1, String)
+  nameWithType: PurchaseValidateCommandV1.ToProtocolMessage(string, PurchaseValidateArgsV1, string?)
+  nameWithType.vb: PurchaseValidateCommandV1.ToProtocolMessage(String, PurchaseValidateArgsV1, String)
+- uid: SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.html#SharedLibrary_Commands_Purchase_PurchaseValidateCommandV1_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.ToProtocolMessage
+  nameWithType: PurchaseValidateCommandV1.ToProtocolMessage
 - uid: SharedLibrary.Commands.Sleep
   name: SharedLibrary.Commands.Sleep
   href: api/api/SharedLibrary.Commands.Sleep.html
@@ -2827,6 +3246,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Sleep.SleepChangeScheduleCommand.Execute
   nameWithType: SleepChangeScheduleCommand.Execute
+- uid: SharedLibrary.Commands.Sleep.SleepChangeScheduleCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs,System.String)
+  name: ToProtocolMessage(string, SleepChangeScheduleArgs, string?)
+  href: api/api/SharedLibrary.Commands.Sleep.SleepChangeScheduleCommand.html#SharedLibrary_Commands_Sleep_SleepChangeScheduleCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Sleep_SleepChangeScheduleArgs_System_String_
+  commentId: M:SharedLibrary.Commands.Sleep.SleepChangeScheduleCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs,System.String)
+  name.vb: ToProtocolMessage(String, SleepChangeScheduleArgs, String)
+  fullName: SharedLibrary.Commands.Sleep.SleepChangeScheduleCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs, string?)
+  fullName.vb: SharedLibrary.Commands.Sleep.SleepChangeScheduleCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Sleep.SleepChangeScheduleArgs, String)
+  nameWithType: SleepChangeScheduleCommand.ToProtocolMessage(string, SleepChangeScheduleArgs, string?)
+  nameWithType.vb: SleepChangeScheduleCommand.ToProtocolMessage(String, SleepChangeScheduleArgs, String)
+- uid: SharedLibrary.Commands.Sleep.SleepChangeScheduleCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Sleep.SleepChangeScheduleCommand.html#SharedLibrary_Commands_Sleep_SleepChangeScheduleCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Sleep.SleepChangeScheduleCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Sleep.SleepChangeScheduleCommand.ToProtocolMessage
+  nameWithType: SleepChangeScheduleCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.Sleep.SleepCheatDateShiftCommand
   name: SleepCheatDateShiftCommand
   href: api/api/SharedLibrary.Commands.Sleep.SleepCheatDateShiftCommand.html
@@ -2846,6 +3281,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Sleep.SleepCheatDateShiftCommand.Execute
   nameWithType: SleepCheatDateShiftCommand.Execute
+- uid: SharedLibrary.Commands.Sleep.SleepCheatDateShiftCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs,System.String)
+  name: ToProtocolMessage(string, SleepCheatDateShiftArgs, string?)
+  href: api/api/SharedLibrary.Commands.Sleep.SleepCheatDateShiftCommand.html#SharedLibrary_Commands_Sleep_SleepCheatDateShiftCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Sleep_SleepCheatDateShiftArgs_System_String_
+  commentId: M:SharedLibrary.Commands.Sleep.SleepCheatDateShiftCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs,System.String)
+  name.vb: ToProtocolMessage(String, SleepCheatDateShiftArgs, String)
+  fullName: SharedLibrary.Commands.Sleep.SleepCheatDateShiftCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs, string?)
+  fullName.vb: SharedLibrary.Commands.Sleep.SleepCheatDateShiftCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Sleep.SleepCheatDateShiftArgs, String)
+  nameWithType: SleepCheatDateShiftCommand.ToProtocolMessage(string, SleepCheatDateShiftArgs, string?)
+  nameWithType.vb: SleepCheatDateShiftCommand.ToProtocolMessage(String, SleepCheatDateShiftArgs, String)
+- uid: SharedLibrary.Commands.Sleep.SleepCheatDateShiftCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Sleep.SleepCheatDateShiftCommand.html#SharedLibrary_Commands_Sleep_SleepCheatDateShiftCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Sleep.SleepCheatDateShiftCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Sleep.SleepCheatDateShiftCommand.ToProtocolMessage
+  nameWithType: SleepCheatDateShiftCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.Sleep.SleepConsistencyUpdateCommand
   name: SleepConsistencyUpdateCommand
   href: api/api/SharedLibrary.Commands.Sleep.SleepConsistencyUpdateCommand.html
@@ -2884,6 +3335,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Sleep.SleepGenerateRewardCommand.Execute
   nameWithType: SleepGenerateRewardCommand.Execute
+- uid: SharedLibrary.Commands.Sleep.SleepGenerateRewardCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs,System.String)
+  name: ToProtocolMessage(string, SleepGenerateRewardArgs, string?)
+  href: api/api/SharedLibrary.Commands.Sleep.SleepGenerateRewardCommand.html#SharedLibrary_Commands_Sleep_SleepGenerateRewardCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Sleep_SleepGenerateRewardArgs_System_String_
+  commentId: M:SharedLibrary.Commands.Sleep.SleepGenerateRewardCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs,System.String)
+  name.vb: ToProtocolMessage(String, SleepGenerateRewardArgs, String)
+  fullName: SharedLibrary.Commands.Sleep.SleepGenerateRewardCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs, string?)
+  fullName.vb: SharedLibrary.Commands.Sleep.SleepGenerateRewardCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs, String)
+  nameWithType: SleepGenerateRewardCommand.ToProtocolMessage(string, SleepGenerateRewardArgs, string?)
+  nameWithType.vb: SleepGenerateRewardCommand.ToProtocolMessage(String, SleepGenerateRewardArgs, String)
+- uid: SharedLibrary.Commands.Sleep.SleepGenerateRewardCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Sleep.SleepGenerateRewardCommand.html#SharedLibrary_Commands_Sleep_SleepGenerateRewardCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Sleep.SleepGenerateRewardCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Sleep.SleepGenerateRewardCommand.ToProtocolMessage
+  nameWithType: SleepGenerateRewardCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.Tasks
   name: SharedLibrary.Commands.Tasks
   href: api/api/SharedLibrary.Commands.Tasks.html
@@ -2909,6 +3376,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Tasks.AddTaskFromSuggestionCommand.Execute
   nameWithType: AddTaskFromSuggestionCommand.Execute
+- uid: SharedLibrary.Commands.Tasks.AddTaskFromSuggestionCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs,System.String)
+  name: ToProtocolMessage(string, AddTaskFromSuggestArgs, string?)
+  href: api/api/SharedLibrary.Commands.Tasks.AddTaskFromSuggestionCommand.html#SharedLibrary_Commands_Tasks_AddTaskFromSuggestionCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Tasks_AddTaskFromSuggestArgs_System_String_
+  commentId: M:SharedLibrary.Commands.Tasks.AddTaskFromSuggestionCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs,System.String)
+  name.vb: ToProtocolMessage(String, AddTaskFromSuggestArgs, String)
+  fullName: SharedLibrary.Commands.Tasks.AddTaskFromSuggestionCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs, string?)
+  fullName.vb: SharedLibrary.Commands.Tasks.AddTaskFromSuggestionCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Tasks.AddTaskFromSuggestArgs, String)
+  nameWithType: AddTaskFromSuggestionCommand.ToProtocolMessage(string, AddTaskFromSuggestArgs, string?)
+  nameWithType.vb: AddTaskFromSuggestionCommand.ToProtocolMessage(String, AddTaskFromSuggestArgs, String)
+- uid: SharedLibrary.Commands.Tasks.AddTaskFromSuggestionCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Tasks.AddTaskFromSuggestionCommand.html#SharedLibrary_Commands_Tasks_AddTaskFromSuggestionCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Tasks.AddTaskFromSuggestionCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Tasks.AddTaskFromSuggestionCommand.ToProtocolMessage
+  nameWithType: AddTaskFromSuggestionCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.Tasks.CompleteTaskCommand
   name: CompleteTaskCommand
   href: api/api/SharedLibrary.Commands.Tasks.CompleteTaskCommand.html
@@ -2928,6 +3411,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Tasks.CompleteTaskCommand.Execute
   nameWithType: CompleteTaskCommand.Execute
+- uid: SharedLibrary.Commands.Tasks.CompleteTaskCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs,System.String)
+  name: ToProtocolMessage(string, CompleteTaskArgs, string?)
+  href: api/api/SharedLibrary.Commands.Tasks.CompleteTaskCommand.html#SharedLibrary_Commands_Tasks_CompleteTaskCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Tasks_CompleteTaskArgs_System_String_
+  commentId: M:SharedLibrary.Commands.Tasks.CompleteTaskCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs,System.String)
+  name.vb: ToProtocolMessage(String, CompleteTaskArgs, String)
+  fullName: SharedLibrary.Commands.Tasks.CompleteTaskCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs, string?)
+  fullName.vb: SharedLibrary.Commands.Tasks.CompleteTaskCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Tasks.CompleteTaskArgs, String)
+  nameWithType: CompleteTaskCommand.ToProtocolMessage(string, CompleteTaskArgs, string?)
+  nameWithType.vb: CompleteTaskCommand.ToProtocolMessage(String, CompleteTaskArgs, String)
+- uid: SharedLibrary.Commands.Tasks.CompleteTaskCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Tasks.CompleteTaskCommand.html#SharedLibrary_Commands_Tasks_CompleteTaskCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Tasks.CompleteTaskCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Tasks.CompleteTaskCommand.ToProtocolMessage
+  nameWithType: CompleteTaskCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.Tasks.CreateTaskCommand
   name: CreateTaskCommand
   href: api/api/SharedLibrary.Commands.Tasks.CreateTaskCommand.html
@@ -2947,6 +3446,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Tasks.CreateTaskCommand.Execute
   nameWithType: CreateTaskCommand.Execute
+- uid: SharedLibrary.Commands.Tasks.CreateTaskCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs,System.String)
+  name: ToProtocolMessage(string, CreateTaskArgs, string?)
+  href: api/api/SharedLibrary.Commands.Tasks.CreateTaskCommand.html#SharedLibrary_Commands_Tasks_CreateTaskCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Tasks_CreateTaskArgs_System_String_
+  commentId: M:SharedLibrary.Commands.Tasks.CreateTaskCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs,System.String)
+  name.vb: ToProtocolMessage(String, CreateTaskArgs, String)
+  fullName: SharedLibrary.Commands.Tasks.CreateTaskCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs, string?)
+  fullName.vb: SharedLibrary.Commands.Tasks.CreateTaskCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Tasks.CreateTaskArgs, String)
+  nameWithType: CreateTaskCommand.ToProtocolMessage(string, CreateTaskArgs, string?)
+  nameWithType.vb: CreateTaskCommand.ToProtocolMessage(String, CreateTaskArgs, String)
+- uid: SharedLibrary.Commands.Tasks.CreateTaskCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Tasks.CreateTaskCommand.html#SharedLibrary_Commands_Tasks_CreateTaskCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Tasks.CreateTaskCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Tasks.CreateTaskCommand.ToProtocolMessage
+  nameWithType: CreateTaskCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.Tasks.GetPlayerTasksCommand
   name: GetPlayerTasksCommand
   href: api/api/SharedLibrary.Commands.Tasks.GetPlayerTasksCommand.html
@@ -2966,6 +3481,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Tasks.GetPlayerTasksCommand.Execute
   nameWithType: GetPlayerTasksCommand.Execute
+- uid: SharedLibrary.Commands.Tasks.GetPlayerTasksCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs,System.String)
+  name: ToProtocolMessage(string, GetPlayerTasksArgs, string?)
+  href: api/api/SharedLibrary.Commands.Tasks.GetPlayerTasksCommand.html#SharedLibrary_Commands_Tasks_GetPlayerTasksCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Tasks_GetPlayerTasksArgs_System_String_
+  commentId: M:SharedLibrary.Commands.Tasks.GetPlayerTasksCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs,System.String)
+  name.vb: ToProtocolMessage(String, GetPlayerTasksArgs, String)
+  fullName: SharedLibrary.Commands.Tasks.GetPlayerTasksCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs, string?)
+  fullName.vb: SharedLibrary.Commands.Tasks.GetPlayerTasksCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Tasks.GetPlayerTasksArgs, String)
+  nameWithType: GetPlayerTasksCommand.ToProtocolMessage(string, GetPlayerTasksArgs, string?)
+  nameWithType.vb: GetPlayerTasksCommand.ToProtocolMessage(String, GetPlayerTasksArgs, String)
+- uid: SharedLibrary.Commands.Tasks.GetPlayerTasksCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Tasks.GetPlayerTasksCommand.html#SharedLibrary_Commands_Tasks_GetPlayerTasksCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Tasks.GetPlayerTasksCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Tasks.GetPlayerTasksCommand.ToProtocolMessage
+  nameWithType: GetPlayerTasksCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.Tasks.RemoveTaskCommand
   name: RemoveTaskCommand
   href: api/api/SharedLibrary.Commands.Tasks.RemoveTaskCommand.html
@@ -2985,6 +3516,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Tasks.RemoveTaskCommand.Execute
   nameWithType: RemoveTaskCommand.Execute
+- uid: SharedLibrary.Commands.Tasks.RemoveTaskCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs,System.String)
+  name: ToProtocolMessage(string, RemoveTaskArgs, string?)
+  href: api/api/SharedLibrary.Commands.Tasks.RemoveTaskCommand.html#SharedLibrary_Commands_Tasks_RemoveTaskCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Tasks_RemoveTaskArgs_System_String_
+  commentId: M:SharedLibrary.Commands.Tasks.RemoveTaskCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs,System.String)
+  name.vb: ToProtocolMessage(String, RemoveTaskArgs, String)
+  fullName: SharedLibrary.Commands.Tasks.RemoveTaskCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs, string?)
+  fullName.vb: SharedLibrary.Commands.Tasks.RemoveTaskCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Tasks.RemoveTaskArgs, String)
+  nameWithType: RemoveTaskCommand.ToProtocolMessage(string, RemoveTaskArgs, string?)
+  nameWithType.vb: RemoveTaskCommand.ToProtocolMessage(String, RemoveTaskArgs, String)
+- uid: SharedLibrary.Commands.Tasks.RemoveTaskCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Tasks.RemoveTaskCommand.html#SharedLibrary_Commands_Tasks_RemoveTaskCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Tasks.RemoveTaskCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Tasks.RemoveTaskCommand.ToProtocolMessage
+  nameWithType: RemoveTaskCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.Tasks.TaskAddDailyTasksCommand
   name: TaskAddDailyTasksCommand
   href: api/api/SharedLibrary.Commands.Tasks.TaskAddDailyTasksCommand.html
@@ -3004,6 +3551,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Tasks.TaskAddDailyTasksCommand.Execute
   nameWithType: TaskAddDailyTasksCommand.Execute
+- uid: SharedLibrary.Commands.Tasks.TaskAddDailyTasksCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs,System.String)
+  name: ToProtocolMessage(string, TaskAddDailyTasksArgs, string?)
+  href: api/api/SharedLibrary.Commands.Tasks.TaskAddDailyTasksCommand.html#SharedLibrary_Commands_Tasks_TaskAddDailyTasksCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Tasks_TaskAddDailyTasksArgs_System_String_
+  commentId: M:SharedLibrary.Commands.Tasks.TaskAddDailyTasksCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs,System.String)
+  name.vb: ToProtocolMessage(String, TaskAddDailyTasksArgs, String)
+  fullName: SharedLibrary.Commands.Tasks.TaskAddDailyTasksCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs, string?)
+  fullName.vb: SharedLibrary.Commands.Tasks.TaskAddDailyTasksCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Tasks.TaskAddDailyTasksArgs, String)
+  nameWithType: TaskAddDailyTasksCommand.ToProtocolMessage(string, TaskAddDailyTasksArgs, string?)
+  nameWithType.vb: TaskAddDailyTasksCommand.ToProtocolMessage(String, TaskAddDailyTasksArgs, String)
+- uid: SharedLibrary.Commands.Tasks.TaskAddDailyTasksCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Tasks.TaskAddDailyTasksCommand.html#SharedLibrary_Commands_Tasks_TaskAddDailyTasksCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Tasks.TaskAddDailyTasksCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Tasks.TaskAddDailyTasksCommand.ToProtocolMessage
+  nameWithType: TaskAddDailyTasksCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.Tasks.TasksAddNonSuggestTaskCommand
   name: TasksAddNonSuggestTaskCommand
   href: api/api/SharedLibrary.Commands.Tasks.TasksAddNonSuggestTaskCommand.html
@@ -3023,6 +3586,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Tasks.TasksAddNonSuggestTaskCommand.Execute
   nameWithType: TasksAddNonSuggestTaskCommand.Execute
+- uid: SharedLibrary.Commands.Tasks.TasksAddNonSuggestTaskCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs,System.String)
+  name: ToProtocolMessage(string, TasksAddNonSuggestTaskArgs, string?)
+  href: api/api/SharedLibrary.Commands.Tasks.TasksAddNonSuggestTaskCommand.html#SharedLibrary_Commands_Tasks_TasksAddNonSuggestTaskCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Tasks_TasksAddNonSuggestTaskArgs_System_String_
+  commentId: M:SharedLibrary.Commands.Tasks.TasksAddNonSuggestTaskCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs,System.String)
+  name.vb: ToProtocolMessage(String, TasksAddNonSuggestTaskArgs, String)
+  fullName: SharedLibrary.Commands.Tasks.TasksAddNonSuggestTaskCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs, string?)
+  fullName.vb: SharedLibrary.Commands.Tasks.TasksAddNonSuggestTaskCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Tasks.TasksAddNonSuggestTaskArgs, String)
+  nameWithType: TasksAddNonSuggestTaskCommand.ToProtocolMessage(string, TasksAddNonSuggestTaskArgs, string?)
+  nameWithType.vb: TasksAddNonSuggestTaskCommand.ToProtocolMessage(String, TasksAddNonSuggestTaskArgs, String)
+- uid: SharedLibrary.Commands.Tasks.TasksAddNonSuggestTaskCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Tasks.TasksAddNonSuggestTaskCommand.html#SharedLibrary_Commands_Tasks_TasksAddNonSuggestTaskCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Tasks.TasksAddNonSuggestTaskCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Tasks.TasksAddNonSuggestTaskCommand.ToProtocolMessage
+  nameWithType: TasksAddNonSuggestTaskCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.Tasks.UpdateTaskCommand
   name: UpdateTaskCommand
   href: api/api/SharedLibrary.Commands.Tasks.UpdateTaskCommand.html
@@ -3042,6 +3621,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Tasks.UpdateTaskCommand.Execute
   nameWithType: UpdateTaskCommand.Execute
+- uid: SharedLibrary.Commands.Tasks.UpdateTaskCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs,System.String)
+  name: ToProtocolMessage(string, UpdateTaskArgs, string?)
+  href: api/api/SharedLibrary.Commands.Tasks.UpdateTaskCommand.html#SharedLibrary_Commands_Tasks_UpdateTaskCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Tasks_UpdateTaskArgs_System_String_
+  commentId: M:SharedLibrary.Commands.Tasks.UpdateTaskCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs,System.String)
+  name.vb: ToProtocolMessage(String, UpdateTaskArgs, String)
+  fullName: SharedLibrary.Commands.Tasks.UpdateTaskCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs, string?)
+  fullName.vb: SharedLibrary.Commands.Tasks.UpdateTaskCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs, String)
+  nameWithType: UpdateTaskCommand.ToProtocolMessage(string, UpdateTaskArgs, string?)
+  nameWithType.vb: UpdateTaskCommand.ToProtocolMessage(String, UpdateTaskArgs, String)
+- uid: SharedLibrary.Commands.Tasks.UpdateTaskCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Tasks.UpdateTaskCommand.html#SharedLibrary_Commands_Tasks_UpdateTaskCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Tasks.UpdateTaskCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Tasks.UpdateTaskCommand.ToProtocolMessage
+  nameWithType: UpdateTaskCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.Tutorial
   name: SharedLibrary.Commands.Tutorial
   href: api/api/SharedLibrary.Commands.Tutorial.html
@@ -3067,6 +3662,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Tutorial.TutorialAddTaskCommand.Execute
   nameWithType: TutorialAddTaskCommand.Execute
+- uid: SharedLibrary.Commands.Tutorial.TutorialAddTaskCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs,System.String)
+  name: ToProtocolMessage(string, TutorialAddTaskArgs, string?)
+  href: api/api/SharedLibrary.Commands.Tutorial.TutorialAddTaskCommand.html#SharedLibrary_Commands_Tutorial_TutorialAddTaskCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Tutorial_TutorialAddTaskArgs_System_String_
+  commentId: M:SharedLibrary.Commands.Tutorial.TutorialAddTaskCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs,System.String)
+  name.vb: ToProtocolMessage(String, TutorialAddTaskArgs, String)
+  fullName: SharedLibrary.Commands.Tutorial.TutorialAddTaskCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs, string?)
+  fullName.vb: SharedLibrary.Commands.Tutorial.TutorialAddTaskCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Tutorial.TutorialAddTaskArgs, String)
+  nameWithType: TutorialAddTaskCommand.ToProtocolMessage(string, TutorialAddTaskArgs, string?)
+  nameWithType.vb: TutorialAddTaskCommand.ToProtocolMessage(String, TutorialAddTaskArgs, String)
+- uid: SharedLibrary.Commands.Tutorial.TutorialAddTaskCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Tutorial.TutorialAddTaskCommand.html#SharedLibrary_Commands_Tutorial_TutorialAddTaskCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Tutorial.TutorialAddTaskCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Tutorial.TutorialAddTaskCommand.ToProtocolMessage
+  nameWithType: TutorialAddTaskCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.Tutorial.TutorialSetOnboardingCompletedCommand
   name: TutorialSetOnboardingCompletedCommand
   href: api/api/SharedLibrary.Commands.Tutorial.TutorialSetOnboardingCompletedCommand.html
@@ -3086,6 +3697,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Tutorial.TutorialSetOnboardingCompletedCommand.Execute
   nameWithType: TutorialSetOnboardingCompletedCommand.Execute
+- uid: SharedLibrary.Commands.Tutorial.TutorialSetOnboardingCompletedCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs,System.String)
+  name: ToProtocolMessage(string, TutorialSetOnboardingCompletedArgs, string?)
+  href: api/api/SharedLibrary.Commands.Tutorial.TutorialSetOnboardingCompletedCommand.html#SharedLibrary_Commands_Tutorial_TutorialSetOnboardingCompletedCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Tutorial_TutorialSetOnboardingCompletedArgs_System_String_
+  commentId: M:SharedLibrary.Commands.Tutorial.TutorialSetOnboardingCompletedCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs,System.String)
+  name.vb: ToProtocolMessage(String, TutorialSetOnboardingCompletedArgs, String)
+  fullName: SharedLibrary.Commands.Tutorial.TutorialSetOnboardingCompletedCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs, string?)
+  fullName.vb: SharedLibrary.Commands.Tutorial.TutorialSetOnboardingCompletedCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Tutorial.TutorialSetOnboardingCompletedArgs, String)
+  nameWithType: TutorialSetOnboardingCompletedCommand.ToProtocolMessage(string, TutorialSetOnboardingCompletedArgs, string?)
+  nameWithType.vb: TutorialSetOnboardingCompletedCommand.ToProtocolMessage(String, TutorialSetOnboardingCompletedArgs, String)
+- uid: SharedLibrary.Commands.Tutorial.TutorialSetOnboardingCompletedCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Tutorial.TutorialSetOnboardingCompletedCommand.html#SharedLibrary_Commands_Tutorial_TutorialSetOnboardingCompletedCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Tutorial.TutorialSetOnboardingCompletedCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Tutorial.TutorialSetOnboardingCompletedCommand.ToProtocolMessage
+  nameWithType: TutorialSetOnboardingCompletedCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.Tutorial.TutorialSetStepCommand
   name: TutorialSetStepCommand
   href: api/api/SharedLibrary.Commands.Tutorial.TutorialSetStepCommand.html
@@ -3105,6 +3732,22 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Tutorial.TutorialSetStepCommand.Execute
   nameWithType: TutorialSetStepCommand.Execute
+- uid: SharedLibrary.Commands.Tutorial.TutorialSetStepCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs,System.String)
+  name: ToProtocolMessage(string, TutorialSetStepArgs, string?)
+  href: api/api/SharedLibrary.Commands.Tutorial.TutorialSetStepCommand.html#SharedLibrary_Commands_Tutorial_TutorialSetStepCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Tutorial_TutorialSetStepArgs_System_String_
+  commentId: M:SharedLibrary.Commands.Tutorial.TutorialSetStepCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs,System.String)
+  name.vb: ToProtocolMessage(String, TutorialSetStepArgs, String)
+  fullName: SharedLibrary.Commands.Tutorial.TutorialSetStepCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs, string?)
+  fullName.vb: SharedLibrary.Commands.Tutorial.TutorialSetStepCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Tutorial.TutorialSetStepArgs, String)
+  nameWithType: TutorialSetStepCommand.ToProtocolMessage(string, TutorialSetStepArgs, string?)
+  nameWithType.vb: TutorialSetStepCommand.ToProtocolMessage(String, TutorialSetStepArgs, String)
+- uid: SharedLibrary.Commands.Tutorial.TutorialSetStepCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Tutorial.TutorialSetStepCommand.html#SharedLibrary_Commands_Tutorial_TutorialSetStepCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Tutorial.TutorialSetStepCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Tutorial.TutorialSetStepCommand.ToProtocolMessage
+  nameWithType: TutorialSetStepCommand.ToProtocolMessage
 - uid: SharedLibrary.Data
   name: SharedLibrary.Data
   href: api/api/SharedLibrary.Data.html
@@ -3665,6 +4308,12 @@ references:
   commentId: F:SharedLibrary.Data.CommandType.ItemUpgrade
   fullName: SharedLibrary.Data.CommandType.ItemUpgrade
   nameWithType: CommandType.ItemUpgrade
+- uid: SharedLibrary.Data.CommandType.PlayerGet
+  name: PlayerGet
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_PlayerGet
+  commentId: F:SharedLibrary.Data.CommandType.PlayerGet
+  fullName: SharedLibrary.Data.CommandType.PlayerGet
+  nameWithType: CommandType.PlayerGet
 - uid: SharedLibrary.Data.CommandType.PlayerInfoChangeName
   name: PlayerInfoChangeName
   href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_PlayerInfoChangeName
@@ -8156,6 +8805,33 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.MessageType
   nameWithType: IProtocolMessage.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessageConverter`2
+  name: IProtocolMessageConverter<TArgs, TProtocolMessage>
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.IProtocolMessageConverter-2.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.IProtocolMessageConverter`2
+  name.vb: IProtocolMessageConverter(Of TArgs, TProtocolMessage)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessageConverter<TArgs, TProtocolMessage>
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessageConverter(Of TArgs, TProtocolMessage)
+  nameWithType: IProtocolMessageConverter<TArgs, TProtocolMessage>
+  nameWithType.vb: IProtocolMessageConverter(Of TArgs, TProtocolMessage)
+- uid: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessageConverter`2.ToProtocolMessage(System.String,`0,System.String)
+  name: ToProtocolMessage(string, TArgs, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.IProtocolMessageConverter-2.html#SharedLibrary_Protocol_ProtocolMessages_IProtocolMessageConverter_2_ToProtocolMessage_System_String__0_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.IProtocolMessageConverter`2.ToProtocolMessage(System.String,`0,System.String)
+  name.vb: ToProtocolMessage(String, TArgs, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessageConverter<TArgs, TProtocolMessage>.ToProtocolMessage(string, TArgs, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessageConverter(Of TArgs, TProtocolMessage).ToProtocolMessage(String, TArgs, String)
+  nameWithType: IProtocolMessageConverter<TArgs, TProtocolMessage>.ToProtocolMessage(string, TArgs, string?)
+  nameWithType.vb: IProtocolMessageConverter(Of TArgs, TProtocolMessage).ToProtocolMessage(String, TArgs, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessageConverter`2.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.IProtocolMessageConverter-2.html#SharedLibrary_Protocol_ProtocolMessages_IProtocolMessageConverter_2_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.IProtocolMessageConverter`2.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessageConverter<TArgs, TProtocolMessage>.ToProtocolMessage
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.IProtocolMessageConverter(Of TArgs, TProtocolMessage).ToProtocolMessage
+  nameWithType: IProtocolMessageConverter<TArgs, TProtocolMessage>.ToProtocolMessage
+  nameWithType.vb: IProtocolMessageConverter(Of TArgs, TProtocolMessage).ToProtocolMessage
 - uid: SharedLibrary.Protocol.ProtocolMessages.Items
   name: SharedLibrary.Protocol.ProtocolMessages.Items
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Items.html
@@ -10111,15 +10787,15 @@ references:
   commentId: T:SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1
   nameWithType: UserGetFullStateProtocolMessageV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.#ctor(System.String,System.String)
-  name: UserGetFullStateProtocolMessageV1(string, string?)
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserGetFullStateProtocolMessageV1__ctor_System_String_System_String_
-  commentId: M:SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.#ctor(System.String,System.String)
-  name.vb: New(String, String)
-  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.UserGetFullStateProtocolMessageV1(string, string?)
-  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.New(String, String)
-  nameWithType: UserGetFullStateProtocolMessageV1.UserGetFullStateProtocolMessageV1(string, string?)
-  nameWithType.vb: UserGetFullStateProtocolMessageV1.New(String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.#ctor(System.String,System.Int32,System.String)
+  name: UserGetFullStateProtocolMessageV1(string, int, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserGetFullStateProtocolMessageV1__ctor_System_String_System_Int32_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.#ctor(System.String,System.Int32,System.String)
+  name.vb: New(String, Integer, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.UserGetFullStateProtocolMessageV1(string, int, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.New(String, Integer, String)
+  nameWithType: UserGetFullStateProtocolMessageV1.UserGetFullStateProtocolMessageV1(string, int, string?)
+  nameWithType.vb: UserGetFullStateProtocolMessageV1.New(String, Integer, String)
 - uid: SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.#ctor*
   name: UserGetFullStateProtocolMessageV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserGetFullStateProtocolMessageV1__ctor_
@@ -10143,6 +10819,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.MessageType
   nameWithType: UserGetFullStateProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.TzOffsetSeconds
+  name: TzOffsetSeconds
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserGetFullStateProtocolMessageV1_TzOffsetSeconds
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.TzOffsetSeconds
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.TzOffsetSeconds
+  nameWithType: UserGetFullStateProtocolMessageV1.TzOffsetSeconds
+- uid: SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.TzOffsetSeconds*
+  name: TzOffsetSeconds
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserGetFullStateProtocolMessageV1_TzOffsetSeconds_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.TzOffsetSeconds
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.TzOffsetSeconds
+  nameWithType: UserGetFullStateProtocolMessageV1.TzOffsetSeconds
 - uid: SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.UserId
   name: UserId
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_User_UserGetFullStateProtocolMessageV1_UserId

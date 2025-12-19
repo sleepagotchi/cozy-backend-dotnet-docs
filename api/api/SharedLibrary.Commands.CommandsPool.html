@@ -117,6 +117,38 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class CommandsPool : ICommandsPool</code></pre>
   </div>
+  <h3 id="fields">Fields
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Commands_CommandsPool_OnProtocolMessageCreated.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.CommandsPool.OnProtocolMessageCreated%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/CommandsPool.cs/#L44">View Source</a>
+  </span>
+  <h4 id="SharedLibrary_Commands_CommandsPool_OnProtocolMessageCreated" data-uid="SharedLibrary.Commands.CommandsPool.OnProtocolMessageCreated">OnProtocolMessageCreated</h4>
+  <div class="markdown level1 summary"><p>Event triggered when a protocol message is created.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action&lt;IProtocolMessage&gt;? OnProtocolMessageCreated</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="SharedLibrary.Protocol.ProtocolMessages.IProtocolMessage.html">IProtocolMessage</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
 </h3>
   <span class="small pull-right mobile-hide">
@@ -124,7 +156,7 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Commands_CommandsPool_I.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.CommandsPool.I%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/CommandsPool.cs/#L22">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/CommandsPool.cs/#L24">View Source</a>
   </span>
   <a id="SharedLibrary_Commands_CommandsPool_I_" data-uid="SharedLibrary.Commands.CommandsPool.I*"></a>
   <h4 id="SharedLibrary_Commands_CommandsPool_I" data-uid="SharedLibrary.Commands.CommandsPool.I">I</h4>
@@ -154,10 +186,115 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Commands_CommandsPool_ExecuteCommandWithProtocol__2_SharedLibrary_Data_CommandType___0_System_String_System_String_.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.CommandsPool.ExecuteCommandWithProtocol%60%602(SharedLibrary.Data.CommandType%2C%60%600%2CSystem.String%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/CommandsPool.cs/#L140">View Source</a>
+  </span>
+  <a id="SharedLibrary_Commands_CommandsPool_ExecuteCommandWithProtocol_" data-uid="SharedLibrary.Commands.CommandsPool.ExecuteCommandWithProtocol*"></a>
+  <h4 id="SharedLibrary_Commands_CommandsPool_ExecuteCommandWithProtocol__2_SharedLibrary_Data_CommandType___0_System_String_System_String_" data-uid="SharedLibrary.Commands.CommandsPool.ExecuteCommandWithProtocol``2(SharedLibrary.Data.CommandType,``0,System.String,System.String)">ExecuteCommandWithProtocol&lt;TArgs, TReturn&gt;(CommandType, TArgs, string, string?)</h4>
+  <div class="markdown level1 summary"><p>Executes a command with the specified arguments and returns the result.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TReturn ExecuteCommandWithProtocol&lt;TArgs, TReturn&gt;(CommandType type, TArgs args, string userId, string? clientMarker = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Data.CommandType.html">CommandType</a></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The type of the command to execute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TArgs</span></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The arguments to pass to the command.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>The user ID to associate with the protocol message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">clientMarker</span></td>
+        <td><p>An optional marker to identify the response, used when creating the protocol message.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TReturn</span></td>
+        <td><p>The result of the command execution.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TArgs</span></td>
+        <td><p>The type of the arguments required by the command.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TReturn</span></td>
+        <td><p>The type of the result returned by the command.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>Thrown when the command type is not found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Commands_CommandsPool_ExecuteCommand__2_SharedLibrary_Data_CommandType___0_.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.CommandsPool.ExecuteCommand%60%602(SharedLibrary.Data.CommandType%2C%60%600)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/CommandsPool.cs/#L113">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/CommandsPool.cs/#L121">View Source</a>
   </span>
   <a id="SharedLibrary_Commands_CommandsPool_ExecuteCommand_" data-uid="SharedLibrary.Commands.CommandsPool.ExecuteCommand*"></a>
   <h4 id="SharedLibrary_Commands_CommandsPool_ExecuteCommand__2_SharedLibrary_Data_CommandType___0_" data-uid="SharedLibrary.Commands.CommandsPool.ExecuteCommand``2(SharedLibrary.Data.CommandType,``0)">ExecuteCommand&lt;TArgs, TReturn&gt;(CommandType, TArgs)</h4>
@@ -250,7 +387,7 @@
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Commands_CommandsPool_GetCommand_SharedLibrary_Data_CommandType_.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.CommandsPool.GetCommand(SharedLibrary.Data.CommandType)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/CommandsPool.cs/#L97">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/CommandsPool.cs/#L105">View Source</a>
   </span>
   <a id="SharedLibrary_Commands_CommandsPool_GetCommand_" data-uid="SharedLibrary.Commands.CommandsPool.GetCommand*"></a>
   <h4 id="SharedLibrary_Commands_CommandsPool_GetCommand_SharedLibrary_Data_CommandType_" data-uid="SharedLibrary.Commands.CommandsPool.GetCommand(SharedLibrary.Data.CommandType)">GetCommand(CommandType)</h4>
@@ -327,7 +464,7 @@
                     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Commands_CommandsPool.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.CommandsPool%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/CommandsPool.cs/#L17" class="contribution-link">View Source</a>
+                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/CommandsPool.cs/#L19" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

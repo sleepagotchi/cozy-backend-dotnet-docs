@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class UpdateTaskCommand | Sleepagotchi SharedLibrary API </title>
+      <title>Class PlayerGetCommand | Sleepagotchi SharedLibrary API </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class UpdateTaskCommand | Sleepagotchi SharedLibrary API ">
+      <meta name="title" content="Class PlayerGetCommand | Sleepagotchi SharedLibrary API ">
     
-    <meta name="description" content="Command to update an existing task for a player.">
+    
       <link rel="shortcut icon" href="../../favicon.ico">
       <link rel="stylesheet" href="../../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../../styles/docfx.css">
@@ -76,30 +76,29 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="SharedLibrary.Commands.Tasks.UpdateTaskCommand">
+            <article class="content wrap" id="_content" data-uid="SharedLibrary.Commands.PlayerInfo.PlayerGetCommand">
 
 
 
-  <h1 id="SharedLibrary_Commands_Tasks_UpdateTaskCommand" data-uid="SharedLibrary.Commands.Tasks.UpdateTaskCommand" class="text-break">Class UpdateTaskCommand</h1>
-  <div class="markdown level0 summary"><p>Command to update an existing task for a player.</p>
-</div>
+  <h1 id="SharedLibrary_Commands_PlayerInfo_PlayerGetCommand" data-uid="SharedLibrary.Commands.PlayerInfo.PlayerGetCommand" class="text-break">Class PlayerGetCommand</h1>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><a class="xref" href="SharedLibrary.Commands.CommandBase-2.html">CommandBase</a>&lt;<a class="xref" href="SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.html">UpdateTaskArgs</a>, <a class="xref" href="SharedLibrary.Data.Player.html">Player</a>&gt;</div>
-    <div class="level2"><span class="xref">UpdateTaskCommand</span></div>
+    <div class="level1"><a class="xref" href="SharedLibrary.Commands.CommandBase-2.html">CommandBase</a>&lt;<a class="xref" href="SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.html">PlayerGetArgs</a>, <a class="xref" href="SharedLibrary.Data.Player.html">Player</a>&gt;</div>
+    <div class="level2"><span class="xref">PlayerGetCommand</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="SharedLibrary.Commands.ICommand-2.html">ICommand</a>&lt;<a class="xref" href="SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.html">UpdateTaskArgs</a>, <a class="xref" href="SharedLibrary.Data.Player.html">Player</a>&gt;</div>
+    <div><a class="xref" href="SharedLibrary.Commands.ICommand-2.html">ICommand</a>&lt;<a class="xref" href="SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.html">PlayerGetArgs</a>, <a class="xref" href="SharedLibrary.Data.Player.html">Player</a>&gt;</div>
     <div><a class="xref" href="SharedLibrary.Commands.ICommandBase.html">ICommandBase</a></div>
-    <div><a class="xref" href="SharedLibrary.Protocol.ProtocolMessages.IProtocolMessageConverter-2.html">IProtocolMessageConverter</a>&lt;<a class="xref" href="SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.html">UpdateTaskArgs</a>, <a class="xref" href="SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.html">TaskUpdateProtocolMessageV1</a>&gt;</div>
+    <div><a class="xref" href="SharedLibrary.Protocol.ProtocolMessages.IProtocolMessageConverter-2.html">IProtocolMessageConverter</a>&lt;<a class="xref" href="SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.html">PlayerGetArgs</a>, <a class="xref" href="SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.html">UserGetFullStateProtocolMessageV1</a>&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="SharedLibrary.Commands.CommandBase-2.html#SharedLibrary_Commands_CommandBase_2_Execute__0_">CommandBase&lt;UpdateTaskArgs, Player&gt;.Execute(UpdateTaskArgs)</a>
+      <a class="xref" href="SharedLibrary.Commands.CommandBase-2.html#SharedLibrary_Commands_CommandBase_2_Execute__0_">CommandBase&lt;PlayerGetArgs, Player&gt;.Execute(PlayerGetArgs)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
@@ -117,29 +116,29 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="SharedLibrary.html">SharedLibrary</a>.<a class="xref" href="SharedLibrary.Commands.html">Commands</a>.<a class="xref" href="SharedLibrary.Commands.Tasks.html">Tasks</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SharedLibrary.html">SharedLibrary</a>.<a class="xref" href="SharedLibrary.Commands.html">Commands</a>.<a class="xref" href="SharedLibrary.Commands.PlayerInfo.html">PlayerInfo</a></h6>
   <h6><strong>Assembly</strong>: SharedLibrary.dll</h6>
-  <h5 id="SharedLibrary_Commands_Tasks_UpdateTaskCommand_syntax">Syntax</h5>
+  <h5 id="SharedLibrary_Commands_PlayerInfo_PlayerGetCommand_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class UpdateTaskCommand : CommandBase&lt;UpdateTaskArgs, Player&gt;, ICommand&lt;UpdateTaskArgs, Player&gt;, ICommandBase, IProtocolMessageConverter&lt;UpdateTaskArgs, TaskUpdateProtocolMessageV1&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class PlayerGetCommand : CommandBase&lt;PlayerGetArgs, Player&gt;, ICommand&lt;PlayerGetArgs, Player&gt;, ICommandBase, IProtocolMessageConverter&lt;PlayerGetArgs, UserGetFullStateProtocolMessageV1&gt;</code></pre>
   </div>
   <h3 id="methods">Methods
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Commands_Tasks_UpdateTaskCommand_Execute_SharedLibrary_Commands_Arguments_Tasks_UpdateTaskArgs_.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.Tasks.UpdateTaskCommand.Execute(SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Commands_PlayerInfo_PlayerGetCommand_Execute_SharedLibrary_Commands_Arguments_PlayerInfo_PlayerGetArgs_.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.PlayerInfo.PlayerGetCommand.Execute(SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/Tasks/UpdateTaskCommand.cs/#L19">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/PlayerInfo/PlayerGetCommand.cs/#L12">View Source</a>
   </span>
-  <a id="SharedLibrary_Commands_Tasks_UpdateTaskCommand_Execute_" data-uid="SharedLibrary.Commands.Tasks.UpdateTaskCommand.Execute*"></a>
-  <h4 id="SharedLibrary_Commands_Tasks_UpdateTaskCommand_Execute_SharedLibrary_Commands_Arguments_Tasks_UpdateTaskArgs_" data-uid="SharedLibrary.Commands.Tasks.UpdateTaskCommand.Execute(SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs)">Execute(UpdateTaskArgs)</h4>
-  <div class="markdown level1 summary"><p>Executes the command to update a task for the specified player.</p>
+  <a id="SharedLibrary_Commands_PlayerInfo_PlayerGetCommand_Execute_" data-uid="SharedLibrary.Commands.PlayerInfo.PlayerGetCommand.Execute*"></a>
+  <h4 id="SharedLibrary_Commands_PlayerInfo_PlayerGetCommand_Execute_SharedLibrary_Commands_Arguments_PlayerInfo_PlayerGetArgs_" data-uid="SharedLibrary.Commands.PlayerInfo.PlayerGetCommand.Execute(SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs)">Execute(PlayerGetArgs)</h4>
+  <div class="markdown level1 summary"><p>Executes the command with the specified arguments.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override Player Execute(UpdateTaskArgs args)</code></pre>
+    <pre><code class="lang-csharp hljs">public override Player Execute(PlayerGetArgs args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -152,9 +151,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.html">UpdateTaskArgs</a></td>
+        <td><a class="xref" href="SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.html">PlayerGetArgs</a></td>
         <td><span class="parametername">args</span></td>
-        <td><p>The arguments required to execute the command, including the player, task manager, and the updated task details.</p>
+        <td><p>The arguments required to execute the command.</p>
 </td>
       </tr>
     </tbody>
@@ -170,28 +169,28 @@
     <tbody>
       <tr>
         <td><a class="xref" href="SharedLibrary.Data.Player.html">Player</a></td>
-        <td><p>The updated player object after the task is modified.</p>
+        <td><p>The result of the command execution.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="SharedLibrary.Commands.CommandBase-2.html#SharedLibrary_Commands_CommandBase_2_Execute__0_">CommandBase&lt;UpdateTaskArgs, Player&gt;.Execute(UpdateTaskArgs)</a></div>
+  <div><a class="xref" href="SharedLibrary.Commands.CommandBase-2.html#SharedLibrary_Commands_CommandBase_2_Execute__0_">CommandBase&lt;PlayerGetArgs, Player&gt;.Execute(PlayerGetArgs)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Commands_Tasks_UpdateTaskCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Tasks_UpdateTaskArgs_System_String_.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.Tasks.UpdateTaskCommand.ToProtocolMessage(System.String%2CSharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Commands_PlayerInfo_PlayerGetCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_PlayerInfo_PlayerGetArgs_System_String_.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.PlayerInfo.PlayerGetCommand.ToProtocolMessage(System.String%2CSharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/Tasks/UpdateTaskCommand.cs/#L32">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/PlayerInfo/PlayerGetCommand.cs/#L18">View Source</a>
   </span>
-  <a id="SharedLibrary_Commands_Tasks_UpdateTaskCommand_ToProtocolMessage_" data-uid="SharedLibrary.Commands.Tasks.UpdateTaskCommand.ToProtocolMessage*"></a>
-  <h4 id="SharedLibrary_Commands_Tasks_UpdateTaskCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Tasks_UpdateTaskArgs_System_String_" data-uid="SharedLibrary.Commands.Tasks.UpdateTaskCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs,System.String)">ToProtocolMessage(string, UpdateTaskArgs, string?)</h4>
+  <a id="SharedLibrary_Commands_PlayerInfo_PlayerGetCommand_ToProtocolMessage_" data-uid="SharedLibrary.Commands.PlayerInfo.PlayerGetCommand.ToProtocolMessage*"></a>
+  <h4 id="SharedLibrary_Commands_PlayerInfo_PlayerGetCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_PlayerInfo_PlayerGetArgs_System_String_" data-uid="SharedLibrary.Commands.PlayerInfo.PlayerGetCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs,System.String)">ToProtocolMessage(string, PlayerGetArgs, string?)</h4>
   <div class="markdown level1 summary"><p>Creates a protocol message from command arguments.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TaskUpdateProtocolMessageV1 ToProtocolMessage(string userId, UpdateTaskArgs args, string? clientMarker = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public UserGetFullStateProtocolMessageV1 ToProtocolMessage(string userId, PlayerGetArgs args, string? clientMarker = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -209,7 +208,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="SharedLibrary.Commands.Arguments.Tasks.UpdateTaskArgs.html">UpdateTaskArgs</a></td>
+        <td><a class="xref" href="SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.html">PlayerGetArgs</a></td>
         <td><span class="parametername">args</span></td>
         <td><p>The command arguments</p>
 </td>
@@ -232,7 +231,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="SharedLibrary.Protocol.ProtocolMessages.Tasks.TaskUpdateProtocolMessageV1.html">TaskUpdateProtocolMessageV1</a></td>
+        <td><a class="xref" href="SharedLibrary.Protocol.ProtocolMessages.User.UserGetFullStateProtocolMessageV1.html">UserGetFullStateProtocolMessageV1</a></td>
         <td><p>A protocol message ready to be sent over the network</p>
 </td>
       </tr>
@@ -257,10 +256,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Commands_Tasks_UpdateTaskCommand.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.Tasks.UpdateTaskCommand%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Commands_PlayerInfo_PlayerGetCommand.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.PlayerInfo.PlayerGetCommand%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/Tasks/UpdateTaskCommand.cs/#L11" class="contribution-link">View Source</a>
+                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/PlayerInfo/PlayerGetCommand.cs/#L9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

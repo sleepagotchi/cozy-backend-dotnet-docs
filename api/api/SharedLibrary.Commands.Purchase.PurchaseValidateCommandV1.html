@@ -95,6 +95,7 @@ This does not validate the receipt itself; it only updates the player state to i
     <h5>Implements</h5>
     <div><a class="xref" href="SharedLibrary.Commands.ICommand-2.html">ICommand</a>&lt;<a class="xref" href="SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.html">PurchaseValidateArgsV1</a>, <a class="xref" href="SharedLibrary.Data.Player.html">Player</a>&gt;</div>
     <div><a class="xref" href="SharedLibrary.Commands.ICommandBase.html">ICommandBase</a></div>
+    <div><a class="xref" href="SharedLibrary.Protocol.ProtocolMessages.IProtocolMessageConverter-2.html">IProtocolMessageConverter</a>&lt;<a class="xref" href="SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.html">PurchaseValidateArgsV1</a>, <a class="xref" href="SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.html">PurchaseValidateProtocolMessageV1</a>&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -121,7 +122,7 @@ This does not validate the receipt itself; it only updates the player state to i
   <h6><strong>Assembly</strong>: SharedLibrary.dll</h6>
   <h5 id="SharedLibrary_Commands_Purchase_PurchaseValidateCommandV1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PurchaseValidateCommandV1 : CommandBase&lt;PurchaseValidateArgsV1, Player&gt;, ICommand&lt;PurchaseValidateArgsV1, Player&gt;, ICommandBase</code></pre>
+    <pre><code class="lang-csharp hljs">public class PurchaseValidateCommandV1 : CommandBase&lt;PurchaseValidateArgsV1, Player&gt;, ICommand&lt;PurchaseValidateArgsV1, Player&gt;, ICommandBase, IProtocolMessageConverter&lt;PurchaseValidateArgsV1, PurchaseValidateProtocolMessageV1&gt;</code></pre>
   </div>
   <h3 id="methods">Methods
 </h3>
@@ -130,7 +131,7 @@ This does not validate the receipt itself; it only updates the player state to i
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Commands_Purchase_PurchaseValidateCommandV1_Execute_SharedLibrary_Commands_Arguments_Purchase_PurchaseValidateArgsV1_.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.Execute(SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/Purchase/PurchaseValidateCommandV1.cs/#L14">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/Purchase/PurchaseValidateCommandV1.cs/#L17">View Source</a>
   </span>
   <a id="SharedLibrary_Commands_Purchase_PurchaseValidateCommandV1_Execute_" data-uid="SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.Execute*"></a>
   <h4 id="SharedLibrary_Commands_Purchase_PurchaseValidateCommandV1_Execute_SharedLibrary_Commands_Arguments_Purchase_PurchaseValidateArgsV1_" data-uid="SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.Execute(SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1)">Execute(PurchaseValidateArgsV1)</h4>
@@ -177,12 +178,76 @@ This does not validate the receipt itself; it only updates the player state to i
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="SharedLibrary.Commands.CommandBase-2.html#SharedLibrary_Commands_CommandBase_2_Execute__0_">CommandBase&lt;PurchaseValidateArgsV1, Player&gt;.Execute(PurchaseValidateArgsV1)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Commands_Purchase_PurchaseValidateCommandV1_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Purchase_PurchaseValidateArgsV1_System_String_.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.ToProtocolMessage(System.String%2CSharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/Purchase/PurchaseValidateCommandV1.cs/#L38">View Source</a>
+  </span>
+  <a id="SharedLibrary_Commands_Purchase_PurchaseValidateCommandV1_ToProtocolMessage_" data-uid="SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.ToProtocolMessage*"></a>
+  <h4 id="SharedLibrary_Commands_Purchase_PurchaseValidateCommandV1_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Purchase_PurchaseValidateArgsV1_System_String_" data-uid="SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1,System.String)">ToProtocolMessage(string, PurchaseValidateArgsV1, string?)</h4>
+  <div class="markdown level1 summary"><p>Creates a protocol message from command arguments.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PurchaseValidateProtocolMessageV1 ToProtocolMessage(string userId, PurchaseValidateArgsV1 args, string? clientMarker = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">userId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.html">PurchaseValidateArgsV1</a></td>
+        <td><span class="parametername">args</span></td>
+        <td><p>The command arguments</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">clientMarker</span></td>
+        <td><p>Optional client marker for request correlation</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.html">PurchaseValidateProtocolMessageV1</a></td>
+        <td><p>A protocol message ready to be sent over the network</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="SharedLibrary.Commands.ICommand-2.html">ICommand&lt;TArgs, TResult&gt;</a>
   </div>
   <div>
       <a class="xref" href="SharedLibrary.Commands.ICommandBase.html">ICommandBase</a>
+  </div>
+  <div>
+      <a class="xref" href="SharedLibrary.Protocol.ProtocolMessages.IProtocolMessageConverter-2.html">IProtocolMessageConverter&lt;TArgs, TProtocolMessage&gt;</a>
   </div>
 
 </article>
@@ -196,7 +261,7 @@ This does not validate the receipt itself; it only updates the player state to i
                     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Commands_Purchase_PurchaseValidateCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/Purchase/PurchaseValidateCommandV1.cs/#L12" class="contribution-link">View Source</a>
+                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/Purchase/PurchaseValidateCommandV1.cs/#L14" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
