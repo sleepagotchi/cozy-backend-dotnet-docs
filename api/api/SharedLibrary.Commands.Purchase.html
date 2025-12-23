@@ -89,6 +89,12 @@ Classes
       <section><p>Command to register a user's intent to validate a purchase (V1).
 This does not validate the receipt itself; it only updates the player state to indicate a pending validation.</p>
 </section>
+      <h4><a class="xref" href="SharedLibrary.Commands.Purchase.PurchaseValidateResultCommandV1.html">PurchaseValidateResultCommandV1</a></h4>
+      <section><p>Command to process the result of a purchase validation.
+If valid, it grants the subscription/items.
+If invalid, it handles the error state.
+Always cleans up pending purchase requests.</p>
+</section>
 
 
 </article>

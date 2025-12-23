@@ -362,6 +362,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateResultArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateResultArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateResultArgs",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateResultArgs.yml\" sourcestartlinenumber=\"1\">Arguments passed to the PurchaseValidateResultCommand.\nContains the player to modify and the result data from the validation service.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Commands.Arguments.Purchase.yml",
       "output": {
         ".html": {
@@ -989,6 +1003,20 @@
       "IsMRef": true,
       "Title": "SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1",
       "Summary": "<p sourcefile=\"api/SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.yml\" sourcestartlinenumber=\"1\">Command to register a user's intent to validate a purchase (V1).\nThis does not validate the receipt itself; it only updates the player state to indicate a pending validation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Purchase.PurchaseValidateResultCommandV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Purchase.PurchaseValidateResultCommandV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Purchase.PurchaseValidateResultCommandV1",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Commands.Purchase.PurchaseValidateResultCommandV1.yml\" sourcestartlinenumber=\"1\">Command to process the result of a purchase validation.\nIf valid, it grants the subscription/items.\nIf invalid, it handles the error state.\nAlways cleans up pending purchase requests.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1650,6 +1678,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Data.Purchase.ActiveSubscription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Data.Purchase.ActiveSubscription.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Data.Purchase.ActiveSubscription",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Data.Purchase.PendingPurchase.yml",
       "output": {
         ".html": {
@@ -1661,6 +1703,20 @@
       "IsMRef": true,
       "Title": "SharedLibrary.Data.Purchase.PendingPurchase",
       "Summary": "<p sourcefile=\"api/SharedLibrary.Data.Purchase.PendingPurchase.yml\" sourcestartlinenumber=\"1\">Represents a user's intent to purchase an item, pending validation from an external store.\nThis entity tracks the lifecycle of a purchase verification request.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Data.Purchase.PurchaseHistoryEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Data.Purchase.PurchaseHistoryEntry.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Data.Purchase.PurchaseHistoryEntry",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2448,6 +2504,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseError.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseError",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseMetadata.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseMetadata",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.yml",
       "output": {
         ".html": {
@@ -2473,6 +2557,20 @@
       "IsMRef": true,
       "Title": "SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1",
       "Summary": "<p sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.yml\" sourcestartlinenumber=\"1\">Internal system command sent to the validation worker to verify a receipt with the store provider.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateResultProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateResultProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateResultProtocolMessageV1",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
