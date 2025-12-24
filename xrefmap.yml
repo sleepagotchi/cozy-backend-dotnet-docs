@@ -1048,15 +1048,15 @@ references:
   commentId: T:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs
   fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs
   nameWithType: PlayerGetArgs
-- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.Int32)
-  name: PlayerGetArgs(Player, TasksManager, int)
-  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerGetArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_TasksManager_System_Int32_
-  commentId: M:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,System.Int32)
-  name.vb: New(Player, TasksManager, Integer)
-  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.PlayerGetArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, int)
-  fullName.vb: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, Integer)
-  nameWithType: PlayerGetArgs.PlayerGetArgs(Player, TasksManager, int)
-  nameWithType.vb: PlayerGetArgs.New(Player, TasksManager, Integer)
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,SharedLibrary.Managers.SleepPassManager,System.Int32)
+  name: PlayerGetArgs(Player, TasksManager, SleepPassManager, int)
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerGetArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_TasksManager_SharedLibrary_Managers_SleepPassManager_System_Int32_
+  commentId: M:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.TasksManager,SharedLibrary.Managers.SleepPassManager,System.Int32)
+  name.vb: New(Player, TasksManager, SleepPassManager, Integer)
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.PlayerGetArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, SharedLibrary.Managers.SleepPassManager, int)
+  fullName.vb: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.TasksManager, SharedLibrary.Managers.SleepPassManager, Integer)
+  nameWithType: PlayerGetArgs.PlayerGetArgs(Player, TasksManager, SleepPassManager, int)
+  nameWithType.vb: PlayerGetArgs.New(Player, TasksManager, SleepPassManager, Integer)
 - uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.#ctor*
   name: PlayerGetArgs
   href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerGetArgs__ctor_
@@ -1080,6 +1080,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.Player
   nameWithType: PlayerGetArgs.Player
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.SleepPassManager
+  name: SleepPassManager
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerGetArgs_SleepPassManager
+  commentId: P:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.SleepPassManager
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.SleepPassManager
+  nameWithType: PlayerGetArgs.SleepPassManager
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.SleepPassManager*
+  name: SleepPassManager
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerGetArgs_SleepPassManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.SleepPassManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.SleepPassManager
+  nameWithType: PlayerGetArgs.SleepPassManager
 - uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.TasksManager
   name: TasksManager
   href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerGetArgs_TasksManager
@@ -1810,6 +1823,166 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Arguments.Sleep.SleepGenerateRewardArgs.Player
   nameWithType: SleepGenerateRewardArgs.Player
+- uid: SharedLibrary.Commands.Arguments.SleepPass
+  name: SharedLibrary.Commands.Arguments.SleepPass
+  href: api/api/SharedLibrary.Commands.Arguments.SleepPass.html
+  commentId: N:SharedLibrary.Commands.Arguments.SleepPass
+  fullName: SharedLibrary.Commands.Arguments.SleepPass
+  nameWithType: SharedLibrary.Commands.Arguments.SleepPass
+- uid: SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs
+  name: SleepPassCheckSeasonArgs
+  href: api/api/SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs
+  fullName: SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs
+  nameWithType: SleepPassCheckSeasonArgs
+- uid: SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.SleepPassManager)
+  name: SleepPassCheckSeasonArgs(Player, SleepPassManager)
+  href: api/api/SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs.html#SharedLibrary_Commands_Arguments_SleepPass_SleepPassCheckSeasonArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Managers_SleepPassManager_
+  commentId: M:SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Managers.SleepPassManager)
+  name.vb: New(Player, SleepPassManager)
+  fullName: SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs.SleepPassCheckSeasonArgs(SharedLibrary.Data.Player, SharedLibrary.Managers.SleepPassManager)
+  fullName.vb: SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs.New(SharedLibrary.Data.Player, SharedLibrary.Managers.SleepPassManager)
+  nameWithType: SleepPassCheckSeasonArgs.SleepPassCheckSeasonArgs(Player, SleepPassManager)
+  nameWithType.vb: SleepPassCheckSeasonArgs.New(Player, SleepPassManager)
+- uid: SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs.#ctor*
+  name: SleepPassCheckSeasonArgs
+  href: api/api/SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs.html#SharedLibrary_Commands_Arguments_SleepPass_SleepPassCheckSeasonArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs.SleepPassCheckSeasonArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs.New
+  nameWithType: SleepPassCheckSeasonArgs.SleepPassCheckSeasonArgs
+  nameWithType.vb: SleepPassCheckSeasonArgs.New
+- uid: SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs.html#SharedLibrary_Commands_Arguments_SleepPass_SleepPassCheckSeasonArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs.Player
+  nameWithType: SleepPassCheckSeasonArgs.Player
+- uid: SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs.html#SharedLibrary_Commands_Arguments_SleepPass_SleepPassCheckSeasonArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs.Player
+  nameWithType: SleepPassCheckSeasonArgs.Player
+- uid: SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs.SleepPassManager
+  name: SleepPassManager
+  href: api/api/SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs.html#SharedLibrary_Commands_Arguments_SleepPass_SleepPassCheckSeasonArgs_SleepPassManager
+  commentId: P:SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs.SleepPassManager
+  fullName: SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs.SleepPassManager
+  nameWithType: SleepPassCheckSeasonArgs.SleepPassManager
+- uid: SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs.SleepPassManager*
+  name: SleepPassManager
+  href: api/api/SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs.html#SharedLibrary_Commands_Arguments_SleepPass_SleepPassCheckSeasonArgs_SleepPassManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs.SleepPassManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs.SleepPassManager
+  nameWithType: SleepPassCheckSeasonArgs.SleepPassManager
+- uid: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs
+  name: SleepPassClaimRewardArgs
+  href: api/api/SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs
+  fullName: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs
+  nameWithType: SleepPassClaimRewardArgs
+- uid: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.#ctor(SharedLibrary.Data.Player,System.Boolean,System.Int32,SharedLibrary.Managers.SleepPassManager,SharedLibrary.Managers.ItemsManager,SharedLibrary.Managers.CosmeticManager)
+  name: SleepPassClaimRewardArgs(Player, bool, int, SleepPassManager, ItemsManager, CosmeticManager)
+  href: api/api/SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.html#SharedLibrary_Commands_Arguments_SleepPass_SleepPassClaimRewardArgs__ctor_SharedLibrary_Data_Player_System_Boolean_System_Int32_SharedLibrary_Managers_SleepPassManager_SharedLibrary_Managers_ItemsManager_SharedLibrary_Managers_CosmeticManager_
+  commentId: M:SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.#ctor(SharedLibrary.Data.Player,System.Boolean,System.Int32,SharedLibrary.Managers.SleepPassManager,SharedLibrary.Managers.ItemsManager,SharedLibrary.Managers.CosmeticManager)
+  name.vb: New(Player, Boolean, Integer, SleepPassManager, ItemsManager, CosmeticManager)
+  fullName: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.SleepPassClaimRewardArgs(SharedLibrary.Data.Player, bool, int, SharedLibrary.Managers.SleepPassManager, SharedLibrary.Managers.ItemsManager, SharedLibrary.Managers.CosmeticManager)
+  fullName.vb: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.New(SharedLibrary.Data.Player, Boolean, Integer, SharedLibrary.Managers.SleepPassManager, SharedLibrary.Managers.ItemsManager, SharedLibrary.Managers.CosmeticManager)
+  nameWithType: SleepPassClaimRewardArgs.SleepPassClaimRewardArgs(Player, bool, int, SleepPassManager, ItemsManager, CosmeticManager)
+  nameWithType.vb: SleepPassClaimRewardArgs.New(Player, Boolean, Integer, SleepPassManager, ItemsManager, CosmeticManager)
+- uid: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.#ctor*
+  name: SleepPassClaimRewardArgs
+  href: api/api/SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.html#SharedLibrary_Commands_Arguments_SleepPass_SleepPassClaimRewardArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.SleepPassClaimRewardArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.New
+  nameWithType: SleepPassClaimRewardArgs.SleepPassClaimRewardArgs
+  nameWithType.vb: SleepPassClaimRewardArgs.New
+- uid: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.CosmeticManager
+  name: CosmeticManager
+  href: api/api/SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.html#SharedLibrary_Commands_Arguments_SleepPass_SleepPassClaimRewardArgs_CosmeticManager
+  commentId: P:SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.CosmeticManager
+  fullName: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.CosmeticManager
+  nameWithType: SleepPassClaimRewardArgs.CosmeticManager
+- uid: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.CosmeticManager*
+  name: CosmeticManager
+  href: api/api/SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.html#SharedLibrary_Commands_Arguments_SleepPass_SleepPassClaimRewardArgs_CosmeticManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.CosmeticManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.CosmeticManager
+  nameWithType: SleepPassClaimRewardArgs.CosmeticManager
+- uid: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.IsFree
+  name: IsFree
+  href: api/api/SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.html#SharedLibrary_Commands_Arguments_SleepPass_SleepPassClaimRewardArgs_IsFree
+  commentId: P:SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.IsFree
+  fullName: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.IsFree
+  nameWithType: SleepPassClaimRewardArgs.IsFree
+- uid: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.IsFree*
+  name: IsFree
+  href: api/api/SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.html#SharedLibrary_Commands_Arguments_SleepPass_SleepPassClaimRewardArgs_IsFree_
+  commentId: Overload:SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.IsFree
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.IsFree
+  nameWithType: SleepPassClaimRewardArgs.IsFree
+- uid: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.ItemsManager
+  name: ItemsManager
+  href: api/api/SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.html#SharedLibrary_Commands_Arguments_SleepPass_SleepPassClaimRewardArgs_ItemsManager
+  commentId: P:SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.ItemsManager
+  fullName: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.ItemsManager
+  nameWithType: SleepPassClaimRewardArgs.ItemsManager
+- uid: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.ItemsManager*
+  name: ItemsManager
+  href: api/api/SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.html#SharedLibrary_Commands_Arguments_SleepPass_SleepPassClaimRewardArgs_ItemsManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.ItemsManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.ItemsManager
+  nameWithType: SleepPassClaimRewardArgs.ItemsManager
+- uid: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.html#SharedLibrary_Commands_Arguments_SleepPass_SleepPassClaimRewardArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.Player
+  nameWithType: SleepPassClaimRewardArgs.Player
+- uid: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.html#SharedLibrary_Commands_Arguments_SleepPass_SleepPassClaimRewardArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.Player
+  nameWithType: SleepPassClaimRewardArgs.Player
+- uid: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.RewardIndex
+  name: RewardIndex
+  href: api/api/SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.html#SharedLibrary_Commands_Arguments_SleepPass_SleepPassClaimRewardArgs_RewardIndex
+  commentId: P:SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.RewardIndex
+  fullName: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.RewardIndex
+  nameWithType: SleepPassClaimRewardArgs.RewardIndex
+- uid: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.RewardIndex*
+  name: RewardIndex
+  href: api/api/SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.html#SharedLibrary_Commands_Arguments_SleepPass_SleepPassClaimRewardArgs_RewardIndex_
+  commentId: Overload:SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.RewardIndex
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.RewardIndex
+  nameWithType: SleepPassClaimRewardArgs.RewardIndex
+- uid: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.SleepPassManager
+  name: SleepPassManager
+  href: api/api/SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.html#SharedLibrary_Commands_Arguments_SleepPass_SleepPassClaimRewardArgs_SleepPassManager
+  commentId: P:SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.SleepPassManager
+  fullName: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.SleepPassManager
+  nameWithType: SleepPassClaimRewardArgs.SleepPassManager
+- uid: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.SleepPassManager*
+  name: SleepPassManager
+  href: api/api/SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.html#SharedLibrary_Commands_Arguments_SleepPass_SleepPassClaimRewardArgs_SleepPassManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.SleepPassManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs.SleepPassManager
+  nameWithType: SleepPassClaimRewardArgs.SleepPassManager
 - uid: SharedLibrary.Commands.Arguments.Tasks
   name: SharedLibrary.Commands.Arguments.Tasks
   href: api/api/SharedLibrary.Commands.Arguments.Tasks.html
@@ -3473,6 +3646,66 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Sleep.SleepGenerateRewardCommand.ToProtocolMessage
   nameWithType: SleepGenerateRewardCommand.ToProtocolMessage
+- uid: SharedLibrary.Commands.SleepPass
+  name: SharedLibrary.Commands.SleepPass
+  href: api/api/SharedLibrary.Commands.SleepPass.html
+  commentId: N:SharedLibrary.Commands.SleepPass
+  fullName: SharedLibrary.Commands.SleepPass
+  nameWithType: SharedLibrary.Commands.SleepPass
+- uid: SharedLibrary.Commands.SleepPass.SleepPassCheckSeasonCommand
+  name: SleepPassCheckSeasonCommand
+  href: api/api/SharedLibrary.Commands.SleepPass.SleepPassCheckSeasonCommand.html
+  commentId: T:SharedLibrary.Commands.SleepPass.SleepPassCheckSeasonCommand
+  fullName: SharedLibrary.Commands.SleepPass.SleepPassCheckSeasonCommand
+  nameWithType: SleepPassCheckSeasonCommand
+- uid: SharedLibrary.Commands.SleepPass.SleepPassCheckSeasonCommand.Execute(SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs)
+  name: Execute(SleepPassCheckSeasonArgs)
+  href: api/api/SharedLibrary.Commands.SleepPass.SleepPassCheckSeasonCommand.html#SharedLibrary_Commands_SleepPass_SleepPassCheckSeasonCommand_Execute_SharedLibrary_Commands_Arguments_SleepPass_SleepPassCheckSeasonArgs_
+  commentId: M:SharedLibrary.Commands.SleepPass.SleepPassCheckSeasonCommand.Execute(SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs)
+  fullName: SharedLibrary.Commands.SleepPass.SleepPassCheckSeasonCommand.Execute(SharedLibrary.Commands.Arguments.SleepPass.SleepPassCheckSeasonArgs)
+  nameWithType: SleepPassCheckSeasonCommand.Execute(SleepPassCheckSeasonArgs)
+- uid: SharedLibrary.Commands.SleepPass.SleepPassCheckSeasonCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.SleepPass.SleepPassCheckSeasonCommand.html#SharedLibrary_Commands_SleepPass_SleepPassCheckSeasonCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.SleepPass.SleepPassCheckSeasonCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.SleepPass.SleepPassCheckSeasonCommand.Execute
+  nameWithType: SleepPassCheckSeasonCommand.Execute
+- uid: SharedLibrary.Commands.SleepPass.SleepPassClaimRewardCommand
+  name: SleepPassClaimRewardCommand
+  href: api/api/SharedLibrary.Commands.SleepPass.SleepPassClaimRewardCommand.html
+  commentId: T:SharedLibrary.Commands.SleepPass.SleepPassClaimRewardCommand
+  fullName: SharedLibrary.Commands.SleepPass.SleepPassClaimRewardCommand
+  nameWithType: SleepPassClaimRewardCommand
+- uid: SharedLibrary.Commands.SleepPass.SleepPassClaimRewardCommand.Execute(SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs)
+  name: Execute(SleepPassClaimRewardArgs)
+  href: api/api/SharedLibrary.Commands.SleepPass.SleepPassClaimRewardCommand.html#SharedLibrary_Commands_SleepPass_SleepPassClaimRewardCommand_Execute_SharedLibrary_Commands_Arguments_SleepPass_SleepPassClaimRewardArgs_
+  commentId: M:SharedLibrary.Commands.SleepPass.SleepPassClaimRewardCommand.Execute(SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs)
+  fullName: SharedLibrary.Commands.SleepPass.SleepPassClaimRewardCommand.Execute(SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs)
+  nameWithType: SleepPassClaimRewardCommand.Execute(SleepPassClaimRewardArgs)
+- uid: SharedLibrary.Commands.SleepPass.SleepPassClaimRewardCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.SleepPass.SleepPassClaimRewardCommand.html#SharedLibrary_Commands_SleepPass_SleepPassClaimRewardCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.SleepPass.SleepPassClaimRewardCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.SleepPass.SleepPassClaimRewardCommand.Execute
+  nameWithType: SleepPassClaimRewardCommand.Execute
+- uid: SharedLibrary.Commands.SleepPass.SleepPassClaimRewardCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs,System.String)
+  name: ToProtocolMessage(string, SleepPassClaimRewardArgs, string?)
+  href: api/api/SharedLibrary.Commands.SleepPass.SleepPassClaimRewardCommand.html#SharedLibrary_Commands_SleepPass_SleepPassClaimRewardCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_SleepPass_SleepPassClaimRewardArgs_System_String_
+  commentId: M:SharedLibrary.Commands.SleepPass.SleepPassClaimRewardCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs,System.String)
+  name.vb: ToProtocolMessage(String, SleepPassClaimRewardArgs, String)
+  fullName: SharedLibrary.Commands.SleepPass.SleepPassClaimRewardCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs, string?)
+  fullName.vb: SharedLibrary.Commands.SleepPass.SleepPassClaimRewardCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.SleepPass.SleepPassClaimRewardArgs, String)
+  nameWithType: SleepPassClaimRewardCommand.ToProtocolMessage(string, SleepPassClaimRewardArgs, string?)
+  nameWithType.vb: SleepPassClaimRewardCommand.ToProtocolMessage(String, SleepPassClaimRewardArgs, String)
+- uid: SharedLibrary.Commands.SleepPass.SleepPassClaimRewardCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.SleepPass.SleepPassClaimRewardCommand.html#SharedLibrary_Commands_SleepPass_SleepPassClaimRewardCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.SleepPass.SleepPassClaimRewardCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.SleepPass.SleepPassClaimRewardCommand.ToProtocolMessage
+  nameWithType: SleepPassClaimRewardCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.Tasks
   name: SharedLibrary.Commands.Tasks
   href: api/api/SharedLibrary.Commands.Tasks.html
@@ -4107,6 +4340,45 @@ references:
   commentId: T:SharedLibrary.Data.BalanceConstants
   fullName: SharedLibrary.Data.BalanceConstants
   nameWithType: BalanceConstants
+- uid: SharedLibrary.Data.BalanceConstants.CozyPointsFromAdventure
+  name: CozyPointsFromAdventure
+  href: api/api/SharedLibrary.Data.BalanceConstants.html#SharedLibrary_Data_BalanceConstants_CozyPointsFromAdventure
+  commentId: P:SharedLibrary.Data.BalanceConstants.CozyPointsFromAdventure
+  fullName: SharedLibrary.Data.BalanceConstants.CozyPointsFromAdventure
+  nameWithType: BalanceConstants.CozyPointsFromAdventure
+- uid: SharedLibrary.Data.BalanceConstants.CozyPointsFromAdventure*
+  name: CozyPointsFromAdventure
+  href: api/api/SharedLibrary.Data.BalanceConstants.html#SharedLibrary_Data_BalanceConstants_CozyPointsFromAdventure_
+  commentId: Overload:SharedLibrary.Data.BalanceConstants.CozyPointsFromAdventure
+  isSpec: "True"
+  fullName: SharedLibrary.Data.BalanceConstants.CozyPointsFromAdventure
+  nameWithType: BalanceConstants.CozyPointsFromAdventure
+- uid: SharedLibrary.Data.BalanceConstants.CozyPointsFromDinoTasks
+  name: CozyPointsFromDinoTasks
+  href: api/api/SharedLibrary.Data.BalanceConstants.html#SharedLibrary_Data_BalanceConstants_CozyPointsFromDinoTasks
+  commentId: P:SharedLibrary.Data.BalanceConstants.CozyPointsFromDinoTasks
+  fullName: SharedLibrary.Data.BalanceConstants.CozyPointsFromDinoTasks
+  nameWithType: BalanceConstants.CozyPointsFromDinoTasks
+- uid: SharedLibrary.Data.BalanceConstants.CozyPointsFromDinoTasks*
+  name: CozyPointsFromDinoTasks
+  href: api/api/SharedLibrary.Data.BalanceConstants.html#SharedLibrary_Data_BalanceConstants_CozyPointsFromDinoTasks_
+  commentId: Overload:SharedLibrary.Data.BalanceConstants.CozyPointsFromDinoTasks
+  isSpec: "True"
+  fullName: SharedLibrary.Data.BalanceConstants.CozyPointsFromDinoTasks
+  nameWithType: BalanceConstants.CozyPointsFromDinoTasks
+- uid: SharedLibrary.Data.BalanceConstants.CozyPointsFromUpgradeItem
+  name: CozyPointsFromUpgradeItem
+  href: api/api/SharedLibrary.Data.BalanceConstants.html#SharedLibrary_Data_BalanceConstants_CozyPointsFromUpgradeItem
+  commentId: P:SharedLibrary.Data.BalanceConstants.CozyPointsFromUpgradeItem
+  fullName: SharedLibrary.Data.BalanceConstants.CozyPointsFromUpgradeItem
+  nameWithType: BalanceConstants.CozyPointsFromUpgradeItem
+- uid: SharedLibrary.Data.BalanceConstants.CozyPointsFromUpgradeItem*
+  name: CozyPointsFromUpgradeItem
+  href: api/api/SharedLibrary.Data.BalanceConstants.html#SharedLibrary_Data_BalanceConstants_CozyPointsFromUpgradeItem_
+  commentId: Overload:SharedLibrary.Data.BalanceConstants.CozyPointsFromUpgradeItem
+  isSpec: "True"
+  fullName: SharedLibrary.Data.BalanceConstants.CozyPointsFromUpgradeItem
+  nameWithType: BalanceConstants.CozyPointsFromUpgradeItem
 - uid: SharedLibrary.Data.BalanceConstants.DinoParametersDecrease
   name: DinoParametersDecrease
   href: api/api/SharedLibrary.Data.BalanceConstants.html#SharedLibrary_Data_BalanceConstants_DinoParametersDecrease
@@ -4185,6 +4457,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.BalanceConstants.TaskToTime
   nameWithType: BalanceConstants.TaskToTime
+- uid: SharedLibrary.Data.BalanceConstants.UserTaskEnergy
+  name: UserTaskEnergy
+  href: api/api/SharedLibrary.Data.BalanceConstants.html#SharedLibrary_Data_BalanceConstants_UserTaskEnergy
+  commentId: P:SharedLibrary.Data.BalanceConstants.UserTaskEnergy
+  fullName: SharedLibrary.Data.BalanceConstants.UserTaskEnergy
+  nameWithType: BalanceConstants.UserTaskEnergy
+- uid: SharedLibrary.Data.BalanceConstants.UserTaskEnergy*
+  name: UserTaskEnergy
+  href: api/api/SharedLibrary.Data.BalanceConstants.html#SharedLibrary_Data_BalanceConstants_UserTaskEnergy_
+  commentId: Overload:SharedLibrary.Data.BalanceConstants.UserTaskEnergy
+  isSpec: "True"
+  fullName: SharedLibrary.Data.BalanceConstants.UserTaskEnergy
+  nameWithType: BalanceConstants.UserTaskEnergy
 - uid: SharedLibrary.Data.BalanceDefaultUserParams
   name: BalanceDefaultUserParams
   href: api/api/SharedLibrary.Data.BalanceDefaultUserParams.html
@@ -4327,6 +4612,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.BalanceModel.Items
   nameWithType: BalanceModel.Items
+- uid: SharedLibrary.Data.BalanceModel.SeasonPasses
+  name: SeasonPasses
+  href: api/api/SharedLibrary.Data.BalanceModel.html#SharedLibrary_Data_BalanceModel_SeasonPasses
+  commentId: P:SharedLibrary.Data.BalanceModel.SeasonPasses
+  fullName: SharedLibrary.Data.BalanceModel.SeasonPasses
+  nameWithType: BalanceModel.SeasonPasses
+- uid: SharedLibrary.Data.BalanceModel.SeasonPasses*
+  name: SeasonPasses
+  href: api/api/SharedLibrary.Data.BalanceModel.html#SharedLibrary_Data_BalanceModel_SeasonPasses_
+  commentId: Overload:SharedLibrary.Data.BalanceModel.SeasonPasses
+  isSpec: "True"
+  fullName: SharedLibrary.Data.BalanceModel.SeasonPasses
+  nameWithType: BalanceModel.SeasonPasses
 - uid: SharedLibrary.Data.BalanceModel.Tasks
   name: Tasks
   href: api/api/SharedLibrary.Data.BalanceModel.html#SharedLibrary_Data_BalanceModel_Tasks
@@ -4484,6 +4782,18 @@ references:
   commentId: F:SharedLibrary.Data.CommandType.SleepGenerateReward
   fullName: SharedLibrary.Data.CommandType.SleepGenerateReward
   nameWithType: CommandType.SleepGenerateReward
+- uid: SharedLibrary.Data.CommandType.SleepPassCheckSeason
+  name: SleepPassCheckSeason
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_SleepPassCheckSeason
+  commentId: F:SharedLibrary.Data.CommandType.SleepPassCheckSeason
+  fullName: SharedLibrary.Data.CommandType.SleepPassCheckSeason
+  nameWithType: CommandType.SleepPassCheckSeason
+- uid: SharedLibrary.Data.CommandType.SleepPassClaimReward
+  name: SleepPassClaimReward
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_SleepPassClaimReward
+  commentId: F:SharedLibrary.Data.CommandType.SleepPassClaimReward
+  fullName: SharedLibrary.Data.CommandType.SleepPassClaimReward
+  nameWithType: CommandType.SleepPassClaimReward
 - uid: SharedLibrary.Data.CommandType.TaskAddDailyTasks
   name: TaskAddDailyTasks
   href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_TaskAddDailyTasks
@@ -4581,6 +4891,45 @@ references:
   commentId: F:SharedLibrary.Data.Constants.CosmeticItemsPerPage
   fullName: SharedLibrary.Data.Constants.CosmeticItemsPerPage
   nameWithType: Constants.CosmeticItemsPerPage
+- uid: SharedLibrary.Data.Constants.CozyPointsFromAdventure
+  name: CozyPointsFromAdventure
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_CozyPointsFromAdventure
+  commentId: P:SharedLibrary.Data.Constants.CozyPointsFromAdventure
+  fullName: SharedLibrary.Data.Constants.CozyPointsFromAdventure
+  nameWithType: Constants.CozyPointsFromAdventure
+- uid: SharedLibrary.Data.Constants.CozyPointsFromAdventure*
+  name: CozyPointsFromAdventure
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_CozyPointsFromAdventure_
+  commentId: Overload:SharedLibrary.Data.Constants.CozyPointsFromAdventure
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Constants.CozyPointsFromAdventure
+  nameWithType: Constants.CozyPointsFromAdventure
+- uid: SharedLibrary.Data.Constants.CozyPointsFromDinoTasks
+  name: CozyPointsFromDinoTasks
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_CozyPointsFromDinoTasks
+  commentId: P:SharedLibrary.Data.Constants.CozyPointsFromDinoTasks
+  fullName: SharedLibrary.Data.Constants.CozyPointsFromDinoTasks
+  nameWithType: Constants.CozyPointsFromDinoTasks
+- uid: SharedLibrary.Data.Constants.CozyPointsFromDinoTasks*
+  name: CozyPointsFromDinoTasks
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_CozyPointsFromDinoTasks_
+  commentId: Overload:SharedLibrary.Data.Constants.CozyPointsFromDinoTasks
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Constants.CozyPointsFromDinoTasks
+  nameWithType: Constants.CozyPointsFromDinoTasks
+- uid: SharedLibrary.Data.Constants.CozyPointsFromUpgradeItem
+  name: CozyPointsFromUpgradeItem
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_CozyPointsFromUpgradeItem
+  commentId: P:SharedLibrary.Data.Constants.CozyPointsFromUpgradeItem
+  fullName: SharedLibrary.Data.Constants.CozyPointsFromUpgradeItem
+  nameWithType: Constants.CozyPointsFromUpgradeItem
+- uid: SharedLibrary.Data.Constants.CozyPointsFromUpgradeItem*
+  name: CozyPointsFromUpgradeItem
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_CozyPointsFromUpgradeItem_
+  commentId: Overload:SharedLibrary.Data.Constants.CozyPointsFromUpgradeItem
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Constants.CozyPointsFromUpgradeItem
+  nameWithType: Constants.CozyPointsFromUpgradeItem
 - uid: SharedLibrary.Data.Constants.DecreaseRate
   name: DecreaseRate
   href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_DecreaseRate
@@ -5195,6 +5544,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Items.ItemBase.Cost
   nameWithType: ItemBase.Cost
+- uid: SharedLibrary.Data.Items.ItemBase.CozyPointsFromUpgrade
+  name: CozyPointsFromUpgrade
+  href: api/api/SharedLibrary.Data.Items.ItemBase.html#SharedLibrary_Data_Items_ItemBase_CozyPointsFromUpgrade
+  commentId: P:SharedLibrary.Data.Items.ItemBase.CozyPointsFromUpgrade
+  fullName: SharedLibrary.Data.Items.ItemBase.CozyPointsFromUpgrade
+  nameWithType: ItemBase.CozyPointsFromUpgrade
+- uid: SharedLibrary.Data.Items.ItemBase.CozyPointsFromUpgrade*
+  name: CozyPointsFromUpgrade
+  href: api/api/SharedLibrary.Data.Items.ItemBase.html#SharedLibrary_Data_Items_ItemBase_CozyPointsFromUpgrade_
+  commentId: Overload:SharedLibrary.Data.Items.ItemBase.CozyPointsFromUpgrade
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Items.ItemBase.CozyPointsFromUpgrade
+  nameWithType: ItemBase.CozyPointsFromUpgrade
 - uid: SharedLibrary.Data.Items.ItemBase.DropChance
   name: DropChance
   href: api/api/SharedLibrary.Data.Items.ItemBase.html#SharedLibrary_Data_Items_ItemBase_DropChance
@@ -5493,6 +5855,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Player.Sleep
   nameWithType: Player.Sleep
+- uid: SharedLibrary.Data.Player.SleepPass
+  name: SleepPass
+  href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_SleepPass
+  commentId: P:SharedLibrary.Data.Player.SleepPass
+  fullName: SharedLibrary.Data.Player.SleepPass
+  nameWithType: Player.SleepPass
+- uid: SharedLibrary.Data.Player.SleepPass*
+  name: SleepPass
+  href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_SleepPass_
+  commentId: Overload:SharedLibrary.Data.Player.SleepPass
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Player.SleepPass
+  nameWithType: Player.SleepPass
 - uid: SharedLibrary.Data.Player.Tasks
   name: Tasks
   href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_Tasks
@@ -5949,6 +6324,12 @@ references:
   commentId: F:SharedLibrary.Data.ResourceType.Cosmetic
   fullName: SharedLibrary.Data.ResourceType.Cosmetic
   nameWithType: ResourceType.Cosmetic
+- uid: SharedLibrary.Data.ResourceType.CozyPoints
+  name: CozyPoints
+  href: api/api/SharedLibrary.Data.ResourceType.html#SharedLibrary_Data_ResourceType_CozyPoints
+  commentId: F:SharedLibrary.Data.ResourceType.CozyPoints
+  fullName: SharedLibrary.Data.ResourceType.CozyPoints
+  nameWithType: ResourceType.CozyPoints
 - uid: SharedLibrary.Data.ResourceType.DreamStones
   name: DreamStones
   href: api/api/SharedLibrary.Data.ResourceType.html#SharedLibrary_Data_ResourceType_DreamStones
@@ -6240,6 +6621,290 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Sleep.PlayerSleepSchedule.TargetWakeUpISO
   nameWithType: PlayerSleepSchedule.TargetWakeUpISO
+- uid: SharedLibrary.Data.SleepPass
+  name: SharedLibrary.Data.SleepPass
+  href: api/api/SharedLibrary.Data.SleepPass.html
+  commentId: N:SharedLibrary.Data.SleepPass
+  fullName: SharedLibrary.Data.SleepPass
+  nameWithType: SharedLibrary.Data.SleepPass
+- uid: SharedLibrary.Data.SleepPass.PlayerSleepPass
+  name: PlayerSleepPass
+  href: api/api/SharedLibrary.Data.SleepPass.PlayerSleepPass.html
+  commentId: T:SharedLibrary.Data.SleepPass.PlayerSleepPass
+  fullName: SharedLibrary.Data.SleepPass.PlayerSleepPass
+  nameWithType: PlayerSleepPass
+- uid: SharedLibrary.Data.SleepPass.PlayerSleepPass.ClaimedRewardsIds
+  name: ClaimedRewardsIds
+  href: api/api/SharedLibrary.Data.SleepPass.PlayerSleepPass.html#SharedLibrary_Data_SleepPass_PlayerSleepPass_ClaimedRewardsIds
+  commentId: P:SharedLibrary.Data.SleepPass.PlayerSleepPass.ClaimedRewardsIds
+  fullName: SharedLibrary.Data.SleepPass.PlayerSleepPass.ClaimedRewardsIds
+  nameWithType: PlayerSleepPass.ClaimedRewardsIds
+- uid: SharedLibrary.Data.SleepPass.PlayerSleepPass.ClaimedRewardsIds*
+  name: ClaimedRewardsIds
+  href: api/api/SharedLibrary.Data.SleepPass.PlayerSleepPass.html#SharedLibrary_Data_SleepPass_PlayerSleepPass_ClaimedRewardsIds_
+  commentId: Overload:SharedLibrary.Data.SleepPass.PlayerSleepPass.ClaimedRewardsIds
+  isSpec: "True"
+  fullName: SharedLibrary.Data.SleepPass.PlayerSleepPass.ClaimedRewardsIds
+  nameWithType: PlayerSleepPass.ClaimedRewardsIds
+- uid: SharedLibrary.Data.SleepPass.PlayerSleepPass.Clone
+  name: Clone()
+  href: api/api/SharedLibrary.Data.SleepPass.PlayerSleepPass.html#SharedLibrary_Data_SleepPass_PlayerSleepPass_Clone
+  commentId: M:SharedLibrary.Data.SleepPass.PlayerSleepPass.Clone
+  fullName: SharedLibrary.Data.SleepPass.PlayerSleepPass.Clone()
+  nameWithType: PlayerSleepPass.Clone()
+- uid: SharedLibrary.Data.SleepPass.PlayerSleepPass.Clone*
+  name: Clone
+  href: api/api/SharedLibrary.Data.SleepPass.PlayerSleepPass.html#SharedLibrary_Data_SleepPass_PlayerSleepPass_Clone_
+  commentId: Overload:SharedLibrary.Data.SleepPass.PlayerSleepPass.Clone
+  isSpec: "True"
+  fullName: SharedLibrary.Data.SleepPass.PlayerSleepPass.Clone
+  nameWithType: PlayerSleepPass.Clone
+- uid: SharedLibrary.Data.SleepPass.PlayerSleepPass.CurrentSeasonId
+  name: CurrentSeasonId
+  href: api/api/SharedLibrary.Data.SleepPass.PlayerSleepPass.html#SharedLibrary_Data_SleepPass_PlayerSleepPass_CurrentSeasonId
+  commentId: P:SharedLibrary.Data.SleepPass.PlayerSleepPass.CurrentSeasonId
+  fullName: SharedLibrary.Data.SleepPass.PlayerSleepPass.CurrentSeasonId
+  nameWithType: PlayerSleepPass.CurrentSeasonId
+- uid: SharedLibrary.Data.SleepPass.PlayerSleepPass.CurrentSeasonId*
+  name: CurrentSeasonId
+  href: api/api/SharedLibrary.Data.SleepPass.PlayerSleepPass.html#SharedLibrary_Data_SleepPass_PlayerSleepPass_CurrentSeasonId_
+  commentId: Overload:SharedLibrary.Data.SleepPass.PlayerSleepPass.CurrentSeasonId
+  isSpec: "True"
+  fullName: SharedLibrary.Data.SleepPass.PlayerSleepPass.CurrentSeasonId
+  nameWithType: PlayerSleepPass.CurrentSeasonId
+- uid: SharedLibrary.Data.SleepPass.SleepPassReward
+  name: SleepPassReward
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassReward.html
+  commentId: T:SharedLibrary.Data.SleepPass.SleepPassReward
+  fullName: SharedLibrary.Data.SleepPass.SleepPassReward
+  nameWithType: SleepPassReward
+- uid: SharedLibrary.Data.SleepPass.SleepPassReward.Amount
+  name: Amount
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassReward.html#SharedLibrary_Data_SleepPass_SleepPassReward_Amount
+  commentId: P:SharedLibrary.Data.SleepPass.SleepPassReward.Amount
+  fullName: SharedLibrary.Data.SleepPass.SleepPassReward.Amount
+  nameWithType: SleepPassReward.Amount
+- uid: SharedLibrary.Data.SleepPass.SleepPassReward.Amount*
+  name: Amount
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassReward.html#SharedLibrary_Data_SleepPass_SleepPassReward_Amount_
+  commentId: Overload:SharedLibrary.Data.SleepPass.SleepPassReward.Amount
+  isSpec: "True"
+  fullName: SharedLibrary.Data.SleepPass.SleepPassReward.Amount
+  nameWithType: SleepPassReward.Amount
+- uid: SharedLibrary.Data.SleepPass.SleepPassReward.IsSpecialReward
+  name: IsSpecialReward
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassReward.html#SharedLibrary_Data_SleepPass_SleepPassReward_IsSpecialReward
+  commentId: P:SharedLibrary.Data.SleepPass.SleepPassReward.IsSpecialReward
+  fullName: SharedLibrary.Data.SleepPass.SleepPassReward.IsSpecialReward
+  nameWithType: SleepPassReward.IsSpecialReward
+- uid: SharedLibrary.Data.SleepPass.SleepPassReward.IsSpecialReward*
+  name: IsSpecialReward
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassReward.html#SharedLibrary_Data_SleepPass_SleepPassReward_IsSpecialReward_
+  commentId: Overload:SharedLibrary.Data.SleepPass.SleepPassReward.IsSpecialReward
+  isSpec: "True"
+  fullName: SharedLibrary.Data.SleepPass.SleepPassReward.IsSpecialReward
+  nameWithType: SleepPassReward.IsSpecialReward
+- uid: SharedLibrary.Data.SleepPass.SleepPassReward.RewardId
+  name: RewardId
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassReward.html#SharedLibrary_Data_SleepPass_SleepPassReward_RewardId
+  commentId: P:SharedLibrary.Data.SleepPass.SleepPassReward.RewardId
+  fullName: SharedLibrary.Data.SleepPass.SleepPassReward.RewardId
+  nameWithType: SleepPassReward.RewardId
+- uid: SharedLibrary.Data.SleepPass.SleepPassReward.RewardId*
+  name: RewardId
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassReward.html#SharedLibrary_Data_SleepPass_SleepPassReward_RewardId_
+  commentId: Overload:SharedLibrary.Data.SleepPass.SleepPassReward.RewardId
+  isSpec: "True"
+  fullName: SharedLibrary.Data.SleepPass.SleepPassReward.RewardId
+  nameWithType: SleepPassReward.RewardId
+- uid: SharedLibrary.Data.SleepPass.SleepPassReward.RewardType
+  name: RewardType
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassReward.html#SharedLibrary_Data_SleepPass_SleepPassReward_RewardType
+  commentId: P:SharedLibrary.Data.SleepPass.SleepPassReward.RewardType
+  fullName: SharedLibrary.Data.SleepPass.SleepPassReward.RewardType
+  nameWithType: SleepPassReward.RewardType
+- uid: SharedLibrary.Data.SleepPass.SleepPassReward.RewardType*
+  name: RewardType
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassReward.html#SharedLibrary_Data_SleepPass_SleepPassReward_RewardType_
+  commentId: Overload:SharedLibrary.Data.SleepPass.SleepPassReward.RewardType
+  isSpec: "True"
+  fullName: SharedLibrary.Data.SleepPass.SleepPassReward.RewardType
+  nameWithType: SleepPassReward.RewardType
+- uid: SharedLibrary.Data.SleepPass.SleepPassSeason
+  name: SleepPassSeason
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassSeason.html
+  commentId: T:SharedLibrary.Data.SleepPass.SleepPassSeason
+  fullName: SharedLibrary.Data.SleepPass.SleepPassSeason
+  nameWithType: SleepPassSeason
+- uid: SharedLibrary.Data.SleepPass.SleepPassSeason.CozyPointsStageStep
+  name: CozyPointsStageStep
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassSeason.html#SharedLibrary_Data_SleepPass_SleepPassSeason_CozyPointsStageStep
+  commentId: P:SharedLibrary.Data.SleepPass.SleepPassSeason.CozyPointsStageStep
+  fullName: SharedLibrary.Data.SleepPass.SleepPassSeason.CozyPointsStageStep
+  nameWithType: SleepPassSeason.CozyPointsStageStep
+- uid: SharedLibrary.Data.SleepPass.SleepPassSeason.CozyPointsStageStep*
+  name: CozyPointsStageStep
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassSeason.html#SharedLibrary_Data_SleepPass_SleepPassSeason_CozyPointsStageStep_
+  commentId: Overload:SharedLibrary.Data.SleepPass.SleepPassSeason.CozyPointsStageStep
+  isSpec: "True"
+  fullName: SharedLibrary.Data.SleepPass.SleepPassSeason.CozyPointsStageStep
+  nameWithType: SleepPassSeason.CozyPointsStageStep
+- uid: SharedLibrary.Data.SleepPass.SleepPassSeason.CurrentStageProgressPercentage(SharedLibrary.Data.Player)
+  name: CurrentStageProgressPercentage(Player)
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassSeason.html#SharedLibrary_Data_SleepPass_SleepPassSeason_CurrentStageProgressPercentage_SharedLibrary_Data_Player_
+  commentId: M:SharedLibrary.Data.SleepPass.SleepPassSeason.CurrentStageProgressPercentage(SharedLibrary.Data.Player)
+  fullName: SharedLibrary.Data.SleepPass.SleepPassSeason.CurrentStageProgressPercentage(SharedLibrary.Data.Player)
+  nameWithType: SleepPassSeason.CurrentStageProgressPercentage(Player)
+- uid: SharedLibrary.Data.SleepPass.SleepPassSeason.CurrentStageProgressPercentage*
+  name: CurrentStageProgressPercentage
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassSeason.html#SharedLibrary_Data_SleepPass_SleepPassSeason_CurrentStageProgressPercentage_
+  commentId: Overload:SharedLibrary.Data.SleepPass.SleepPassSeason.CurrentStageProgressPercentage
+  isSpec: "True"
+  fullName: SharedLibrary.Data.SleepPass.SleepPassSeason.CurrentStageProgressPercentage
+  nameWithType: SleepPassSeason.CurrentStageProgressPercentage
+- uid: SharedLibrary.Data.SleepPass.SleepPassSeason.EndDate
+  name: EndDate
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassSeason.html#SharedLibrary_Data_SleepPass_SleepPassSeason_EndDate
+  commentId: P:SharedLibrary.Data.SleepPass.SleepPassSeason.EndDate
+  fullName: SharedLibrary.Data.SleepPass.SleepPassSeason.EndDate
+  nameWithType: SleepPassSeason.EndDate
+- uid: SharedLibrary.Data.SleepPass.SleepPassSeason.EndDate*
+  name: EndDate
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassSeason.html#SharedLibrary_Data_SleepPass_SleepPassSeason_EndDate_
+  commentId: Overload:SharedLibrary.Data.SleepPass.SleepPassSeason.EndDate
+  isSpec: "True"
+  fullName: SharedLibrary.Data.SleepPass.SleepPassSeason.EndDate
+  nameWithType: SleepPassSeason.EndDate
+- uid: SharedLibrary.Data.SleepPass.SleepPassSeason.FreeRewards
+  name: FreeRewards
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassSeason.html#SharedLibrary_Data_SleepPass_SleepPassSeason_FreeRewards
+  commentId: P:SharedLibrary.Data.SleepPass.SleepPassSeason.FreeRewards
+  fullName: SharedLibrary.Data.SleepPass.SleepPassSeason.FreeRewards
+  nameWithType: SleepPassSeason.FreeRewards
+- uid: SharedLibrary.Data.SleepPass.SleepPassSeason.FreeRewards*
+  name: FreeRewards
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassSeason.html#SharedLibrary_Data_SleepPass_SleepPassSeason_FreeRewards_
+  commentId: Overload:SharedLibrary.Data.SleepPass.SleepPassSeason.FreeRewards
+  isSpec: "True"
+  fullName: SharedLibrary.Data.SleepPass.SleepPassSeason.FreeRewards
+  nameWithType: SleepPassSeason.FreeRewards
+- uid: SharedLibrary.Data.SleepPass.SleepPassSeason.GetRepeatableStepCount(SharedLibrary.Data.Player)
+  name: GetRepeatableStepCount(Player)
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassSeason.html#SharedLibrary_Data_SleepPass_SleepPassSeason_GetRepeatableStepCount_SharedLibrary_Data_Player_
+  commentId: M:SharedLibrary.Data.SleepPass.SleepPassSeason.GetRepeatableStepCount(SharedLibrary.Data.Player)
+  fullName: SharedLibrary.Data.SleepPass.SleepPassSeason.GetRepeatableStepCount(SharedLibrary.Data.Player)
+  nameWithType: SleepPassSeason.GetRepeatableStepCount(Player)
+- uid: SharedLibrary.Data.SleepPass.SleepPassSeason.GetRepeatableStepCount*
+  name: GetRepeatableStepCount
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassSeason.html#SharedLibrary_Data_SleepPass_SleepPassSeason_GetRepeatableStepCount_
+  commentId: Overload:SharedLibrary.Data.SleepPass.SleepPassSeason.GetRepeatableStepCount
+  isSpec: "True"
+  fullName: SharedLibrary.Data.SleepPass.SleepPassSeason.GetRepeatableStepCount
+  nameWithType: SleepPassSeason.GetRepeatableStepCount
+- uid: SharedLibrary.Data.SleepPass.SleepPassSeason.GetSleepPassStage(SharedLibrary.Data.Player)
+  name: GetSleepPassStage(Player)
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassSeason.html#SharedLibrary_Data_SleepPass_SleepPassSeason_GetSleepPassStage_SharedLibrary_Data_Player_
+  commentId: M:SharedLibrary.Data.SleepPass.SleepPassSeason.GetSleepPassStage(SharedLibrary.Data.Player)
+  fullName: SharedLibrary.Data.SleepPass.SleepPassSeason.GetSleepPassStage(SharedLibrary.Data.Player)
+  nameWithType: SleepPassSeason.GetSleepPassStage(Player)
+- uid: SharedLibrary.Data.SleepPass.SleepPassSeason.GetSleepPassStage*
+  name: GetSleepPassStage
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassSeason.html#SharedLibrary_Data_SleepPass_SleepPassSeason_GetSleepPassStage_
+  commentId: Overload:SharedLibrary.Data.SleepPass.SleepPassSeason.GetSleepPassStage
+  isSpec: "True"
+  fullName: SharedLibrary.Data.SleepPass.SleepPassSeason.GetSleepPassStage
+  nameWithType: SleepPassSeason.GetSleepPassStage
+- uid: SharedLibrary.Data.SleepPass.SleepPassSeason.RepeatableStepFreeRewardCount
+  name: RepeatableStepFreeRewardCount
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassSeason.html#SharedLibrary_Data_SleepPass_SleepPassSeason_RepeatableStepFreeRewardCount
+  commentId: P:SharedLibrary.Data.SleepPass.SleepPassSeason.RepeatableStepFreeRewardCount
+  fullName: SharedLibrary.Data.SleepPass.SleepPassSeason.RepeatableStepFreeRewardCount
+  nameWithType: SleepPassSeason.RepeatableStepFreeRewardCount
+- uid: SharedLibrary.Data.SleepPass.SleepPassSeason.RepeatableStepFreeRewardCount*
+  name: RepeatableStepFreeRewardCount
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassSeason.html#SharedLibrary_Data_SleepPass_SleepPassSeason_RepeatableStepFreeRewardCount_
+  commentId: Overload:SharedLibrary.Data.SleepPass.SleepPassSeason.RepeatableStepFreeRewardCount
+  isSpec: "True"
+  fullName: SharedLibrary.Data.SleepPass.SleepPassSeason.RepeatableStepFreeRewardCount
+  nameWithType: SleepPassSeason.RepeatableStepFreeRewardCount
+- uid: SharedLibrary.Data.SleepPass.SleepPassSeason.RepeatableStepSubscribeRewardCount
+  name: RepeatableStepSubscribeRewardCount
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassSeason.html#SharedLibrary_Data_SleepPass_SleepPassSeason_RepeatableStepSubscribeRewardCount
+  commentId: P:SharedLibrary.Data.SleepPass.SleepPassSeason.RepeatableStepSubscribeRewardCount
+  fullName: SharedLibrary.Data.SleepPass.SleepPassSeason.RepeatableStepSubscribeRewardCount
+  nameWithType: SleepPassSeason.RepeatableStepSubscribeRewardCount
+- uid: SharedLibrary.Data.SleepPass.SleepPassSeason.RepeatableStepSubscribeRewardCount*
+  name: RepeatableStepSubscribeRewardCount
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassSeason.html#SharedLibrary_Data_SleepPass_SleepPassSeason_RepeatableStepSubscribeRewardCount_
+  commentId: Overload:SharedLibrary.Data.SleepPass.SleepPassSeason.RepeatableStepSubscribeRewardCount
+  isSpec: "True"
+  fullName: SharedLibrary.Data.SleepPass.SleepPassSeason.RepeatableStepSubscribeRewardCount
+  nameWithType: SleepPassSeason.RepeatableStepSubscribeRewardCount
+- uid: SharedLibrary.Data.SleepPass.SleepPassSeason.SeasonId
+  name: SeasonId
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassSeason.html#SharedLibrary_Data_SleepPass_SleepPassSeason_SeasonId
+  commentId: P:SharedLibrary.Data.SleepPass.SleepPassSeason.SeasonId
+  fullName: SharedLibrary.Data.SleepPass.SleepPassSeason.SeasonId
+  nameWithType: SleepPassSeason.SeasonId
+- uid: SharedLibrary.Data.SleepPass.SleepPassSeason.SeasonId*
+  name: SeasonId
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassSeason.html#SharedLibrary_Data_SleepPass_SleepPassSeason_SeasonId_
+  commentId: Overload:SharedLibrary.Data.SleepPass.SleepPassSeason.SeasonId
+  isSpec: "True"
+  fullName: SharedLibrary.Data.SleepPass.SleepPassSeason.SeasonId
+  nameWithType: SleepPassSeason.SeasonId
+- uid: SharedLibrary.Data.SleepPass.SleepPassSeason.StartDate
+  name: StartDate
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassSeason.html#SharedLibrary_Data_SleepPass_SleepPassSeason_StartDate
+  commentId: P:SharedLibrary.Data.SleepPass.SleepPassSeason.StartDate
+  fullName: SharedLibrary.Data.SleepPass.SleepPassSeason.StartDate
+  nameWithType: SleepPassSeason.StartDate
+- uid: SharedLibrary.Data.SleepPass.SleepPassSeason.StartDate*
+  name: StartDate
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassSeason.html#SharedLibrary_Data_SleepPass_SleepPassSeason_StartDate_
+  commentId: Overload:SharedLibrary.Data.SleepPass.SleepPassSeason.StartDate
+  isSpec: "True"
+  fullName: SharedLibrary.Data.SleepPass.SleepPassSeason.StartDate
+  nameWithType: SleepPassSeason.StartDate
+- uid: SharedLibrary.Data.SleepPass.SleepPassSeason.SubscriptionRewards
+  name: SubscriptionRewards
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassSeason.html#SharedLibrary_Data_SleepPass_SleepPassSeason_SubscriptionRewards
+  commentId: P:SharedLibrary.Data.SleepPass.SleepPassSeason.SubscriptionRewards
+  fullName: SharedLibrary.Data.SleepPass.SleepPassSeason.SubscriptionRewards
+  nameWithType: SleepPassSeason.SubscriptionRewards
+- uid: SharedLibrary.Data.SleepPass.SleepPassSeason.SubscriptionRewards*
+  name: SubscriptionRewards
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassSeason.html#SharedLibrary_Data_SleepPass_SleepPassSeason_SubscriptionRewards_
+  commentId: Overload:SharedLibrary.Data.SleepPass.SleepPassSeason.SubscriptionRewards
+  isSpec: "True"
+  fullName: SharedLibrary.Data.SleepPass.SleepPassSeason.SubscriptionRewards
+  nameWithType: SleepPassSeason.SubscriptionRewards
+- uid: SharedLibrary.Data.SleepPass.SleepPassSeason.Title
+  name: Title
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassSeason.html#SharedLibrary_Data_SleepPass_SleepPassSeason_Title
+  commentId: P:SharedLibrary.Data.SleepPass.SleepPassSeason.Title
+  fullName: SharedLibrary.Data.SleepPass.SleepPassSeason.Title
+  nameWithType: SleepPassSeason.Title
+- uid: SharedLibrary.Data.SleepPass.SleepPassSeason.Title*
+  name: Title
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassSeason.html#SharedLibrary_Data_SleepPass_SleepPassSeason_Title_
+  commentId: Overload:SharedLibrary.Data.SleepPass.SleepPassSeason.Title
+  isSpec: "True"
+  fullName: SharedLibrary.Data.SleepPass.SleepPassSeason.Title
+  nameWithType: SleepPassSeason.Title
+- uid: SharedLibrary.Data.SleepPass.SleepPassSeason.TitleImageUrl
+  name: TitleImageUrl
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassSeason.html#SharedLibrary_Data_SleepPass_SleepPassSeason_TitleImageUrl
+  commentId: P:SharedLibrary.Data.SleepPass.SleepPassSeason.TitleImageUrl
+  fullName: SharedLibrary.Data.SleepPass.SleepPassSeason.TitleImageUrl
+  nameWithType: SleepPassSeason.TitleImageUrl
+- uid: SharedLibrary.Data.SleepPass.SleepPassSeason.TitleImageUrl*
+  name: TitleImageUrl
+  href: api/api/SharedLibrary.Data.SleepPass.SleepPassSeason.html#SharedLibrary_Data_SleepPass_SleepPassSeason_TitleImageUrl_
+  commentId: Overload:SharedLibrary.Data.SleepPass.SleepPassSeason.TitleImageUrl
+  isSpec: "True"
+  fullName: SharedLibrary.Data.SleepPass.SleepPassSeason.TitleImageUrl
+  nameWithType: SleepPassSeason.TitleImageUrl
 - uid: SharedLibrary.Data.StoreType
   name: StoreType
   href: api/api/SharedLibrary.Data.StoreType.html
@@ -6773,6 +7438,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Extensions.BigVal.ToDoubleString
   nameWithType: BigVal.ToDoubleString
+- uid: SharedLibrary.Extensions.BigVal.ToLong
+  name: ToLong()
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_ToLong
+  commentId: M:SharedLibrary.Extensions.BigVal.ToLong
+  fullName: SharedLibrary.Extensions.BigVal.ToLong()
+  nameWithType: BigVal.ToLong()
+- uid: SharedLibrary.Extensions.BigVal.ToLong*
+  name: ToLong
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_ToLong_
+  commentId: Overload:SharedLibrary.Extensions.BigVal.ToLong
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.BigVal.ToLong
+  nameWithType: BigVal.ToLong
 - uid: SharedLibrary.Extensions.BigVal.ToString
   name: ToString()
   href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_ToString
@@ -7623,6 +8301,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Managers.ConfigManager.GetItems
   nameWithType: ConfigManager.GetItems
+- uid: SharedLibrary.Managers.ConfigManager.GetSleepPasses
+  name: GetSleepPasses
+  href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_GetSleepPasses
+  commentId: P:SharedLibrary.Managers.ConfigManager.GetSleepPasses
+  fullName: SharedLibrary.Managers.ConfigManager.GetSleepPasses
+  nameWithType: ConfigManager.GetSleepPasses
+- uid: SharedLibrary.Managers.ConfigManager.GetSleepPasses*
+  name: GetSleepPasses
+  href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_GetSleepPasses_
+  commentId: Overload:SharedLibrary.Managers.ConfigManager.GetSleepPasses
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.ConfigManager.GetSleepPasses
+  nameWithType: ConfigManager.GetSleepPasses
 - uid: SharedLibrary.Managers.ConfigManager.GetTasks
   name: GetTasks
   href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_GetTasks
@@ -8177,6 +8868,102 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Managers.RewardsManager.GenerateRandomReward
   nameWithType: RewardsManager.GenerateRandomReward
+- uid: SharedLibrary.Managers.SleepPassManager
+  name: SleepPassManager
+  href: api/api/SharedLibrary.Managers.SleepPassManager.html
+  commentId: T:SharedLibrary.Managers.SleepPassManager
+  fullName: SharedLibrary.Managers.SleepPassManager
+  nameWithType: SleepPassManager
+- uid: SharedLibrary.Managers.SleepPassManager.CheckPlayerSeason(SharedLibrary.Data.Player)
+  name: CheckPlayerSeason(Player)
+  href: api/api/SharedLibrary.Managers.SleepPassManager.html#SharedLibrary_Managers_SleepPassManager_CheckPlayerSeason_SharedLibrary_Data_Player_
+  commentId: M:SharedLibrary.Managers.SleepPassManager.CheckPlayerSeason(SharedLibrary.Data.Player)
+  fullName: SharedLibrary.Managers.SleepPassManager.CheckPlayerSeason(SharedLibrary.Data.Player)
+  nameWithType: SleepPassManager.CheckPlayerSeason(Player)
+- uid: SharedLibrary.Managers.SleepPassManager.CheckPlayerSeason*
+  name: CheckPlayerSeason
+  href: api/api/SharedLibrary.Managers.SleepPassManager.html#SharedLibrary_Managers_SleepPassManager_CheckPlayerSeason_
+  commentId: Overload:SharedLibrary.Managers.SleepPassManager.CheckPlayerSeason
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.SleepPassManager.CheckPlayerSeason
+  nameWithType: SleepPassManager.CheckPlayerSeason
+- uid: SharedLibrary.Managers.SleepPassManager.ClaimReward(SharedLibrary.Data.Player,System.Boolean,System.Int32,SharedLibrary.Managers.ItemsManager,SharedLibrary.Managers.CosmeticManager)
+  name: ClaimReward(Player, bool, int, ItemsManager, CosmeticManager)
+  href: api/api/SharedLibrary.Managers.SleepPassManager.html#SharedLibrary_Managers_SleepPassManager_ClaimReward_SharedLibrary_Data_Player_System_Boolean_System_Int32_SharedLibrary_Managers_ItemsManager_SharedLibrary_Managers_CosmeticManager_
+  commentId: M:SharedLibrary.Managers.SleepPassManager.ClaimReward(SharedLibrary.Data.Player,System.Boolean,System.Int32,SharedLibrary.Managers.ItemsManager,SharedLibrary.Managers.CosmeticManager)
+  name.vb: ClaimReward(Player, Boolean, Integer, ItemsManager, CosmeticManager)
+  fullName: SharedLibrary.Managers.SleepPassManager.ClaimReward(SharedLibrary.Data.Player, bool, int, SharedLibrary.Managers.ItemsManager, SharedLibrary.Managers.CosmeticManager)
+  fullName.vb: SharedLibrary.Managers.SleepPassManager.ClaimReward(SharedLibrary.Data.Player, Boolean, Integer, SharedLibrary.Managers.ItemsManager, SharedLibrary.Managers.CosmeticManager)
+  nameWithType: SleepPassManager.ClaimReward(Player, bool, int, ItemsManager, CosmeticManager)
+  nameWithType.vb: SleepPassManager.ClaimReward(Player, Boolean, Integer, ItemsManager, CosmeticManager)
+- uid: SharedLibrary.Managers.SleepPassManager.ClaimReward*
+  name: ClaimReward
+  href: api/api/SharedLibrary.Managers.SleepPassManager.html#SharedLibrary_Managers_SleepPassManager_ClaimReward_
+  commentId: Overload:SharedLibrary.Managers.SleepPassManager.ClaimReward
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.SleepPassManager.ClaimReward
+  nameWithType: SleepPassManager.ClaimReward
+- uid: SharedLibrary.Managers.SleepPassManager.ConstructRewardId(SharedLibrary.Data.SleepPass.SleepPassSeason,System.Boolean,System.Int32)
+  name: ConstructRewardId(SleepPassSeason, bool, int)
+  href: api/api/SharedLibrary.Managers.SleepPassManager.html#SharedLibrary_Managers_SleepPassManager_ConstructRewardId_SharedLibrary_Data_SleepPass_SleepPassSeason_System_Boolean_System_Int32_
+  commentId: M:SharedLibrary.Managers.SleepPassManager.ConstructRewardId(SharedLibrary.Data.SleepPass.SleepPassSeason,System.Boolean,System.Int32)
+  name.vb: ConstructRewardId(SleepPassSeason, Boolean, Integer)
+  fullName: SharedLibrary.Managers.SleepPassManager.ConstructRewardId(SharedLibrary.Data.SleepPass.SleepPassSeason, bool, int)
+  fullName.vb: SharedLibrary.Managers.SleepPassManager.ConstructRewardId(SharedLibrary.Data.SleepPass.SleepPassSeason, Boolean, Integer)
+  nameWithType: SleepPassManager.ConstructRewardId(SleepPassSeason, bool, int)
+  nameWithType.vb: SleepPassManager.ConstructRewardId(SleepPassSeason, Boolean, Integer)
+- uid: SharedLibrary.Managers.SleepPassManager.ConstructRewardId*
+  name: ConstructRewardId
+  href: api/api/SharedLibrary.Managers.SleepPassManager.html#SharedLibrary_Managers_SleepPassManager_ConstructRewardId_
+  commentId: Overload:SharedLibrary.Managers.SleepPassManager.ConstructRewardId
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.SleepPassManager.ConstructRewardId
+  nameWithType: SleepPassManager.ConstructRewardId
+- uid: SharedLibrary.Managers.SleepPassManager.GetCurrentSeason
+  name: GetCurrentSeason()
+  href: api/api/SharedLibrary.Managers.SleepPassManager.html#SharedLibrary_Managers_SleepPassManager_GetCurrentSeason
+  commentId: M:SharedLibrary.Managers.SleepPassManager.GetCurrentSeason
+  fullName: SharedLibrary.Managers.SleepPassManager.GetCurrentSeason()
+  nameWithType: SleepPassManager.GetCurrentSeason()
+- uid: SharedLibrary.Managers.SleepPassManager.GetCurrentSeason*
+  name: GetCurrentSeason
+  href: api/api/SharedLibrary.Managers.SleepPassManager.html#SharedLibrary_Managers_SleepPassManager_GetCurrentSeason_
+  commentId: Overload:SharedLibrary.Managers.SleepPassManager.GetCurrentSeason
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.SleepPassManager.GetCurrentSeason
+  nameWithType: SleepPassManager.GetCurrentSeason
+- uid: SharedLibrary.Managers.SleepPassManager.GetSeasonById(System.String)
+  name: GetSeasonById(string)
+  href: api/api/SharedLibrary.Managers.SleepPassManager.html#SharedLibrary_Managers_SleepPassManager_GetSeasonById_System_String_
+  commentId: M:SharedLibrary.Managers.SleepPassManager.GetSeasonById(System.String)
+  name.vb: GetSeasonById(String)
+  fullName: SharedLibrary.Managers.SleepPassManager.GetSeasonById(string)
+  fullName.vb: SharedLibrary.Managers.SleepPassManager.GetSeasonById(String)
+  nameWithType: SleepPassManager.GetSeasonById(string)
+  nameWithType.vb: SleepPassManager.GetSeasonById(String)
+- uid: SharedLibrary.Managers.SleepPassManager.GetSeasonById*
+  name: GetSeasonById
+  href: api/api/SharedLibrary.Managers.SleepPassManager.html#SharedLibrary_Managers_SleepPassManager_GetSeasonById_
+  commentId: Overload:SharedLibrary.Managers.SleepPassManager.GetSeasonById
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.SleepPassManager.GetSeasonById
+  nameWithType: SleepPassManager.GetSeasonById
+- uid: SharedLibrary.Managers.SleepPassManager.IsRewardClaimed(SharedLibrary.Data.Player,System.String)
+  name: IsRewardClaimed(Player, string)
+  href: api/api/SharedLibrary.Managers.SleepPassManager.html#SharedLibrary_Managers_SleepPassManager_IsRewardClaimed_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Managers.SleepPassManager.IsRewardClaimed(SharedLibrary.Data.Player,System.String)
+  name.vb: IsRewardClaimed(Player, String)
+  fullName: SharedLibrary.Managers.SleepPassManager.IsRewardClaimed(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Managers.SleepPassManager.IsRewardClaimed(SharedLibrary.Data.Player, String)
+  nameWithType: SleepPassManager.IsRewardClaimed(Player, string)
+  nameWithType.vb: SleepPassManager.IsRewardClaimed(Player, String)
+- uid: SharedLibrary.Managers.SleepPassManager.IsRewardClaimed*
+  name: IsRewardClaimed
+  href: api/api/SharedLibrary.Managers.SleepPassManager.html#SharedLibrary_Managers_SleepPassManager_IsRewardClaimed_
+  commentId: Overload:SharedLibrary.Managers.SleepPassManager.IsRewardClaimed
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.SleepPassManager.IsRewardClaimed
+  nameWithType: SleepPassManager.IsRewardClaimed
 - uid: SharedLibrary.Managers.TasksManager
   name: TasksManager
   href: api/api/SharedLibrary.Managers.TasksManager.html
@@ -9770,6 +10557,12 @@ references:
   commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepGenerateRewardCommandV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepGenerateRewardCommandV1
   nameWithType: ProtocolMessageTypes.SleepGenerateRewardCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepPassClaimRewardV1
+  name: SleepPassClaimRewardV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepPassClaimRewardV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepPassClaimRewardV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepPassClaimRewardV1
+  nameWithType: ProtocolMessageTypes.SleepPassClaimRewardV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskAddDailyTasksCommandV1
   name: TaskAddDailyTasksCommandV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TaskAddDailyTasksCommandV1
@@ -10553,6 +11346,89 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.Sleep.SleepGenerateRewardProtocolMessageV1.UserId
   nameWithType: SleepGenerateRewardProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.SleepPass
+  name: SharedLibrary.Protocol.ProtocolMessages.SleepPass
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.SleepPass.html
+  commentId: N:SharedLibrary.Protocol.ProtocolMessages.SleepPass
+  fullName: SharedLibrary.Protocol.ProtocolMessages.SleepPass
+  nameWithType: SharedLibrary.Protocol.ProtocolMessages.SleepPass
+- uid: SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1
+  name: SleepPassClaimRewardProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1
+  nameWithType: SleepPassClaimRewardProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.#ctor(System.String,System.Boolean,System.Int32,System.String)
+  name: SleepPassClaimRewardProtocolMessageV1(string, bool, int, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_SleepPass_SleepPassClaimRewardProtocolMessageV1__ctor_System_String_System_Boolean_System_Int32_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.#ctor(System.String,System.Boolean,System.Int32,System.String)
+  name.vb: New(String, Boolean, Integer, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.SleepPassClaimRewardProtocolMessageV1(string, bool, int, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.New(String, Boolean, Integer, String)
+  nameWithType: SleepPassClaimRewardProtocolMessageV1.SleepPassClaimRewardProtocolMessageV1(string, bool, int, string?)
+  nameWithType.vb: SleepPassClaimRewardProtocolMessageV1.New(String, Boolean, Integer, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.#ctor*
+  name: SleepPassClaimRewardProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_SleepPass_SleepPassClaimRewardProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.SleepPassClaimRewardProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.New
+  nameWithType: SleepPassClaimRewardProtocolMessageV1.SleepPassClaimRewardProtocolMessageV1
+  nameWithType.vb: SleepPassClaimRewardProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.IsFree
+  name: IsFree
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_SleepPass_SleepPassClaimRewardProtocolMessageV1_IsFree
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.IsFree
+  fullName: SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.IsFree
+  nameWithType: SleepPassClaimRewardProtocolMessageV1.IsFree
+- uid: SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.IsFree*
+  name: IsFree
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_SleepPass_SleepPassClaimRewardProtocolMessageV1_IsFree_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.IsFree
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.IsFree
+  nameWithType: SleepPassClaimRewardProtocolMessageV1.IsFree
+- uid: SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_SleepPass_SleepPassClaimRewardProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.MessageType
+  nameWithType: SleepPassClaimRewardProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_SleepPass_SleepPassClaimRewardProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.MessageType
+  nameWithType: SleepPassClaimRewardProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.RewardIndex
+  name: RewardIndex
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_SleepPass_SleepPassClaimRewardProtocolMessageV1_RewardIndex
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.RewardIndex
+  fullName: SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.RewardIndex
+  nameWithType: SleepPassClaimRewardProtocolMessageV1.RewardIndex
+- uid: SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.RewardIndex*
+  name: RewardIndex
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_SleepPass_SleepPassClaimRewardProtocolMessageV1_RewardIndex_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.RewardIndex
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.RewardIndex
+  nameWithType: SleepPassClaimRewardProtocolMessageV1.RewardIndex
+- uid: SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_SleepPass_SleepPassClaimRewardProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.UserId
+  nameWithType: SleepPassClaimRewardProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_SleepPass_SleepPassClaimRewardProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.SleepPass.SleepPassClaimRewardProtocolMessageV1.UserId
+  nameWithType: SleepPassClaimRewardProtocolMessageV1.UserId
 - uid: SharedLibrary.Protocol.ProtocolMessages.Tasks
   name: SharedLibrary.Protocol.ProtocolMessages.Tasks
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Tasks.html
