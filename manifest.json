@@ -2696,7 +2696,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.yml\" sourcestartlinenumber=\"1\">Protocol message representing client's request to validate a purchase (i.e. message from mobile app)</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2710,7 +2710,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1",
-      "Summary": "<p sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.yml\" sourcestartlinenumber=\"1\">Internal system command sent to the validation worker to verify a receipt with the store provider.</p>\n"
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.yml\" sourcestartlinenumber=\"1\">Internal system command sent to the service which is performing receipt verification.</p>\n"
     },
     {
       "type": "ManagedReference",
