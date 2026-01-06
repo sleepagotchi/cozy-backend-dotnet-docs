@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width">
       <meta name="title" content="Class ProtocolMessageTypes | Sleepagotchi SharedLibrary API ">
     
-    <meta name="description" content="Should be considered as an enum with protocol message types. Unfortunately, C# doesn&#39;t support enums with string values. Note: all the names are following ENTITY_ACTION_TYPE/VERSION convention.">
+    <meta name="description" content="Should be considered as an enum with protocol message types. Unfortunately, C# doesn&#39;t support enums with string values. Note: all the names are following ENTITY_ACTION_TYPE/VERSION convention. On &amp;quot;Command&amp;quot;, &amp;quot;Request&amp;quot;, and &amp;quot;Result&amp;quot;:  &amp;quot;Command&amp;quot;: Most messages are commands. They are sent from client to server to mutate state and do not expect an explicit message response. The &amp;quot;response&amp;quot; is the updated player state. &amp;quot;Request&amp;quot;: Messages sent from a requester that require an explicit, asynchronous message response. &amp;quot;Result&amp;quot;: The message sent back in response to a &amp;quot;Request&amp;quot;. Note: We use &amp;quot;Result&amp;quot; instead of &amp;quot;Response&amp;quot; because a Result represents a final state/outcome, whereas a Response is often viewed as just the act of replying.">
       <link rel="shortcut icon" href="../../favicon.ico">
       <link rel="stylesheet" href="../../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../../styles/docfx.css">
@@ -84,6 +84,15 @@
   <div class="markdown level0 summary"><p>Should be considered as an enum with protocol message types.
 Unfortunately, C# doesn't support enums with string values.</p>
 <p>Note: all the names are following ENTITY_ACTION_TYPE/VERSION convention.</p>
+<p>On &quot;Command&quot;, &quot;Request&quot;, and &quot;Result&quot;:</p>
+<ul>
+<li>&quot;Command&quot;: Most messages are commands. They are sent from client to server to mutate state
+and do not expect an explicit message response. The &quot;response&quot; is the updated player state.</li>
+<li>&quot;Request&quot;: Messages sent from a requester that require an explicit, asynchronous message response.</li>
+<li>&quot;Result&quot;: The message sent back in response to a &quot;Request&quot;.
+Note: We use &quot;Result&quot; instead of &quot;Response&quot; because a Result represents a final state/outcome,
+whereas a Response is often viewed as just the act of replying.</li>
+</ul>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -122,7 +131,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_AdventureCompleteCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.AdventureCompleteCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L27">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L35">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_AdventureCompleteCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.AdventureCompleteCommandV1">AdventureCompleteCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -151,7 +160,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_AdventureStartCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.AdventureStartCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L26">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L34">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_AdventureStartCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.AdventureStartCommandV1">AdventureStartCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -180,7 +189,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_CosmeticAddItemCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticAddItemCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L55">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L63">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_CosmeticAddItemCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticAddItemCommandV1">CosmeticAddItemCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -209,7 +218,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_CosmeticBuyItemCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticBuyItemCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L53">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L61">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_CosmeticBuyItemCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticBuyItemCommandV1">CosmeticBuyItemCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -238,7 +247,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_CosmeticEquipItemCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticEquipItemCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L51">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L59">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_CosmeticEquipItemCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticEquipItemCommandV1">CosmeticEquipItemCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -267,7 +276,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_CosmeticRemoveItemCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticRemoveItemCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L56">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L64">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_CosmeticRemoveItemCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticRemoveItemCommandV1">CosmeticRemoveItemCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -296,7 +305,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_CosmeticToggleFavoriteItemCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticToggleFavoriteItemCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L54">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L62">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_CosmeticToggleFavoriteItemCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticToggleFavoriteItemCommandV1">CosmeticToggleFavoriteItemCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -325,7 +334,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_CosmeticUnequipItemCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticUnequipItemCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L52">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L60">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_CosmeticUnequipItemCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.CosmeticUnequipItemCommandV1">CosmeticUnequipItemCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -354,7 +363,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_ItemAddToPlayerCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemAddToPlayerCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L42">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L50">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_ItemAddToPlayerCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemAddToPlayerCommandV1">ItemAddToPlayerCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -383,7 +392,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_ItemBuyCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemBuyCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L43">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L51">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_ItemBuyCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemBuyCommandV1">ItemBuyCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -412,7 +421,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_ItemPlaceToIslandCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemPlaceToIslandCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L44">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L52">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_ItemPlaceToIslandCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemPlaceToIslandCommandV1">ItemPlaceToIslandCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -441,7 +450,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_ItemRemoveFromIslandCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemRemoveFromIslandCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L45">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L53">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_ItemRemoveFromIslandCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemRemoveFromIslandCommandV1">ItemRemoveFromIslandCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -470,7 +479,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_ItemRemoveFromPlayerCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemRemoveFromPlayerCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L46">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L54">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_ItemRemoveFromPlayerCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemRemoveFromPlayerCommandV1">ItemRemoveFromPlayerCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -499,7 +508,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_ItemUpgradeCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemUpgradeCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L47">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L55">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_ItemUpgradeCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemUpgradeCommandV1">ItemUpgradeCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -528,7 +537,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PlayerInfoChangeNameCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoChangeNameCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L68">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L76">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PlayerInfoChangeNameCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoChangeNameCommandV1">PlayerInfoChangeNameCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -557,7 +566,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PlayerInfoInsertInfoCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoInsertInfoCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L69">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L77">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PlayerInfoInsertInfoCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoInsertInfoCommandV1">PlayerInfoInsertInfoCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -583,17 +592,18 @@ Unfortunately, C# doesn't support enums with string values.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PurchaseResultCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PurchaseResultCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PurchaseVerifyCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PurchaseVerifyCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L75">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L84">View Source</a>
   </span>
-  <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PurchaseResultCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PurchaseResultCommandV1">PurchaseResultCommandV1</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PurchaseVerifyCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PurchaseVerifyCommandV1">PurchaseVerifyCommandV1</h4>
+  <div class="markdown level1 summary"><p>An external command to verify purchase. Can be used by external clients to validate purchase receipts.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string PurchaseResultCommandV1 = &quot;Purchase_Result_Command/V1&quot;</code></pre>
+    <pre><code class="lang-csharp hljs">public const string PurchaseVerifyCommandV1 = &quot;Purchase_Verify_Command/V1&quot;</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-condensed">
@@ -612,17 +622,17 @@ Unfortunately, C# doesn't support enums with string values.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PurchaseValidateReceiptCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PurchaseValidateReceiptCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PurchaseVerifyInPaymentServiceRequestV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PurchaseVerifyInPaymentServiceRequestV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L74">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L85">View Source</a>
   </span>
-  <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PurchaseValidateReceiptCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PurchaseValidateReceiptCommandV1">PurchaseValidateReceiptCommandV1</h4>
+  <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PurchaseVerifyInPaymentServiceRequestV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PurchaseVerifyInPaymentServiceRequestV1">PurchaseVerifyInPaymentServiceRequestV1</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string PurchaseValidateReceiptCommandV1 = &quot;Purchase_ValidateReceipt_Command/V1&quot;</code></pre>
+    <pre><code class="lang-csharp hljs">public const string PurchaseVerifyInPaymentServiceRequestV1 = &quot;Purchase_VerifyInPaymentService_Request/V1&quot;</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-condensed">
@@ -641,46 +651,17 @@ Unfortunately, C# doesn't support enums with string values.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PurchaseValidateRequestV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PurchaseValidateRequestV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PurchaseVerifyInPaymentServiceResultV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PurchaseVerifyInPaymentServiceResultV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L73">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L86">View Source</a>
   </span>
-  <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PurchaseValidateRequestV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PurchaseValidateRequestV1">PurchaseValidateRequestV1</h4>
+  <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PurchaseVerifyInPaymentServiceResultV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PurchaseVerifyInPaymentServiceResultV1">PurchaseVerifyInPaymentServiceResultV1</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string PurchaseValidateRequestV1 = &quot;Purchase_Validate_Request/V1&quot;</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PurchaseValidateResultV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PurchaseValidateResultV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L76">View Source</a>
-  </span>
-  <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PurchaseValidateResultV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PurchaseValidateResultV1">PurchaseValidateResultV1</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string PurchaseValidateResultV1 = &quot;Purchase_Validate_Result/V1&quot;</code></pre>
+    <pre><code class="lang-csharp hljs">public const string PurchaseVerifyInPaymentServiceResultV1 = &quot;Purchase_VerifyInPaymentService_Result/V1&quot;</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-condensed">
@@ -702,7 +683,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepChangeScheduleCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepChangeScheduleCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L62">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L70">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepChangeScheduleCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepChangeScheduleCommandV1">SleepChangeScheduleCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -731,7 +712,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepCheatDateShiftCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepCheatDateShiftCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L60">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L68">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepCheatDateShiftCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepCheatDateShiftCommandV1">SleepCheatDateShiftCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -760,7 +741,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepConsistencyUpdateCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepConsistencyUpdateCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L61">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L69">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepConsistencyUpdateCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepConsistencyUpdateCommandV1">SleepConsistencyUpdateCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -789,7 +770,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepDateShiftCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepDateShiftCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L64">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L72">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepDateShiftCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepDateShiftCommandV1">SleepDateShiftCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -818,7 +799,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepGenerateRewardCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepGenerateRewardCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L63">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L71">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepGenerateRewardCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepGenerateRewardCommandV1">SleepGenerateRewardCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -847,7 +828,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepPassClaimRewardV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepPassClaimRewardV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L81">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L91">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepPassClaimRewardV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepPassClaimRewardV1">SleepPassClaimRewardV1</h4>
   <div class="markdown level1 summary"></div>
@@ -876,7 +857,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TaskAddDailyTasksCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskAddDailyTasksCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L38">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L46">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TaskAddDailyTasksCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskAddDailyTasksCommandV1">TaskAddDailyTasksCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -905,7 +886,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TaskAddFromSuggestionCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskAddFromSuggestionCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L33">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L41">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TaskAddFromSuggestionCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskAddFromSuggestionCommandV1">TaskAddFromSuggestionCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -934,7 +915,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TaskAddNonSuggestCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskAddNonSuggestCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L37">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L45">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TaskAddNonSuggestCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskAddNonSuggestCommandV1">TaskAddNonSuggestCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -963,7 +944,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TaskCompleteCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskCompleteCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L34">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L42">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TaskCompleteCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskCompleteCommandV1">TaskCompleteCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -992,7 +973,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TaskCreateCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskCreateCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L31">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L39">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TaskCreateCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskCreateCommandV1">TaskCreateCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -1021,7 +1002,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TaskGetPlayerTasksCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskGetPlayerTasksCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L35">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L43">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TaskGetPlayerTasksCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskGetPlayerTasksCommandV1">TaskGetPlayerTasksCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -1050,7 +1031,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TaskRemoveCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskRemoveCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L32">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L40">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TaskRemoveCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskRemoveCommandV1">TaskRemoveCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -1079,7 +1060,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TaskUpdateCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskUpdateCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L36">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L44">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TaskUpdateCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskUpdateCommandV1">TaskUpdateCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -1108,7 +1089,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TutorialAddTaskCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TutorialAddTaskCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L22">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L30">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TutorialAddTaskCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TutorialAddTaskCommandV1">TutorialAddTaskCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -1137,7 +1118,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TutorialSetOnboardingCompletedCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TutorialSetOnboardingCompletedCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L21">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L29">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TutorialSetOnboardingCompletedCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TutorialSetOnboardingCompletedCommandV1">TutorialSetOnboardingCompletedCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -1166,7 +1147,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TutorialSetStepCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TutorialSetStepCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L20">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L28">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TutorialSetStepCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TutorialSetStepCommandV1">TutorialSetStepCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -1195,7 +1176,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_UserGetFullStateCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.UserGetFullStateCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L15">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L23">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_UserGetFullStateCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.UserGetFullStateCommandV1">UserGetFullStateCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -1224,7 +1205,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_UserRegisterCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.UserRegisterCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L12">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L20">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_UserRegisterCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.UserRegisterCommandV1">UserRegisterCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -1253,7 +1234,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_UserResetCheatCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.UserResetCheatCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L16">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L24">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_UserResetCheatCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.UserResetCheatCommandV1">UserResetCheatCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -1282,7 +1263,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_UserSetFullStateCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.UserSetFullStateCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L14">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L22">View Source</a>
   </span>
   <h4 id="SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_UserSetFullStateCommandV1" data-uid="SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.UserSetFullStateCommandV1">UserSetFullStateCommandV1</h4>
   <div class="markdown level1 summary"></div>
@@ -1318,7 +1299,7 @@ Unfortunately, C# doesn't support enums with string values.</p>
                     <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes.md&amp;value=---%0Auid%3A%20SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L9" class="contribution-link">View Source</a>
+                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Protocol/ProtocolMessages/ProtocolMessageTypes.cs/#L17" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

@@ -94,6 +94,15 @@ Classes
       <section><p>Should be considered as an enum with protocol message types.
 Unfortunately, C# doesn't support enums with string values.</p>
 <p>Note: all the names are following ENTITY_ACTION_TYPE/VERSION convention.</p>
+<p>On &quot;Command&quot;, &quot;Request&quot;, and &quot;Result&quot;:</p>
+<ul>
+<li>&quot;Command&quot;: Most messages are commands. They are sent from client to server to mutate state
+and do not expect an explicit message response. The &quot;response&quot; is the updated player state.</li>
+<li>&quot;Request&quot;: Messages sent from a requester that require an explicit, asynchronous message response.</li>
+<li>&quot;Result&quot;: The message sent back in response to a &quot;Request&quot;.
+Note: We use &quot;Result&quot; instead of &quot;Response&quot; because a Result represents a final state/outcome,
+whereas a Response is often viewed as just the act of replying.</li>
+</ul>
 </section>
     <h3 id="interfaces">
 Interfaces

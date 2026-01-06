@@ -362,31 +362,31 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.yml",
+      "source_relative_path": "api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.html"
+          "relative_path": "api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1",
-      "Summary": "<p sourcefile=\"api/SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.yml\" sourcestartlinenumber=\"1\">Arguments required to execute the Purchase Validate Command (V1).\nEncapsulates the player context and the purchase details provided by the client.</p>\n"
+      "Title": "SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.yml\" sourcestartlinenumber=\"1\">Arguments required to execute the Purchase Verify Command (V1).\nEncapsulates the player context and the purchase details provided by the client.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateResultArgs.yml",
+      "source_relative_path": "api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyInPaymentServiceResultArgs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateResultArgs.html"
+          "relative_path": "api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyInPaymentServiceResultArgs.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateResultArgs",
-      "Summary": "<p sourcefile=\"api/SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateResultArgs.yml\" sourcestartlinenumber=\"1\">Arguments passed to the PurchaseValidateResultCommand.\nContains the player to modify and the result data from the validation service.</p>\n"
+      "Title": "SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyInPaymentServiceResultArgs",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyInPaymentServiceResultArgs.yml\" sourcestartlinenumber=\"1\">Arguments passed to the PurchaseValidateResultCommand.\nContains the player to modify and the result data from the validation service.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1062,31 +1062,31 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.yml",
+      "source_relative_path": "api/SharedLibrary.Commands.Purchase.PurchaseVerifyCommandV1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/api/SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.html"
+          "relative_path": "api/api/SharedLibrary.Commands.Purchase.PurchaseVerifyCommandV1.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1",
-      "Summary": "<p sourcefile=\"api/SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.yml\" sourcestartlinenumber=\"1\">Command to register a user's intent to validate a purchase (V1).\nThis does not validate the receipt itself; it only updates the player state to indicate a pending validation.</p>\n"
+      "Title": "SharedLibrary.Commands.Purchase.PurchaseVerifyCommandV1",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Commands.Purchase.PurchaseVerifyCommandV1.yml\" sourcestartlinenumber=\"1\">Command to register a user's intent to validate a purchase (V1).\nThis does not validate the receipt itself; it only updates the player state to indicate a pending validation.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/SharedLibrary.Commands.Purchase.PurchaseValidateResultCommandV1.yml",
+      "source_relative_path": "api/SharedLibrary.Commands.Purchase.PurchaseVerifyInPaymentServiceResultCommandV1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/api/SharedLibrary.Commands.Purchase.PurchaseValidateResultCommandV1.html"
+          "relative_path": "api/api/SharedLibrary.Commands.Purchase.PurchaseVerifyInPaymentServiceResultCommandV1.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "SharedLibrary.Commands.Purchase.PurchaseValidateResultCommandV1",
-      "Summary": "<p sourcefile=\"api/SharedLibrary.Commands.Purchase.PurchaseValidateResultCommandV1.yml\" sourcestartlinenumber=\"1\">Command to process the result of a purchase validation.\nIf valid, it grants the subscription/items.\nIf invalid, it handles the error state.\nAlways cleans up pending purchase requests.</p>\n"
+      "Title": "SharedLibrary.Commands.Purchase.PurchaseVerifyInPaymentServiceResultCommandV1",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Commands.Purchase.PurchaseVerifyInPaymentServiceResultCommandV1.yml\" sourcestartlinenumber=\"1\">Command to process the result of a purchase validation.\nIf valid, it grants the subscription/items.\nIf invalid, it handles the error state.\nAlways cleans up pending purchase requests.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2752,7 +2752,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes",
-      "Summary": "<p sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.yml\" sourcestartlinenumber=\"1\">Should be considered as an enum with protocol message types.\nUnfortunately, C# doesn't support enums with string values.</p>\n<p sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.yml\" sourcestartlinenumber=\"4\">Note: all the names are following ENTITY_ACTION_TYPE/VERSION convention.</p>\n"
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.yml\" sourcestartlinenumber=\"1\">Should be considered as an enum with protocol message types.\nUnfortunately, C# doesn't support enums with string values.</p>\n<p sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.yml\" sourcestartlinenumber=\"4\">Note: all the names are following ENTITY_ACTION_TYPE/VERSION convention.</p>\n<p sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.yml\" sourcestartlinenumber=\"6\">On &quot;Command&quot;, &quot;Request&quot;, and &quot;Result&quot;:</p>\n<ul sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.yml\" sourcestartlinenumber=\"7\">\n<li sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.yml\" sourcestartlinenumber=\"7\">&quot;Command&quot;: Most messages are commands. They are sent from client to server to mutate state\nand do not expect an explicit message response. The &quot;response&quot; is the updated player state.</li>\n<li sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.yml\" sourcestartlinenumber=\"9\">&quot;Request&quot;: Messages sent from a requester that require an explicit, asynchronous message response.</li>\n<li sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.yml\" sourcestartlinenumber=\"10\">&quot;Result&quot;: The message sent back in response to a &quot;Request&quot;.\nNote: We use &quot;Result&quot; instead of &quot;Response&quot; because a Result represents a final state/outcome,\nwhereas a Response is often viewed as just the act of replying.</li>\n</ul>\n"
     },
     {
       "type": "ManagedReference",
@@ -2784,45 +2784,45 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.yml",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyInPaymentServiceRequestProtocolMessageV1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.html"
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyInPaymentServiceRequestProtocolMessageV1.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1",
-      "Summary": "<p sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.yml\" sourcestartlinenumber=\"1\">Protocol message representing client's request to validate a purchase (i.e. message from mobile app)</p>\n"
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyInPaymentServiceRequestProtocolMessageV1",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyInPaymentServiceRequestProtocolMessageV1.yml\" sourcestartlinenumber=\"1\">Internal system command sent to the service which is performing receipt verification.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.yml",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyInPaymentServiceResultProtocolMessageV1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.html"
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyInPaymentServiceResultProtocolMessageV1.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1",
-      "Summary": "<p sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateReceiptProtocolMessageV1.yml\" sourcestartlinenumber=\"1\">Internal system command sent to the service which is performing receipt verification.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateResultProtocolMessageV1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateResultProtocolMessageV1.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateResultProtocolMessageV1",
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyInPaymentServiceResultProtocolMessageV1",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyProtocolMessageV1",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyProtocolMessageV1.yml\" sourcestartlinenumber=\"1\">Protocol message representing client's request to validate a purchase (i.e. message from mobile app)</p>\n"
     },
     {
       "type": "ManagedReference",

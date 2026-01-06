@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class PurchaseValidateCommandV1 | Sleepagotchi SharedLibrary API </title>
+      <title>Class PurchaseVerifyCommandV1 | Sleepagotchi SharedLibrary API </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class PurchaseValidateCommandV1 | Sleepagotchi SharedLibrary API ">
+      <meta name="title" content="Class PurchaseVerifyCommandV1 | Sleepagotchi SharedLibrary API ">
     
     <meta name="description" content="Command to register a user&#39;s intent to validate a purchase (V1). This does not validate the receipt itself; it only updates the player state to indicate a pending validation.">
       <link rel="shortcut icon" href="../../favicon.ico">
@@ -76,11 +76,11 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1">
+            <article class="content wrap" id="_content" data-uid="SharedLibrary.Commands.Purchase.PurchaseVerifyCommandV1">
 
 
 
-  <h1 id="SharedLibrary_Commands_Purchase_PurchaseValidateCommandV1" data-uid="SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1" class="text-break">Class PurchaseValidateCommandV1</h1>
+  <h1 id="SharedLibrary_Commands_Purchase_PurchaseVerifyCommandV1" data-uid="SharedLibrary.Commands.Purchase.PurchaseVerifyCommandV1" class="text-break">Class PurchaseVerifyCommandV1</h1>
   <div class="markdown level0 summary"><p>Command to register a user's intent to validate a purchase (V1).
 This does not validate the receipt itself; it only updates the player state to indicate a pending validation.</p>
 </div>
@@ -88,19 +88,19 @@ This does not validate the receipt itself; it only updates the player state to i
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><a class="xref" href="SharedLibrary.Commands.CommandBase-2.html">CommandBase</a>&lt;<a class="xref" href="SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.html">PurchaseValidateArgsV1</a>, <a class="xref" href="SharedLibrary.Data.Player.html">Player</a>&gt;</div>
-    <div class="level2"><span class="xref">PurchaseValidateCommandV1</span></div>
+    <div class="level1"><a class="xref" href="SharedLibrary.Commands.CommandBase-2.html">CommandBase</a>&lt;<a class="xref" href="SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.html">PurchaseVerifyArgsV1</a>, <a class="xref" href="SharedLibrary.Data.Player.html">Player</a>&gt;</div>
+    <div class="level2"><span class="xref">PurchaseVerifyCommandV1</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="SharedLibrary.Commands.ICommand-2.html">ICommand</a>&lt;<a class="xref" href="SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.html">PurchaseValidateArgsV1</a>, <a class="xref" href="SharedLibrary.Data.Player.html">Player</a>&gt;</div>
+    <div><a class="xref" href="SharedLibrary.Commands.ICommand-2.html">ICommand</a>&lt;<a class="xref" href="SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.html">PurchaseVerifyArgsV1</a>, <a class="xref" href="SharedLibrary.Data.Player.html">Player</a>&gt;</div>
     <div><a class="xref" href="SharedLibrary.Commands.ICommandBase.html">ICommandBase</a></div>
-    <div><a class="xref" href="SharedLibrary.Protocol.ProtocolMessages.IProtocolMessageConverter-2.html">IProtocolMessageConverter</a>&lt;<a class="xref" href="SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.html">PurchaseValidateArgsV1</a>, <a class="xref" href="SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.html">PurchaseValidateProtocolMessageV1</a>&gt;</div>
+    <div><a class="xref" href="SharedLibrary.Protocol.ProtocolMessages.IProtocolMessageConverter-2.html">IProtocolMessageConverter</a>&lt;<a class="xref" href="SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.html">PurchaseVerifyArgsV1</a>, <a class="xref" href="SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyProtocolMessageV1.html">PurchaseVerifyProtocolMessageV1</a>&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="SharedLibrary.Commands.CommandBase-2.html#SharedLibrary_Commands_CommandBase_2_Execute__0_">CommandBase&lt;PurchaseValidateArgsV1, Player&gt;.Execute(PurchaseValidateArgsV1)</a>
+      <a class="xref" href="SharedLibrary.Commands.CommandBase-2.html#SharedLibrary_Commands_CommandBase_2_Execute__0_">CommandBase&lt;PurchaseVerifyArgsV1, Player&gt;.Execute(PurchaseVerifyArgsV1)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
@@ -120,27 +120,27 @@ This does not validate the receipt itself; it only updates the player state to i
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="SharedLibrary.html">SharedLibrary</a>.<a class="xref" href="SharedLibrary.Commands.html">Commands</a>.<a class="xref" href="SharedLibrary.Commands.Purchase.html">Purchase</a></h6>
   <h6><strong>Assembly</strong>: SharedLibrary.dll</h6>
-  <h5 id="SharedLibrary_Commands_Purchase_PurchaseValidateCommandV1_syntax">Syntax</h5>
+  <h5 id="SharedLibrary_Commands_Purchase_PurchaseVerifyCommandV1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PurchaseValidateCommandV1 : CommandBase&lt;PurchaseValidateArgsV1, Player&gt;, ICommand&lt;PurchaseValidateArgsV1, Player&gt;, ICommandBase, IProtocolMessageConverter&lt;PurchaseValidateArgsV1, PurchaseValidateProtocolMessageV1&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class PurchaseVerifyCommandV1 : CommandBase&lt;PurchaseVerifyArgsV1, Player&gt;, ICommand&lt;PurchaseVerifyArgsV1, Player&gt;, ICommandBase, IProtocolMessageConverter&lt;PurchaseVerifyArgsV1, PurchaseVerifyProtocolMessageV1&gt;</code></pre>
   </div>
   <h3 id="methods">Methods
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Commands_Purchase_PurchaseValidateCommandV1_Execute_SharedLibrary_Commands_Arguments_Purchase_PurchaseValidateArgsV1_.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.Execute(SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Commands_Purchase_PurchaseVerifyCommandV1_Execute_SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyArgsV1_.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.Purchase.PurchaseVerifyCommandV1.Execute(SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/Purchase/PurchaseValidateCommandV1.cs/#L17">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/Purchase/PurchaseVerifyCommandV1.cs/#L17">View Source</a>
   </span>
-  <a id="SharedLibrary_Commands_Purchase_PurchaseValidateCommandV1_Execute_" data-uid="SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.Execute*"></a>
-  <h4 id="SharedLibrary_Commands_Purchase_PurchaseValidateCommandV1_Execute_SharedLibrary_Commands_Arguments_Purchase_PurchaseValidateArgsV1_" data-uid="SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.Execute(SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1)">Execute(PurchaseValidateArgsV1)</h4>
+  <a id="SharedLibrary_Commands_Purchase_PurchaseVerifyCommandV1_Execute_" data-uid="SharedLibrary.Commands.Purchase.PurchaseVerifyCommandV1.Execute*"></a>
+  <h4 id="SharedLibrary_Commands_Purchase_PurchaseVerifyCommandV1_Execute_SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyArgsV1_" data-uid="SharedLibrary.Commands.Purchase.PurchaseVerifyCommandV1.Execute(SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1)">Execute(PurchaseVerifyArgsV1)</h4>
   <div class="markdown level1 summary"><p>Executes the command with the specified arguments.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override Player Execute(PurchaseValidateArgsV1 args)</code></pre>
+    <pre><code class="lang-csharp hljs">public override Player Execute(PurchaseVerifyArgsV1 args)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -153,7 +153,7 @@ This does not validate the receipt itself; it only updates the player state to i
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.html">PurchaseValidateArgsV1</a></td>
+        <td><a class="xref" href="SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.html">PurchaseVerifyArgsV1</a></td>
         <td><span class="parametername">args</span></td>
         <td><p>The arguments required to execute the command.</p>
 </td>
@@ -177,22 +177,22 @@ This does not validate the receipt itself; it only updates the player state to i
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="SharedLibrary.Commands.CommandBase-2.html#SharedLibrary_Commands_CommandBase_2_Execute__0_">CommandBase&lt;PurchaseValidateArgsV1, Player&gt;.Execute(PurchaseValidateArgsV1)</a></div>
+  <div><a class="xref" href="SharedLibrary.Commands.CommandBase-2.html#SharedLibrary_Commands_CommandBase_2_Execute__0_">CommandBase&lt;PurchaseVerifyArgsV1, Player&gt;.Execute(PurchaseVerifyArgsV1)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Commands_Purchase_PurchaseValidateCommandV1_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Purchase_PurchaseValidateArgsV1_System_String_.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.ToProtocolMessage(System.String%2CSharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Commands_Purchase_PurchaseVerifyCommandV1_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyArgsV1_System_String_.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.Purchase.PurchaseVerifyCommandV1.ToProtocolMessage(System.String%2CSharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/Purchase/PurchaseValidateCommandV1.cs/#L38">View Source</a>
+    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/Purchase/PurchaseVerifyCommandV1.cs/#L38">View Source</a>
   </span>
-  <a id="SharedLibrary_Commands_Purchase_PurchaseValidateCommandV1_ToProtocolMessage_" data-uid="SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.ToProtocolMessage*"></a>
-  <h4 id="SharedLibrary_Commands_Purchase_PurchaseValidateCommandV1_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Purchase_PurchaseValidateArgsV1_System_String_" data-uid="SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1,System.String)">ToProtocolMessage(string, PurchaseValidateArgsV1, string?)</h4>
+  <a id="SharedLibrary_Commands_Purchase_PurchaseVerifyCommandV1_ToProtocolMessage_" data-uid="SharedLibrary.Commands.Purchase.PurchaseVerifyCommandV1.ToProtocolMessage*"></a>
+  <h4 id="SharedLibrary_Commands_Purchase_PurchaseVerifyCommandV1_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyArgsV1_System_String_" data-uid="SharedLibrary.Commands.Purchase.PurchaseVerifyCommandV1.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1,System.String)">ToProtocolMessage(string, PurchaseVerifyArgsV1, string?)</h4>
   <div class="markdown level1 summary"><p>Creates a protocol message from command arguments.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PurchaseValidateProtocolMessageV1 ToProtocolMessage(string userId, PurchaseValidateArgsV1 args, string? clientMarker = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public PurchaseVerifyProtocolMessageV1 ToProtocolMessage(string userId, PurchaseVerifyArgsV1 args, string? clientMarker = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -210,7 +210,7 @@ This does not validate the receipt itself; it only updates the player state to i
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="SharedLibrary.Commands.Arguments.Purchase.PurchaseValidateArgsV1.html">PurchaseValidateArgsV1</a></td>
+        <td><a class="xref" href="SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.html">PurchaseVerifyArgsV1</a></td>
         <td><span class="parametername">args</span></td>
         <td><p>The command arguments</p>
 </td>
@@ -233,7 +233,7 @@ This does not validate the receipt itself; it only updates the player state to i
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseValidateProtocolMessageV1.html">PurchaseValidateProtocolMessageV1</a></td>
+        <td><a class="xref" href="SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyProtocolMessageV1.html">PurchaseVerifyProtocolMessageV1</a></td>
         <td><p>A protocol message ready to be sent over the network</p>
 </td>
       </tr>
@@ -258,10 +258,10 @@ This does not validate the receipt itself; it only updates the player state to i
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Commands_Purchase_PurchaseValidateCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.Purchase.PurchaseValidateCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/new/dev/apiSpec/new?filename=SharedLibrary_Commands_Purchase_PurchaseVerifyCommandV1.md&amp;value=---%0Auid%3A%20SharedLibrary.Commands.Purchase.PurchaseVerifyCommandV1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/Purchase/PurchaseValidateCommandV1.cs/#L14" class="contribution-link">View Source</a>
+                    <a href="https://github.com/sleepagotchi/cozy-backend-dotnet/blob/dev/SharedLibrary/Commands/Purchase/PurchaseVerifyCommandV1.cs/#L14" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
