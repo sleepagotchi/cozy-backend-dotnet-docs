@@ -320,6 +320,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs.yml",
       "output": {
         ".html": {
@@ -1006,6 +1020,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.PlayerInfo.PlayerInfoInsertInfoCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.PlayerInfo.PlayerInfoInsertInfoCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.PlayerInfo.PlayerInfoInsertInfoCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Commands.PlayerInfo.PlayerResetCheatCommand.yml",
       "output": {
         ".html": {
@@ -1608,6 +1636,48 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Data.GPT.PlayerGPTOnbordingInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Data.GPT.PlayerGPTOnbordingInformation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Data.GPT.PlayerGPTOnbordingInformation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Data.GPT.PlayerGPTSleepInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Data.GPT.PlayerGPTSleepInformation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Data.GPT.PlayerGPTSleepInformation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Data.GPT.PlayerGPTTasksInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Data.GPT.PlayerGPTTasksInformation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Data.GPT.PlayerGPTTasksInformation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Data.GPT.yml",
       "output": {
         ".html": {
@@ -1717,6 +1787,20 @@
       "IsMRef": true,
       "Title": "SharedLibrary.Data.PlayerInfo",
       "Summary": "<p sourcefile=\"api/SharedLibrary.Data.PlayerInfo.yml\" sourcestartlinenumber=\"1\">Represents information about a player.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Data.PlayerInfoSourceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Data.PlayerInfoSourceType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Data.PlayerInfoSourceType",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2626,6 +2710,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1",
       "Summary": null
     },
     {

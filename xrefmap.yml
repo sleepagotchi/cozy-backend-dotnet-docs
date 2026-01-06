@@ -1170,6 +1170,83 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.Player
   nameWithType: PlayerInfoChangeNameArgs.Player
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs
+  name: PlayerInfoInsertInfoArgs
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs
+  nameWithType: PlayerInfoInsertInfoArgs
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Data.PlayerInfoSourceType,System.String,System.String)
+  name: PlayerInfoInsertInfoArgs(Player, PlayerInfoSourceType, string, string)
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoInsertInfoArgs__ctor_SharedLibrary_Data_Player_SharedLibrary_Data_PlayerInfoSourceType_System_String_System_String_
+  commentId: M:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.#ctor(SharedLibrary.Data.Player,SharedLibrary.Data.PlayerInfoSourceType,System.String,System.String)
+  name.vb: New(Player, PlayerInfoSourceType, String, String)
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.PlayerInfoInsertInfoArgs(SharedLibrary.Data.Player, SharedLibrary.Data.PlayerInfoSourceType, string, string)
+  fullName.vb: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.New(SharedLibrary.Data.Player, SharedLibrary.Data.PlayerInfoSourceType, String, String)
+  nameWithType: PlayerInfoInsertInfoArgs.PlayerInfoInsertInfoArgs(Player, PlayerInfoSourceType, string, string)
+  nameWithType.vb: PlayerInfoInsertInfoArgs.New(Player, PlayerInfoSourceType, String, String)
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.#ctor*
+  name: PlayerInfoInsertInfoArgs
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoInsertInfoArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.PlayerInfoInsertInfoArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.New
+  nameWithType: PlayerInfoInsertInfoArgs.PlayerInfoInsertInfoArgs
+  nameWithType.vb: PlayerInfoInsertInfoArgs.New
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.Key
+  name: Key
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoInsertInfoArgs_Key
+  commentId: P:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.Key
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.Key
+  nameWithType: PlayerInfoInsertInfoArgs.Key
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.Key*
+  name: Key
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoInsertInfoArgs_Key_
+  commentId: Overload:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.Key
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.Key
+  nameWithType: PlayerInfoInsertInfoArgs.Key
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoInsertInfoArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.Player
+  nameWithType: PlayerInfoInsertInfoArgs.Player
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoInsertInfoArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.Player
+  nameWithType: PlayerInfoInsertInfoArgs.Player
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.SourceType
+  name: SourceType
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoInsertInfoArgs_SourceType
+  commentId: P:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.SourceType
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.SourceType
+  nameWithType: PlayerInfoInsertInfoArgs.SourceType
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.SourceType*
+  name: SourceType
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoInsertInfoArgs_SourceType_
+  commentId: Overload:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.SourceType
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.SourceType
+  nameWithType: PlayerInfoInsertInfoArgs.SourceType
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.Value
+  name: Value
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoInsertInfoArgs_Value
+  commentId: P:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.Value
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.Value
+  nameWithType: PlayerInfoInsertInfoArgs.Value
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.Value*
+  name: Value
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoInsertInfoArgs_Value_
+  commentId: Overload:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.Value
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.Value
+  nameWithType: PlayerInfoInsertInfoArgs.Value
 - uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs
   name: PlayerResetCheatArgs
   href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs.html
@@ -3437,6 +3514,41 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand.ToProtocolMessage
   nameWithType: PlayerInfoChangeNameCommand.ToProtocolMessage
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerInfoInsertInfoCommand
+  name: PlayerInfoInsertInfoCommand
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerInfoInsertInfoCommand.html
+  commentId: T:SharedLibrary.Commands.PlayerInfo.PlayerInfoInsertInfoCommand
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerInfoInsertInfoCommand
+  nameWithType: PlayerInfoInsertInfoCommand
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerInfoInsertInfoCommand.Execute(SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs)
+  name: Execute(PlayerInfoInsertInfoArgs)
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerInfoInsertInfoCommand.html#SharedLibrary_Commands_PlayerInfo_PlayerInfoInsertInfoCommand_Execute_SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoInsertInfoArgs_
+  commentId: M:SharedLibrary.Commands.PlayerInfo.PlayerInfoInsertInfoCommand.Execute(SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs)
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerInfoInsertInfoCommand.Execute(SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs)
+  nameWithType: PlayerInfoInsertInfoCommand.Execute(PlayerInfoInsertInfoArgs)
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerInfoInsertInfoCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerInfoInsertInfoCommand.html#SharedLibrary_Commands_PlayerInfo_PlayerInfoInsertInfoCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.PlayerInfo.PlayerInfoInsertInfoCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerInfoInsertInfoCommand.Execute
+  nameWithType: PlayerInfoInsertInfoCommand.Execute
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerInfoInsertInfoCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs,System.String)
+  name: ToProtocolMessage(string, PlayerInfoInsertInfoArgs, string?)
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerInfoInsertInfoCommand.html#SharedLibrary_Commands_PlayerInfo_PlayerInfoInsertInfoCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoInsertInfoArgs_System_String_
+  commentId: M:SharedLibrary.Commands.PlayerInfo.PlayerInfoInsertInfoCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs,System.String)
+  name.vb: ToProtocolMessage(String, PlayerInfoInsertInfoArgs, String)
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerInfoInsertInfoCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs, string?)
+  fullName.vb: SharedLibrary.Commands.PlayerInfo.PlayerInfoInsertInfoCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs, String)
+  nameWithType: PlayerInfoInsertInfoCommand.ToProtocolMessage(string, PlayerInfoInsertInfoArgs, string?)
+  nameWithType.vb: PlayerInfoInsertInfoCommand.ToProtocolMessage(String, PlayerInfoInsertInfoArgs, String)
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerInfoInsertInfoCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerInfoInsertInfoCommand.html#SharedLibrary_Commands_PlayerInfo_PlayerInfoInsertInfoCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.PlayerInfo.PlayerInfoInsertInfoCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerInfoInsertInfoCommand.ToProtocolMessage
+  nameWithType: PlayerInfoInsertInfoCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.PlayerInfo.PlayerResetCheatCommand
   name: PlayerResetCheatCommand
   href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerResetCheatCommand.html
@@ -4740,6 +4852,12 @@ references:
   commentId: F:SharedLibrary.Data.CommandType.PlayerInfoChangeName
   fullName: SharedLibrary.Data.CommandType.PlayerInfoChangeName
   nameWithType: CommandType.PlayerInfoChangeName
+- uid: SharedLibrary.Data.CommandType.PlayerInfoInsertInfo
+  name: PlayerInfoInsertInfo
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_PlayerInfoInsertInfo
+  commentId: F:SharedLibrary.Data.CommandType.PlayerInfoInsertInfo
+  fullName: SharedLibrary.Data.CommandType.PlayerInfoInsertInfo
+  nameWithType: CommandType.PlayerInfoInsertInfo
 - uid: SharedLibrary.Data.CommandType.PlayerResetCheat
   name: PlayerResetCheat
   href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_PlayerResetCheat
@@ -5442,6 +5560,102 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.GPT.GPTConfig.SystemMessage
   nameWithType: GPTConfig.SystemMessage
+- uid: SharedLibrary.Data.GPT.PlayerGPTOnbordingInformation
+  name: PlayerGPTOnbordingInformation
+  href: api/api/SharedLibrary.Data.GPT.PlayerGPTOnbordingInformation.html
+  commentId: T:SharedLibrary.Data.GPT.PlayerGPTOnbordingInformation
+  fullName: SharedLibrary.Data.GPT.PlayerGPTOnbordingInformation
+  nameWithType: PlayerGPTOnbordingInformation
+- uid: SharedLibrary.Data.GPT.PlayerGPTOnbordingInformation.Key
+  name: Key
+  href: api/api/SharedLibrary.Data.GPT.PlayerGPTOnbordingInformation.html#SharedLibrary_Data_GPT_PlayerGPTOnbordingInformation_Key
+  commentId: P:SharedLibrary.Data.GPT.PlayerGPTOnbordingInformation.Key
+  fullName: SharedLibrary.Data.GPT.PlayerGPTOnbordingInformation.Key
+  nameWithType: PlayerGPTOnbordingInformation.Key
+- uid: SharedLibrary.Data.GPT.PlayerGPTOnbordingInformation.Key*
+  name: Key
+  href: api/api/SharedLibrary.Data.GPT.PlayerGPTOnbordingInformation.html#SharedLibrary_Data_GPT_PlayerGPTOnbordingInformation_Key_
+  commentId: Overload:SharedLibrary.Data.GPT.PlayerGPTOnbordingInformation.Key
+  isSpec: "True"
+  fullName: SharedLibrary.Data.GPT.PlayerGPTOnbordingInformation.Key
+  nameWithType: PlayerGPTOnbordingInformation.Key
+- uid: SharedLibrary.Data.GPT.PlayerGPTOnbordingInformation.Value
+  name: Value
+  href: api/api/SharedLibrary.Data.GPT.PlayerGPTOnbordingInformation.html#SharedLibrary_Data_GPT_PlayerGPTOnbordingInformation_Value
+  commentId: P:SharedLibrary.Data.GPT.PlayerGPTOnbordingInformation.Value
+  fullName: SharedLibrary.Data.GPT.PlayerGPTOnbordingInformation.Value
+  nameWithType: PlayerGPTOnbordingInformation.Value
+- uid: SharedLibrary.Data.GPT.PlayerGPTOnbordingInformation.Value*
+  name: Value
+  href: api/api/SharedLibrary.Data.GPT.PlayerGPTOnbordingInformation.html#SharedLibrary_Data_GPT_PlayerGPTOnbordingInformation_Value_
+  commentId: Overload:SharedLibrary.Data.GPT.PlayerGPTOnbordingInformation.Value
+  isSpec: "True"
+  fullName: SharedLibrary.Data.GPT.PlayerGPTOnbordingInformation.Value
+  nameWithType: PlayerGPTOnbordingInformation.Value
+- uid: SharedLibrary.Data.GPT.PlayerGPTSleepInformation
+  name: PlayerGPTSleepInformation
+  href: api/api/SharedLibrary.Data.GPT.PlayerGPTSleepInformation.html
+  commentId: T:SharedLibrary.Data.GPT.PlayerGPTSleepInformation
+  fullName: SharedLibrary.Data.GPT.PlayerGPTSleepInformation
+  nameWithType: PlayerGPTSleepInformation
+- uid: SharedLibrary.Data.GPT.PlayerGPTSleepInformation.Date
+  name: Date
+  href: api/api/SharedLibrary.Data.GPT.PlayerGPTSleepInformation.html#SharedLibrary_Data_GPT_PlayerGPTSleepInformation_Date
+  commentId: P:SharedLibrary.Data.GPT.PlayerGPTSleepInformation.Date
+  fullName: SharedLibrary.Data.GPT.PlayerGPTSleepInformation.Date
+  nameWithType: PlayerGPTSleepInformation.Date
+- uid: SharedLibrary.Data.GPT.PlayerGPTSleepInformation.Date*
+  name: Date
+  href: api/api/SharedLibrary.Data.GPT.PlayerGPTSleepInformation.html#SharedLibrary_Data_GPT_PlayerGPTSleepInformation_Date_
+  commentId: Overload:SharedLibrary.Data.GPT.PlayerGPTSleepInformation.Date
+  isSpec: "True"
+  fullName: SharedLibrary.Data.GPT.PlayerGPTSleepInformation.Date
+  nameWithType: PlayerGPTSleepInformation.Date
+- uid: SharedLibrary.Data.GPT.PlayerGPTSleepInformation.Value
+  name: Value
+  href: api/api/SharedLibrary.Data.GPT.PlayerGPTSleepInformation.html#SharedLibrary_Data_GPT_PlayerGPTSleepInformation_Value
+  commentId: P:SharedLibrary.Data.GPT.PlayerGPTSleepInformation.Value
+  fullName: SharedLibrary.Data.GPT.PlayerGPTSleepInformation.Value
+  nameWithType: PlayerGPTSleepInformation.Value
+- uid: SharedLibrary.Data.GPT.PlayerGPTSleepInformation.Value*
+  name: Value
+  href: api/api/SharedLibrary.Data.GPT.PlayerGPTSleepInformation.html#SharedLibrary_Data_GPT_PlayerGPTSleepInformation_Value_
+  commentId: Overload:SharedLibrary.Data.GPT.PlayerGPTSleepInformation.Value
+  isSpec: "True"
+  fullName: SharedLibrary.Data.GPT.PlayerGPTSleepInformation.Value
+  nameWithType: PlayerGPTSleepInformation.Value
+- uid: SharedLibrary.Data.GPT.PlayerGPTTasksInformation
+  name: PlayerGPTTasksInformation
+  href: api/api/SharedLibrary.Data.GPT.PlayerGPTTasksInformation.html
+  commentId: T:SharedLibrary.Data.GPT.PlayerGPTTasksInformation
+  fullName: SharedLibrary.Data.GPT.PlayerGPTTasksInformation
+  nameWithType: PlayerGPTTasksInformation
+- uid: SharedLibrary.Data.GPT.PlayerGPTTasksInformation.Date
+  name: Date
+  href: api/api/SharedLibrary.Data.GPT.PlayerGPTTasksInformation.html#SharedLibrary_Data_GPT_PlayerGPTTasksInformation_Date
+  commentId: P:SharedLibrary.Data.GPT.PlayerGPTTasksInformation.Date
+  fullName: SharedLibrary.Data.GPT.PlayerGPTTasksInformation.Date
+  nameWithType: PlayerGPTTasksInformation.Date
+- uid: SharedLibrary.Data.GPT.PlayerGPTTasksInformation.Date*
+  name: Date
+  href: api/api/SharedLibrary.Data.GPT.PlayerGPTTasksInformation.html#SharedLibrary_Data_GPT_PlayerGPTTasksInformation_Date_
+  commentId: Overload:SharedLibrary.Data.GPT.PlayerGPTTasksInformation.Date
+  isSpec: "True"
+  fullName: SharedLibrary.Data.GPT.PlayerGPTTasksInformation.Date
+  nameWithType: PlayerGPTTasksInformation.Date
+- uid: SharedLibrary.Data.GPT.PlayerGPTTasksInformation.Value
+  name: Value
+  href: api/api/SharedLibrary.Data.GPT.PlayerGPTTasksInformation.html#SharedLibrary_Data_GPT_PlayerGPTTasksInformation_Value
+  commentId: P:SharedLibrary.Data.GPT.PlayerGPTTasksInformation.Value
+  fullName: SharedLibrary.Data.GPT.PlayerGPTTasksInformation.Value
+  nameWithType: PlayerGPTTasksInformation.Value
+- uid: SharedLibrary.Data.GPT.PlayerGPTTasksInformation.Value*
+  name: Value
+  href: api/api/SharedLibrary.Data.GPT.PlayerGPTTasksInformation.html#SharedLibrary_Data_GPT_PlayerGPTTasksInformation_Value_
+  commentId: Overload:SharedLibrary.Data.GPT.PlayerGPTTasksInformation.Value
+  isSpec: "True"
+  fullName: SharedLibrary.Data.GPT.PlayerGPTTasksInformation.Value
+  nameWithType: PlayerGPTTasksInformation.Value
 - uid: SharedLibrary.Data.Island
   name: SharedLibrary.Data.Island
   href: api/api/SharedLibrary.Data.Island.html
@@ -5913,6 +6127,71 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.PlayerInfo.Clone
   nameWithType: PlayerInfo.Clone
+- uid: SharedLibrary.Data.PlayerInfo.CompletedTasksInfo
+  name: CompletedTasksInfo
+  href: api/api/SharedLibrary.Data.PlayerInfo.html#SharedLibrary_Data_PlayerInfo_CompletedTasksInfo
+  commentId: P:SharedLibrary.Data.PlayerInfo.CompletedTasksInfo
+  fullName: SharedLibrary.Data.PlayerInfo.CompletedTasksInfo
+  nameWithType: PlayerInfo.CompletedTasksInfo
+- uid: SharedLibrary.Data.PlayerInfo.CompletedTasksInfo*
+  name: CompletedTasksInfo
+  href: api/api/SharedLibrary.Data.PlayerInfo.html#SharedLibrary_Data_PlayerInfo_CompletedTasksInfo_
+  commentId: Overload:SharedLibrary.Data.PlayerInfo.CompletedTasksInfo
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerInfo.CompletedTasksInfo
+  nameWithType: PlayerInfo.CompletedTasksInfo
+- uid: SharedLibrary.Data.PlayerInfo.GetPlayerInfoBySource(SharedLibrary.Data.PlayerInfoSourceType)
+  name: GetPlayerInfoBySource(PlayerInfoSourceType)
+  href: api/api/SharedLibrary.Data.PlayerInfo.html#SharedLibrary_Data_PlayerInfo_GetPlayerInfoBySource_SharedLibrary_Data_PlayerInfoSourceType_
+  commentId: M:SharedLibrary.Data.PlayerInfo.GetPlayerInfoBySource(SharedLibrary.Data.PlayerInfoSourceType)
+  fullName: SharedLibrary.Data.PlayerInfo.GetPlayerInfoBySource(SharedLibrary.Data.PlayerInfoSourceType)
+  nameWithType: PlayerInfo.GetPlayerInfoBySource(PlayerInfoSourceType)
+- uid: SharedLibrary.Data.PlayerInfo.GetPlayerInfoBySource*
+  name: GetPlayerInfoBySource
+  href: api/api/SharedLibrary.Data.PlayerInfo.html#SharedLibrary_Data_PlayerInfo_GetPlayerInfoBySource_
+  commentId: Overload:SharedLibrary.Data.PlayerInfo.GetPlayerInfoBySource
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerInfo.GetPlayerInfoBySource
+  nameWithType: PlayerInfo.GetPlayerInfoBySource
+- uid: SharedLibrary.Data.PlayerInfo.OnboardingInfo
+  name: OnboardingInfo
+  href: api/api/SharedLibrary.Data.PlayerInfo.html#SharedLibrary_Data_PlayerInfo_OnboardingInfo
+  commentId: P:SharedLibrary.Data.PlayerInfo.OnboardingInfo
+  fullName: SharedLibrary.Data.PlayerInfo.OnboardingInfo
+  nameWithType: PlayerInfo.OnboardingInfo
+- uid: SharedLibrary.Data.PlayerInfo.OnboardingInfo*
+  name: OnboardingInfo
+  href: api/api/SharedLibrary.Data.PlayerInfo.html#SharedLibrary_Data_PlayerInfo_OnboardingInfo_
+  commentId: Overload:SharedLibrary.Data.PlayerInfo.OnboardingInfo
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerInfo.OnboardingInfo
+  nameWithType: PlayerInfo.OnboardingInfo
+- uid: SharedLibrary.Data.PlayerInfo.SleepMoodInfo
+  name: SleepMoodInfo
+  href: api/api/SharedLibrary.Data.PlayerInfo.html#SharedLibrary_Data_PlayerInfo_SleepMoodInfo
+  commentId: P:SharedLibrary.Data.PlayerInfo.SleepMoodInfo
+  fullName: SharedLibrary.Data.PlayerInfo.SleepMoodInfo
+  nameWithType: PlayerInfo.SleepMoodInfo
+- uid: SharedLibrary.Data.PlayerInfo.SleepMoodInfo*
+  name: SleepMoodInfo
+  href: api/api/SharedLibrary.Data.PlayerInfo.html#SharedLibrary_Data_PlayerInfo_SleepMoodInfo_
+  commentId: Overload:SharedLibrary.Data.PlayerInfo.SleepMoodInfo
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerInfo.SleepMoodInfo
+  nameWithType: PlayerInfo.SleepMoodInfo
+- uid: SharedLibrary.Data.PlayerInfo.SleepQualityInfo
+  name: SleepQualityInfo
+  href: api/api/SharedLibrary.Data.PlayerInfo.html#SharedLibrary_Data_PlayerInfo_SleepQualityInfo
+  commentId: P:SharedLibrary.Data.PlayerInfo.SleepQualityInfo
+  fullName: SharedLibrary.Data.PlayerInfo.SleepQualityInfo
+  nameWithType: PlayerInfo.SleepQualityInfo
+- uid: SharedLibrary.Data.PlayerInfo.SleepQualityInfo*
+  name: SleepQualityInfo
+  href: api/api/SharedLibrary.Data.PlayerInfo.html#SharedLibrary_Data_PlayerInfo_SleepQualityInfo_
+  commentId: Overload:SharedLibrary.Data.PlayerInfo.SleepQualityInfo
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerInfo.SleepQualityInfo
+  nameWithType: PlayerInfo.SleepQualityInfo
 - uid: SharedLibrary.Data.PlayerInfo.UserName
   name: UserName
   href: api/api/SharedLibrary.Data.PlayerInfo.html#SharedLibrary_Data_PlayerInfo_UserName
@@ -5926,6 +6205,36 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.PlayerInfo.UserName
   nameWithType: PlayerInfo.UserName
+- uid: SharedLibrary.Data.PlayerInfoSourceType
+  name: PlayerInfoSourceType
+  href: api/api/SharedLibrary.Data.PlayerInfoSourceType.html
+  commentId: T:SharedLibrary.Data.PlayerInfoSourceType
+  fullName: SharedLibrary.Data.PlayerInfoSourceType
+  nameWithType: PlayerInfoSourceType
+- uid: SharedLibrary.Data.PlayerInfoSourceType.Onboarding
+  name: Onboarding
+  href: api/api/SharedLibrary.Data.PlayerInfoSourceType.html#SharedLibrary_Data_PlayerInfoSourceType_Onboarding
+  commentId: F:SharedLibrary.Data.PlayerInfoSourceType.Onboarding
+  fullName: SharedLibrary.Data.PlayerInfoSourceType.Onboarding
+  nameWithType: PlayerInfoSourceType.Onboarding
+- uid: SharedLibrary.Data.PlayerInfoSourceType.SleepMood
+  name: SleepMood
+  href: api/api/SharedLibrary.Data.PlayerInfoSourceType.html#SharedLibrary_Data_PlayerInfoSourceType_SleepMood
+  commentId: F:SharedLibrary.Data.PlayerInfoSourceType.SleepMood
+  fullName: SharedLibrary.Data.PlayerInfoSourceType.SleepMood
+  nameWithType: PlayerInfoSourceType.SleepMood
+- uid: SharedLibrary.Data.PlayerInfoSourceType.SleepQuality
+  name: SleepQuality
+  href: api/api/SharedLibrary.Data.PlayerInfoSourceType.html#SharedLibrary_Data_PlayerInfoSourceType_SleepQuality
+  commentId: F:SharedLibrary.Data.PlayerInfoSourceType.SleepQuality
+  fullName: SharedLibrary.Data.PlayerInfoSourceType.SleepQuality
+  nameWithType: PlayerInfoSourceType.SleepQuality
+- uid: SharedLibrary.Data.PlayerInfoSourceType.Tasks
+  name: Tasks
+  href: api/api/SharedLibrary.Data.PlayerInfoSourceType.html#SharedLibrary_Data_PlayerInfoSourceType_Tasks
+  commentId: F:SharedLibrary.Data.PlayerInfoSourceType.Tasks
+  fullName: SharedLibrary.Data.PlayerInfoSourceType.Tasks
+  nameWithType: PlayerInfoSourceType.Tasks
 - uid: SharedLibrary.Data.PlayerIslands
   name: PlayerIslands
   href: api/api/SharedLibrary.Data.PlayerIslands.html
@@ -10407,6 +10716,96 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.Username
   nameWithType: PlayerInfoChangeNameProtocolMessageV1.Username
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1
+  name: PlayerInfoInsertInfoProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1
+  nameWithType: PlayerInfoInsertInfoProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.#ctor(System.String,SharedLibrary.Data.PlayerInfoSourceType,System.String,System.String,System.String)
+  name: PlayerInfoInsertInfoProtocolMessageV1(string, PlayerInfoSourceType, string, string, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoInsertInfoProtocolMessageV1__ctor_System_String_SharedLibrary_Data_PlayerInfoSourceType_System_String_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.#ctor(System.String,SharedLibrary.Data.PlayerInfoSourceType,System.String,System.String,System.String)
+  name.vb: New(String, PlayerInfoSourceType, String, String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.PlayerInfoInsertInfoProtocolMessageV1(string, SharedLibrary.Data.PlayerInfoSourceType, string, string, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.New(String, SharedLibrary.Data.PlayerInfoSourceType, String, String, String)
+  nameWithType: PlayerInfoInsertInfoProtocolMessageV1.PlayerInfoInsertInfoProtocolMessageV1(string, PlayerInfoSourceType, string, string, string?)
+  nameWithType.vb: PlayerInfoInsertInfoProtocolMessageV1.New(String, PlayerInfoSourceType, String, String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.#ctor*
+  name: PlayerInfoInsertInfoProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoInsertInfoProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.PlayerInfoInsertInfoProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.New
+  nameWithType: PlayerInfoInsertInfoProtocolMessageV1.PlayerInfoInsertInfoProtocolMessageV1
+  nameWithType.vb: PlayerInfoInsertInfoProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.Key
+  name: Key
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoInsertInfoProtocolMessageV1_Key
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.Key
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.Key
+  nameWithType: PlayerInfoInsertInfoProtocolMessageV1.Key
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.Key*
+  name: Key
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoInsertInfoProtocolMessageV1_Key_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.Key
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.Key
+  nameWithType: PlayerInfoInsertInfoProtocolMessageV1.Key
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoInsertInfoProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.MessageType
+  nameWithType: PlayerInfoInsertInfoProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoInsertInfoProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.MessageType
+  nameWithType: PlayerInfoInsertInfoProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.Type
+  name: Type
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoInsertInfoProtocolMessageV1_Type
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.Type
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.Type
+  nameWithType: PlayerInfoInsertInfoProtocolMessageV1.Type
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.Type*
+  name: Type
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoInsertInfoProtocolMessageV1_Type_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.Type
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.Type
+  nameWithType: PlayerInfoInsertInfoProtocolMessageV1.Type
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoInsertInfoProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.UserId
+  nameWithType: PlayerInfoInsertInfoProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoInsertInfoProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.UserId
+  nameWithType: PlayerInfoInsertInfoProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.Value
+  name: Value
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoInsertInfoProtocolMessageV1_Value
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.Value
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.Value
+  nameWithType: PlayerInfoInsertInfoProtocolMessageV1.Value
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.Value*
+  name: Value
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoInsertInfoProtocolMessageV1_Value_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.Value
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.Value
+  nameWithType: PlayerInfoInsertInfoProtocolMessageV1.Value
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes
   name: ProtocolMessageTypes
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html
@@ -10503,6 +10902,12 @@ references:
   commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoChangeNameCommandV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoChangeNameCommandV1
   nameWithType: ProtocolMessageTypes.PlayerInfoChangeNameCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoInsertInfoCommandV1
+  name: PlayerInfoInsertInfoCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PlayerInfoInsertInfoCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoInsertInfoCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoInsertInfoCommandV1
+  nameWithType: ProtocolMessageTypes.PlayerInfoInsertInfoCommandV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PurchaseResultCommandV1
   name: PurchaseResultCommandV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PurchaseResultCommandV1
