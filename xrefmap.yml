@@ -10956,12 +10956,12 @@ references:
   commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepGenerateRewardCommandV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepGenerateRewardCommandV1
   nameWithType: ProtocolMessageTypes.SleepGenerateRewardCommandV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepPassClaimRewardV1
-  name: SleepPassClaimRewardV1
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepPassClaimRewardV1
-  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepPassClaimRewardV1
-  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepPassClaimRewardV1
-  nameWithType: ProtocolMessageTypes.SleepPassClaimRewardV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepPassClaimRewardCommandV1
+  name: SleepPassClaimRewardCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepPassClaimRewardCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepPassClaimRewardCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepPassClaimRewardCommandV1
+  nameWithType: ProtocolMessageTypes.SleepPassClaimRewardCommandV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.TaskAddDailyTasksCommandV1
   name: TaskAddDailyTasksCommandV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_TaskAddDailyTasksCommandV1
