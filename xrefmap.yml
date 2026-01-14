@@ -5560,6 +5560,45 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.GPT.GPTConfig.SystemMessage
   nameWithType: GPTConfig.SystemMessage
+- uid: SharedLibrary.Data.GPT.GPTConfig.SystemMessageMF
+  name: SystemMessageMF
+  href: api/api/SharedLibrary.Data.GPT.GPTConfig.html#SharedLibrary_Data_GPT_GPTConfig_SystemMessageMF
+  commentId: P:SharedLibrary.Data.GPT.GPTConfig.SystemMessageMF
+  fullName: SharedLibrary.Data.GPT.GPTConfig.SystemMessageMF
+  nameWithType: GPTConfig.SystemMessageMF
+- uid: SharedLibrary.Data.GPT.GPTConfig.SystemMessageMF*
+  name: SystemMessageMF
+  href: api/api/SharedLibrary.Data.GPT.GPTConfig.html#SharedLibrary_Data_GPT_GPTConfig_SystemMessageMF_
+  commentId: Overload:SharedLibrary.Data.GPT.GPTConfig.SystemMessageMF
+  isSpec: "True"
+  fullName: SharedLibrary.Data.GPT.GPTConfig.SystemMessageMF
+  nameWithType: GPTConfig.SystemMessageMF
+- uid: SharedLibrary.Data.GPT.GPTConfig.Version
+  name: Version
+  href: api/api/SharedLibrary.Data.GPT.GPTConfig.html#SharedLibrary_Data_GPT_GPTConfig_Version
+  commentId: P:SharedLibrary.Data.GPT.GPTConfig.Version
+  fullName: SharedLibrary.Data.GPT.GPTConfig.Version
+  nameWithType: GPTConfig.Version
+- uid: SharedLibrary.Data.GPT.GPTConfig.Version*
+  name: Version
+  href: api/api/SharedLibrary.Data.GPT.GPTConfig.html#SharedLibrary_Data_GPT_GPTConfig_Version_
+  commentId: Overload:SharedLibrary.Data.GPT.GPTConfig.Version
+  isSpec: "True"
+  fullName: SharedLibrary.Data.GPT.GPTConfig.Version
+  nameWithType: GPTConfig.Version
+- uid: SharedLibrary.Data.GPT.GPTConfig.VersionMF
+  name: VersionMF
+  href: api/api/SharedLibrary.Data.GPT.GPTConfig.html#SharedLibrary_Data_GPT_GPTConfig_VersionMF
+  commentId: P:SharedLibrary.Data.GPT.GPTConfig.VersionMF
+  fullName: SharedLibrary.Data.GPT.GPTConfig.VersionMF
+  nameWithType: GPTConfig.VersionMF
+- uid: SharedLibrary.Data.GPT.GPTConfig.VersionMF*
+  name: VersionMF
+  href: api/api/SharedLibrary.Data.GPT.GPTConfig.html#SharedLibrary_Data_GPT_GPTConfig_VersionMF_
+  commentId: Overload:SharedLibrary.Data.GPT.GPTConfig.VersionMF
+  isSpec: "True"
+  fullName: SharedLibrary.Data.GPT.GPTConfig.VersionMF
+  nameWithType: GPTConfig.VersionMF
 - uid: SharedLibrary.Data.GPT.PlayerGPTOnbordingInformation
   name: PlayerGPTOnbordingInformation
   href: api/api/SharedLibrary.Data.GPT.PlayerGPTOnbordingInformation.html
