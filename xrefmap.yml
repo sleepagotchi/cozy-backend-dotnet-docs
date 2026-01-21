@@ -4835,6 +4835,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.BalanceDefaultUserParams.Cosmetics
   nameWithType: BalanceDefaultUserParams.Cosmetics
+- uid: SharedLibrary.Data.BalanceDefaultUserParams.DefaultXP
+  name: DefaultXP
+  href: api/api/SharedLibrary.Data.BalanceDefaultUserParams.html#SharedLibrary_Data_BalanceDefaultUserParams_DefaultXP
+  commentId: P:SharedLibrary.Data.BalanceDefaultUserParams.DefaultXP
+  fullName: SharedLibrary.Data.BalanceDefaultUserParams.DefaultXP
+  nameWithType: BalanceDefaultUserParams.DefaultXP
+- uid: SharedLibrary.Data.BalanceDefaultUserParams.DefaultXP*
+  name: DefaultXP
+  href: api/api/SharedLibrary.Data.BalanceDefaultUserParams.html#SharedLibrary_Data_BalanceDefaultUserParams_DefaultXP_
+  commentId: Overload:SharedLibrary.Data.BalanceDefaultUserParams.DefaultXP
+  isSpec: "True"
+  fullName: SharedLibrary.Data.BalanceDefaultUserParams.DefaultXP
+  nameWithType: BalanceDefaultUserParams.DefaultXP
 - uid: SharedLibrary.Data.BalanceDefaultUserParams.DreamStones
   name: DreamStones
   href: api/api/SharedLibrary.Data.BalanceDefaultUserParams.html#SharedLibrary_Data_BalanceDefaultUserParams_DreamStones
