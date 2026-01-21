@@ -136,15 +136,15 @@ references:
   commentId: T:SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs
   fullName: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs
   nameWithType: ActivityCompleteArgs
-- uid: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.#ctor(SharedLibrary.Data.Player,System.String)
-  name: ActivityCompleteArgs(Player, string)
-  href: api/api/SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.html#SharedLibrary_Commands_Arguments_Activities_ActivityCompleteArgs__ctor_SharedLibrary_Data_Player_System_String_
-  commentId: M:SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.#ctor(SharedLibrary.Data.Player,System.String)
-  name.vb: New(Player, String)
-  fullName: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.ActivityCompleteArgs(SharedLibrary.Data.Player, string)
-  fullName.vb: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.New(SharedLibrary.Data.Player, String)
-  nameWithType: ActivityCompleteArgs.ActivityCompleteArgs(Player, string)
-  nameWithType.vb: ActivityCompleteArgs.New(Player, String)
+- uid: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.#ctor(SharedLibrary.Data.Player,System.String,SharedLibrary.Managers.ItemsManager,SharedLibrary.Managers.CosmeticManager)
+  name: ActivityCompleteArgs(Player, string, ItemsManager, CosmeticManager)
+  href: api/api/SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.html#SharedLibrary_Commands_Arguments_Activities_ActivityCompleteArgs__ctor_SharedLibrary_Data_Player_System_String_SharedLibrary_Managers_ItemsManager_SharedLibrary_Managers_CosmeticManager_
+  commentId: M:SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.#ctor(SharedLibrary.Data.Player,System.String,SharedLibrary.Managers.ItemsManager,SharedLibrary.Managers.CosmeticManager)
+  name.vb: New(Player, String, ItemsManager, CosmeticManager)
+  fullName: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.ActivityCompleteArgs(SharedLibrary.Data.Player, string, SharedLibrary.Managers.ItemsManager, SharedLibrary.Managers.CosmeticManager)
+  fullName.vb: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.New(SharedLibrary.Data.Player, String, SharedLibrary.Managers.ItemsManager, SharedLibrary.Managers.CosmeticManager)
+  nameWithType: ActivityCompleteArgs.ActivityCompleteArgs(Player, string, ItemsManager, CosmeticManager)
+  nameWithType.vb: ActivityCompleteArgs.New(Player, String, ItemsManager, CosmeticManager)
 - uid: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.#ctor*
   name: ActivityCompleteArgs
   href: api/api/SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.html#SharedLibrary_Commands_Arguments_Activities_ActivityCompleteArgs__ctor_
@@ -168,6 +168,32 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.ActivityId
   nameWithType: ActivityCompleteArgs.ActivityId
+- uid: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.CosmeticManager
+  name: CosmeticManager
+  href: api/api/SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.html#SharedLibrary_Commands_Arguments_Activities_ActivityCompleteArgs_CosmeticManager
+  commentId: P:SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.CosmeticManager
+  fullName: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.CosmeticManager
+  nameWithType: ActivityCompleteArgs.CosmeticManager
+- uid: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.CosmeticManager*
+  name: CosmeticManager
+  href: api/api/SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.html#SharedLibrary_Commands_Arguments_Activities_ActivityCompleteArgs_CosmeticManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.CosmeticManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.CosmeticManager
+  nameWithType: ActivityCompleteArgs.CosmeticManager
+- uid: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.ItemsManager
+  name: ItemsManager
+  href: api/api/SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.html#SharedLibrary_Commands_Arguments_Activities_ActivityCompleteArgs_ItemsManager
+  commentId: P:SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.ItemsManager
+  fullName: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.ItemsManager
+  nameWithType: ActivityCompleteArgs.ItemsManager
+- uid: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.ItemsManager*
+  name: ItemsManager
+  href: api/api/SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.html#SharedLibrary_Commands_Arguments_Activities_ActivityCompleteArgs_ItemsManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.ItemsManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.ItemsManager
+  nameWithType: ActivityCompleteArgs.ItemsManager
 - uid: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.Player
   name: Player
   href: api/api/SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.html#SharedLibrary_Commands_Arguments_Activities_ActivityCompleteArgs_Player
@@ -6232,6 +6258,19 @@ references:
   fullName.vb: SharedLibrary.Data.LevelReward.New
   nameWithType: LevelReward.LevelReward
   nameWithType.vb: LevelReward.New
+- uid: SharedLibrary.Data.LevelReward.RewardAmount
+  name: RewardAmount
+  href: api/api/SharedLibrary.Data.LevelReward.html#SharedLibrary_Data_LevelReward_RewardAmount
+  commentId: P:SharedLibrary.Data.LevelReward.RewardAmount
+  fullName: SharedLibrary.Data.LevelReward.RewardAmount
+  nameWithType: LevelReward.RewardAmount
+- uid: SharedLibrary.Data.LevelReward.RewardAmount*
+  name: RewardAmount
+  href: api/api/SharedLibrary.Data.LevelReward.html#SharedLibrary_Data_LevelReward_RewardAmount_
+  commentId: Overload:SharedLibrary.Data.LevelReward.RewardAmount
+  isSpec: "True"
+  fullName: SharedLibrary.Data.LevelReward.RewardAmount
+  nameWithType: LevelReward.RewardAmount
 - uid: SharedLibrary.Data.LevelReward.RewardId
   name: RewardId
   href: api/api/SharedLibrary.Data.LevelReward.html#SharedLibrary_Data_LevelReward_RewardId
