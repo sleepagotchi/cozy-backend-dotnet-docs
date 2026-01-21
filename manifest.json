@@ -1832,6 +1832,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Data.LevelReward.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Data.LevelReward.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Data.LevelReward",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Data.LevelReward.yml\" sourcestartlinenumber=\"1\">Reward model for reaching dinosaur level</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Data.Player.yml",
       "output": {
         ".html": {
@@ -1885,6 +1899,20 @@
       "IsMRef": true,
       "Title": "SharedLibrary.Data.PlayerIslands",
       "Summary": "<p sourcefile=\"api/SharedLibrary.Data.PlayerIslands.yml\" sourcestartlinenumber=\"1\">Represents the player's island data, including all owned islands and the identifier of the currently active island.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Data.PlayerLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Data.PlayerLevel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Data.PlayerLevel",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Data.PlayerLevel.yml\" sourcestartlinenumber=\"1\">Class to control player level and experience</p>\n"
     },
     {
       "type": "ManagedReference",

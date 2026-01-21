@@ -4919,6 +4919,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.BalanceModel.DefaultUserParams
   nameWithType: BalanceModel.DefaultUserParams
+- uid: SharedLibrary.Data.BalanceModel.DinoLevels
+  name: DinoLevels
+  href: api/api/SharedLibrary.Data.BalanceModel.html#SharedLibrary_Data_BalanceModel_DinoLevels
+  commentId: P:SharedLibrary.Data.BalanceModel.DinoLevels
+  fullName: SharedLibrary.Data.BalanceModel.DinoLevels
+  nameWithType: BalanceModel.DinoLevels
+- uid: SharedLibrary.Data.BalanceModel.DinoLevels*
+  name: DinoLevels
+  href: api/api/SharedLibrary.Data.BalanceModel.html#SharedLibrary_Data_BalanceModel_DinoLevels_
+  commentId: Overload:SharedLibrary.Data.BalanceModel.DinoLevels
+  isSpec: "True"
+  fullName: SharedLibrary.Data.BalanceModel.DinoLevels
+  nameWithType: BalanceModel.DinoLevels
 - uid: SharedLibrary.Data.BalanceModel.GptConfig
   name: GptConfig
   href: api/api/SharedLibrary.Data.BalanceModel.html#SharedLibrary_Data_BalanceModel_GptConfig
@@ -6185,6 +6198,79 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Items.ItemOnIsland.ItemId
   nameWithType: ItemOnIsland.ItemId
+- uid: SharedLibrary.Data.LevelReward
+  name: LevelReward
+  href: api/api/SharedLibrary.Data.LevelReward.html
+  commentId: T:SharedLibrary.Data.LevelReward
+  fullName: SharedLibrary.Data.LevelReward
+  nameWithType: LevelReward
+- uid: SharedLibrary.Data.LevelReward.#ctor
+  name: LevelReward()
+  href: api/api/SharedLibrary.Data.LevelReward.html#SharedLibrary_Data_LevelReward__ctor
+  commentId: M:SharedLibrary.Data.LevelReward.#ctor
+  name.vb: New()
+  fullName: SharedLibrary.Data.LevelReward.LevelReward()
+  fullName.vb: SharedLibrary.Data.LevelReward.New()
+  nameWithType: LevelReward.LevelReward()
+  nameWithType.vb: LevelReward.New()
+- uid: SharedLibrary.Data.LevelReward.#ctor(System.Int32,SharedLibrary.Data.ResourceType,System.String)
+  name: LevelReward(int, ResourceType, string)
+  href: api/api/SharedLibrary.Data.LevelReward.html#SharedLibrary_Data_LevelReward__ctor_System_Int32_SharedLibrary_Data_ResourceType_System_String_
+  commentId: M:SharedLibrary.Data.LevelReward.#ctor(System.Int32,SharedLibrary.Data.ResourceType,System.String)
+  name.vb: New(Integer, ResourceType, String)
+  fullName: SharedLibrary.Data.LevelReward.LevelReward(int, SharedLibrary.Data.ResourceType, string)
+  fullName.vb: SharedLibrary.Data.LevelReward.New(Integer, SharedLibrary.Data.ResourceType, String)
+  nameWithType: LevelReward.LevelReward(int, ResourceType, string)
+  nameWithType.vb: LevelReward.New(Integer, ResourceType, String)
+- uid: SharedLibrary.Data.LevelReward.#ctor*
+  name: LevelReward
+  href: api/api/SharedLibrary.Data.LevelReward.html#SharedLibrary_Data_LevelReward__ctor_
+  commentId: Overload:SharedLibrary.Data.LevelReward.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Data.LevelReward.LevelReward
+  fullName.vb: SharedLibrary.Data.LevelReward.New
+  nameWithType: LevelReward.LevelReward
+  nameWithType.vb: LevelReward.New
+- uid: SharedLibrary.Data.LevelReward.RewardId
+  name: RewardId
+  href: api/api/SharedLibrary.Data.LevelReward.html#SharedLibrary_Data_LevelReward_RewardId
+  commentId: P:SharedLibrary.Data.LevelReward.RewardId
+  fullName: SharedLibrary.Data.LevelReward.RewardId
+  nameWithType: LevelReward.RewardId
+- uid: SharedLibrary.Data.LevelReward.RewardId*
+  name: RewardId
+  href: api/api/SharedLibrary.Data.LevelReward.html#SharedLibrary_Data_LevelReward_RewardId_
+  commentId: Overload:SharedLibrary.Data.LevelReward.RewardId
+  isSpec: "True"
+  fullName: SharedLibrary.Data.LevelReward.RewardId
+  nameWithType: LevelReward.RewardId
+- uid: SharedLibrary.Data.LevelReward.RewardType
+  name: RewardType
+  href: api/api/SharedLibrary.Data.LevelReward.html#SharedLibrary_Data_LevelReward_RewardType
+  commentId: P:SharedLibrary.Data.LevelReward.RewardType
+  fullName: SharedLibrary.Data.LevelReward.RewardType
+  nameWithType: LevelReward.RewardType
+- uid: SharedLibrary.Data.LevelReward.RewardType*
+  name: RewardType
+  href: api/api/SharedLibrary.Data.LevelReward.html#SharedLibrary_Data_LevelReward_RewardType_
+  commentId: Overload:SharedLibrary.Data.LevelReward.RewardType
+  isSpec: "True"
+  fullName: SharedLibrary.Data.LevelReward.RewardType
+  nameWithType: LevelReward.RewardType
+- uid: SharedLibrary.Data.LevelReward.Xp
+  name: Xp
+  href: api/api/SharedLibrary.Data.LevelReward.html#SharedLibrary_Data_LevelReward_Xp
+  commentId: P:SharedLibrary.Data.LevelReward.Xp
+  fullName: SharedLibrary.Data.LevelReward.Xp
+  nameWithType: LevelReward.Xp
+- uid: SharedLibrary.Data.LevelReward.Xp*
+  name: Xp
+  href: api/api/SharedLibrary.Data.LevelReward.html#SharedLibrary_Data_LevelReward_Xp_
+  commentId: Overload:SharedLibrary.Data.LevelReward.Xp
+  isSpec: "True"
+  fullName: SharedLibrary.Data.LevelReward.Xp
+  nameWithType: LevelReward.Xp
 - uid: SharedLibrary.Data.Player
   name: Player
   href: api/api/SharedLibrary.Data.Player.html
@@ -6321,6 +6407,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Player.PendingPurchases
   nameWithType: Player.PendingPurchases
+- uid: SharedLibrary.Data.Player.PlayerLevel
+  name: PlayerLevel
+  href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_PlayerLevel
+  commentId: P:SharedLibrary.Data.Player.PlayerLevel
+  fullName: SharedLibrary.Data.Player.PlayerLevel
+  nameWithType: Player.PlayerLevel
+- uid: SharedLibrary.Data.Player.PlayerLevel*
+  name: PlayerLevel
+  href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_PlayerLevel_
+  commentId: Overload:SharedLibrary.Data.Player.PlayerLevel
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Player.PlayerLevel
+  nameWithType: Player.PlayerLevel
 - uid: SharedLibrary.Data.Player.PurchaseHistory
   name: PurchaseHistory
   href: api/api/SharedLibrary.Data.Player.html#SharedLibrary_Data_Player_PurchaseHistory
@@ -6571,6 +6670,173 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.PlayerIslands.IslandsList
   nameWithType: PlayerIslands.IslandsList
+- uid: SharedLibrary.Data.PlayerLevel
+  name: PlayerLevel
+  href: api/api/SharedLibrary.Data.PlayerLevel.html
+  commentId: T:SharedLibrary.Data.PlayerLevel
+  fullName: SharedLibrary.Data.PlayerLevel
+  nameWithType: PlayerLevel
+- uid: SharedLibrary.Data.PlayerLevel.AddExperience(SharedLibrary.Extensions.BigVal)
+  name: AddExperience(BigVal)
+  href: api/api/SharedLibrary.Data.PlayerLevel.html#SharedLibrary_Data_PlayerLevel_AddExperience_SharedLibrary_Extensions_BigVal_
+  commentId: M:SharedLibrary.Data.PlayerLevel.AddExperience(SharedLibrary.Extensions.BigVal)
+  fullName: SharedLibrary.Data.PlayerLevel.AddExperience(SharedLibrary.Extensions.BigVal)
+  nameWithType: PlayerLevel.AddExperience(BigVal)
+- uid: SharedLibrary.Data.PlayerLevel.AddExperience*
+  name: AddExperience
+  href: api/api/SharedLibrary.Data.PlayerLevel.html#SharedLibrary_Data_PlayerLevel_AddExperience_
+  commentId: Overload:SharedLibrary.Data.PlayerLevel.AddExperience
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerLevel.AddExperience
+  nameWithType: PlayerLevel.AddExperience
+- uid: SharedLibrary.Data.PlayerLevel.CheckLevel
+  name: CheckLevel()
+  href: api/api/SharedLibrary.Data.PlayerLevel.html#SharedLibrary_Data_PlayerLevel_CheckLevel
+  commentId: M:SharedLibrary.Data.PlayerLevel.CheckLevel
+  fullName: SharedLibrary.Data.PlayerLevel.CheckLevel()
+  nameWithType: PlayerLevel.CheckLevel()
+- uid: SharedLibrary.Data.PlayerLevel.CheckLevel*
+  name: CheckLevel
+  href: api/api/SharedLibrary.Data.PlayerLevel.html#SharedLibrary_Data_PlayerLevel_CheckLevel_
+  commentId: Overload:SharedLibrary.Data.PlayerLevel.CheckLevel
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerLevel.CheckLevel
+  nameWithType: PlayerLevel.CheckLevel
+- uid: SharedLibrary.Data.PlayerLevel.Clone
+  name: Clone()
+  href: api/api/SharedLibrary.Data.PlayerLevel.html#SharedLibrary_Data_PlayerLevel_Clone
+  commentId: M:SharedLibrary.Data.PlayerLevel.Clone
+  fullName: SharedLibrary.Data.PlayerLevel.Clone()
+  nameWithType: PlayerLevel.Clone()
+- uid: SharedLibrary.Data.PlayerLevel.Clone*
+  name: Clone
+  href: api/api/SharedLibrary.Data.PlayerLevel.html#SharedLibrary_Data_PlayerLevel_Clone_
+  commentId: Overload:SharedLibrary.Data.PlayerLevel.Clone
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerLevel.Clone
+  nameWithType: PlayerLevel.Clone
+- uid: SharedLibrary.Data.PlayerLevel.Experience
+  name: Experience
+  href: api/api/SharedLibrary.Data.PlayerLevel.html#SharedLibrary_Data_PlayerLevel_Experience
+  commentId: P:SharedLibrary.Data.PlayerLevel.Experience
+  fullName: SharedLibrary.Data.PlayerLevel.Experience
+  nameWithType: PlayerLevel.Experience
+- uid: SharedLibrary.Data.PlayerLevel.Experience*
+  name: Experience
+  href: api/api/SharedLibrary.Data.PlayerLevel.html#SharedLibrary_Data_PlayerLevel_Experience_
+  commentId: Overload:SharedLibrary.Data.PlayerLevel.Experience
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerLevel.Experience
+  nameWithType: PlayerLevel.Experience
+- uid: SharedLibrary.Data.PlayerLevel.GetMaxLevel
+  name: GetMaxLevel()
+  href: api/api/SharedLibrary.Data.PlayerLevel.html#SharedLibrary_Data_PlayerLevel_GetMaxLevel
+  commentId: M:SharedLibrary.Data.PlayerLevel.GetMaxLevel
+  fullName: SharedLibrary.Data.PlayerLevel.GetMaxLevel()
+  nameWithType: PlayerLevel.GetMaxLevel()
+- uid: SharedLibrary.Data.PlayerLevel.GetMaxLevel*
+  name: GetMaxLevel
+  href: api/api/SharedLibrary.Data.PlayerLevel.html#SharedLibrary_Data_PlayerLevel_GetMaxLevel_
+  commentId: Overload:SharedLibrary.Data.PlayerLevel.GetMaxLevel
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerLevel.GetMaxLevel
+  nameWithType: PlayerLevel.GetMaxLevel
+- uid: SharedLibrary.Data.PlayerLevel.GetProgressToNextLevel
+  name: GetProgressToNextLevel()
+  href: api/api/SharedLibrary.Data.PlayerLevel.html#SharedLibrary_Data_PlayerLevel_GetProgressToNextLevel
+  commentId: M:SharedLibrary.Data.PlayerLevel.GetProgressToNextLevel
+  fullName: SharedLibrary.Data.PlayerLevel.GetProgressToNextLevel()
+  nameWithType: PlayerLevel.GetProgressToNextLevel()
+- uid: SharedLibrary.Data.PlayerLevel.GetProgressToNextLevel*
+  name: GetProgressToNextLevel
+  href: api/api/SharedLibrary.Data.PlayerLevel.html#SharedLibrary_Data_PlayerLevel_GetProgressToNextLevel_
+  commentId: Overload:SharedLibrary.Data.PlayerLevel.GetProgressToNextLevel
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerLevel.GetProgressToNextLevel
+  nameWithType: PlayerLevel.GetProgressToNextLevel
+- uid: SharedLibrary.Data.PlayerLevel.GetRequiredExpForNextLevel
+  name: GetRequiredExpForNextLevel()
+  href: api/api/SharedLibrary.Data.PlayerLevel.html#SharedLibrary_Data_PlayerLevel_GetRequiredExpForNextLevel
+  commentId: M:SharedLibrary.Data.PlayerLevel.GetRequiredExpForNextLevel
+  fullName: SharedLibrary.Data.PlayerLevel.GetRequiredExpForNextLevel()
+  nameWithType: PlayerLevel.GetRequiredExpForNextLevel()
+- uid: SharedLibrary.Data.PlayerLevel.GetRequiredExpForNextLevel*
+  name: GetRequiredExpForNextLevel
+  href: api/api/SharedLibrary.Data.PlayerLevel.html#SharedLibrary_Data_PlayerLevel_GetRequiredExpForNextLevel_
+  commentId: Overload:SharedLibrary.Data.PlayerLevel.GetRequiredExpForNextLevel
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerLevel.GetRequiredExpForNextLevel
+  nameWithType: PlayerLevel.GetRequiredExpForNextLevel
+- uid: SharedLibrary.Data.PlayerLevel.GetRewardForLevel(System.Int32)
+  name: GetRewardForLevel(int)
+  href: api/api/SharedLibrary.Data.PlayerLevel.html#SharedLibrary_Data_PlayerLevel_GetRewardForLevel_System_Int32_
+  commentId: M:SharedLibrary.Data.PlayerLevel.GetRewardForLevel(System.Int32)
+  name.vb: GetRewardForLevel(Integer)
+  fullName: SharedLibrary.Data.PlayerLevel.GetRewardForLevel(int)
+  fullName.vb: SharedLibrary.Data.PlayerLevel.GetRewardForLevel(Integer)
+  nameWithType: PlayerLevel.GetRewardForLevel(int)
+  nameWithType.vb: PlayerLevel.GetRewardForLevel(Integer)
+- uid: SharedLibrary.Data.PlayerLevel.GetRewardForLevel*
+  name: GetRewardForLevel
+  href: api/api/SharedLibrary.Data.PlayerLevel.html#SharedLibrary_Data_PlayerLevel_GetRewardForLevel_
+  commentId: Overload:SharedLibrary.Data.PlayerLevel.GetRewardForLevel
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerLevel.GetRewardForLevel
+  nameWithType: PlayerLevel.GetRewardForLevel
+- uid: SharedLibrary.Data.PlayerLevel.Level
+  name: Level
+  href: api/api/SharedLibrary.Data.PlayerLevel.html#SharedLibrary_Data_PlayerLevel_Level
+  commentId: P:SharedLibrary.Data.PlayerLevel.Level
+  fullName: SharedLibrary.Data.PlayerLevel.Level
+  nameWithType: PlayerLevel.Level
+- uid: SharedLibrary.Data.PlayerLevel.Level*
+  name: Level
+  href: api/api/SharedLibrary.Data.PlayerLevel.html#SharedLibrary_Data_PlayerLevel_Level_
+  commentId: Overload:SharedLibrary.Data.PlayerLevel.Level
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerLevel.Level
+  nameWithType: PlayerLevel.Level
+- uid: SharedLibrary.Data.PlayerLevel.OnExpChanged
+  name: OnExpChanged
+  href: api/api/SharedLibrary.Data.PlayerLevel.html#SharedLibrary_Data_PlayerLevel_OnExpChanged
+  commentId: F:SharedLibrary.Data.PlayerLevel.OnExpChanged
+  fullName: SharedLibrary.Data.PlayerLevel.OnExpChanged
+  nameWithType: PlayerLevel.OnExpChanged
+- uid: SharedLibrary.Data.PlayerLevel.OnLevelChanged
+  name: OnLevelChanged
+  href: api/api/SharedLibrary.Data.PlayerLevel.html#SharedLibrary_Data_PlayerLevel_OnLevelChanged
+  commentId: F:SharedLibrary.Data.PlayerLevel.OnLevelChanged
+  fullName: SharedLibrary.Data.PlayerLevel.OnLevelChanged
+  nameWithType: PlayerLevel.OnLevelChanged
+- uid: SharedLibrary.Data.PlayerLevel.SetExperience(SharedLibrary.Extensions.BigVal)
+  name: SetExperience(BigVal)
+  href: api/api/SharedLibrary.Data.PlayerLevel.html#SharedLibrary_Data_PlayerLevel_SetExperience_SharedLibrary_Extensions_BigVal_
+  commentId: M:SharedLibrary.Data.PlayerLevel.SetExperience(SharedLibrary.Extensions.BigVal)
+  fullName: SharedLibrary.Data.PlayerLevel.SetExperience(SharedLibrary.Extensions.BigVal)
+  nameWithType: PlayerLevel.SetExperience(BigVal)
+- uid: SharedLibrary.Data.PlayerLevel.SetExperience*
+  name: SetExperience
+  href: api/api/SharedLibrary.Data.PlayerLevel.html#SharedLibrary_Data_PlayerLevel_SetExperience_
+  commentId: Overload:SharedLibrary.Data.PlayerLevel.SetExperience
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerLevel.SetExperience
+  nameWithType: PlayerLevel.SetExperience
+- uid: SharedLibrary.Data.PlayerLevel.SetLevel(System.Int32)
+  name: SetLevel(int)
+  href: api/api/SharedLibrary.Data.PlayerLevel.html#SharedLibrary_Data_PlayerLevel_SetLevel_System_Int32_
+  commentId: M:SharedLibrary.Data.PlayerLevel.SetLevel(System.Int32)
+  name.vb: SetLevel(Integer)
+  fullName: SharedLibrary.Data.PlayerLevel.SetLevel(int)
+  fullName.vb: SharedLibrary.Data.PlayerLevel.SetLevel(Integer)
+  nameWithType: PlayerLevel.SetLevel(int)
+  nameWithType.vb: PlayerLevel.SetLevel(Integer)
+- uid: SharedLibrary.Data.PlayerLevel.SetLevel*
+  name: SetLevel
+  href: api/api/SharedLibrary.Data.PlayerLevel.html#SharedLibrary_Data_PlayerLevel_SetLevel_
+  commentId: Overload:SharedLibrary.Data.PlayerLevel.SetLevel
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerLevel.SetLevel
+  nameWithType: PlayerLevel.SetLevel
 - uid: SharedLibrary.Data.PlayerParameter
   name: PlayerParameter
   href: api/api/SharedLibrary.Data.PlayerParameter.html
@@ -7944,6 +8210,19 @@ references:
   fullName.vb: SharedLibrary.Extensions.BigVal.New
   nameWithType: BigVal.BigVal
   nameWithType.vb: BigVal.New
+- uid: SharedLibrary.Extensions.BigVal.DivideNormalized(SharedLibrary.Extensions.BigVal,SharedLibrary.Extensions.BigVal)
+  name: DivideNormalized(BigVal, BigVal)
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_DivideNormalized_SharedLibrary_Extensions_BigVal_SharedLibrary_Extensions_BigVal_
+  commentId: M:SharedLibrary.Extensions.BigVal.DivideNormalized(SharedLibrary.Extensions.BigVal,SharedLibrary.Extensions.BigVal)
+  fullName: SharedLibrary.Extensions.BigVal.DivideNormalized(SharedLibrary.Extensions.BigVal, SharedLibrary.Extensions.BigVal)
+  nameWithType: BigVal.DivideNormalized(BigVal, BigVal)
+- uid: SharedLibrary.Extensions.BigVal.DivideNormalized*
+  name: DivideNormalized
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_DivideNormalized_
+  commentId: Overload:SharedLibrary.Extensions.BigVal.DivideNormalized
+  isSpec: "True"
+  fullName: SharedLibrary.Extensions.BigVal.DivideNormalized
+  nameWithType: BigVal.DivideNormalized
 - uid: SharedLibrary.Extensions.BigVal.FromString(System.String)
   name: FromString(string)
   href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_FromString_System_String_
@@ -8120,6 +8399,15 @@ references:
   fullName.vb: SharedLibrary.Extensions.BigVal.+
   nameWithType: BigVal.operator +
   nameWithType.vb: BigVal.+
+- uid: SharedLibrary.Extensions.BigVal.op_Division(SharedLibrary.Extensions.BigVal,SharedLibrary.Extensions.BigVal)
+  name: operator /(BigVal, BigVal)
+  href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_op_Division_SharedLibrary_Extensions_BigVal_SharedLibrary_Extensions_BigVal_
+  commentId: M:SharedLibrary.Extensions.BigVal.op_Division(SharedLibrary.Extensions.BigVal,SharedLibrary.Extensions.BigVal)
+  name.vb: /(BigVal, BigVal)
+  fullName: SharedLibrary.Extensions.BigVal.operator /(SharedLibrary.Extensions.BigVal, SharedLibrary.Extensions.BigVal)
+  fullName.vb: SharedLibrary.Extensions.BigVal./(SharedLibrary.Extensions.BigVal, SharedLibrary.Extensions.BigVal)
+  nameWithType: BigVal.operator /(BigVal, BigVal)
+  nameWithType.vb: BigVal./(BigVal, BigVal)
 - uid: SharedLibrary.Extensions.BigVal.op_Division(SharedLibrary.Extensions.BigVal,System.Double)
   name: operator /(BigVal, double)
   href: api/api/SharedLibrary.Extensions.BigVal.html#SharedLibrary_Extensions_BigVal_op_Division_SharedLibrary_Extensions_BigVal_System_Double_
@@ -8875,6 +9163,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Managers.ConfigManager.GetDefaultUserParams
   nameWithType: ConfigManager.GetDefaultUserParams
+- uid: SharedLibrary.Managers.ConfigManager.GetDinoLevels
+  name: GetDinoLevels
+  href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_GetDinoLevels
+  commentId: P:SharedLibrary.Managers.ConfigManager.GetDinoLevels
+  fullName: SharedLibrary.Managers.ConfigManager.GetDinoLevels
+  nameWithType: ConfigManager.GetDinoLevels
+- uid: SharedLibrary.Managers.ConfigManager.GetDinoLevels*
+  name: GetDinoLevels
+  href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_GetDinoLevels_
+  commentId: Overload:SharedLibrary.Managers.ConfigManager.GetDinoLevels
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.ConfigManager.GetDinoLevels
+  nameWithType: ConfigManager.GetDinoLevels
 - uid: SharedLibrary.Managers.ConfigManager.GetEveryDayTasksIds
   name: GetEveryDayTasksIds
   href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_GetEveryDayTasksIds
