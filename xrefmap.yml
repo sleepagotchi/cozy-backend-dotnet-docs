@@ -7,6 +7,47 @@ references:
   commentId: N:SharedLibrary.Commands
   fullName: SharedLibrary.Commands
   nameWithType: SharedLibrary.Commands
+- uid: SharedLibrary.Commands.Activities
+  name: SharedLibrary.Commands.Activities
+  href: api/api/SharedLibrary.Commands.Activities.html
+  commentId: N:SharedLibrary.Commands.Activities
+  fullName: SharedLibrary.Commands.Activities
+  nameWithType: SharedLibrary.Commands.Activities
+- uid: SharedLibrary.Commands.Activities.ActivityCompleteCommand
+  name: ActivityCompleteCommand
+  href: api/api/SharedLibrary.Commands.Activities.ActivityCompleteCommand.html
+  commentId: T:SharedLibrary.Commands.Activities.ActivityCompleteCommand
+  fullName: SharedLibrary.Commands.Activities.ActivityCompleteCommand
+  nameWithType: ActivityCompleteCommand
+- uid: SharedLibrary.Commands.Activities.ActivityCompleteCommand.Execute(SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs)
+  name: Execute(ActivityCompleteArgs)
+  href: api/api/SharedLibrary.Commands.Activities.ActivityCompleteCommand.html#SharedLibrary_Commands_Activities_ActivityCompleteCommand_Execute_SharedLibrary_Commands_Arguments_Activities_ActivityCompleteArgs_
+  commentId: M:SharedLibrary.Commands.Activities.ActivityCompleteCommand.Execute(SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs)
+  fullName: SharedLibrary.Commands.Activities.ActivityCompleteCommand.Execute(SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs)
+  nameWithType: ActivityCompleteCommand.Execute(ActivityCompleteArgs)
+- uid: SharedLibrary.Commands.Activities.ActivityCompleteCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Activities.ActivityCompleteCommand.html#SharedLibrary_Commands_Activities_ActivityCompleteCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.Activities.ActivityCompleteCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Activities.ActivityCompleteCommand.Execute
+  nameWithType: ActivityCompleteCommand.Execute
+- uid: SharedLibrary.Commands.Activities.ActivityCompleteCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs,System.String)
+  name: ToProtocolMessage(string, ActivityCompleteArgs, string?)
+  href: api/api/SharedLibrary.Commands.Activities.ActivityCompleteCommand.html#SharedLibrary_Commands_Activities_ActivityCompleteCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Activities_ActivityCompleteArgs_System_String_
+  commentId: M:SharedLibrary.Commands.Activities.ActivityCompleteCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs,System.String)
+  name.vb: ToProtocolMessage(String, ActivityCompleteArgs, String)
+  fullName: SharedLibrary.Commands.Activities.ActivityCompleteCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs, string?)
+  fullName.vb: SharedLibrary.Commands.Activities.ActivityCompleteCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs, String)
+  nameWithType: ActivityCompleteCommand.ToProtocolMessage(string, ActivityCompleteArgs, string?)
+  nameWithType.vb: ActivityCompleteCommand.ToProtocolMessage(String, ActivityCompleteArgs, String)
+- uid: SharedLibrary.Commands.Activities.ActivityCompleteCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Activities.ActivityCompleteCommand.html#SharedLibrary_Commands_Activities_ActivityCompleteCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Activities.ActivityCompleteCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Activities.ActivityCompleteCommand.ToProtocolMessage
+  nameWithType: ActivityCompleteCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.Adventures
   name: SharedLibrary.Commands.Adventures
   href: api/api/SharedLibrary.Commands.Adventures.html
@@ -83,6 +124,63 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Adventures.AdventureStartCommand.ToProtocolMessage
   nameWithType: AdventureStartCommand.ToProtocolMessage
+- uid: SharedLibrary.Commands.Arguments.Activities
+  name: SharedLibrary.Commands.Arguments.Activities
+  href: api/api/SharedLibrary.Commands.Arguments.Activities.html
+  commentId: N:SharedLibrary.Commands.Arguments.Activities
+  fullName: SharedLibrary.Commands.Arguments.Activities
+  nameWithType: SharedLibrary.Commands.Arguments.Activities
+- uid: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs
+  name: ActivityCompleteArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs
+  fullName: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs
+  nameWithType: ActivityCompleteArgs
+- uid: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.#ctor(SharedLibrary.Data.Player,System.String)
+  name: ActivityCompleteArgs(Player, string)
+  href: api/api/SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.html#SharedLibrary_Commands_Arguments_Activities_ActivityCompleteArgs__ctor_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.#ctor(SharedLibrary.Data.Player,System.String)
+  name.vb: New(Player, String)
+  fullName: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.ActivityCompleteArgs(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.New(SharedLibrary.Data.Player, String)
+  nameWithType: ActivityCompleteArgs.ActivityCompleteArgs(Player, string)
+  nameWithType.vb: ActivityCompleteArgs.New(Player, String)
+- uid: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.#ctor*
+  name: ActivityCompleteArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.html#SharedLibrary_Commands_Arguments_Activities_ActivityCompleteArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.ActivityCompleteArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.New
+  nameWithType: ActivityCompleteArgs.ActivityCompleteArgs
+  nameWithType.vb: ActivityCompleteArgs.New
+- uid: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.ActivityId
+  name: ActivityId
+  href: api/api/SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.html#SharedLibrary_Commands_Arguments_Activities_ActivityCompleteArgs_ActivityId
+  commentId: P:SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.ActivityId
+  fullName: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.ActivityId
+  nameWithType: ActivityCompleteArgs.ActivityId
+- uid: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.ActivityId*
+  name: ActivityId
+  href: api/api/SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.html#SharedLibrary_Commands_Arguments_Activities_ActivityCompleteArgs_ActivityId_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.ActivityId
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.ActivityId
+  nameWithType: ActivityCompleteArgs.ActivityId
+- uid: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.html#SharedLibrary_Commands_Arguments_Activities_ActivityCompleteArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.Player
+  nameWithType: ActivityCompleteArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.html#SharedLibrary_Commands_Arguments_Activities_ActivityCompleteArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Activities.ActivityCompleteArgs.Player
+  nameWithType: ActivityCompleteArgs.Player
 - uid: SharedLibrary.Commands.Arguments.Adventures
   name: SharedLibrary.Commands.Arguments.Adventures
   href: api/api/SharedLibrary.Commands.Arguments.Adventures.html
@@ -4285,6 +4383,90 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Activities.ActivityBase.StartRules
   nameWithType: ActivityBase.StartRules
+- uid: SharedLibrary.Data.Activities.ActivityModel
+  name: ActivityModel
+  href: api/api/SharedLibrary.Data.Activities.ActivityModel.html
+  commentId: T:SharedLibrary.Data.Activities.ActivityModel
+  fullName: SharedLibrary.Data.Activities.ActivityModel
+  nameWithType: ActivityModel
+- uid: SharedLibrary.Data.Activities.ActivityModel.ActivityId
+  name: ActivityId
+  href: api/api/SharedLibrary.Data.Activities.ActivityModel.html#SharedLibrary_Data_Activities_ActivityModel_ActivityId
+  commentId: P:SharedLibrary.Data.Activities.ActivityModel.ActivityId
+  fullName: SharedLibrary.Data.Activities.ActivityModel.ActivityId
+  nameWithType: ActivityModel.ActivityId
+- uid: SharedLibrary.Data.Activities.ActivityModel.ActivityId*
+  name: ActivityId
+  href: api/api/SharedLibrary.Data.Activities.ActivityModel.html#SharedLibrary_Data_Activities_ActivityModel_ActivityId_
+  commentId: Overload:SharedLibrary.Data.Activities.ActivityModel.ActivityId
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Activities.ActivityModel.ActivityId
+  nameWithType: ActivityModel.ActivityId
+- uid: SharedLibrary.Data.Activities.ActivityModel.ContainerId
+  name: ContainerId
+  href: api/api/SharedLibrary.Data.Activities.ActivityModel.html#SharedLibrary_Data_Activities_ActivityModel_ContainerId
+  commentId: P:SharedLibrary.Data.Activities.ActivityModel.ContainerId
+  fullName: SharedLibrary.Data.Activities.ActivityModel.ContainerId
+  nameWithType: ActivityModel.ContainerId
+- uid: SharedLibrary.Data.Activities.ActivityModel.ContainerId*
+  name: ContainerId
+  href: api/api/SharedLibrary.Data.Activities.ActivityModel.html#SharedLibrary_Data_Activities_ActivityModel_ContainerId_
+  commentId: Overload:SharedLibrary.Data.Activities.ActivityModel.ContainerId
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Activities.ActivityModel.ContainerId
+  nameWithType: ActivityModel.ContainerId
+- uid: SharedLibrary.Data.Activities.ActivityModel.MinLevel
+  name: MinLevel
+  href: api/api/SharedLibrary.Data.Activities.ActivityModel.html#SharedLibrary_Data_Activities_ActivityModel_MinLevel
+  commentId: P:SharedLibrary.Data.Activities.ActivityModel.MinLevel
+  fullName: SharedLibrary.Data.Activities.ActivityModel.MinLevel
+  nameWithType: ActivityModel.MinLevel
+- uid: SharedLibrary.Data.Activities.ActivityModel.MinLevel*
+  name: MinLevel
+  href: api/api/SharedLibrary.Data.Activities.ActivityModel.html#SharedLibrary_Data_Activities_ActivityModel_MinLevel_
+  commentId: Overload:SharedLibrary.Data.Activities.ActivityModel.MinLevel
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Activities.ActivityModel.MinLevel
+  nameWithType: ActivityModel.MinLevel
+- uid: SharedLibrary.Data.Activities.ActivityModel.Result
+  name: Result
+  href: api/api/SharedLibrary.Data.Activities.ActivityModel.html#SharedLibrary_Data_Activities_ActivityModel_Result
+  commentId: P:SharedLibrary.Data.Activities.ActivityModel.Result
+  fullName: SharedLibrary.Data.Activities.ActivityModel.Result
+  nameWithType: ActivityModel.Result
+- uid: SharedLibrary.Data.Activities.ActivityModel.Result*
+  name: Result
+  href: api/api/SharedLibrary.Data.Activities.ActivityModel.html#SharedLibrary_Data_Activities_ActivityModel_Result_
+  commentId: Overload:SharedLibrary.Data.Activities.ActivityModel.Result
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Activities.ActivityModel.Result
+  nameWithType: ActivityModel.Result
+- uid: SharedLibrary.Data.Activities.ActivityModel.ShortTitle
+  name: ShortTitle
+  href: api/api/SharedLibrary.Data.Activities.ActivityModel.html#SharedLibrary_Data_Activities_ActivityModel_ShortTitle
+  commentId: P:SharedLibrary.Data.Activities.ActivityModel.ShortTitle
+  fullName: SharedLibrary.Data.Activities.ActivityModel.ShortTitle
+  nameWithType: ActivityModel.ShortTitle
+- uid: SharedLibrary.Data.Activities.ActivityModel.ShortTitle*
+  name: ShortTitle
+  href: api/api/SharedLibrary.Data.Activities.ActivityModel.html#SharedLibrary_Data_Activities_ActivityModel_ShortTitle_
+  commentId: Overload:SharedLibrary.Data.Activities.ActivityModel.ShortTitle
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Activities.ActivityModel.ShortTitle
+  nameWithType: ActivityModel.ShortTitle
+- uid: SharedLibrary.Data.Activities.ActivityModel.XPResult
+  name: XPResult
+  href: api/api/SharedLibrary.Data.Activities.ActivityModel.html#SharedLibrary_Data_Activities_ActivityModel_XPResult
+  commentId: P:SharedLibrary.Data.Activities.ActivityModel.XPResult
+  fullName: SharedLibrary.Data.Activities.ActivityModel.XPResult
+  nameWithType: ActivityModel.XPResult
+- uid: SharedLibrary.Data.Activities.ActivityModel.XPResult*
+  name: XPResult
+  href: api/api/SharedLibrary.Data.Activities.ActivityModel.html#SharedLibrary_Data_Activities_ActivityModel_XPResult_
+  commentId: Overload:SharedLibrary.Data.Activities.ActivityModel.XPResult
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Activities.ActivityModel.XPResult
+  nameWithType: ActivityModel.XPResult
 - uid: SharedLibrary.Data.Adventures
   name: SharedLibrary.Data.Adventures
   href: api/api/SharedLibrary.Data.Adventures.html
@@ -4504,6 +4686,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.BalanceConstants.DinoParametersDecrease
   nameWithType: BalanceConstants.DinoParametersDecrease
+- uid: SharedLibrary.Data.BalanceConstants.DinoParametersMax
+  name: DinoParametersMax
+  href: api/api/SharedLibrary.Data.BalanceConstants.html#SharedLibrary_Data_BalanceConstants_DinoParametersMax
+  commentId: P:SharedLibrary.Data.BalanceConstants.DinoParametersMax
+  fullName: SharedLibrary.Data.BalanceConstants.DinoParametersMax
+  nameWithType: BalanceConstants.DinoParametersMax
+- uid: SharedLibrary.Data.BalanceConstants.DinoParametersMax*
+  name: DinoParametersMax
+  href: api/api/SharedLibrary.Data.BalanceConstants.html#SharedLibrary_Data_BalanceConstants_DinoParametersMax_
+  commentId: Overload:SharedLibrary.Data.BalanceConstants.DinoParametersMax
+  isSpec: "True"
+  fullName: SharedLibrary.Data.BalanceConstants.DinoParametersMax
+  nameWithType: BalanceConstants.DinoParametersMax
 - uid: SharedLibrary.Data.BalanceConstants.DinoParametersMin
   name: DinoParametersMin
   href: api/api/SharedLibrary.Data.BalanceConstants.html#SharedLibrary_Data_BalanceConstants_DinoParametersMin
@@ -4517,6 +4712,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.BalanceConstants.DinoParametersMin
   nameWithType: BalanceConstants.DinoParametersMin
+- uid: SharedLibrary.Data.BalanceConstants.DinoParametersValueForTask
+  name: DinoParametersValueForTask
+  href: api/api/SharedLibrary.Data.BalanceConstants.html#SharedLibrary_Data_BalanceConstants_DinoParametersValueForTask
+  commentId: P:SharedLibrary.Data.BalanceConstants.DinoParametersValueForTask
+  fullName: SharedLibrary.Data.BalanceConstants.DinoParametersValueForTask
+  nameWithType: BalanceConstants.DinoParametersValueForTask
+- uid: SharedLibrary.Data.BalanceConstants.DinoParametersValueForTask*
+  name: DinoParametersValueForTask
+  href: api/api/SharedLibrary.Data.BalanceConstants.html#SharedLibrary_Data_BalanceConstants_DinoParametersValueForTask_
+  commentId: Overload:SharedLibrary.Data.BalanceConstants.DinoParametersValueForTask
+  isSpec: "True"
+  fullName: SharedLibrary.Data.BalanceConstants.DinoParametersValueForTask
+  nameWithType: BalanceConstants.DinoParametersValueForTask
 - uid: SharedLibrary.Data.BalanceConstants.DreamStonesFromEmptyRewards
   name: DreamStonesFromEmptyRewards
   href: api/api/SharedLibrary.Data.BalanceConstants.html#SharedLibrary_Data_BalanceConstants_DreamStonesFromEmptyRewards
@@ -4646,6 +4854,19 @@ references:
   commentId: T:SharedLibrary.Data.BalanceModel
   fullName: SharedLibrary.Data.BalanceModel
   nameWithType: BalanceModel
+- uid: SharedLibrary.Data.BalanceModel.Activities
+  name: Activities
+  href: api/api/SharedLibrary.Data.BalanceModel.html#SharedLibrary_Data_BalanceModel_Activities
+  commentId: P:SharedLibrary.Data.BalanceModel.Activities
+  fullName: SharedLibrary.Data.BalanceModel.Activities
+  nameWithType: BalanceModel.Activities
+- uid: SharedLibrary.Data.BalanceModel.Activities*
+  name: Activities
+  href: api/api/SharedLibrary.Data.BalanceModel.html#SharedLibrary_Data_BalanceModel_Activities_
+  commentId: Overload:SharedLibrary.Data.BalanceModel.Activities
+  isSpec: "True"
+  fullName: SharedLibrary.Data.BalanceModel.Activities
+  nameWithType: BalanceModel.Activities
 - uid: SharedLibrary.Data.BalanceModel.Adventures
   name: Adventures
   href: api/api/SharedLibrary.Data.BalanceModel.html#SharedLibrary_Data_BalanceModel_Adventures
@@ -4756,6 +4977,12 @@ references:
   commentId: T:SharedLibrary.Data.CommandType
   fullName: SharedLibrary.Data.CommandType
   nameWithType: CommandType
+- uid: SharedLibrary.Data.CommandType.ActivityComplete
+  name: ActivityComplete
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_ActivityComplete
+  commentId: F:SharedLibrary.Data.CommandType.ActivityComplete
+  fullName: SharedLibrary.Data.CommandType.ActivityComplete
+  nameWithType: CommandType.ActivityComplete
 - uid: SharedLibrary.Data.CommandType.AdventureComplete
   name: AdventureComplete
   href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_AdventureComplete
@@ -5048,6 +5275,12 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Constants.CozyPointsFromUpgradeItem
   nameWithType: Constants.CozyPointsFromUpgradeItem
+- uid: SharedLibrary.Data.Constants.DaysCountForLLMInfo
+  name: DaysCountForLLMInfo
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_DaysCountForLLMInfo
+  commentId: F:SharedLibrary.Data.Constants.DaysCountForLLMInfo
+  fullName: SharedLibrary.Data.Constants.DaysCountForLLMInfo
+  nameWithType: Constants.DaysCountForLLMInfo
 - uid: SharedLibrary.Data.Constants.DecreaseRate
   name: DecreaseRate
   href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_DecreaseRate
@@ -5169,6 +5402,12 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Constants.MaxParametersValue
   nameWithType: Constants.MaxParametersValue
+- uid: SharedLibrary.Data.Constants.MaxTasksCountForDayInLLMInfo
+  name: MaxTasksCountForDayInLLMInfo
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_MaxTasksCountForDayInLLMInfo
+  commentId: F:SharedLibrary.Data.Constants.MaxTasksCountForDayInLLMInfo
+  fullName: SharedLibrary.Data.Constants.MaxTasksCountForDayInLLMInfo
+  nameWithType: Constants.MaxTasksCountForDayInLLMInfo
 - uid: SharedLibrary.Data.Constants.MinParametersValue
   name: MinParametersValue
   href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_MinParametersValue
@@ -5182,6 +5421,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Constants.MinParametersValue
   nameWithType: Constants.MinParametersValue
+- uid: SharedLibrary.Data.Constants.ParametersValueForTask
+  name: ParametersValueForTask
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_ParametersValueForTask
+  commentId: P:SharedLibrary.Data.Constants.ParametersValueForTask
+  fullName: SharedLibrary.Data.Constants.ParametersValueForTask
+  nameWithType: Constants.ParametersValueForTask
+- uid: SharedLibrary.Data.Constants.ParametersValueForTask*
+  name: ParametersValueForTask
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_ParametersValueForTask_
+  commentId: Overload:SharedLibrary.Data.Constants.ParametersValueForTask
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Constants.ParametersValueForTask
+  nameWithType: Constants.ParametersValueForTask
 - uid: SharedLibrary.Data.Constants.TASKS_CATEGORIES
   name: TASKS_CATEGORIES
   href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_TASKS_CATEGORIES
@@ -8571,6 +8823,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Managers.ConfigManager.DownloadBalance
   nameWithType: ConfigManager.DownloadBalance
+- uid: SharedLibrary.Managers.ConfigManager.GetActivities
+  name: GetActivities
+  href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_GetActivities
+  commentId: P:SharedLibrary.Managers.ConfigManager.GetActivities
+  fullName: SharedLibrary.Managers.ConfigManager.GetActivities
+  nameWithType: ConfigManager.GetActivities
+- uid: SharedLibrary.Managers.ConfigManager.GetActivities*
+  name: GetActivities
+  href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_GetActivities_
+  commentId: Overload:SharedLibrary.Managers.ConfigManager.GetActivities
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.ConfigManager.GetActivities
+  nameWithType: ConfigManager.GetActivities
 - uid: SharedLibrary.Managers.ConfigManager.GetAdventures
   name: GetAdventures
   href: api/api/SharedLibrary.Managers.ConfigManager.html#SharedLibrary_Managers_ConfigManager_GetAdventures
@@ -9395,6 +9660,48 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Managers.TasksManager.CreateTask
   nameWithType: TasksManager.CreateTask
+- uid: SharedLibrary.Managers.TasksManager.GetAllAvailableActivitiesByContainerId(SharedLibrary.Data.Player,System.String)
+  name: GetAllAvailableActivitiesByContainerId(Player, string)
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_GetAllAvailableActivitiesByContainerId_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Managers.TasksManager.GetAllAvailableActivitiesByContainerId(SharedLibrary.Data.Player,System.String)
+  name.vb: GetAllAvailableActivitiesByContainerId(Player, String)
+  fullName: SharedLibrary.Managers.TasksManager.GetAllAvailableActivitiesByContainerId(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Managers.TasksManager.GetAllAvailableActivitiesByContainerId(SharedLibrary.Data.Player, String)
+  nameWithType: TasksManager.GetAllAvailableActivitiesByContainerId(Player, string)
+  nameWithType.vb: TasksManager.GetAllAvailableActivitiesByContainerId(Player, String)
+- uid: SharedLibrary.Managers.TasksManager.GetAllAvailableActivitiesByContainerId*
+  name: GetAllAvailableActivitiesByContainerId
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_GetAllAvailableActivitiesByContainerId_
+  commentId: Overload:SharedLibrary.Managers.TasksManager.GetAllAvailableActivitiesByContainerId
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.TasksManager.GetAllAvailableActivitiesByContainerId
+  nameWithType: TasksManager.GetAllAvailableActivitiesByContainerId
+- uid: SharedLibrary.Managers.TasksManager.GetAllAvailableActivitiesByResource(SharedLibrary.Data.Player,SharedLibrary.Data.ResourceType)
+  name: GetAllAvailableActivitiesByResource(Player, ResourceType)
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_GetAllAvailableActivitiesByResource_SharedLibrary_Data_Player_SharedLibrary_Data_ResourceType_
+  commentId: M:SharedLibrary.Managers.TasksManager.GetAllAvailableActivitiesByResource(SharedLibrary.Data.Player,SharedLibrary.Data.ResourceType)
+  fullName: SharedLibrary.Managers.TasksManager.GetAllAvailableActivitiesByResource(SharedLibrary.Data.Player, SharedLibrary.Data.ResourceType)
+  nameWithType: TasksManager.GetAllAvailableActivitiesByResource(Player, ResourceType)
+- uid: SharedLibrary.Managers.TasksManager.GetAllAvailableActivitiesByResource*
+  name: GetAllAvailableActivitiesByResource
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_GetAllAvailableActivitiesByResource_
+  commentId: Overload:SharedLibrary.Managers.TasksManager.GetAllAvailableActivitiesByResource
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.TasksManager.GetAllAvailableActivitiesByResource
+  nameWithType: TasksManager.GetAllAvailableActivitiesByResource
+- uid: SharedLibrary.Managers.TasksManager.GetAllAvailableTasksByResource(SharedLibrary.Data.Player,SharedLibrary.Data.ResourceType)
+  name: GetAllAvailableTasksByResource(Player, ResourceType)
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_GetAllAvailableTasksByResource_SharedLibrary_Data_Player_SharedLibrary_Data_ResourceType_
+  commentId: M:SharedLibrary.Managers.TasksManager.GetAllAvailableTasksByResource(SharedLibrary.Data.Player,SharedLibrary.Data.ResourceType)
+  fullName: SharedLibrary.Managers.TasksManager.GetAllAvailableTasksByResource(SharedLibrary.Data.Player, SharedLibrary.Data.ResourceType)
+  nameWithType: TasksManager.GetAllAvailableTasksByResource(Player, ResourceType)
+- uid: SharedLibrary.Managers.TasksManager.GetAllAvailableTasksByResource*
+  name: GetAllAvailableTasksByResource
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_GetAllAvailableTasksByResource_
+  commentId: Overload:SharedLibrary.Managers.TasksManager.GetAllAvailableTasksByResource
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.TasksManager.GetAllAvailableTasksByResource
+  nameWithType: TasksManager.GetAllAvailableTasksByResource
 - uid: SharedLibrary.Managers.TasksManager.GetPlayerTasks(SharedLibrary.Data.Player,System.Int32)
   name: GetPlayerTasks(Player, int)
   href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_GetPlayerTasks_SharedLibrary_Data_Player_System_Int32_
@@ -9411,6 +9718,32 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Managers.TasksManager.GetPlayerTasks
   nameWithType: TasksManager.GetPlayerTasks
+- uid: SharedLibrary.Managers.TasksManager.GetTaskByResource(SharedLibrary.Data.Player,SharedLibrary.Data.ResourceType)
+  name: GetTaskByResource(Player, ResourceType)
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_GetTaskByResource_SharedLibrary_Data_Player_SharedLibrary_Data_ResourceType_
+  commentId: M:SharedLibrary.Managers.TasksManager.GetTaskByResource(SharedLibrary.Data.Player,SharedLibrary.Data.ResourceType)
+  fullName: SharedLibrary.Managers.TasksManager.GetTaskByResource(SharedLibrary.Data.Player, SharedLibrary.Data.ResourceType)
+  nameWithType: TasksManager.GetTaskByResource(Player, ResourceType)
+- uid: SharedLibrary.Managers.TasksManager.GetTaskByResource*
+  name: GetTaskByResource
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_GetTaskByResource_
+  commentId: Overload:SharedLibrary.Managers.TasksManager.GetTaskByResource
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.TasksManager.GetTaskByResource
+  nameWithType: TasksManager.GetTaskByResource
+- uid: SharedLibrary.Managers.TasksManager.HasAnyActiveTaskWithResource(SharedLibrary.Data.Player,SharedLibrary.Data.ResourceType)
+  name: HasAnyActiveTaskWithResource(Player, ResourceType)
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_HasAnyActiveTaskWithResource_SharedLibrary_Data_Player_SharedLibrary_Data_ResourceType_
+  commentId: M:SharedLibrary.Managers.TasksManager.HasAnyActiveTaskWithResource(SharedLibrary.Data.Player,SharedLibrary.Data.ResourceType)
+  fullName: SharedLibrary.Managers.TasksManager.HasAnyActiveTaskWithResource(SharedLibrary.Data.Player, SharedLibrary.Data.ResourceType)
+  nameWithType: TasksManager.HasAnyActiveTaskWithResource(Player, ResourceType)
+- uid: SharedLibrary.Managers.TasksManager.HasAnyActiveTaskWithResource*
+  name: HasAnyActiveTaskWithResource
+  href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_HasAnyActiveTaskWithResource_
+  commentId: Overload:SharedLibrary.Managers.TasksManager.HasAnyActiveTaskWithResource
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.TasksManager.HasAnyActiveTaskWithResource
+  nameWithType: TasksManager.HasAnyActiveTaskWithResource
 - uid: SharedLibrary.Managers.TasksManager.RemoveTask(SharedLibrary.Data.Player,System.String)
   name: RemoveTask(Player, string)
   href: api/api/SharedLibrary.Managers.TasksManager.html#SharedLibrary_Managers_TasksManager_RemoveTask_SharedLibrary_Data_Player_System_String_
@@ -9610,6 +9943,76 @@ references:
   commentId: N:SharedLibrary.Protocol.ProtocolMessages
   fullName: SharedLibrary.Protocol.ProtocolMessages
   nameWithType: SharedLibrary.Protocol.ProtocolMessages
+- uid: SharedLibrary.Protocol.ProtocolMessages.Activities
+  name: SharedLibrary.Protocol.ProtocolMessages.Activities
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Activities.html
+  commentId: N:SharedLibrary.Protocol.ProtocolMessages.Activities
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Activities
+  nameWithType: SharedLibrary.Protocol.ProtocolMessages.Activities
+- uid: SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1
+  name: ActivityCompleteProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1
+  nameWithType: ActivityCompleteProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.#ctor(System.String,System.String,System.String)
+  name: ActivityCompleteProtocolMessageV1(string, string, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Activities_ActivityCompleteProtocolMessageV1__ctor_System_String_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.#ctor(System.String,System.String,System.String)
+  name.vb: New(String, String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.ActivityCompleteProtocolMessageV1(string, string, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.New(String, String, String)
+  nameWithType: ActivityCompleteProtocolMessageV1.ActivityCompleteProtocolMessageV1(string, string, string?)
+  nameWithType.vb: ActivityCompleteProtocolMessageV1.New(String, String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.#ctor*
+  name: ActivityCompleteProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Activities_ActivityCompleteProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.ActivityCompleteProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.New
+  nameWithType: ActivityCompleteProtocolMessageV1.ActivityCompleteProtocolMessageV1
+  nameWithType.vb: ActivityCompleteProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.ActivityId
+  name: ActivityId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Activities_ActivityCompleteProtocolMessageV1_ActivityId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.ActivityId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.ActivityId
+  nameWithType: ActivityCompleteProtocolMessageV1.ActivityId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.ActivityId*
+  name: ActivityId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Activities_ActivityCompleteProtocolMessageV1_ActivityId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.ActivityId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.ActivityId
+  nameWithType: ActivityCompleteProtocolMessageV1.ActivityId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Activities_ActivityCompleteProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.MessageType
+  nameWithType: ActivityCompleteProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Activities_ActivityCompleteProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.MessageType
+  nameWithType: ActivityCompleteProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Activities_ActivityCompleteProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.UserId
+  nameWithType: ActivityCompleteProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Activities_ActivityCompleteProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Activities.ActivityCompleteProtocolMessageV1.UserId
+  nameWithType: ActivityCompleteProtocolMessageV1.UserId
 - uid: SharedLibrary.Protocol.ProtocolMessages.Adventures
   name: SharedLibrary.Protocol.ProtocolMessages.Adventures
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Adventures.html
@@ -10851,6 +11254,12 @@ references:
   commentId: T:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes
   nameWithType: ProtocolMessageTypes
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ActivityCompleteCommandV1
+  name: ActivityCompleteCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_ActivityCompleteCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ActivityCompleteCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ActivityCompleteCommandV1
+  nameWithType: ProtocolMessageTypes.ActivityCompleteCommandV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.AdventureCompleteCommandV1
   name: AdventureCompleteCommandV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_AdventureCompleteCommandV1
