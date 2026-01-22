@@ -4835,6 +4835,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.BalanceDefaultUserParams.Cosmetics
   nameWithType: BalanceDefaultUserParams.Cosmetics
+- uid: SharedLibrary.Data.BalanceDefaultUserParams.DefaultPlayerParameterValue
+  name: DefaultPlayerParameterValue
+  href: api/api/SharedLibrary.Data.BalanceDefaultUserParams.html#SharedLibrary_Data_BalanceDefaultUserParams_DefaultPlayerParameterValue
+  commentId: P:SharedLibrary.Data.BalanceDefaultUserParams.DefaultPlayerParameterValue
+  fullName: SharedLibrary.Data.BalanceDefaultUserParams.DefaultPlayerParameterValue
+  nameWithType: BalanceDefaultUserParams.DefaultPlayerParameterValue
+- uid: SharedLibrary.Data.BalanceDefaultUserParams.DefaultPlayerParameterValue*
+  name: DefaultPlayerParameterValue
+  href: api/api/SharedLibrary.Data.BalanceDefaultUserParams.html#SharedLibrary_Data_BalanceDefaultUserParams_DefaultPlayerParameterValue_
+  commentId: Overload:SharedLibrary.Data.BalanceDefaultUserParams.DefaultPlayerParameterValue
+  isSpec: "True"
+  fullName: SharedLibrary.Data.BalanceDefaultUserParams.DefaultPlayerParameterValue
+  nameWithType: BalanceDefaultUserParams.DefaultPlayerParameterValue
 - uid: SharedLibrary.Data.BalanceDefaultUserParams.DefaultXP
   name: DefaultXP
   href: api/api/SharedLibrary.Data.BalanceDefaultUserParams.html#SharedLibrary_Data_BalanceDefaultUserParams_DefaultXP
