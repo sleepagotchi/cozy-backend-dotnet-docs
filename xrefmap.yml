@@ -7931,19 +7931,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasks
   nameWithType: PlayerTasks.SuggestionTasks
-- uid: SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasksByCategory
-  name: SuggestionTasksByCategory
-  href: api/api/SharedLibrary.Data.Tasks.PlayerTasks.html#SharedLibrary_Data_Tasks_PlayerTasks_SuggestionTasksByCategory
-  commentId: P:SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasksByCategory
-  fullName: SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasksByCategory
-  nameWithType: PlayerTasks.SuggestionTasksByCategory
-- uid: SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasksByCategory*
-  name: SuggestionTasksByCategory
-  href: api/api/SharedLibrary.Data.Tasks.PlayerTasks.html#SharedLibrary_Data_Tasks_PlayerTasks_SuggestionTasksByCategory_
-  commentId: Overload:SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasksByCategory
+- uid: SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasksIdsByCategory
+  name: SuggestionTasksIdsByCategory
+  href: api/api/SharedLibrary.Data.Tasks.PlayerTasks.html#SharedLibrary_Data_Tasks_PlayerTasks_SuggestionTasksIdsByCategory
+  commentId: P:SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasksIdsByCategory
+  fullName: SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasksIdsByCategory
+  nameWithType: PlayerTasks.SuggestionTasksIdsByCategory
+- uid: SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasksIdsByCategory*
+  name: SuggestionTasksIdsByCategory
+  href: api/api/SharedLibrary.Data.Tasks.PlayerTasks.html#SharedLibrary_Data_Tasks_PlayerTasks_SuggestionTasksIdsByCategory_
+  commentId: Overload:SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasksIdsByCategory
   isSpec: "True"
-  fullName: SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasksByCategory
-  nameWithType: PlayerTasks.SuggestionTasksByCategory
+  fullName: SharedLibrary.Data.Tasks.PlayerTasks.SuggestionTasksIdsByCategory
+  nameWithType: PlayerTasks.SuggestionTasksIdsByCategory
 - uid: SharedLibrary.Data.Tasks.TaskCare
   name: TaskCare
   href: api/api/SharedLibrary.Data.Tasks.TaskCare.html
