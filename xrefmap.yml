@@ -1243,6 +1243,108 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerGetArgs.TzOffsetSeconds
   nameWithType: PlayerGetArgs.TzOffsetSeconds
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs
+  name: PlayerInfoChangeAboutArgs
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs
+  nameWithType: PlayerInfoChangeAboutArgs
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs.#ctor(SharedLibrary.Data.Player,System.String)
+  name: PlayerInfoChangeAboutArgs(Player, string)
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoChangeAboutArgs__ctor_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs.#ctor(SharedLibrary.Data.Player,System.String)
+  name.vb: New(Player, String)
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs.PlayerInfoChangeAboutArgs(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs.New(SharedLibrary.Data.Player, String)
+  nameWithType: PlayerInfoChangeAboutArgs.PlayerInfoChangeAboutArgs(Player, string)
+  nameWithType.vb: PlayerInfoChangeAboutArgs.New(Player, String)
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs.#ctor*
+  name: PlayerInfoChangeAboutArgs
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoChangeAboutArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs.PlayerInfoChangeAboutArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs.New
+  nameWithType: PlayerInfoChangeAboutArgs.PlayerInfoChangeAboutArgs
+  nameWithType.vb: PlayerInfoChangeAboutArgs.New
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs.NewAbout
+  name: NewAbout
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoChangeAboutArgs_NewAbout
+  commentId: P:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs.NewAbout
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs.NewAbout
+  nameWithType: PlayerInfoChangeAboutArgs.NewAbout
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs.NewAbout*
+  name: NewAbout
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoChangeAboutArgs_NewAbout_
+  commentId: Overload:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs.NewAbout
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs.NewAbout
+  nameWithType: PlayerInfoChangeAboutArgs.NewAbout
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoChangeAboutArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs.Player
+  nameWithType: PlayerInfoChangeAboutArgs.Player
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoChangeAboutArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs.Player
+  nameWithType: PlayerInfoChangeAboutArgs.Player
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs
+  name: PlayerInfoChangeBuddyNameArgs
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs
+  nameWithType: PlayerInfoChangeBuddyNameArgs
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs.#ctor(SharedLibrary.Data.Player,System.String)
+  name: PlayerInfoChangeBuddyNameArgs(Player, string)
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoChangeBuddyNameArgs__ctor_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs.#ctor(SharedLibrary.Data.Player,System.String)
+  name.vb: New(Player, String)
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs.PlayerInfoChangeBuddyNameArgs(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs.New(SharedLibrary.Data.Player, String)
+  nameWithType: PlayerInfoChangeBuddyNameArgs.PlayerInfoChangeBuddyNameArgs(Player, string)
+  nameWithType.vb: PlayerInfoChangeBuddyNameArgs.New(Player, String)
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs.#ctor*
+  name: PlayerInfoChangeBuddyNameArgs
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoChangeBuddyNameArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs.PlayerInfoChangeBuddyNameArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs.New
+  nameWithType: PlayerInfoChangeBuddyNameArgs.PlayerInfoChangeBuddyNameArgs
+  nameWithType.vb: PlayerInfoChangeBuddyNameArgs.New
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs.NewName
+  name: NewName
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoChangeBuddyNameArgs_NewName
+  commentId: P:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs.NewName
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs.NewName
+  nameWithType: PlayerInfoChangeBuddyNameArgs.NewName
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs.NewName*
+  name: NewName
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoChangeBuddyNameArgs_NewName_
+  commentId: Overload:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs.NewName
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs.NewName
+  nameWithType: PlayerInfoChangeBuddyNameArgs.NewName
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoChangeBuddyNameArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs.Player
+  nameWithType: PlayerInfoChangeBuddyNameArgs.Player
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoChangeBuddyNameArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs.Player
+  nameWithType: PlayerInfoChangeBuddyNameArgs.Player
 - uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs
   name: PlayerInfoChangeNameArgs
   href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.html
@@ -3603,6 +3705,76 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.PlayerInfo.PlayerGetCommand.ToProtocolMessage
   nameWithType: PlayerGetCommand.ToProtocolMessage
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeAboutCommand
+  name: PlayerInfoChangeAboutCommand
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeAboutCommand.html
+  commentId: T:SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeAboutCommand
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeAboutCommand
+  nameWithType: PlayerInfoChangeAboutCommand
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeAboutCommand.Execute(SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs)
+  name: Execute(PlayerInfoChangeAboutArgs)
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeAboutCommand.html#SharedLibrary_Commands_PlayerInfo_PlayerInfoChangeAboutCommand_Execute_SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoChangeAboutArgs_
+  commentId: M:SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeAboutCommand.Execute(SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs)
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeAboutCommand.Execute(SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs)
+  nameWithType: PlayerInfoChangeAboutCommand.Execute(PlayerInfoChangeAboutArgs)
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeAboutCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeAboutCommand.html#SharedLibrary_Commands_PlayerInfo_PlayerInfoChangeAboutCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeAboutCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeAboutCommand.Execute
+  nameWithType: PlayerInfoChangeAboutCommand.Execute
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeAboutCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs,System.String)
+  name: ToProtocolMessage(string, PlayerInfoChangeAboutArgs, string?)
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeAboutCommand.html#SharedLibrary_Commands_PlayerInfo_PlayerInfoChangeAboutCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoChangeAboutArgs_System_String_
+  commentId: M:SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeAboutCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs,System.String)
+  name.vb: ToProtocolMessage(String, PlayerInfoChangeAboutArgs, String)
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeAboutCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs, string?)
+  fullName.vb: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeAboutCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs, String)
+  nameWithType: PlayerInfoChangeAboutCommand.ToProtocolMessage(string, PlayerInfoChangeAboutArgs, string?)
+  nameWithType.vb: PlayerInfoChangeAboutCommand.ToProtocolMessage(String, PlayerInfoChangeAboutArgs, String)
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeAboutCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeAboutCommand.html#SharedLibrary_Commands_PlayerInfo_PlayerInfoChangeAboutCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeAboutCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeAboutCommand.ToProtocolMessage
+  nameWithType: PlayerInfoChangeAboutCommand.ToProtocolMessage
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeBuddyNameCommand
+  name: PlayerInfoChangeBuddyNameCommand
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeBuddyNameCommand.html
+  commentId: T:SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeBuddyNameCommand
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeBuddyNameCommand
+  nameWithType: PlayerInfoChangeBuddyNameCommand
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeBuddyNameCommand.Execute(SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs)
+  name: Execute(PlayerInfoChangeBuddyNameArgs)
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeBuddyNameCommand.html#SharedLibrary_Commands_PlayerInfo_PlayerInfoChangeBuddyNameCommand_Execute_SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoChangeBuddyNameArgs_
+  commentId: M:SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeBuddyNameCommand.Execute(SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs)
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeBuddyNameCommand.Execute(SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs)
+  nameWithType: PlayerInfoChangeBuddyNameCommand.Execute(PlayerInfoChangeBuddyNameArgs)
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeBuddyNameCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeBuddyNameCommand.html#SharedLibrary_Commands_PlayerInfo_PlayerInfoChangeBuddyNameCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeBuddyNameCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeBuddyNameCommand.Execute
+  nameWithType: PlayerInfoChangeBuddyNameCommand.Execute
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeBuddyNameCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs,System.String)
+  name: ToProtocolMessage(string, PlayerInfoChangeBuddyNameArgs, string?)
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeBuddyNameCommand.html#SharedLibrary_Commands_PlayerInfo_PlayerInfoChangeBuddyNameCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoChangeBuddyNameArgs_System_String_
+  commentId: M:SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeBuddyNameCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs,System.String)
+  name.vb: ToProtocolMessage(String, PlayerInfoChangeBuddyNameArgs, String)
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeBuddyNameCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs, string?)
+  fullName.vb: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeBuddyNameCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs, String)
+  nameWithType: PlayerInfoChangeBuddyNameCommand.ToProtocolMessage(string, PlayerInfoChangeBuddyNameArgs, string?)
+  nameWithType.vb: PlayerInfoChangeBuddyNameCommand.ToProtocolMessage(String, PlayerInfoChangeBuddyNameArgs, String)
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeBuddyNameCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeBuddyNameCommand.html#SharedLibrary_Commands_PlayerInfo_PlayerInfoChangeBuddyNameCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeBuddyNameCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeBuddyNameCommand.ToProtocolMessage
+  nameWithType: PlayerInfoChangeBuddyNameCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand
   name: PlayerInfoChangeNameCommand
   href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeNameCommand.html
@@ -5138,6 +5310,18 @@ references:
   commentId: F:SharedLibrary.Data.CommandType.PlayerGet
   fullName: SharedLibrary.Data.CommandType.PlayerGet
   nameWithType: CommandType.PlayerGet
+- uid: SharedLibrary.Data.CommandType.PlayerInfoChangeAbout
+  name: PlayerInfoChangeAbout
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_PlayerInfoChangeAbout
+  commentId: F:SharedLibrary.Data.CommandType.PlayerInfoChangeAbout
+  fullName: SharedLibrary.Data.CommandType.PlayerInfoChangeAbout
+  nameWithType: CommandType.PlayerInfoChangeAbout
+- uid: SharedLibrary.Data.CommandType.PlayerInfoChangeBuddyName
+  name: PlayerInfoChangeBuddyName
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_PlayerInfoChangeBuddyName
+  commentId: F:SharedLibrary.Data.CommandType.PlayerInfoChangeBuddyName
+  fullName: SharedLibrary.Data.CommandType.PlayerInfoChangeBuddyName
+  nameWithType: CommandType.PlayerInfoChangeBuddyName
 - uid: SharedLibrary.Data.CommandType.PlayerInfoChangeName
   name: PlayerInfoChangeName
   href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_PlayerInfoChangeName
@@ -5864,6 +6048,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.GPT.GPTConfig.Instructions
   nameWithType: GPTConfig.Instructions
+- uid: SharedLibrary.Data.GPT.GPTConfig.StartMessageOB
+  name: StartMessageOB
+  href: api/api/SharedLibrary.Data.GPT.GPTConfig.html#SharedLibrary_Data_GPT_GPTConfig_StartMessageOB
+  commentId: P:SharedLibrary.Data.GPT.GPTConfig.StartMessageOB
+  fullName: SharedLibrary.Data.GPT.GPTConfig.StartMessageOB
+  nameWithType: GPTConfig.StartMessageOB
+- uid: SharedLibrary.Data.GPT.GPTConfig.StartMessageOB*
+  name: StartMessageOB
+  href: api/api/SharedLibrary.Data.GPT.GPTConfig.html#SharedLibrary_Data_GPT_GPTConfig_StartMessageOB_
+  commentId: Overload:SharedLibrary.Data.GPT.GPTConfig.StartMessageOB
+  isSpec: "True"
+  fullName: SharedLibrary.Data.GPT.GPTConfig.StartMessageOB
+  nameWithType: GPTConfig.StartMessageOB
 - uid: SharedLibrary.Data.GPT.GPTConfig.SystemMessage
   name: SystemMessage
   href: api/api/SharedLibrary.Data.GPT.GPTConfig.html#SharedLibrary_Data_GPT_GPTConfig_SystemMessage
@@ -5890,6 +6087,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.GPT.GPTConfig.SystemMessageMF
   nameWithType: GPTConfig.SystemMessageMF
+- uid: SharedLibrary.Data.GPT.GPTConfig.SystemMessageOB
+  name: SystemMessageOB
+  href: api/api/SharedLibrary.Data.GPT.GPTConfig.html#SharedLibrary_Data_GPT_GPTConfig_SystemMessageOB
+  commentId: P:SharedLibrary.Data.GPT.GPTConfig.SystemMessageOB
+  fullName: SharedLibrary.Data.GPT.GPTConfig.SystemMessageOB
+  nameWithType: GPTConfig.SystemMessageOB
+- uid: SharedLibrary.Data.GPT.GPTConfig.SystemMessageOB*
+  name: SystemMessageOB
+  href: api/api/SharedLibrary.Data.GPT.GPTConfig.html#SharedLibrary_Data_GPT_GPTConfig_SystemMessageOB_
+  commentId: Overload:SharedLibrary.Data.GPT.GPTConfig.SystemMessageOB
+  isSpec: "True"
+  fullName: SharedLibrary.Data.GPT.GPTConfig.SystemMessageOB
+  nameWithType: GPTConfig.SystemMessageOB
 - uid: SharedLibrary.Data.GPT.GPTConfig.Version
   name: Version
   href: api/api/SharedLibrary.Data.GPT.GPTConfig.html#SharedLibrary_Data_GPT_GPTConfig_Version
@@ -5916,6 +6126,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.GPT.GPTConfig.VersionMF
   nameWithType: GPTConfig.VersionMF
+- uid: SharedLibrary.Data.GPT.GPTConfig.VersionOB
+  name: VersionOB
+  href: api/api/SharedLibrary.Data.GPT.GPTConfig.html#SharedLibrary_Data_GPT_GPTConfig_VersionOB
+  commentId: P:SharedLibrary.Data.GPT.GPTConfig.VersionOB
+  fullName: SharedLibrary.Data.GPT.GPTConfig.VersionOB
+  nameWithType: GPTConfig.VersionOB
+- uid: SharedLibrary.Data.GPT.GPTConfig.VersionOB*
+  name: VersionOB
+  href: api/api/SharedLibrary.Data.GPT.GPTConfig.html#SharedLibrary_Data_GPT_GPTConfig_VersionOB_
+  commentId: Overload:SharedLibrary.Data.GPT.GPTConfig.VersionOB
+  isSpec: "True"
+  fullName: SharedLibrary.Data.GPT.GPTConfig.VersionOB
+  nameWithType: GPTConfig.VersionOB
 - uid: SharedLibrary.Data.GPT.PlayerGPTOnbordingInformation
   name: PlayerGPTOnbordingInformation
   href: api/api/SharedLibrary.Data.GPT.PlayerGPTOnbordingInformation.html
@@ -6569,6 +6792,19 @@ references:
   commentId: T:SharedLibrary.Data.PlayerInfo
   fullName: SharedLibrary.Data.PlayerInfo
   nameWithType: PlayerInfo
+- uid: SharedLibrary.Data.PlayerInfo.BuddyName
+  name: BuddyName
+  href: api/api/SharedLibrary.Data.PlayerInfo.html#SharedLibrary_Data_PlayerInfo_BuddyName
+  commentId: P:SharedLibrary.Data.PlayerInfo.BuddyName
+  fullName: SharedLibrary.Data.PlayerInfo.BuddyName
+  nameWithType: PlayerInfo.BuddyName
+- uid: SharedLibrary.Data.PlayerInfo.BuddyName*
+  name: BuddyName
+  href: api/api/SharedLibrary.Data.PlayerInfo.html#SharedLibrary_Data_PlayerInfo_BuddyName_
+  commentId: Overload:SharedLibrary.Data.PlayerInfo.BuddyName
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerInfo.BuddyName
+  nameWithType: PlayerInfo.BuddyName
 - uid: SharedLibrary.Data.PlayerInfo.Clone
   name: Clone()
   href: api/api/SharedLibrary.Data.PlayerInfo.html#SharedLibrary_Data_PlayerInfo_Clone
@@ -6647,6 +6883,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.PlayerInfo.SleepQualityInfo
   nameWithType: PlayerInfo.SleepQualityInfo
+- uid: SharedLibrary.Data.PlayerInfo.UserAbout
+  name: UserAbout
+  href: api/api/SharedLibrary.Data.PlayerInfo.html#SharedLibrary_Data_PlayerInfo_UserAbout
+  commentId: P:SharedLibrary.Data.PlayerInfo.UserAbout
+  fullName: SharedLibrary.Data.PlayerInfo.UserAbout
+  nameWithType: PlayerInfo.UserAbout
+- uid: SharedLibrary.Data.PlayerInfo.UserAbout*
+  name: UserAbout
+  href: api/api/SharedLibrary.Data.PlayerInfo.html#SharedLibrary_Data_PlayerInfo_UserAbout_
+  commentId: Overload:SharedLibrary.Data.PlayerInfo.UserAbout
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerInfo.UserAbout
+  nameWithType: PlayerInfo.UserAbout
 - uid: SharedLibrary.Data.PlayerInfo.UserName
   name: UserName
   href: api/api/SharedLibrary.Data.PlayerInfo.html#SharedLibrary_Data_PlayerInfo_UserName
@@ -11460,6 +11709,134 @@ references:
   commentId: N:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo
   fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo
   nameWithType: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1
+  name: PlayerInfoChangeAboutProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1
+  nameWithType: PlayerInfoChangeAboutProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.#ctor(System.String,System.String,System.String)
+  name: PlayerInfoChangeAboutProtocolMessageV1(string, string, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeAboutProtocolMessageV1__ctor_System_String_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.#ctor(System.String,System.String,System.String)
+  name.vb: New(String, String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.PlayerInfoChangeAboutProtocolMessageV1(string, string, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.New(String, String, String)
+  nameWithType: PlayerInfoChangeAboutProtocolMessageV1.PlayerInfoChangeAboutProtocolMessageV1(string, string, string?)
+  nameWithType.vb: PlayerInfoChangeAboutProtocolMessageV1.New(String, String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.#ctor*
+  name: PlayerInfoChangeAboutProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeAboutProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.PlayerInfoChangeAboutProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.New
+  nameWithType: PlayerInfoChangeAboutProtocolMessageV1.PlayerInfoChangeAboutProtocolMessageV1
+  nameWithType.vb: PlayerInfoChangeAboutProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.About
+  name: About
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeAboutProtocolMessageV1_About
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.About
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.About
+  nameWithType: PlayerInfoChangeAboutProtocolMessageV1.About
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.About*
+  name: About
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeAboutProtocolMessageV1_About_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.About
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.About
+  nameWithType: PlayerInfoChangeAboutProtocolMessageV1.About
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeAboutProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.MessageType
+  nameWithType: PlayerInfoChangeAboutProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeAboutProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.MessageType
+  nameWithType: PlayerInfoChangeAboutProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeAboutProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.UserId
+  nameWithType: PlayerInfoChangeAboutProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeAboutProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.UserId
+  nameWithType: PlayerInfoChangeAboutProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1
+  name: PlayerInfoChangeBuddyNameProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1
+  nameWithType: PlayerInfoChangeBuddyNameProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.#ctor(System.String,System.String,System.String)
+  name: PlayerInfoChangeBuddyNameProtocolMessageV1(string, string, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeBuddyNameProtocolMessageV1__ctor_System_String_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.#ctor(System.String,System.String,System.String)
+  name.vb: New(String, String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.PlayerInfoChangeBuddyNameProtocolMessageV1(string, string, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.New(String, String, String)
+  nameWithType: PlayerInfoChangeBuddyNameProtocolMessageV1.PlayerInfoChangeBuddyNameProtocolMessageV1(string, string, string?)
+  nameWithType.vb: PlayerInfoChangeBuddyNameProtocolMessageV1.New(String, String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.#ctor*
+  name: PlayerInfoChangeBuddyNameProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeBuddyNameProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.PlayerInfoChangeBuddyNameProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.New
+  nameWithType: PlayerInfoChangeBuddyNameProtocolMessageV1.PlayerInfoChangeBuddyNameProtocolMessageV1
+  nameWithType.vb: PlayerInfoChangeBuddyNameProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.BuddyName
+  name: BuddyName
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeBuddyNameProtocolMessageV1_BuddyName
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.BuddyName
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.BuddyName
+  nameWithType: PlayerInfoChangeBuddyNameProtocolMessageV1.BuddyName
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.BuddyName*
+  name: BuddyName
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeBuddyNameProtocolMessageV1_BuddyName_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.BuddyName
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.BuddyName
+  nameWithType: PlayerInfoChangeBuddyNameProtocolMessageV1.BuddyName
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeBuddyNameProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.MessageType
+  nameWithType: PlayerInfoChangeBuddyNameProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeBuddyNameProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.MessageType
+  nameWithType: PlayerInfoChangeBuddyNameProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeBuddyNameProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.UserId
+  nameWithType: PlayerInfoChangeBuddyNameProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoChangeBuddyNameProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.UserId
+  nameWithType: PlayerInfoChangeBuddyNameProtocolMessageV1.UserId
 - uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1
   name: PlayerInfoChangeNameProtocolMessageV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeNameProtocolMessageV1.html
@@ -11710,6 +12087,18 @@ references:
   commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemUpgradeCommandV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.ItemUpgradeCommandV1
   nameWithType: ProtocolMessageTypes.ItemUpgradeCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoChangeAboutCommandV1
+  name: PlayerInfoChangeAboutCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PlayerInfoChangeAboutCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoChangeAboutCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoChangeAboutCommandV1
+  nameWithType: ProtocolMessageTypes.PlayerInfoChangeAboutCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoChangeBuddyNameCommandV1
+  name: PlayerInfoChangeBuddyNameCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PlayerInfoChangeBuddyNameCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoChangeBuddyNameCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoChangeBuddyNameCommandV1
+  nameWithType: ProtocolMessageTypes.PlayerInfoChangeBuddyNameCommandV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoChangeNameCommandV1
   name: PlayerInfoChangeNameCommandV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PlayerInfoChangeNameCommandV1

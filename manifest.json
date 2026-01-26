@@ -362,6 +362,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeAboutArgs",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeBuddyNameArgs",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoChangeNameArgs.yml",
       "output": {
         ".html": {
@@ -1058,6 +1086,34 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Commands.PlayerInfo.PlayerGetCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeAboutCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeAboutCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeAboutCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeBuddyNameCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeBuddyNameCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.PlayerInfo.PlayerInfoChangeBuddyNameCommand",
       "Summary": null
     },
     {
@@ -2822,6 +2878,34 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Protocol.ProtocolMessages.Items",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeAboutProtocolMessageV1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoChangeBuddyNameProtocolMessageV1",
       "Summary": null
     },
     {
