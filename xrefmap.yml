@@ -1523,15 +1523,15 @@ references:
   commentId: T:SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1
   fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1
   nameWithType: PurchaseVerifyArgsV1
-- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.#ctor(SharedLibrary.Data.Player,System.String,SharedLibrary.Data.StoreType,System.String,System.String)
-  name: PurchaseVerifyArgsV1(Player, string, StoreType, string?, string)
-  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyArgsV1__ctor_SharedLibrary_Data_Player_System_String_SharedLibrary_Data_StoreType_System_String_System_String_
-  commentId: M:SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.#ctor(SharedLibrary.Data.Player,System.String,SharedLibrary.Data.StoreType,System.String,System.String)
-  name.vb: New(Player, String, StoreType, String, String)
-  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.PurchaseVerifyArgsV1(SharedLibrary.Data.Player, string, SharedLibrary.Data.StoreType, string?, string)
-  fullName.vb: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.New(SharedLibrary.Data.Player, String, SharedLibrary.Data.StoreType, String, String)
-  nameWithType: PurchaseVerifyArgsV1.PurchaseVerifyArgsV1(Player, string, StoreType, string?, string)
-  nameWithType.vb: PurchaseVerifyArgsV1.New(Player, String, StoreType, String, String)
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.#ctor(SharedLibrary.Data.Player,System.String,SharedLibrary.Data.StoreType,System.String,System.String,SharedLibrary.Managers.PurchaseManager)
+  name: PurchaseVerifyArgsV1(Player, string, StoreType, string?, string, PurchaseManager)
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyArgsV1__ctor_SharedLibrary_Data_Player_System_String_SharedLibrary_Data_StoreType_System_String_System_String_SharedLibrary_Managers_PurchaseManager_
+  commentId: M:SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.#ctor(SharedLibrary.Data.Player,System.String,SharedLibrary.Data.StoreType,System.String,System.String,SharedLibrary.Managers.PurchaseManager)
+  name.vb: New(Player, String, StoreType, String, String, PurchaseManager)
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.PurchaseVerifyArgsV1(SharedLibrary.Data.Player, string, SharedLibrary.Data.StoreType, string?, string, SharedLibrary.Managers.PurchaseManager)
+  fullName.vb: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.New(SharedLibrary.Data.Player, String, SharedLibrary.Data.StoreType, String, String, SharedLibrary.Managers.PurchaseManager)
+  nameWithType: PurchaseVerifyArgsV1.PurchaseVerifyArgsV1(Player, string, StoreType, string?, string, PurchaseManager)
+  nameWithType.vb: PurchaseVerifyArgsV1.New(Player, String, StoreType, String, String, PurchaseManager)
 - uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.#ctor*
   name: PurchaseVerifyArgsV1
   href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyArgsV1__ctor_
@@ -1581,6 +1581,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.PurchaseId
   nameWithType: PurchaseVerifyArgsV1.PurchaseId
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.PurchaseManager
+  name: PurchaseManager
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyArgsV1_PurchaseManager
+  commentId: P:SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.PurchaseManager
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.PurchaseManager
+  nameWithType: PurchaseVerifyArgsV1.PurchaseManager
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.PurchaseManager*
+  name: PurchaseManager
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyArgsV1_PurchaseManager_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.PurchaseManager
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.PurchaseManager
+  nameWithType: PurchaseVerifyArgsV1.PurchaseManager
 - uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.ReceiptRawString
   name: ReceiptRawString
   href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyArgsV1_ReceiptRawString
@@ -7382,19 +7395,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Purchase.PendingPurchase.ProductId
   nameWithType: PendingPurchase.ProductId
-- uid: SharedLibrary.Data.Purchase.PendingPurchase.Receipt
-  name: Receipt
-  href: api/api/SharedLibrary.Data.Purchase.PendingPurchase.html#SharedLibrary_Data_Purchase_PendingPurchase_Receipt
-  commentId: P:SharedLibrary.Data.Purchase.PendingPurchase.Receipt
-  fullName: SharedLibrary.Data.Purchase.PendingPurchase.Receipt
-  nameWithType: PendingPurchase.Receipt
-- uid: SharedLibrary.Data.Purchase.PendingPurchase.Receipt*
-  name: Receipt
-  href: api/api/SharedLibrary.Data.Purchase.PendingPurchase.html#SharedLibrary_Data_Purchase_PendingPurchase_Receipt_
-  commentId: Overload:SharedLibrary.Data.Purchase.PendingPurchase.Receipt
+- uid: SharedLibrary.Data.Purchase.PendingPurchase.ReceiptXxHash64HexString
+  name: ReceiptXxHash64HexString
+  href: api/api/SharedLibrary.Data.Purchase.PendingPurchase.html#SharedLibrary_Data_Purchase_PendingPurchase_ReceiptXxHash64HexString
+  commentId: P:SharedLibrary.Data.Purchase.PendingPurchase.ReceiptXxHash64HexString
+  fullName: SharedLibrary.Data.Purchase.PendingPurchase.ReceiptXxHash64HexString
+  nameWithType: PendingPurchase.ReceiptXxHash64HexString
+- uid: SharedLibrary.Data.Purchase.PendingPurchase.ReceiptXxHash64HexString*
+  name: ReceiptXxHash64HexString
+  href: api/api/SharedLibrary.Data.Purchase.PendingPurchase.html#SharedLibrary_Data_Purchase_PendingPurchase_ReceiptXxHash64HexString_
+  commentId: Overload:SharedLibrary.Data.Purchase.PendingPurchase.ReceiptXxHash64HexString
   isSpec: "True"
-  fullName: SharedLibrary.Data.Purchase.PendingPurchase.Receipt
-  nameWithType: PendingPurchase.Receipt
+  fullName: SharedLibrary.Data.Purchase.PendingPurchase.ReceiptXxHash64HexString
+  nameWithType: PendingPurchase.ReceiptXxHash64HexString
 - uid: SharedLibrary.Data.Purchase.PendingPurchase.RequestedAtIso
   name: RequestedAtIso
   href: api/api/SharedLibrary.Data.Purchase.PendingPurchase.html#SharedLibrary_Data_Purchase_PendingPurchase_RequestedAtIso
@@ -10077,6 +10090,28 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Managers.ItemsManager.TryToUpgradeItem
   nameWithType: ItemsManager.TryToUpgradeItem
+- uid: SharedLibrary.Managers.PurchaseManager
+  name: PurchaseManager
+  href: api/api/SharedLibrary.Managers.PurchaseManager.html
+  commentId: T:SharedLibrary.Managers.PurchaseManager
+  fullName: SharedLibrary.Managers.PurchaseManager
+  nameWithType: PurchaseManager
+- uid: SharedLibrary.Managers.PurchaseManager.GetReceiptXxHash64HashHexString(System.String)
+  name: GetReceiptXxHash64HashHexString(string)
+  href: api/api/SharedLibrary.Managers.PurchaseManager.html#SharedLibrary_Managers_PurchaseManager_GetReceiptXxHash64HashHexString_System_String_
+  commentId: M:SharedLibrary.Managers.PurchaseManager.GetReceiptXxHash64HashHexString(System.String)
+  name.vb: GetReceiptXxHash64HashHexString(String)
+  fullName: SharedLibrary.Managers.PurchaseManager.GetReceiptXxHash64HashHexString(string)
+  fullName.vb: SharedLibrary.Managers.PurchaseManager.GetReceiptXxHash64HashHexString(String)
+  nameWithType: PurchaseManager.GetReceiptXxHash64HashHexString(string)
+  nameWithType.vb: PurchaseManager.GetReceiptXxHash64HashHexString(String)
+- uid: SharedLibrary.Managers.PurchaseManager.GetReceiptXxHash64HashHexString*
+  name: GetReceiptXxHash64HashHexString
+  href: api/api/SharedLibrary.Managers.PurchaseManager.html#SharedLibrary_Managers_PurchaseManager_GetReceiptXxHash64HashHexString_
+  commentId: Overload:SharedLibrary.Managers.PurchaseManager.GetReceiptXxHash64HashHexString
+  isSpec: "True"
+  fullName: SharedLibrary.Managers.PurchaseManager.GetReceiptXxHash64HashHexString
+  nameWithType: PurchaseManager.GetReceiptXxHash64HashHexString
 - uid: SharedLibrary.Managers.RewardsManager
   name: RewardsManager
   href: api/api/SharedLibrary.Managers.RewardsManager.html

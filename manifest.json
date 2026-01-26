@@ -2420,6 +2420,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Managers.PurchaseManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Managers.PurchaseManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Managers.PurchaseManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Managers.RewardsManager.yml",
       "output": {
         ".html": {
