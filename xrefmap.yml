@@ -4781,6 +4781,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Adventures.AdventureBase.Time
   nameWithType: AdventureBase.Time
+- uid: SharedLibrary.Data.Adventures.AdventureBase.XPResult
+  name: XPResult
+  href: api/api/SharedLibrary.Data.Adventures.AdventureBase.html#SharedLibrary_Data_Adventures_AdventureBase_XPResult
+  commentId: P:SharedLibrary.Data.Adventures.AdventureBase.XPResult
+  fullName: SharedLibrary.Data.Adventures.AdventureBase.XPResult
+  nameWithType: AdventureBase.XPResult
+- uid: SharedLibrary.Data.Adventures.AdventureBase.XPResult*
+  name: XPResult
+  href: api/api/SharedLibrary.Data.Adventures.AdventureBase.html#SharedLibrary_Data_Adventures_AdventureBase_XPResult_
+  commentId: Overload:SharedLibrary.Data.Adventures.AdventureBase.XPResult
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Adventures.AdventureBase.XPResult
+  nameWithType: AdventureBase.XPResult
 - uid: SharedLibrary.Data.Adventures.PlayerAdventures
   name: PlayerAdventures
   href: api/api/SharedLibrary.Data.Adventures.PlayerAdventures.html
