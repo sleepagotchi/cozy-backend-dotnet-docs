@@ -5505,6 +5505,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Constants.BALANCE_URL
   nameWithType: Constants.BALANCE_URL
+- uid: SharedLibrary.Data.Constants.CompleteAdventureTimeThreshold
+  name: CompleteAdventureTimeThreshold
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_CompleteAdventureTimeThreshold
+  commentId: P:SharedLibrary.Data.Constants.CompleteAdventureTimeThreshold
+  fullName: SharedLibrary.Data.Constants.CompleteAdventureTimeThreshold
+  nameWithType: Constants.CompleteAdventureTimeThreshold
+- uid: SharedLibrary.Data.Constants.CompleteAdventureTimeThreshold*
+  name: CompleteAdventureTimeThreshold
+  href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_CompleteAdventureTimeThreshold_
+  commentId: Overload:SharedLibrary.Data.Constants.CompleteAdventureTimeThreshold
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Constants.CompleteAdventureTimeThreshold
+  nameWithType: Constants.CompleteAdventureTimeThreshold
 - uid: SharedLibrary.Data.Constants.CosmeticItemsPerPage
   name: CosmeticItemsPerPage
   href: api/api/SharedLibrary.Data.Constants.html#SharedLibrary_Data_Constants_CosmeticItemsPerPage
