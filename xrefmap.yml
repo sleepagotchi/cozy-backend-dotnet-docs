@@ -1473,6 +1473,57 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoInsertInfoArgs.Value
   nameWithType: PlayerInfoInsertInfoArgs.Value
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs
+  name: PlayerInfoSetWeb2WaveIdArgs
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs
+  nameWithType: PlayerInfoSetWeb2WaveIdArgs
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs.#ctor(SharedLibrary.Data.Player,System.String)
+  name: PlayerInfoSetWeb2WaveIdArgs(Player, string)
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoSetWeb2WaveIdArgs__ctor_SharedLibrary_Data_Player_System_String_
+  commentId: M:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs.#ctor(SharedLibrary.Data.Player,System.String)
+  name.vb: New(Player, String)
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs.PlayerInfoSetWeb2WaveIdArgs(SharedLibrary.Data.Player, string)
+  fullName.vb: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs.New(SharedLibrary.Data.Player, String)
+  nameWithType: PlayerInfoSetWeb2WaveIdArgs.PlayerInfoSetWeb2WaveIdArgs(Player, string)
+  nameWithType.vb: PlayerInfoSetWeb2WaveIdArgs.New(Player, String)
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs.#ctor*
+  name: PlayerInfoSetWeb2WaveIdArgs
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoSetWeb2WaveIdArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs.PlayerInfoSetWeb2WaveIdArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs.New
+  nameWithType: PlayerInfoSetWeb2WaveIdArgs.PlayerInfoSetWeb2WaveIdArgs
+  nameWithType.vb: PlayerInfoSetWeb2WaveIdArgs.New
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoSetWeb2WaveIdArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs.Player
+  nameWithType: PlayerInfoSetWeb2WaveIdArgs.Player
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoSetWeb2WaveIdArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs.Player
+  nameWithType: PlayerInfoSetWeb2WaveIdArgs.Player
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs.Web2WaveUserId
+  name: Web2WaveUserId
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoSetWeb2WaveIdArgs_Web2WaveUserId
+  commentId: P:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs.Web2WaveUserId
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs.Web2WaveUserId
+  nameWithType: PlayerInfoSetWeb2WaveIdArgs.Web2WaveUserId
+- uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs.Web2WaveUserId*
+  name: Web2WaveUserId
+  href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs.html#SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoSetWeb2WaveIdArgs_Web2WaveUserId_
+  commentId: Overload:SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs.Web2WaveUserId
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs.Web2WaveUserId
+  nameWithType: PlayerInfoSetWeb2WaveIdArgs.Web2WaveUserId
 - uid: SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs
   name: PlayerResetCheatArgs
   href: api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs.html
@@ -1710,6 +1761,161 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyInPaymentServiceResultArgs.PurchaseId
   nameWithType: PurchaseVerifyInPaymentServiceResultArgs.PurchaseId
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs
+  name: PurchaseVerifyWeb2WaveArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs
+  nameWithType: PurchaseVerifyWeb2WaveArgs
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.#ctor(SharedLibrary.Data.Player,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.Int32,System.DateTime)
+  name: PurchaseVerifyWeb2WaveArgs(Player, string, string, int, string, string, string, string, int, DateTime)
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyWeb2WaveArgs__ctor_SharedLibrary_Data_Player_System_String_System_String_System_Int32_System_String_System_String_System_String_System_String_System_Int32_System_DateTime_
+  commentId: M:SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.#ctor(SharedLibrary.Data.Player,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.Int32,System.DateTime)
+  name.vb: New(Player, String, String, Integer, String, String, String, String, Integer, Date)
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.PurchaseVerifyWeb2WaveArgs(SharedLibrary.Data.Player, string, string, int, string, string, string, string, int, System.DateTime)
+  fullName.vb: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.New(SharedLibrary.Data.Player, String, String, Integer, String, String, String, String, Integer, Date)
+  nameWithType: PurchaseVerifyWeb2WaveArgs.PurchaseVerifyWeb2WaveArgs(Player, string, string, int, string, string, string, string, int, DateTime)
+  nameWithType.vb: PurchaseVerifyWeb2WaveArgs.New(Player, String, String, Integer, String, String, String, String, Integer, Date)
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.#ctor*
+  name: PurchaseVerifyWeb2WaveArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyWeb2WaveArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.PurchaseVerifyWeb2WaveArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.New
+  nameWithType: PurchaseVerifyWeb2WaveArgs.PurchaseVerifyWeb2WaveArgs
+  nameWithType.vb: PurchaseVerifyWeb2WaveArgs.New
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Amount
+  name: Amount
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyWeb2WaveArgs_Amount
+  commentId: P:SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Amount
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Amount
+  nameWithType: PurchaseVerifyWeb2WaveArgs.Amount
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Amount*
+  name: Amount
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyWeb2WaveArgs_Amount_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Amount
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Amount
+  nameWithType: PurchaseVerifyWeb2WaveArgs.Amount
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Currency
+  name: Currency
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyWeb2WaveArgs_Currency
+  commentId: P:SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Currency
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Currency
+  nameWithType: PurchaseVerifyWeb2WaveArgs.Currency
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Currency*
+  name: Currency
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyWeb2WaveArgs_Currency_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Currency
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Currency
+  nameWithType: PurchaseVerifyWeb2WaveArgs.Currency
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.NextChargeDate
+  name: NextChargeDate
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyWeb2WaveArgs_NextChargeDate
+  commentId: P:SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.NextChargeDate
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.NextChargeDate
+  nameWithType: PurchaseVerifyWeb2WaveArgs.NextChargeDate
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.NextChargeDate*
+  name: NextChargeDate
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyWeb2WaveArgs_NextChargeDate_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.NextChargeDate
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.NextChargeDate
+  nameWithType: PurchaseVerifyWeb2WaveArgs.NextChargeDate
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Period
+  name: Period
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyWeb2WaveArgs_Period
+  commentId: P:SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Period
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Period
+  nameWithType: PurchaseVerifyWeb2WaveArgs.Period
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Period*
+  name: Period
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyWeb2WaveArgs_Period_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Period
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Period
+  nameWithType: PurchaseVerifyWeb2WaveArgs.Period
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.PeriodInterval
+  name: PeriodInterval
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyWeb2WaveArgs_PeriodInterval
+  commentId: P:SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.PeriodInterval
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.PeriodInterval
+  nameWithType: PurchaseVerifyWeb2WaveArgs.PeriodInterval
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.PeriodInterval*
+  name: PeriodInterval
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyWeb2WaveArgs_PeriodInterval_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.PeriodInterval
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.PeriodInterval
+  nameWithType: PurchaseVerifyWeb2WaveArgs.PeriodInterval
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyWeb2WaveArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Player
+  nameWithType: PurchaseVerifyWeb2WaveArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyWeb2WaveArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Player
+  nameWithType: PurchaseVerifyWeb2WaveArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.SubscriptionId
+  name: SubscriptionId
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyWeb2WaveArgs_SubscriptionId
+  commentId: P:SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.SubscriptionId
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.SubscriptionId
+  nameWithType: PurchaseVerifyWeb2WaveArgs.SubscriptionId
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.SubscriptionId*
+  name: SubscriptionId
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyWeb2WaveArgs_SubscriptionId_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.SubscriptionId
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.SubscriptionId
+  nameWithType: PurchaseVerifyWeb2WaveArgs.SubscriptionId
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Web2WaveExternalId
+  name: Web2WaveExternalId
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyWeb2WaveArgs_Web2WaveExternalId
+  commentId: P:SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Web2WaveExternalId
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Web2WaveExternalId
+  nameWithType: PurchaseVerifyWeb2WaveArgs.Web2WaveExternalId
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Web2WaveExternalId*
+  name: Web2WaveExternalId
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyWeb2WaveArgs_Web2WaveExternalId_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Web2WaveExternalId
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Web2WaveExternalId
+  nameWithType: PurchaseVerifyWeb2WaveArgs.Web2WaveExternalId
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Web2WavePlanId
+  name: Web2WavePlanId
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyWeb2WaveArgs_Web2WavePlanId
+  commentId: P:SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Web2WavePlanId
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Web2WavePlanId
+  nameWithType: PurchaseVerifyWeb2WaveArgs.Web2WavePlanId
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Web2WavePlanId*
+  name: Web2WavePlanId
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyWeb2WaveArgs_Web2WavePlanId_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Web2WavePlanId
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Web2WavePlanId
+  nameWithType: PurchaseVerifyWeb2WaveArgs.Web2WavePlanId
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Web2WaveUserId
+  name: Web2WaveUserId
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyWeb2WaveArgs_Web2WaveUserId
+  commentId: P:SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Web2WaveUserId
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Web2WaveUserId
+  nameWithType: PurchaseVerifyWeb2WaveArgs.Web2WaveUserId
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Web2WaveUserId*
+  name: Web2WaveUserId
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyWeb2WaveArgs_Web2WaveUserId_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Web2WaveUserId
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.Web2WaveUserId
+  nameWithType: PurchaseVerifyWeb2WaveArgs.Web2WaveUserId
 - uid: SharedLibrary.Commands.Arguments.Sleep
   name: SharedLibrary.Commands.Arguments.Sleep
   href: api/api/SharedLibrary.Commands.Arguments.Sleep.html
@@ -3877,6 +4083,41 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.PlayerInfo.PlayerResetCheatCommand.Execute
   nameWithType: PlayerResetCheatCommand.Execute
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerSetWeb2WaveUserIdCommand
+  name: PlayerSetWeb2WaveUserIdCommand
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerSetWeb2WaveUserIdCommand.html
+  commentId: T:SharedLibrary.Commands.PlayerInfo.PlayerSetWeb2WaveUserIdCommand
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerSetWeb2WaveUserIdCommand
+  nameWithType: PlayerSetWeb2WaveUserIdCommand
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerSetWeb2WaveUserIdCommand.Execute(SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs)
+  name: Execute(PlayerInfoSetWeb2WaveIdArgs)
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerSetWeb2WaveUserIdCommand.html#SharedLibrary_Commands_PlayerInfo_PlayerSetWeb2WaveUserIdCommand_Execute_SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoSetWeb2WaveIdArgs_
+  commentId: M:SharedLibrary.Commands.PlayerInfo.PlayerSetWeb2WaveUserIdCommand.Execute(SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs)
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerSetWeb2WaveUserIdCommand.Execute(SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs)
+  nameWithType: PlayerSetWeb2WaveUserIdCommand.Execute(PlayerInfoSetWeb2WaveIdArgs)
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerSetWeb2WaveUserIdCommand.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerSetWeb2WaveUserIdCommand.html#SharedLibrary_Commands_PlayerInfo_PlayerSetWeb2WaveUserIdCommand_Execute_
+  commentId: Overload:SharedLibrary.Commands.PlayerInfo.PlayerSetWeb2WaveUserIdCommand.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerSetWeb2WaveUserIdCommand.Execute
+  nameWithType: PlayerSetWeb2WaveUserIdCommand.Execute
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerSetWeb2WaveUserIdCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs,System.String)
+  name: ToProtocolMessage(string, PlayerInfoSetWeb2WaveIdArgs, string?)
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerSetWeb2WaveUserIdCommand.html#SharedLibrary_Commands_PlayerInfo_PlayerSetWeb2WaveUserIdCommand_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_PlayerInfo_PlayerInfoSetWeb2WaveIdArgs_System_String_
+  commentId: M:SharedLibrary.Commands.PlayerInfo.PlayerSetWeb2WaveUserIdCommand.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs,System.String)
+  name.vb: ToProtocolMessage(String, PlayerInfoSetWeb2WaveIdArgs, String)
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerSetWeb2WaveUserIdCommand.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs, string?)
+  fullName.vb: SharedLibrary.Commands.PlayerInfo.PlayerSetWeb2WaveUserIdCommand.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs, String)
+  nameWithType: PlayerSetWeb2WaveUserIdCommand.ToProtocolMessage(string, PlayerInfoSetWeb2WaveIdArgs, string?)
+  nameWithType.vb: PlayerSetWeb2WaveUserIdCommand.ToProtocolMessage(String, PlayerInfoSetWeb2WaveIdArgs, String)
+- uid: SharedLibrary.Commands.PlayerInfo.PlayerSetWeb2WaveUserIdCommand.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.PlayerInfo.PlayerSetWeb2WaveUserIdCommand.html#SharedLibrary_Commands_PlayerInfo_PlayerSetWeb2WaveUserIdCommand_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.PlayerInfo.PlayerSetWeb2WaveUserIdCommand.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.PlayerInfo.PlayerSetWeb2WaveUserIdCommand.ToProtocolMessage
+  nameWithType: PlayerSetWeb2WaveUserIdCommand.ToProtocolMessage
 - uid: SharedLibrary.Commands.Purchase
   name: SharedLibrary.Commands.Purchase
   href: api/api/SharedLibrary.Commands.Purchase.html
@@ -3937,6 +4178,41 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Commands.Purchase.PurchaseVerifyInPaymentServiceResultCommandV1.Execute
   nameWithType: PurchaseVerifyInPaymentServiceResultCommandV1.Execute
+- uid: SharedLibrary.Commands.Purchase.PurchaseVerifyWeb2WaveCommandV1
+  name: PurchaseVerifyWeb2WaveCommandV1
+  href: api/api/SharedLibrary.Commands.Purchase.PurchaseVerifyWeb2WaveCommandV1.html
+  commentId: T:SharedLibrary.Commands.Purchase.PurchaseVerifyWeb2WaveCommandV1
+  fullName: SharedLibrary.Commands.Purchase.PurchaseVerifyWeb2WaveCommandV1
+  nameWithType: PurchaseVerifyWeb2WaveCommandV1
+- uid: SharedLibrary.Commands.Purchase.PurchaseVerifyWeb2WaveCommandV1.Execute(SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs)
+  name: Execute(PurchaseVerifyWeb2WaveArgs)
+  href: api/api/SharedLibrary.Commands.Purchase.PurchaseVerifyWeb2WaveCommandV1.html#SharedLibrary_Commands_Purchase_PurchaseVerifyWeb2WaveCommandV1_Execute_SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyWeb2WaveArgs_
+  commentId: M:SharedLibrary.Commands.Purchase.PurchaseVerifyWeb2WaveCommandV1.Execute(SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs)
+  fullName: SharedLibrary.Commands.Purchase.PurchaseVerifyWeb2WaveCommandV1.Execute(SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs)
+  nameWithType: PurchaseVerifyWeb2WaveCommandV1.Execute(PurchaseVerifyWeb2WaveArgs)
+- uid: SharedLibrary.Commands.Purchase.PurchaseVerifyWeb2WaveCommandV1.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Purchase.PurchaseVerifyWeb2WaveCommandV1.html#SharedLibrary_Commands_Purchase_PurchaseVerifyWeb2WaveCommandV1_Execute_
+  commentId: Overload:SharedLibrary.Commands.Purchase.PurchaseVerifyWeb2WaveCommandV1.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Purchase.PurchaseVerifyWeb2WaveCommandV1.Execute
+  nameWithType: PurchaseVerifyWeb2WaveCommandV1.Execute
+- uid: SharedLibrary.Commands.Purchase.PurchaseVerifyWeb2WaveCommandV1.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs,System.String)
+  name: ToProtocolMessage(string, PurchaseVerifyWeb2WaveArgs, string?)
+  href: api/api/SharedLibrary.Commands.Purchase.PurchaseVerifyWeb2WaveCommandV1.html#SharedLibrary_Commands_Purchase_PurchaseVerifyWeb2WaveCommandV1_ToProtocolMessage_System_String_SharedLibrary_Commands_Arguments_Purchase_PurchaseVerifyWeb2WaveArgs_System_String_
+  commentId: M:SharedLibrary.Commands.Purchase.PurchaseVerifyWeb2WaveCommandV1.ToProtocolMessage(System.String,SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs,System.String)
+  name.vb: ToProtocolMessage(String, PurchaseVerifyWeb2WaveArgs, String)
+  fullName: SharedLibrary.Commands.Purchase.PurchaseVerifyWeb2WaveCommandV1.ToProtocolMessage(string, SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs, string?)
+  fullName.vb: SharedLibrary.Commands.Purchase.PurchaseVerifyWeb2WaveCommandV1.ToProtocolMessage(String, SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs, String)
+  nameWithType: PurchaseVerifyWeb2WaveCommandV1.ToProtocolMessage(string, PurchaseVerifyWeb2WaveArgs, string?)
+  nameWithType.vb: PurchaseVerifyWeb2WaveCommandV1.ToProtocolMessage(String, PurchaseVerifyWeb2WaveArgs, String)
+- uid: SharedLibrary.Commands.Purchase.PurchaseVerifyWeb2WaveCommandV1.ToProtocolMessage*
+  name: ToProtocolMessage
+  href: api/api/SharedLibrary.Commands.Purchase.PurchaseVerifyWeb2WaveCommandV1.html#SharedLibrary_Commands_Purchase_PurchaseVerifyWeb2WaveCommandV1_ToProtocolMessage_
+  commentId: Overload:SharedLibrary.Commands.Purchase.PurchaseVerifyWeb2WaveCommandV1.ToProtocolMessage
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Purchase.PurchaseVerifyWeb2WaveCommandV1.ToProtocolMessage
+  nameWithType: PurchaseVerifyWeb2WaveCommandV1.ToProtocolMessage
 - uid: SharedLibrary.Commands.Sleep
   name: SharedLibrary.Commands.Sleep
   href: api/api/SharedLibrary.Commands.Sleep.html
@@ -5360,6 +5636,12 @@ references:
   commentId: F:SharedLibrary.Data.CommandType.PlayerInfoInsertInfo
   fullName: SharedLibrary.Data.CommandType.PlayerInfoInsertInfo
   nameWithType: CommandType.PlayerInfoInsertInfo
+- uid: SharedLibrary.Data.CommandType.PlayerInfoSetWeb2WaveId
+  name: PlayerInfoSetWeb2WaveId
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_PlayerInfoSetWeb2WaveId
+  commentId: F:SharedLibrary.Data.CommandType.PlayerInfoSetWeb2WaveId
+  fullName: SharedLibrary.Data.CommandType.PlayerInfoSetWeb2WaveId
+  nameWithType: CommandType.PlayerInfoSetWeb2WaveId
 - uid: SharedLibrary.Data.CommandType.PlayerResetCheat
   name: PlayerResetCheat
   href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_PlayerResetCheat
@@ -5378,6 +5660,12 @@ references:
   commentId: F:SharedLibrary.Data.CommandType.PurchaseValidateV1
   fullName: SharedLibrary.Data.CommandType.PurchaseValidateV1
   nameWithType: CommandType.PurchaseValidateV1
+- uid: SharedLibrary.Data.CommandType.PurchaseValidateWeb2WaveV1
+  name: PurchaseValidateWeb2WaveV1
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_PurchaseValidateWeb2WaveV1
+  commentId: F:SharedLibrary.Data.CommandType.PurchaseValidateWeb2WaveV1
+  fullName: SharedLibrary.Data.CommandType.PurchaseValidateWeb2WaveV1
+  nameWithType: CommandType.PurchaseValidateWeb2WaveV1
 - uid: SharedLibrary.Data.CommandType.SleepChangeSchedule
   name: SleepChangeSchedule
   href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_SleepChangeSchedule
@@ -6948,6 +7236,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.PlayerInfo.UserName
   nameWithType: PlayerInfo.UserName
+- uid: SharedLibrary.Data.PlayerInfo.Web2WaveUserId
+  name: Web2WaveUserId
+  href: api/api/SharedLibrary.Data.PlayerInfo.html#SharedLibrary_Data_PlayerInfo_Web2WaveUserId
+  commentId: P:SharedLibrary.Data.PlayerInfo.Web2WaveUserId
+  fullName: SharedLibrary.Data.PlayerInfo.Web2WaveUserId
+  nameWithType: PlayerInfo.Web2WaveUserId
+- uid: SharedLibrary.Data.PlayerInfo.Web2WaveUserId*
+  name: Web2WaveUserId
+  href: api/api/SharedLibrary.Data.PlayerInfo.html#SharedLibrary_Data_PlayerInfo_Web2WaveUserId_
+  commentId: Overload:SharedLibrary.Data.PlayerInfo.Web2WaveUserId
+  isSpec: "True"
+  fullName: SharedLibrary.Data.PlayerInfo.Web2WaveUserId
+  nameWithType: PlayerInfo.Web2WaveUserId
 - uid: SharedLibrary.Data.PlayerInfoSourceType
   name: PlayerInfoSourceType
   href: api/api/SharedLibrary.Data.PlayerInfoSourceType.html
@@ -7389,6 +7690,19 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Purchase.ActiveSubscription.StoreType
   nameWithType: ActiveSubscription.StoreType
+- uid: SharedLibrary.Data.Purchase.ActiveSubscription.Web2WaveSubscriptionDetails
+  name: Web2WaveSubscriptionDetails
+  href: api/api/SharedLibrary.Data.Purchase.ActiveSubscription.html#SharedLibrary_Data_Purchase_ActiveSubscription_Web2WaveSubscriptionDetails
+  commentId: P:SharedLibrary.Data.Purchase.ActiveSubscription.Web2WaveSubscriptionDetails
+  fullName: SharedLibrary.Data.Purchase.ActiveSubscription.Web2WaveSubscriptionDetails
+  nameWithType: ActiveSubscription.Web2WaveSubscriptionDetails
+- uid: SharedLibrary.Data.Purchase.ActiveSubscription.Web2WaveSubscriptionDetails*
+  name: Web2WaveSubscriptionDetails
+  href: api/api/SharedLibrary.Data.Purchase.ActiveSubscription.html#SharedLibrary_Data_Purchase_ActiveSubscription_Web2WaveSubscriptionDetails_
+  commentId: Overload:SharedLibrary.Data.Purchase.ActiveSubscription.Web2WaveSubscriptionDetails
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Purchase.ActiveSubscription.Web2WaveSubscriptionDetails
+  nameWithType: ActiveSubscription.Web2WaveSubscriptionDetails
 - uid: SharedLibrary.Data.Purchase.PendingPurchase
   name: PendingPurchase
   href: api/api/SharedLibrary.Data.Purchase.PendingPurchase.html
@@ -7531,6 +7845,161 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Data.Purchase.PurchaseHistoryEntry.TransactionId
   nameWithType: PurchaseHistoryEntry.TransactionId
+- uid: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails
+  name: Web2WaveSubscriptionDetails
+  href: api/api/SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.html
+  commentId: T:SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails
+  fullName: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails
+  nameWithType: Web2WaveSubscriptionDetails
+- uid: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.#ctor(System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.Int32,System.DateTime)
+  name: Web2WaveSubscriptionDetails(string, string, int, string, string, string, string, int, DateTime)
+  href: api/api/SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.html#SharedLibrary_Data_Purchase_Web2WaveSubscriptionDetails__ctor_System_String_System_String_System_Int32_System_String_System_String_System_String_System_String_System_Int32_System_DateTime_
+  commentId: M:SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.#ctor(System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.Int32,System.DateTime)
+  name.vb: New(String, String, Integer, String, String, String, String, Integer, Date)
+  fullName: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Web2WaveSubscriptionDetails(string, string, int, string, string, string, string, int, System.DateTime)
+  fullName.vb: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.New(String, String, Integer, String, String, String, String, Integer, Date)
+  nameWithType: Web2WaveSubscriptionDetails.Web2WaveSubscriptionDetails(string, string, int, string, string, string, string, int, DateTime)
+  nameWithType.vb: Web2WaveSubscriptionDetails.New(String, String, Integer, String, String, String, String, Integer, Date)
+- uid: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.#ctor*
+  name: Web2WaveSubscriptionDetails
+  href: api/api/SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.html#SharedLibrary_Data_Purchase_Web2WaveSubscriptionDetails__ctor_
+  commentId: Overload:SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Web2WaveSubscriptionDetails
+  fullName.vb: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.New
+  nameWithType: Web2WaveSubscriptionDetails.Web2WaveSubscriptionDetails
+  nameWithType.vb: Web2WaveSubscriptionDetails.New
+- uid: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Amount
+  name: Amount
+  href: api/api/SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.html#SharedLibrary_Data_Purchase_Web2WaveSubscriptionDetails_Amount
+  commentId: P:SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Amount
+  fullName: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Amount
+  nameWithType: Web2WaveSubscriptionDetails.Amount
+- uid: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Amount*
+  name: Amount
+  href: api/api/SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.html#SharedLibrary_Data_Purchase_Web2WaveSubscriptionDetails_Amount_
+  commentId: Overload:SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Amount
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Amount
+  nameWithType: Web2WaveSubscriptionDetails.Amount
+- uid: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Clone
+  name: Clone()
+  href: api/api/SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.html#SharedLibrary_Data_Purchase_Web2WaveSubscriptionDetails_Clone
+  commentId: M:SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Clone
+  fullName: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Clone()
+  nameWithType: Web2WaveSubscriptionDetails.Clone()
+- uid: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Clone*
+  name: Clone
+  href: api/api/SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.html#SharedLibrary_Data_Purchase_Web2WaveSubscriptionDetails_Clone_
+  commentId: Overload:SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Clone
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Clone
+  nameWithType: Web2WaveSubscriptionDetails.Clone
+- uid: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Currency
+  name: Currency
+  href: api/api/SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.html#SharedLibrary_Data_Purchase_Web2WaveSubscriptionDetails_Currency
+  commentId: P:SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Currency
+  fullName: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Currency
+  nameWithType: Web2WaveSubscriptionDetails.Currency
+- uid: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Currency*
+  name: Currency
+  href: api/api/SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.html#SharedLibrary_Data_Purchase_Web2WaveSubscriptionDetails_Currency_
+  commentId: Overload:SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Currency
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Currency
+  nameWithType: Web2WaveSubscriptionDetails.Currency
+- uid: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.NextChargeDate
+  name: NextChargeDate
+  href: api/api/SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.html#SharedLibrary_Data_Purchase_Web2WaveSubscriptionDetails_NextChargeDate
+  commentId: P:SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.NextChargeDate
+  fullName: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.NextChargeDate
+  nameWithType: Web2WaveSubscriptionDetails.NextChargeDate
+- uid: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.NextChargeDate*
+  name: NextChargeDate
+  href: api/api/SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.html#SharedLibrary_Data_Purchase_Web2WaveSubscriptionDetails_NextChargeDate_
+  commentId: Overload:SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.NextChargeDate
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.NextChargeDate
+  nameWithType: Web2WaveSubscriptionDetails.NextChargeDate
+- uid: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Period
+  name: Period
+  href: api/api/SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.html#SharedLibrary_Data_Purchase_Web2WaveSubscriptionDetails_Period
+  commentId: P:SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Period
+  fullName: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Period
+  nameWithType: Web2WaveSubscriptionDetails.Period
+- uid: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Period*
+  name: Period
+  href: api/api/SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.html#SharedLibrary_Data_Purchase_Web2WaveSubscriptionDetails_Period_
+  commentId: Overload:SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Period
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Period
+  nameWithType: Web2WaveSubscriptionDetails.Period
+- uid: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.PeriodInterval
+  name: PeriodInterval
+  href: api/api/SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.html#SharedLibrary_Data_Purchase_Web2WaveSubscriptionDetails_PeriodInterval
+  commentId: P:SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.PeriodInterval
+  fullName: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.PeriodInterval
+  nameWithType: Web2WaveSubscriptionDetails.PeriodInterval
+- uid: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.PeriodInterval*
+  name: PeriodInterval
+  href: api/api/SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.html#SharedLibrary_Data_Purchase_Web2WaveSubscriptionDetails_PeriodInterval_
+  commentId: Overload:SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.PeriodInterval
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.PeriodInterval
+  nameWithType: Web2WaveSubscriptionDetails.PeriodInterval
+- uid: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.SubscriptionId
+  name: SubscriptionId
+  href: api/api/SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.html#SharedLibrary_Data_Purchase_Web2WaveSubscriptionDetails_SubscriptionId
+  commentId: P:SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.SubscriptionId
+  fullName: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.SubscriptionId
+  nameWithType: Web2WaveSubscriptionDetails.SubscriptionId
+- uid: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.SubscriptionId*
+  name: SubscriptionId
+  href: api/api/SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.html#SharedLibrary_Data_Purchase_Web2WaveSubscriptionDetails_SubscriptionId_
+  commentId: Overload:SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.SubscriptionId
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.SubscriptionId
+  nameWithType: Web2WaveSubscriptionDetails.SubscriptionId
+- uid: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Web2WaveExternalId
+  name: Web2WaveExternalId
+  href: api/api/SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.html#SharedLibrary_Data_Purchase_Web2WaveSubscriptionDetails_Web2WaveExternalId
+  commentId: P:SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Web2WaveExternalId
+  fullName: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Web2WaveExternalId
+  nameWithType: Web2WaveSubscriptionDetails.Web2WaveExternalId
+- uid: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Web2WaveExternalId*
+  name: Web2WaveExternalId
+  href: api/api/SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.html#SharedLibrary_Data_Purchase_Web2WaveSubscriptionDetails_Web2WaveExternalId_
+  commentId: Overload:SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Web2WaveExternalId
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Web2WaveExternalId
+  nameWithType: Web2WaveSubscriptionDetails.Web2WaveExternalId
+- uid: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Web2WavePlanId
+  name: Web2WavePlanId
+  href: api/api/SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.html#SharedLibrary_Data_Purchase_Web2WaveSubscriptionDetails_Web2WavePlanId
+  commentId: P:SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Web2WavePlanId
+  fullName: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Web2WavePlanId
+  nameWithType: Web2WaveSubscriptionDetails.Web2WavePlanId
+- uid: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Web2WavePlanId*
+  name: Web2WavePlanId
+  href: api/api/SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.html#SharedLibrary_Data_Purchase_Web2WaveSubscriptionDetails_Web2WavePlanId_
+  commentId: Overload:SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Web2WavePlanId
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Web2WavePlanId
+  nameWithType: Web2WaveSubscriptionDetails.Web2WavePlanId
+- uid: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Web2WaveUserId
+  name: Web2WaveUserId
+  href: api/api/SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.html#SharedLibrary_Data_Purchase_Web2WaveSubscriptionDetails_Web2WaveUserId
+  commentId: P:SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Web2WaveUserId
+  fullName: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Web2WaveUserId
+  nameWithType: Web2WaveSubscriptionDetails.Web2WaveUserId
+- uid: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Web2WaveUserId*
+  name: Web2WaveUserId
+  href: api/api/SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.html#SharedLibrary_Data_Purchase_Web2WaveSubscriptionDetails_Web2WaveUserId_
+  commentId: Overload:SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Web2WaveUserId
+  isSpec: "True"
+  fullName: SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.Web2WaveUserId
+  nameWithType: Web2WaveSubscriptionDetails.Web2WaveUserId
 - uid: SharedLibrary.Data.ResourceType
   name: ResourceType
   href: api/api/SharedLibrary.Data.ResourceType.html
@@ -8142,6 +8611,12 @@ references:
   commentId: F:SharedLibrary.Data.StoreType.GOOGLE
   fullName: SharedLibrary.Data.StoreType.GOOGLE
   nameWithType: StoreType.GOOGLE
+- uid: SharedLibrary.Data.StoreType.WEB2WAVE
+  name: WEB2WAVE
+  href: api/api/SharedLibrary.Data.StoreType.html#SharedLibrary_Data_StoreType_WEB2WAVE
+  commentId: F:SharedLibrary.Data.StoreType.WEB2WAVE
+  fullName: SharedLibrary.Data.StoreType.WEB2WAVE
+  nameWithType: StoreType.WEB2WAVE
 - uid: SharedLibrary.Data.Tasks
   name: SharedLibrary.Data.Tasks
   href: api/api/SharedLibrary.Data.Tasks.html
@@ -12052,6 +12527,70 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoInsertInfoProtocolMessageV1.Value
   nameWithType: PlayerInfoInsertInfoProtocolMessageV1.Value
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1
+  name: PlayerInfoSetWeb2WaveIdProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1
+  nameWithType: PlayerInfoSetWeb2WaveIdProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.#ctor(System.String,System.String,System.String)
+  name: PlayerInfoSetWeb2WaveIdProtocolMessageV1(string, string, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoSetWeb2WaveIdProtocolMessageV1__ctor_System_String_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.#ctor(System.String,System.String,System.String)
+  name.vb: New(String, String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.PlayerInfoSetWeb2WaveIdProtocolMessageV1(string, string, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.New(String, String, String)
+  nameWithType: PlayerInfoSetWeb2WaveIdProtocolMessageV1.PlayerInfoSetWeb2WaveIdProtocolMessageV1(string, string, string?)
+  nameWithType.vb: PlayerInfoSetWeb2WaveIdProtocolMessageV1.New(String, String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.#ctor*
+  name: PlayerInfoSetWeb2WaveIdProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoSetWeb2WaveIdProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.PlayerInfoSetWeb2WaveIdProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.New
+  nameWithType: PlayerInfoSetWeb2WaveIdProtocolMessageV1.PlayerInfoSetWeb2WaveIdProtocolMessageV1
+  nameWithType.vb: PlayerInfoSetWeb2WaveIdProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoSetWeb2WaveIdProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.MessageType
+  nameWithType: PlayerInfoSetWeb2WaveIdProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoSetWeb2WaveIdProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.MessageType
+  nameWithType: PlayerInfoSetWeb2WaveIdProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoSetWeb2WaveIdProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.UserId
+  nameWithType: PlayerInfoSetWeb2WaveIdProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoSetWeb2WaveIdProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.UserId
+  nameWithType: PlayerInfoSetWeb2WaveIdProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.Web2WaveUserId
+  name: Web2WaveUserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoSetWeb2WaveIdProtocolMessageV1_Web2WaveUserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.Web2WaveUserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.Web2WaveUserId
+  nameWithType: PlayerInfoSetWeb2WaveIdProtocolMessageV1.Web2WaveUserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.Web2WaveUserId*
+  name: Web2WaveUserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_PlayerInfo_PlayerInfoSetWeb2WaveIdProtocolMessageV1_Web2WaveUserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.Web2WaveUserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.Web2WaveUserId
+  nameWithType: PlayerInfoSetWeb2WaveIdProtocolMessageV1.Web2WaveUserId
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes
   name: ProtocolMessageTypes
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html
@@ -12172,6 +12711,12 @@ references:
   commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoInsertInfoCommandV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoInsertInfoCommandV1
   nameWithType: ProtocolMessageTypes.PlayerInfoInsertInfoCommandV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoSetWeb2WaveIdCommandV1
+  name: PlayerInfoSetWeb2WaveIdCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PlayerInfoSetWeb2WaveIdCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoSetWeb2WaveIdCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PlayerInfoSetWeb2WaveIdCommandV1
+  nameWithType: ProtocolMessageTypes.PlayerInfoSetWeb2WaveIdCommandV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PurchaseVerifyCommandV1
   name: PurchaseVerifyCommandV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PurchaseVerifyCommandV1
@@ -12190,6 +12735,12 @@ references:
   commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PurchaseVerifyInPaymentServiceResultV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PurchaseVerifyInPaymentServiceResultV1
   nameWithType: ProtocolMessageTypes.PurchaseVerifyInPaymentServiceResultV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PurchaseVerifyWeb2WaveSubscriptionCommandV1
+  name: PurchaseVerifyWeb2WaveSubscriptionCommandV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_PurchaseVerifyWeb2WaveSubscriptionCommandV1
+  commentId: F:SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PurchaseVerifyWeb2WaveSubscriptionCommandV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.PurchaseVerifyWeb2WaveSubscriptionCommandV1
+  nameWithType: ProtocolMessageTypes.PurchaseVerifyWeb2WaveSubscriptionCommandV1
 - uid: SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.SleepChangeScheduleCommandV1
   name: SleepChangeScheduleCommandV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.ProtocolMessageTypes.html#SharedLibrary_Protocol_ProtocolMessages_ProtocolMessageTypes_SleepChangeScheduleCommandV1
@@ -12734,6 +13285,174 @@ references:
   isSpec: "True"
   fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyProtocolMessageV1.UserId
   nameWithType: PurchaseVerifyProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1
+  name: PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.html
+  commentId: T:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1
+  nameWithType: PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.#ctor(System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.Int32,System.DateTime,System.String)
+  name: PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1(string, string, string, int, string, string, string, string, int, DateTime, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1__ctor_System_String_System_String_System_String_System_Int32_System_String_System_String_System_String_System_String_System_Int32_System_DateTime_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.#ctor(System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.Int32,System.DateTime,System.String)
+  name.vb: New(String, String, String, Integer, String, String, String, String, Integer, Date, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1(string, string, string, int, string, string, string, string, int, System.DateTime, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.New(String, String, String, Integer, String, String, String, String, Integer, Date, String)
+  nameWithType: PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1(string, string, string, int, string, string, string, string, int, DateTime, string?)
+  nameWithType.vb: PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.New(String, String, String, Integer, String, String, String, String, Integer, Date, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.#ctor*
+  name: PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1__ctor_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.New
+  nameWithType: PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1
+  nameWithType.vb: PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Amount
+  name: Amount
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1_Amount
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Amount
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Amount
+  nameWithType: PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Amount
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Amount*
+  name: Amount
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1_Amount_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Amount
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Amount
+  nameWithType: PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Amount
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Currency
+  name: Currency
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1_Currency
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Currency
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Currency
+  nameWithType: PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Currency
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Currency*
+  name: Currency
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1_Currency_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Currency
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Currency
+  nameWithType: PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Currency
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.MessageType
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1_MessageType
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.MessageType
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.MessageType
+  nameWithType: PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.MessageType*
+  name: MessageType
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1_MessageType_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.MessageType
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.MessageType
+  nameWithType: PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.MessageType
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.NextChargeDate
+  name: NextChargeDate
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1_NextChargeDate
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.NextChargeDate
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.NextChargeDate
+  nameWithType: PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.NextChargeDate
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.NextChargeDate*
+  name: NextChargeDate
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1_NextChargeDate_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.NextChargeDate
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.NextChargeDate
+  nameWithType: PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.NextChargeDate
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Period
+  name: Period
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1_Period
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Period
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Period
+  nameWithType: PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Period
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Period*
+  name: Period
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1_Period_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Period
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Period
+  nameWithType: PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Period
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.PeriodInterval
+  name: PeriodInterval
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1_PeriodInterval
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.PeriodInterval
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.PeriodInterval
+  nameWithType: PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.PeriodInterval
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.PeriodInterval*
+  name: PeriodInterval
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1_PeriodInterval_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.PeriodInterval
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.PeriodInterval
+  nameWithType: PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.PeriodInterval
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.SubscriptionId
+  name: SubscriptionId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1_SubscriptionId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.SubscriptionId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.SubscriptionId
+  nameWithType: PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.SubscriptionId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.SubscriptionId*
+  name: SubscriptionId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1_SubscriptionId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.SubscriptionId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.SubscriptionId
+  nameWithType: PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.SubscriptionId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.UserId
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1_UserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.UserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.UserId
+  nameWithType: PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.UserId*
+  name: UserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1_UserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.UserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.UserId
+  nameWithType: PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.UserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Web2WaveExternalId
+  name: Web2WaveExternalId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1_Web2WaveExternalId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Web2WaveExternalId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Web2WaveExternalId
+  nameWithType: PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Web2WaveExternalId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Web2WaveExternalId*
+  name: Web2WaveExternalId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1_Web2WaveExternalId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Web2WaveExternalId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Web2WaveExternalId
+  nameWithType: PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Web2WaveExternalId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Web2WavePlanId
+  name: Web2WavePlanId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1_Web2WavePlanId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Web2WavePlanId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Web2WavePlanId
+  nameWithType: PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Web2WavePlanId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Web2WavePlanId*
+  name: Web2WavePlanId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1_Web2WavePlanId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Web2WavePlanId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Web2WavePlanId
+  nameWithType: PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Web2WavePlanId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Web2WaveUserId
+  name: Web2WaveUserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1_Web2WaveUserId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Web2WaveUserId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Web2WaveUserId
+  nameWithType: PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Web2WaveUserId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Web2WaveUserId*
+  name: Web2WaveUserId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1_Web2WaveUserId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Web2WaveUserId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Web2WaveUserId
+  nameWithType: PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.Web2WaveUserId
 - uid: SharedLibrary.Protocol.ProtocolMessages.Sleep
   name: SharedLibrary.Protocol.ProtocolMessages.Sleep
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Sleep.html

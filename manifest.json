@@ -418,6 +418,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Arguments.PlayerInfo.PlayerInfoSetWeb2WaveIdArgs",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Commands.Arguments.PlayerInfo.PlayerResetCheatArgs.yml",
       "output": {
         ".html": {
@@ -471,6 +485,20 @@
       "IsMRef": true,
       "Title": "SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyInPaymentServiceResultArgs",
       "Summary": "<p sourcefile=\"api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyInPaymentServiceResultArgs.yml\" sourcestartlinenumber=\"1\">Arguments passed to the PurchaseValidateResultCommand.\nContains the player to modify and the result data from the validation service.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyWeb2WaveArgs",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1160,6 +1188,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.PlayerInfo.PlayerSetWeb2WaveUserIdCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.PlayerInfo.PlayerSetWeb2WaveUserIdCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.PlayerInfo.PlayerSetWeb2WaveUserIdCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Commands.PlayerInfo.yml",
       "output": {
         ".html": {
@@ -1199,6 +1241,20 @@
       "IsMRef": true,
       "Title": "SharedLibrary.Commands.Purchase.PurchaseVerifyInPaymentServiceResultCommandV1",
       "Summary": "<p sourcefile=\"api/SharedLibrary.Commands.Purchase.PurchaseVerifyInPaymentServiceResultCommandV1.yml\" sourcestartlinenumber=\"1\">Command to process the result of a purchase validation.\nIf valid, it grants the subscription/items.\nIf invalid, it handles the error state.\nAlways cleans up pending purchase requests.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Purchase.PurchaseVerifyWeb2WaveCommandV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Purchase.PurchaseVerifyWeb2WaveCommandV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Purchase.PurchaseVerifyWeb2WaveCommandV1",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2039,6 +2095,20 @@
       "IsMRef": true,
       "Title": "SharedLibrary.Data.Purchase.PurchaseHistoryEntry",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Data.Purchase.Web2WaveSubscriptionDetails.yml\" sourcestartlinenumber=\"1\">All details of a Web2Wave subscription.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2952,6 +3022,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.PlayerInfoSetWeb2WaveIdProtocolMessageV1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.PlayerInfo.yml",
       "output": {
         ".html": {
@@ -3047,6 +3131,20 @@
       "IsMRef": true,
       "Title": "SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyProtocolMessageV1",
       "Summary": "<p sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyProtocolMessageV1.yml\" sourcestartlinenumber=\"1\">Protocol message representing client's request to validate a purchase (i.e. message from mobile app)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyWeb2WaveSubscriptionProtocolMessageV1",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
