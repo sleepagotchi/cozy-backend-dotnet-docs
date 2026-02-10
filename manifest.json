@@ -3092,6 +3092,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1",
+      "Summary": "<p sourcefile=\"api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.yml\" sourcestartlinenumber=\"1\">Command to set subscription for a user.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseVerifyInPaymentServiceRequestProtocolMessageV1.yml",
       "output": {
         ".html": {
