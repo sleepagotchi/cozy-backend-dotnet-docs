@@ -1568,6 +1568,96 @@ references:
   commentId: N:SharedLibrary.Commands.Arguments.Purchase
   fullName: SharedLibrary.Commands.Arguments.Purchase
   nameWithType: SharedLibrary.Commands.Arguments.Purchase
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs
+  name: PurchaseSetSubscriptionArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.html
+  commentId: T:SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs
+  nameWithType: PurchaseSetSubscriptionArgs
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.#ctor(SharedLibrary.Data.Player,System.String,System.String,SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseMetadata,SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseError)
+  name: PurchaseSetSubscriptionArgs(Player, string, string, PurchaseMetadata?, PurchaseError?)
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseSetSubscriptionArgs__ctor_SharedLibrary_Data_Player_System_String_System_String_SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseMetadata_SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseError_
+  commentId: M:SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.#ctor(SharedLibrary.Data.Player,System.String,System.String,SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseMetadata,SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseError)
+  name.vb: New(Player, String, String, PurchaseMetadata, PurchaseError)
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.PurchaseSetSubscriptionArgs(SharedLibrary.Data.Player, string, string, SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseMetadata?, SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseError?)
+  fullName.vb: SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.New(SharedLibrary.Data.Player, String, String, SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseMetadata, SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseError)
+  nameWithType: PurchaseSetSubscriptionArgs.PurchaseSetSubscriptionArgs(Player, string, string, PurchaseMetadata?, PurchaseError?)
+  nameWithType.vb: PurchaseSetSubscriptionArgs.New(Player, String, String, PurchaseMetadata, PurchaseError)
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.#ctor*
+  name: PurchaseSetSubscriptionArgs
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseSetSubscriptionArgs__ctor_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.PurchaseSetSubscriptionArgs
+  fullName.vb: SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.New
+  nameWithType: PurchaseSetSubscriptionArgs.PurchaseSetSubscriptionArgs
+  nameWithType.vb: PurchaseSetSubscriptionArgs.New
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.Error
+  name: Error
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseSetSubscriptionArgs_Error
+  commentId: P:SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.Error
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.Error
+  nameWithType: PurchaseSetSubscriptionArgs.Error
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.Error*
+  name: Error
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseSetSubscriptionArgs_Error_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.Error
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.Error
+  nameWithType: PurchaseSetSubscriptionArgs.Error
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.Metadata
+  name: Metadata
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseSetSubscriptionArgs_Metadata
+  commentId: P:SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.Metadata
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.Metadata
+  nameWithType: PurchaseSetSubscriptionArgs.Metadata
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.Metadata*
+  name: Metadata
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseSetSubscriptionArgs_Metadata_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.Metadata
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.Metadata
+  nameWithType: PurchaseSetSubscriptionArgs.Metadata
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.PlanId
+  name: PlanId
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseSetSubscriptionArgs_PlanId
+  commentId: P:SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.PlanId
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.PlanId
+  nameWithType: PurchaseSetSubscriptionArgs.PlanId
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.PlanId*
+  name: PlanId
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseSetSubscriptionArgs_PlanId_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.PlanId
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.PlanId
+  nameWithType: PurchaseSetSubscriptionArgs.PlanId
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.Player
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseSetSubscriptionArgs_Player
+  commentId: P:SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.Player
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.Player
+  nameWithType: PurchaseSetSubscriptionArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.Player*
+  name: Player
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseSetSubscriptionArgs_Player_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.Player
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.Player
+  nameWithType: PurchaseSetSubscriptionArgs.Player
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.PurchaseId
+  name: PurchaseId
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseSetSubscriptionArgs_PurchaseId
+  commentId: P:SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.PurchaseId
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.PurchaseId
+  nameWithType: PurchaseSetSubscriptionArgs.PurchaseId
+- uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.PurchaseId*
+  name: PurchaseId
+  href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.html#SharedLibrary_Commands_Arguments_Purchase_PurchaseSetSubscriptionArgs_PurchaseId_
+  commentId: Overload:SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.PurchaseId
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.PurchaseId
+  nameWithType: PurchaseSetSubscriptionArgs.PurchaseId
 - uid: SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1
   name: PurchaseVerifyArgsV1
   href: api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.html
@@ -4124,6 +4214,25 @@ references:
   commentId: N:SharedLibrary.Commands.Purchase
   fullName: SharedLibrary.Commands.Purchase
   nameWithType: SharedLibrary.Commands.Purchase
+- uid: SharedLibrary.Commands.Purchase.PurchaseSetSubscriptionCommandV1
+  name: PurchaseSetSubscriptionCommandV1
+  href: api/api/SharedLibrary.Commands.Purchase.PurchaseSetSubscriptionCommandV1.html
+  commentId: T:SharedLibrary.Commands.Purchase.PurchaseSetSubscriptionCommandV1
+  fullName: SharedLibrary.Commands.Purchase.PurchaseSetSubscriptionCommandV1
+  nameWithType: PurchaseSetSubscriptionCommandV1
+- uid: SharedLibrary.Commands.Purchase.PurchaseSetSubscriptionCommandV1.Execute(SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs)
+  name: Execute(PurchaseSetSubscriptionArgs)
+  href: api/api/SharedLibrary.Commands.Purchase.PurchaseSetSubscriptionCommandV1.html#SharedLibrary_Commands_Purchase_PurchaseSetSubscriptionCommandV1_Execute_SharedLibrary_Commands_Arguments_Purchase_PurchaseSetSubscriptionArgs_
+  commentId: M:SharedLibrary.Commands.Purchase.PurchaseSetSubscriptionCommandV1.Execute(SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs)
+  fullName: SharedLibrary.Commands.Purchase.PurchaseSetSubscriptionCommandV1.Execute(SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs)
+  nameWithType: PurchaseSetSubscriptionCommandV1.Execute(PurchaseSetSubscriptionArgs)
+- uid: SharedLibrary.Commands.Purchase.PurchaseSetSubscriptionCommandV1.Execute*
+  name: Execute
+  href: api/api/SharedLibrary.Commands.Purchase.PurchaseSetSubscriptionCommandV1.html#SharedLibrary_Commands_Purchase_PurchaseSetSubscriptionCommandV1_Execute_
+  commentId: Overload:SharedLibrary.Commands.Purchase.PurchaseSetSubscriptionCommandV1.Execute
+  isSpec: "True"
+  fullName: SharedLibrary.Commands.Purchase.PurchaseSetSubscriptionCommandV1.Execute
+  nameWithType: PurchaseSetSubscriptionCommandV1.Execute
 - uid: SharedLibrary.Commands.Purchase.PurchaseVerifyCommandV1
   name: PurchaseVerifyCommandV1
   href: api/api/SharedLibrary.Commands.Purchase.PurchaseVerifyCommandV1.html
@@ -5654,6 +5763,12 @@ references:
   commentId: F:SharedLibrary.Data.CommandType.PurchaseResultV1
   fullName: SharedLibrary.Data.CommandType.PurchaseResultV1
   nameWithType: CommandType.PurchaseResultV1
+- uid: SharedLibrary.Data.CommandType.PurchaseSetSubscriptionV1
+  name: PurchaseSetSubscriptionV1
+  href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_PurchaseSetSubscriptionV1
+  commentId: F:SharedLibrary.Data.CommandType.PurchaseSetSubscriptionV1
+  fullName: SharedLibrary.Data.CommandType.PurchaseSetSubscriptionV1
+  nameWithType: CommandType.PurchaseSetSubscriptionV1
 - uid: SharedLibrary.Data.CommandType.PurchaseValidateV1
   name: PurchaseValidateV1
   href: api/api/SharedLibrary.Data.CommandType.html#SharedLibrary_Data_CommandType_PurchaseValidateV1
@@ -12988,15 +13103,15 @@ references:
   commentId: T:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1
   fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1
   nameWithType: PurchaseSetSubscriptionProtocolMessageV1
-- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String)
-  name: PurchaseSetSubscriptionProtocolMessageV1(string, string, string, string, string, string?, string?)
-  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseSetSubscriptionProtocolMessageV1__ctor_System_String_System_String_System_String_System_String_System_String_System_String_System_String_
-  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String)
-  name.vb: New(String, String, String, String, String, String, String)
-  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.PurchaseSetSubscriptionProtocolMessageV1(string, string, string, string, string, string?, string?)
-  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.New(String, String, String, String, String, String, String)
-  nameWithType: PurchaseSetSubscriptionProtocolMessageV1.PurchaseSetSubscriptionProtocolMessageV1(string, string, string, string, string, string?, string?)
-  nameWithType.vb: PurchaseSetSubscriptionProtocolMessageV1.New(String, String, String, String, String, String, String)
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  name: PurchaseSetSubscriptionProtocolMessageV1(string, string, string, string, string, string?, string?, string?, string?)
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseSetSubscriptionProtocolMessageV1__ctor_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_
+  commentId: M:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+  name.vb: New(String, String, String, String, String, String, String, String, String)
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.PurchaseSetSubscriptionProtocolMessageV1(string, string, string, string, string, string?, string?, string?, string?)
+  fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.New(String, String, String, String, String, String, String, String, String)
+  nameWithType: PurchaseSetSubscriptionProtocolMessageV1.PurchaseSetSubscriptionProtocolMessageV1(string, string, string, string, string, string?, string?, string?, string?)
+  nameWithType.vb: PurchaseSetSubscriptionProtocolMessageV1.New(String, String, String, String, String, String, String, String, String)
 - uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.#ctor*
   name: PurchaseSetSubscriptionProtocolMessageV1
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseSetSubscriptionProtocolMessageV1__ctor_
@@ -13007,6 +13122,32 @@ references:
   fullName.vb: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.New
   nameWithType: PurchaseSetSubscriptionProtocolMessageV1.PurchaseSetSubscriptionProtocolMessageV1
   nameWithType.vb: PurchaseSetSubscriptionProtocolMessageV1.New
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.AppleOriginalTransactionId
+  name: AppleOriginalTransactionId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseSetSubscriptionProtocolMessageV1_AppleOriginalTransactionId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.AppleOriginalTransactionId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.AppleOriginalTransactionId
+  nameWithType: PurchaseSetSubscriptionProtocolMessageV1.AppleOriginalTransactionId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.AppleOriginalTransactionId*
+  name: AppleOriginalTransactionId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseSetSubscriptionProtocolMessageV1_AppleOriginalTransactionId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.AppleOriginalTransactionId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.AppleOriginalTransactionId
+  nameWithType: PurchaseSetSubscriptionProtocolMessageV1.AppleOriginalTransactionId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.AppleProductId
+  name: AppleProductId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseSetSubscriptionProtocolMessageV1_AppleProductId
+  commentId: P:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.AppleProductId
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.AppleProductId
+  nameWithType: PurchaseSetSubscriptionProtocolMessageV1.AppleProductId
+- uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.AppleProductId*
+  name: AppleProductId
+  href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseSetSubscriptionProtocolMessageV1_AppleProductId_
+  commentId: Overload:SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.AppleProductId
+  isSpec: "True"
+  fullName: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.AppleProductId
+  nameWithType: PurchaseSetSubscriptionProtocolMessageV1.AppleProductId
 - uid: SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.Comment
   name: Comment
   href: api/api/SharedLibrary.Protocol.ProtocolMessages.Purchase.PurchaseSetSubscriptionProtocolMessageV1.html#SharedLibrary_Protocol_ProtocolMessages_Purchase_PurchaseSetSubscriptionProtocolMessageV1_Comment

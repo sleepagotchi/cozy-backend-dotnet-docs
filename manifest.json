@@ -460,6 +460,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Arguments.Purchase.PurchaseSetSubscriptionArgs",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/SharedLibrary.Commands.Arguments.Purchase.PurchaseVerifyArgsV1.yml",
       "output": {
         ".html": {
@@ -1212,6 +1226,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "SharedLibrary.Commands.PlayerInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharedLibrary.Commands.Purchase.PurchaseSetSubscriptionCommandV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/api/SharedLibrary.Commands.Purchase.PurchaseSetSubscriptionCommandV1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SharedLibrary.Commands.Purchase.PurchaseSetSubscriptionCommandV1",
       "Summary": null
     },
     {
